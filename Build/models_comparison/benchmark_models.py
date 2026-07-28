@@ -1,4 +1,3 @@
-import time
 import cv2
 import numpy as np
 from pathlib import Path
@@ -145,7 +144,6 @@ def run_yolo_tflite(model_path, image_dir, input_size=640, conf_threshold=0.25, 
     print( f"{model_path} | " f"input: {input_details[0]['shape']} | " f"dtype: {input_dtype}")
 
     results_list = []
-    latencies = []
 
     yolo_target = set(YOLO_TO_COCO.keys())
 
@@ -176,10 +174,7 @@ def run_yolo_tflite(model_path, image_dir, input_size=640, conf_threshold=0.25, 
 
         interpreter.set_tensor(input_details[0]['index'], input_data)
 
-        start = time.time()
         interpreter.invoke()
-        latency = (time.time() - start) * 1000
-        latencies.append(latency)
 
         # ============================================
         # OUTPUT
@@ -281,7 +276,7 @@ def run_yolo_tflite(model_path, image_dir, input_size=640, conf_threshold=0.25, 
                 "score": float(filtered_scores[idx])
             })
 
-    return results_list, latencies
+    return results_list
 
 # ============================================
 # SSD / EFFICIENTDET
@@ -306,7 +301,6 @@ def run_tflite(model_path, image_dir, conf_threshold=0.3):
     print(f"{model_path} | " f"input: {input_shape} | " f"dtype: {input_dtype}")
 
     results_list = []
-    latencies = []
 
     image_paths = sorted(
         list(Path(IMAGE_DIR).glob("*.jpg")) + 
@@ -327,10 +321,7 @@ def run_tflite(model_path, image_dir, conf_threshold=0.3):
 
         interpreter.set_tensor(input_details[0]['index'], input_data)
 
-        start = time.time()
         interpreter.invoke()
-        latency = (time.time() - start) * 1000
-        latencies.append(latency)
 
         boxes = interpreter.get_tensor(output_details[0]['index'])[0]
 
@@ -363,7 +354,7 @@ def run_tflite(model_path, image_dir, conf_threshold=0.3):
                 "score": float(score)
             })
 
-    return results_list, latencies
+    return results_list
 
 # ============================================
 # VISUALIZATION
@@ -537,9 +528,7 @@ def compute_precision_recall_f1(results_list, annotation_file, iou_threshold=0.5
 # FORMAT RESULTS
 # ============================================
 
-def format_results(name, latencies, map5095, map50, precision, recall, f1):
-
-    fps = 1000 / np.mean(latencies)
+def format_results(name, map5095, map50, precision, recall, f1):
 
     lines = [
         f"{'='*40}",
@@ -550,10 +539,6 @@ def format_results(name, latencies, map5095, map50, precision, recall, f1):
         f"  Precision:    {precision:.3f}",
         f"  Recall:       {recall:.3f}",
         f"  F1 Score:     {f1:.3f}",
-        f"  FPS:          {fps:.2f}",
-        f"  Latencia avg: " f"{np.mean(latencies):.1f} ms",
-        f"  Latencia min: " f"{np.min(latencies):.1f} ms",
-        f"  Latencia max: " f"{np.max(latencies):.1f} ms",
     ]
 
     return "\n".join(lines)
@@ -562,17 +547,17 @@ def format_results(name, latencies, map5095, map50, precision, recall, f1):
 # RUN EVALUATION
 # ============================================
 print("=== Evaluando YOLOv8s Float32 TFLite ===")
-yolov8_f32_results, yolov8_f32_lat = run_yolo_tflite("models/yolov8s_float32.tflite", IMAGE_DIR)
+yolov8_f32_results = run_yolo_tflite("models/yolov8s_float32.tflite", IMAGE_DIR)
 print("\n=== Evaluando YOLOv8s Float16 TFLite ===")
-yolov8_f16_results, yolov8_f16_lat = run_yolo_tflite("models/yolov8s_float16.tflite", IMAGE_DIR)
+yolov8_f16_results = run_yolo_tflite("models/yolov8s_float16.tflite", IMAGE_DIR)
 print("\n=== Evaluando YOLO11n Float32 TFLite ===")
-yolo11_f32_results, yolo11_f32_lat = run_yolo_tflite("models/yolo11n_float32.tflite", IMAGE_DIR)
+yolo11_f32_results = run_yolo_tflite("models/yolo11n_float32.tflite", IMAGE_DIR)
 print("\n=== Evaluando YOLO11n Float16 TFLite ===")
-yolo11_f16_results, yolo11_f16_lat = run_yolo_tflite("models/yolo11n_float16.tflite", IMAGE_DIR)
+yolo11_f16_results = run_yolo_tflite("models/yolo11n_float16.tflite", IMAGE_DIR)
 print("\n=== Evaluando SSD MobileNetV1 ===")
-ssd_results, ssd_lat = run_tflite("models/ssd_mobilenet_v1.tflite", IMAGE_DIR)
+ssd_results = run_tflite("models/ssd_mobilenet_v1.tflite", IMAGE_DIR)
 print("\n=== Evaluando EfficientDet-Lite2 ===")
-eff_results, eff_lat = run_tflite("models/efficientdet-lite2-detection-metadata.tflite", IMAGE_DIR)
+eff_results = run_tflite("models/efficientdet-lite2-detection-metadata.tflite", IMAGE_DIR)
 
 # ============================================
 # CALCULAR MAP
@@ -607,12 +592,12 @@ save_visualizations(eff_results,        IMAGE_DIR, "EfficientDet_Lite2")
 RESULTS_FILE = "results/desktop.md"
 
 models = [
-    ("YOLOv8s Float32",    yolov8_f32_results, yolov8_f32_lat, map5095_v8_f32,  map50_v8_f32),
-    ("YOLOv8s Float16",    yolov8_f16_results, yolov8_f16_lat, map5095_v8_f16,  map50_v8_f16),
-    ("YOLO11n Float32",    yolo11_f32_results, yolo11_f32_lat, map5095_11_f32,  map50_11_f32),
-    ("YOLO11n Float16",    yolo11_f16_results, yolo11_f16_lat, map5095_11_f16,  map50_11_f16),
-    ("SSD MobileNetV1",    ssd_results,        ssd_lat,        map5095_s,       map50_s),
-    ("EfficientDet-Lite2", eff_results,        eff_lat,        map5095_e,       map50_e),
+    ("YOLOv8s Float32",    yolov8_f32_results, map5095_v8_f32,  map50_v8_f32),
+    ("YOLOv8s Float16",    yolov8_f16_results, map5095_v8_f16,  map50_v8_f16),
+    ("YOLO11n Float32",    yolo11_f32_results, map5095_11_f32,  map50_11_f32),
+    ("YOLO11n Float16",    yolo11_f16_results, map5095_11_f16,  map50_11_f16),
+    ("SSD MobileNetV1",    ssd_results,        map5095_s,       map50_s),
+    ("EfficientDet-Lite2", eff_results,        map5095_e,       map50_e),
 ]
 
 header = ("* The desktop benchmarks were executed on a system running Arch Linux "
@@ -624,9 +609,9 @@ os.makedirs(os.path.dirname(RESULTS_FILE), exist_ok=True)
 
 with open(RESULTS_FILE, "w") as f:
     f.write(header + "\n")
-    for name, results, latencies, map5095, map50 in models:
+    for name, results, map5095, map50 in models:
         precision, recall, f1 = compute_precision_recall_f1(results, FILTERED_ANNOTATIONS)
-        f.write(format_results(name, latencies, map5095, map50,
+        f.write(format_results(name, map5095, map50,
                                precision, recall, f1) + "\n\n")
         print(f"Results written for {name}")
 
