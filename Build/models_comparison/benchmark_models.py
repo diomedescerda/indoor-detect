@@ -40,7 +40,7 @@ ROBOFLOW_TO_COCO = {
     5: 73,  # laptop
     6:  1,   # person
     7: 82,  # refrigerator
-    9: 81,  # sink
+    8: 81,  # sink
     9: 70,  # toilet
     10: 72,  # tv
 }
