@@ -166,7 +166,6 @@ def run_yolo_tflite(model_path, image_dir, input_size=640, conf_threshold=0.25, 
 
         if input_dtype in [np.float32, np.float16]:
             input_data = input_data.astype(input_dtype) / 255.0
-            print(f"debug\n {input_data.astype(input_dtype)}\n debug")
         else:
             input_data = input_data.astype(input_dtype)
 

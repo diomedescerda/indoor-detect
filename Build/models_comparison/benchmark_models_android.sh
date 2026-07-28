@@ -11,7 +11,7 @@ RESULTS_FILE="$SCRIPT_DIR/results/android.md"
 mkdir -p "$SCRIPT_DIR/results"
 
 cat > "$RESULTS_FILE" <<EOF
-* The Android benchmarks were executed on a Redmi Note 13 Pro equipped with a Qualcomm Snapdragon 685 Octa-core Max 2.80GHz, Adreno 610 GPU, 8 GB RAM, and Android 15.
+* The Android benchmarks were executed on a Redmi Note 13 equipped with a Qualcomm Snapdragon 685 Octa-core Max 2.80GHz, Adreno 610 GPU, 8 GB RAM, and Android 15.
 
 Threads: $THREADS | Runs: $RUNS
 EOF

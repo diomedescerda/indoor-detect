@@ -1,4 +1,4 @@
-* The Android benchmarks were executed on a Redmi Note 13 Pro equipped with a Qualcomm Snapdragon 685 Octa-core Max 2.80GHz, Adreno 610 GPU, 8 GB RAM, and Android 15.
+* The Android benchmarks were executed on a Redmi Note 13 equipped with a Qualcomm Snapdragon 685 Octa-core Max 2.80GHz, Adreno 610 GPU, 8 GB RAM, and Android 15.
 
 Threads: 4 | Runs: 50
 
