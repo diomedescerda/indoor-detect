@@ -1,0 +1,13 @@
+mode,configuration,gt,tp,fp,fn,mean_tp_per_scene,scenes_with_correct_detection,scenes_at_best_nonzero_count,scenes_without_annotated_objects
+detector,Head 1x,129,56,20,73,1.696969696969697,22,7,9
+detector,Head 0.5x,164,70,36,94,2.121212121212121,25,13,4
+detector,Chest 1x,124,65,21,59,1.9696969696969697,24,13,2
+detector,Chest 0.5x,153,77,32,76,2.3333333333333335,28,17,0
+detector,Gorillapod 1x,145,75,29,70,2.272727272727273,28,16,1
+detector,Gorillapod 0.5x,174,82,31,92,2.484848484848485,29,20,0
+app_output,Head 1x,129,31,5,98,0.9393939393939394,22,14,9
+app_output,Head 0.5x,164,37,9,127,1.121212121212121,24,19,4
+app_output,Chest 1x,124,37,7,87,1.121212121212121,24,20,2
+app_output,Chest 0.5x,153,44,8,109,1.3333333333333333,28,24,0
+app_output,Gorillapod 1x,145,40,9,105,1.2121212121212122,27,20,1
+app_output,Gorillapod 0.5x,174,49,5,125,1.4848484848484849,29,28,0

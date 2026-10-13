@@ -1,0 +1,70 @@
+AssistiveVision - Pixel 8 emulator results, 2026-10-13
+
+Completed: 198/198 photos; 889 reviewed objects; 33 capture groups, six configurations.
+Android instrumentation: OK (1 test). App model: EfficientDet-Lite2, 448 x 448.
+Confidence 0.30; correct detection requires class match and IoU >= 0.50.
+All metrics below are proportions expressed as percentages where indicated.
+
+Chest harness + 1x is the provisional choice when optimizing detection F1. It leads
+both detector F1 (61.9%) and the default two-object output F1 (44.0%). Its detector
+precision is 75.6%, recall 52.4%, and COCO AP@[.50:.95] is 42.2%.
+It is not an established winner: detector F1 difference versus gorillapod + 1x
+is +1.7 percentage points, with paired 95% interval [-8.7, +10.4] points. All five
+pairwise intervals comparing chest + 1x with the alternatives include zero.
+
+Lens tradeoff: pooling mounts, 1x F1 is 59.0% and 0.5x F1 is 55.9%. The paired
+difference is +3.1 points with 95% interval [-2.2, +8.9]. There is no clear lens
+winner here. Wider photos contain 491 annotated instances versus 398 in 1x photos
+(23.4% more), and yield 229 correct detections versus 196 (16.8% more), across
+99 images per lens. These are photo-level instances, not distinct real-world
+objects. No annotation identifies corresponding objects across different photos.
+
+Pooling lenses, detector F1 is chest 60.2%, gorillapod 58.6%, head 53.1%. The
+paired mount comparisons all include zero. Head views have 13 empty images, chest
+2 and gorillapod 1, which also suggests framing/coverage deserves attention.
+
+The two-object setting is a major output constraint: overall detector recall is
+47.8% (425 correct instances), while the selected-object list recalls 26.8%
+(238 correct instances). Precision rises from 71.5% to 84.7%. This evaluates
+recovery of all visible annotated objects; selecting only two may be intentional
+for speech usability. Do not infer that more spoken objects is automatically better.
+
+Class imbalance: chairs are 438/889 (49.3%) of the ground truth. P/R/F1 pool
+instances, so frequent classes weigh more. COCO AP averages classes with GT.
+Gorillapod + 1x has the highest AP50 (61.9%); chest + 1x has highest AP@[.50:.95].
+Inspect per_class.csv before treating a single overall score as application utility.
+
+Overall per-class operating performance (detector, all configurations):
+class | TP | FP | FN | precision | recall | F1
+bed | 44 | 2 | 12 | 95.7% | 78.6% | 86.3%
+chair | 194 | 88 | 244 | 68.8% | 44.3% | 53.9%
+couch | 6 | 5 | 5 | 54.5% | 54.5% | 54.5%
+dining table | 28 | 14 | 79 | 66.7% | 26.2% | 37.6%
+laptop | 19 | 11 | 15 | 63.3% | 55.9% | 59.4%
+person | 39 | 16 | 17 | 70.9% | 69.6% | 70.3%
+refrigerator | 24 | 4 | 19 | 85.7% | 55.8% | 67.6%
+sink | 18 | 7 | 38 | 72.0% | 32.1% | 44.4%
+toilet | 26 | 2 | 12 | 92.9% | 68.4% | 78.8%
+tv | 27 | 20 | 23 | 57.4% | 54.0% | 55.7%
+
+Emulator timing from successful run:
+Detection method: median 246.3 ms; p95 307.5 ms.
+JPEG decode + preprocessing: median 104.0 ms.
+These are debug instrumentation timings on the host CPU, including detection
+postprocessing/logging. They are not physical Pixel 8 timings or end-to-end app
+latency; camera acquisition, UI and speech are excluded.
+
+Method and decision limits:
+The six-photo cycle follows the supplied order: head 1x, head 0.5x, chest 1x,
+chest 0.5x, gorillapod 1x, gorillapod 0.5x, repeated over sorted filenames.
+Paired bootstrap uses 10,000 group resamples and seed 20261013. Intervals are
+exploratory and unadjusted for multiple comparisons. Groups may share rooms.
+This set supports choosing chest + 1x as a candidate for the next physical-phone
+trial. It cannot establish a universally best harness/lens, navigation safety,
+comfort or speech usefulness. Confirm the candidate on new scenes and the actual
+target phone camera; current optics and framing come from iPhone photographs.
+
+Validation: full image IDs and ground-truth/model hashes checked; four evaluator
+tests passed; selected prediction overlays inspected. The 139 frames retained
+from the interrupted test have predictions identical to the successful run.
+Production app code was unchanged; only an Android instrumentation test was added.

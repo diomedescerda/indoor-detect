@@ -1,0 +1,37 @@
+{
+  "file": "labels.json",
+  "images": 198,
+  "annotations": 889,
+  "histogram": {
+    "person": 56,
+    "chair": 438,
+    "couch": 11,
+    "bed": 56,
+    "dining table": 107,
+    "toilet": 38,
+    "tv": 50,
+    "laptop": 34,
+    "sink": 56,
+    "refrigerator": 43
+  },
+  "zero_annotation_images": [
+    "IMG_3099.jpeg",
+    "IMG_3117.jpeg",
+    "IMG_3147.jpeg",
+    "IMG_3167.jpeg",
+    "IMG_3180.jpeg",
+    "IMG_3181.jpeg",
+    "IMG_3182.jpeg",
+    "IMG_3184.jpeg",
+    "IMG_3198.jpeg",
+    "IMG_3199.jpeg",
+    "IMG_3231.jpeg",
+    "IMG_3232.jpeg",
+    "IMG_3233.jpeg",
+    "IMG_3402.jpeg",
+    "IMG_3494.jpeg",
+    "IMG_3495.jpeg"
+  ],
+  "review_status": "USER_CONFIRMED_ALL_198_REVIEWED",
+  "warning": "Structural validation does not establish annotation accuracy or human review."
+}

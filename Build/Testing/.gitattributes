@@ -1,0 +1,4 @@
+# Preserve archived bytes and checksums on all operating systems.
+* -text
+# Python CSV writers use standard CRLF record separators.
+*.csv whitespace=cr-at-eol

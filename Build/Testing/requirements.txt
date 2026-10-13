@@ -1,0 +1,2 @@
+Pillow==12.3.0
+pycocotools==2.0.11

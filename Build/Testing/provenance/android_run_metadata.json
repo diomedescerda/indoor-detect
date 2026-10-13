@@ -1,0 +1,26 @@
+{
+  "source": "android_app_modules",
+  "model_sha256": "6fd32c84ab1eb0f7e7f3a7a20a20d7df1530daa8378728f7c79571096286bd52",
+  "gt_sha256": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
+  "device": "Google sdk_gphone16k_x86_64",
+  "android_sdk": 37,
+  "confidence": 0.3,
+  "max_objects": 2,
+  "detector_cap": 15,
+  "score_floor": 0.001,
+  "preprocessing": "Production PreprocessingModule and LetterboxMapper",
+  "timing_scope": "JPEG replay; camera acquisition, UI and speech excluded",
+  "app_commit": "85c852ddcb543bce1bd69ad0db307f895d597881",
+  "build": "debug instrumentation; production inference modules",
+  "device_kind": "emulator",
+  "android_fingerprint": "google/sdk_gphone16k_x86_64/emu64xa16k:17/CP41.260831.007/16416850:user/dev-keys",
+  "abi": "x86_64",
+  "avd": "Pixel_8",
+  "source_hashes": {
+    "app/src/main/java/com/unimagdalena/assistivevision/model/LetterboxMapper.kt": "421770266f7d24a1492fdd3712d8d2a2478d2f0fa47844a0487266572fa6bb07",
+    "app/src/main/java/com/unimagdalena/assistivevision/data/SettingsManager.kt": "1258f646d01ed4e1fa2e03e70013657a195032df9636dad0206b67db973b8e80",
+    "app/src/main/java/com/unimagdalena/assistivevision/modules/PreprocessingModule.kt": "a36d0de759f096200ac6472cd29bc4821677b273947325f0a814c2b32676a1ed",
+    "app/src/main/java/com/unimagdalena/assistivevision/modules/DetectionModule.kt": "3571da62093b46df6cdcca2904b05efc7facb9be1dcff10222543e597f12687b",
+    "app/src/main/java/com/unimagdalena/assistivevision/viewmodel/MainViewModel.kt": "3de5133cc1f950ceeb04f2342b6e53b2987db793493251ad0572252cf101a7c4"
+  }
+}

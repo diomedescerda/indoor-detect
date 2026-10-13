@@ -1,0 +1,33 @@
+AssistiveVision capture configuration comparison
+Run source: desktop_proxy
+Confidence: 0.3; app object limit: 2
+
+Each configuration contains the same 33 acquisition groups. Metrics describe visible annotated instances in the iPhone photos.
+COCO AP/AP50/AP75 use score floor 0.001 and the stated output cap; P/R/F1 use the configured confidence and IoU >= 0.50.
+The app_output row models the selected-object list; speech quality and camera capture are not tested.
+
+mode | mount | lens | GT | TP | FP | FN | precision | recall | F1 | AP50 | AP
+detector | head_harness | 1x | 129 | 53 | 24 | 76 | 0.688 | 0.411 | 0.515 | 0.582 | 0.350
+detector | head_harness | 0.5x | 164 | 70 | 32 | 94 | 0.686 | 0.427 | 0.526 | 0.502 | 0.337
+detector | chest_harness | 1x | 124 | 65 | 23 | 59 | 0.739 | 0.524 | 0.613 | 0.581 | 0.423
+detector | chest_harness | 0.5x | 153 | 76 | 28 | 77 | 0.731 | 0.497 | 0.591 | 0.549 | 0.379
+detector | gorillapod | 1x | 145 | 75 | 33 | 70 | 0.694 | 0.517 | 0.593 | 0.597 | 0.393
+detector | gorillapod | 0.5x | 174 | 79 | 36 | 95 | 0.687 | 0.454 | 0.547 | 0.549 | 0.383
+app_output | head_harness | 1x | 129 | 31 | 7 | 98 | 0.816 | 0.240 | 0.371 | 0.304 | 0.223
+app_output | head_harness | 0.5x | 164 | 35 | 13 | 129 | 0.729 | 0.213 | 0.330 | 0.344 | 0.266
+app_output | chest_harness | 1x | 124 | 39 | 7 | 85 | 0.848 | 0.315 | 0.459 | 0.406 | 0.319
+app_output | chest_harness | 0.5x | 153 | 43 | 8 | 110 | 0.843 | 0.281 | 0.422 | 0.384 | 0.301
+app_output | gorillapod | 1x | 145 | 41 | 11 | 104 | 0.788 | 0.283 | 0.416 | 0.399 | 0.299
+app_output | gorillapod | 0.5x | 174 | 49 | 7 | 125 | 0.875 | 0.282 | 0.426 | 0.424 | 0.317
+
+Interpretation limits:
+- A wider view can contain more targets. GT per image and TP per image accompany recall so a narrow view is not rewarded for hiding difficult targets.
+- No cross-image object identity or task relevance was annotated; the study cannot count real-world targets outside the frame.
+- The 33 groups are paired acquisitions, not necessarily independent rooms/homes. Paired bootstrap intervals resample groups and may be optimistic when groups share environments.
+- Pairwise intervals are exploratory, unadjusted for multiple comparisons. Choosing a winner on this test set makes it a configuration-selection set; validate the choice on new scenes.
+- iPhone 0.5x/1x results may not transfer to the Android phone’s optics, camera resolution or framing.
+- Desktop proxy uses a different runtime and image decoder/resizer from Android. Android replay and phone timing are required before a final app recommendation.
+- Confirm the six-photo sequence labels against capture notes before relying on the comparison.
+
+Highest observed detector F1: chest_harness 1x (0.613).
+This is an exploratory leader, not a statistically established winner. See paired_comparisons.csv.

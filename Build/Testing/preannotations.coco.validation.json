@@ -1,0 +1,42 @@
+{
+  "file": "preannotations.coco.json",
+  "images": 198,
+  "annotations": 749,
+  "histogram": {
+    "person": 58,
+    "chair": 366,
+    "couch": 6,
+    "bed": 56,
+    "dining table": 61,
+    "toilet": 32,
+    "tv": 54,
+    "laptop": 32,
+    "sink": 49,
+    "refrigerator": 35
+  },
+  "zero_annotation_images": [
+    "IMG_3099.jpeg",
+    "IMG_3117.jpeg",
+    "IMG_3147.jpeg",
+    "IMG_3167.jpeg",
+    "IMG_3180.jpeg",
+    "IMG_3181.jpeg",
+    "IMG_3182.jpeg",
+    "IMG_3184.jpeg",
+    "IMG_3198.jpeg",
+    "IMG_3199.jpeg",
+    "IMG_3231.jpeg",
+    "IMG_3232.jpeg",
+    "IMG_3233.jpeg",
+    "IMG_3402.jpeg",
+    "IMG_3403.jpeg",
+    "IMG_3404.jpeg",
+    "IMG_3405.jpeg",
+    "IMG_3406.jpeg",
+    "IMG_3407.jpeg",
+    "IMG_3494.jpeg",
+    "IMG_3495.jpeg"
+  ],
+  "review_status": "MODEL_ASSISTED_DRAFT_REQUIRES_USER_REVIEW",
+  "warning": "Structural validation does not establish annotation accuracy or human review."
+}

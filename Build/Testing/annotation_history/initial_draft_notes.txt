@@ -1,0 +1,52 @@
+AssistiveVision model-assisted annotation draft
+
+All 198 photos were inspected directly in the Codex conversation. No YOLO,
+EfficientDet, or OpenAI API was used. GPT-6.1 Sol was the user's requested
+chat model; the scripts do not independently establish the chat model identity.
+
+preannotations.coco.json is a DRAFT, not reviewed ground truth.
+Boxes were visually estimated on 384x512 previews and scaled by 4 to the
+1536x2048 originals. Small/occluded objects and box edges need careful correction
+at full resolution. The terrace and office scenes are particularly dense.
+
+Categories use true COCO IDs:
+1 person; 62 chair; 63 couch; 65 bed; 67 dining table; 70 toilet;
+72 tv; 73 laptop; 81 sink; 82 refrigerator.
+Desktop monitors are treated as tv (COCO tv/monitor convention).
+Office desks, benches, side tables, cabinets, bathtubs, and paintings are outside
+these classes. Reflections were not intentionally duplicated as extra instances.
+Truncated objects are included when recognizable. Overlapping bed boundaries
+and partially hidden chairs should receive extra review.
+
+Image IDs follow ascending IMG filename numbers, not contiguous filename numbers.
+Six-capture cycle: head harness 1x, head harness 0.5x, chest harness 1x,
+chest harness 0.5x, gorillapod 1x, gorillapod 0.5x.
+There are 33 provisional groups. Confirm the ordering against your capture notes.
+
+Review files:
+- review/annotated_group_01.jpg through annotated_group_33.jpg: six-photo overlays
+- review/annotated_IMG_*.jpeg: individual preview overlays
+- review/group_01.jpg through group_33.jpg: unannotated contact sheets
+- review_checklist.csv: one row per photo, all initially unreviewed
+- capture_groups.csv: capture metadata and source hashes
+
+Roboflow import package: review_bundle.zip contains data/*.jpeg and
+preannotations.coco.json. Use COCO annotations when importing; verify association
+on a few images before completing the upload. No cloud upload has been performed.
+The local review overlays provide an alternative for examining the draft, but
+editing bounding boxes requires an annotation editor such as Roboflow or CVAT.
+
+Validation:
+  .venv/bin/python verify_gt.py preannotations.coco.json
+
+After you review and correct EVERY photo, including empty images, export COCO
+at original resolution and convert by category name:
+  .venv/bin/python build_ground_truth.py /path/to/reviewed-export.json --reviewed-all
+  .venv/bin/python verify_gt.py labels.json
+
+Do not pass --reviewed-all before completing review. labels.json is deliberately
+not created from the unreviewed draft. Model benchmarking requires reviewed GT
+and the model/evaluation files, which are absent from this workspace.
+
+The .gitignore excludes photos, annotation JSON, review artifacts, the venv,
+and common .env secret files. No commits were made.
