@@ -78,6 +78,12 @@ def main():
     def image_at(index,name,caption,capindex,width=5.7):
         p=original[index];p.clear();p.add_run().add_picture(str(ASSETS/name),width=Inches(width));p.alignment=WD_ALIGN_PARAGRAPH.CENTER
         change(capindex,caption)
+    def selection_figure(name,caption):
+        p=add_before(end,'');p.alignment=WD_ALIGN_PARAGRAPH.CENTER
+        p.paragraph_format.line_spacing=1;p.paragraph_format.keep_with_next=True
+        p.add_run().add_picture(str(ASSETS/name),width=Inches(5.65))
+        p=add_before(end,caption,CAP);p.alignment=WD_ALIGN_PARAGRAPH.CENTER
+        p.paragraph_format.line_spacing=1;p.paragraph_format.space_after=Pt(8)
 
     # Preserve the template geometry, logos and cover hierarchy, while allowing the long title to fit.
     for p in original[:51]:
@@ -163,7 +169,18 @@ def main():
             if 'En el rango' in txt:pass
             if style==CAP and txt.startswith('Figura 4.'):
                 number=int(txt.split('.')[1])
-                txt={1:'Figura 4.1. Objetos correctos por fotografía y montaje.',2:'Figura 4.2. Objetos correctos por fotografía en las seis configuraciones.',3:'Figura 4.3. Recall por distancia estimada e intervalo bootstrap del 95 %.'}[number]
+                txt={1:'Figura 4.1. Objetos correctos por fotografía y montaje.',2:'Figura 4.2. Objetos correctos por fotografía en las seis configuraciones.',3:'Figura 4.4. Recall por distancia estimada e intervalo bootstrap del 95 %.'}[number]
+            if txt.startswith('La elección definitiva depende'):
+                add_before(end,'El boxplot de la Figura 4.2 resume la distribución de aciertos, pero no permite identificar en qué grupos cambia la ventaja. La Figura 4.3 desagrega las 33 escenas y coloca, en el mismo orden, las instancias visibles, las detecciones correctas y las predicciones falsas. Cada fila representa un grupo de seis capturas sucesivas; las columnas conservan el orden cabeza 1x, cabeza 0,5x, pecho 1x, pecho 0,5x, Gorillapod 1x y Gorillapod 0,5x. Los números son conteos y cada panel usa su propia escala de color, por lo que la intensidad no debe compararse entre paneles.')
+                selection_figure('seleccion_escenas.png','Figura 4.3. Conteos visibles, correctos y falsos en los 33 grupos de captura.')
+                add_before(end,'La comparación por fila muestra por qué el mayor total no implica ganar en todas las escenas. En el grupo 12, Gorillapod 0,5x recupera nueve objetos correctos de diez visibles, frente a siete de diez de pecho 0,5x. En el grupo 23, Gorillapod 1x recupera seis de diez y Gorillapod 0,5x tres de once. El grupo 28 concentra numerosos objetos: cabeza 0,5x contiene 42 instancias y recupera once, mientras Gorillapod 0,5x contiene 36 y recupera diez. Estos ejemplos vinculan cobertura, dificultad y conteo; además, muestran la influencia de escenas densas sobre los totales. Las filas identifican grupos de captura, no objetos físicos seguidos entre vistas. La Tabla 4.5 cuantifica las diferencias pareadas y sus intervalos; el mapa de conteos aporta su contexto visual.')
+            if table_number==7 and txt.startswith('Dos observaciones'):
+                add_before(end,'Los resultados por clase de la Tabla 4.7 describen qué objetos resultan más difíciles; la Figura 4.5 complementa ese desglose comparando precisión, recall y F1 de las seis configuraciones. En cada panel se distinguen el detector y la lista de hasta dos objetos por fotografía. Ambos se evalúan con confianza 0,30, coincidencia de clase e IoU mínimo de 0,50, y el recall conserva como denominador todas las instancias anotadas visibles. Cada configuración reúne 33 fotografías; la escala común de 0 a 100 % permite comparar las magnitudes sin alterar sus definiciones.')
+                selection_figure('seleccion_metricas.png','Figura 4.5. Precisión, recall y F1 del detector y de la lista de hasta dos objetos.')
+                add_before(end,'La Figura 4.5 permite interpretar el costo de limitar la información anunciada. Para Gorillapod 0,5x, la precisión pasa de 72,6 % en el detector a 90,7 % en la lista, mientras el recall baja de 47,1 % a 28,2 %: se conservan 49 selecciones correctas frente a las 82 detecciones correctas previas al límite. Pecho 1x mantiene la mayor F1 del detector (61,9 %), aunque recupera menos objetos correctos en total. La lista prioriza las puntuaciones más altas y reduce la cantidad recuperada; su mayor precisión no demuestra por sí sola mejor comprensión o utilidad del mensaje. Por ello, la elección combina esta figura con los conteos de la sección 4.3 y conserva la selección de Gorillapod 0,5x como provisional cuando se prioriza cantidad.')
+                txt='La Tabla 4.4 aporta una dimensión adicional: AP50-95 promedia umbrales de IoU más exigentes que AP50. En pecho 1x se obtienen 60,5 % y 42,2 %, respectivamente; la diferencia describe la sensibilidad de la evaluación al ajuste de las cajas y no aísla su causa. La Figura 4.5 utiliza un IoU fijo de 0,50, por lo que complementa ese resultado sin sustituirlo. El efecto de las imprecisiones de las cajas sobre la zona espacial anunciada requiere una evaluación específica.'
+            if table_number==7 and txt.startswith('Finalmente, el límite de dos objetos'):
+                continue  # The discussion following Figure 4.5 now develops this tradeoff.
             if table_number==2 and txt.startswith('Cada posición suma'):
                 txt='Cada posición reúne 66 fotografías (33 grupos × 2 lentes). La tabla presenta conteos y métricas del detector; el análisis de la lista de dos objetos se describe después de la Figura 4.1.'
             if table_number==7 and txt.startswith('"Correctas/foto"'):

@@ -21,12 +21,14 @@ python Build/Testing/scripts/build_chapter4.py
 python Documents/scripts/update_informe.py
 ```
 
+Las versiones en español de los gráficos de selección están en `Figures/seleccion_escenas.png` y `Figures/seleccion_metricas.png`; el informe las desarrolla en las secciones 4.3 y 4.5. Para regenerarlas desde los CSV archivados, instalar NumPy y Matplotlib y ejecutar `python Documents/scripts/build_selection_figures.py` antes del constructor del informe. Los gráficos originales del benchmark se conservan en `Build/Testing/benchmark/results/android/`.
+
 El segundo comando usa las tablas archivadas y el capítulo generado. Requiere Liberation Sans en `/usr/share/fonts/liberation/LiberationSans-Regular.ttf` para los diagramas. Renderizar después el DOCX a PDF con un motor de documentos y verificar todas sus páginas. Con pypdfium2 instalado:
 
 ```sh
 python Documents/scripts/refresh_informe_pages.py /ruta/al/informe_renderizado.pdf
 ```
 
-Esto completa los números de página de contenido, figuras y tablas sin volver a guardar el DOCX a través del renderizador. Renderizar una vez más y comprobar índices y paginación. Los 71 campos PAGEREF del cuerpo pueden actualizarse en Word; las seis entradas preliminares usan números romanos estáticos por compatibilidad con LibreOffice y requieren revisión si cambia la extensión de los preliminares. `scripts/informe_page_map.json` registra la correspondencia verificada.
+Esto completa los números de página de contenido, figuras y tablas sin volver a guardar el DOCX a través del renderizador. Renderizar una vez más y comprobar índices y paginación. Los 73 campos PAGEREF del cuerpo pueden actualizarse en Word; las seis entradas preliminares usan números romanos estáticos por compatibilidad con LibreOffice y requieren revisión si cambia la extensión de los preliminares. `scripts/informe_page_map.json` registra la correspondencia verificada.
 
 Los scripts de análisis, sus resultados y la corrección estadística se versionan junto con el informe. El manifiesto original de `Build/Testing/` sigue protegiendo 570 archivos del paquete base. `Review/revision_sha256.json` registra por separado los archivos de esta revisión.

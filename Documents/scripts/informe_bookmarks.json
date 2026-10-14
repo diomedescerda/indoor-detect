@@ -379,84 +379,96 @@
   },
   {
     "name": "report_1063",
+    "text": "Figura 4.3. Conteos visibles, correctos y falsos en los 33 grupos de captura.",
+    "kind": "figures",
+    "level": 1
+  },
+  {
+    "name": "report_1064",
     "text": "4.4 Escenario 3: rango de profundidad de detección",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1064",
+    "name": "report_1065",
     "text": "Tabla 4.6. Recall por banda de distancia estimada.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1065",
-    "text": "Figura 4.3. Recall por distancia estimada e intervalo bootstrap del 95 %.",
+    "name": "report_1066",
+    "text": "Figura 4.4. Recall por distancia estimada e intervalo bootstrap del 95 %.",
     "kind": "figures",
     "level": 1
   },
   {
-    "name": "report_1066",
+    "name": "report_1067",
     "text": "4.5 Métricas complementarias de detección",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1067",
+    "name": "report_1068",
     "text": "Tabla 4.7. Resultados por clase en el conjunto completo.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1068",
+    "name": "report_1069",
+    "text": "Figura 4.5. Precisión, recall y F1 del detector y de la lista de hasta dos objetos.",
+    "kind": "figures",
+    "level": 1
+  },
+  {
+    "name": "report_1070",
     "text": "4.6 Consideraciones de validez",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1069",
+    "name": "report_1071",
     "text": "5. Conclusiones",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1070",
+    "name": "report_1072",
     "text": "5.1 Conclusiones",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1071",
+    "name": "report_1073",
     "text": "5.2 Recomendaciones",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1072",
+    "name": "report_1074",
     "text": "5.3 Trabajo futuro",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1073",
+    "name": "report_1075",
     "text": "Anexo A: Scripts de evaluación de modelos",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1074",
+    "name": "report_1076",
     "text": "Anexo B: Pruebas unitarias del prototipo",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1075",
+    "name": "report_1077",
     "text": "Anexo C: Manuales técnico y de usuario",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1076",
+    "name": "report_1078",
     "text": "Bibliografía",
     "kind": "contents",
     "level": 1
