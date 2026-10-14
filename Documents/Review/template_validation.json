@@ -36,5 +36,8 @@
     "word/header6.xml",
     "word/header13.xml",
     "word/header21.xml"
-  ]
+  ],
+  "rendered_pages": 59,
+  "inline_figures": 8,
+  "visual_review": "All 59 pages inspected after integrating selection figures."
 }
