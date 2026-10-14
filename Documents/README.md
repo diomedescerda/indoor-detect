@@ -1,0 +1,32 @@
+# Informe final de AssistiveVision
+
+El manuscrito de trabajo es **Informe_Final_Trabajo_de_Grado_AssistiveVision.docx**. Integra la comparación histórica de modelos, la implementación actual y la evaluación de 198 fotografías (889 anotaciones, 33 grupos y seis configuraciones). Se actualizó el 14 de octubre de 2026.
+
+`Templates/Informe_Final_Base_2026-09-25.docx` conserva el original sin modificaciones. El manuscrito mantiene su geometría de página, doce secciones, escudo, estilos y estructura institucional. Se repararon portada, encabezados, índices y tablas. `Fragments/` contiene el capítulo experimental independiente; el manuscrito completo es la versión principal para seguir escribiendo.
+
+## Continuar desde otro equipo
+
+Hacer `git pull` y abrir el manuscrito en Word o LibreOffice. Guardar y confirmar los cambios en ese archivo. Los datos, anotaciones, predicciones y análisis están en `Build/Testing/`; `Review/2026-10-14_revision.md` documenta las correcciones y comprobaciones de esta revisión.
+
+Permanecen pendientes los datos del director, codirector opcional, línea y grupo de investigación, y agradecimientos opcionales. No se inventaron esos datos. Revisar además las discrepancias EXIF antes de cerrar la selección de lente. El resultado de profundidad es exploratorio y las latencias del emulador no representan un Pixel 8 físico.
+
+## Regeneración técnica
+
+La regeneración sobrescribe el manuscrito a partir del original conservado; **no incorpora ediciones manuales posteriores**. Confirmar primero esas ediciones en Git y actualizar el constructor si se desea mantenerlas en futuras regeneraciones.
+
+Desde la raíz del repositorio, con Python, python-docx, Pillow y lxml:
+
+```sh
+python Build/Testing/scripts/build_chapter4.py
+python Documents/scripts/update_informe.py
+```
+
+El segundo comando usa las tablas archivadas y el capítulo generado. Requiere Liberation Sans en `/usr/share/fonts/liberation/LiberationSans-Regular.ttf` para los diagramas. Renderizar después el DOCX a PDF con un motor de documentos y verificar todas sus páginas. Con pypdfium2 instalado:
+
+```sh
+python Documents/scripts/refresh_informe_pages.py /ruta/al/informe_renderizado.pdf
+```
+
+Esto completa los números de página de contenido, figuras y tablas sin volver a guardar el DOCX a través del renderizador. Renderizar una vez más y comprobar índices y paginación. Los 71 campos PAGEREF del cuerpo pueden actualizarse en Word; las seis entradas preliminares usan números romanos estáticos por compatibilidad con LibreOffice y requieren revisión si cambia la extensión de los preliminares. `scripts/informe_page_map.json` registra la correspondencia verificada.
+
+Los scripts de análisis, sus resultados y la corrección estadística se versionan junto con el informe. El manifiesto original de `Build/Testing/` sigue protegiendo 570 archivos del paquete base. `Review/revision_sha256.json` registra por separado los archivos de esta revisión.

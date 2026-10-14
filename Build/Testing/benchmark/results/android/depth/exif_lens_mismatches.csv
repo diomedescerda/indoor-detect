@@ -1,8 +1,8 @@
-file_name,manifest_lens,exif_f35
-IMG_3228.jpeg,0.5x,26
-IMG_3366.jpeg,1x,14
-IMG_3367.jpeg,0.5x,25
-IMG_3375.jpeg,0.5x,26
-IMG_3403.jpeg,0.5x,25
-IMG_3404.jpeg,1x,26
-IMG_3405.jpeg,0.5x,25
+file_name,manifest_lens,exif_f35,mismatch_kind
+IMG_3228.jpeg,0.5x,26,lens_group_disagreement
+IMG_3366.jpeg,1x,14,lens_group_disagreement
+IMG_3367.jpeg,0.5x,25,lens_group_disagreement
+IMG_3375.jpeg,0.5x,26,lens_group_disagreement
+IMG_3403.jpeg,0.5x,25,lens_group_disagreement
+IMG_3404.jpeg,1x,26,focal_variant
+IMG_3405.jpeg,0.5x,25,lens_group_disagreement

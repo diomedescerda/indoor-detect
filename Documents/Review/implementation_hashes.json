@@ -1,0 +1,8 @@
+{
+  "gradle/libs.versions.toml": "7f7571ae0ae522e16a2ce7610f37be9cdd28c2f5b39478b9128663d1f84a6b6a",
+  "app/build.gradle.kts": "38c34ad4004fccbae235392251f1de204db8d91a9d5218ce1f81863639ae3f98",
+  "app/src/main/java/com/unimagdalena/assistivevision/model/SpeechFormatter.kt": "fa0739f5f21e9577146207401d804ffedbd778b6398ef6ce94a3c9b601544d2a",
+  "app/src/main/java/com/unimagdalena/assistivevision/model/TtsVoice.kt": "d708b9e5cee60fb23000c0e0d05f67ce8626916ad5c3da484c8778d5839448d6",
+  "app/src/main/java/com/unimagdalena/assistivevision/modules/AudioModule.kt": "ba2e040f0f03aacda83bc444690f7ab285c2baf8afa51dc88866972df0a08bf0",
+  "app/src/main/java/com/unimagdalena/assistivevision/viewmodel/MainViewModel.kt": "3de5133cc1f950ceeb04f2342b6e53b2987db793493251ad0572252cf101a7c4"
+}

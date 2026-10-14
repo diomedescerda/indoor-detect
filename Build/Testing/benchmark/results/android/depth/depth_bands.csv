@@ -1,4 +1,4 @@
-mode,mount,lens,band,band_label,gt,tp,recall,recall_group_mean,recall_ci95_low,recall_ci95_high,classes,composition_top3,mean_est_distance_m
+mode,mount,lens,band,band_label,gt,tp,recall,recall_bootstrap_mean,recall_ci95_low,recall_ci95_high,classes,composition_top3,mean_est_distance_m
 detector,all,all,0,0.5-1.0,73,55,0.7534246575342466,0.7571879643135553,0.5696158579465542,0.9411764705882353,6,"bed 52%, laptop 18%, chair 14%",0.7853898673270486
 detector,head_harness,1x,0,0.5-1.0,4,3,0.75,0.7961972836599037,0.6666666666666666,1.0,2,"laptop 75%, chair 25%",0.8323134348483869
 detector,head_harness,0.5x,0,0.5-1.0,10,7,0.7,0.7093466680429992,0.3333333333333333,1.0,2,"bed 90%, laptop 10%",0.7206956149432969

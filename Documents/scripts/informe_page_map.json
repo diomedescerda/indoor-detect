@@ -1,0 +1,387 @@
+{
+  "report_1000": {
+    "text": "Resumen",
+    "physical_page": 5,
+    "label": "V"
+  },
+  "report_1001": {
+    "text": "Abstract",
+    "physical_page": 6,
+    "label": "VI"
+  },
+  "report_1002": {
+    "text": "Contenido",
+    "physical_page": 7,
+    "label": "VII"
+  },
+  "report_1003": {
+    "text": "Lista de figuras",
+    "physical_page": 9,
+    "label": "IX"
+  },
+  "report_1004": {
+    "text": "Lista de tablas",
+    "physical_page": 10,
+    "label": "X"
+  },
+  "report_1005": {
+    "text": "Lista de símbolos",
+    "physical_page": 11,
+    "label": "XI"
+  },
+  "report_1006": {
+    "text": "Introducción",
+    "physical_page": 12,
+    "label": "1"
+  },
+  "report_1007": {
+    "text": "Antecedentes",
+    "physical_page": 12,
+    "label": "1"
+  },
+  "report_1008": {
+    "text": "Objetivos",
+    "physical_page": 13,
+    "label": "2"
+  },
+  "report_1009": {
+    "text": "Alcance",
+    "physical_page": 13,
+    "label": "2"
+  },
+  "report_1010": {
+    "text": "Limitaciones",
+    "physical_page": 14,
+    "label": "3"
+  },
+  "report_1011": {
+    "text": "Metodología",
+    "physical_page": 14,
+    "label": "3"
+  },
+  "report_1012": {
+    "text": "Significado del trabajo",
+    "physical_page": 14,
+    "label": "3"
+  },
+  "report_1013": {
+    "text": "Estructura del documento",
+    "physical_page": 14,
+    "label": "3"
+  },
+  "report_1014": {
+    "text": "1. Marco de referencia: detección de objetos para la asistencia visual",
+    "physical_page": 16,
+    "label": "5"
+  },
+  "report_1015": {
+    "text": "1.1 Trabajos relacionados: sistemas de asistencia visual",
+    "physical_page": 16,
+    "label": "5"
+  },
+  "report_1016": {
+    "text": "1.2 Arquitecturas de detección: one-stage y two-stage",
+    "physical_page": 18,
+    "label": "7"
+  },
+  "report_1017": {
+    "text": "1.3 Modelos ligeros y eficiencia para dispositivos móviles",
+    "physical_page": 18,
+    "label": "7"
+  },
+  "report_1018": {
+    "text": "1.4 Modelos candidatos",
+    "physical_page": 19,
+    "label": "8"
+  },
+  "report_1019": {
+    "text": "1.5 Nuevos paradigmas: DETR",
+    "physical_page": 21,
+    "label": "10"
+  },
+  "report_1020": {
+    "text": "2. Selección experimental del modelo de detección",
+    "physical_page": 22,
+    "label": "11"
+  },
+  "report_1021": {
+    "text": "2.1 Criterios de selección para la evaluación comparativa",
+    "physical_page": 22,
+    "label": "11"
+  },
+  "report_1022": {
+    "text": "2.2 Marco conceptual",
+    "physical_page": 22,
+    "label": "11"
+  },
+  "report_1023": {
+    "text": "2.3 Entorno experimental",
+    "physical_page": 25,
+    "label": "14"
+  },
+  "report_1024": {
+    "text": "2.4 Metodología de evaluación",
+    "physical_page": 26,
+    "label": "15"
+  },
+  "report_1025": {
+    "text": "2.5 Resultados",
+    "physical_page": 26,
+    "label": "15"
+  },
+  "report_1026": {
+    "text": "Tabla 2.1. Resultados de evaluación en equipo de escritorio.",
+    "physical_page": 26,
+    "label": "15"
+  },
+  "report_1027": {
+    "text": "Tabla 2.2. Desglose de AP50 por clase para cada modelo.",
+    "physical_page": 27,
+    "label": "16"
+  },
+  "report_1028": {
+    "text": "Tabla 2.3. Resultados de benchmark en Android utilizando CPU.",
+    "physical_page": 27,
+    "label": "16"
+  },
+  "report_1029": {
+    "text": "Tabla 2.4. Resultados de benchmark en Android utilizando GPU Delegate.",
+    "physical_page": 28,
+    "label": "17"
+  },
+  "report_1030": {
+    "text": "2.6 Análisis de resultados",
+    "physical_page": 28,
+    "label": "17"
+  },
+  "report_1031": {
+    "text": "2.7 Selección del modelo final",
+    "physical_page": 30,
+    "label": "19"
+  },
+  "report_1032": {
+    "text": "Tabla 2.5. Comparación de candidatos finales.",
+    "physical_page": 30,
+    "label": "19"
+  },
+  "report_1033": {
+    "text": "3. Diseño e implementación del prototipo AssistiveVision",
+    "physical_page": 31,
+    "label": "20"
+  },
+  "report_1034": {
+    "text": "3.1 Arquitectura general del sistema",
+    "physical_page": 31,
+    "label": "20"
+  },
+  "report_1035": {
+    "text": "Figura 3.1. Flujo de procesamiento de la implementación actual.",
+    "physical_page": 31,
+    "label": "20"
+  },
+  "report_1036": {
+    "text": "3.2 Posicionamiento del dispositivo",
+    "physical_page": 31,
+    "label": "20"
+  },
+  "report_1037": {
+    "text": "3.3 Módulo de captura",
+    "physical_page": 32,
+    "label": "21"
+  },
+  "report_1038": {
+    "text": "3.4 Módulo de preprocesamiento",
+    "physical_page": 32,
+    "label": "21"
+  },
+  "report_1039": {
+    "text": "3.5 Módulo de detección",
+    "physical_page": 32,
+    "label": "21"
+  },
+  "report_1040": {
+    "text": "Tabla 3.1. Clases de objetos prioritarias anunciadas por el sistema.",
+    "physical_page": 33,
+    "label": "22"
+  },
+  "report_1041": {
+    "text": "3.6 Módulo de localización espacial",
+    "physical_page": 33,
+    "label": "22"
+  },
+  "report_1042": {
+    "text": "Tabla 3.2. Zonas de localización espacial y descriptores asociados.",
+    "physical_page": 33,
+    "label": "22"
+  },
+  "report_1043": {
+    "text": "Figura 3.2. Partición del campo visual para la localización relativa.",
+    "physical_page": 34,
+    "label": "23"
+  },
+  "report_1044": {
+    "text": "3.7 Módulo de filtrado y priorización",
+    "physical_page": 34,
+    "label": "23"
+  },
+  "report_1045": {
+    "text": "3.8 Módulo de audio y descriptores de voz",
+    "physical_page": 34,
+    "label": "23"
+  },
+  "report_1046": {
+    "text": "3.9 Modos de operación",
+    "physical_page": 35,
+    "label": "24"
+  },
+  "report_1047": {
+    "text": "3.10 Configuración del sistema",
+    "physical_page": 35,
+    "label": "24"
+  },
+  "report_1048": {
+    "text": "Tabla 3.3. Parámetros configurables del sistema.",
+    "physical_page": 35,
+    "label": "24"
+  },
+  "report_1049": {
+    "text": "3.11 Interfaz de usuario",
+    "physical_page": 35,
+    "label": "24"
+  },
+  "report_1050": {
+    "text": "Figura 3.3. Secuencia de interacción manual y liberación de la captura.",
+    "physical_page": 36,
+    "label": "25"
+  },
+  "report_1051": {
+    "text": "3.12 Verificación y rendimiento del prototipo",
+    "physical_page": 36,
+    "label": "25"
+  },
+  "report_1052": {
+    "text": "4. Evaluación del prototipo en escenarios controlados",
+    "physical_page": 37,
+    "label": "27"
+  },
+  "report_1053": {
+    "text": "4.1 Diseño experimental",
+    "physical_page": 37,
+    "label": "27"
+  },
+  "report_1054": {
+    "text": "Tabla 4.1. Diseño y unidades de análisis.",
+    "physical_page": 39,
+    "label": "29"
+  },
+  "report_1055": {
+    "text": "4.2 Escenario 1: posiciones del arnés",
+    "physical_page": 39,
+    "label": "29"
+  },
+  "report_1056": {
+    "text": "Tabla 4.2. Resultados agrupados por montaje.",
+    "physical_page": 39,
+    "label": "29"
+  },
+  "report_1057": {
+    "text": "Tabla 4.3. Pruebas t pareadas por montaje.",
+    "physical_page": 39,
+    "label": "29"
+  },
+  "report_1058": {
+    "text": "Figura 4.1. Objetos correctos por fotografía y montaje.",
+    "physical_page": 40,
+    "label": "30"
+  },
+  "report_1059": {
+    "text": "4.3 Escenario 2: combinaciones de arnés y lente",
+    "physical_page": 41,
+    "label": "31"
+  },
+  "report_1060": {
+    "text": "Tabla 4.4. Resultados por configuración.",
+    "physical_page": 41,
+    "label": "31"
+  },
+  "report_1061": {
+    "text": "Tabla 4.5. Comparación de conteos con Gorillapod 0,5x.",
+    "physical_page": 42,
+    "label": "32"
+  },
+  "report_1062": {
+    "text": "Figura 4.2. Objetos correctos por fotografía en las seis configuraciones.",
+    "physical_page": 42,
+    "label": "32"
+  },
+  "report_1063": {
+    "text": "4.4 Escenario 3: rango de profundidad de detección",
+    "physical_page": 43,
+    "label": "33"
+  },
+  "report_1064": {
+    "text": "Tabla 4.6. Recall por banda de distancia estimada.",
+    "physical_page": 43,
+    "label": "33"
+  },
+  "report_1065": {
+    "text": "Figura 4.3. Recall por distancia estimada e intervalo bootstrap del 95 %.",
+    "physical_page": 44,
+    "label": "34"
+  },
+  "report_1066": {
+    "text": "4.5 Métricas complementarias de detección",
+    "physical_page": 45,
+    "label": "35"
+  },
+  "report_1067": {
+    "text": "Tabla 4.7. Resultados por clase en el conjunto completo.",
+    "physical_page": 45,
+    "label": "35"
+  },
+  "report_1068": {
+    "text": "4.6 Consideraciones de validez",
+    "physical_page": 46,
+    "label": "36"
+  },
+  "report_1069": {
+    "text": "5. Conclusiones",
+    "physical_page": 48,
+    "label": "39"
+  },
+  "report_1070": {
+    "text": "5.1 Conclusiones",
+    "physical_page": 48,
+    "label": "39"
+  },
+  "report_1071": {
+    "text": "5.2 Recomendaciones",
+    "physical_page": 48,
+    "label": "39"
+  },
+  "report_1072": {
+    "text": "5.3 Trabajo futuro",
+    "physical_page": 49,
+    "label": "40"
+  },
+  "report_1073": {
+    "text": "Anexo A: Scripts de evaluación de modelos",
+    "physical_page": 50,
+    "label": "42"
+  },
+  "report_1074": {
+    "text": "Anexo B: Pruebas unitarias del prototipo",
+    "physical_page": 51,
+    "label": "43"
+  },
+  "report_1075": {
+    "text": "Anexo C: Manuales técnico y de usuario",
+    "physical_page": 52,
+    "label": "44"
+  },
+  "report_1076": {
+    "text": "Bibliografía",
+    "physical_page": 53,
+    "label": "45"
+  }
+}

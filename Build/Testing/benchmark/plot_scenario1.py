@@ -35,7 +35,7 @@ def _betacf(a, x, b):
         d = 1.0 / d
         delta = d * c
         h *= delta
-        aa = -(a + m) * (qap + m) * x / ((a + m2) * (qap + m2))
+        aa = -(a + m) * (qab + m) * x / ((a + m2) * (qap + m2))
         d = 1.0 + aa * d
         if abs(d) < tiny:
             d = tiny
@@ -56,7 +56,7 @@ def student_t_pvalue(t, df):
     if t == 0:
         return 1.0
     if x in (0.0, 1.0):
-        return 1.0 if x == 0 else 0.0
+        return 0.0 if x == 0 else 1.0
     front = math.exp(math.lgamma(a + b) - math.lgamma(a) - math.lgamma(b) + a * math.log(x) + b * math.log1p(-x))
     if x < (a + 1.0) / (a + b + 2.0):
         ibeta = front * _betacf(a, x, b) / a
@@ -66,11 +66,13 @@ def student_t_pvalue(t, df):
 
 
 def paired_t(a, b):
+    if len(a) != len(b) or len(a) < 2:
+        raise ValueError('At least two equal-length paired samples are required')
     d = np.array([x - y for x, y in zip(a, b)], dtype=float)
     n = len(d)
     mean, sd = d.mean(), d.std(ddof=1)
     se = sd / math.sqrt(n)
-    t = mean / se if se else float('inf')
+    t = mean / se if se else (0.0 if mean == 0 else math.copysign(float('inf'),mean))
     df = n - 1
     p = student_t_pvalue(abs(t), df) if math.isfinite(t) else 0.0
     return dict(mean_diff=mean, sd_diff=sd, t=t, df=df, p=p)

@@ -1,0 +1,464 @@
+[
+  {
+    "name": "report_1000",
+    "text": "Resumen",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1001",
+    "text": "Abstract",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1002",
+    "text": "Contenido",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1003",
+    "text": "Lista de figuras",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1004",
+    "text": "Lista de tablas",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1005",
+    "text": "Lista de símbolos",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1006",
+    "text": "Introducción",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1007",
+    "text": "Antecedentes",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1008",
+    "text": "Objetivos",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1009",
+    "text": "Alcance",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1010",
+    "text": "Limitaciones",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1011",
+    "text": "Metodología",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1012",
+    "text": "Significado del trabajo",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1013",
+    "text": "Estructura del documento",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1014",
+    "text": "1. Marco de referencia: detección de objetos para la asistencia visual",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1015",
+    "text": "1.1 Trabajos relacionados: sistemas de asistencia visual",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1016",
+    "text": "1.2 Arquitecturas de detección: one-stage y two-stage",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1017",
+    "text": "1.3 Modelos ligeros y eficiencia para dispositivos móviles",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1018",
+    "text": "1.4 Modelos candidatos",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1019",
+    "text": "1.5 Nuevos paradigmas: DETR",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1020",
+    "text": "2. Selección experimental del modelo de detección",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1021",
+    "text": "2.1 Criterios de selección para la evaluación comparativa",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1022",
+    "text": "2.2 Marco conceptual",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1023",
+    "text": "2.3 Entorno experimental",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1024",
+    "text": "2.4 Metodología de evaluación",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1025",
+    "text": "2.5 Resultados",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1026",
+    "text": "Tabla 2.1. Resultados de evaluación en equipo de escritorio.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1027",
+    "text": "Tabla 2.2. Desglose de AP50 por clase para cada modelo.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1028",
+    "text": "Tabla 2.3. Resultados de benchmark en Android utilizando CPU.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1029",
+    "text": "Tabla 2.4. Resultados de benchmark en Android utilizando GPU Delegate.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1030",
+    "text": "2.6 Análisis de resultados",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1031",
+    "text": "2.7 Selección del modelo final",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1032",
+    "text": "Tabla 2.5. Comparación de candidatos finales.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1033",
+    "text": "3. Diseño e implementación del prototipo AssistiveVision",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1034",
+    "text": "3.1 Arquitectura general del sistema",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1035",
+    "text": "Figura 3.1. Flujo de procesamiento de la implementación actual.",
+    "kind": "figures",
+    "level": 1
+  },
+  {
+    "name": "report_1036",
+    "text": "3.2 Posicionamiento del dispositivo",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1037",
+    "text": "3.3 Módulo de captura",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1038",
+    "text": "3.4 Módulo de preprocesamiento",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1039",
+    "text": "3.5 Módulo de detección",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1040",
+    "text": "Tabla 3.1. Clases de objetos prioritarias anunciadas por el sistema.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1041",
+    "text": "3.6 Módulo de localización espacial",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1042",
+    "text": "Tabla 3.2. Zonas de localización espacial y descriptores asociados.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1043",
+    "text": "Figura 3.2. Partición del campo visual para la localización relativa.",
+    "kind": "figures",
+    "level": 1
+  },
+  {
+    "name": "report_1044",
+    "text": "3.7 Módulo de filtrado y priorización",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1045",
+    "text": "3.8 Módulo de audio y descriptores de voz",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1046",
+    "text": "3.9 Modos de operación",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1047",
+    "text": "3.10 Configuración del sistema",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1048",
+    "text": "Tabla 3.3. Parámetros configurables del sistema.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1049",
+    "text": "3.11 Interfaz de usuario",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1050",
+    "text": "Figura 3.3. Secuencia de interacción manual y liberación de la captura.",
+    "kind": "figures",
+    "level": 1
+  },
+  {
+    "name": "report_1051",
+    "text": "3.12 Verificación y rendimiento del prototipo",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1052",
+    "text": "4. Evaluación del prototipo en escenarios controlados",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1053",
+    "text": "4.1 Diseño experimental",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1054",
+    "text": "Tabla 4.1. Diseño y unidades de análisis.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1055",
+    "text": "4.2 Escenario 1: posiciones del arnés",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1056",
+    "text": "Tabla 4.2. Resultados agrupados por montaje.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1057",
+    "text": "Tabla 4.3. Pruebas t pareadas por montaje.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1058",
+    "text": "Figura 4.1. Objetos correctos por fotografía y montaje.",
+    "kind": "figures",
+    "level": 1
+  },
+  {
+    "name": "report_1059",
+    "text": "4.3 Escenario 2: combinaciones de arnés y lente",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1060",
+    "text": "Tabla 4.4. Resultados por configuración.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1061",
+    "text": "Tabla 4.5. Comparación de conteos con Gorillapod 0,5x.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1062",
+    "text": "Figura 4.2. Objetos correctos por fotografía en las seis configuraciones.",
+    "kind": "figures",
+    "level": 1
+  },
+  {
+    "name": "report_1063",
+    "text": "4.4 Escenario 3: rango de profundidad de detección",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1064",
+    "text": "Tabla 4.6. Recall por banda de distancia estimada.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1065",
+    "text": "Figura 4.3. Recall por distancia estimada e intervalo bootstrap del 95 %.",
+    "kind": "figures",
+    "level": 1
+  },
+  {
+    "name": "report_1066",
+    "text": "4.5 Métricas complementarias de detección",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1067",
+    "text": "Tabla 4.7. Resultados por clase en el conjunto completo.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1068",
+    "text": "4.6 Consideraciones de validez",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1069",
+    "text": "5. Conclusiones",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1070",
+    "text": "5.1 Conclusiones",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1071",
+    "text": "5.2 Recomendaciones",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1072",
+    "text": "5.3 Trabajo futuro",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1073",
+    "text": "Anexo A: Scripts de evaluación de modelos",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1074",
+    "text": "Anexo B: Pruebas unitarias del prototipo",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1075",
+    "text": "Anexo C: Manuales técnico y de usuario",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1076",
+    "text": "Bibliografía",
+    "kind": "contents",
+    "level": 1
+  }
+]

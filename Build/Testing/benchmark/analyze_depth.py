@@ -3,7 +3,7 @@
 Distances are ESTIMATES from the pinhole model d = f_px * H_ref / h_px, not measurements:
 - f_px comes from the EXIF FocalLengthIn35mmFilm of each photo (1x ~ 25 mm, 0.5x ~ 14 mm).
 - H_ref is a fixed reference vertical extent per COCO class; class height uncertainty is
-  proportional (~±30%), and partially occluded objects overestimate distance.
+  not empirically calibrated, and partially occluded objects overestimate distance.
 Results are therefore reported as exploratory distance bands, not precise distances.
 """
 import argparse, csv, json, math
@@ -37,10 +37,12 @@ def band_of(distance):
 
 
 def main():
+    global OUT
     p = argparse.ArgumentParser()
     p.add_argument('run', type=Path)
     p.add_argument('--output', type=Path)
     a = p.parse_args()
+    OUT = a.output or OUT
     OUT.mkdir(parents=True, exist_ok=True)
     gt = json.loads((ROOT / 'labels.json').read_text())
     run = json.loads(a.run.read_text())
@@ -63,7 +65,7 @@ def main():
         focal_by_image[image_id] = f35
         expected = 25 if im['lens'] == '1x' else 14
         if f35 != expected:
-            mismatches.append(dict(file_name=im['file_name'], manifest_lens=im['lens'], exif_f35=f35))
+            mismatches.append(dict(file_name=im['file_name'], manifest_lens=im['lens'], exif_f35=f35, mismatch_kind='lens_group_disagreement' if f35 and (f35 < 20) != (im['lens']=='0.5x') else 'focal_variant'))
     if mismatches:
         write_csv(OUT / 'exif_lens_mismatches.csv', mismatches)
     else:
@@ -114,7 +116,7 @@ def main():
         top3 = ', '.join(f'{c} {n_share/len(sel):.0%}' for c, n_share in composition.most_common(3)) if sel else ''
         return dict(mode=mode, mount=mount or 'all', lens=lens or 'all', band=band,
                     band_label=band_label(band), gt=n, tp=tp, recall=tp / n if n else None,
-                    recall_group_mean=float(np.mean(recs)) if recs and n else None,
+                    recall_bootstrap_mean=float(np.mean(recs)) if recs and n else None,
                     recall_ci95_low=float(np.percentile(recs, 2.5)) if recs and n else None,
                     recall_ci95_high=float(np.percentile(recs, 97.5)) if recs and n else None,
                     classes=len(composition), composition_top3=top3,
@@ -142,16 +144,17 @@ def main():
         f'f_px from EXIF FocalLengthIn35mmFilm; diagonal-normalised over {DIAG_35MM:.1f} mm.',
         f'Reference heights (m): ' + ', '.join(f'{k} {v:.2f}' for k, v in REF_HEIGHT_M.items()),
         f'Bands: ' + ', '.join(f'{band_label(b)} m' for b in range(len(BANDS))),
-        f'Manifest/EXIF lens mismatches: {len(mismatches)} of {len(images)} photos (see exif_lens_mismatches.csv).', '',
+        f'Exact manifest/EXIF focal differences: {len(mismatches)} of {len(images)} photos; ' + str(sum(r['mismatch_kind']=='lens_group_disagreement' for r in mismatches)) + ' are lens-group disagreements (see exif_lens_mismatches.csv).',
+        f'Instances below 0.5 m, excluded from displayed bands: {sum(r["mode"]=="detector" and r["band"] is None for r in instances)}.', '',
         'Detector mode, confidence 0.30, IoU >= 0.50, class match. Bands with < 30 annotated',
-        'instances and bands without complete coverage are excluded from the suggested range.', '',
-        'Pooled all configurations, by band (pooled uses every instance; group mean and CI are',
-        'balanced over the 33 capture groups, so they can move off the pooled value):',
-        'band | gt | tp | recall | group-mean recall | 95% CI | top classes']
+        'instances are omitted from the exploratory threshold summary; this is not a validated range.', '',
+        'Pooled all configurations, by band (pooled uses every instance; bootstrap mean and CI resample',
+        'whole capture groups; each resample uses pooled instance recall):',
+        'band | gt | tp | recall | bootstrap-mean recall | 95% CI | top classes']
     for r in pooled:
-        report.append(f"{r['band_label']} | {r['gt']} | {r['tp']} | {r['recall']:.1%} | {r['recall_group_mean']:.1%} | [{r['recall_ci95_low']:.1%}, {r['recall_ci95_high']:.1%}] | {r['composition_top3']}")
-    report += ['', 'Suggested usable range bands (recall >= 0.5, >= 30 instances, pooled):',
-               *([f'  {band_label(last_full)} m and closer'] if last_full is not None else ['  none reaches recall 0.5']), '',
+        report.append(f"{r['band_label']} | {r['gt']} | {r['tp']} | {r['recall']:.1%} | {r['recall_bootstrap_mean']:.1%} | [{r['recall_ci95_low']:.1%}, {r['recall_ci95_high']:.1%}] | {r['composition_top3']}")
+    report += ['', 'Exploratory estimated bands meeting recall >= 0.5 and >= 30 instances:',
+               *([f'  through {band_label(last_full)} m; not a validated operating range'] if last_full is not None else ['  none reaches recall 0.5']), '',
                'All configurations, detector mode:',
                'band | ' + ' | '.join(NAMES)]
     by_band = defaultdict(dict)
@@ -166,12 +169,13 @@ def main():
         report.append(f'{band_label(b)} | ' + ' | '.join(cells))
     report += ['', 'gt/tp per cell shows annotated instances and matches; cells below ~15 instances are unstable.',
                '', 'Limits:',
-               '- Distances are single-camera estimates; class reference height uncertainty is proportional (~±30%).',
+               '- Distances are single-camera estimates; class reference height uncertainty is not empirically calibrated.',
                '- Recall is not monotone in distance: class mix changes with distance (e.g., bathroom items close,',
                '  chairs and tables far), so each band pools different classes and depth is partly confounded with class.',
-               '- Occluded or truncated objects lose visible box height, which overestimates their distance.',
+               '- Occluded or truncated objects lose visible box height, which can overestimate distance.',
+               '- Bootstrap intervals do not include distance-model or object-height uncertainty.',
                '- iPhone optics; results do not transfer to other cameras without re-estimating focal length.',
-               '- If the estimated range is used as an operating guideline, validate it on new scenes at measured distances.']
+               '- These estimates do not establish a product distance limit; validate with measured distances before defining one.']
     (OUT / 'report.txt').write_text('\n'.join(report) + '\n')
     plot([r for r in rows if r['mode'] == 'detector' and r['mount'] == 'all'], band_label)
     print(OUT)
@@ -185,11 +189,11 @@ def plot(pooled, label_fn):
     import matplotlib.pyplot as plt
     xs = [(BANDS[b][0] + (BANDS[b][1] if BANDS[b][1] is not None else BANDS[b][0] + 2)) / 2 for b in range(len(BANDS))]
     xs[0] = 0.75
-    pooled = [r for r in pooled if r['recall_group_mean'] is not None]
+    pooled = [r for r in pooled if r['recall_bootstrap_mean'] is not None]
     fig, ax = plt.subplots(figsize=(7, 4.5), layout='constrained')
-    means = [r['recall_group_mean'] for r in pooled]
-    yerr = [[max(0, r['recall_group_mean'] - r['recall_ci95_low']) for r in pooled],
-            [max(0, r['recall_ci95_high'] - r['recall_group_mean']) for r in pooled]]
+    means = [r['recall_bootstrap_mean'] for r in pooled]
+    yerr = [[max(0, r['recall_bootstrap_mean'] - r['recall_ci95_low']) for r in pooled],
+            [max(0, r['recall_ci95_high'] - r['recall_bootstrap_mean']) for r in pooled]]
     ax.errorbar([xs[r['band']] for r in pooled], means, yerr=yerr,
                 marker='o', color='#2575b8', capsize=3, label='Recall agrupado (IC 95% bootstrap)')
     ax.set_xticks(xs, [label_fn(r['band']) for r in pooled])

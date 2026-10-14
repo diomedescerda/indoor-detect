@@ -1,0 +1,51 @@
+[
+  {
+    "name": "com.unimagdalena.assistivevision.ExampleUnitTest",
+    "tests": "1",
+    "failures": "0",
+    "errors": "0",
+    "time": "0.004"
+  },
+  {
+    "name": "com.unimagdalena.assistivevision.SpeechFormatterTest",
+    "tests": "7",
+    "failures": "0",
+    "errors": "0",
+    "time": "0.022"
+  },
+  {
+    "name": "com.unimagdalena.assistivevision.model.LetterboxMapperTest",
+    "tests": "6",
+    "failures": "0",
+    "errors": "0",
+    "time": "0.006"
+  },
+  {
+    "name": "com.unimagdalena.assistivevision.model.ShutterKeyPolicyTest",
+    "tests": "2",
+    "failures": "0",
+    "errors": "0",
+    "time": "0.0"
+  },
+  {
+    "name": "com.unimagdalena.assistivevision.model.TtsVoiceCatalogTest",
+    "tests": "7",
+    "failures": "0",
+    "errors": "0",
+    "time": "0.003"
+  },
+  {
+    "name": "com.unimagdalena.assistivevision.modules.CameraLensPolicyTest",
+    "tests": "5",
+    "failures": "0",
+    "errors": "0",
+    "time": "0.005"
+  },
+  {
+    "name": "com.unimagdalena.assistivevision.modules.LocalizationModuleTest",
+    "tests": "6",
+    "failures": "0",
+    "errors": "0",
+    "time": "0.003"
+  }
+]

@@ -2,17 +2,17 @@ Escenario 1: posiciones del arnés (helper outputs)
 
 Per-scene paired t test, correct object counts (33 groups):
 mode | A | B | mean diff | sd | t | df | p (two-sided)
-detector | Head | Chest | -0.485 | 1.873 | -1.487 | 32 | 0.1075
+detector | Head | Chest | -0.485 | 1.873 | -1.487 | 32 | 0.1468
 detector | Head | Gorillapod | -0.939 | 1.456 | -3.705 | 32 | 0.0008
-detector | Chest | Gorillapod | -0.455 | 1.603 | -1.629 | 32 | 0.0365
+detector | Chest | Gorillapod | -0.455 | 1.603 | -1.629 | 32 | 0.1130
 detector | Head 1x | Gorillapod 0.5x | -0.788 | 1.364 | -3.319 | 32 | 0.0023
-detector | Head 0.5x | Gorillapod 0.5x | -0.364 | 0.895 | -2.334 | 32 | 0.0261
+detector | Head 0.5x | Gorillapod 0.5x | -0.364 | 0.895 | -2.334 | 32 | 0.0260
 detector | Chest 1x | Gorillapod 0.5x | -0.515 | 1.202 | -2.462 | 32 | 0.0194
-detector | Chest 0.5x | Gorillapod 0.5x | -0.152 | 1.034 | -0.841 | 32 | 0.4056
-detector | Gorillapod 1x | Gorillapod 0.5x | -0.212 | 1.341 | -0.909 | 32 | 0.3689
-app_output | Head | Chest | -0.394 | 1.171 | -1.933 | 32 | 0.0627
+detector | Chest 0.5x | Gorillapod 0.5x | -0.152 | 1.034 | -0.841 | 32 | 0.4064
+detector | Gorillapod 1x | Gorillapod 0.5x | -0.212 | 1.341 | -0.909 | 32 | 0.3702
+app_output | Head | Chest | -0.394 | 1.171 | -1.933 | 32 | 0.0622
 app_output | Head | Gorillapod | -0.636 | 1.168 | -3.130 | 32 | 0.0037
-app_output | Chest | Gorillapod | -0.242 | 0.902 | -1.543 | 32 | 0.0814
+app_output | Chest | Gorillapod | -0.242 | 0.902 | -1.543 | 32 | 0.1326
 
 Per-mount pooled stats (mean objects/photo, P/R/F1):
 detector | Head: tp 126, media 1.91, P 69.2%, R 43.0%, F1 53.1%

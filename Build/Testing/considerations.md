@@ -31,26 +31,33 @@ are NOT used by the chapter.
   `paired_t_tests.csv`, `mount_stats.csv`, `report.txt`.
 - `scripts/build_chapter4.py` → the chapter docx.
 - A hand-written Student-t p-value lives in `plot_scenario1.py`
-  (`_betacf`/`student_t_pvalue`, validated against t-table critical values: df 10/32/33).
-  If scipy becomes available, cross-check it once against `scipy.stats.t.sf`.
+  (`_betacf`/`student_t_pvalue`). On 14 Oct 2026 a wrong coefficient in its continued
+  fraction was corrected and all tables regenerated. The regression suite checks
+  Cauchy identities and independent numerical integration of the Student-t density.
+  Chest vs Gorillapod pooled p is 0.1130, not the earlier erroneous 0.0365.
 
 ## Depth model (Escenario 3) — decisions and caveats
 
 - No new photos were taken. Distances come from the pinhole model
   `d = f_px * H_ref / h_px` using EXIF `FocalLengthIn35mmFilm` per photo
   (1x ≈ 25 mm, 0.5x ≈ 14 mm) and fixed reference heights per class.
-- In 7 of 198 photos the EXIF focal disagrees with the manifest lens
+- In 7 of 198 photos the EXIF focal differs from the nominal focal; six are
+  substantive lens-group disagreements and one is a small 25-to-26 mm variation
   (`depth/exif_lens_mismatches.csv`); the EXIF value wins.
 - Reference heights (m): person 1.70, refrigerator 1.75, chair 0.90, couch 0.85,
   toilet 0.78, dining table 0.76, sink 0.80, tv 0.60, bed 0.60, laptop 0.25.
-  Uncertainty is proportional (~±30%), so results are bands only.
+  Reference-height uncertainty is not empirically calibrated; results are exploratory bands only.
+  Bootstrap intervals do not include distance-model error. Six instances below 0.5 m
+  are excluded from the displayed bands, which contain 883 rather than 889 instances.
 - Recall is not monotone with distance because class mix changes with distance
   (beds/laptops close, chairs far): depth is partially confounded with class.
-  Suggested range (~4 m, recall ≥ 50 % with ≥ 30 instances) is stated in the chapter as
-  an operational guideline, NOT a sensor characterization. If adopted as a product rule,
-  validate with measured distances in a large classroom.
+  The transition around the estimated 4 m band is exploratory. It does not establish
+  an operational range or justify a distance filter in the app. A product range
+  requires calibration and new captures at measured distances.
 - Bootstrap CIs per band resample the 33 capture groups (10k draws, seed 20261013);
   band 0.5–1 m has few groups, so its CI is wide.
+  `recall_bootstrap_mean` is the mean of pooled recalls across group resamples,
+  not an equally weighted mean of per-scene recalls.
 
 ## Review items agreed for the thesis
 
@@ -81,3 +88,14 @@ are NOT used by the chapter.
 - Do not mix desktop proxy rows into any Android table.
 - `Build/models_comparison/` has unrelated uncommitted work (venv, models, panorama
   dataset). It is excluded from the Chapter 4 commits on purpose.
+
+## Full manuscript integration on 14 October 2026
+
+- The tracked working manuscript is `Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx`.
+- Its retained university-format source is `Documents/Templates/Informe_Final_Base_2026-09-25.docx`.
+- `Documents/scripts/update_informe.py` incorporates the corrected Chapter 4 while preserving the template.
+- `Documents/scripts/refresh_informe_pages.py` populates page-reference caches from a rendered PDF; Word can refresh those fields after later edits.
+- Current app description is based on the source: LiteRT 1.4.2, sherpa-onnx local voices, manual capture, and no active cooldown filter.
+- App JVM verification passed 34 tests; the Python evaluator/statistical suite passed eight.
+- The historic 137.8 ms / 8.55 FPS README pair is not used as a validated current end-to-end measurement.
+- The archived checksum manifest still covers the original 570 files. The manuscript revision has its own evidence/checksum record under Documents/Review.

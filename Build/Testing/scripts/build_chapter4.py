@@ -70,6 +70,8 @@ def main():
         doc.add_heading(text, level)
 
     def table(headers, rows, widths, size=10):
+        scale=(sec.page_width-sec.left_margin-sec.right_margin)/914400/sum(widths)
+        widths=[w*scale for w in widths]
         t = doc.add_table(rows=1, cols=len(headers))
         t.alignment = WD_TABLE_ALIGNMENT.CENTER
         t.autofit = False
@@ -93,7 +95,8 @@ def main():
             row._tr.get_or_add_trPr().append(no_split)
             if ri == 0:
                 row._tr.get_or_add_trPr().append(OxmlElement('w:tblHeader'))
-            for cell in row.cells:
+            for ci, cell in enumerate(row.cells):
+                cell.width = Inches(widths[ci])
                 cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
                 for p in cell.paragraphs:
                     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -134,9 +137,9 @@ def main():
     para('Este capítulo evalúa experimentalmente el sistema de detección de objetos AssistiveVision mediante tres '
          'preguntas encadenadas: (a) qué posición de montaje del teléfono produce las mejores detecciones '
          '(escenario 1); (b) cuál combinación de posición y lente funciona mejor (escenario 2); y (c) en qué '
-         'rango de distancia entre el objeto y la cámara las detecciones siguen siendo confiables (escenario 3). '
+         'bandas de distancia geométricamente estimada cambia el recall (escenario 3). '
          'Los tres escenarios comparten el mismo conjunto de fotografías, el mismo modelo y la misma '
-         'instrumentación software, de modo que las diferencias observadas puedan atribuirse al factor manipulado '
+         'instrumentación software. El emparejamiento facilita comparar configuraciones, sin aislar todas las causas '
          'en cada escenario.')
     heading('Factores, niveles y diseño', 2)
     para('El escenario 1 manipula la posición de montaje del dispositivo con tres niveles: arnés de cabeza, arnés '
@@ -160,7 +163,7 @@ def main():
          'módulos de producción del prototipo (preprocesamiento, detección y mapeo inverso de coordenadas). El '
          'modelo seleccionado es EfficientDet-Lite2 en 448 × 448 píxeles; las imágenes verticales se '
          'redimensionan a 336 × 448 con relleno gris 114. Se retienen detecciones desde una puntuación mínima de '
-         '0,001 con un máximo de 15 por fotograma (valores de producción), y la operación se evalúa con un umbral '
+         '0,001 para evaluar AP, con el límite de producción de 15 por fotograma; la operación se evalúa con un umbral '
          'de confianza de 0,30 y emparejamiento voraz uno a uno con IoU ≥ 0,50 y coincidencia de clase. El orden '
          'de las imágenes se baraja con la semilla 20261013 después de tres pasadas de calentamiento. La ejecución '
          'se verificó completa sobre las 198 fotografías; el entorno de ejecución y sus consecuencias se discuten '
@@ -227,10 +230,10 @@ def main():
     t_cg = tt['detector', 'Chest', 'Gorillapod']
     t_hc = tt['detector', 'Head', 'Chest']
     para(f"El Gorillapod supera significativamente a la cabeza (t(32) = {dec(t_hg['t'], 2, True)}, "
-         f"p = {num(t_hg['p'], 4, '')}) y, con margen más estrecho, también al pecho "
+         f"p = {num(t_hg['p'], 4, '')}). Frente al pecho, la diferencia no alcanza el umbral exploratorio de 0,05 "
          f"(t(32) = {dec(t_cg['t'], 2, True)}, p = {num(t_cg['p'], 4, '')}); la diferencia entre cabeza y pecho no "
          f"es significativa (t(32) = {dec(t_hc['t'], 2, True)}, p = {num(t_hc['p'], 4, '')}). En conjunto: la vista de "
-         'cabeza queda descartada por cobertura; entre pecho y Gorillapod el mayor número de objetos del '
+         'cabeza ofrece menor cobertura en este conjunto; entre pecho y Gorillapod el mayor número de objetos del '
          'Gorillapod convive con un margen relativamente estrecho (0,455 objetos/escena), lo que anticipa el '
          'análisis por configuración de la sección 4.3. La figura siguiente muestra la dispersión de los conteos.')
     fig('scenario1/boxplot_mount.png',
@@ -253,7 +256,7 @@ def main():
     table(['Configuración', 'Visibles', 'Correctas', 'Falsas', 'F1', 'AP50 / AP50-95', 'Correctas (lista)'],
           rows, [1.32, 0.62, 0.65, 0.55, 0.6, 1.05, 0.88])
     para('Correctas y falsas se contabilizan con confianza 0,30 e IoU ≥ 0,50 sobre las 33 fotografías por configuración; '
-         'AP se calcula con el historial completo de puntuaciones del detector; "Correctas (lista)" aplica el límite '
+         'AP se calcula con las predicciones conservadas desde 0,001 y el límite de 15; "Correctas (lista)" aplica el límite '
          'de dos objetos por fotograma.', 'Caption')
     c11, c05 = sm['detector', 'chest_harness', '1x'], sm['detector', 'gorillapod', '0.5x']
     para(f"La mejor F1 es del arnés de pecho 1x ({num(c11['f1'])}; precisión {num(c11['precision'])}, recall {num(c11['recall'])}, "
@@ -266,7 +269,7 @@ def main():
          f"{dec(float(e_lens['delta_f1']) * 100, 1, True)} puntos de F1, IC 95 % "
          f"[{dec(float(e_lens['ci95_low']) * 100, 1)}; {dec(float(e_lens['ci95_high']) * 100, 1)}]). La vista amplia contiene {slens['detector', '0.5x']['gt']} instancias visibles frente a "
          f"{slens['detector', '1x']['gt']} del 1x (+23,4 %) y recupera {slens['detector', '0.5x']['tp']} correctas frente a {slens['detector', '1x']['tp']} (+16,8 %): la "
-         'ganancia en recuperación se paga con más falsas por fotograma y una F1 levemente menor.')
+         'ganancia de conteo convive con más predicciones falsas por fotografía y menor F1.')
     rows = []
     for r in count_pairs:
         m, l = r['configuration_b'].split('/')
@@ -301,15 +304,15 @@ def main():
          'cámara para cada instancia anotada de las mismas 198 fotografías, sin capturas adicionales. El modelo '
          'estenopeico de la cámara entrega d ≈ f_px · H_cls / h_px, donde f_px es la distancia focal en píxeles —'
          'calculada del campo FocalLengthIn35mmFilm del EXIF (equivalente a 25 mm para el lente 1x y a 14 mm para '
-         'el 0,5x; en 7 de las 198 fotografías el EXIF no coincide con lo previsto en el protocolo y se adoptó el '
+         'el 0,5x; se registraron seis discrepancias de grupo de lente y una variación menor de 25 a 26 mm y se adoptó el '
          'valor del EXIF)—, h_px es la altura de la caja anotada en píxeles y H_cls es una altura de referencia '
          'fija por clase (persona 1,70 m; nevera 1,75 m; silla 0,90 m; sofá 0,85 m; inodoro 0,78 m; mesa de '
          'comedor 0,76 m; lavamanos 0,80 m; televisor 0,60 m; cama 0,60 m; computador portátil 0,25 m). Las '
          'distancias resultantes son aproximaciones, no mediciones, por lo que el análisis se reporta exclusivamente '
          'en bandas.')
     para('La tabla siguiente resume el recall del detector por banda de distancia estimada agregando las seis '
-         'configuraciones. "Recall" se calcula agrupando todas las instancias de la banda; "Media por grupo" y su '
-         'IC 95 % ponderan por los 33 grupos de captura (bootstrap de 10 000 remuestreos, semilla 20261013).')
+         'configuraciones. "Recall" se calcula agrupando todas las instancias de la banda; "Media bootstrap" y su '
+         'IC 95 % se obtienen remuestreando los 33 grupos de captura completos y calculando el recall agrupado en cada remuestra (10 000 remuestreos, semilla 20261013); no son una media de recalls igualmente ponderados por escena.')
     rows = []
     for r in dpooled:
         comp = r['composition_top3']
@@ -318,9 +321,9 @@ def main():
                        'laptop': 'portátil', 'sink': 'lavamanos', 'refrigerator': 'nevera'}.items():
             comp = comp.replace(en, es)
         comp = comp.replace('%', ' %')
-        rows.append([r['band_label'].replace('.', ',') + ' m', r['gt'], r['tp'], num(r['recall']), num(r['recall_group_mean']),
+        rows.append([r['band_label'].replace('.', ',') + ' m', r['gt'], r['tp'], num(r['recall']), num(r['recall_bootstrap_mean']),
                      f"[{num(r['recall_ci95_low'])}; {num(r['recall_ci95_high'])}]", comp])
-    table(['Banda de distancia', 'Instancias', 'Correctas', 'Recall', 'Media por grupo', 'IC 95 %', 'Clases dominantes'],
+    table(['Banda de distancia', 'Instancias', 'Correctas', 'Recall', 'Media bootstrap', 'IC 95 %', 'Clases dominantes'],
           rows, [0.95, 0.72, 0.72, 0.6, 0.85, 1.1, 1.5])
     para('Detector: confianza 0,30, IoU ≥ 0,50 y coincidencia de clase. Las clases dominantes muestran la proporción '
          'de la banda que ocupan las tres clases más frecuentes: la mezcla de clases cambia con la distancia, de '
@@ -332,29 +335,24 @@ def main():
          f"1-2 m: {num(dpooled[1]['recall'])}; 2-3 m: {num(dpooled[2]['recall'])}; 3-4 m: {num(dpooled[3]['recall'])}), cae a "
          f"{num(dpooled[4]['recall'])} en 4-6 m y colapsa a {num(dpooled[5]['recall'])} a partir de 6 m. Bajo un criterio operativo de "
          'recall ≥ 50 % con al menos 30 instancias anotadas por banda, el rango de detección sugerido para el '
-         'prototipo es de unos 4 metros: los objetos más lejanos deberían presentarse al usuario con baja '
-         'confianza o quedar fuera del alcance del asistente.')
+         'conjunto muestra una transición alrededor de la banda de 4 m. Esta observación no permite fijar un límite operativo ni filtrar objetos por distancia: las distancias no fueron medidas y la aplicación no estima profundidad.')
     para('Entre posiciones también hay matices en las bandas lejanas: a más de 6 m, el Gorillapod 1x preserva el '
          f"mejor recall ({num(dep_cfg['gorillapod', '1x', 5]['recall'])} con {dep_cfg['gorillapod', '1x', 5]['gt']} instancias) frente a "
          f"{num(dep_cfg['head_harness', '1x', 5]['recall'])} del arnés de cabeza y {num(dep_cfg['chest_harness', '1x', 5]['recall'])} del de pecho; y el ultra "
          f"gran angular pierde algo más a distancia (Gorillapod 0,5x: {num(dep_cfg['gorillapod', '0.5x', 5]['recall'])}). Como en las bandas "
          'lejanas dominan sillas, mesas y lavamanos vistos de lejos, ese margen es únicamente exploratorio.')
     para('Tres limitaciones condicionan esta conclusión. Primero, la incertidumbre de la altura de referencia por '
-         'clase es proporcional (~±30 %), de manera que una instancia puede desplazarse una banda. Segundo, los '
+         'clase no se cuantificó empíricamente, por lo que una instancia puede desplazarse de banda. Segundo, los '
          'objetos parcialmente ocultos pierden altura visible en la caja, lo que sobreestima su distancia. '
          'Tercero, la mezcla de clases cambia con la distancia (las bandas cercanas concentran camas y '
          'computadores; las lejanas, sillas), por lo que el recall por banda mezcla profundidad con dificultad por '
-         'clase. El resultado debe entenderse como una guía operacional del prototipo —priorizar objetos a menos '
-         'de ~4 m— y no como una caracterización del sensor; su adopción como restricción de producto requiere '
-         'validación con distancias medidas en escenas nuevas.')
+         'clase. El resultado no caracteriza el sensor ni justifica limitar el asistente a 4 m. Se requiere '
+         'validación con distancias medidas en escenas nuevas. Los intervalos bootstrap describen el muestreo '
+         'de instancias por grupos y no incorporan el error de estimación de distancia.')
 
     # ================= 4.5 =================
-    heading('4.5 Métricas complementarias con métodos bioinspirados')
-    para('Los detectores evaluados son métodos bioinspirados: redes neuronales convolucionales de una sola pasada '
-         'cuyo procesamiento jerárquico de la imagen imita los estadios de la corteza visual. Como métricas '
-         'complementarias al conteo bruto de objetos se reportan, por configuración, la media de objetos visibles '
-         'y correctos por fotografía, el recall, la precisión, la F1 y las métricas COCO AP50/AP50-95, además de '
-         'las métricas de la lista de anuncios con el límite de dos objetos.')
+    heading('4.5 Métricas complementarias de detección')
+    para('Como complemento de los conteos se reportan precisión, recall, F1 y AP. Se conserva la interpretación de cada métrica y se acompaña de resultados por clase para identificar el efecto del desbalance. No se implementó ni evaluó un algoritmo bioinspirado adicional; esa propuesta requeriría definir su método y protocolo antes de atribuirle resultados.')
     rows = []
     for c, name in zip(CONFIGS, NAMES):
         r, a = sm['detector', *c], sm['app_output', *c]
@@ -370,21 +368,19 @@ def main():
     para('Dos observaciones atraviesan la tabla. Primera: recall y conteo medio se separan porque las vistas '
          f"amplias contienen más instancias —el Gorillapod 0,5x tiene la mayor media de visibles por foto ({num(c05['mean_gt_per_image'], 2, '')}) y "
          f"recupera la mayor media de objetos ({num(c05['mean_tp_per_image'], 2, '')})—, pero su recall relativo ({num(c05['recall'])}) queda "
-         f"por debajo del del arnés de pecho 1x ({num(c11['recall'])}); el recall aislado premia encuadres estrechos que "
-         'ocultan objetos difíciles, por eso siempre se acompaña de la media de visibles. Segunda: la caída entre '
+         f"por debajo del del arnés de pecho 1x ({num(c11['recall'])}); el encuadre cambia el denominador y la dificultad de los objetos, "
+         'por lo que se informa cobertura junto con recall. Segunda: la caída entre '
          f"AP50 ({num(c11['AP50'])}) y AP50-95 ({num(c11['AP'])}) indica que las cajas correctas son a menudo imprecisas, "
-         'consecuencia esperada del redimensionamiento a 448 × 448; para la tarea del prototipo (nombrar el objeto '
-         'y ubicarlo en izquierda/centro/derecha) la soltura geométrica exigida por AP50-95 es secundaria.')
+         'sin que este experimento aísle la causa de esa diferencia. El efecto del ajuste de las cajas sobre la zona anunciada requiere evaluación específica.')
     para('Finalmente, el límite de dos objetos eleva la precisión de la lista por encima del 80 % en todas las '
-         'configuraciones: anunciar menos objetos mejora la calidad de cada anuncio. Ese intercambio '
-         'entre cantidad y calidad de lo anunciado es un comportamiento de diseño del prototipo y este '
+         'configuraciones. La precisión de la lista mide correspondencia con anotaciones y no la calidad perceptiva de cada anuncio. Este '
          'experimento no mide la claridad del habla, cuyo desempeño corresponde al módulo de descriptores '
          'de audio.')
 
     # ================= 4.6 =================
     heading('4.6 Consideraciones de validez')
     heading('Validez interna', 2)
-    para('El emparejamiento por escena controla ambiente, objetos y pose entre las seis capturas de cada grupo; es '
+    para('El emparejamiento por escena aproxima un contexto común entre las seis capturas de cada grupo; es '
          'la fortaleza principal del diseño. Las amenazas principales son: (a) la verdad de campo se revisó una única vez '
          'por el autor del proyecto sobre un borrador asistido por modelo, sin auditoría de un segundo revisor '
          'independiente; (b) el emparejamiento por grupos proviene del orden ascendente de archivo y debe '
@@ -405,15 +401,14 @@ def main():
          '(Android 17, API 37, x86_64): las latencias reportadas (mediana 246,3 ms por detección y 104,0 ms por '
          'decodificación + preprocesamiento) son mediciones de depuración sobre emulador y no extrapolan al '
          'teléfono de destino. Las ópticas del lente 0,5x del iPhone no se trasferirán directamente al teléfono '
-         'Android del prototipo. El muestreo se limita a interiores con iluminación doméstica o diurna y a diez '
-         'clases COCO; la generalización a exteriores, iluminación nocturna u otras clases queda fuera del '
+         'Android del prototipo. El muestreo concentra espacios domésticos e institucionales y contiene también '
+         'vistas de terrazas; se restringe a diez clases COCO. La generalización a otros exteriores, iluminación nocturna u otras clases queda fuera del '
          'alcance de este capítulo.')
     heading('Validez del análisis de profundidad', 2)
     para('Las distancias del escenario 3 se estiman con el EXIF del iPhone y alturas de referencia por clase: '
-         'su incertidumbre es proporcional a la altura de la clase (~±30 %), los objetos ocultos se alejan '
+         'su incertidumbre depende de la altura y no fue calibrada con mediciones, los objetos ocultos se alejan '
          'artificialmente y la mezcla de clases confunde profundidad con dificultad. El rango sugerido de ~4 m '
-         'es una guía operacional del prototipo; de adoptarse como restricción del producto, debe validarse con '
-         'distancias medidas en escenas nuevas.')
+         'es una observación exploratoria que debe validarse con distancias medidas en escenas nuevas antes de proponer un rango de operación.')
     heading('Validez estadística', 2)
     para('La prueba t pareada usa 33 escenas por comparación (gl = 32) y el bootstrap 10 000 remuestreos por '
          'grupos de captura (semilla 20261013); ambos se reportan como análisis exploratorio. Los intervalos no '
