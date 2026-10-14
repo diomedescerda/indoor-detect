@@ -1,0 +1,1779 @@
+mode,image_id,capture_group,mount,lens,category,distance_m,band,tp
+detector,1,1,head_harness,1x,bed,1.3612274753993352,1,0
+detector,1,1,head_harness,1x,laptop,1.0750003802814516,1,1
+detector,2,1,head_harness,0.5x,bed,0.6090825684041732,0,1
+detector,2,1,head_harness,0.5x,laptop,0.7817594309453336,0,1
+detector,2,1,head_harness,0.5x,chair,1.6493740347936017,1,1
+detector,2,1,head_harness,0.5x,dining table,2.0439861776056927,2,0
+detector,3,1,chest_harness,1x,bed,0.8769963576683463,0,1
+detector,3,1,chest_harness,1x,laptop,0.832883177515359,0,1
+detector,4,1,chest_harness,0.5x,bed,0.47789555367096664,,1
+detector,4,1,chest_harness,0.5x,laptop,0.862866971905912,0,1
+detector,4,1,chest_harness,0.5x,chair,1.226179381129454,1,1
+detector,4,1,chest_harness,0.5x,dining table,1.155854556425207,1,0
+detector,5,1,gorillapod,1x,bed,0.5438237217894403,0,1
+detector,5,1,gorillapod,1x,laptop,0.9436324754824552,0,1
+detector,5,1,gorillapod,1x,chair,1.729699439935231,1,1
+detector,5,1,gorillapod,1x,dining table,1.6419717782302616,1,0
+detector,6,1,gorillapod,0.5x,bed,0.6090825684041732,0,1
+detector,6,1,gorillapod,0.5x,laptop,0.9245003270420485,0,1
+detector,6,1,gorillapod,0.5x,chair,1.7582949616195944,1,1
+detector,6,1,gorillapod,0.5x,dining table,0.6481296188757203,0,0
+detector,7,2,head_harness,1x,bed,1.5408338784034141,1,1
+detector,8,2,head_harness,0.5x,bed,0.694149966225985,0,1
+detector,9,2,chest_harness,1x,bed,0.8341356334213971,0,1
+detector,10,2,chest_harness,0.5x,bed,0.4872660547233385,,1
+detector,11,2,gorillapod,1x,bed,0.6045778705452087,0,1
+detector,12,2,gorillapod,0.5x,bed,0.4073863736211519,,1
+detector,13,3,head_harness,1x,chair,5.549545503941598,4,0
+detector,13,3,head_harness,1x,chair,5.6410189446633465,4,1
+detector,13,3,head_harness,1x,chair,2.791119925656854,2,0
+detector,13,3,head_harness,1x,chair,3.231263278981917,3,1
+detector,13,3,head_harness,1x,chair,3.50281658406712,3,1
+detector,13,3,head_harness,1x,chair,3.6980013081681937,3,1
+detector,13,3,head_harness,1x,dining table,2.739260228272736,2,1
+detector,13,3,head_harness,1x,dining table,3.585940662466127,3,0
+detector,13,3,head_harness,1x,refrigerator,11.169798989073293,5,0
+detector,14,3,head_harness,0.5x,chair,1.9018292442007856,1,0
+detector,14,3,head_harness,0.5x,chair,1.285374247804669,1,1
+detector,14,3,head_harness,0.5x,chair,6.012234384892806,5,1
+detector,14,3,head_harness,0.5x,chair,3.122584560111866,3,0
+detector,14,3,head_harness,0.5x,chair,3.5242368522582397,3,1
+detector,14,3,head_harness,0.5x,chair,3.570313029676299,3,1
+detector,14,3,head_harness,0.5x,chair,4.20056943727016,4,0
+detector,14,3,head_harness,0.5x,dining table,3.2788944932424653,3,0
+detector,14,3,head_harness,0.5x,dining table,3.724032787356127,3,0
+detector,14,3,head_harness,0.5x,dining table,2.2977033567011693,2,0
+detector,14,3,head_harness,0.5x,dining table,1.1909268334579723,1,0
+detector,14,3,head_harness,0.5x,refrigerator,11.740637505482562,5,0
+detector,15,3,chest_harness,1x,chair,1.4858040970318636,1,1
+detector,15,3,chest_harness,1x,chair,6.596048510828666,5,1
+detector,15,3,chest_harness,1x,chair,4.491348034616071,4,0
+detector,15,3,chest_harness,1x,chair,3.7395518846644658,3,1
+detector,15,3,chest_harness,1x,chair,3.9302112920041026,3,1
+detector,15,3,chest_harness,1x,chair,3.9878994426520977,3,1
+detector,15,3,chest_harness,1x,dining table,3.386121679768466,3,0
+detector,15,3,chest_harness,1x,refrigerator,15.74862149855652,5,0
+detector,15,3,chest_harness,1x,dining table,4.681599124154126,4,0
+detector,16,3,chest_harness,0.5x,chair,0.8283522930296755,0,1
+detector,16,3,chest_harness,0.5x,chair,1.5403245118320412,1,1
+detector,16,3,chest_harness,0.5x,chair,6.65640235470275,5,1
+detector,16,3,chest_harness,0.5x,chair,3.803658488401571,3,0
+detector,16,3,chest_harness,0.5x,chair,3.9663602028447964,3,1
+detector,16,3,chest_harness,0.5x,chair,4.235411110820975,4,0
+detector,16,3,chest_harness,0.5x,chair,4.778955536709667,4,1
+detector,16,3,chest_harness,0.5x,dining table,1.1936817267776894,1,0
+detector,16,3,chest_harness,0.5x,dining table,2.5398303251807532,2,0
+detector,16,3,chest_harness,0.5x,dining table,4.179986340233406,4,0
+detector,16,3,chest_harness,0.5x,dining table,3.33146924222127,3,0
+detector,16,3,chest_harness,0.5x,refrigerator,16.17875572323585,5,0
+detector,17,3,gorillapod,1x,chair,1.4345694729962821,1,1
+detector,17,3,gorillapod,1x,chair,1.4726553882085727,1,1
+detector,17,3,gorillapod,1x,chair,6.279624862927122,5,1
+detector,17,3,gorillapod,1x,chair,4.108890342409104,4,0
+detector,17,3,gorillapod,1x,chair,3.91553079688397,3,1
+detector,17,3,gorillapod,1x,chair,4.754573110501964,4,1
+detector,17,3,gorillapod,1x,chair,4.322339191365422,4,1
+detector,17,3,gorillapod,1x,dining table,3.7979472894700366,3,1
+detector,17,3,gorillapod,1x,refrigerator,9.891482291622987,5,0
+detector,18,3,gorillapod,0.5x,chair,0.750908587384126,0,1
+detector,18,3,gorillapod,0.5x,chair,1.4768563069071077,1,1
+detector,18,3,gorillapod,0.5x,chair,7.45517063726708,5,0
+detector,18,3,gorillapod,0.5x,chair,5.481743115637559,4,0
+detector,18,3,gorillapod,0.5x,chair,3.9854435139886024,3,1
+detector,18,3,gorillapod,0.5x,chair,4.181251058478452,4,1
+detector,18,3,gorillapod,0.5x,chair,4.214818315958322,4,0
+detector,18,3,gorillapod,0.5x,dining table,1.236055412515812,1,0
+detector,18,3,gorillapod,0.5x,dining table,2.2002926838478727,2,0
+detector,18,3,gorillapod,0.5x,dining table,4.409524008563097,4,0
+detector,18,3,gorillapod,0.5x,refrigerator,11.166357362516809,5,0
+detector,18,3,gorillapod,0.5x,dining table,2.926903820273157,2,0
+detector,19,4,head_harness,1x,refrigerator,2.451326624732704,2,1
+detector,19,4,head_harness,1x,sink,6.375864324427921,5,0
+detector,20,4,head_harness,0.5x,refrigerator,1.610685014224369,1,1
+detector,20,4,head_harness,0.5x,chair,1.9618870098071264,1,1
+detector,20,4,head_harness,0.5x,dining table,6.316955074278074,5,0
+detector,20,4,head_harness,0.5x,sink,6.0249280336734286,5,0
+detector,21,4,chest_harness,1x,refrigerator,1.7778852443116315,1,1
+detector,21,4,chest_harness,1x,chair,1.935000684506613,1,1
+detector,21,4,chest_harness,1x,dining table,2.9275843689664867,2,0
+detector,21,4,chest_harness,1x,sink,8.992783787626887,5,0
+detector,22,4,chest_harness,0.5x,refrigerator,1.8120206410024151,1,1
+detector,22,4,chest_harness,0.5x,chair,1.0899372276706256,1,1
+detector,22,4,chest_harness,0.5x,dining table,0.9715242942940638,0,1
+detector,22,4,chest_harness,0.5x,chair,1.4209527383957379,1,0
+detector,22,4,chest_harness,0.5x,sink,11.308563727367583,5,0
+detector,23,4,gorillapod,1x,refrigerator,1.8978012578575774,1,1
+detector,23,4,gorillapod,1x,chair,1.358449460143418,1,1
+detector,23,4,gorillapod,1x,dining table,10.409188867436397,5,0
+detector,23,4,gorillapod,1x,sink,6.256862573964057,5,0
+detector,24,4,gorillapod,0.5x,refrigerator,1.7852420108398177,1,1
+detector,24,4,gorillapod,0.5x,chair,1.4448005110982713,1,1
+detector,24,4,gorillapod,0.5x,chair,1.0297197012799835,1,1
+detector,24,4,gorillapod,0.5x,dining table,0.7908891239981826,0,1
+detector,24,4,gorillapod,0.5x,sink,5.971182505169764,4,0
+detector,25,5,head_harness,1x,bed,3.5787109433885744,3,0
+detector,26,5,head_harness,0.5x,bed,0.8875203139603666,0,0
+detector,27,5,chest_harness,1x,bed,1.212459445301047,1,1
+detector,28,5,chest_harness,0.5x,bed,0.8228665162546445,0,0
+detector,28,5,chest_harness,0.5x,dining table,1.0891829458521685,1,0
+detector,29,5,gorillapod,1x,bed,0.9019515385776082,0,0
+detector,30,5,gorillapod,0.5x,bed,0.5198863763784574,0,0
+detector,30,5,gorillapod,0.5x,dining table,0.6833032059116205,0,0
+detector,32,6,head_harness,0.5x,toilet,1.794763301564297,1,1
+detector,33,6,chest_harness,1x,toilet,1.5676309893321692,1,1
+detector,34,6,chest_harness,0.5x,toilet,1.1217270634776857,1,1
+detector,34,6,chest_harness,0.5x,sink,3.381029767468063,3,1
+detector,35,6,gorillapod,1x,toilet,1.3292354932586135,1,1
+detector,35,6,gorillapod,1x,sink,3.2800055951378186,3,1
+detector,36,6,gorillapod,0.5x,toilet,1.4294574968211216,1,1
+detector,36,6,gorillapod,0.5x,sink,1.6734389758175263,1,1
+detector,37,7,head_harness,1x,couch,4.082209236289565,4,1
+detector,37,7,head_harness,1x,refrigerator,5.055861163511202,4,1
+detector,37,7,head_harness,1x,dining table,2.2645080929883386,2,0
+detector,37,7,head_harness,1x,chair,10.085458113185982,5,0
+detector,37,7,head_harness,1x,chair,2.894087980305543,2,1
+detector,37,7,head_harness,1x,chair,6.525884661473283,5,0
+detector,37,7,head_harness,1x,chair,3.3618193710619946,3,1
+detector,37,7,head_harness,1x,sink,11.897852590124895,5,0
+detector,38,7,head_harness,0.5x,couch,1.041567232359799,1,1
+detector,38,7,head_harness,0.5x,refrigerator,5.7013156328244,4,1
+detector,38,7,head_harness,0.5x,dining table,2.708547703405556,2,0
+detector,38,7,head_harness,0.5x,chair,6.4268712390233445,5,0
+detector,38,7,head_harness,0.5x,chair,3.1836574442785497,3,1
+detector,38,7,head_harness,0.5x,chair,5.565221437195491,4,0
+detector,38,7,head_harness,0.5x,chair,4.334401533294814,4,1
+detector,38,7,head_harness,0.5x,dining table,1.145402803163134,1,0
+detector,38,7,head_harness,0.5x,sink,10.879688629514702,5,0
+detector,39,7,chest_harness,1x,couch,1.4485258580382325,1,1
+detector,39,7,chest_harness,1x,refrigerator,5.364420092669642,4,1
+detector,39,7,chest_harness,1x,dining table,2.8995702914114436,2,1
+detector,39,7,chest_harness,1x,chair,3.9048498839660626,3,1
+detector,39,7,chest_harness,1x,chair,2.959453296595567,2,1
+detector,39,7,chest_harness,1x,chair,4.10445651592585,4,0
+detector,39,7,chest_harness,1x,chair,5.743972347329463,4,0
+detector,39,7,chest_harness,1x,sink,12.229851370543841,5,0
+detector,40,7,chest_harness,0.5x,couch,1.1504892958745492,1,1
+detector,40,7,chest_harness,0.5x,refrigerator,5.753816435666953,4,1
+detector,40,7,chest_harness,0.5x,dining table,4.253700964206442,4,0
+detector,40,7,chest_harness,0.5x,chair,3.3337077481854314,3,1
+detector,40,7,chest_harness,0.5x,dining table,0.9159322926433494,0,0
+detector,40,7,chest_harness,0.5x,chair,1.3771951743422828,1,1
+detector,40,7,chest_harness,0.5x,chair,14.895445828705455,5,0
+detector,40,7,chest_harness,0.5x,chair,3.3035718692192493,3,1
+detector,40,7,chest_harness,0.5x,chair,7.800743577761934,5,0
+detector,40,7,chest_harness,0.5x,sink,15.880226082524333,5,0
+detector,41,7,gorillapod,1x,couch,1.23387678584611,1,1
+detector,41,7,gorillapod,1x,refrigerator,4.857755809408752,4,1
+detector,41,7,gorillapod,1x,dining table,2.7826544497107197,2,0
+detector,41,7,gorillapod,1x,chair,2.9796559254695714,2,1
+detector,41,7,gorillapod,1x,chair,3.1848815094271528,3,0
+detector,41,7,gorillapod,1x,chair,3.205433090004213,3,1
+detector,41,7,gorillapod,1x,chair,8.850421958120927,5,0
+detector,41,7,gorillapod,1x,chair,9.17175660310403,5,0
+detector,41,7,gorillapod,1x,sink,11.634651643042199,5,0
+detector,42,7,gorillapod,0.5x,couch,1.294300457858868,1,1
+detector,42,7,gorillapod,0.5x,refrigerator,5.244253356493495,4,0
+detector,42,7,gorillapod,0.5x,chair,3.3844064995764844,3,1
+detector,42,7,gorillapod,0.5x,chair,3.4292413234899173,3,1
+detector,42,7,gorillapod,0.5x,chair,8.903822569290671,5,0
+detector,42,7,gorillapod,0.5x,chair,9.557911073419334,5,0
+detector,42,7,gorillapod,0.5x,dining table,2.747676949644524,2,0
+detector,42,7,gorillapod,0.5x,chair,1.021788141397862,1,1
+detector,42,7,gorillapod,0.5x,chair,2.81848347407171,2,0
+detector,42,7,gorillapod,0.5x,dining table,1.045742998791637,1,0
+detector,42,7,gorillapod,0.5x,sink,10.447451275796002,5,0
+detector,43,8,head_harness,1x,refrigerator,2.863496588183336,2,1
+detector,43,8,head_harness,1x,sink,7.995678504147446,5,1
+detector,44,8,head_harness,0.5x,refrigerator,1.4613069685503346,1,1
+detector,44,8,head_harness,0.5x,sink,9.203914366996393,5,0
+detector,45,8,chest_harness,1x,refrigerator,1.4477633756810602,1,0
+detector,45,8,chest_harness,1x,sink,21.131436046675393,5,0
+detector,46,8,chest_harness,0.5x,refrigerator,0.9821250086733957,0,1
+detector,46,8,chest_harness,0.5x,sink,6.424448225145325,5,0
+detector,47,8,gorillapod,1x,refrigerator,1.6342177498218027,1,0
+detector,47,8,gorillapod,1x,sink,11.025439472783212,5,1
+detector,48,8,gorillapod,0.5x,refrigerator,1.1010972205526175,1,1
+detector,48,8,gorillapod,0.5x,sink,10.354403662870943,5,0
+detector,50,9,head_harness,0.5x,toilet,3.2305739428157345,3,1
+detector,51,9,chest_harness,1x,toilet,2.2360007909854196,2,1
+detector,52,9,chest_harness,0.5x,toilet,0.8369362546154753,0,1
+detector,53,9,gorillapod,1x,toilet,1.7067698345391664,1,1
+detector,54,9,gorillapod,0.5x,toilet,0.9023949560937806,0,1
+detector,54,9,gorillapod,0.5x,sink,1.1585346755659798,1,0
+detector,55,10,head_harness,1x,dining table,2.3420674951731892,2,1
+detector,55,10,head_harness,1x,chair,3.169715407001309,3,0
+detector,55,10,head_harness,1x,chair,9.788826992209925,5,0
+detector,55,10,head_harness,1x,chair,2.91947471697489,2,1
+detector,55,10,head_harness,1x,chair,3.617609975381929,3,1
+detector,56,10,head_harness,0.5x,chair,2.6625609418811,2,1
+detector,56,10,head_harness,0.5x,chair,1.3908900442662462,1,1
+detector,56,10,head_harness,0.5x,chair,4.051723172427761,4,0
+detector,56,10,head_harness,0.5x,chair,11.49956908416949,5,0
+detector,56,10,head_harness,0.5x,chair,3.319014619030843,3,0
+detector,56,10,head_harness,0.5x,chair,2.677093736450402,2,1
+detector,56,10,head_harness,0.5x,dining table,2.672898325914123,2,1
+detector,56,10,head_harness,0.5x,refrigerator,2.7147901807253816,2,0
+detector,57,10,chest_harness,1x,chair,1.4726553882085727,1,0
+detector,57,10,chest_harness,1x,chair,2.9983794390552925,2,0
+detector,57,10,chest_harness,1x,chair,1.3312804709405497,1,0
+detector,57,10,chest_harness,1x,dining table,4.607345892143979,4,0
+detector,57,10,chest_harness,1x,chair,9.509146221003927,5,0
+detector,57,10,chest_harness,1x,chair,4.508688559422054,4,0
+detector,57,10,chest_harness,1x,chair,4.355429140026662,4,0
+detector,58,10,chest_harness,0.5x,chair,0.7765802747153209,0,0
+detector,58,10,chest_harness,0.5x,chair,1.226179381129454,1,0
+detector,58,10,chest_harness,0.5x,chair,3.328201177351375,3,0
+detector,58,10,chest_harness,0.5x,dining table,7.494615984554207,5,0
+detector,58,10,chest_harness,0.5x,refrigerator,2.9786436657322866,2,0
+detector,58,10,chest_harness,0.5x,chair,5.086076297767144,4,0
+detector,58,10,chest_harness,0.5x,chair,4.900848433649145,4,0
+detector,58,10,chest_harness,0.5x,chair,12.85152669758159,5,0
+detector,59,10,gorillapod,1x,chair,4.160251471689218,4,0
+detector,59,10,gorillapod,1x,chair,13.312804709405498,5,0
+detector,59,10,gorillapod,1x,chair,2.7968077120599784,2,1
+detector,59,10,gorillapod,1x,chair,4.212912882723259,4,0
+detector,59,10,gorillapod,1x,dining table,3.6031807618049063,3,1
+detector,59,10,gorillapod,1x,chair,2.054445171204552,2,1
+detector,59,10,gorillapod,1x,chair,3.3282011773513744,3,0
+detector,60,10,gorillapod,0.5x,chair,1.1434310793354416,1,1
+detector,60,10,gorillapod,0.5x,chair,1.4013478641479473,1,1
+detector,60,10,gorillapod,0.5x,chair,4.659481648291925,4,0
+detector,60,10,gorillapod,0.5x,chair,15.531605494306417,5,0
+detector,60,10,gorillapod,0.5x,chair,5.824352060364906,4,0
+detector,60,10,gorillapod,0.5x,chair,3.9655162964186594,3,1
+detector,60,10,gorillapod,0.5x,dining table,5.076997925020591,4,0
+detector,60,10,gorillapod,0.5x,tv,2.643677530945773,2,1
+detector,61,11,head_harness,1x,sink,3.5633726357728994,3,1
+detector,62,11,head_harness,0.5x,sink,6.371940715612888,5,1
+detector,63,11,chest_harness,1x,sink,12.326671027227313,5,1
+detector,64,11,chest_harness,0.5x,sink,4.347735431201551,4,0
+detector,65,11,gorillapod,1x,sink,3.5242135285419685,3,0
+detector,66,11,gorillapod,0.5x,sink,3.8606573517258393,3,0
+detector,67,12,head_harness,1x,tv,3.521906007779232,3,1
+detector,67,12,head_harness,1x,chair,2.9453107764171453,2,1
+detector,67,12,head_harness,1x,chair,3.43113523438286,3,1
+detector,67,12,head_harness,1x,chair,2.8395198168683344,2,0
+detector,67,12,head_harness,1x,chair,4.212912882723259,4,1
+detector,67,12,head_harness,1x,dining table,3.649975317153022,3,0
+detector,67,12,head_harness,1x,chair,11.957967043389472,5,0
+detector,68,12,head_harness,0.5x,tv,3.5500812558414663,3,1
+detector,68,12,head_harness,0.5x,chair,4.437601569801833,4,1
+detector,68,12,head_harness,0.5x,chair,1.7673400747379466,1,1
+detector,68,12,head_harness,0.5x,chair,1.9018292442007856,1,1
+detector,68,12,head_harness,0.5x,dining table,1.174529370713719,1,1
+detector,68,12,head_harness,0.5x,chair,3.424358383752276,3,0
+detector,68,12,head_harness,0.5x,chair,1.4804930171711572,1,1
+detector,68,12,head_harness,0.5x,chair,2.096209935967125,2,0
+detector,68,12,head_harness,0.5x,chair,2.8561683538683167,2,1
+detector,68,12,head_harness,0.5x,chair,3.444451412524062,3,1
+detector,69,12,chest_harness,1x,tv,3.6373783359031413,3,1
+detector,69,12,chest_harness,1x,chair,3.3618193710619946,3,1
+detector,69,12,chest_harness,1x,chair,3.503369660369868,3,1
+detector,69,12,chest_harness,1x,chair,3.200193439760937,3,0
+detector,69,12,chest_harness,1x,chair,7.564093584889488,5,0
+detector,69,12,chest_harness,1x,chair,1.6476243452234527,1,1
+detector,69,12,chest_harness,1x,chair,5.943216388127454,4,1
+detector,69,12,chest_harness,1x,dining table,1.5274353229390365,1,1
+detector,70,12,chest_harness,0.5x,tv,3.6544954104250387,3,1
+detector,70,12,chest_harness,0.5x,chair,3.58421665253225,3,1
+detector,70,12,chest_harness,0.5x,chair,5.3251218837622,4,1
+detector,70,12,chest_harness,0.5x,chair,2.0708807325741887,2,1
+detector,70,12,chest_harness,0.5x,chair,4.334401533294814,4,0
+detector,70,12,chest_harness,0.5x,chair,0.8875203139603667,0,1
+detector,70,12,chest_harness,0.5x,chair,6.902935775247296,5,0
+detector,70,12,chest_harness,0.5x,chair,1.0963486231275117,1,1
+detector,70,12,chest_harness,0.5x,dining table,1.2491026640923677,1,1
+detector,70,12,chest_harness,0.5x,chair,3.849220692517078,3,0
+detector,71,12,gorillapod,1x,tv,3.4668762264076816,3,1
+detector,71,12,gorillapod,1x,chair,3.200193439760937,3,1
+detector,71,12,gorillapod,1x,chair,3.782046792444744,3,1
+detector,71,12,gorillapod,1x,chair,3.825518594656752,3,0
+detector,71,12,gorillapod,1x,chair,7.144745725006975,5,0
+detector,71,12,gorillapod,1x,chair,1.9693498090836534,1,0
+detector,71,12,gorillapod,1x,chair,5.1203095036174995,4,1
+detector,71,12,gorillapod,1x,dining table,1.4194348455595087,1,0
+detector,72,12,gorillapod,0.5x,tv,3.3992981042186257,3,1
+detector,72,12,gorillapod,0.5x,chair,3.388713926030491,3,1
+detector,72,12,gorillapod,0.5x,chair,4.235892407538113,4,1
+detector,72,12,gorillapod,0.5x,chair,1.3033515100117272,1,1
+detector,72,12,gorillapod,0.5x,chair,5.3251218837622,4,1
+detector,72,12,gorillapod,0.5x,chair,2.468272625237412,2,0
+detector,72,12,gorillapod,0.5x,chair,1.9715893045426387,1,1
+detector,72,12,gorillapod,0.5x,chair,4.0572357209616765,4,1
+detector,72,12,gorillapod,0.5x,chair,1.1638520415366367,1,1
+detector,72,12,gorillapod,0.5x,dining table,1.0151376140069552,1,1
+detector,73,13,head_harness,1x,tv,3.8926329559665196,3,1
+detector,73,13,head_harness,1x,chair,5.83894943394978,4,1
+detector,73,13,head_harness,1x,bed,5.689232781797221,4,0
+detector,74,13,head_harness,0.5x,tv,3.5500812558414663,3,1
+detector,74,13,head_harness,0.5x,chair,2.518638728806446,2,1
+detector,74,13,head_harness,0.5x,bed,0.8510468764003515,0,1
+detector,75,13,chest_harness,1x,tv,4.528164867144727,4,0
+detector,75,13,chest_harness,1x,chair,2.8446163908986106,2,1
+detector,75,13,chest_harness,1x,bed,1.061627169809051,1,1
+detector,76,13,chest_harness,0.5x,tv,4.141761465148377,4,0
+detector,76,13,chest_harness,0.5x,chair,3.0413130327854936,3,1
+detector,76,13,chest_harness,0.5x,bed,0.5309950596344074,0,1
+detector,77,13,gorillapod,1x,tv,3.962144258751636,3,0
+detector,77,13,gorillapod,1x,chair,2.750579485414359,2,1
+detector,77,13,gorillapod,1x,bed,1.0177985251839066,1,1
+detector,78,13,gorillapod,0.5x,tv,3.7246056341262386,3,0
+detector,78,13,gorillapod,0.5x,chair,2.8673733220258,2,1
+detector,78,13,gorillapod,0.5x,bed,0.5473693566275388,0,1
+detector,80,14,head_harness,0.5x,toilet,1.2819737868316408,1,1
+detector,80,14,head_harness,0.5x,sink,1.743899564273001,1,1
+detector,81,14,chest_harness,1x,toilet,1.559157308308752,1,1
+detector,81,14,chest_harness,1x,sink,3.792821854531481,3,1
+detector,82,14,chest_harness,0.5x,toilet,1.4401310343545013,1,1
+detector,82,14,chest_harness,0.5x,sink,3.1506767195537506,3,1
+detector,83,14,gorillapod,1x,toilet,1.6296276951249669,1,1
+detector,83,14,gorillapod,1x,sink,2.5131361492849873,2,1
+detector,84,14,gorillapod,0.5x,toilet,1.668210964248656,1,1
+detector,84,14,gorillapod,0.5x,sink,2.756121420827401,2,1
+detector,85,15,head_harness,1x,bed,1.4132489075802015,1,1
+detector,86,15,head_harness,0.5x,bed,0.6680260427658673,0,1
+detector,87,15,chest_harness,1x,bed,0.8372833150569495,0,1
+detector,88,15,chest_harness,0.5x,bed,0.8339117043922908,0,1
+detector,89,15,gorillapod,1x,bed,0.860350446848879,0,1
+detector,90,15,gorillapod,0.5x,bed,0.9295492178832299,0,1
+detector,91,16,head_harness,1x,tv,3.3116429625386807,3,1
+detector,91,16,head_harness,1x,toilet,3.1071456875245107,3,0
+detector,92,16,head_harness,0.5x,tv,3.882901373576604,3,1
+detector,92,16,head_harness,0.5x,bed,1.4792005232672776,1,1
+detector,92,16,head_harness,0.5x,toilet,2.4295509835419526,2,0
+detector,93,16,chest_harness,1x,tv,3.6373783359031413,3,1
+detector,93,16,chest_harness,1x,bed,1.5962595574826735,1,1
+detector,93,16,chest_harness,1x,toilet,2.913208958839734,2,0
+detector,94,16,chest_harness,0.5x,tv,3.6544954104250387,3,1
+detector,94,16,chest_harness,0.5x,bed,0.6371940715612888,0,1
+detector,94,16,chest_harness,0.5x,toilet,3.277940178393521,3,0
+detector,95,16,gorillapod,1x,tv,3.215653311450603,3,1
+detector,95,16,gorillapod,1x,bed,3.1697154070013087,3,0
+detector,95,16,gorillapod,1x,toilet,3.05013986874052,3,0
+detector,96,16,gorillapod,0.5x,tv,3.185970357806444,3,1
+detector,96,16,gorillapod,0.5x,bed,0.7440290057152774,0,1
+detector,96,16,gorillapod,0.5x,toilet,2.8435647767060424,2,0
+detector,98,17,head_harness,0.5x,toilet,5.047771785649585,4,0
+detector,99,17,chest_harness,1x,toilet,2.670778722565918,2,0
+detector,100,17,chest_harness,0.5x,toilet,0.8519109061655618,0,1
+detector,101,17,gorillapod,1x,toilet,2.4444415426874504,2,0
+detector,102,17,gorillapod,0.5x,toilet,1.223702251066566,1,1
+detector,103,18,head_harness,1x,bed,2.175294887157761,2,1
+detector,104,18,head_harness,0.5x,bed,0.6151130888834224,0,1
+detector,105,18,chest_harness,1x,bed,0.964695993435181,0,1
+detector,106,18,chest_harness,0.5x,bed,0.8689010066744848,0,1
+detector,107,18,gorillapod,1x,bed,0.952275014978934,0,1
+detector,108,18,gorillapod,0.5x,bed,0.862866971905912,0,1
+detector,112,19,chest_harness,0.5x,toilet,1.552451497064194,1,0
+detector,112,19,chest_harness,0.5x,sink,2.0233324206880203,2,1
+detector,114,19,gorillapod,0.5x,sink,1.800765854412338,1,1
+detector,115,20,head_harness,1x,tv,4.930668410890925,4,1
+detector,115,20,head_harness,1x,chair,5.83894943394978,4,0
+detector,115,20,head_harness,1x,chair,7.924288517503273,5,0
+detector,115,20,head_harness,1x,chair,12.326671027227313,5,0
+detector,115,20,head_harness,1x,dining table,3.8746549861554107,3,0
+detector,116,20,head_harness,0.5x,tv,4.778955536709666,4,0
+detector,116,20,head_harness,0.5x,chair,3.006117192446403,3,1
+detector,116,20,head_harness,0.5x,chair,2.8239282716920755,2,1
+detector,116,20,head_harness,0.5x,chair,2.553140629201055,2,1
+detector,116,20,head_harness,0.5x,dining table,4.263784237741642,4,0
+detector,117,20,chest_harness,1x,tv,4.7208527338317365,4,1
+detector,117,20,chest_harness,1x,chair,3.782046792444744,3,1
+detector,117,20,chest_harness,1x,chair,3.5406395503738026,3,1
+detector,117,20,chest_harness,1x,chair,3.025637433955795,3,1
+detector,118,20,chest_harness,0.5x,tv,4.845109922185663,4,0
+detector,118,20,chest_harness,0.5x,chair,4.051723172427761,4,1
+detector,118,20,chest_harness,0.5x,chair,3.803658488401571,3,1
+detector,118,20,chest_harness,0.5x,chair,3.388713926030491,3,1
+detector,118,20,chest_harness,0.5x,dining table,3.9905409654066517,3,0
+detector,119,20,gorillapod,1x,tv,4.7208527338317365,4,1
+detector,119,20,gorillapod,1x,chair,3.617609975381929,3,1
+detector,119,20,gorillapod,1x,chair,3.3618193710619946,3,1
+detector,119,20,gorillapod,1x,chair,3.200193439760937,3,1
+detector,120,20,gorillapod,0.5x,tv,4.970113758178053,4,0
+detector,120,20,gorillapod,0.5x,chair,4.141761465148377,4,1
+detector,120,20,gorillapod,0.5x,chair,3.9655162964186594,3,1
+detector,120,20,gorillapod,0.5x,chair,3.58421665253225,3,1
+detector,120,20,gorillapod,0.5x,dining table,4.941117201966513,4,0
+detector,123,21,chest_harness,1x,toilet,6.009252125773315,5,0
+detector,124,21,chest_harness,0.5x,toilet,1.028845204718387,1,1
+detector,125,21,gorillapod,1x,toilet,2.747086686067801,2,1
+detector,126,21,gorillapod,0.5x,toilet,1.1537764081484767,1,1
+detector,127,22,head_harness,1x,sink,10.565718023337697,5,0
+detector,127,22,head_harness,1x,refrigerator,5.392918574411949,4,1
+detector,128,22,head_harness,0.5x,sink,13.805871550494592,5,0
+detector,128,22,head_harness,0.5x,refrigerator,4.646206771801064,4,0
+detector,129,22,chest_harness,1x,sink,22.756931127188885,5,0
+detector,129,22,chest_harness,1x,refrigerator,4.902653249465408,4,1
+detector,130,22,chest_harness,0.5x,sink,20.708807325741887,5,0
+detector,130,22,chest_harness,0.5x,refrigerator,5.575448126161277,4,0
+detector,131,22,gorillapod,1x,sink,21.131436046675393,5,0
+detector,131,22,gorillapod,1x,refrigerator,5.531198537858409,4,1
+detector,132,22,gorillapod,0.5x,sink,18.407828733992787,5,0
+detector,132,22,gorillapod,0.5x,refrigerator,5.845227874201338,4,0
+detector,133,23,head_harness,1x,refrigerator,7.190558099215932,5,1
+detector,133,23,head_harness,1x,sink,29.58401046534555,5,0
+detector,133,23,head_harness,1x,dining table,1.8736539961385514,1,1
+detector,133,23,head_harness,1x,chair,5.282859011668848,4,0
+detector,133,23,head_harness,1x,chair,2.311250817605121,2,1
+detector,133,23,head_harness,1x,chair,15.848577035006546,5,1
+detector,133,23,head_harness,1x,chair,5.368066415082862,4,0
+detector,133,23,head_harness,1x,chair,3.91553079688397,3,1
+detector,134,23,head_harness,0.5x,refrigerator,10.354403662870943,5,0
+detector,134,23,head_harness,0.5x,sink,33.13409172118702,5,0
+detector,134,23,head_harness,0.5x,dining table,2.4213374719328975,2,1
+detector,134,23,head_harness,0.5x,chair,5.3251218837622,4,0
+detector,134,23,head_harness,0.5x,chair,2.3894777683548334,2,0
+detector,134,23,head_harness,0.5x,chair,13.3128047094055,5,0
+detector,134,23,head_harness,0.5x,chair,6.65640235470275,5,0
+detector,134,23,head_harness,0.5x,chair,1.6641005886756874,1,1
+detector,134,23,head_harness,0.5x,chair,1.6943569630152455,1,1
+detector,135,23,chest_harness,1x,refrigerator,9.378988825064258,5,0
+detector,135,23,chest_harness,1x,sink,42.262872093350786,5,0
+detector,135,23,chest_harness,1x,dining table,2.531964859646691,2,0
+detector,135,23,chest_harness,1x,chair,4.266924586347916,4,0
+detector,135,23,chest_harness,1x,chair,2.5601547518087497,2,1
+detector,135,23,chest_harness,1x,chair,12.326671027227313,5,0
+detector,135,23,chest_harness,1x,chair,7.564093584889488,5,0
+detector,135,23,chest_harness,1x,chair,2.4117399835879523,2,1
+detector,135,23,chest_harness,1x,chair,3.4668762264076816,3,1
+detector,136,23,chest_harness,0.5x,sink,45.48262418831437,5,0
+detector,136,23,chest_harness,0.5x,dining table,3.2788944932424653,3,1
+detector,136,23,chest_harness,0.5x,chair,5.03557624942052,4,0
+detector,136,23,chest_harness,0.5x,chair,2.535686077775273,2,0
+detector,136,23,chest_harness,0.5x,chair,14.133024904771716,5,0
+detector,136,23,chest_harness,0.5x,chair,4.551942018113982,4,0
+detector,136,23,chest_harness,0.5x,chair,2.167200766647407,2,1
+detector,136,23,chest_harness,0.5x,chair,2.4850568790890266,2,1
+detector,136,23,chest_harness,0.5x,chair,1.294300457858868,1,0
+detector,136,23,chest_harness,0.5x,chair,9.577557344896043,5,0
+detector,136,23,chest_harness,0.5x,refrigerator,9.963684877324434,5,0
+detector,137,23,gorillapod,1x,refrigerator,7.892075962554071,5,1
+detector,137,23,gorillapod,1x,sink,32.871122739272835,5,0
+detector,137,23,gorillapod,1x,dining table,2.341969913093477,2,1
+detector,137,23,gorillapod,1x,chair,6.792247300717091,5,0
+detector,137,23,gorillapod,1x,chair,2.4653342054454623,2,1
+detector,137,23,gorillapod,1x,chair,13.312804709405498,5,1
+detector,137,23,gorillapod,1x,chair,7.081279100747605,5,0
+detector,137,23,gorillapod,1x,chair,2.5213645282964956,2,1
+detector,137,23,gorillapod,1x,chair,4.559179695001883,4,1
+detector,137,23,gorillapod,1x,chair,9.29794992974263,5,0
+detector,138,23,gorillapod,0.5x,refrigerator,10.066781338902306,5,0
+detector,138,23,gorillapod,0.5x,sink,33.13409172118702,5,0
+detector,138,23,gorillapod,0.5x,chair,2.004078128297602,2,1
+detector,138,23,gorillapod,0.5x,chair,2.4205099471646365,2,1
+detector,138,23,gorillapod,0.5x,chair,1.2678861628005238,1,0
+detector,138,23,gorillapod,0.5x,chair,2.8737840711075013,2,0
+detector,138,23,gorillapod,0.5x,chair,9.645711783241143,5,0
+detector,138,23,gorillapod,0.5x,chair,11.508444947926952,5,0
+detector,138,23,gorillapod,0.5x,chair,2.991161385518809,2,0
+detector,138,23,gorillapod,0.5x,chair,2.7474371244765354,2,1
+detector,138,23,gorillapod,0.5x,dining table,2.5102585537802677,2,0
+detector,139,24,head_harness,1x,sink,19.722673643563702,5,0
+detector,140,24,head_harness,0.5x,refrigerator,1.0565718023337696,1,1
+detector,140,24,head_harness,0.5x,sink,20.708807325741887,5,0
+detector,141,24,chest_harness,1x,refrigerator,1.4191890985294602,1,0
+detector,141,24,chest_harness,1x,sink,14.792005232672775,5,0
+detector,142,24,chest_harness,0.5x,refrigerator,0.9015028064688632,0,1
+detector,142,24,chest_harness,0.5x,sink,27.611743100989184,5,0
+detector,143,24,gorillapod,1x,refrigerator,1.2639652908778005,1,1
+detector,143,24,gorillapod,1x,sink,22.756931127188885,5,0
+detector,144,24,gorillapod,0.5x,refrigerator,0.9413094238973585,0,1
+detector,144,24,gorillapod,0.5x,sink,23.66720837227644,5,0
+detector,145,25,head_harness,1x,person,3.45417704609117,3,1
+detector,145,25,head_harness,1x,bed,1.5848577035006544,1,1
+detector,146,25,head_harness,0.5x,person,3.8686782916221105,3,1
+detector,146,25,head_harness,0.5x,bed,0.6371940715612888,0,0
+detector,146,25,head_harness,0.5x,bed,0.7100162511682933,0,0
+detector,147,25,chest_harness,1x,person,3.929126389928706,3,1
+detector,147,25,chest_harness,1x,bed,0.7347022466559325,0,1
+detector,148,25,chest_harness,0.5x,person,3.8686782916221105,3,1
+detector,148,25,chest_harness,0.5x,bed,0.7666288426235724,0,1
+detector,149,25,gorillapod,1x,person,3.612989783842488,3,1
+detector,149,25,gorillapod,1x,bed,0.7521358592884462,0,1
+detector,149,25,gorillapod,1x,bed,0.8566798397300834,0,0
+detector,150,25,gorillapod,0.5x,person,3.7452098355065115,3,1
+detector,150,25,gorillapod,0.5x,bed,0.8339117043922908,0,0
+detector,150,25,gorillapod,0.5x,bed,0.4872660547233385,,1
+detector,154,26,chest_harness,0.5x,toilet,1.1139910147640464,1,1
+detector,155,26,gorillapod,1x,toilet,2.383835554025778,2,1
+detector,156,26,gorillapod,0.5x,toilet,1.106360939320457,1,1
+detector,156,26,gorillapod,0.5x,sink,1.0619901192688148,1,1
+detector,157,27,head_harness,1x,tv,2.4363302736166927,2,0
+detector,157,27,head_harness,1x,tv,3.765237695589434,3,0
+detector,157,27,head_harness,1x,tv,3.5500812558414663,3,0
+detector,157,27,head_harness,1x,laptop,0.8350325534573342,0,0
+detector,157,27,head_harness,1x,laptop,0.8350325534573342,0,1
+detector,157,27,head_harness,1x,person,3.826627440626218,3,1
+detector,157,27,head_harness,1x,person,10.058563558217488,5,0
+detector,157,27,head_harness,1x,chair,0.9136238526062598,0,1
+detector,157,27,head_harness,1x,chair,1.4560880150912265,1,1
+detector,157,27,head_harness,1x,chair,1.0240619007235,1,0
+detector,157,27,head_harness,1x,chair,2.7938729715436517,2,0
+detector,157,27,head_harness,1x,chair,5.3251218837622,4,0
+detector,157,27,head_harness,1x,laptop,1.5935981012498568,1,0
+detector,157,27,head_harness,1x,chair,7.453679901286823,5,0
+detector,157,27,head_harness,1x,chair,2.9646361940856085,2,0
+detector,157,27,head_harness,1x,chair,4.037241761760576,4,0
+detector,157,27,head_harness,1x,chair,9.510359277034162,5,0
+detector,157,27,head_harness,1x,chair,3.113326082547014,3,0
+detector,157,27,head_harness,1x,chair,3.067214118845997,3,0
+detector,158,27,head_harness,0.5x,tv,2.49303458977631,2,1
+detector,158,27,head_harness,0.5x,tv,4.528164867144727,4,1
+detector,158,27,head_harness,0.5x,tv,4.186416575284747,4,0
+detector,158,27,head_harness,0.5x,person,3.5120682815005195,3,0
+detector,158,27,head_harness,0.5x,person,9.11101771577671,5,0
+detector,158,27,head_harness,0.5x,chair,1.751684830184934,1,0
+detector,158,27,head_harness,0.5x,chair,1.9693498090836534,1,0
+detector,158,27,head_harness,0.5x,chair,7.081279100747605,5,1
+detector,158,27,head_harness,0.5x,chair,2.8205094723316733,2,0
+detector,158,27,head_harness,0.5x,chair,2.91947471697489,2,0
+detector,158,27,head_harness,0.5x,chair,3.200193439760937,3,0
+detector,158,27,head_harness,0.5x,chair,9.13964349128484,5,0
+detector,158,27,head_harness,0.5x,chair,3.7228201088941546,3,0
+detector,158,27,head_harness,0.5x,chair,2.4899571146907373,2,0
+detector,159,27,chest_harness,1x,tv,2.2412129140413293,2,1
+detector,159,27,chest_harness,1x,tv,4.528164867144727,4,1
+detector,159,27,chest_harness,1x,person,4.726768589387917,4,1
+detector,159,27,chest_harness,1x,chair,1.1637067053676133,1,1
+detector,159,27,chest_harness,1x,chair,1.5552341950240067,1,1
+detector,159,27,chest_harness,1x,chair,3.43113523438286,3,0
+detector,159,27,chest_harness,1x,chair,3.617609975381929,3,0
+detector,159,27,chest_harness,1x,chair,1.4102547361658366,1,0
+detector,159,27,chest_harness,1x,chair,3.578710943388575,3,0
+detector,159,27,chest_harness,1x,chair,3.529282020467511,3,0
+detector,160,27,chest_harness,0.5x,tv,2.2591426173536604,2,1
+detector,160,27,chest_harness,0.5x,tv,5.647856543384151,4,0
+detector,160,27,chest_harness,0.5x,tv,1.7500400556964975,1,1
+detector,160,27,chest_harness,0.5x,laptop,0.9103972974784318,0,0
+detector,160,27,chest_harness,0.5x,person,6.28660222388593,5,0
+detector,160,27,chest_harness,0.5x,chair,1.0412249493389776,1,1
+detector,160,27,chest_harness,0.5x,chair,1.4675532750525748,1,1
+detector,160,27,chest_harness,0.5x,chair,0.7059820679230189,0,0
+detector,160,27,chest_harness,0.5x,chair,4.141761465148377,4,1
+detector,160,27,chest_harness,0.5x,chair,3.055397802158639,3,0
+detector,160,27,chest_harness,0.5x,chair,3.8829013735766043,3,0
+detector,160,27,chest_harness,0.5x,chair,4.778955536709667,4,0
+detector,160,27,chest_harness,0.5x,chair,0.7856645207363347,0,0
+detector,160,27,chest_harness,0.5x,chair,3.2640852177176356,3,0
+detector,161,27,gorillapod,1x,tv,2.2412129140413293,2,1
+detector,161,27,gorillapod,1x,tv,4.622501635210242,4,0
+detector,161,27,gorillapod,1x,tv,5.996758878110584,4,0
+detector,161,27,gorillapod,1x,person,4.555508857888355,4,1
+detector,161,27,gorillapod,1x,person,9.52515488467565,5,1
+detector,161,27,gorillapod,1x,chair,1.5337332614522463,1,1
+detector,161,27,gorillapod,1x,chair,1.6000967198804685,1,0
+detector,161,27,gorillapod,1x,chair,2.161169595682711,2,0
+detector,161,27,gorillapod,1x,chair,3.4668762264076816,3,0
+detector,161,27,gorillapod,1x,chair,3.0816677568068283,3,1
+detector,161,27,gorillapod,1x,chair,3.0533955755517197,3,0
+detector,161,27,gorillapod,1x,chair,1.372157028829377,1,0
+detector,161,27,gorillapod,1x,chair,4.695874677038976,4,0
+detector,161,27,gorillapod,1x,chair,11.416520632369005,5,0
+detector,161,27,gorillapod,1x,chair,10.331215822912847,5,0
+detector,162,27,gorillapod,0.5x,tv,2.65157584196439,2,1
+detector,162,27,gorillapod,0.5x,tv,4.778955536709666,4,1
+detector,162,27,gorillapod,0.5x,tv,2.701148781618507,2,0
+detector,162,27,gorillapod,0.5x,laptop,1.1766367798716981,1,1
+detector,162,27,gorillapod,0.5x,person,5.96694448368834,4,0
+detector,162,27,gorillapod,0.5x,person,9.237725650422778,5,0
+detector,162,27,gorillapod,0.5x,chair,1.0529902030038247,1,1
+detector,162,27,gorillapod,0.5x,chair,1.5030585962232015,1,1
+detector,162,27,gorillapod,0.5x,chair,0.8510468764003516,0,1
+detector,162,27,gorillapod,0.5x,chair,3.803658488401571,3,0
+detector,162,27,gorillapod,0.5x,chair,4.437601569801833,4,0
+detector,162,27,gorillapod,0.5x,chair,0.8283522930296755,0,0
+detector,162,27,gorillapod,0.5x,laptop,0.8180772428593619,0,0
+detector,162,27,gorillapod,0.5x,chair,4.36178951396389,4,0
+detector,162,27,gorillapod,0.5x,chair,8.768725755430582,5,0
+detector,162,27,gorillapod,0.5x,person,10.673024845766623,5,0
+detector,162,27,gorillapod,0.5x,chair,10.33860856644998,5,0
+detector,163,28,head_harness,1x,person,7.143866163506738,5,1
+detector,163,28,head_harness,1x,person,25.14640889554372,5,1
+detector,163,28,head_harness,1x,dining table,2.8388696911190174,2,1
+detector,163,28,head_harness,1x,dining table,4.845656886565219,4,0
+detector,163,28,head_harness,1x,dining table,4.6841349903463785,4,0
+detector,163,28,head_harness,1x,chair,2.429343925073996,2,0
+detector,163,28,head_harness,1x,chair,4.559179695001883,4,1
+detector,163,28,head_harness,1x,chair,3.91553079688397,3,1
+detector,163,28,head_harness,1x,chair,3.6980013081681937,3,1
+detector,163,28,head_harness,1x,chair,3.7395518846644658,3,1
+detector,163,28,head_harness,1x,chair,5.7382778919851285,4,1
+detector,163,28,head_harness,1x,chair,10.085458113185982,5,0
+detector,163,28,head_harness,1x,chair,15.848577035006546,5,0
+detector,163,28,head_harness,1x,chair,13.867504905630726,5,0
+detector,163,28,head_harness,1x,chair,4.058781923599237,4,0
+detector,163,28,head_harness,1x,chair,23.772865552509817,5,0
+detector,163,28,head_harness,1x,dining table,14.052404971039135,5,0
+detector,163,28,head_harness,1x,chair,9.495581105139443,5,1
+detector,163,28,head_harness,1x,chair,22.14003776718027,5,0
+detector,163,28,head_harness,1x,chair,21.777858186496804,5,0
+detector,163,28,head_harness,1x,chair,22.795898475009416,5,0
+detector,163,28,head_harness,1x,chair,23.201123578608396,5,0
+detector,163,28,head_harness,1x,chair,24.70824927506588,5,0
+detector,163,28,head_harness,1x,chair,21.34488489563171,5,0
+detector,163,28,head_harness,1x,chair,45.29705583329533,5,0
+detector,163,28,head_harness,1x,chair,42.587347119019505,5,0
+detector,163,28,head_harness,1x,chair,73.83696455577092,5,0
+detector,163,28,head_harness,1x,chair,44.023825097240405,5,0
+detector,163,28,head_harness,1x,dining table,12.518846299366713,5,0
+detector,163,28,head_harness,1x,dining table,29.101537605051274,5,0
+detector,164,28,head_harness,0.5x,person,7.48683554761257,5,1
+detector,164,28,head_harness,0.5x,person,7.667840447320709,5,1
+detector,164,28,head_harness,0.5x,person,15.79760935775688,5,0
+detector,164,28,head_harness,0.5x,person,9.351832236355746,5,1
+detector,164,28,head_harness,0.5x,dining table,2.1559854202142237,2,1
+detector,164,28,head_harness,0.5x,dining table,3.49748745945863,3,0
+detector,164,28,head_harness,0.5x,dining table,4.266963146960508,4,0
+detector,164,28,head_harness,0.5x,dining table,8.283522930296755,5,0
+detector,164,28,head_harness,0.5x,chair,4.904717524517816,4,0
+detector,164,28,head_harness,0.5x,chair,3.58421665253225,3,1
+detector,164,28,head_harness,0.5x,chair,2.7817800885324924,2,0
+detector,164,28,head_harness,0.5x,chair,2.9584010465345556,2,1
+detector,164,28,head_harness,0.5x,chair,3.328201177351375,3,0
+detector,164,28,head_harness,0.5x,chair,5.7626734461367235,4,1
+detector,164,28,head_harness,0.5x,chair,4.334401533294814,4,1
+detector,164,28,head_harness,0.5x,chair,4.437601569801833,4,1
+detector,164,28,head_harness,0.5x,chair,4.051723172427761,4,0
+detector,164,28,head_harness,0.5x,chair,12.425284395445134,5,0
+detector,164,28,head_harness,0.5x,chair,13.3128047094055,5,0
+detector,164,28,head_harness,0.5x,chair,6.1551937229748015,5,1
+detector,164,28,head_harness,0.5x,chair,5.177201831435472,4,0
+detector,164,28,head_harness,0.5x,chair,6.012234384892806,5,0
+detector,164,28,head_harness,0.5x,chair,7.45517063726708,5,0
+detector,164,28,head_harness,0.5x,person,16.631615662577634,5,0
+detector,164,28,head_harness,0.5x,dining table,28.092268750671725,5,0
+detector,164,28,head_harness,0.5x,dining table,26.1984079360197,5,0
+detector,164,28,head_harness,0.5x,dining table,23.0266182407664,5,0
+detector,164,28,head_harness,0.5x,chair,18.802448013283936,5,0
+detector,164,28,head_harness,0.5x,chair,17.578803671933695,5,0
+detector,164,28,head_harness,0.5x,chair,23.30469095738381,5,0
+detector,164,28,head_harness,0.5x,chair,22.161624962149464,5,0
+detector,164,28,head_harness,0.5x,chair,57.52446479372747,5,0
+detector,164,28,head_harness,0.5x,chair,47.85090267822259,5,0
+detector,164,28,head_harness,0.5x,chair,33.43125846308107,5,0
+detector,164,28,head_harness,0.5x,chair,20.33598100727518,5,0
+detector,164,28,head_harness,0.5x,chair,11.244601262846276,5,0
+detector,164,28,head_harness,0.5x,chair,30.74297170007043,5,0
+detector,164,28,head_harness,0.5x,chair,5.87576500415123,4,0
+detector,164,28,head_harness,0.5x,chair,5.256413055959303,4,1
+detector,164,28,head_harness,0.5x,chair,8.317717993157515,5,0
+detector,164,28,head_harness,0.5x,chair,31.443149039506874,5,0
+detector,164,28,head_harness,0.5x,chair,13.66416905657456,5,0
+detector,165,28,chest_harness,1x,person,8.61178386833689,5,1
+detector,165,28,chest_harness,1x,person,19.0503097693513,5,1
+detector,165,28,chest_harness,1x,person,8.059746440879398,5,1
+detector,165,28,chest_harness,1x,dining table,2.6513971643470065,2,1
+detector,165,28,chest_harness,1x,dining table,4.461080943187027,4,0
+detector,165,28,chest_harness,1x,dining table,6.854831693189822,5,0
+detector,165,28,chest_harness,1x,chair,4.68760729204419,4,0
+detector,165,28,chest_harness,1x,chair,3.466605397860974,3,1
+detector,165,28,chest_harness,1x,chair,5.200314339611523,4,1
+detector,165,28,chest_harness,1x,chair,4.754573110501964,4,0
+detector,165,28,chest_harness,1x,chair,5.042729056592991,4,1
+detector,165,28,chest_harness,1x,chair,4.8234799671759045,4,0
+detector,165,28,chest_harness,1x,chair,6.656402354702749,5,0
+detector,165,28,chest_harness,1x,chair,9.509146221003927,5,1
+detector,165,28,chest_harness,1x,chair,7.740002738026452,5,1
+detector,165,28,chest_harness,1x,chair,7.924288517503273,5,0
+detector,165,28,chest_harness,1x,chair,15.128187169778975,5,0
+detector,165,28,chest_harness,1x,chair,17.51684830184934,5,0
+detector,165,28,chest_harness,1x,dining table,18.32424446101273,5,0
+detector,165,28,chest_harness,1x,chair,19.554648515577995,5,0
+detector,165,28,chest_harness,1x,chair,21.85651733607864,5,0
+detector,165,28,chest_harness,1x,chair,22.453710085015175,5,0
+detector,165,28,chest_harness,1x,chair,32.37549783415734,5,0
+detector,166,28,chest_harness,0.5x,person,9.08064765672412,5,1
+detector,166,28,chest_harness,0.5x,person,23.350236831576307,5,1
+detector,166,28,chest_harness,0.5x,person,8.382136298514572,5,1
+detector,166,28,chest_harness,0.5x,dining table,3.4796431356858815,3,0
+detector,166,28,chest_harness,0.5x,dining table,5.731176929364981,4,0
+detector,166,28,chest_harness,0.5x,dining table,6.495333853280313,5,0
+detector,166,28,chest_harness,0.5x,chair,6.293325862628055,5,0
+detector,166,28,chest_harness,0.5x,chair,3.6012372932897363,3,1
+detector,166,28,chest_harness,0.5x,chair,6.409868934158204,5,1
+detector,166,28,chest_harness,0.5x,chair,5.6743102040089015,4,1
+detector,166,28,chest_harness,0.5x,chair,5.494173372135603,4,1
+detector,166,28,chest_harness,0.5x,chair,10.816653826391969,5,1
+detector,166,28,chest_harness,0.5x,chair,8.049602847547511,5,1
+detector,166,28,chest_harness,0.5x,chair,17.30664612222715,5,0
+detector,166,28,chest_harness,0.5x,dining table,17.50239661063557,5,0
+detector,166,28,chest_harness,0.5x,dining table,4.1672372882465645,4,0
+detector,166,28,chest_harness,0.5x,dining table,4.889428293703815,4,0
+detector,166,28,chest_harness,0.5x,dining table,35.963091159349624,5,0
+detector,166,28,chest_harness,0.5x,dining table,28.49524966099089,5,0
+detector,166,28,chest_harness,0.5x,dining table,28.747482015993512,5,0
+detector,166,28,chest_harness,0.5x,dining table,31.65024617191273,5,0
+detector,166,28,chest_harness,0.5x,dining table,30.446877437251466,5,0
+detector,166,28,chest_harness,0.5x,dining table,20.418443827985612,5,0
+detector,166,28,chest_harness,0.5x,dining table,18.555151461521287,5,0
+detector,167,28,gorillapod,1x,person,7.484050266530868,5,1
+detector,167,28,gorillapod,1x,person,20.279362012535255,5,1
+detector,167,28,gorillapod,1x,person,7.7816521415886495,5,1
+detector,167,28,gorillapod,1x,dining table,2.70238557135368,2,1
+detector,167,28,gorillapod,1x,dining table,4.763527108826826,4,0
+detector,167,28,gorillapod,1x,dining table,7.026202485519567,5,1
+detector,167,28,gorillapod,1x,chair,4.160251471689218,4,0
+detector,167,28,gorillapod,1x,chair,3.7395518846644658,3,1
+detector,167,28,gorillapod,1x,chair,6.05127486791159,5,1
+detector,167,28,gorillapod,1x,chair,5.547001962252291,4,1
+detector,167,28,gorillapod,1x,chair,5.282859011668848,4,0
+detector,167,28,gorillapod,1x,chair,4.967464443808022,4,0
+detector,167,28,gorillapod,1x,chair,6.525884661473283,5,0
+detector,167,28,gorillapod,1x,chair,9.245003270420485,5,0
+detector,167,28,gorillapod,1x,chair,7.081279100747605,5,1
+detector,167,28,gorillapod,1x,chair,15.848577035006546,5,0
+detector,167,28,gorillapod,1x,chair,24.409249558865966,5,0
+detector,167,28,gorillapod,1x,chair,24.196300816803884,5,0
+detector,167,28,gorillapod,1x,chair,21.141503429260755,5,0
+detector,167,28,gorillapod,1x,chair,25.146967717048543,5,0
+detector,167,28,gorillapod,1x,chair,21.09126221388704,5,0
+detector,167,28,gorillapod,1x,chair,46.14490367211611,5,0
+detector,167,28,gorillapod,1x,chair,56.12480906157462,5,0
+detector,167,28,gorillapod,1x,chair,16.585031405762425,5,0
+detector,167,28,gorillapod,1x,chair,36.473437560015064,5,0
+detector,167,28,gorillapod,1x,chair,34.92341214429564,5,0
+detector,167,28,gorillapod,1x,chair,37.85272877283337,5,0
+detector,167,28,gorillapod,1x,dining table,24.23350717144063,5,0
+detector,167,28,gorillapod,1x,dining table,47.797295819861006,5,0
+detector,167,28,gorillapod,1x,dining table,31.262302493969155,5,0
+detector,168,28,gorillapod,0.5x,person,9.514857419935462,5,1
+detector,168,28,gorillapod,0.5x,person,9.264466435200317,5,1
+detector,168,28,gorillapod,0.5x,person,10.668173470836729,5,0
+detector,168,28,gorillapod,0.5x,chair,2.255042540008191,2,1
+detector,168,28,gorillapod,0.5x,chair,6.902935775247296,5,0
+detector,168,28,gorillapod,0.5x,chair,4.141761465148377,4,1
+detector,168,28,gorillapod,0.5x,chair,3.58421665253225,3,1
+detector,168,28,gorillapod,0.5x,chair,7.1684333050645,5,0
+detector,168,28,gorillapod,0.5x,chair,6.212642197722567,5,0
+detector,168,28,gorillapod,0.5x,chair,5.481743115637559,4,1
+detector,168,28,gorillapod,0.5x,chair,5.647856543384151,4,0
+detector,168,28,gorillapod,0.5x,chair,5.647856543384151,4,0
+detector,168,28,gorillapod,0.5x,chair,5.647856543384151,4,0
+detector,168,28,gorillapod,0.5x,chair,7.45517063726708,5,1
+detector,168,28,gorillapod,0.5x,chair,7.45517063726708,5,0
+detector,168,28,gorillapod,0.5x,chair,7.7658027471532085,5,0
+detector,168,28,gorillapod,0.5x,chair,8.875203139603666,5,0
+detector,168,28,gorillapod,0.5x,chair,10.354403662870943,5,0
+detector,168,28,gorillapod,0.5x,chair,5.20830699823046,4,1
+detector,168,28,gorillapod,0.5x,chair,27.00170458988439,5,0
+detector,168,28,gorillapod,0.5x,chair,25.374985150670796,5,0
+detector,168,28,gorillapod,0.5x,chair,17.549836716730415,5,0
+detector,168,28,gorillapod,0.5x,chair,18.849988969069734,5,0
+detector,168,28,gorillapod,0.5x,chair,33.38634409882257,5,0
+detector,168,28,gorillapod,0.5x,chair,17.818285461919405,5,0
+detector,168,28,gorillapod,0.5x,chair,27.581097437170104,5,0
+detector,168,28,gorillapod,0.5x,person,17.686497088048835,5,0
+detector,168,28,gorillapod,0.5x,chair,8.934768261345972,5,0
+detector,168,28,gorillapod,0.5x,chair,10.612342544152426,5,0
+detector,168,28,gorillapod,0.5x,chair,22.529980771432697,5,0
+detector,168,28,gorillapod,0.5x,dining table,2.568324668336135,2,1
+detector,168,28,gorillapod,0.5x,dining table,3.4762437476673296,3,1
+detector,168,28,gorillapod,0.5x,dining table,18.647741193796012,5,0
+detector,168,28,gorillapod,0.5x,dining table,4.293444334055469,4,0
+detector,168,28,gorillapod,0.5x,dining table,18.20028166240397,5,0
+detector,168,28,gorillapod,0.5x,dining table,15.362316805821216,5,0
+detector,170,29,head_harness,0.5x,couch,1.84802228934268,1,0
+detector,171,29,chest_harness,1x,couch,1.9144582333874167,1,0
+detector,172,29,chest_harness,0.5x,couch,1.4948702811556265,1,0
+detector,173,29,gorillapod,1x,couch,1.8323478457215103,1,0
+detector,174,29,gorillapod,0.5x,couch,1.5602620361983384,1,0
+detector,175,30,head_harness,1x,person,3.655001292956936,3,1
+detector,175,30,head_harness,1x,person,13.666526573665065,5,1
+detector,175,30,head_harness,1x,person,13.082098062399188,5,0
+detector,175,30,head_harness,1x,laptop,1.0876474435788805,1,1
+detector,175,30,head_harness,1x,laptop,0.7455647798726197,0,1
+detector,175,30,head_harness,1x,tv,4.7208527338317365,4,0
+detector,175,30,head_harness,1x,tv,8.533849172695831,5,0
+detector,175,30,head_harness,1x,tv,8.217780684818209,5,0
+detector,175,30,head_harness,1x,chair,1.957765398441985,1,0
+detector,175,30,head_harness,1x,chair,3.578710943388575,3,0
+detector,175,30,head_harness,1x,chair,3.0533955755517197,3,0
+detector,176,30,head_harness,0.5x,person,1.8335923153000628,1,1
+detector,176,30,head_harness,0.5x,person,1.708979245328214,1,0
+detector,176,30,head_harness,0.5x,person,5.2544735005613745,4,1
+detector,176,30,head_harness,0.5x,person,11.734990817920401,5,0
+detector,176,30,head_harness,0.5x,laptop,0.45414051152942736,,0
+detector,176,30,head_harness,0.5x,laptop,1.5227064210104329,1,0
+detector,176,30,head_harness,0.5x,chair,1.2678861628005238,1,0
+detector,176,30,head_harness,0.5x,chair,1.8453392666502673,1,0
+detector,176,30,head_harness,0.5x,chair,2.300978591749099,2,0
+detector,176,30,head_harness,0.5x,chair,3.451467887623648,3,1
+detector,176,30,head_harness,0.5x,chair,5.481743115637559,4,0
+detector,176,30,head_harness,0.5x,laptop,1.16387384509312,1,0
+detector,176,30,head_harness,0.5x,laptop,0.47715046486813406,,1
+detector,176,30,head_harness,0.5x,tv,4.005249220870379,4,0
+detector,177,30,chest_harness,1x,person,2.3633842946939585,2,1
+detector,177,30,chest_harness,1x,person,6.759787337511752,5,0
+detector,177,30,chest_harness,1x,tv,4.108890342409104,4,0
+detector,177,30,chest_harness,1x,chair,1.0240619007235,1,1
+detector,177,30,chest_harness,1x,chair,1.077087759660639,1,1
+detector,177,30,chest_harness,1x,chair,7.3960026163363874,5,0
+detector,178,30,chest_harness,0.5x,person,2.444789753733417,2,1
+detector,178,30,chest_harness,0.5x,person,1.5044860022974875,1,1
+detector,178,30,chest_harness,0.5x,person,3.556057823612243,3,1
+detector,178,30,chest_harness,0.5x,person,5.2544735005613745,4,1
+detector,178,30,chest_harness,0.5x,laptop,0.6553420039791736,0,1
+detector,178,30,chest_harness,0.5x,tv,4.601957183498197,4,0
+detector,178,30,chest_harness,0.5x,chair,0.7396002616336389,0,1
+detector,178,30,chest_harness,0.5x,chair,1.0297197012799835,1,0
+detector,178,30,chest_harness,0.5x,chair,2.8673733220258,2,1
+detector,178,30,chest_harness,0.5x,chair,4.904717524517816,4,0
+detector,179,30,gorillapod,1x,laptop,1.1852568295410877,1,1
+detector,179,30,gorillapod,1x,laptop,0.6740920009785438,0,1
+detector,179,30,gorillapod,1x,tv,3.825518594656752,3,0
+detector,179,30,gorillapod,1x,chair,2.3604263669158683,2,0
+detector,179,30,gorillapod,1x,chair,1.4407797304551404,1,0
+detector,179,30,gorillapod,1x,chair,1.9463164779832598,1,0
+detector,179,30,gorillapod,1x,chair,3.503369660369868,3,0
+detector,179,30,gorillapod,1x,person,14.41963925428277,5,1
+detector,180,30,gorillapod,0.5x,person,2.4618861855777068,2,1
+detector,180,30,gorillapod,0.5x,person,3.705786574080127,3,1
+detector,180,30,gorillapod,0.5x,person,3.417958490656428,3,1
+detector,180,30,gorillapod,0.5x,laptop,0.6677890853484856,0,1
+detector,180,30,gorillapod,0.5x,laptop,1.3613467871247624,1,0
+detector,180,30,gorillapod,0.5x,tv,4.601957183498197,4,0
+detector,180,30,gorillapod,0.5x,chair,1.0773367972929306,1,0
+detector,180,30,gorillapod,0.5x,chair,1.6067178097558361,1,0
+detector,180,30,gorillapod,0.5x,chair,1.0650243767524399,1,0
+detector,180,30,gorillapod,0.5x,chair,3.1589706090114746,3,0
+detector,180,30,gorillapod,0.5x,chair,2.588600915717736,2,0
+detector,180,30,gorillapod,0.5x,person,13.378290881155692,5,0
+detector,180,30,gorillapod,0.5x,person,20.01419696063741,5,0
+detector,181,31,head_harness,1x,bed,2.4117399835879523,2,1
+detector,181,31,head_harness,1x,laptop,4.202274213827493,4,0
+detector,182,31,head_harness,0.5x,bed,0.7530475391178868,0,1
+detector,182,31,head_harness,0.5x,laptop,1.0151376140069552,1,0
+detector,182,31,head_harness,0.5x,laptop,1.0565718023337698,1,1
+detector,183,31,chest_harness,1x,bed,0.8982999129153507,0,1
+detector,183,31,chest_harness,1x,laptop,1.8490006540840969,1,0
+detector,183,31,chest_harness,1x,laptop,1.1556254088025606,1,0
+detector,184,31,chest_harness,0.5x,bed,0.6151130888834224,0,1
+detector,184,31,chest_harness,0.5x,laptop,1.9912314736290275,1,0
+detector,184,31,chest_harness,0.5x,laptop,1.3992437382258032,1,1
+detector,185,31,gorillapod,1x,bed,0.6545135058704767,0,1
+detector,185,31,gorillapod,1x,laptop,1.650893441146515,1,0
+detector,185,31,gorillapod,1x,laptop,1.46746083657468,1,1
+detector,186,31,gorillapod,0.5x,bed,0.7088517090748132,0,1
+detector,186,31,gorillapod,0.5x,laptop,1.6700651069146684,1,0
+detector,186,31,gorillapod,0.5x,laptop,1.5688490398289308,1,1
+detector,189,32,chest_harness,1x,toilet,9.304648452810294,5,0
+detector,190,32,chest_harness,0.5x,toilet,1.106360939320457,1,1
+detector,190,32,chest_harness,0.5x,sink,1.9042581448958058,1,1
+detector,191,32,gorillapod,1x,toilet,1.5761972788913614,1,1
+detector,192,32,gorillapod,0.5x,toilet,0.8241260058203405,0,1
+detector,192,32,gorillapod,0.5x,sink,1.236346706014441,1,1
+detector,193,33,head_harness,1x,dining table,2.989873398093433,2,1
+detector,193,33,head_harness,1x,chair,3.5406395503738026,3,0
+detector,193,33,head_harness,1x,chair,3.2629423307366414,3,1
+detector,193,33,head_harness,1x,chair,19.57765398441985,5,0
+detector,194,33,head_harness,0.5x,dining table,1.6923326416735305,1,1
+detector,194,33,head_harness,0.5x,chair,2.094149055412101,2,0
+detector,194,33,head_harness,0.5x,chair,1.6641005886756874,1,1
+detector,194,33,head_harness,0.5x,chair,2.094149055412101,2,1
+detector,195,33,chest_harness,1x,dining table,2.0219287728113864,2,1
+detector,195,33,chest_harness,1x,chair,2.429343925073996,2,1
+detector,195,33,chest_harness,1x,chair,1.912759297328376,1,1
+detector,195,33,chest_harness,1x,chair,2.3943893362240103,2,1
+detector,196,33,chest_harness,0.5x,dining table,2.1859296621616435,2,0
+detector,196,33,chest_harness,0.5x,chair,2.518638728806446,2,1
+detector,196,33,chest_harness,0.5x,chair,2.094149055412101,2,1
+detector,196,33,chest_harness,0.5x,chair,2.6625609418811,2,1
+detector,197,33,gorillapod,1x,dining table,2.113143604667539,2,1
+detector,197,33,gorillapod,1x,chair,2.9797226172625226,2,1
+detector,197,33,gorillapod,1x,chair,2.2041067399677976,2,1
+detector,197,33,gorillapod,1x,chair,2.620630848308169,2,1
+detector,198,33,gorillapod,0.5x,dining table,2.314513759935858,2,1
+detector,198,33,gorillapod,0.5x,chair,2.8239282716920755,2,0
+detector,198,33,gorillapod,0.5x,chair,2.142290413007782,2,1
+detector,198,33,gorillapod,0.5x,chair,2.701148781618507,2,1
+app_output,1,1,head_harness,1x,bed,1.3612274753993352,1,0
+app_output,1,1,head_harness,1x,laptop,1.0750003802814516,1,1
+app_output,2,1,head_harness,0.5x,bed,0.6090825684041732,0,1
+app_output,2,1,head_harness,0.5x,laptop,0.7817594309453336,0,0
+app_output,2,1,head_harness,0.5x,chair,1.6493740347936017,1,1
+app_output,2,1,head_harness,0.5x,dining table,2.0439861776056927,2,0
+app_output,3,1,chest_harness,1x,bed,0.8769963576683463,0,1
+app_output,3,1,chest_harness,1x,laptop,0.832883177515359,0,1
+app_output,4,1,chest_harness,0.5x,bed,0.47789555367096664,,1
+app_output,4,1,chest_harness,0.5x,laptop,0.862866971905912,0,1
+app_output,4,1,chest_harness,0.5x,chair,1.226179381129454,1,0
+app_output,4,1,chest_harness,0.5x,dining table,1.155854556425207,1,0
+app_output,5,1,gorillapod,1x,bed,0.5438237217894403,0,1
+app_output,5,1,gorillapod,1x,laptop,0.9436324754824552,0,1
+app_output,5,1,gorillapod,1x,chair,1.729699439935231,1,0
+app_output,5,1,gorillapod,1x,dining table,1.6419717782302616,1,0
+app_output,6,1,gorillapod,0.5x,bed,0.6090825684041732,0,1
+app_output,6,1,gorillapod,0.5x,laptop,0.9245003270420485,0,0
+app_output,6,1,gorillapod,0.5x,chair,1.7582949616195944,1,1
+app_output,6,1,gorillapod,0.5x,dining table,0.6481296188757203,0,0
+app_output,7,2,head_harness,1x,bed,1.5408338784034141,1,1
+app_output,8,2,head_harness,0.5x,bed,0.694149966225985,0,1
+app_output,9,2,chest_harness,1x,bed,0.8341356334213971,0,1
+app_output,10,2,chest_harness,0.5x,bed,0.4872660547233385,,1
+app_output,11,2,gorillapod,1x,bed,0.6045778705452087,0,1
+app_output,12,2,gorillapod,0.5x,bed,0.4073863736211519,,1
+app_output,13,3,head_harness,1x,chair,5.549545503941598,4,0
+app_output,13,3,head_harness,1x,chair,5.6410189446633465,4,1
+app_output,13,3,head_harness,1x,chair,2.791119925656854,2,0
+app_output,13,3,head_harness,1x,chair,3.231263278981917,3,1
+app_output,13,3,head_harness,1x,chair,3.50281658406712,3,0
+app_output,13,3,head_harness,1x,chair,3.6980013081681937,3,0
+app_output,13,3,head_harness,1x,dining table,2.739260228272736,2,0
+app_output,13,3,head_harness,1x,dining table,3.585940662466127,3,0
+app_output,13,3,head_harness,1x,refrigerator,11.169798989073293,5,0
+app_output,14,3,head_harness,0.5x,chair,1.9018292442007856,1,0
+app_output,14,3,head_harness,0.5x,chair,1.285374247804669,1,1
+app_output,14,3,head_harness,0.5x,chair,6.012234384892806,5,0
+app_output,14,3,head_harness,0.5x,chair,3.122584560111866,3,0
+app_output,14,3,head_harness,0.5x,chair,3.5242368522582397,3,0
+app_output,14,3,head_harness,0.5x,chair,3.570313029676299,3,1
+app_output,14,3,head_harness,0.5x,chair,4.20056943727016,4,0
+app_output,14,3,head_harness,0.5x,dining table,3.2788944932424653,3,0
+app_output,14,3,head_harness,0.5x,dining table,3.724032787356127,3,0
+app_output,14,3,head_harness,0.5x,dining table,2.2977033567011693,2,0
+app_output,14,3,head_harness,0.5x,dining table,1.1909268334579723,1,0
+app_output,14,3,head_harness,0.5x,refrigerator,11.740637505482562,5,0
+app_output,15,3,chest_harness,1x,chair,1.4858040970318636,1,1
+app_output,15,3,chest_harness,1x,chair,6.596048510828666,5,1
+app_output,15,3,chest_harness,1x,chair,4.491348034616071,4,0
+app_output,15,3,chest_harness,1x,chair,3.7395518846644658,3,0
+app_output,15,3,chest_harness,1x,chair,3.9302112920041026,3,0
+app_output,15,3,chest_harness,1x,chair,3.9878994426520977,3,0
+app_output,15,3,chest_harness,1x,dining table,3.386121679768466,3,0
+app_output,15,3,chest_harness,1x,refrigerator,15.74862149855652,5,0
+app_output,15,3,chest_harness,1x,dining table,4.681599124154126,4,0
+app_output,16,3,chest_harness,0.5x,chair,0.8283522930296755,0,1
+app_output,16,3,chest_harness,0.5x,chair,1.5403245118320412,1,1
+app_output,16,3,chest_harness,0.5x,chair,6.65640235470275,5,0
+app_output,16,3,chest_harness,0.5x,chair,3.803658488401571,3,0
+app_output,16,3,chest_harness,0.5x,chair,3.9663602028447964,3,0
+app_output,16,3,chest_harness,0.5x,chair,4.235411110820975,4,0
+app_output,16,3,chest_harness,0.5x,chair,4.778955536709667,4,0
+app_output,16,3,chest_harness,0.5x,dining table,1.1936817267776894,1,0
+app_output,16,3,chest_harness,0.5x,dining table,2.5398303251807532,2,0
+app_output,16,3,chest_harness,0.5x,dining table,4.179986340233406,4,0
+app_output,16,3,chest_harness,0.5x,dining table,3.33146924222127,3,0
+app_output,16,3,chest_harness,0.5x,refrigerator,16.17875572323585,5,0
+app_output,17,3,gorillapod,1x,chair,1.4345694729962821,1,0
+app_output,17,3,gorillapod,1x,chair,1.4726553882085727,1,1
+app_output,17,3,gorillapod,1x,chair,6.279624862927122,5,0
+app_output,17,3,gorillapod,1x,chair,4.108890342409104,4,0
+app_output,17,3,gorillapod,1x,chair,3.91553079688397,3,1
+app_output,17,3,gorillapod,1x,chair,4.754573110501964,4,0
+app_output,17,3,gorillapod,1x,chair,4.322339191365422,4,0
+app_output,17,3,gorillapod,1x,dining table,3.7979472894700366,3,0
+app_output,17,3,gorillapod,1x,refrigerator,9.891482291622987,5,0
+app_output,18,3,gorillapod,0.5x,chair,0.750908587384126,0,1
+app_output,18,3,gorillapod,0.5x,chair,1.4768563069071077,1,1
+app_output,18,3,gorillapod,0.5x,chair,7.45517063726708,5,0
+app_output,18,3,gorillapod,0.5x,chair,5.481743115637559,4,0
+app_output,18,3,gorillapod,0.5x,chair,3.9854435139886024,3,0
+app_output,18,3,gorillapod,0.5x,chair,4.181251058478452,4,0
+app_output,18,3,gorillapod,0.5x,chair,4.214818315958322,4,0
+app_output,18,3,gorillapod,0.5x,dining table,1.236055412515812,1,0
+app_output,18,3,gorillapod,0.5x,dining table,2.2002926838478727,2,0
+app_output,18,3,gorillapod,0.5x,dining table,4.409524008563097,4,0
+app_output,18,3,gorillapod,0.5x,refrigerator,11.166357362516809,5,0
+app_output,18,3,gorillapod,0.5x,dining table,2.926903820273157,2,0
+app_output,19,4,head_harness,1x,refrigerator,2.451326624732704,2,1
+app_output,19,4,head_harness,1x,sink,6.375864324427921,5,0
+app_output,20,4,head_harness,0.5x,refrigerator,1.610685014224369,1,1
+app_output,20,4,head_harness,0.5x,chair,1.9618870098071264,1,1
+app_output,20,4,head_harness,0.5x,dining table,6.316955074278074,5,0
+app_output,20,4,head_harness,0.5x,sink,6.0249280336734286,5,0
+app_output,21,4,chest_harness,1x,refrigerator,1.7778852443116315,1,1
+app_output,21,4,chest_harness,1x,chair,1.935000684506613,1,1
+app_output,21,4,chest_harness,1x,dining table,2.9275843689664867,2,0
+app_output,21,4,chest_harness,1x,sink,8.992783787626887,5,0
+app_output,22,4,chest_harness,0.5x,refrigerator,1.8120206410024151,1,1
+app_output,22,4,chest_harness,0.5x,chair,1.0899372276706256,1,1
+app_output,22,4,chest_harness,0.5x,dining table,0.9715242942940638,0,0
+app_output,22,4,chest_harness,0.5x,chair,1.4209527383957379,1,0
+app_output,22,4,chest_harness,0.5x,sink,11.308563727367583,5,0
+app_output,23,4,gorillapod,1x,refrigerator,1.8978012578575774,1,1
+app_output,23,4,gorillapod,1x,chair,1.358449460143418,1,1
+app_output,23,4,gorillapod,1x,dining table,10.409188867436397,5,0
+app_output,23,4,gorillapod,1x,sink,6.256862573964057,5,0
+app_output,24,4,gorillapod,0.5x,refrigerator,1.7852420108398177,1,1
+app_output,24,4,gorillapod,0.5x,chair,1.4448005110982713,1,1
+app_output,24,4,gorillapod,0.5x,chair,1.0297197012799835,1,0
+app_output,24,4,gorillapod,0.5x,dining table,0.7908891239981826,0,0
+app_output,24,4,gorillapod,0.5x,sink,5.971182505169764,4,0
+app_output,25,5,head_harness,1x,bed,3.5787109433885744,3,0
+app_output,26,5,head_harness,0.5x,bed,0.8875203139603666,0,0
+app_output,27,5,chest_harness,1x,bed,1.212459445301047,1,1
+app_output,28,5,chest_harness,0.5x,bed,0.8228665162546445,0,0
+app_output,28,5,chest_harness,0.5x,dining table,1.0891829458521685,1,0
+app_output,29,5,gorillapod,1x,bed,0.9019515385776082,0,0
+app_output,30,5,gorillapod,0.5x,bed,0.5198863763784574,0,0
+app_output,30,5,gorillapod,0.5x,dining table,0.6833032059116205,0,0
+app_output,32,6,head_harness,0.5x,toilet,1.794763301564297,1,1
+app_output,33,6,chest_harness,1x,toilet,1.5676309893321692,1,1
+app_output,34,6,chest_harness,0.5x,toilet,1.1217270634776857,1,1
+app_output,34,6,chest_harness,0.5x,sink,3.381029767468063,3,1
+app_output,35,6,gorillapod,1x,toilet,1.3292354932586135,1,1
+app_output,35,6,gorillapod,1x,sink,3.2800055951378186,3,1
+app_output,36,6,gorillapod,0.5x,toilet,1.4294574968211216,1,1
+app_output,36,6,gorillapod,0.5x,sink,1.6734389758175263,1,1
+app_output,37,7,head_harness,1x,couch,4.082209236289565,4,1
+app_output,37,7,head_harness,1x,refrigerator,5.055861163511202,4,1
+app_output,37,7,head_harness,1x,dining table,2.2645080929883386,2,0
+app_output,37,7,head_harness,1x,chair,10.085458113185982,5,0
+app_output,37,7,head_harness,1x,chair,2.894087980305543,2,0
+app_output,37,7,head_harness,1x,chair,6.525884661473283,5,0
+app_output,37,7,head_harness,1x,chair,3.3618193710619946,3,0
+app_output,37,7,head_harness,1x,sink,11.897852590124895,5,0
+app_output,38,7,head_harness,0.5x,couch,1.041567232359799,1,1
+app_output,38,7,head_harness,0.5x,refrigerator,5.7013156328244,4,0
+app_output,38,7,head_harness,0.5x,dining table,2.708547703405556,2,0
+app_output,38,7,head_harness,0.5x,chair,6.4268712390233445,5,0
+app_output,38,7,head_harness,0.5x,chair,3.1836574442785497,3,0
+app_output,38,7,head_harness,0.5x,chair,5.565221437195491,4,0
+app_output,38,7,head_harness,0.5x,chair,4.334401533294814,4,1
+app_output,38,7,head_harness,0.5x,dining table,1.145402803163134,1,0
+app_output,38,7,head_harness,0.5x,sink,10.879688629514702,5,0
+app_output,39,7,chest_harness,1x,couch,1.4485258580382325,1,1
+app_output,39,7,chest_harness,1x,refrigerator,5.364420092669642,4,1
+app_output,39,7,chest_harness,1x,dining table,2.8995702914114436,2,0
+app_output,39,7,chest_harness,1x,chair,3.9048498839660626,3,0
+app_output,39,7,chest_harness,1x,chair,2.959453296595567,2,0
+app_output,39,7,chest_harness,1x,chair,4.10445651592585,4,0
+app_output,39,7,chest_harness,1x,chair,5.743972347329463,4,0
+app_output,39,7,chest_harness,1x,sink,12.229851370543841,5,0
+app_output,40,7,chest_harness,0.5x,couch,1.1504892958745492,1,1
+app_output,40,7,chest_harness,0.5x,refrigerator,5.753816435666953,4,0
+app_output,40,7,chest_harness,0.5x,dining table,4.253700964206442,4,0
+app_output,40,7,chest_harness,0.5x,chair,3.3337077481854314,3,1
+app_output,40,7,chest_harness,0.5x,dining table,0.9159322926433494,0,0
+app_output,40,7,chest_harness,0.5x,chair,1.3771951743422828,1,0
+app_output,40,7,chest_harness,0.5x,chair,14.895445828705455,5,0
+app_output,40,7,chest_harness,0.5x,chair,3.3035718692192493,3,0
+app_output,40,7,chest_harness,0.5x,chair,7.800743577761934,5,0
+app_output,40,7,chest_harness,0.5x,sink,15.880226082524333,5,0
+app_output,41,7,gorillapod,1x,couch,1.23387678584611,1,1
+app_output,41,7,gorillapod,1x,refrigerator,4.857755809408752,4,0
+app_output,41,7,gorillapod,1x,dining table,2.7826544497107197,2,0
+app_output,41,7,gorillapod,1x,chair,2.9796559254695714,2,0
+app_output,41,7,gorillapod,1x,chair,3.1848815094271528,3,0
+app_output,41,7,gorillapod,1x,chair,3.205433090004213,3,1
+app_output,41,7,gorillapod,1x,chair,8.850421958120927,5,0
+app_output,41,7,gorillapod,1x,chair,9.17175660310403,5,0
+app_output,41,7,gorillapod,1x,sink,11.634651643042199,5,0
+app_output,42,7,gorillapod,0.5x,couch,1.294300457858868,1,1
+app_output,42,7,gorillapod,0.5x,refrigerator,5.244253356493495,4,0
+app_output,42,7,gorillapod,0.5x,chair,3.3844064995764844,3,1
+app_output,42,7,gorillapod,0.5x,chair,3.4292413234899173,3,0
+app_output,42,7,gorillapod,0.5x,chair,8.903822569290671,5,0
+app_output,42,7,gorillapod,0.5x,chair,9.557911073419334,5,0
+app_output,42,7,gorillapod,0.5x,dining table,2.747676949644524,2,0
+app_output,42,7,gorillapod,0.5x,chair,1.021788141397862,1,0
+app_output,42,7,gorillapod,0.5x,chair,2.81848347407171,2,0
+app_output,42,7,gorillapod,0.5x,dining table,1.045742998791637,1,0
+app_output,42,7,gorillapod,0.5x,sink,10.447451275796002,5,0
+app_output,43,8,head_harness,1x,refrigerator,2.863496588183336,2,1
+app_output,43,8,head_harness,1x,sink,7.995678504147446,5,1
+app_output,44,8,head_harness,0.5x,refrigerator,1.4613069685503346,1,1
+app_output,44,8,head_harness,0.5x,sink,9.203914366996393,5,0
+app_output,45,8,chest_harness,1x,refrigerator,1.4477633756810602,1,0
+app_output,45,8,chest_harness,1x,sink,21.131436046675393,5,0
+app_output,46,8,chest_harness,0.5x,refrigerator,0.9821250086733957,0,1
+app_output,46,8,chest_harness,0.5x,sink,6.424448225145325,5,0
+app_output,47,8,gorillapod,1x,refrigerator,1.6342177498218027,1,0
+app_output,47,8,gorillapod,1x,sink,11.025439472783212,5,1
+app_output,48,8,gorillapod,0.5x,refrigerator,1.1010972205526175,1,1
+app_output,48,8,gorillapod,0.5x,sink,10.354403662870943,5,0
+app_output,50,9,head_harness,0.5x,toilet,3.2305739428157345,3,1
+app_output,51,9,chest_harness,1x,toilet,2.2360007909854196,2,1
+app_output,52,9,chest_harness,0.5x,toilet,0.8369362546154753,0,1
+app_output,53,9,gorillapod,1x,toilet,1.7067698345391664,1,1
+app_output,54,9,gorillapod,0.5x,toilet,0.9023949560937806,0,1
+app_output,54,9,gorillapod,0.5x,sink,1.1585346755659798,1,0
+app_output,55,10,head_harness,1x,dining table,2.3420674951731892,2,0
+app_output,55,10,head_harness,1x,chair,3.169715407001309,3,0
+app_output,55,10,head_harness,1x,chair,9.788826992209925,5,0
+app_output,55,10,head_harness,1x,chair,2.91947471697489,2,0
+app_output,55,10,head_harness,1x,chair,3.617609975381929,3,1
+app_output,56,10,head_harness,0.5x,chair,2.6625609418811,2,1
+app_output,56,10,head_harness,0.5x,chair,1.3908900442662462,1,1
+app_output,56,10,head_harness,0.5x,chair,4.051723172427761,4,0
+app_output,56,10,head_harness,0.5x,chair,11.49956908416949,5,0
+app_output,56,10,head_harness,0.5x,chair,3.319014619030843,3,0
+app_output,56,10,head_harness,0.5x,chair,2.677093736450402,2,0
+app_output,56,10,head_harness,0.5x,dining table,2.672898325914123,2,0
+app_output,56,10,head_harness,0.5x,refrigerator,2.7147901807253816,2,0
+app_output,57,10,chest_harness,1x,chair,1.4726553882085727,1,0
+app_output,57,10,chest_harness,1x,chair,2.9983794390552925,2,0
+app_output,57,10,chest_harness,1x,chair,1.3312804709405497,1,0
+app_output,57,10,chest_harness,1x,dining table,4.607345892143979,4,0
+app_output,57,10,chest_harness,1x,chair,9.509146221003927,5,0
+app_output,57,10,chest_harness,1x,chair,4.508688559422054,4,0
+app_output,57,10,chest_harness,1x,chair,4.355429140026662,4,0
+app_output,58,10,chest_harness,0.5x,chair,0.7765802747153209,0,0
+app_output,58,10,chest_harness,0.5x,chair,1.226179381129454,1,0
+app_output,58,10,chest_harness,0.5x,chair,3.328201177351375,3,0
+app_output,58,10,chest_harness,0.5x,dining table,7.494615984554207,5,0
+app_output,58,10,chest_harness,0.5x,refrigerator,2.9786436657322866,2,0
+app_output,58,10,chest_harness,0.5x,chair,5.086076297767144,4,0
+app_output,58,10,chest_harness,0.5x,chair,4.900848433649145,4,0
+app_output,58,10,chest_harness,0.5x,chair,12.85152669758159,5,0
+app_output,59,10,gorillapod,1x,chair,4.160251471689218,4,0
+app_output,59,10,gorillapod,1x,chair,13.312804709405498,5,0
+app_output,59,10,gorillapod,1x,chair,2.7968077120599784,2,1
+app_output,59,10,gorillapod,1x,chair,4.212912882723259,4,0
+app_output,59,10,gorillapod,1x,dining table,3.6031807618049063,3,0
+app_output,59,10,gorillapod,1x,chair,2.054445171204552,2,0
+app_output,59,10,gorillapod,1x,chair,3.3282011773513744,3,0
+app_output,60,10,gorillapod,0.5x,chair,1.1434310793354416,1,1
+app_output,60,10,gorillapod,0.5x,chair,1.4013478641479473,1,0
+app_output,60,10,gorillapod,0.5x,chair,4.659481648291925,4,0
+app_output,60,10,gorillapod,0.5x,chair,15.531605494306417,5,0
+app_output,60,10,gorillapod,0.5x,chair,5.824352060364906,4,0
+app_output,60,10,gorillapod,0.5x,chair,3.9655162964186594,3,0
+app_output,60,10,gorillapod,0.5x,dining table,5.076997925020591,4,0
+app_output,60,10,gorillapod,0.5x,tv,2.643677530945773,2,1
+app_output,61,11,head_harness,1x,sink,3.5633726357728994,3,1
+app_output,62,11,head_harness,0.5x,sink,6.371940715612888,5,1
+app_output,63,11,chest_harness,1x,sink,12.326671027227313,5,1
+app_output,64,11,chest_harness,0.5x,sink,4.347735431201551,4,0
+app_output,65,11,gorillapod,1x,sink,3.5242135285419685,3,0
+app_output,66,11,gorillapod,0.5x,sink,3.8606573517258393,3,0
+app_output,67,12,head_harness,1x,tv,3.521906007779232,3,1
+app_output,67,12,head_harness,1x,chair,2.9453107764171453,2,0
+app_output,67,12,head_harness,1x,chair,3.43113523438286,3,1
+app_output,67,12,head_harness,1x,chair,2.8395198168683344,2,0
+app_output,67,12,head_harness,1x,chair,4.212912882723259,4,0
+app_output,67,12,head_harness,1x,dining table,3.649975317153022,3,0
+app_output,67,12,head_harness,1x,chair,11.957967043389472,5,0
+app_output,68,12,head_harness,0.5x,tv,3.5500812558414663,3,1
+app_output,68,12,head_harness,0.5x,chair,4.437601569801833,4,0
+app_output,68,12,head_harness,0.5x,chair,1.7673400747379466,1,0
+app_output,68,12,head_harness,0.5x,chair,1.9018292442007856,1,0
+app_output,68,12,head_harness,0.5x,dining table,1.174529370713719,1,0
+app_output,68,12,head_harness,0.5x,chair,3.424358383752276,3,0
+app_output,68,12,head_harness,0.5x,chair,1.4804930171711572,1,1
+app_output,68,12,head_harness,0.5x,chair,2.096209935967125,2,0
+app_output,68,12,head_harness,0.5x,chair,2.8561683538683167,2,0
+app_output,68,12,head_harness,0.5x,chair,3.444451412524062,3,0
+app_output,69,12,chest_harness,1x,tv,3.6373783359031413,3,1
+app_output,69,12,chest_harness,1x,chair,3.3618193710619946,3,1
+app_output,69,12,chest_harness,1x,chair,3.503369660369868,3,0
+app_output,69,12,chest_harness,1x,chair,3.200193439760937,3,0
+app_output,69,12,chest_harness,1x,chair,7.564093584889488,5,0
+app_output,69,12,chest_harness,1x,chair,1.6476243452234527,1,0
+app_output,69,12,chest_harness,1x,chair,5.943216388127454,4,0
+app_output,69,12,chest_harness,1x,dining table,1.5274353229390365,1,0
+app_output,70,12,chest_harness,0.5x,tv,3.6544954104250387,3,1
+app_output,70,12,chest_harness,0.5x,chair,3.58421665253225,3,0
+app_output,70,12,chest_harness,0.5x,chair,5.3251218837622,4,0
+app_output,70,12,chest_harness,0.5x,chair,2.0708807325741887,2,0
+app_output,70,12,chest_harness,0.5x,chair,4.334401533294814,4,0
+app_output,70,12,chest_harness,0.5x,chair,0.8875203139603667,0,1
+app_output,70,12,chest_harness,0.5x,chair,6.902935775247296,5,0
+app_output,70,12,chest_harness,0.5x,chair,1.0963486231275117,1,0
+app_output,70,12,chest_harness,0.5x,dining table,1.2491026640923677,1,0
+app_output,70,12,chest_harness,0.5x,chair,3.849220692517078,3,0
+app_output,71,12,gorillapod,1x,tv,3.4668762264076816,3,1
+app_output,71,12,gorillapod,1x,chair,3.200193439760937,3,1
+app_output,71,12,gorillapod,1x,chair,3.782046792444744,3,0
+app_output,71,12,gorillapod,1x,chair,3.825518594656752,3,0
+app_output,71,12,gorillapod,1x,chair,7.144745725006975,5,0
+app_output,71,12,gorillapod,1x,chair,1.9693498090836534,1,0
+app_output,71,12,gorillapod,1x,chair,5.1203095036174995,4,0
+app_output,71,12,gorillapod,1x,dining table,1.4194348455595087,1,0
+app_output,72,12,gorillapod,0.5x,tv,3.3992981042186257,3,1
+app_output,72,12,gorillapod,0.5x,chair,3.388713926030491,3,1
+app_output,72,12,gorillapod,0.5x,chair,4.235892407538113,4,0
+app_output,72,12,gorillapod,0.5x,chair,1.3033515100117272,1,0
+app_output,72,12,gorillapod,0.5x,chair,5.3251218837622,4,0
+app_output,72,12,gorillapod,0.5x,chair,2.468272625237412,2,0
+app_output,72,12,gorillapod,0.5x,chair,1.9715893045426387,1,0
+app_output,72,12,gorillapod,0.5x,chair,4.0572357209616765,4,0
+app_output,72,12,gorillapod,0.5x,chair,1.1638520415366367,1,0
+app_output,72,12,gorillapod,0.5x,dining table,1.0151376140069552,1,0
+app_output,73,13,head_harness,1x,tv,3.8926329559665196,3,1
+app_output,73,13,head_harness,1x,chair,5.83894943394978,4,1
+app_output,73,13,head_harness,1x,bed,5.689232781797221,4,0
+app_output,74,13,head_harness,0.5x,tv,3.5500812558414663,3,1
+app_output,74,13,head_harness,0.5x,chair,2.518638728806446,2,0
+app_output,74,13,head_harness,0.5x,bed,0.8510468764003515,0,1
+app_output,75,13,chest_harness,1x,tv,4.528164867144727,4,0
+app_output,75,13,chest_harness,1x,chair,2.8446163908986106,2,1
+app_output,75,13,chest_harness,1x,bed,1.061627169809051,1,1
+app_output,76,13,chest_harness,0.5x,tv,4.141761465148377,4,0
+app_output,76,13,chest_harness,0.5x,chair,3.0413130327854936,3,1
+app_output,76,13,chest_harness,0.5x,bed,0.5309950596344074,0,1
+app_output,77,13,gorillapod,1x,tv,3.962144258751636,3,0
+app_output,77,13,gorillapod,1x,chair,2.750579485414359,2,1
+app_output,77,13,gorillapod,1x,bed,1.0177985251839066,1,0
+app_output,78,13,gorillapod,0.5x,tv,3.7246056341262386,3,0
+app_output,78,13,gorillapod,0.5x,chair,2.8673733220258,2,1
+app_output,78,13,gorillapod,0.5x,bed,0.5473693566275388,0,1
+app_output,80,14,head_harness,0.5x,toilet,1.2819737868316408,1,1
+app_output,80,14,head_harness,0.5x,sink,1.743899564273001,1,1
+app_output,81,14,chest_harness,1x,toilet,1.559157308308752,1,1
+app_output,81,14,chest_harness,1x,sink,3.792821854531481,3,1
+app_output,82,14,chest_harness,0.5x,toilet,1.4401310343545013,1,1
+app_output,82,14,chest_harness,0.5x,sink,3.1506767195537506,3,1
+app_output,83,14,gorillapod,1x,toilet,1.6296276951249669,1,1
+app_output,83,14,gorillapod,1x,sink,2.5131361492849873,2,1
+app_output,84,14,gorillapod,0.5x,toilet,1.668210964248656,1,1
+app_output,84,14,gorillapod,0.5x,sink,2.756121420827401,2,1
+app_output,85,15,head_harness,1x,bed,1.4132489075802015,1,1
+app_output,86,15,head_harness,0.5x,bed,0.6680260427658673,0,1
+app_output,87,15,chest_harness,1x,bed,0.8372833150569495,0,1
+app_output,88,15,chest_harness,0.5x,bed,0.8339117043922908,0,1
+app_output,89,15,gorillapod,1x,bed,0.860350446848879,0,1
+app_output,90,15,gorillapod,0.5x,bed,0.9295492178832299,0,1
+app_output,91,16,head_harness,1x,tv,3.3116429625386807,3,1
+app_output,91,16,head_harness,1x,toilet,3.1071456875245107,3,0
+app_output,92,16,head_harness,0.5x,tv,3.882901373576604,3,1
+app_output,92,16,head_harness,0.5x,bed,1.4792005232672776,1,1
+app_output,92,16,head_harness,0.5x,toilet,2.4295509835419526,2,0
+app_output,93,16,chest_harness,1x,tv,3.6373783359031413,3,1
+app_output,93,16,chest_harness,1x,bed,1.5962595574826735,1,1
+app_output,93,16,chest_harness,1x,toilet,2.913208958839734,2,0
+app_output,94,16,chest_harness,0.5x,tv,3.6544954104250387,3,1
+app_output,94,16,chest_harness,0.5x,bed,0.6371940715612888,0,1
+app_output,94,16,chest_harness,0.5x,toilet,3.277940178393521,3,0
+app_output,95,16,gorillapod,1x,tv,3.215653311450603,3,1
+app_output,95,16,gorillapod,1x,bed,3.1697154070013087,3,0
+app_output,95,16,gorillapod,1x,toilet,3.05013986874052,3,0
+app_output,96,16,gorillapod,0.5x,tv,3.185970357806444,3,1
+app_output,96,16,gorillapod,0.5x,bed,0.7440290057152774,0,1
+app_output,96,16,gorillapod,0.5x,toilet,2.8435647767060424,2,0
+app_output,98,17,head_harness,0.5x,toilet,5.047771785649585,4,0
+app_output,99,17,chest_harness,1x,toilet,2.670778722565918,2,0
+app_output,100,17,chest_harness,0.5x,toilet,0.8519109061655618,0,1
+app_output,101,17,gorillapod,1x,toilet,2.4444415426874504,2,0
+app_output,102,17,gorillapod,0.5x,toilet,1.223702251066566,1,1
+app_output,103,18,head_harness,1x,bed,2.175294887157761,2,1
+app_output,104,18,head_harness,0.5x,bed,0.6151130888834224,0,1
+app_output,105,18,chest_harness,1x,bed,0.964695993435181,0,1
+app_output,106,18,chest_harness,0.5x,bed,0.8689010066744848,0,1
+app_output,107,18,gorillapod,1x,bed,0.952275014978934,0,1
+app_output,108,18,gorillapod,0.5x,bed,0.862866971905912,0,1
+app_output,112,19,chest_harness,0.5x,toilet,1.552451497064194,1,0
+app_output,112,19,chest_harness,0.5x,sink,2.0233324206880203,2,1
+app_output,114,19,gorillapod,0.5x,sink,1.800765854412338,1,1
+app_output,115,20,head_harness,1x,tv,4.930668410890925,4,1
+app_output,115,20,head_harness,1x,chair,5.83894943394978,4,0
+app_output,115,20,head_harness,1x,chair,7.924288517503273,5,0
+app_output,115,20,head_harness,1x,chair,12.326671027227313,5,0
+app_output,115,20,head_harness,1x,dining table,3.8746549861554107,3,0
+app_output,116,20,head_harness,0.5x,tv,4.778955536709666,4,0
+app_output,116,20,head_harness,0.5x,chair,3.006117192446403,3,1
+app_output,116,20,head_harness,0.5x,chair,2.8239282716920755,2,1
+app_output,116,20,head_harness,0.5x,chair,2.553140629201055,2,0
+app_output,116,20,head_harness,0.5x,dining table,4.263784237741642,4,0
+app_output,117,20,chest_harness,1x,tv,4.7208527338317365,4,0
+app_output,117,20,chest_harness,1x,chair,3.782046792444744,3,1
+app_output,117,20,chest_harness,1x,chair,3.5406395503738026,3,0
+app_output,117,20,chest_harness,1x,chair,3.025637433955795,3,1
+app_output,118,20,chest_harness,0.5x,tv,4.845109922185663,4,0
+app_output,118,20,chest_harness,0.5x,chair,4.051723172427761,4,1
+app_output,118,20,chest_harness,0.5x,chair,3.803658488401571,3,1
+app_output,118,20,chest_harness,0.5x,chair,3.388713926030491,3,0
+app_output,118,20,chest_harness,0.5x,dining table,3.9905409654066517,3,0
+app_output,119,20,gorillapod,1x,tv,4.7208527338317365,4,0
+app_output,119,20,gorillapod,1x,chair,3.617609975381929,3,0
+app_output,119,20,gorillapod,1x,chair,3.3618193710619946,3,1
+app_output,119,20,gorillapod,1x,chair,3.200193439760937,3,1
+app_output,120,20,gorillapod,0.5x,tv,4.970113758178053,4,0
+app_output,120,20,gorillapod,0.5x,chair,4.141761465148377,4,1
+app_output,120,20,gorillapod,0.5x,chair,3.9655162964186594,3,1
+app_output,120,20,gorillapod,0.5x,chair,3.58421665253225,3,0
+app_output,120,20,gorillapod,0.5x,dining table,4.941117201966513,4,0
+app_output,123,21,chest_harness,1x,toilet,6.009252125773315,5,0
+app_output,124,21,chest_harness,0.5x,toilet,1.028845204718387,1,1
+app_output,125,21,gorillapod,1x,toilet,2.747086686067801,2,1
+app_output,126,21,gorillapod,0.5x,toilet,1.1537764081484767,1,1
+app_output,127,22,head_harness,1x,sink,10.565718023337697,5,0
+app_output,127,22,head_harness,1x,refrigerator,5.392918574411949,4,1
+app_output,128,22,head_harness,0.5x,sink,13.805871550494592,5,0
+app_output,128,22,head_harness,0.5x,refrigerator,4.646206771801064,4,0
+app_output,129,22,chest_harness,1x,sink,22.756931127188885,5,0
+app_output,129,22,chest_harness,1x,refrigerator,4.902653249465408,4,1
+app_output,130,22,chest_harness,0.5x,sink,20.708807325741887,5,0
+app_output,130,22,chest_harness,0.5x,refrigerator,5.575448126161277,4,0
+app_output,131,22,gorillapod,1x,sink,21.131436046675393,5,0
+app_output,131,22,gorillapod,1x,refrigerator,5.531198537858409,4,1
+app_output,132,22,gorillapod,0.5x,sink,18.407828733992787,5,0
+app_output,132,22,gorillapod,0.5x,refrigerator,5.845227874201338,4,0
+app_output,133,23,head_harness,1x,refrigerator,7.190558099215932,5,1
+app_output,133,23,head_harness,1x,sink,29.58401046534555,5,0
+app_output,133,23,head_harness,1x,dining table,1.8736539961385514,1,0
+app_output,133,23,head_harness,1x,chair,5.282859011668848,4,0
+app_output,133,23,head_harness,1x,chair,2.311250817605121,2,1
+app_output,133,23,head_harness,1x,chair,15.848577035006546,5,0
+app_output,133,23,head_harness,1x,chair,5.368066415082862,4,0
+app_output,133,23,head_harness,1x,chair,3.91553079688397,3,0
+app_output,134,23,head_harness,0.5x,refrigerator,10.354403662870943,5,0
+app_output,134,23,head_harness,0.5x,sink,33.13409172118702,5,0
+app_output,134,23,head_harness,0.5x,dining table,2.4213374719328975,2,0
+app_output,134,23,head_harness,0.5x,chair,5.3251218837622,4,0
+app_output,134,23,head_harness,0.5x,chair,2.3894777683548334,2,0
+app_output,134,23,head_harness,0.5x,chair,13.3128047094055,5,0
+app_output,134,23,head_harness,0.5x,chair,6.65640235470275,5,0
+app_output,134,23,head_harness,0.5x,chair,1.6641005886756874,1,1
+app_output,134,23,head_harness,0.5x,chair,1.6943569630152455,1,1
+app_output,135,23,chest_harness,1x,refrigerator,9.378988825064258,5,0
+app_output,135,23,chest_harness,1x,sink,42.262872093350786,5,0
+app_output,135,23,chest_harness,1x,dining table,2.531964859646691,2,0
+app_output,135,23,chest_harness,1x,chair,4.266924586347916,4,0
+app_output,135,23,chest_harness,1x,chair,2.5601547518087497,2,1
+app_output,135,23,chest_harness,1x,chair,12.326671027227313,5,0
+app_output,135,23,chest_harness,1x,chair,7.564093584889488,5,0
+app_output,135,23,chest_harness,1x,chair,2.4117399835879523,2,0
+app_output,135,23,chest_harness,1x,chair,3.4668762264076816,3,1
+app_output,136,23,chest_harness,0.5x,sink,45.48262418831437,5,0
+app_output,136,23,chest_harness,0.5x,dining table,3.2788944932424653,3,0
+app_output,136,23,chest_harness,0.5x,chair,5.03557624942052,4,0
+app_output,136,23,chest_harness,0.5x,chair,2.535686077775273,2,0
+app_output,136,23,chest_harness,0.5x,chair,14.133024904771716,5,0
+app_output,136,23,chest_harness,0.5x,chair,4.551942018113982,4,0
+app_output,136,23,chest_harness,0.5x,chair,2.167200766647407,2,1
+app_output,136,23,chest_harness,0.5x,chair,2.4850568790890266,2,1
+app_output,136,23,chest_harness,0.5x,chair,1.294300457858868,1,0
+app_output,136,23,chest_harness,0.5x,chair,9.577557344896043,5,0
+app_output,136,23,chest_harness,0.5x,refrigerator,9.963684877324434,5,0
+app_output,137,23,gorillapod,1x,refrigerator,7.892075962554071,5,1
+app_output,137,23,gorillapod,1x,sink,32.871122739272835,5,0
+app_output,137,23,gorillapod,1x,dining table,2.341969913093477,2,0
+app_output,137,23,gorillapod,1x,chair,6.792247300717091,5,0
+app_output,137,23,gorillapod,1x,chair,2.4653342054454623,2,0
+app_output,137,23,gorillapod,1x,chair,13.312804709405498,5,0
+app_output,137,23,gorillapod,1x,chair,7.081279100747605,5,0
+app_output,137,23,gorillapod,1x,chair,2.5213645282964956,2,1
+app_output,137,23,gorillapod,1x,chair,4.559179695001883,4,0
+app_output,137,23,gorillapod,1x,chair,9.29794992974263,5,0
+app_output,138,23,gorillapod,0.5x,refrigerator,10.066781338902306,5,0
+app_output,138,23,gorillapod,0.5x,sink,33.13409172118702,5,0
+app_output,138,23,gorillapod,0.5x,chair,2.004078128297602,2,1
+app_output,138,23,gorillapod,0.5x,chair,2.4205099471646365,2,1
+app_output,138,23,gorillapod,0.5x,chair,1.2678861628005238,1,0
+app_output,138,23,gorillapod,0.5x,chair,2.8737840711075013,2,0
+app_output,138,23,gorillapod,0.5x,chair,9.645711783241143,5,0
+app_output,138,23,gorillapod,0.5x,chair,11.508444947926952,5,0
+app_output,138,23,gorillapod,0.5x,chair,2.991161385518809,2,0
+app_output,138,23,gorillapod,0.5x,chair,2.7474371244765354,2,0
+app_output,138,23,gorillapod,0.5x,dining table,2.5102585537802677,2,0
+app_output,139,24,head_harness,1x,sink,19.722673643563702,5,0
+app_output,140,24,head_harness,0.5x,refrigerator,1.0565718023337696,1,1
+app_output,140,24,head_harness,0.5x,sink,20.708807325741887,5,0
+app_output,141,24,chest_harness,1x,refrigerator,1.4191890985294602,1,0
+app_output,141,24,chest_harness,1x,sink,14.792005232672775,5,0
+app_output,142,24,chest_harness,0.5x,refrigerator,0.9015028064688632,0,1
+app_output,142,24,chest_harness,0.5x,sink,27.611743100989184,5,0
+app_output,143,24,gorillapod,1x,refrigerator,1.2639652908778005,1,1
+app_output,143,24,gorillapod,1x,sink,22.756931127188885,5,0
+app_output,144,24,gorillapod,0.5x,refrigerator,0.9413094238973585,0,1
+app_output,144,24,gorillapod,0.5x,sink,23.66720837227644,5,0
+app_output,145,25,head_harness,1x,person,3.45417704609117,3,1
+app_output,145,25,head_harness,1x,bed,1.5848577035006544,1,1
+app_output,146,25,head_harness,0.5x,person,3.8686782916221105,3,1
+app_output,146,25,head_harness,0.5x,bed,0.6371940715612888,0,0
+app_output,146,25,head_harness,0.5x,bed,0.7100162511682933,0,0
+app_output,147,25,chest_harness,1x,person,3.929126389928706,3,1
+app_output,147,25,chest_harness,1x,bed,0.7347022466559325,0,1
+app_output,148,25,chest_harness,0.5x,person,3.8686782916221105,3,1
+app_output,148,25,chest_harness,0.5x,bed,0.7666288426235724,0,1
+app_output,149,25,gorillapod,1x,person,3.612989783842488,3,1
+app_output,149,25,gorillapod,1x,bed,0.7521358592884462,0,1
+app_output,149,25,gorillapod,1x,bed,0.8566798397300834,0,0
+app_output,150,25,gorillapod,0.5x,person,3.7452098355065115,3,1
+app_output,150,25,gorillapod,0.5x,bed,0.8339117043922908,0,0
+app_output,150,25,gorillapod,0.5x,bed,0.4872660547233385,,1
+app_output,154,26,chest_harness,0.5x,toilet,1.1139910147640464,1,1
+app_output,155,26,gorillapod,1x,toilet,2.383835554025778,2,1
+app_output,156,26,gorillapod,0.5x,toilet,1.106360939320457,1,1
+app_output,156,26,gorillapod,0.5x,sink,1.0619901192688148,1,1
+app_output,157,27,head_harness,1x,tv,2.4363302736166927,2,0
+app_output,157,27,head_harness,1x,tv,3.765237695589434,3,0
+app_output,157,27,head_harness,1x,tv,3.5500812558414663,3,0
+app_output,157,27,head_harness,1x,laptop,0.8350325534573342,0,0
+app_output,157,27,head_harness,1x,laptop,0.8350325534573342,0,0
+app_output,157,27,head_harness,1x,person,3.826627440626218,3,0
+app_output,157,27,head_harness,1x,person,10.058563558217488,5,0
+app_output,157,27,head_harness,1x,chair,0.9136238526062598,0,1
+app_output,157,27,head_harness,1x,chair,1.4560880150912265,1,0
+app_output,157,27,head_harness,1x,chair,1.0240619007235,1,0
+app_output,157,27,head_harness,1x,chair,2.7938729715436517,2,0
+app_output,157,27,head_harness,1x,chair,5.3251218837622,4,0
+app_output,157,27,head_harness,1x,laptop,1.5935981012498568,1,0
+app_output,157,27,head_harness,1x,chair,7.453679901286823,5,0
+app_output,157,27,head_harness,1x,chair,2.9646361940856085,2,0
+app_output,157,27,head_harness,1x,chair,4.037241761760576,4,0
+app_output,157,27,head_harness,1x,chair,9.510359277034162,5,0
+app_output,157,27,head_harness,1x,chair,3.113326082547014,3,0
+app_output,157,27,head_harness,1x,chair,3.067214118845997,3,0
+app_output,158,27,head_harness,0.5x,tv,2.49303458977631,2,0
+app_output,158,27,head_harness,0.5x,tv,4.528164867144727,4,0
+app_output,158,27,head_harness,0.5x,tv,4.186416575284747,4,0
+app_output,158,27,head_harness,0.5x,person,3.5120682815005195,3,0
+app_output,158,27,head_harness,0.5x,person,9.11101771577671,5,0
+app_output,158,27,head_harness,0.5x,chair,1.751684830184934,1,0
+app_output,158,27,head_harness,0.5x,chair,1.9693498090836534,1,0
+app_output,158,27,head_harness,0.5x,chair,7.081279100747605,5,0
+app_output,158,27,head_harness,0.5x,chair,2.8205094723316733,2,0
+app_output,158,27,head_harness,0.5x,chair,2.91947471697489,2,0
+app_output,158,27,head_harness,0.5x,chair,3.200193439760937,3,0
+app_output,158,27,head_harness,0.5x,chair,9.13964349128484,5,0
+app_output,158,27,head_harness,0.5x,chair,3.7228201088941546,3,0
+app_output,158,27,head_harness,0.5x,chair,2.4899571146907373,2,0
+app_output,159,27,chest_harness,1x,tv,2.2412129140413293,2,0
+app_output,159,27,chest_harness,1x,tv,4.528164867144727,4,0
+app_output,159,27,chest_harness,1x,person,4.726768589387917,4,0
+app_output,159,27,chest_harness,1x,chair,1.1637067053676133,1,1
+app_output,159,27,chest_harness,1x,chair,1.5552341950240067,1,1
+app_output,159,27,chest_harness,1x,chair,3.43113523438286,3,0
+app_output,159,27,chest_harness,1x,chair,3.617609975381929,3,0
+app_output,159,27,chest_harness,1x,chair,1.4102547361658366,1,0
+app_output,159,27,chest_harness,1x,chair,3.578710943388575,3,0
+app_output,159,27,chest_harness,1x,chair,3.529282020467511,3,0
+app_output,160,27,chest_harness,0.5x,tv,2.2591426173536604,2,0
+app_output,160,27,chest_harness,0.5x,tv,5.647856543384151,4,0
+app_output,160,27,chest_harness,0.5x,tv,1.7500400556964975,1,0
+app_output,160,27,chest_harness,0.5x,laptop,0.9103972974784318,0,0
+app_output,160,27,chest_harness,0.5x,person,6.28660222388593,5,0
+app_output,160,27,chest_harness,0.5x,chair,1.0412249493389776,1,1
+app_output,160,27,chest_harness,0.5x,chair,1.4675532750525748,1,1
+app_output,160,27,chest_harness,0.5x,chair,0.7059820679230189,0,0
+app_output,160,27,chest_harness,0.5x,chair,4.141761465148377,4,0
+app_output,160,27,chest_harness,0.5x,chair,3.055397802158639,3,0
+app_output,160,27,chest_harness,0.5x,chair,3.8829013735766043,3,0
+app_output,160,27,chest_harness,0.5x,chair,4.778955536709667,4,0
+app_output,160,27,chest_harness,0.5x,chair,0.7856645207363347,0,0
+app_output,160,27,chest_harness,0.5x,chair,3.2640852177176356,3,0
+app_output,161,27,gorillapod,1x,tv,2.2412129140413293,2,0
+app_output,161,27,gorillapod,1x,tv,4.622501635210242,4,0
+app_output,161,27,gorillapod,1x,tv,5.996758878110584,4,0
+app_output,161,27,gorillapod,1x,person,4.555508857888355,4,0
+app_output,161,27,gorillapod,1x,person,9.52515488467565,5,0
+app_output,161,27,gorillapod,1x,chair,1.5337332614522463,1,1
+app_output,161,27,gorillapod,1x,chair,1.6000967198804685,1,0
+app_output,161,27,gorillapod,1x,chair,2.161169595682711,2,0
+app_output,161,27,gorillapod,1x,chair,3.4668762264076816,3,0
+app_output,161,27,gorillapod,1x,chair,3.0816677568068283,3,0
+app_output,161,27,gorillapod,1x,chair,3.0533955755517197,3,0
+app_output,161,27,gorillapod,1x,chair,1.372157028829377,1,0
+app_output,161,27,gorillapod,1x,chair,4.695874677038976,4,0
+app_output,161,27,gorillapod,1x,chair,11.416520632369005,5,0
+app_output,161,27,gorillapod,1x,chair,10.331215822912847,5,0
+app_output,162,27,gorillapod,0.5x,tv,2.65157584196439,2,0
+app_output,162,27,gorillapod,0.5x,tv,4.778955536709666,4,0
+app_output,162,27,gorillapod,0.5x,tv,2.701148781618507,2,0
+app_output,162,27,gorillapod,0.5x,laptop,1.1766367798716981,1,0
+app_output,162,27,gorillapod,0.5x,person,5.96694448368834,4,0
+app_output,162,27,gorillapod,0.5x,person,9.237725650422778,5,0
+app_output,162,27,gorillapod,0.5x,chair,1.0529902030038247,1,1
+app_output,162,27,gorillapod,0.5x,chair,1.5030585962232015,1,1
+app_output,162,27,gorillapod,0.5x,chair,0.8510468764003516,0,0
+app_output,162,27,gorillapod,0.5x,chair,3.803658488401571,3,0
+app_output,162,27,gorillapod,0.5x,chair,4.437601569801833,4,0
+app_output,162,27,gorillapod,0.5x,chair,0.8283522930296755,0,0
+app_output,162,27,gorillapod,0.5x,laptop,0.8180772428593619,0,0
+app_output,162,27,gorillapod,0.5x,chair,4.36178951396389,4,0
+app_output,162,27,gorillapod,0.5x,chair,8.768725755430582,5,0
+app_output,162,27,gorillapod,0.5x,person,10.673024845766623,5,0
+app_output,162,27,gorillapod,0.5x,chair,10.33860856644998,5,0
+app_output,163,28,head_harness,1x,person,7.143866163506738,5,0
+app_output,163,28,head_harness,1x,person,25.14640889554372,5,0
+app_output,163,28,head_harness,1x,dining table,2.8388696911190174,2,0
+app_output,163,28,head_harness,1x,dining table,4.845656886565219,4,0
+app_output,163,28,head_harness,1x,dining table,4.6841349903463785,4,0
+app_output,163,28,head_harness,1x,chair,2.429343925073996,2,0
+app_output,163,28,head_harness,1x,chair,4.559179695001883,4,0
+app_output,163,28,head_harness,1x,chair,3.91553079688397,3,0
+app_output,163,28,head_harness,1x,chair,3.6980013081681937,3,1
+app_output,163,28,head_harness,1x,chair,3.7395518846644658,3,1
+app_output,163,28,head_harness,1x,chair,5.7382778919851285,4,0
+app_output,163,28,head_harness,1x,chair,10.085458113185982,5,0
+app_output,163,28,head_harness,1x,chair,15.848577035006546,5,0
+app_output,163,28,head_harness,1x,chair,13.867504905630726,5,0
+app_output,163,28,head_harness,1x,chair,4.058781923599237,4,0
+app_output,163,28,head_harness,1x,chair,23.772865552509817,5,0
+app_output,163,28,head_harness,1x,dining table,14.052404971039135,5,0
+app_output,163,28,head_harness,1x,chair,9.495581105139443,5,0
+app_output,163,28,head_harness,1x,chair,22.14003776718027,5,0
+app_output,163,28,head_harness,1x,chair,21.777858186496804,5,0
+app_output,163,28,head_harness,1x,chair,22.795898475009416,5,0
+app_output,163,28,head_harness,1x,chair,23.201123578608396,5,0
+app_output,163,28,head_harness,1x,chair,24.70824927506588,5,0
+app_output,163,28,head_harness,1x,chair,21.34488489563171,5,0
+app_output,163,28,head_harness,1x,chair,45.29705583329533,5,0
+app_output,163,28,head_harness,1x,chair,42.587347119019505,5,0
+app_output,163,28,head_harness,1x,chair,73.83696455577092,5,0
+app_output,163,28,head_harness,1x,chair,44.023825097240405,5,0
+app_output,163,28,head_harness,1x,dining table,12.518846299366713,5,0
+app_output,163,28,head_harness,1x,dining table,29.101537605051274,5,0
+app_output,164,28,head_harness,0.5x,person,7.48683554761257,5,1
+app_output,164,28,head_harness,0.5x,person,7.667840447320709,5,0
+app_output,164,28,head_harness,0.5x,person,15.79760935775688,5,0
+app_output,164,28,head_harness,0.5x,person,9.351832236355746,5,0
+app_output,164,28,head_harness,0.5x,dining table,2.1559854202142237,2,0
+app_output,164,28,head_harness,0.5x,dining table,3.49748745945863,3,0
+app_output,164,28,head_harness,0.5x,dining table,4.266963146960508,4,0
+app_output,164,28,head_harness,0.5x,dining table,8.283522930296755,5,0
+app_output,164,28,head_harness,0.5x,chair,4.904717524517816,4,0
+app_output,164,28,head_harness,0.5x,chair,3.58421665253225,3,0
+app_output,164,28,head_harness,0.5x,chair,2.7817800885324924,2,0
+app_output,164,28,head_harness,0.5x,chair,2.9584010465345556,2,0
+app_output,164,28,head_harness,0.5x,chair,3.328201177351375,3,0
+app_output,164,28,head_harness,0.5x,chair,5.7626734461367235,4,0
+app_output,164,28,head_harness,0.5x,chair,4.334401533294814,4,0
+app_output,164,28,head_harness,0.5x,chair,4.437601569801833,4,0
+app_output,164,28,head_harness,0.5x,chair,4.051723172427761,4,0
+app_output,164,28,head_harness,0.5x,chair,12.425284395445134,5,0
+app_output,164,28,head_harness,0.5x,chair,13.3128047094055,5,0
+app_output,164,28,head_harness,0.5x,chair,6.1551937229748015,5,0
+app_output,164,28,head_harness,0.5x,chair,5.177201831435472,4,0
+app_output,164,28,head_harness,0.5x,chair,6.012234384892806,5,0
+app_output,164,28,head_harness,0.5x,chair,7.45517063726708,5,0
+app_output,164,28,head_harness,0.5x,person,16.631615662577634,5,0
+app_output,164,28,head_harness,0.5x,dining table,28.092268750671725,5,0
+app_output,164,28,head_harness,0.5x,dining table,26.1984079360197,5,0
+app_output,164,28,head_harness,0.5x,dining table,23.0266182407664,5,0
+app_output,164,28,head_harness,0.5x,chair,18.802448013283936,5,0
+app_output,164,28,head_harness,0.5x,chair,17.578803671933695,5,0
+app_output,164,28,head_harness,0.5x,chair,23.30469095738381,5,0
+app_output,164,28,head_harness,0.5x,chair,22.161624962149464,5,0
+app_output,164,28,head_harness,0.5x,chair,57.52446479372747,5,0
+app_output,164,28,head_harness,0.5x,chair,47.85090267822259,5,0
+app_output,164,28,head_harness,0.5x,chair,33.43125846308107,5,0
+app_output,164,28,head_harness,0.5x,chair,20.33598100727518,5,0
+app_output,164,28,head_harness,0.5x,chair,11.244601262846276,5,0
+app_output,164,28,head_harness,0.5x,chair,30.74297170007043,5,0
+app_output,164,28,head_harness,0.5x,chair,5.87576500415123,4,0
+app_output,164,28,head_harness,0.5x,chair,5.256413055959303,4,0
+app_output,164,28,head_harness,0.5x,chair,8.317717993157515,5,0
+app_output,164,28,head_harness,0.5x,chair,31.443149039506874,5,0
+app_output,164,28,head_harness,0.5x,chair,13.66416905657456,5,0
+app_output,165,28,chest_harness,1x,person,8.61178386833689,5,1
+app_output,165,28,chest_harness,1x,person,19.0503097693513,5,0
+app_output,165,28,chest_harness,1x,person,8.059746440879398,5,0
+app_output,165,28,chest_harness,1x,dining table,2.6513971643470065,2,0
+app_output,165,28,chest_harness,1x,dining table,4.461080943187027,4,0
+app_output,165,28,chest_harness,1x,dining table,6.854831693189822,5,0
+app_output,165,28,chest_harness,1x,chair,4.68760729204419,4,0
+app_output,165,28,chest_harness,1x,chair,3.466605397860974,3,0
+app_output,165,28,chest_harness,1x,chair,5.200314339611523,4,0
+app_output,165,28,chest_harness,1x,chair,4.754573110501964,4,0
+app_output,165,28,chest_harness,1x,chair,5.042729056592991,4,0
+app_output,165,28,chest_harness,1x,chair,4.8234799671759045,4,0
+app_output,165,28,chest_harness,1x,chair,6.656402354702749,5,0
+app_output,165,28,chest_harness,1x,chair,9.509146221003927,5,0
+app_output,165,28,chest_harness,1x,chair,7.740002738026452,5,0
+app_output,165,28,chest_harness,1x,chair,7.924288517503273,5,0
+app_output,165,28,chest_harness,1x,chair,15.128187169778975,5,0
+app_output,165,28,chest_harness,1x,chair,17.51684830184934,5,0
+app_output,165,28,chest_harness,1x,dining table,18.32424446101273,5,0
+app_output,165,28,chest_harness,1x,chair,19.554648515577995,5,0
+app_output,165,28,chest_harness,1x,chair,21.85651733607864,5,0
+app_output,165,28,chest_harness,1x,chair,22.453710085015175,5,0
+app_output,165,28,chest_harness,1x,chair,32.37549783415734,5,0
+app_output,166,28,chest_harness,0.5x,person,9.08064765672412,5,0
+app_output,166,28,chest_harness,0.5x,person,23.350236831576307,5,0
+app_output,166,28,chest_harness,0.5x,person,8.382136298514572,5,1
+app_output,166,28,chest_harness,0.5x,dining table,3.4796431356858815,3,0
+app_output,166,28,chest_harness,0.5x,dining table,5.731176929364981,4,0
+app_output,166,28,chest_harness,0.5x,dining table,6.495333853280313,5,0
+app_output,166,28,chest_harness,0.5x,chair,6.293325862628055,5,0
+app_output,166,28,chest_harness,0.5x,chair,3.6012372932897363,3,0
+app_output,166,28,chest_harness,0.5x,chair,6.409868934158204,5,0
+app_output,166,28,chest_harness,0.5x,chair,5.6743102040089015,4,1
+app_output,166,28,chest_harness,0.5x,chair,5.494173372135603,4,0
+app_output,166,28,chest_harness,0.5x,chair,10.816653826391969,5,0
+app_output,166,28,chest_harness,0.5x,chair,8.049602847547511,5,0
+app_output,166,28,chest_harness,0.5x,chair,17.30664612222715,5,0
+app_output,166,28,chest_harness,0.5x,dining table,17.50239661063557,5,0
+app_output,166,28,chest_harness,0.5x,dining table,4.1672372882465645,4,0
+app_output,166,28,chest_harness,0.5x,dining table,4.889428293703815,4,0
+app_output,166,28,chest_harness,0.5x,dining table,35.963091159349624,5,0
+app_output,166,28,chest_harness,0.5x,dining table,28.49524966099089,5,0
+app_output,166,28,chest_harness,0.5x,dining table,28.747482015993512,5,0
+app_output,166,28,chest_harness,0.5x,dining table,31.65024617191273,5,0
+app_output,166,28,chest_harness,0.5x,dining table,30.446877437251466,5,0
+app_output,166,28,chest_harness,0.5x,dining table,20.418443827985612,5,0
+app_output,166,28,chest_harness,0.5x,dining table,18.555151461521287,5,0
+app_output,167,28,gorillapod,1x,person,7.484050266530868,5,0
+app_output,167,28,gorillapod,1x,person,20.279362012535255,5,0
+app_output,167,28,gorillapod,1x,person,7.7816521415886495,5,1
+app_output,167,28,gorillapod,1x,dining table,2.70238557135368,2,0
+app_output,167,28,gorillapod,1x,dining table,4.763527108826826,4,0
+app_output,167,28,gorillapod,1x,dining table,7.026202485519567,5,0
+app_output,167,28,gorillapod,1x,chair,4.160251471689218,4,0
+app_output,167,28,gorillapod,1x,chair,3.7395518846644658,3,0
+app_output,167,28,gorillapod,1x,chair,6.05127486791159,5,0
+app_output,167,28,gorillapod,1x,chair,5.547001962252291,4,1
+app_output,167,28,gorillapod,1x,chair,5.282859011668848,4,0
+app_output,167,28,gorillapod,1x,chair,4.967464443808022,4,0
+app_output,167,28,gorillapod,1x,chair,6.525884661473283,5,0
+app_output,167,28,gorillapod,1x,chair,9.245003270420485,5,0
+app_output,167,28,gorillapod,1x,chair,7.081279100747605,5,0
+app_output,167,28,gorillapod,1x,chair,15.848577035006546,5,0
+app_output,167,28,gorillapod,1x,chair,24.409249558865966,5,0
+app_output,167,28,gorillapod,1x,chair,24.196300816803884,5,0
+app_output,167,28,gorillapod,1x,chair,21.141503429260755,5,0
+app_output,167,28,gorillapod,1x,chair,25.146967717048543,5,0
+app_output,167,28,gorillapod,1x,chair,21.09126221388704,5,0
+app_output,167,28,gorillapod,1x,chair,46.14490367211611,5,0
+app_output,167,28,gorillapod,1x,chair,56.12480906157462,5,0
+app_output,167,28,gorillapod,1x,chair,16.585031405762425,5,0
+app_output,167,28,gorillapod,1x,chair,36.473437560015064,5,0
+app_output,167,28,gorillapod,1x,chair,34.92341214429564,5,0
+app_output,167,28,gorillapod,1x,chair,37.85272877283337,5,0
+app_output,167,28,gorillapod,1x,dining table,24.23350717144063,5,0
+app_output,167,28,gorillapod,1x,dining table,47.797295819861006,5,0
+app_output,167,28,gorillapod,1x,dining table,31.262302493969155,5,0
+app_output,168,28,gorillapod,0.5x,person,9.514857419935462,5,1
+app_output,168,28,gorillapod,0.5x,person,9.264466435200317,5,0
+app_output,168,28,gorillapod,0.5x,person,10.668173470836729,5,0
+app_output,168,28,gorillapod,0.5x,chair,2.255042540008191,2,1
+app_output,168,28,gorillapod,0.5x,chair,6.902935775247296,5,0
+app_output,168,28,gorillapod,0.5x,chair,4.141761465148377,4,0
+app_output,168,28,gorillapod,0.5x,chair,3.58421665253225,3,0
+app_output,168,28,gorillapod,0.5x,chair,7.1684333050645,5,0
+app_output,168,28,gorillapod,0.5x,chair,6.212642197722567,5,0
+app_output,168,28,gorillapod,0.5x,chair,5.481743115637559,4,0
+app_output,168,28,gorillapod,0.5x,chair,5.647856543384151,4,0
+app_output,168,28,gorillapod,0.5x,chair,5.647856543384151,4,0
+app_output,168,28,gorillapod,0.5x,chair,5.647856543384151,4,0
+app_output,168,28,gorillapod,0.5x,chair,7.45517063726708,5,0
+app_output,168,28,gorillapod,0.5x,chair,7.45517063726708,5,0
+app_output,168,28,gorillapod,0.5x,chair,7.7658027471532085,5,0
+app_output,168,28,gorillapod,0.5x,chair,8.875203139603666,5,0
+app_output,168,28,gorillapod,0.5x,chair,10.354403662870943,5,0
+app_output,168,28,gorillapod,0.5x,chair,5.20830699823046,4,0
+app_output,168,28,gorillapod,0.5x,chair,27.00170458988439,5,0
+app_output,168,28,gorillapod,0.5x,chair,25.374985150670796,5,0
+app_output,168,28,gorillapod,0.5x,chair,17.549836716730415,5,0
+app_output,168,28,gorillapod,0.5x,chair,18.849988969069734,5,0
+app_output,168,28,gorillapod,0.5x,chair,33.38634409882257,5,0
+app_output,168,28,gorillapod,0.5x,chair,17.818285461919405,5,0
+app_output,168,28,gorillapod,0.5x,chair,27.581097437170104,5,0
+app_output,168,28,gorillapod,0.5x,person,17.686497088048835,5,0
+app_output,168,28,gorillapod,0.5x,chair,8.934768261345972,5,0
+app_output,168,28,gorillapod,0.5x,chair,10.612342544152426,5,0
+app_output,168,28,gorillapod,0.5x,chair,22.529980771432697,5,0
+app_output,168,28,gorillapod,0.5x,dining table,2.568324668336135,2,0
+app_output,168,28,gorillapod,0.5x,dining table,3.4762437476673296,3,0
+app_output,168,28,gorillapod,0.5x,dining table,18.647741193796012,5,0
+app_output,168,28,gorillapod,0.5x,dining table,4.293444334055469,4,0
+app_output,168,28,gorillapod,0.5x,dining table,18.20028166240397,5,0
+app_output,168,28,gorillapod,0.5x,dining table,15.362316805821216,5,0
+app_output,170,29,head_harness,0.5x,couch,1.84802228934268,1,0
+app_output,171,29,chest_harness,1x,couch,1.9144582333874167,1,0
+app_output,172,29,chest_harness,0.5x,couch,1.4948702811556265,1,0
+app_output,173,29,gorillapod,1x,couch,1.8323478457215103,1,0
+app_output,174,29,gorillapod,0.5x,couch,1.5602620361983384,1,0
+app_output,175,30,head_harness,1x,person,3.655001292956936,3,1
+app_output,175,30,head_harness,1x,person,13.666526573665065,5,0
+app_output,175,30,head_harness,1x,person,13.082098062399188,5,0
+app_output,175,30,head_harness,1x,laptop,1.0876474435788805,1,0
+app_output,175,30,head_harness,1x,laptop,0.7455647798726197,0,1
+app_output,175,30,head_harness,1x,tv,4.7208527338317365,4,0
+app_output,175,30,head_harness,1x,tv,8.533849172695831,5,0
+app_output,175,30,head_harness,1x,tv,8.217780684818209,5,0
+app_output,175,30,head_harness,1x,chair,1.957765398441985,1,0
+app_output,175,30,head_harness,1x,chair,3.578710943388575,3,0
+app_output,175,30,head_harness,1x,chair,3.0533955755517197,3,0
+app_output,176,30,head_harness,0.5x,person,1.8335923153000628,1,0
+app_output,176,30,head_harness,0.5x,person,1.708979245328214,1,0
+app_output,176,30,head_harness,0.5x,person,5.2544735005613745,4,1
+app_output,176,30,head_harness,0.5x,person,11.734990817920401,5,0
+app_output,176,30,head_harness,0.5x,laptop,0.45414051152942736,,0
+app_output,176,30,head_harness,0.5x,laptop,1.5227064210104329,1,0
+app_output,176,30,head_harness,0.5x,chair,1.2678861628005238,1,0
+app_output,176,30,head_harness,0.5x,chair,1.8453392666502673,1,0
+app_output,176,30,head_harness,0.5x,chair,2.300978591749099,2,0
+app_output,176,30,head_harness,0.5x,chair,3.451467887623648,3,0
+app_output,176,30,head_harness,0.5x,chair,5.481743115637559,4,0
+app_output,176,30,head_harness,0.5x,laptop,1.16387384509312,1,0
+app_output,176,30,head_harness,0.5x,laptop,0.47715046486813406,,0
+app_output,176,30,head_harness,0.5x,tv,4.005249220870379,4,0
+app_output,177,30,chest_harness,1x,person,2.3633842946939585,2,1
+app_output,177,30,chest_harness,1x,person,6.759787337511752,5,0
+app_output,177,30,chest_harness,1x,tv,4.108890342409104,4,0
+app_output,177,30,chest_harness,1x,chair,1.0240619007235,1,0
+app_output,177,30,chest_harness,1x,chair,1.077087759660639,1,0
+app_output,177,30,chest_harness,1x,chair,7.3960026163363874,5,0
+app_output,178,30,chest_harness,0.5x,person,2.444789753733417,2,0
+app_output,178,30,chest_harness,0.5x,person,1.5044860022974875,1,1
+app_output,178,30,chest_harness,0.5x,person,3.556057823612243,3,0
+app_output,178,30,chest_harness,0.5x,person,5.2544735005613745,4,0
+app_output,178,30,chest_harness,0.5x,laptop,0.6553420039791736,0,0
+app_output,178,30,chest_harness,0.5x,tv,4.601957183498197,4,0
+app_output,178,30,chest_harness,0.5x,chair,0.7396002616336389,0,0
+app_output,178,30,chest_harness,0.5x,chair,1.0297197012799835,1,0
+app_output,178,30,chest_harness,0.5x,chair,2.8673733220258,2,0
+app_output,178,30,chest_harness,0.5x,chair,4.904717524517816,4,0
+app_output,179,30,gorillapod,1x,laptop,1.1852568295410877,1,0
+app_output,179,30,gorillapod,1x,laptop,0.6740920009785438,0,0
+app_output,179,30,gorillapod,1x,tv,3.825518594656752,3,0
+app_output,179,30,gorillapod,1x,chair,2.3604263669158683,2,0
+app_output,179,30,gorillapod,1x,chair,1.4407797304551404,1,0
+app_output,179,30,gorillapod,1x,chair,1.9463164779832598,1,0
+app_output,179,30,gorillapod,1x,chair,3.503369660369868,3,0
+app_output,179,30,gorillapod,1x,person,14.41963925428277,5,0
+app_output,180,30,gorillapod,0.5x,person,2.4618861855777068,2,1
+app_output,180,30,gorillapod,0.5x,person,3.705786574080127,3,0
+app_output,180,30,gorillapod,0.5x,person,3.417958490656428,3,1
+app_output,180,30,gorillapod,0.5x,laptop,0.6677890853484856,0,0
+app_output,180,30,gorillapod,0.5x,laptop,1.3613467871247624,1,0
+app_output,180,30,gorillapod,0.5x,tv,4.601957183498197,4,0
+app_output,180,30,gorillapod,0.5x,chair,1.0773367972929306,1,0
+app_output,180,30,gorillapod,0.5x,chair,1.6067178097558361,1,0
+app_output,180,30,gorillapod,0.5x,chair,1.0650243767524399,1,0
+app_output,180,30,gorillapod,0.5x,chair,3.1589706090114746,3,0
+app_output,180,30,gorillapod,0.5x,chair,2.588600915717736,2,0
+app_output,180,30,gorillapod,0.5x,person,13.378290881155692,5,0
+app_output,180,30,gorillapod,0.5x,person,20.01419696063741,5,0
+app_output,181,31,head_harness,1x,bed,2.4117399835879523,2,1
+app_output,181,31,head_harness,1x,laptop,4.202274213827493,4,0
+app_output,182,31,head_harness,0.5x,bed,0.7530475391178868,0,1
+app_output,182,31,head_harness,0.5x,laptop,1.0151376140069552,1,0
+app_output,182,31,head_harness,0.5x,laptop,1.0565718023337698,1,1
+app_output,183,31,chest_harness,1x,bed,0.8982999129153507,0,1
+app_output,183,31,chest_harness,1x,laptop,1.8490006540840969,1,0
+app_output,183,31,chest_harness,1x,laptop,1.1556254088025606,1,0
+app_output,184,31,chest_harness,0.5x,bed,0.6151130888834224,0,1
+app_output,184,31,chest_harness,0.5x,laptop,1.9912314736290275,1,0
+app_output,184,31,chest_harness,0.5x,laptop,1.3992437382258032,1,0
+app_output,185,31,gorillapod,1x,bed,0.6545135058704767,0,1
+app_output,185,31,gorillapod,1x,laptop,1.650893441146515,1,0
+app_output,185,31,gorillapod,1x,laptop,1.46746083657468,1,1
+app_output,186,31,gorillapod,0.5x,bed,0.7088517090748132,0,1
+app_output,186,31,gorillapod,0.5x,laptop,1.6700651069146684,1,0
+app_output,186,31,gorillapod,0.5x,laptop,1.5688490398289308,1,1
+app_output,189,32,chest_harness,1x,toilet,9.304648452810294,5,0
+app_output,190,32,chest_harness,0.5x,toilet,1.106360939320457,1,1
+app_output,190,32,chest_harness,0.5x,sink,1.9042581448958058,1,1
+app_output,191,32,gorillapod,1x,toilet,1.5761972788913614,1,1
+app_output,192,32,gorillapod,0.5x,toilet,0.8241260058203405,0,1
+app_output,192,32,gorillapod,0.5x,sink,1.236346706014441,1,1
+app_output,193,33,head_harness,1x,dining table,2.989873398093433,2,0
+app_output,193,33,head_harness,1x,chair,3.5406395503738026,3,0
+app_output,193,33,head_harness,1x,chair,3.2629423307366414,3,1
+app_output,193,33,head_harness,1x,chair,19.57765398441985,5,0
+app_output,194,33,head_harness,0.5x,dining table,1.6923326416735305,1,1
+app_output,194,33,head_harness,0.5x,chair,2.094149055412101,2,0
+app_output,194,33,head_harness,0.5x,chair,1.6641005886756874,1,1
+app_output,194,33,head_harness,0.5x,chair,2.094149055412101,2,0
+app_output,195,33,chest_harness,1x,dining table,2.0219287728113864,2,0
+app_output,195,33,chest_harness,1x,chair,2.429343925073996,2,0
+app_output,195,33,chest_harness,1x,chair,1.912759297328376,1,1
+app_output,195,33,chest_harness,1x,chair,2.3943893362240103,2,1
+app_output,196,33,chest_harness,0.5x,dining table,2.1859296621616435,2,0
+app_output,196,33,chest_harness,0.5x,chair,2.518638728806446,2,0
+app_output,196,33,chest_harness,0.5x,chair,2.094149055412101,2,1
+app_output,196,33,chest_harness,0.5x,chair,2.6625609418811,2,1
+app_output,197,33,gorillapod,1x,dining table,2.113143604667539,2,0
+app_output,197,33,gorillapod,1x,chair,2.9797226172625226,2,0
+app_output,197,33,gorillapod,1x,chair,2.2041067399677976,2,1
+app_output,197,33,gorillapod,1x,chair,2.620630848308169,2,1
+app_output,198,33,gorillapod,0.5x,dining table,2.314513759935858,2,0
+app_output,198,33,gorillapod,0.5x,chair,2.8239282716920755,2,0
+app_output,198,33,gorillapod,0.5x,chair,2.142290413007782,2,1
+app_output,198,33,gorillapod,0.5x,chair,2.701148781618507,2,1

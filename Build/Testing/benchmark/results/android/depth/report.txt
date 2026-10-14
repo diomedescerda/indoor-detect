@@ -1,0 +1,42 @@
+Detection depth analysis (estimated distances)
+
+Pinhole distance estimate: d = f_px * H_ref / h_px.
+f_px from EXIF FocalLengthIn35mmFilm; diagonal-normalised over 43.3 mm.
+Reference heights (m): person 1.70, chair 0.90, couch 0.85, bed 0.60, dining table 0.76, toilet 0.78, tv 0.60, laptop 0.25, sink 0.80, refrigerator 1.75
+Bands: 0.5-1.0 m, 1.0-2.0 m, 2.0-3.0 m, 3.0-4.0 m, 4.0-6.0 m, 6.0+ m
+Manifest/EXIF lens mismatches: 7 of 198 photos (see exif_lens_mismatches.csv).
+
+Detector mode, confidence 0.30, IoU >= 0.50, class match. Bands with < 30 annotated
+instances and bands without complete coverage are excluded from the suggested range.
+
+Pooled all configurations, by band (pooled uses every instance; group mean and CI are
+balanced over the 33 capture groups, so they can move off the pooled value):
+band | gt | tp | recall | group-mean recall | 95% CI | top classes
+0.5-1.0 | 73 | 55 | 75.3% | 75.7% | [57.0%, 94.1%] | bed 52%, laptop 18%, chair 14%
+1.0-2.0 | 160 | 106 | 66.2% | 66.6% | [54.7%, 78.4%] | chair 41%, toilet 12%, laptop 11%
+2.0-3.0 | 120 | 75 | 62.5% | 62.3% | [50.0%, 73.4%] | chair 53%, dining table 23%, toilet 7%
+3.0-4.0 | 143 | 89 | 62.2% | 62.6% | [45.9%, 76.2%] | chair 59%, tv 13%, dining table 10%
+4.0-6.0 | 142 | 52 | 36.6% | 36.4% | [25.0%, 48.1%] | chair 58%, tv 14%, dining table 12%
+6.0+ | 245 | 43 | 17.6% | 16.5% | [7.9%, 21.4%] | chair 53%, sink 15%, person 13%
+
+Suggested usable range bands (recall >= 0.5, >= 30 instances, pooled):
+  3.0-4.0 m and closer
+
+All configurations, detector mode:
+band | Head 1x | Head 0.5x | Chest 1x | Chest 0.5x | Gorillapod 1x | Gorillapod 0.5x
+0.5-1.0 | 4/3 (75%) | 10/7 (70%) | 7/7 (100%) | 22/16 (73%) | 10/8 (80%) | 20/14 (70%)
+1.0-2.0 | 11/7 (64%) | 34/22 (65%) | 24/16 (67%) | 29/19 (66%) | 25/15 (60%) | 37/27 (73%)
+2.0-3.0 | 19/12 (63%) | 25/12 (48%) | 17/12 (71%) | 14/10 (71%) | 20/16 (80%) | 25/13 (52%)
+3.0-4.0 | 31/18 (58%) | 22/12 (55%) | 21/15 (71%) | 25/15 (60%) | 26/15 (58%) | 18/14 (78%)
+4.0-6.0 | 21/9 (43%) | 25/9 (36%) | 22/8 (36%) | 27/8 (30%) | 19/9 (47%) | 28/9 (32%)
+6.0+ | 43/7 (16%) | 46/7 (15%) | 33/7 (21%) | 34/7 (21%) | 45/12 (27%) | 44/3 (7%)
+
+gt/tp per cell shows annotated instances and matches; cells below ~15 instances are unstable.
+
+Limits:
+- Distances are single-camera estimates; class reference height uncertainty is proportional (~±30%).
+- Recall is not monotone in distance: class mix changes with distance (e.g., bathroom items close,
+  chairs and tables far), so each band pools different classes and depth is partly confounded with class.
+- Occluded or truncated objects lose visible box height, which overestimates their distance.
+- iPhone optics; results do not transfer to other cameras without re-estimating focal length.
+- If the estimated range is used as an operating guideline, validate it on new scenes at measured distances.
