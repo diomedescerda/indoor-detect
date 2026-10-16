@@ -22,7 +22,7 @@ python Documents/scripts/analyze_proposal_evidence.py
 python Documents/scripts/update_informe.py
 ```
 
-Las versiones en español de los gráficos de selección están en `Figures/seleccion_escenas.png` y `Figures/seleccion_metricas.png`; el informe las desarrolla en las secciones 4.3 y 4.5. Para regenerarlas desde los CSV archivados, instalar NumPy y Matplotlib y ejecutar `python Documents/scripts/build_selection_figures.py` antes del constructor del informe. Los gráficos originales del benchmark se conservan en `Build/Testing/benchmark/results/android/`.
+El gráfico en español de precisión, recall y F1 está en `Figures/seleccion_metricas.png` y se desarrolla en la sección 4.5. El mapa de conteos `Figures/seleccion_escenas.png` se conserva como material de análisis, pero se retiró del informe para evitar redundancia con la Tabla 4.5. Para regenerarlas desde los CSV archivados, instalar NumPy y Matplotlib y ejecutar `python Documents/scripts/build_selection_figures.py` antes del constructor del informe. Los gráficos originales del benchmark se conservan en `Build/Testing/benchmark/results/android/`.
 
 El segundo comando usa las tablas archivadas y el capítulo generado. Requiere Liberation Sans en `/usr/share/fonts/liberation/LiberationSans-Regular.ttf` para los diagramas. Renderizar después el DOCX a PDF con un motor de documentos y verificar todas sus páginas. Con pypdfium2 instalado:
 

@@ -325,113 +325,108 @@
     "label": "35"
   },
   "report_1065": {
-    "text": "Figura 4.3. Conteos visibles, correctos y falsos en los 33 grupos de captura.",
+    "text": "4.4 Escenario 3: rango de profundidad de detección",
+    "physical_page": 46,
+    "label": "35"
+  },
+  "report_1066": {
+    "text": "Tabla 4.6. Recall por banda de distancia estimada.",
     "physical_page": 47,
     "label": "36"
   },
-  "report_1066": {
-    "text": "4.4 Escenario 3: rango de profundidad de detección",
+  "report_1067": {
+    "text": "Figura 4.3. Recall por distancia estimada e intervalo bootstrap del 95 %.",
     "physical_page": 48,
     "label": "37"
   },
-  "report_1067": {
-    "text": "Tabla 4.6. Recall por banda de distancia estimada.",
-    "physical_page": 49,
-    "label": "38"
-  },
   "report_1068": {
-    "text": "Figura 4.4. Recall por distancia estimada e intervalo bootstrap del 95 %.",
+    "text": "4.5 Métricas complementarias de detección",
     "physical_page": 49,
     "label": "38"
   },
   "report_1069": {
-    "text": "4.5 Métricas complementarias de detección",
+    "text": "Tabla 4.7. Resultados por clase en el conjunto completo.",
+    "physical_page": 49,
+    "label": "38"
+  },
+  "report_1070": {
+    "text": "Figura 4.4. Precisión, recall y F1 del detector y de la lista de hasta dos objetos.",
     "physical_page": 50,
     "label": "39"
   },
-  "report_1070": {
-    "text": "Tabla 4.7. Resultados por clase en el conjunto completo.",
+  "report_1071": {
+    "text": "4.6 Consideraciones de validez",
     "physical_page": 51,
     "label": "40"
   },
-  "report_1071": {
-    "text": "Figura 4.5. Precisión, recall y F1 del detector y de la lista de hasta dos objetos.",
-    "physical_page": 52,
-    "label": "41"
-  },
   "report_1072": {
-    "text": "4.6 Consideraciones de validez",
+    "text": "4.7 Distribución del tiempo de procesamiento",
     "physical_page": 53,
     "label": "42"
   },
   "report_1073": {
-    "text": "4.7 Distribución del tiempo de procesamiento",
-    "physical_page": 55,
-    "label": "44"
+    "text": "Tabla 4.8. Distribución de tiempos de reproducción en emulador en milisegundos.",
+    "physical_page": 53,
+    "label": "42"
   },
   "report_1074": {
-    "text": "Tabla 4.8. Distribución de tiempos de reproducción en emulador en milisegundos.",
-    "physical_page": 55,
-    "label": "44"
+    "text": "4.8 Brillo de las imágenes y alcance del análisis de oclusión",
+    "physical_page": 53,
+    "label": "42"
   },
   "report_1075": {
-    "text": "4.8 Brillo de las imágenes y alcance del análisis de oclusión",
+    "text": "Tabla 4.9. Detección agrupada por brillo digital de las fotografías.",
+    "physical_page": 54,
+    "label": "43"
+  },
+  "report_1076": {
+    "text": "4.9 Correspondencia con las actividades de la propuesta",
     "physical_page": 55,
     "label": "44"
   },
-  "report_1076": {
-    "text": "Tabla 4.9. Detección agrupada por brillo digital de las fotografías.",
-    "physical_page": 56,
-    "label": "45"
-  },
   "report_1077": {
-    "text": "4.9 Correspondencia con las actividades de la propuesta",
-    "physical_page": 57,
-    "label": "46"
+    "text": "Tabla 4.10. Evidencias y alcance de las actividades de la pasantía.",
+    "physical_page": 55,
+    "label": "44"
   },
   "report_1078": {
-    "text": "Tabla 4.10. Evidencias y alcance de las actividades de la pasantía.",
+    "text": "5. Conclusiones",
     "physical_page": 57,
-    "label": "46"
+    "label": "47"
   },
   "report_1079": {
-    "text": "5. Conclusiones",
-    "physical_page": 59,
-    "label": "49"
+    "text": "5.1 Conclusiones",
+    "physical_page": 57,
+    "label": "47"
   },
   "report_1080": {
-    "text": "5.1 Conclusiones",
-    "physical_page": 59,
-    "label": "49"
+    "text": "5.2 Recomendaciones",
+    "physical_page": 58,
+    "label": "48"
   },
   "report_1081": {
-    "text": "5.2 Recomendaciones",
-    "physical_page": 60,
-    "label": "50"
+    "text": "5.3 Trabajo futuro",
+    "physical_page": 58,
+    "label": "48"
   },
   "report_1082": {
-    "text": "5.3 Trabajo futuro",
+    "text": "Anexo A: Scripts de evaluación de modelos",
     "physical_page": 60,
-    "label": "50"
+    "label": "51"
   },
   "report_1083": {
-    "text": "Anexo A: Scripts de evaluación de modelos",
+    "text": "Anexo B: Pruebas unitarias del prototipo",
     "physical_page": 62,
     "label": "53"
   },
   "report_1084": {
-    "text": "Anexo B: Pruebas unitarias del prototipo",
-    "physical_page": 64,
-    "label": "55"
+    "text": "Anexo C: Manuales técnico y de usuario",
+    "physical_page": 63,
+    "label": "54"
   },
   "report_1085": {
-    "text": "Anexo C: Manuales técnico y de usuario",
-    "physical_page": 65,
-    "label": "56"
-  },
-  "report_1086": {
     "text": "Bibliografía",
-    "physical_page": 66,
-    "label": "57"
+    "physical_page": 64,
+    "label": "55"
   }
 }
