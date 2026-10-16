@@ -313,162 +313,210 @@
   },
   {
     "name": "report_1052",
+    "text": "3.13 Requerimientos y criterios de verificación",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1053",
+    "text": "Tabla 3.4. Requerimientos operativos y evidencia de verificación.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1054",
     "text": "4. Evaluación del prototipo en escenarios controlados",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1053",
+    "name": "report_1055",
     "text": "4.1 Diseño experimental",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1054",
+    "name": "report_1056",
     "text": "Tabla 4.1. Diseño y unidades de análisis.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1055",
+    "name": "report_1057",
     "text": "4.2 Escenario 1: posiciones del arnés",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1056",
+    "name": "report_1058",
     "text": "Tabla 4.2. Resultados agrupados por montaje.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1057",
+    "name": "report_1059",
     "text": "Tabla 4.3. Pruebas t pareadas por montaje.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1058",
+    "name": "report_1060",
     "text": "Figura 4.1. Objetos correctos por fotografía y montaje.",
     "kind": "figures",
     "level": 1
   },
   {
-    "name": "report_1059",
+    "name": "report_1061",
     "text": "4.3 Escenario 2: combinaciones de arnés y lente",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1060",
+    "name": "report_1062",
     "text": "Tabla 4.4. Resultados por configuración.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1061",
+    "name": "report_1063",
     "text": "Tabla 4.5. Comparación de conteos con Gorillapod 0,5x.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1062",
+    "name": "report_1064",
     "text": "Figura 4.2. Objetos correctos por fotografía en las seis configuraciones.",
     "kind": "figures",
     "level": 1
   },
   {
-    "name": "report_1063",
+    "name": "report_1065",
     "text": "Figura 4.3. Conteos visibles, correctos y falsos en los 33 grupos de captura.",
     "kind": "figures",
     "level": 1
   },
   {
-    "name": "report_1064",
+    "name": "report_1066",
     "text": "4.4 Escenario 3: rango de profundidad de detección",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1065",
+    "name": "report_1067",
     "text": "Tabla 4.6. Recall por banda de distancia estimada.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1066",
+    "name": "report_1068",
     "text": "Figura 4.4. Recall por distancia estimada e intervalo bootstrap del 95 %.",
     "kind": "figures",
     "level": 1
   },
   {
-    "name": "report_1067",
+    "name": "report_1069",
     "text": "4.5 Métricas complementarias de detección",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1068",
+    "name": "report_1070",
     "text": "Tabla 4.7. Resultados por clase en el conjunto completo.",
     "kind": "tables",
     "level": 1
   },
   {
-    "name": "report_1069",
+    "name": "report_1071",
     "text": "Figura 4.5. Precisión, recall y F1 del detector y de la lista de hasta dos objetos.",
     "kind": "figures",
     "level": 1
   },
   {
-    "name": "report_1070",
+    "name": "report_1072",
     "text": "4.6 Consideraciones de validez",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1071",
-    "text": "5. Conclusiones",
-    "kind": "contents",
-    "level": 1
-  },
-  {
-    "name": "report_1072",
-    "text": "5.1 Conclusiones",
-    "kind": "contents",
-    "level": 2
-  },
-  {
     "name": "report_1073",
-    "text": "5.2 Recomendaciones",
+    "text": "4.7 Distribución del tiempo de procesamiento",
     "kind": "contents",
     "level": 2
   },
   {
     "name": "report_1074",
+    "text": "Tabla 4.8. Distribución de tiempos de reproducción en emulador en milisegundos.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1075",
+    "text": "4.8 Brillo de las imágenes y alcance del análisis de oclusión",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1076",
+    "text": "Tabla 4.9. Detección agrupada por brillo digital de las fotografías.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1077",
+    "text": "4.9 Correspondencia con las actividades de la propuesta",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1078",
+    "text": "Tabla 4.10. Evidencias y alcance de las actividades de la pasantía.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1079",
+    "text": "5. Conclusiones",
+    "kind": "contents",
+    "level": 1
+  },
+  {
+    "name": "report_1080",
+    "text": "5.1 Conclusiones",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1081",
+    "text": "5.2 Recomendaciones",
+    "kind": "contents",
+    "level": 2
+  },
+  {
+    "name": "report_1082",
     "text": "5.3 Trabajo futuro",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1075",
+    "name": "report_1083",
     "text": "Anexo A: Scripts de evaluación de modelos",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1076",
+    "name": "report_1084",
     "text": "Anexo B: Pruebas unitarias del prototipo",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1077",
+    "name": "report_1085",
     "text": "Anexo C: Manuales técnico y de usuario",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1078",
+    "name": "report_1086",
     "text": "Bibliografía",
     "kind": "contents",
     "level": 1

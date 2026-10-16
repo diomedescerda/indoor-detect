@@ -1,0 +1,146 @@
+{
+  "n_images": 198,
+  "quantile_method": "linear interpolation at (n-1)*p",
+  "timing_scope": "JPEG replay; camera acquisition, UI and speech excluded",
+  "timing_warmup_runs": 3,
+  "timing_ms": {
+    "preprocess_ms": {
+      "min": 94.23591,
+      "p25": 100.46139075,
+      "median": 103.98208650000001,
+      "p75": 110.142462,
+      "p95": 125.90235415,
+      "max": 186.063201
+    },
+    "inference_ms": {
+      "min": 225.074616,
+      "p25": 238.36902,
+      "median": 246.348376,
+      "p75": 258.92746825,
+      "p95": 307.47951489999997,
+      "max": 400.075232
+    },
+    "replay_total_ms": {
+      "min": 321.58232899999996,
+      "p25": 340.85351125,
+      "median": 352.3807045,
+      "p75": 367.4295445,
+      "p95": 419.91645049999994,
+      "max": 505.69814700000006
+    }
+  },
+  "brightness_method": "Pillow RGB to L at original resolution; arithmetic mean over pixels; 8-bit digital luma, not physical luminance",
+  "tertile_cutpoints": [
+    124.79912387000189,
+    136.7633236779107
+  ],
+  "brightness_groups": [
+    {
+      "group": "Menor brillo",
+      "n": 66,
+      "luma_min": 88.37964121500652,
+      "luma_max": 124.73833052317302,
+      "gt": 326,
+      "tp": 136,
+      "fp": 85,
+      "fn": 190,
+      "precision": 0.6153846153846154,
+      "recall": 0.4171779141104294,
+      "class_counts": {
+        "person": 28,
+        "chair": 146,
+        "couch": 9,
+        "bed": 13,
+        "dining table": 35,
+        "toilet": 9,
+        "tv": 22,
+        "laptop": 14,
+        "sink": 29,
+        "refrigerator": 21
+      },
+      "configuration_counts": {
+        "chest_harness 0.5x": 13,
+        "chest_harness 1x": 9,
+        "gorillapod 0.5x": 14,
+        "gorillapod 1x": 7,
+        "head_harness 0.5x": 13,
+        "head_harness 1x": 10
+      }
+    },
+    {
+      "group": "Brillo intermedio",
+      "n": 66,
+      "luma_min": 124.82952054341634,
+      "luma_max": 136.7594950993856,
+      "gt": 191,
+      "tp": 118,
+      "fp": 26,
+      "fn": 73,
+      "precision": 0.8194444444444444,
+      "recall": 0.6178010471204188,
+      "class_counts": {
+        "person": 3,
+        "chair": 79,
+        "couch": 2,
+        "bed": 24,
+        "dining table": 16,
+        "toilet": 13,
+        "tv": 11,
+        "laptop": 9,
+        "sink": 21,
+        "refrigerator": 13
+      },
+      "configuration_counts": {
+        "chest_harness 0.5x": 9,
+        "chest_harness 1x": 10,
+        "gorillapod 0.5x": 11,
+        "gorillapod 1x": 12,
+        "head_harness 0.5x": 14,
+        "head_harness 1x": 10
+      }
+    },
+    {
+      "group": "Mayor brillo",
+      "n": 66,
+      "luma_min": 136.77098083496094,
+      "luma_max": 157.0792360305786,
+      "gt": 372,
+      "tp": 171,
+      "fp": 58,
+      "fn": 201,
+      "precision": 0.7467248908296943,
+      "recall": 0.4596774193548387,
+      "class_counts": {
+        "person": 25,
+        "chair": 213,
+        "couch": 0,
+        "bed": 19,
+        "dining table": 56,
+        "toilet": 16,
+        "tv": 17,
+        "laptop": 11,
+        "sink": 6,
+        "refrigerator": 9
+      },
+      "configuration_counts": {
+        "chest_harness 0.5x": 11,
+        "chest_harness 1x": 14,
+        "gorillapod 0.5x": 8,
+        "gorillapod 1x": 14,
+        "head_harness 0.5x": 6,
+        "head_harness 1x": 13
+      }
+    }
+  ],
+  "limitations": [
+    "Post hoc sample-relative grouping; no lux measurements or controlled exposure",
+    "Class composition, framing, lens and scene content confound brightness associations",
+    "No occlusion fraction or labels in COCO GT; cannot infer hidden-object fraction from bbox area",
+    "Timing excludes camera acquisition, UI, localization, speech generation and playback; emulator only"
+  ],
+  "source_sha256": {
+    "Build/Testing/benchmark/results/android.json": "4b4954608b6190af640354e6bb6580ab452cf9a46464e17cc37bc9478daa0703",
+    "Build/Testing/labels.json": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
+    "Build/Testing/benchmark/results/android/per_image.csv": "dbfcb4737a9e13ab19d8cc90320b6c1cec5f5f86e2c05dc244846b87a1f294a9"
+  }
+}

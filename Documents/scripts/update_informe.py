@@ -244,6 +244,8 @@ def main():
     doc.add_paragraph('[31] k2-fsa, “Text-to-speech,” sherpa-onnx documentation. [Online]. Available: https://k2-fsa.github.io/sherpa/onnx/tts/index.html. Consultado: 14 oct. 2026.')
     doc.add_paragraph('[32] Google, “LiteRT for Android,” Google AI Edge. [Online]. Available: https://developers.google.com/edge/litert/android. Consultado: 14 oct. 2026.')
     doc.add_paragraph('[33] D. Cerda, “AssistiveVision,” código fuente, revisión 85c852ddcb543bce1bd69ad0db307f895d597881. [Online]. Available: https://github.com/diomedescerda/AssistiveVision.')
+    from align_proposal import apply
+    apply(doc, original, add_before, change, H2, H3, CAP)
     # Heading styles contain a near-transparent textFill inherited from the source.
     for sid in [H1,H2,H3]:
         st=doc.styles[sid]
@@ -253,6 +255,7 @@ def main():
         if len(t.columns)==1:continue
         n=len(t.columns);widths=[1.45]+[(6.08-1.45)/(n-1)]*(n-1)
         if n==3:widths=[2.1,2.45,1.53]
+        if t.cell(0,0).text=='Requerimiento':widths=[1.40,2.05,2.63]
         if 'Banda de distancia' in t.cell(0,0).text:widths=[.94,.60,.60,.64,.82,1.0,1.48]
         t.autofit=False
         borders=OxmlElement('w:tblBorders')

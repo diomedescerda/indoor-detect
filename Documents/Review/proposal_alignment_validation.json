@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-16",
+  "report_sha256": "267d5d20270e920b2a61e47d1a23391aad1ff8a1e8e67e3b788d4a283bf225d2",
+  "guide_sha256": "2dc9b5038be183b774eaa3cc928eb0ea689dd3d86f03d9ab9b217d0c50f75bef",
+  "proposal_sha256": "fa68b8812d3faa8290ee807ddb6edbd0e65fa435ae6b86e3c3c3f689dc8b9c04",
+  "rendered_pages": 69,
+  "proposal_activities_mapped": 14,
+  "guide_checks": {
+    "spanish_summary_words": 199,
+    "english_summary_words": 178,
+    "keywords_each": 6,
+    "introduction_pages": 4,
+    "numbered_chapters": 5,
+    "printed_chapter_start_pages": [
+      5,
+      11,
+      21,
+      29,
+      49
+    ],
+    "sections_preserved": 12,
+    "original_media_preserved": true,
+    "body_font": "Arial 11",
+    "body_line_spacing": 1.5,
+    "body_paragraph_after_pt": 16.5,
+    "heading_sizes_pt": [
+      20,
+      16,
+      14
+    ],
+    "heading_spacing_before_after_pt": [
+      [
+        100,
+        24
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        20,
+        10
+      ]
+    ],
+    "navigation_entries": 87,
+    "body_pageref_fields": 81,
+    "figure_source_notes": true,
+    "table_source_notes": true,
+    "tables_kept_on_single_page": true,
+    "bibliography_left_aligned": true,
+    "visual_review_pages": 69
+  },
+  "submission_details_pending": [
+    "Research line",
+    "Academic titles of director and codirector",
+    "Optional acknowledgments",
+    "Acceptance, jury and approval details when applicable",
+    "Program approval of chapter structure"
+  ],
+  "scientific_gaps": [
+    "Occlusion severity can be annotated manually on existing photos; no such labels currently exist.",
+    "Image brightness is exploratory, not measured illuminance; controlled lux evaluation requires new measurements.",
+    "Complete capture-to-audio response requires new instrumentation; current timing covers preparation and detector call in emulator.",
+    "Audio clarity and usability require participant evaluation.",
+    "Comfort, stability and ergonomics were not measured.",
+    "Priority classes reflect technical scope; user needs validation and door/desk coverage remain pending.",
+    "Nominal lens versus EXIF disagreements and independent scene validation remain limitations."
+  ],
+  "additional_analysis": {
+    "images": 198,
+    "ground_truth_instances": 889,
+    "true_positives": 425,
+    "false_positives": 169,
+    "brightness_method": "Pillow 12.3.0 RGB to L, native-resolution mean; sample tertiles of 66 images",
+    "timing_method": "Linear quantiles of archived per-image preparation and detection times; summed within image; no new inference",
+    "median_preparation_plus_detection_ms": 352.3807,
+    "p95_preparation_plus_detection_ms": 419.9165,
+    "scope": "Pixel 8 emulator, not physical device or end-to-end audio latency"
+  },
+  "status": "Revision verified; submission details and scientific limitations explicitly pending."
+}

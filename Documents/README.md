@@ -1,6 +1,6 @@
 # Informe final de AssistiveVision
 
-El manuscrito de trabajo es **Informe_Final_Trabajo_de_Grado_AssistiveVision.docx**. Integra la comparación histórica de modelos, la implementación actual y la evaluación de 198 fotografías (889 anotaciones, 33 grupos y seis configuraciones). Se actualizó el 14 de octubre de 2026.
+El manuscrito de trabajo es **Informe_Final_Trabajo_de_Grado_AssistiveVision.docx**. Integra la comparación histórica de modelos, la implementación actual y la evaluación de 198 fotografías (889 anotaciones, 33 grupos y seis configuraciones). Se actualizó el 16 de octubre de 2026 para vincular las tres fases de la propuesta con sus evidencias y límites.
 
 `Templates/Informe_Final_Base_2026-09-25.docx` conserva el original sin modificaciones. El manuscrito mantiene su geometría de página, doce secciones, escudo, estilos y estructura institucional. Se repararon portada, encabezados, índices y tablas. `Fragments/` contiene el capítulo experimental independiente; el manuscrito completo es la versión principal para seguir escribiendo.
 
@@ -8,7 +8,7 @@ El manuscrito de trabajo es **Informe_Final_Trabajo_de_Grado_AssistiveVision.doc
 
 Hacer `git pull` y abrir el manuscrito en Word o LibreOffice. Guardar y confirmar los cambios en ese archivo. Los datos, anotaciones, predicciones y análisis están en `Build/Testing/`; `Review/2026-10-14_revision.md` documenta las correcciones y comprobaciones de esta revisión.
 
-Permanecen pendientes los datos del director, codirector opcional, línea y grupo de investigación, y agradecimientos opcionales. No se inventaron esos datos. Revisar además las discrepancias EXIF antes de cerrar la selección de lente. El resultado de profundidad es exploratorio y las latencias del emulador no representan un Pixel 8 físico.
+Se incorporaron los nombres del autor y de los supervisores, y el grupo TecnOS, desde la propuesta. Permanecen pendientes los títulos académicos de los supervisores, la línea de investigación y los agradecimientos opcionales. No se inventaron esos datos. Revisar además las discrepancias EXIF antes de cerrar la selección de lente. El resultado de profundidad es exploratorio y las latencias del emulador no representan un Pixel 8 físico.
 
 ## Regeneración técnica
 
@@ -18,6 +18,7 @@ Desde la raíz del repositorio, con Python, python-docx, Pillow y lxml:
 
 ```sh
 python Build/Testing/scripts/build_chapter4.py
+python Documents/scripts/analyze_proposal_evidence.py
 python Documents/scripts/update_informe.py
 ```
 
@@ -29,6 +30,12 @@ El segundo comando usa las tablas archivadas y el capítulo generado. Requiere L
 python Documents/scripts/refresh_informe_pages.py /ruta/al/informe_renderizado.pdf
 ```
 
-Esto completa los números de página de contenido, figuras y tablas sin volver a guardar el DOCX a través del renderizador. Renderizar una vez más y comprobar índices y paginación. Los 73 campos PAGEREF del cuerpo pueden actualizarse en Word; las seis entradas preliminares usan números romanos estáticos por compatibilidad con LibreOffice y requieren revisión si cambia la extensión de los preliminares. `scripts/informe_page_map.json` registra la correspondencia verificada.
+Esto completa los números de página de contenido, figuras y tablas sin volver a guardar el DOCX a través del renderizador. Renderizar una vez más y comprobar índices y paginación. Los campos PAGEREF del cuerpo pueden actualizarse en Word; las seis entradas preliminares usan números romanos estáticos por compatibilidad con LibreOffice y requieren revisión si cambia la extensión de los preliminares. `scripts/informe_page_map.json` registra la correspondencia verificada.
 
 Los scripts de análisis, sus resultados y la corrección estadística se versionan junto con el informe. El manifiesto original de `Build/Testing/` sigue protegiendo 570 archivos del paquete base. `Review/revision_sha256.json` registra por separado los archivos de esta revisión.
+
+## Correspondencia con la propuesta y la guía institucional
+
+Las secciones 3.13 y 4.7–4.9 explicitan requerimientos, distribución de tiempos, brillo digital y la matriz de las catorce actividades. `Review/proposal_evidence/` conserva los datos derivados y sus fuentes; el análisis no repite inferencia ni modifica anotaciones. El brillo digital no equivale a lux y no se infieren etiquetas de oclusión. Audio comprensible, latencia completa y ergonomía requieren evaluación adicional. `scripts/align_proposal.py` incorpora estos contenidos al constructor.
+
+`Templates/Guia_Institucional_Informe_Final.docx` conserva la guía entregada el 16 de octubre. `Review/proposal_alignment_validation.json` registra sus reglas verificables y los datos que faltan para el cierre. Se mantiene la estructura institucional de doce secciones, cinco capítulos, introducción general, conclusiones, anexos y bibliografía. Las tablas se mantienen completas para evitar continuaciones sin identificar.
