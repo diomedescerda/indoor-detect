@@ -45,3 +45,7 @@ Con cero aciertos en una celda, el intervalo percentil bootstrap puede ser [0,0]
 ### Guardado durante la revisión
 
 «Guardar y marcar revisión del autor» conserva la etiqueta en la sesión actual y muestra confirmación junto al botón; permanece en el mismo objeto. «Guardar y siguiente» guarda y avanza. La marca ✓ identifica las instancias revisadas. El contador aumenta sólo la primera vez que se revisa una instancia, no al actualizarla. Para conservar el trabajo al cerrar o recargar, usar «Descargar etiquetas revisadas» y luego «Restaurar JSON» al continuar.
+
+### Revisión del autor importada (2026-10-16)
+
+`author_review.json` conserva la descarga original: 215 de 889 instancias marcadas como revisadas, con cambios en 14 registros. Las otras 674 mantienen las etiquetas iniciales por decisión del autor; no se presentan como revisadas individualmente. El analizador utiliza este archivo automáticamente cuando existe, salvo que se indique otro mediante `--labels`. Se regeneraron métricas, visor e informe sin repetir inferencia ni alterar GT.

@@ -37,9 +37,9 @@ detector,partial,chair,medium,100,62,38,0.62,0.45,0.7972995053877406,10000,11,0,
 detector,partial,chair,large,12,10,2,0.8333333333333334,0.6180402930402932,1.0,9950,5,0,0,True
 detector,partial,couch,small,0,0,0,,,,0,0,0,0,True
 detector,partial,couch,medium,0,0,0,,,,0,0,0,0,True
-detector,partial,couch,large,1,1,0,1.0,1.0,1.0,6402,1,0,0,True
-detector,partial,dining table,small,27,0,27,0.0,0.0,0.0,9949,5,0,0,False
-detector,partial,dining table,medium,53,22,31,0.41509433962264153,0.25529828952857736,0.6388888888888888,9999,9,0,0,False
+detector,partial,couch,large,2,1,1,0.5,0.0,1.0,8743,2,0,0,True
+detector,partial,dining table,small,23,0,23,0.0,0.0,0.0,9949,5,0,0,False
+detector,partial,dining table,medium,48,21,27,0.4375,0.23529411764705882,0.7334803921568606,9998,8,0,0,False
 detector,partial,dining table,large,10,6,4,0.6,0.0,1.0,9966,5,0,0,True
 detector,partial,laptop,small,4,0,4,0.0,0.0,0.0,8709,2,0,0,True
 detector,partial,laptop,medium,13,9,4,0.6923076923076923,0.4,0.875,8709,2,0,0,True
@@ -54,7 +54,7 @@ detector,partial,sink,small,15,3,12,0.2,0.0,0.5,9946,5,0,0,False
 detector,partial,sink,medium,10,6,4,0.6,0.3333333333333333,1.0,9963,5,0,0,True
 detector,partial,sink,large,0,0,0,,,,0,0,0,0,True
 detector,partial,toilet,small,0,0,0,,,,0,0,0,0,True
-detector,partial,toilet,medium,4,3,1,0.75,0.0,1.0,8735,2,0,0,True
+detector,partial,toilet,medium,3,3,0,1.0,1.0,1.0,6250,1,0,0,True
 detector,partial,toilet,large,8,8,0,1.0,1.0,1.0,9611,3,0,0,True
 detector,partial,tv,small,3,0,3,0.0,0.0,0.0,6321,1,0,0,True
 detector,partial,tv,medium,8,1,7,0.125,0.0,0.2,8709,2,0,0,True
@@ -68,8 +68,8 @@ detector,heavy,chair,large,0,0,0,,,,0,0,0,0,True
 detector,heavy,couch,small,0,0,0,,,,0,0,0,0,True
 detector,heavy,couch,medium,0,0,0,,,,0,0,0,0,True
 detector,heavy,couch,large,0,0,0,,,,0,0,0,0,True
-detector,heavy,dining table,small,0,0,0,,,,0,0,0,0,True
-detector,heavy,dining table,medium,0,0,0,,,,0,0,0,0,True
+detector,heavy,dining table,small,4,0,4,0.0,0.0,0.0,9573,3,0,0,True
+detector,heavy,dining table,medium,5,1,4,0.2,0.0,1.0,9852,4,0,0,True
 detector,heavy,dining table,large,0,0,0,,,,0,0,0,0,True
 detector,heavy,laptop,small,0,0,0,,,,0,0,0,0,True
 detector,heavy,laptop,medium,0,0,0,,,,0,0,0,0,True
@@ -127,9 +127,9 @@ app_output,partial,chair,medium,100,23,77,0.23,0.12799767441860466,0.35185185185
 app_output,partial,chair,large,12,6,6,0.5,0.2,0.8,9950,5,0,0,True
 app_output,partial,couch,small,0,0,0,,,,0,0,0,0,True
 app_output,partial,couch,medium,0,0,0,,,,0,0,0,0,True
-app_output,partial,couch,large,1,1,0,1.0,1.0,1.0,6402,1,0,0,True
-app_output,partial,dining table,small,27,0,27,0.0,0.0,0.0,9949,5,0,0,False
-app_output,partial,dining table,medium,53,1,52,0.018867924528301886,0.0,0.07692307692307693,9999,9,0,0,False
+app_output,partial,couch,large,2,1,1,0.5,0.0,1.0,8743,2,0,0,True
+app_output,partial,dining table,small,23,0,23,0.0,0.0,0.0,9949,5,0,0,False
+app_output,partial,dining table,medium,48,1,47,0.020833333333333332,0.0,0.08333333333333333,9998,8,0,0,False
 app_output,partial,dining table,large,10,0,10,0.0,0.0,0.0,9966,5,0,0,True
 app_output,partial,laptop,small,4,0,4,0.0,0.0,0.0,8709,2,0,0,True
 app_output,partial,laptop,medium,13,1,12,0.07692307692307693,0.0,0.125,8709,2,0,0,True
@@ -144,7 +144,7 @@ app_output,partial,sink,small,15,3,12,0.2,0.0,0.5,9946,5,0,0,False
 app_output,partial,sink,medium,10,6,4,0.6,0.3333333333333333,1.0,9963,5,0,0,True
 app_output,partial,sink,large,0,0,0,,,,0,0,0,0,True
 app_output,partial,toilet,small,0,0,0,,,,0,0,0,0,True
-app_output,partial,toilet,medium,4,3,1,0.75,0.0,1.0,8735,2,0,0,True
+app_output,partial,toilet,medium,3,3,0,1.0,1.0,1.0,6250,1,0,0,True
 app_output,partial,toilet,large,8,8,0,1.0,1.0,1.0,9611,3,0,0,True
 app_output,partial,tv,small,3,0,3,0.0,0.0,0.0,6321,1,0,0,True
 app_output,partial,tv,medium,8,0,8,0.0,0.0,0.0,8709,2,0,0,True
@@ -158,8 +158,8 @@ app_output,heavy,chair,large,0,0,0,,,,0,0,0,0,True
 app_output,heavy,couch,small,0,0,0,,,,0,0,0,0,True
 app_output,heavy,couch,medium,0,0,0,,,,0,0,0,0,True
 app_output,heavy,couch,large,0,0,0,,,,0,0,0,0,True
-app_output,heavy,dining table,small,0,0,0,,,,0,0,0,0,True
-app_output,heavy,dining table,medium,0,0,0,,,,0,0,0,0,True
+app_output,heavy,dining table,small,4,0,4,0.0,0.0,0.0,9573,3,0,0,True
+app_output,heavy,dining table,medium,5,0,5,0.0,0.0,0.0,9852,4,0,0,True
 app_output,heavy,dining table,large,0,0,0,,,,0,0,0,0,True
 app_output,heavy,laptop,small,0,0,0,,,,0,0,0,0,True
 app_output,heavy,laptop,medium,0,0,0,,,,0,0,0,0,True

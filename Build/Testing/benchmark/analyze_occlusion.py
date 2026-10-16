@@ -245,6 +245,8 @@ def main():
     parser.add_argument('--labels', type=Path, help='Complete author-reviewed JSON export; original batch hashes are retained')
     parser.add_argument('--output', type=Path, default=DEFAULT_LABELS/'results')
     args = parser.parse_args()
+    if args.labels is None and (args.labels_dir/'author_review.json').is_file():
+        args.labels = args.labels_dir/'author_review.json'
     label_paths = sorted(args.labels_dir.glob('labels_batch_*.json'))
     if not label_paths and args.labels is None:
         raise ValueError(f'No labels_batch_*.json files in {args.labels_dir}')

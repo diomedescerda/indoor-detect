@@ -1,10 +1,10 @@
 {
-  "status": "provisional_ai_labels_human_review_pending",
+  "status": "provisional_ai_labels_partial_author_review_pending",
   "metadata": {
-    "status": "provisional_ai_labels_human_review_pending",
-    "human_review_status": "pending",
+    "status": "provisional_ai_labels_partial_author_review_pending",
+    "human_review_status": "author_review_partial",
     "independent_human_review_status": "pending",
-    "author_reviewed_count": 0,
+    "author_reviewed_count": 215,
     "initial_ai_batch_sources": {
       "/home/kenma/personal/coding/indoor-detect/Build/Testing/occlusion/labels_batch_1.json": "531ff7eb194d7473129371136f3ef39c350f65f03b34eb7158c862702007b7ca",
       "/home/kenma/personal/coding/indoor-detect/Build/Testing/occlusion/labels_batch_2.json": "4613d4acd9b87e48e4e7a894509076c0c7966244fd47800018ac9d321bbd5a80"
@@ -240,7 +240,14 @@
         ]
       }
     },
-    "inherited_source_hashes": {},
+    "inherited_source_hashes": {
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/labels.json": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/benchmark/results/android.json": "4b4954608b6190af640354e6bb6580ab452cf9a46464e17cc37bc9478daa0703",
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/benchmark/analyze_occlusion.py": "5d7588fd31827313f49dacac2569c9c3b0adc6f80f9a548be5efc0bb82e88e15",
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/benchmark/evaluate.py": "980dba692e6671edb0b6effee4822980d4c5f5094204286087ca01c405d30ac4",
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/occlusion/labels_batch_1.json": "531ff7eb194d7473129371136f3ef39c350f65f03b34eb7158c862702007b7ca",
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/occlusion/labels_batch_2.json": "4613d4acd9b87e48e4e7a894509076c0c7966244fd47800018ac9d321bbd5a80"
+    },
     "label_origin": "AI visual inspection of existing photographs, with author review markers when present",
     "labels_complete": true,
     "sensitivity_analyses": [
@@ -288,10 +295,11 @@
     "source_hashes": {
       "/home/kenma/personal/coding/indoor-detect/Build/Testing/labels.json": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
       "/home/kenma/personal/coding/indoor-detect/Build/Testing/benchmark/results/android.json": "4b4954608b6190af640354e6bb6580ab452cf9a46464e17cc37bc9478daa0703",
-      "/home/kenma/personal/coding/indoor-detect/Build/Testing/benchmark/analyze_occlusion.py": "5d7588fd31827313f49dacac2569c9c3b0adc6f80f9a548be5efc0bb82e88e15",
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/benchmark/analyze_occlusion.py": "4323be87b2b1c86b33250f79aa4776e91d6ef3606a653b2b78b892038d4312c8",
       "/home/kenma/personal/coding/indoor-detect/Build/Testing/benchmark/evaluate.py": "980dba692e6671edb0b6effee4822980d4c5f5094204286087ca01c405d30ac4",
       "/home/kenma/personal/coding/indoor-detect/Build/Testing/occlusion/labels_batch_1.json": "531ff7eb194d7473129371136f3ef39c350f65f03b34eb7158c862702007b7ca",
-      "/home/kenma/personal/coding/indoor-detect/Build/Testing/occlusion/labels_batch_2.json": "4613d4acd9b87e48e4e7a894509076c0c7966244fd47800018ac9d321bbd5a80"
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/occlusion/labels_batch_2.json": "4613d4acd9b87e48e4e7a894509076c0c7966244fd47800018ac9d321bbd5a80",
+      "/home/kenma/personal/coding/indoor-detect/Build/Testing/occlusion/author_review.json": "2287b87ef65c6acb24848afeea00e0ff96f8ce07425f156bcf89ce56535d2e68"
     },
     "photo_sha256": {
       "IMG_3068.jpeg": "990776f5a1d760c1b5e81fba3f0c137137a553090ccb23866189986503cc356c",
@@ -520,14 +528,14 @@
       }
     },
     "label_counts": {
-      "partial": 417,
+      "partial": 408,
       "none": 274,
-      "heavy": 159,
+      "heavy": 168,
       "uncertain": 39
     },
     "review_priority_counts": {
-      "high": 446,
-      "normal": 443
+      "high": 452,
+      "normal": 437
     },
     "limitations": [
       "Labels began as AI judgments; author review markers are preserved, and independent human validation remains pending.",
@@ -549,7 +557,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Un recipiente tapa parte del borde posterior; el extremo derecho del lavaplatos sale del encuadre."
+      "reason": "Un recipiente tapa parte del borde posterior; el extremo derecho del lavaplatos sale del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:07:27.838Z",
+      "initial_ai_label": {
+        "annotation_id": 1,
+        "image_id": 65,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Un recipiente tapa parte del borde posterior; el extremo derecho del lavaplatos sale del encuadre."
+      }
     },
     {
       "annotation_id": 2,
@@ -557,7 +575,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Un recipiente o escurridor dentro del fregadero oculta parte de la cubeta; borde met\u00e1lico visible."
+      "reason": "Un recipiente o escurridor dentro del fregadero oculta parte de la cubeta; borde met\u00e1lico visible.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:07:37.614Z",
+      "initial_ai_label": {
+        "annotation_id": 2,
+        "image_id": 131,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Un recipiente o escurridor dentro del fregadero oculta parte de la cubeta; borde met\u00e1lico visible."
+      }
     },
     {
       "annotation_id": 3,
@@ -565,7 +593,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Puerta y contorno del refrigerador visibles; el panel apoyado est\u00e1 a su lado sin ocultaci\u00f3n clara del frente."
+      "reason": "Puerta y contorno del refrigerador visibles; el panel apoyado est\u00e1 a su lado sin ocultaci\u00f3n clara del frente.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:07:46.985Z",
+      "initial_ai_label": {
+        "annotation_id": 3,
+        "image_id": 131,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Puerta y contorno del refrigerador visibles; el panel apoyado est\u00e1 a su lado sin ocultaci\u00f3n clara del frente."
+      }
     },
     {
       "annotation_id": 4,
@@ -573,7 +611,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldos y mesa se superponen a la zona inferior del refrigerador; puertas superiores visibles."
+      "reason": "Respaldos y mesa se superponen a la zona inferior del refrigerador; puertas superiores visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:05.240Z",
+      "initial_ai_label": {
+        "annotation_id": 4,
+        "image_id": 138,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldos y mesa se superponen a la zona inferior del refrigerador; puertas superiores visibles."
+      }
     },
     {
       "annotation_id": 5,
@@ -581,7 +629,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "medium",
-      "reason": "Borde del fregadero visible al fondo sin obst\u00e1culo externo claro; tama\u00f1o reducido y vista rasante."
+      "reason": "Borde del fregadero visible al fondo sin obst\u00e1culo externo claro; tama\u00f1o reducido y vista rasante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:15.104Z",
+      "initial_ai_label": {
+        "annotation_id": 5,
+        "image_id": 138,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "Borde del fregadero visible al fondo sin obst\u00e1culo externo claro; tama\u00f1o reducido y vista rasante."
+      }
     },
     {
       "annotation_id": 6,
@@ -589,7 +647,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El peluche tapa parte del asiento y la silla delantera se superpone al extremo derecho."
+      "reason": "El peluche tapa parte del asiento y la silla delantera se superpone al extremo derecho.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:20.282Z",
+      "initial_ai_label": {
+        "annotation_id": 6,
+        "image_id": 138,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El peluche tapa parte del asiento y la silla delantera se superpone al extremo derecho."
+      }
     },
     {
       "annotation_id": 7,
@@ -597,7 +665,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Silla de alambre delantera visible sin obst\u00e1culo externo claro."
+      "reason": "Silla de alambre delantera visible sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:27.299Z",
+      "initial_ai_label": {
+        "annotation_id": 7,
+        "image_id": 138,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Silla de alambre delantera visible sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 8,
@@ -605,7 +683,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Papeles sobre el asiento ocultan una parte; silla cortada por el borde izquierdo."
+      "reason": "Papeles sobre el asiento ocultan una parte; silla cortada por el borde izquierdo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:31.739Z",
+      "initial_ai_label": {
+        "annotation_id": 8,
+        "image_id": 138,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Papeles sobre el asiento ocultan una parte; silla cortada por el borde izquierdo."
+      }
     },
     {
       "annotation_id": 9,
@@ -613,7 +701,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho."
+      "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:35.781Z",
+      "initial_ai_label": {
+        "annotation_id": 9,
+        "image_id": 138,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho."
+      }
     },
     {
       "annotation_id": 10,
@@ -621,7 +719,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho."
+      "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:37.853Z",
+      "initial_ai_label": {
+        "annotation_id": 10,
+        "image_id": 138,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho."
+      }
     },
     {
       "annotation_id": 11,
@@ -629,7 +737,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa asiento y estructura inferior; solo sobresale el respaldo trasero."
+      "reason": "La mesa tapa asiento y estructura inferior; solo sobresale el respaldo trasero.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:38.895Z",
+      "initial_ai_label": {
+        "annotation_id": 11,
+        "image_id": 138,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa asiento y estructura inferior; solo sobresale el respaldo trasero."
+      }
     },
     {
       "annotation_id": 12,
@@ -637,7 +755,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesa y mantel ocultan la mayor parte de la silla lateral, con respaldo y una franja de soporte visibles."
+      "reason": "Mesa y mantel ocultan la mayor parte de la silla lateral, con respaldo y una franja de soporte visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:39.759Z",
+      "initial_ai_label": {
+        "annotation_id": 12,
+        "image_id": 138,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesa y mantel ocultan la mayor parte de la silla lateral, con respaldo y una franja de soporte visibles."
+      }
     },
     {
       "annotation_id": 13,
@@ -645,15 +773,35 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles."
+      "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:42.408Z",
+      "initial_ai_label": {
+        "annotation_id": 13,
+        "image_id": 138,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles."
+      }
     },
     {
       "annotation_id": 14,
       "image_id": 138,
-      "occlusion": "partial",
+      "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delantera y objetos sobre el tablero ocultan partes de la mesa."
+      "reason": "La silla delantera y objetos sobre el tablero ocultan partes de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:49.978Z",
+      "initial_ai_label": {
+        "annotation_id": 14,
+        "image_id": 138,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delantera y objetos sobre el tablero ocultan partes de la mesa."
+      }
     },
     {
       "annotation_id": 15,
@@ -661,7 +809,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Un recipiente junto al grifo tapa una peque\u00f1a parte del borde posterior del lavaplatos."
+      "reason": "Un recipiente junto al grifo tapa una peque\u00f1a parte del borde posterior del lavaplatos.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:52.836Z",
+      "initial_ai_label": {
+        "annotation_id": 15,
+        "image_id": 61,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Un recipiente junto al grifo tapa una peque\u00f1a parte del borde posterior del lavaplatos."
+      }
     },
     {
       "annotation_id": 16,
@@ -669,7 +827,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y sus sillas se interponen ante la zona inferior del refrigerador; las puertas superiores quedan visibles."
+      "reason": "La mesa y sus sillas se interponen ante la zona inferior del refrigerador; las puertas superiores quedan visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:55.744Z",
+      "initial_ai_label": {
+        "annotation_id": 16,
+        "image_id": 135,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y sus sillas se interponen ante la zona inferior del refrigerador; las puertas superiores quedan visibles."
+      }
     },
     {
       "annotation_id": 17,
@@ -677,15 +845,35 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "medium",
-      "reason": "Se aprecia el borde del fregadero al fondo sin obst\u00e1culo externo claro; vista muy rasante y peque\u00f1a."
+      "reason": "Se aprecia el borde del fregadero al fondo sin obst\u00e1culo externo claro; vista muy rasante y peque\u00f1a.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:08:58.734Z",
+      "initial_ai_label": {
+        "annotation_id": 17,
+        "image_id": 135,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "Se aprecia el borde del fregadero al fondo sin obst\u00e1culo externo claro; vista muy rasante y peque\u00f1a."
+      }
     },
     {
       "annotation_id": 18,
       "image_id": 135,
-      "occlusion": "partial",
+      "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delantera oculta parte de la mesa y sus soportes; superficie con mantel reconocible."
+      "reason": "La silla delantera oculta parte de la mesa y sus soportes; superficie con mantel reconocible.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:04.260Z",
+      "initial_ai_label": {
+        "annotation_id": 18,
+        "image_id": 135,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delantera oculta parte de la mesa y sus soportes; superficie con mantel reconocible."
+      }
     },
     {
       "annotation_id": 19,
@@ -693,7 +881,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa el asiento y casi toda la estructura inferior; queda principalmente el respaldo lateral."
+      "reason": "La mesa tapa el asiento y casi toda la estructura inferior; queda principalmente el respaldo lateral.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:05.858Z",
+      "initial_ai_label": {
+        "annotation_id": 19,
+        "image_id": 135,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa el asiento y casi toda la estructura inferior; queda principalmente el respaldo lateral."
+      }
     },
     {
       "annotation_id": 20,
@@ -701,7 +899,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles."
+      "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:07.312Z",
+      "initial_ai_label": {
+        "annotation_id": 20,
+        "image_id": 135,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles."
+      }
     },
     {
       "annotation_id": 21,
@@ -709,7 +917,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Solo sobresale el respaldo; la mesa oculta el asiento y la estructura inferior."
+      "reason": "Solo sobresale el respaldo; la mesa oculta el asiento y la estructura inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:08.122Z",
+      "initial_ai_label": {
+        "annotation_id": 21,
+        "image_id": 135,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Solo sobresale el respaldo; la mesa oculta el asiento y la estructura inferior."
+      }
     },
     {
       "annotation_id": 22,
@@ -717,7 +935,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa oculta la mayor parte de la silla lateral; queda una franja de respaldo y soporte."
+      "reason": "La mesa oculta la mayor parte de la silla lateral; queda una franja de respaldo y soporte.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:09.006Z",
+      "initial_ai_label": {
+        "annotation_id": 22,
+        "image_id": 135,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa oculta la mayor parte de la silla lateral; queda una franja de respaldo y soporte."
+      }
     },
     {
       "annotation_id": 23,
@@ -725,7 +953,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "El peluche tapa parte del asiento; el respaldo sale por el borde derecho."
+      "reason": "El peluche tapa parte del asiento; el respaldo sale por el borde derecho.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:10.565Z",
+      "initial_ai_label": {
+        "annotation_id": 23,
+        "image_id": 135,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "El peluche tapa parte del asiento; el respaldo sale por el borde derecho."
+      }
     },
     {
       "annotation_id": 24,
@@ -733,7 +971,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Parte de la silla visible sin obst\u00e1culo externo claro; el resto sale por el borde derecho."
+      "reason": "Parte de la silla visible sin obst\u00e1culo externo claro; el resto sale por el borde derecho.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:11.397Z",
+      "initial_ai_label": {
+        "annotation_id": 24,
+        "image_id": 135,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Parte de la silla visible sin obst\u00e1culo externo claro; el resto sale por el borde derecho."
+      }
     },
     {
       "annotation_id": 25,
@@ -741,7 +989,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Un recipiente y prendas sobre la cama tapan parte de su superficie; el encuadre corta la cama."
+      "reason": "Un recipiente y prendas sobre la cama tapan parte de su superficie; el encuadre corta la cama.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:14.582Z",
+      "initial_ai_label": {
+        "annotation_id": 25,
+        "image_id": 10,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Un recipiente y prendas sobre la cama tapan parte de su superficie; el encuadre corta la cama."
+      }
     },
     {
       "annotation_id": 26,
@@ -749,7 +1007,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa."
+      "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:17.146Z",
+      "initial_ai_label": {
+        "annotation_id": 26,
+        "image_id": 197,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa."
+      }
     },
     {
       "annotation_id": 27,
@@ -757,7 +1025,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles."
+      "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:17.982Z",
+      "initial_ai_label": {
+        "annotation_id": 27,
+        "image_id": 197,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 28,
@@ -765,7 +1043,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:19.005Z",
+      "initial_ai_label": {
+        "annotation_id": 28,
+        "image_id": 197,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 29,
@@ -773,7 +1061,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles."
+      "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:20.029Z",
+      "initial_ai_label": {
+        "annotation_id": 29,
+        "image_id": 197,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 30,
@@ -781,7 +1079,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Taza, dep\u00f3sito y base del inodoro visibles sin un objeto externo delante."
+      "reason": "Taza, dep\u00f3sito y base del inodoro visibles sin un objeto externo delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:21.213Z",
+      "initial_ai_label": {
+        "annotation_id": 30,
+        "image_id": 36,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Taza, dep\u00f3sito y base del inodoro visibles sin un objeto externo delante."
+      }
     },
     {
       "annotation_id": 31,
@@ -789,7 +1097,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Prendas cubren parte del borde y la grifer\u00eda del lavamanos; est\u00e1 recortado por la derecha."
+      "reason": "Prendas cubren parte del borde y la grifer\u00eda del lavamanos; est\u00e1 recortado por la derecha.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:22.523Z",
+      "initial_ai_label": {
+        "annotation_id": 31,
+        "image_id": 36,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Prendas cubren parte del borde y la grifer\u00eda del lavamanos; est\u00e1 recortado por la derecha."
+      }
     },
     {
       "annotation_id": 32,
@@ -797,7 +1115,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa."
+      "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:23.787Z",
+      "initial_ai_label": {
+        "annotation_id": 32,
+        "image_id": 195,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa."
+      }
     },
     {
       "annotation_id": 33,
@@ -805,7 +1133,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero oculta parte del asiento y brazo; respaldo y patas visibles."
+      "reason": "El tablero oculta parte del asiento y brazo; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:24.541Z",
+      "initial_ai_label": {
+        "annotation_id": 33,
+        "image_id": 195,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero oculta parte del asiento y brazo; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 34,
@@ -813,7 +1151,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:24.949Z",
+      "initial_ai_label": {
+        "annotation_id": 34,
+        "image_id": 195,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 35,
@@ -821,7 +1169,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero oculta parte del asiento y brazo; respaldo y patas visibles."
+      "reason": "El tablero oculta parte del asiento y brazo; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:09:25.481Z",
+      "initial_ai_label": {
+        "annotation_id": 35,
+        "image_id": 195,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero oculta parte del asiento y brazo; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 36,
@@ -829,7 +1187,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y marco visibles sin objeto delante."
+      "reason": "Pantalla y marco visibles sin objeto delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:37.994Z",
+      "initial_ai_label": {
+        "annotation_id": 36,
+        "image_id": 119,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y marco visibles sin objeto delante."
+      }
     },
     {
       "annotation_id": 37,
@@ -837,7 +1205,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:39.172Z",
+      "initial_ai_label": {
+        "annotation_id": 37,
+        "image_id": 119,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 38,
@@ -845,7 +1223,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla verde delante se superpone al extremo derecho de la silla roja."
+      "reason": "La silla verde delante se superpone al extremo derecho de la silla roja.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:39.923Z",
+      "initial_ai_label": {
+        "annotation_id": 38,
+        "image_id": 119,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla verde delante se superpone al extremo derecho de la silla roja."
+      }
     },
     {
       "annotation_id": 39,
@@ -853,7 +1241,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:40.815Z",
+      "initial_ai_label": {
+        "annotation_id": 39,
+        "image_id": 119,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 40,
@@ -861,7 +1259,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y marco visibles sin objeto delante."
+      "reason": "Pantalla y marco visibles sin objeto delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:41.616Z",
+      "initial_ai_label": {
+        "annotation_id": 40,
+        "image_id": 118,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y marco visibles sin objeto delante."
+      }
     },
     {
       "annotation_id": 41,
@@ -869,7 +1277,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:42.336Z",
+      "initial_ai_label": {
+        "annotation_id": 41,
+        "image_id": 118,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 42,
@@ -877,7 +1295,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:42.912Z",
+      "initial_ai_label": {
+        "annotation_id": 42,
+        "image_id": 118,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 43,
@@ -885,15 +1313,35 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:43.375Z",
+      "initial_ai_label": {
+        "annotation_id": 43,
+        "image_id": 118,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 44,
       "image_id": 118,
-      "occlusion": "partial",
+      "occlusion": "heavy",
       "truncation": false,
       "confidence": "medium",
-      "reason": "Parte de la mesa al fondo queda detr\u00e1s del equipo de ejercicio y del marco de acceso."
+      "reason": "Parte de la mesa al fondo queda detr\u00e1s del equipo de ejercicio y del marco de acceso.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:47.196Z",
+      "initial_ai_label": {
+        "annotation_id": 44,
+        "image_id": 118,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "Parte de la mesa al fondo queda detr\u00e1s del equipo de ejercicio y del marco de acceso."
+      }
     },
     {
       "annotation_id": 45,
@@ -901,7 +1349,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Silla y mesa tapan las piernas inferiores; cabeza y torso visibles."
+      "reason": "Silla y mesa tapan las piernas inferiores; cabeza y torso visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:49.718Z",
+      "initial_ai_label": {
+        "annotation_id": 45,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Silla y mesa tapan las piernas inferiores; cabeza y torso visibles."
+      }
     },
     {
       "annotation_id": 46,
@@ -909,7 +1367,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesa y silla ocultan gran parte del cuerpo; cabeza y torso superior visibles."
+      "reason": "Mesa y silla ocultan gran parte del cuerpo; cabeza y torso superior visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:51.208Z",
+      "initial_ai_label": {
+        "annotation_id": 46,
+        "image_id": 166,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesa y silla ocultan gran parte del cuerpo; cabeza y torso superior visibles."
+      }
     },
     {
       "annotation_id": 47,
@@ -917,7 +1385,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Mesa y silla tapan parte del cuerpo; extremo derecho cortado por encuadre."
+      "reason": "Mesa y silla tapan parte del cuerpo; extremo derecho cortado por encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:52.682Z",
+      "initial_ai_label": {
+        "annotation_id": 47,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Mesa y silla tapan parte del cuerpo; extremo derecho cortado por encuadre."
+      }
     },
     {
       "annotation_id": 48,
@@ -925,7 +1403,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Sillas se superponen a la mesa y soportes; mesa cortada por borde izquierdo."
+      "reason": "Sillas se superponen a la mesa y soportes; mesa cortada por borde izquierdo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:55.798Z",
+      "initial_ai_label": {
+        "annotation_id": 48,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Sillas se superponen a la mesa y soportes; mesa cortada por borde izquierdo."
+      }
     },
     {
       "annotation_id": 49,
@@ -933,15 +1421,35 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Sillas y personas ocultan partes de la mesa; tablero reconocible."
+      "reason": "Sillas y personas ocultan partes de la mesa; tablero reconocible.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:10:57.378Z",
+      "initial_ai_label": {
+        "annotation_id": 49,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Sillas y personas ocultan partes de la mesa; tablero reconocible."
+      }
     },
     {
       "annotation_id": 50,
       "image_id": 166,
-      "occlusion": "partial",
+      "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Sillas y personas ocultan partes de la mesa; tablero reconocible."
+      "reason": "Sillas y personas ocultan partes de la mesa; tablero reconocible.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:02.020Z",
+      "initial_ai_label": {
+        "annotation_id": 50,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Sillas y personas ocultan partes de la mesa; tablero reconocible."
+      }
     },
     {
       "annotation_id": 51,
@@ -949,7 +1457,17 @@
       "occlusion": "heavy",
       "truncation": true,
       "confidence": "high",
-      "reason": "Tablero y soporte de mesa ocultan gran parte de la silla; quedan patas y un fragmento del asiento junto al borde izquierdo."
+      "reason": "Tablero y soporte de mesa ocultan gran parte de la silla; quedan patas y un fragmento del asiento junto al borde izquierdo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:06.123Z",
+      "initial_ai_label": {
+        "annotation_id": 51,
+        "image_id": 166,
+        "occlusion": "heavy",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Tablero y soporte de mesa ocultan gran parte de la silla; quedan patas y un fragmento del asiento junto al borde izquierdo."
+      }
     },
     {
       "annotation_id": 52,
@@ -957,7 +1475,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:11.429Z",
+      "initial_ai_label": {
+        "annotation_id": 52,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 53,
@@ -965,7 +1493,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:12.459Z",
+      "initial_ai_label": {
+        "annotation_id": 53,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 54,
@@ -973,7 +1511,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:13.131Z",
+      "initial_ai_label": {
+        "annotation_id": 54,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 55,
@@ -981,7 +1529,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:13.683Z",
+      "initial_ai_label": {
+        "annotation_id": 55,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 56,
@@ -989,7 +1547,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delantera y la mesa ocultan gran parte de esta silla; solo se ve parte del brazo y soportes."
+      "reason": "La silla delantera y la mesa ocultan gran parte de esta silla; solo se ve parte del brazo y soportes.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:18.507Z",
+      "initial_ai_label": {
+        "annotation_id": 56,
+        "image_id": 166,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delantera y la mesa ocultan gran parte de esta silla; solo se ve parte del brazo y soportes."
+      }
     },
     {
       "annotation_id": 57,
@@ -997,7 +1565,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:21.665Z",
+      "initial_ai_label": {
+        "annotation_id": 57,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 58,
@@ -1005,15 +1583,35 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mobiliario delantero oculta casi toda la silla; solo queda un respaldo peque\u00f1o al fondo."
+      "reason": "Mobiliario delantero oculta casi toda la silla; solo queda un respaldo peque\u00f1o al fondo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:25.239Z",
+      "initial_ai_label": {
+        "annotation_id": 58,
+        "image_id": 166,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mobiliario delantero oculta casi toda la silla; solo queda un respaldo peque\u00f1o al fondo."
+      }
     },
     {
       "annotation_id": 59,
       "image_id": 166,
-      "occlusion": "partial",
+      "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Persona y silla se superponen a parte de la mesa; tablero visible."
+      "reason": "Persona y silla se superponen a parte de la mesa; tablero visible.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:28.814Z",
+      "initial_ai_label": {
+        "annotation_id": 59,
+        "image_id": 166,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Persona y silla se superponen a parte de la mesa; tablero visible."
+      }
     },
     {
       "annotation_id": 60,
@@ -1021,7 +1619,17 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:40.724Z",
+      "initial_ai_label": {
+        "annotation_id": 60,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 61,
@@ -1029,7 +1637,17 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:44.025Z",
+      "initial_ai_label": {
+        "annotation_id": 61,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 62,
@@ -1037,7 +1655,17 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:48.642Z",
+      "initial_ai_label": {
+        "annotation_id": 62,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 63,
@@ -1045,7 +1673,17 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:51.860Z",
+      "initial_ai_label": {
+        "annotation_id": 63,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 64,
@@ -1053,7 +1691,17 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:53.478Z",
+      "initial_ai_label": {
+        "annotation_id": 64,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 65,
@@ -1061,7 +1709,17 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:54.690Z",
+      "initial_ai_label": {
+        "annotation_id": 65,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 66,
@@ -1069,7 +1727,17 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:11:57.044Z",
+      "initial_ai_label": {
+        "annotation_id": 66,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 67,
@@ -1077,15 +1745,35 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:12.624Z",
+      "initial_ai_label": {
+        "annotation_id": 67,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 68,
       "image_id": 166,
       "occlusion": "uncertain",
       "truncation": false,
-      "confidence": "low",
-      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      "confidence": "medium",
+      "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:15.066Z",
+      "initial_ai_label": {
+        "annotation_id": 68,
+        "image_id": 166,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "La caja GT de mesa encierra principalmente una silla o respaldo; no puedo asignar ocultaci\u00f3n fiable a la instancia de mesa sin revisi\u00f3n humana."
+      }
     },
     {
       "annotation_id": 69,
@@ -1093,7 +1781,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y marco visibles sin objeto delante."
+      "reason": "Pantalla y marco visibles sin objeto delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:16.420Z",
+      "initial_ai_label": {
+        "annotation_id": 69,
+        "image_id": 116,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y marco visibles sin objeto delante."
+      }
     },
     {
       "annotation_id": 70,
@@ -1101,7 +1799,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:17.282Z",
+      "initial_ai_label": {
+        "annotation_id": 70,
+        "image_id": 116,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo."
+      }
     },
     {
       "annotation_id": 71,
@@ -1109,7 +1817,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:17.660Z",
+      "initial_ai_label": {
+        "annotation_id": 71,
+        "image_id": 116,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo."
+      }
     },
     {
       "annotation_id": 72,
@@ -1117,23 +1835,53 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:18.021Z",
+      "initial_ai_label": {
+        "annotation_id": 72,
+        "image_id": 116,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo."
+      }
     },
     {
       "annotation_id": 73,
       "image_id": 116,
-      "occlusion": "partial",
-      "truncation": false,
+      "occlusion": "heavy",
+      "truncation": true,
       "confidence": "medium",
-      "reason": "La m\u00e1quina de ejercicio y el marco del paso ocultan parte de la mesa al fondo; queda visible un sector del tablero y soporte."
+      "reason": "La m\u00e1quina de ejercicio y el marco del paso ocultan parte de la mesa al fondo; queda visible un sector del tablero y soporte.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:29.538Z",
+      "initial_ai_label": {
+        "annotation_id": 73,
+        "image_id": 116,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "La m\u00e1quina de ejercicio y el marco del paso ocultan parte de la mesa al fondo; queda visible un sector del tablero y soporte."
+      }
     },
     {
       "annotation_id": 74,
       "image_id": 189,
-      "occlusion": "partial",
+      "occlusion": "uncertain",
       "truncation": true,
       "confidence": "high",
-      "reason": "Rollo de papel y paquete sobre el tanque tapan parte de la tapa; casi todo el inodoro sale por borde inferior."
+      "reason": "Rollo de papel y paquete sobre el tanque tapan parte de la tapa; casi todo el inodoro sale por borde inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:39.345Z",
+      "initial_ai_label": {
+        "annotation_id": 74,
+        "image_id": 189,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Rollo de papel y paquete sobre el tanque tapan parte de la tapa; casi todo el inodoro sale por borde inferior."
+      }
     },
     {
       "annotation_id": 75,
@@ -1141,7 +1889,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Cabeza, torso y piernas de la persona visibles sin obst\u00e1culo externo claro."
+      "reason": "Cabeza, torso y piernas de la persona visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:41.785Z",
+      "initial_ai_label": {
+        "annotation_id": 75,
+        "image_id": 149,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Cabeza, torso y piernas de la persona visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 76,
@@ -1149,15 +1907,35 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "La persona y la cama delantera ocultan parte de esta cama; extremo derecho e inferior fuera del encuadre."
+      "reason": "La persona y la cama delantera ocultan parte de esta cama; extremo derecho e inferior fuera del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:44.605Z",
+      "initial_ai_label": {
+        "annotation_id": 76,
+        "image_id": 149,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La persona y la cama delantera ocultan parte de esta cama; extremo derecho e inferior fuera del encuadre."
+      }
     },
     {
       "annotation_id": 77,
       "image_id": 149,
       "occlusion": "none",
       "truncation": true,
-      "confidence": "medium",
-      "reason": "Cama delantera con ropa de cama sin obst\u00e1culo externo claro; cortada por los bordes izquierdo e inferior."
+      "confidence": "high",
+      "reason": "Cama delantera con ropa de cama sin obst\u00e1culo externo claro; cortada por los bordes izquierdo e inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:48.532Z",
+      "initial_ai_label": {
+        "annotation_id": 77,
+        "image_id": 149,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "medium",
+        "reason": "Cama delantera con ropa de cama sin obst\u00e1culo externo claro; cortada por los bordes izquierdo e inferior."
+      }
     },
     {
       "annotation_id": 78,
@@ -1165,7 +1943,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y marco visibles sin objeto delante."
+      "reason": "Pantalla y marco visibles sin objeto delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:12:54.362Z",
+      "initial_ai_label": {
+        "annotation_id": 78,
+        "image_id": 115,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y marco visibles sin objeto delante."
+      }
     },
     {
       "annotation_id": 79,
@@ -1173,7 +1961,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior."
+      "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:03.456Z",
+      "initial_ai_label": {
+        "annotation_id": 79,
+        "image_id": 115,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior."
+      }
     },
     {
       "annotation_id": 80,
@@ -1181,7 +1979,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior."
+      "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:03.807Z",
+      "initial_ai_label": {
+        "annotation_id": 80,
+        "image_id": 115,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior."
+      }
     },
     {
       "annotation_id": 81,
@@ -1189,23 +1997,53 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior."
+      "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:04.106Z",
+      "initial_ai_label": {
+        "annotation_id": 81,
+        "image_id": 115,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Respaldo visible sin obst\u00e1culo externo; asiento y patas salen por el borde inferior."
+      }
     },
     {
       "annotation_id": 82,
       "image_id": 115,
-      "occlusion": "partial",
+      "occlusion": "heavy",
       "truncation": true,
       "confidence": "high",
-      "reason": "La estructura de ejercicio se superpone al lado izquierdo y al tablero de la mesa; lado derecho cortado por el encuadre."
+      "reason": "La estructura de ejercicio se superpone al lado izquierdo y al tablero de la mesa; lado derecho cortado por el encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:07.970Z",
+      "initial_ai_label": {
+        "annotation_id": 82,
+        "image_id": 115,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La estructura de ejercicio se superpone al lado izquierdo y al tablero de la mesa; lado derecho cortado por el encuadre."
+      }
     },
     {
       "annotation_id": 83,
       "image_id": 174,
-      "occlusion": "uncertain",
+      "occlusion": "partial",
       "truncation": true,
       "confidence": "medium",
-      "reason": "Tableros redondos se superponen al asiento, pero no distingo si son piezas integradas del mueble o mesas externas. Mueble cortado por borde izquierdo."
+      "reason": "Tableros redondos se superponen al asiento, pero no distingo si son piezas integradas del mueble o mesas externas. Mueble cortado por borde izquierdo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:18.110Z",
+      "initial_ai_label": {
+        "annotation_id": 83,
+        "image_id": 174,
+        "occlusion": "uncertain",
+        "truncation": true,
+        "confidence": "medium",
+        "reason": "Tableros redondos se superponen al asiento, pero no distingo si son piezas integradas del mueble o mesas externas. Mueble cortado por borde izquierdo."
+      }
     },
     {
       "annotation_id": 84,
@@ -1213,7 +2051,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "La porci\u00f3n visible del sof\u00e1 no tiene obstrucciones externas; el encuadre corta un extremo."
+      "reason": "La porci\u00f3n visible del sof\u00e1 no tiene obstrucciones externas; el encuadre corta un extremo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:22.720Z",
+      "initial_ai_label": {
+        "annotation_id": 84,
+        "image_id": 39,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La porci\u00f3n visible del sof\u00e1 no tiene obstrucciones externas; el encuadre corta un extremo."
+      }
     },
     {
       "annotation_id": 85,
@@ -1221,15 +2069,35 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Frente del refrigerador visible y despejado."
+      "reason": "Frente del refrigerador visible y despejado.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:24.910Z",
+      "initial_ai_label": {
+        "annotation_id": 85,
+        "image_id": 39,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Frente del refrigerador visible y despejado."
+      }
     },
     {
       "annotation_id": 86,
       "image_id": 39,
-      "occlusion": "partial",
+      "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Las sillas y adornos delante ocultan partes del tablero y de los soportes de la mesa."
+      "reason": "Las sillas y adornos delante ocultan partes del tablero y de los soportes de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:30.180Z",
+      "initial_ai_label": {
+        "annotation_id": 86,
+        "image_id": 39,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Las sillas y adornos delante ocultan partes del tablero y de los soportes de la mesa."
+      }
     },
     {
       "annotation_id": 87,
@@ -1237,7 +2105,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El sof\u00e1 en primer plano tapa parte de la zona inferior de la silla."
+      "reason": "El sof\u00e1 en primer plano tapa parte de la zona inferior de la silla.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:31.683Z",
+      "initial_ai_label": {
+        "annotation_id": 87,
+        "image_id": 39,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El sof\u00e1 en primer plano tapa parte de la zona inferior de la silla."
+      }
     },
     {
       "annotation_id": 88,
@@ -1245,7 +2123,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "medium",
-      "reason": "El borde de la mesa cruza delante de parte del asiento de la silla lateral."
+      "reason": "El borde de la mesa cruza delante de parte del asiento de la silla lateral.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:32.616Z",
+      "initial_ai_label": {
+        "annotation_id": 88,
+        "image_id": 39,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "El borde de la mesa cruza delante de parte del asiento de la silla lateral."
+      }
     },
     {
       "annotation_id": 89,
@@ -1253,7 +2141,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delantera y la mesa ocultan la mayor parte de la silla posterior; queda visible su respaldo superior."
+      "reason": "La silla delantera y la mesa ocultan la mayor parte de la silla posterior; queda visible su respaldo superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:34.816Z",
+      "initial_ai_label": {
+        "annotation_id": 89,
+        "image_id": 39,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delantera y la mesa ocultan la mayor parte de la silla posterior; queda visible su respaldo superior."
+      }
     },
     {
       "annotation_id": 90,
@@ -1261,15 +2159,35 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La vitrina y las sillas delanteras ocultan casi toda la silla posterior; apenas asoma el respaldo."
+      "reason": "La vitrina y las sillas delanteras ocultan casi toda la silla posterior; apenas asoma el respaldo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:36.167Z",
+      "initial_ai_label": {
+        "annotation_id": 90,
+        "image_id": 39,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La vitrina y las sillas delanteras ocultan casi toda la silla posterior; apenas asoma el respaldo."
+      }
     },
     {
       "annotation_id": 91,
       "image_id": 39,
       "occlusion": "heavy",
       "truncation": false,
-      "confidence": "medium",
-      "reason": "La barra frontal oculta casi toda la pileta; la grifer\u00eda queda visible por encima."
+      "confidence": "high",
+      "reason": "La barra frontal oculta casi toda la pileta; la grifer\u00eda queda visible por encima.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:13:42.097Z",
+      "initial_ai_label": {
+        "annotation_id": 91,
+        "image_id": 39,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "La barra frontal oculta casi toda la pileta; la grifer\u00eda queda visible por encima."
+      }
     },
     {
       "annotation_id": 92,
@@ -1277,7 +2195,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Puertas visibles sin obst\u00e1culo externo; refrigerador cortado por los bordes izquierdo e inferior."
+      "reason": "Puertas visibles sin obst\u00e1culo externo; refrigerador cortado por los bordes izquierdo e inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:03.751Z",
+      "initial_ai_label": {
+        "annotation_id": 92,
+        "image_id": 143,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Puertas visibles sin obst\u00e1culo externo; refrigerador cortado por los bordes izquierdo e inferior."
+      }
     },
     {
       "annotation_id": 93,
@@ -1285,7 +2213,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Vasos y recipientes ocultan casi toda la cubeta; se distinguen segmentos del borde delantero."
+      "reason": "Vasos y recipientes ocultan casi toda la cubeta; se distinguen segmentos del borde delantero.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:05.685Z",
+      "initial_ai_label": {
+        "annotation_id": 93,
+        "image_id": 143,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Vasos y recipientes ocultan casi toda la cubeta; se distinguen segmentos del borde delantero."
+      }
     },
     {
       "annotation_id": 94,
@@ -1293,7 +2231,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delante y un pa\u00f1o colgado ocultan peque\u00f1as partes del frente del refrigerador."
+      "reason": "La silla delante y un pa\u00f1o colgado ocultan peque\u00f1as partes del frente del refrigerador.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:07.945Z",
+      "initial_ai_label": {
+        "annotation_id": 94,
+        "image_id": 22,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delante y un pa\u00f1o colgado ocultan peque\u00f1as partes del frente del refrigerador."
+      }
     },
     {
       "annotation_id": 95,
@@ -1301,7 +2249,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:09.147Z",
+      "initial_ai_label": {
+        "annotation_id": 95,
+        "image_id": 22,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      }
     },
     {
       "annotation_id": 96,
@@ -1309,7 +2267,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Un pa\u00f1o tapa parte del tablero; la mesa tambi\u00e9n sale del encuadre."
+      "reason": "Un pa\u00f1o tapa parte del tablero; la mesa tambi\u00e9n sale del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:10.539Z",
+      "initial_ai_label": {
+        "annotation_id": 96,
+        "image_id": 22,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Un pa\u00f1o tapa parte del tablero; la mesa tambi\u00e9n sale del encuadre."
+      }
     },
     {
       "annotation_id": 97,
@@ -1317,7 +2285,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Silla sin objeto delante; el encuadre corta parte de su estructura."
+      "reason": "Silla sin objeto delante; el encuadre corta parte de su estructura.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:12.101Z",
+      "initial_ai_label": {
+        "annotation_id": 97,
+        "image_id": 22,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Silla sin objeto delante; el encuadre corta parte de su estructura."
+      }
     },
     {
       "annotation_id": 98,
@@ -1325,7 +2303,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pileta y grifer\u00eda visibles sin obstrucci\u00f3n externa clara."
+      "reason": "Pileta y grifer\u00eda visibles sin obstrucci\u00f3n externa clara.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:18.311Z",
+      "initial_ai_label": {
+        "annotation_id": 98,
+        "image_id": 22,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pileta y grifer\u00eda visibles sin obstrucci\u00f3n externa clara."
+      }
     },
     {
       "annotation_id": 99,
@@ -1333,7 +2321,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El teclado junto a los pies y prendas junto a la cabecera tapan peque\u00f1as zonas de la cama."
+      "reason": "El teclado junto a los pies y prendas junto a la cabecera tapan peque\u00f1as zonas de la cama.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:22.869Z",
+      "initial_ai_label": {
+        "annotation_id": 99,
+        "image_id": 88,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El teclado junto a los pies y prendas junto a la cabecera tapan peque\u00f1as zonas de la cama."
+      }
     },
     {
       "annotation_id": 100,
@@ -1341,7 +2339,17 @@
       "occlusion": "uncertain",
       "truncation": true,
       "confidence": "low",
-      "reason": "La caja re\u00fane dos mecedoras superpuestas y una sale por abajo; no se identifica con seguridad qu\u00e9 instancia corresponde a la anotaci\u00f3n."
+      "reason": "La caja re\u00fane dos mecedoras superpuestas y una sale por abajo; no se identifica con seguridad qu\u00e9 instancia corresponde a la anotaci\u00f3n.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:24.976Z",
+      "initial_ai_label": {
+        "annotation_id": 100,
+        "image_id": 15,
+        "occlusion": "uncertain",
+        "truncation": true,
+        "confidence": "low",
+        "reason": "La caja re\u00fane dos mecedoras superpuestas y una sale por abajo; no se identifica con seguridad qu\u00e9 instancia corresponde a la anotaci\u00f3n."
+      }
     },
     {
       "annotation_id": 101,
@@ -1349,7 +2357,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:27.443Z",
+      "initial_ai_label": {
+        "annotation_id": 101,
+        "image_id": 15,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      }
     },
     {
       "annotation_id": 102,
@@ -1357,7 +2375,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y la silla delantera ocultan gran parte de la silla posterior; destaca su respaldo superior."
+      "reason": "La mesa y la silla delantera ocultan gran parte de la silla posterior; destaca su respaldo superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:29.228Z",
+      "initial_ai_label": {
+        "annotation_id": 102,
+        "image_id": 15,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y la silla delantera ocultan gran parte de la silla posterior; destaca su respaldo superior."
+      }
     },
     {
       "annotation_id": 103,
@@ -1365,7 +2393,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:30.036Z",
+      "initial_ai_label": {
+        "annotation_id": 103,
+        "image_id": 15,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      }
     },
     {
       "annotation_id": 104,
@@ -1373,7 +2411,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero de la mesa cruza y oculta parte de la silla lateral."
+      "reason": "El tablero de la mesa cruza y oculta parte de la silla lateral.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:30.699Z",
+      "initial_ai_label": {
+        "annotation_id": 104,
+        "image_id": 15,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero de la mesa cruza y oculta parte de la silla lateral."
+      }
     },
     {
       "annotation_id": 105,
@@ -1381,7 +2429,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y elementos delante ocultan parte del asiento o patas de la silla lateral."
+      "reason": "La mesa y elementos delante ocultan parte del asiento o patas de la silla lateral.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:31.264Z",
+      "initial_ai_label": {
+        "annotation_id": 105,
+        "image_id": 15,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y elementos delante ocultan parte del asiento o patas de la silla lateral."
+      }
     },
     {
       "annotation_id": 106,
@@ -1389,7 +2447,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Las sillas alrededor ocultan tramos del tablero y la estructura inferior de la mesa."
+      "reason": "Las sillas alrededor ocultan tramos del tablero y la estructura inferior de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:32.500Z",
+      "initial_ai_label": {
+        "annotation_id": 106,
+        "image_id": 15,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Las sillas alrededor ocultan tramos del tablero y la estructura inferior de la mesa."
+      }
     },
     {
       "annotation_id": 107,
@@ -1397,15 +2465,35 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El muro del pasaplatos y objetos delante ocultan la parte inferior del refrigerador."
+      "reason": "El muro del pasaplatos y objetos delante ocultan la parte inferior del refrigerador.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:33.646Z",
+      "initial_ai_label": {
+        "annotation_id": 107,
+        "image_id": 15,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El muro del pasaplatos y objetos delante ocultan la parte inferior del refrigerador."
+      }
     },
     {
       "annotation_id": 108,
       "image_id": 15,
-      "occlusion": "partial",
+      "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "El ventilador delante oculta parte de la mesita y de su soporte."
+      "reason": "El ventilador delante oculta parte de la mesita y de su soporte.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:38.466Z",
+      "initial_ai_label": {
+        "annotation_id": 108,
+        "image_id": 15,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El ventilador delante oculta parte de la mesita y de su soporte."
+      }
     },
     {
       "annotation_id": 109,
@@ -1413,7 +2501,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Cama tendida sin objetos ajenos que la oculten; una parte queda fuera del encuadre."
+      "reason": "Cama tendida sin objetos ajenos que la oculten; una parte queda fuera del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:42.740Z",
+      "initial_ai_label": {
+        "annotation_id": 109,
+        "image_id": 29,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Cama tendida sin objetos ajenos que la oculten; una parte queda fuera del encuadre."
+      }
     },
     {
       "annotation_id": 110,
@@ -1421,7 +2519,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y marco visibles sin obstrucci\u00f3n externa."
+      "reason": "Pantalla y marco visibles sin obstrucci\u00f3n externa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:44.346Z",
+      "initial_ai_label": {
+        "annotation_id": 110,
+        "image_id": 76,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y marco visibles sin obstrucci\u00f3n externa."
+      }
     },
     {
       "annotation_id": 111,
@@ -1429,7 +2537,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo y patas visibles; no se aprecia una obstrucci\u00f3n externa de la silla."
+      "reason": "Respaldo y patas visibles; no se aprecia una obstrucci\u00f3n externa de la silla.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:45.264Z",
+      "initial_ai_label": {
+        "annotation_id": 111,
+        "image_id": 76,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo y patas visibles; no se aprecia una obstrucci\u00f3n externa de la silla."
+      }
     },
     {
       "annotation_id": 112,
@@ -1437,7 +2555,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Cama tendida sin objetos ajenos encima; el encuadre corta parte de la cama."
+      "reason": "Cama tendida sin objetos ajenos encima; el encuadre corta parte de la cama.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:46.214Z",
+      "initial_ai_label": {
+        "annotation_id": 112,
+        "image_id": 76,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Cama tendida sin objetos ajenos encima; el encuadre corta parte de la cama."
+      }
     },
     {
       "annotation_id": 113,
@@ -1445,7 +2573,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delante y un pa\u00f1o colgado ocultan peque\u00f1as partes del frente del refrigerador."
+      "reason": "La silla delante y un pa\u00f1o colgado ocultan peque\u00f1as partes del frente del refrigerador.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:47.110Z",
+      "initial_ai_label": {
+        "annotation_id": 113,
+        "image_id": 24,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delante y un pa\u00f1o colgado ocultan peque\u00f1as partes del frente del refrigerador."
+      }
     },
     {
       "annotation_id": 114,
@@ -1453,7 +2591,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:47.876Z",
+      "initial_ai_label": {
+        "annotation_id": 114,
+        "image_id": 24,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      }
     },
     {
       "annotation_id": 115,
@@ -1461,7 +2609,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Silla sin objeto delante; el encuadre corta parte de su estructura."
+      "reason": "Silla sin objeto delante; el encuadre corta parte de su estructura.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:49.918Z",
+      "initial_ai_label": {
+        "annotation_id": 115,
+        "image_id": 24,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Silla sin objeto delante; el encuadre corta parte de su estructura."
+      }
     },
     {
       "annotation_id": 116,
@@ -1469,7 +2627,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Un pa\u00f1o tapa parte del tablero; la mesa tambi\u00e9n sale del encuadre."
+      "reason": "Un pa\u00f1o tapa parte del tablero; la mesa tambi\u00e9n sale del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:50.758Z",
+      "initial_ai_label": {
+        "annotation_id": 116,
+        "image_id": 24,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Un pa\u00f1o tapa parte del tablero; la mesa tambi\u00e9n sale del encuadre."
+      }
     },
     {
       "annotation_id": 117,
@@ -1477,7 +2645,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pileta y grifer\u00eda visibles sin obstrucci\u00f3n externa clara."
+      "reason": "Pileta y grifer\u00eda visibles sin obstrucci\u00f3n externa clara.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:51.638Z",
+      "initial_ai_label": {
+        "annotation_id": 117,
+        "image_id": 24,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pileta y grifer\u00eda visibles sin obstrucci\u00f3n externa clara."
+      }
     },
     {
       "annotation_id": 118,
@@ -1485,7 +2663,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Puertas del refrigerador visibles sin obst\u00e1culo externo; lado izquierdo cortado por el encuadre."
+      "reason": "Puertas del refrigerador visibles sin obst\u00e1culo externo; lado izquierdo cortado por el encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:52.906Z",
+      "initial_ai_label": {
+        "annotation_id": 118,
+        "image_id": 142,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Puertas del refrigerador visibles sin obst\u00e1culo externo; lado izquierdo cortado por el encuadre."
+      }
     },
     {
       "annotation_id": 119,
@@ -1493,7 +2681,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Vasos y recipientes ocultan casi toda la cubeta; se distinguen segmentos del borde delantero."
+      "reason": "Vasos y recipientes ocultan casi toda la cubeta; se distinguen segmentos del borde delantero.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:53.842Z",
+      "initial_ai_label": {
+        "annotation_id": 119,
+        "image_id": 142,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Vasos y recipientes ocultan casi toda la cubeta; se distinguen segmentos del borde delantero."
+      }
     },
     {
       "annotation_id": 120,
@@ -1501,7 +2699,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Mecedora del primer plano despejada; una parte queda fuera del encuadre."
+      "reason": "Mecedora del primer plano despejada; una parte queda fuera del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:56.228Z",
+      "initial_ai_label": {
+        "annotation_id": 120,
+        "image_id": 60,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Mecedora del primer plano despejada; una parte queda fuera del encuadre."
+      }
     },
     {
       "annotation_id": 121,
@@ -1509,7 +2717,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mecedora m\u00e1s cercana oculta parte del asiento o balanc\u00edn de \u00e9sta."
+      "reason": "La mecedora m\u00e1s cercana oculta parte del asiento o balanc\u00edn de \u00e9sta.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:57.318Z",
+      "initial_ai_label": {
+        "annotation_id": 121,
+        "image_id": 60,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mecedora m\u00e1s cercana oculta parte del asiento o balanc\u00edn de \u00e9sta."
+      }
     },
     {
       "annotation_id": 122,
@@ -1517,7 +2735,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delantera y la mesa ocultan parte del asiento y las patas de la silla posterior lateral."
+      "reason": "La silla delantera y la mesa ocultan parte del asiento y las patas de la silla posterior lateral.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:57.820Z",
+      "initial_ai_label": {
+        "annotation_id": 122,
+        "image_id": 60,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delantera y la mesa ocultan parte del asiento y las patas de la silla posterior lateral."
+      }
     },
     {
       "annotation_id": 123,
@@ -1525,7 +2753,17 @@
       "occlusion": "uncertain",
       "truncation": false,
       "confidence": "low",
-      "reason": "Mesa y otras sillas ocultan la silla posterior distante; no se distingue suficiente contorno para graduar la oclusi\u00f3n con seguridad."
+      "reason": "Mesa y otras sillas ocultan la silla posterior distante; no se distingue suficiente contorno para graduar la oclusi\u00f3n con seguridad.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:58.168Z",
+      "initial_ai_label": {
+        "annotation_id": 123,
+        "image_id": 60,
+        "occlusion": "uncertain",
+        "truncation": false,
+        "confidence": "low",
+        "reason": "Mesa y otras sillas ocultan la silla posterior distante; no se distingue suficiente contorno para graduar la oclusi\u00f3n con seguridad."
+      }
     },
     {
       "annotation_id": 124,
@@ -1533,7 +2771,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mecedora delante oculta la parte baja de la silla de comedor."
+      "reason": "La mecedora delante oculta la parte baja de la silla de comedor.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:58.632Z",
+      "initial_ai_label": {
+        "annotation_id": 124,
+        "image_id": 60,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mecedora delante oculta la parte baja de la silla de comedor."
+      }
     },
     {
       "annotation_id": 125,
@@ -1541,7 +2789,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa parte del asiento de la silla lateral, con respaldo y patas a\u00fan visibles."
+      "reason": "La mesa tapa parte del asiento de la silla lateral, con respaldo y patas a\u00fan visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:59.088Z",
+      "initial_ai_label": {
+        "annotation_id": 125,
+        "image_id": 60,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa parte del asiento de la silla lateral, con respaldo y patas a\u00fan visibles."
+      }
     },
     {
       "annotation_id": 126,
@@ -1549,7 +2807,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Las sillas alrededor ocultan sectores del borde y de la estructura inferior de la mesa."
+      "reason": "Las sillas alrededor ocultan sectores del borde y de la estructura inferior de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:14:59.462Z",
+      "initial_ai_label": {
+        "annotation_id": 126,
+        "image_id": 60,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Las sillas alrededor ocultan sectores del borde y de la estructura inferior de la mesa."
+      }
     },
     {
       "annotation_id": 127,
@@ -1557,7 +2825,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y marco del televisor visibles sin objetos delante."
+      "reason": "Pantalla y marco del televisor visibles sin objetos delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:00.445Z",
+      "initial_ai_label": {
+        "annotation_id": 127,
+        "image_id": 60,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y marco del televisor visibles sin objetos delante."
+      }
     },
     {
       "annotation_id": 128,
@@ -1565,7 +2843,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Dep\u00f3sito del inodoro visible sin objeto delante; el resto queda fuera del borde inferior."
+      "reason": "Dep\u00f3sito del inodoro visible sin objeto delante; el resto queda fuera del borde inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:01.230Z",
+      "initial_ai_label": {
+        "annotation_id": 128,
+        "image_id": 98,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Dep\u00f3sito del inodoro visible sin objeto delante; el resto queda fuera del borde inferior."
+      }
     },
     {
       "annotation_id": 129,
@@ -1573,7 +2861,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta el resto."
+      "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta el resto.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:01.420Z",
+      "initial_ai_label": {
+        "annotation_id": 129,
+        "image_id": 33,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta el resto."
+      }
     },
     {
       "annotation_id": 130,
@@ -1581,7 +2879,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Rollo de papel y paquete ocultan parte de la tapa del tanque; inodoro cortado por borde inferior."
+      "reason": "Rollo de papel y paquete ocultan parte de la tapa del tanque; inodoro cortado por borde inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:01.680Z",
+      "initial_ai_label": {
+        "annotation_id": 130,
+        "image_id": 191,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Rollo de papel y paquete ocultan parte de la tapa del tanque; inodoro cortado por borde inferior."
+      }
     },
     {
       "annotation_id": 131,
@@ -1589,7 +2897,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Silla y mesa ocultan parte de las piernas; cabeza y torso de la persona visibles."
+      "reason": "Silla y mesa ocultan parte de las piernas; cabeza y torso de la persona visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:02.614Z",
+      "initial_ai_label": {
+        "annotation_id": 131,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Silla y mesa ocultan parte de las piernas; cabeza y torso de la persona visibles."
+      }
     },
     {
       "annotation_id": 132,
@@ -1597,7 +2915,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesa y silla ocultan gran parte del cuerpo; cabeza y torso superior visibles."
+      "reason": "Mesa y silla ocultan gran parte del cuerpo; cabeza y torso superior visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:03.538Z",
+      "initial_ai_label": {
+        "annotation_id": 132,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesa y silla ocultan gran parte del cuerpo; cabeza y torso superior visibles."
+      }
     },
     {
       "annotation_id": 133,
@@ -1605,7 +2933,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Mesa y silla ocultan parte del cuerpo; extremo derecho de la persona sale del encuadre."
+      "reason": "Mesa y silla ocultan parte del cuerpo; extremo derecho de la persona sale del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:03.738Z",
+      "initial_ai_label": {
+        "annotation_id": 133,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Mesa y silla ocultan parte del cuerpo; extremo derecho de la persona sale del encuadre."
+      }
     },
     {
       "annotation_id": 134,
@@ -1613,7 +2951,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Sillas se superponen a partes de la mesa y soportes; mesa cortada por borde izquierdo."
+      "reason": "Sillas se superponen a partes de la mesa y soportes; mesa cortada por borde izquierdo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:04.242Z",
+      "initial_ai_label": {
+        "annotation_id": 134,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Sillas se superponen a partes de la mesa y soportes; mesa cortada por borde izquierdo."
+      }
     },
     {
       "annotation_id": 135,
@@ -1621,7 +2969,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Sillas y personas se superponen a partes de la mesa; tablero visible."
+      "reason": "Sillas y personas se superponen a partes de la mesa; tablero visible.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:04.474Z",
+      "initial_ai_label": {
+        "annotation_id": 135,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Sillas y personas se superponen a partes de la mesa; tablero visible."
+      }
     },
     {
       "annotation_id": 136,
@@ -1629,7 +2987,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Sillas y personas se superponen a partes de la mesa; tablero visible."
+      "reason": "Sillas y personas se superponen a partes de la mesa; tablero visible.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:04.699Z",
+      "initial_ai_label": {
+        "annotation_id": 136,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Sillas y personas se superponen a partes de la mesa; tablero visible."
+      }
     },
     {
       "annotation_id": 137,
@@ -1637,7 +3005,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Tablero y soporte de mesa tapan gran parte de la silla; quedan fragmentos de asiento y patas."
+      "reason": "Tablero y soporte de mesa tapan gran parte de la silla; quedan fragmentos de asiento y patas.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:04.874Z",
+      "initial_ai_label": {
+        "annotation_id": 137,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Tablero y soporte de mesa tapan gran parte de la silla; quedan fragmentos de asiento y patas."
+      }
     },
     {
       "annotation_id": 138,
@@ -1645,7 +3023,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:05.050Z",
+      "initial_ai_label": {
+        "annotation_id": 138,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      }
     },
     {
       "annotation_id": 139,
@@ -1653,7 +3041,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:05.250Z",
+      "initial_ai_label": {
+        "annotation_id": 139,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      }
     },
     {
       "annotation_id": 140,
@@ -1661,7 +3059,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:05.482Z",
+      "initial_ai_label": {
+        "annotation_id": 140,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      }
     },
     {
       "annotation_id": 141,
@@ -1669,7 +3077,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:05.666Z",
+      "initial_ai_label": {
+        "annotation_id": 141,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      }
     },
     {
       "annotation_id": 142,
@@ -1677,7 +3095,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:05.884Z",
+      "initial_ai_label": {
+        "annotation_id": 142,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      }
     },
     {
       "annotation_id": 143,
@@ -1685,7 +3113,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:06.068Z",
+      "initial_ai_label": {
+        "annotation_id": 143,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      }
     },
     {
       "annotation_id": 144,
@@ -1693,7 +3131,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:06.396Z",
+      "initial_ai_label": {
+        "annotation_id": 144,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      }
     },
     {
       "annotation_id": 145,
@@ -1701,7 +3149,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:06.652Z",
+      "initial_ai_label": {
+        "annotation_id": 145,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero o sillas pr\u00f3ximas ocultan parte del asiento y estructura; respaldo y patas reconocibles."
+      }
     },
     {
       "annotation_id": 146,
@@ -1709,7 +3167,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Persona y mesa ocultan casi toda la silla; se distinguen algunos soportes debajo."
+      "reason": "Persona y mesa ocultan casi toda la silla; se distinguen algunos soportes debajo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:06.916Z",
+      "initial_ai_label": {
+        "annotation_id": 146,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Persona y mesa ocultan casi toda la silla; se distinguen algunos soportes debajo."
+      }
     },
     {
       "annotation_id": 147,
@@ -1717,7 +3185,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:07.140Z",
+      "initial_ai_label": {
+        "annotation_id": 147,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      }
     },
     {
       "annotation_id": 148,
@@ -1725,7 +3203,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:07.332Z",
+      "initial_ai_label": {
+        "annotation_id": 148,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      }
     },
     {
       "annotation_id": 149,
@@ -1733,7 +3221,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Persona y silla se superponen a parte de la mesa; tablero todav\u00eda visible."
+      "reason": "Persona y silla se superponen a parte de la mesa; tablero todav\u00eda visible.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:07.548Z",
+      "initial_ai_label": {
+        "annotation_id": 149,
+        "image_id": 165,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Persona y silla se superponen a parte de la mesa; tablero todav\u00eda visible."
+      }
     },
     {
       "annotation_id": 150,
@@ -1741,7 +3239,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:07.748Z",
+      "initial_ai_label": {
+        "annotation_id": 150,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      }
     },
     {
       "annotation_id": 151,
@@ -1749,7 +3257,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:07.940Z",
+      "initial_ai_label": {
+        "annotation_id": 151,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      }
     },
     {
       "annotation_id": 152,
@@ -1757,7 +3275,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:08.132Z",
+      "initial_ai_label": {
+        "annotation_id": 152,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      }
     },
     {
       "annotation_id": 153,
@@ -1765,7 +3293,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:08.308Z",
+      "initial_ai_label": {
+        "annotation_id": 153,
+        "image_id": 165,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesas y sillas delanteras ocultan asiento y estructura inferior; solo se ve respaldo o un fragmento superior."
+      }
     },
     {
       "annotation_id": 154,
@@ -1773,7 +3311,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta la taza o el dep\u00f3sito."
+      "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta la taza o el dep\u00f3sito.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:08.782Z",
+      "initial_ai_label": {
+        "annotation_id": 154,
+        "image_id": 51,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta la taza o el dep\u00f3sito."
+      }
     },
     {
       "annotation_id": 155,
@@ -1781,7 +3329,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa."
+      "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:09.952Z",
+      "initial_ai_label": {
+        "annotation_id": 155,
+        "image_id": 196,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Recipientes sobre el tablero y silla delantera ocultan partes de la mesa."
+      }
     },
     {
       "annotation_id": 156,
@@ -1789,7 +3347,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles."
+      "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:10.362Z",
+      "initial_ai_label": {
+        "annotation_id": 156,
+        "image_id": 196,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 157,
@@ -1797,7 +3365,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:10.714Z",
+      "initial_ai_label": {
+        "annotation_id": 157,
+        "image_id": 196,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo y estructura de la silla delantera visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 158,
@@ -1805,7 +3383,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles."
+      "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:10.994Z",
+      "initial_ai_label": {
+        "annotation_id": 158,
+        "image_id": 196,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa parte del asiento y brazo de la silla; respaldo y patas visibles."
+      }
     },
     {
       "annotation_id": 159,
@@ -1813,7 +3401,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "La cara visible del refrigerador est\u00e1 despejada; el aparato contin\u00faa fuera del encuadre."
+      "reason": "La cara visible del refrigerador est\u00e1 despejada; el aparato contin\u00faa fuera del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:11.180Z",
+      "initial_ai_label": {
+        "annotation_id": 159,
+        "image_id": 48,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La cara visible del refrigerador est\u00e1 despejada; el aparato contin\u00faa fuera del encuadre."
+      }
     },
     {
       "annotation_id": 160,
@@ -1821,7 +3419,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "medium",
-      "reason": "El refrigerador delante oculta el extremo derecho del lavaplatos; queda visible parte de la pileta."
+      "reason": "El refrigerador delante oculta el extremo derecho del lavaplatos; queda visible parte de la pileta.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:11.372Z",
+      "initial_ai_label": {
+        "annotation_id": 160,
+        "image_id": 48,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "El refrigerador delante oculta el extremo derecho del lavaplatos; queda visible parte de la pileta."
+      }
     },
     {
       "annotation_id": 161,
@@ -1829,7 +3437,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta la taza o el dep\u00f3sito."
+      "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta la taza o el dep\u00f3sito.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:12.220Z",
+      "initial_ai_label": {
+        "annotation_id": 161,
+        "image_id": 53,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La parte visible del inodoro est\u00e1 despejada; el encuadre corta la taza o el dep\u00f3sito."
+      }
     },
     {
       "annotation_id": 162,
@@ -1837,7 +3455,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Persona visible de cabeza a pies sin objeto externo que la tape claramente."
+      "reason": "Persona visible de cabeza a pies sin objeto externo que la tape claramente.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:12.420Z",
+      "initial_ai_label": {
+        "annotation_id": 162,
+        "image_id": 146,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Persona visible de cabeza a pies sin objeto externo que la tape claramente."
+      }
     },
     {
       "annotation_id": 163,
@@ -1845,7 +3473,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "La persona y la ropa colgada ocultan partes de la cama; extremo inferior fuera del encuadre."
+      "reason": "La persona y la ropa colgada ocultan partes de la cama; extremo inferior fuera del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:12.612Z",
+      "initial_ai_label": {
+        "annotation_id": 163,
+        "image_id": 146,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La persona y la ropa colgada ocultan partes de la cama; extremo inferior fuera del encuadre."
+      }
     },
     {
       "annotation_id": 164,
@@ -1853,7 +3491,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "medium",
-      "reason": "Cama izquierda con ropa de cama visible sin obst\u00e1culo externo claro; cortada por bordes izquierdo e inferior."
+      "reason": "Cama izquierda con ropa de cama visible sin obst\u00e1culo externo claro; cortada por bordes izquierdo e inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:13.542Z",
+      "initial_ai_label": {
+        "annotation_id": 164,
+        "image_id": 146,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "medium",
+        "reason": "Cama izquierda con ropa de cama visible sin obst\u00e1culo externo claro; cortada por bordes izquierdo e inferior."
+      }
     },
     {
       "annotation_id": 165,
@@ -1861,7 +3509,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y marco visibles sin objeto delante."
+      "reason": "Pantalla y marco visibles sin objeto delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:13.966Z",
+      "initial_ai_label": {
+        "annotation_id": 165,
+        "image_id": 120,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y marco visibles sin objeto delante."
+      }
     },
     {
       "annotation_id": 166,
@@ -1869,7 +3527,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:14.494Z",
+      "initial_ai_label": {
+        "annotation_id": 166,
+        "image_id": 120,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 167,
@@ -1877,7 +3545,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:14.815Z",
+      "initial_ai_label": {
+        "annotation_id": 167,
+        "image_id": 120,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 168,
@@ -1885,7 +3563,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:15.120Z",
+      "initial_ai_label": {
+        "annotation_id": 168,
+        "image_id": 120,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Respaldo, asiento y patas visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 169,
@@ -1893,7 +3581,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "medium",
-      "reason": "Parte de la mesa al fondo queda detr\u00e1s del equipo de ejercicio y del marco de acceso."
+      "reason": "Parte de la mesa al fondo queda detr\u00e1s del equipo de ejercicio y del marco de acceso.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:15.368Z",
+      "initial_ai_label": {
+        "annotation_id": 169,
+        "image_id": 120,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "Parte de la mesa al fondo queda detr\u00e1s del equipo de ejercicio y del marco de acceso."
+      }
     },
     {
       "annotation_id": 170,
@@ -1901,7 +3599,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "La zona visible de cama no presenta un objeto ajeno delante; est\u00e1 cortada por el encuadre."
+      "reason": "La zona visible de cama no presenta un objeto ajeno delante; est\u00e1 cortada por el encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:15.560Z",
+      "initial_ai_label": {
+        "annotation_id": 170,
+        "image_id": 7,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La zona visible de cama no presenta un objeto ajeno delante; est\u00e1 cortada por el encuadre."
+      }
     },
     {
       "annotation_id": 171,
@@ -1909,7 +3617,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Port\u00e1tiles y gorra sobre el colch\u00f3n ocultan peque\u00f1as partes de la cama; bolso junto a la base."
+      "reason": "Port\u00e1tiles y gorra sobre el colch\u00f3n ocultan peque\u00f1as partes de la cama; bolso junto a la base.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:15.720Z",
+      "initial_ai_label": {
+        "annotation_id": 171,
+        "image_id": 184,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Port\u00e1tiles y gorra sobre el colch\u00f3n ocultan peque\u00f1as partes de la cama; bolso junto a la base."
+      }
     },
     {
       "annotation_id": 172,
@@ -1917,7 +3635,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y teclado del port\u00e1til visibles sin obst\u00e1culo externo claro."
+      "reason": "Pantalla y teclado del port\u00e1til visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:15.897Z",
+      "initial_ai_label": {
+        "annotation_id": 172,
+        "image_id": 184,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y teclado del port\u00e1til visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 173,
@@ -1925,7 +3653,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla y teclado del port\u00e1til visibles sin obst\u00e1culo externo claro."
+      "reason": "Pantalla y teclado del port\u00e1til visibles sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:16.112Z",
+      "initial_ai_label": {
+        "annotation_id": 173,
+        "image_id": 184,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla y teclado del port\u00e1til visibles sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 174,
@@ -1933,7 +3671,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Mecedora visible sin objeto delante; parte queda fuera del encuadre."
+      "reason": "Mecedora visible sin objeto delante; parte queda fuera del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:16.761Z",
+      "initial_ai_label": {
+        "annotation_id": 174,
+        "image_id": 14,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Mecedora visible sin objeto delante; parte queda fuera del encuadre."
+      }
     },
     {
       "annotation_id": 175,
@@ -1941,7 +3689,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La otra mecedora y una mano en primer plano tapan parte del balanc\u00edn; el resto se ve dentro del encuadre."
+      "reason": "La otra mecedora y una mano en primer plano tapan parte del balanc\u00edn; el resto se ve dentro del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:17.089Z",
+      "initial_ai_label": {
+        "annotation_id": 175,
+        "image_id": 14,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La otra mecedora y una mano en primer plano tapan parte del balanc\u00edn; el resto se ve dentro del encuadre."
+      }
     },
     {
       "annotation_id": 176,
@@ -1949,7 +3707,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:17.297Z",
+      "initial_ai_label": {
+        "annotation_id": 176,
+        "image_id": 14,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      }
     },
     {
       "annotation_id": 177,
@@ -1957,7 +3725,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y la silla delantera ocultan gran parte de la silla posterior; destaca su respaldo superior."
+      "reason": "La mesa y la silla delantera ocultan gran parte de la silla posterior; destaca su respaldo superior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:17.464Z",
+      "initial_ai_label": {
+        "annotation_id": 177,
+        "image_id": 14,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y la silla delantera ocultan gran parte de la silla posterior; destaca su respaldo superior."
+      }
     },
     {
       "annotation_id": 178,
@@ -1965,7 +3743,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:17.640Z",
+      "initial_ai_label": {
+        "annotation_id": 178,
+        "image_id": 14,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Objeto visible sin obstrucci\u00f3n externa apreciable."
+      }
     },
     {
       "annotation_id": 179,
@@ -1973,7 +3761,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El tablero de la mesa cruza y oculta parte de la silla lateral."
+      "reason": "El tablero de la mesa cruza y oculta parte de la silla lateral.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:17.800Z",
+      "initial_ai_label": {
+        "annotation_id": 179,
+        "image_id": 14,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El tablero de la mesa cruza y oculta parte de la silla lateral."
+      }
     },
     {
       "annotation_id": 180,
@@ -1981,7 +3779,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y elementos delante ocultan parte del asiento o patas de la silla lateral."
+      "reason": "La mesa y elementos delante ocultan parte del asiento o patas de la silla lateral.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:21.159Z",
+      "initial_ai_label": {
+        "annotation_id": 180,
+        "image_id": 14,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y elementos delante ocultan parte del asiento o patas de la silla lateral."
+      }
     },
     {
       "annotation_id": 181,
@@ -1989,7 +3797,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Las sillas alrededor ocultan tramos del tablero y la estructura inferior de la mesa."
+      "reason": "Las sillas alrededor ocultan tramos del tablero y la estructura inferior de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:25.358Z",
+      "initial_ai_label": {
+        "annotation_id": 181,
+        "image_id": 14,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Las sillas alrededor ocultan tramos del tablero y la estructura inferior de la mesa."
+      }
     },
     {
       "annotation_id": 182,
@@ -1997,7 +3815,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El ventilador delante oculta parte de la mesita y de su soporte."
+      "reason": "El ventilador delante oculta parte de la mesita y de su soporte.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:25.762Z",
+      "initial_ai_label": {
+        "annotation_id": 182,
+        "image_id": 14,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El ventilador delante oculta parte de la mesita y de su soporte."
+      }
     },
     {
       "annotation_id": 183,
@@ -2005,7 +3833,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El mueble delante y objetos sobre la mesa ocultan parte de su estructura."
+      "reason": "El mueble delante y objetos sobre la mesa ocultan parte de su estructura.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:26.197Z",
+      "initial_ai_label": {
+        "annotation_id": 183,
+        "image_id": 14,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El mueble delante y objetos sobre la mesa ocultan parte de su estructura."
+      }
     },
     {
       "annotation_id": 184,
@@ -2013,7 +3851,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Objetos sobre el mueble tapan parte de la superficie; el lado derecho sale del encuadre."
+      "reason": "Objetos sobre el mueble tapan parte de la superficie; el lado derecho sale del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:26.562Z",
+      "initial_ai_label": {
+        "annotation_id": 184,
+        "image_id": 14,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Objetos sobre el mueble tapan parte de la superficie; el lado derecho sale del encuadre."
+      }
     },
     {
       "annotation_id": 185,
@@ -2021,7 +3869,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El muro del pasaplatos y objetos delante ocultan la parte inferior del refrigerador."
+      "reason": "El muro del pasaplatos y objetos delante ocultan la parte inferior del refrigerador.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:27.108Z",
+      "initial_ai_label": {
+        "annotation_id": 185,
+        "image_id": 14,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El muro del pasaplatos y objetos delante ocultan la parte inferior del refrigerador."
+      }
     },
     {
       "annotation_id": 186,
@@ -2029,7 +3887,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Pantalla del televisor visible sin objetos delante."
+      "reason": "Pantalla del televisor visible sin objetos delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:27.597Z",
+      "initial_ai_label": {
+        "annotation_id": 186,
+        "image_id": 93,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Pantalla del televisor visible sin objetos delante."
+      }
     },
     {
       "annotation_id": 187,
@@ -2037,7 +3905,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "La superficie visible de cama est\u00e1 despejada; la cama queda cortada por el encuadre."
+      "reason": "La superficie visible de cama est\u00e1 despejada; la cama queda cortada por el encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:28.100Z",
+      "initial_ai_label": {
+        "annotation_id": 187,
+        "image_id": 93,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "La superficie visible de cama est\u00e1 despejada; la cama queda cortada por el encuadre."
+      }
     },
     {
       "annotation_id": 188,
@@ -2045,7 +3923,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La pared del acceso oculta casi todo el inodoro; s\u00f3lo se distingue una franja del dep\u00f3sito y la taza."
+      "reason": "La pared del acceso oculta casi todo el inodoro; s\u00f3lo se distingue una franja del dep\u00f3sito y la taza.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:28.487Z",
+      "initial_ai_label": {
+        "annotation_id": 188,
+        "image_id": 93,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La pared del acceso oculta casi todo el inodoro; s\u00f3lo se distingue una franja del dep\u00f3sito y la taza."
+      }
     },
     {
       "annotation_id": 189,
@@ -2053,7 +3941,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delantera y la mesa ocultan parte del asiento y las patas de la silla posterior lateral."
+      "reason": "La silla delantera y la mesa ocultan parte del asiento y las patas de la silla posterior lateral.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:28.797Z",
+      "initial_ai_label": {
+        "annotation_id": 189,
+        "image_id": 59,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delantera y la mesa ocultan parte del asiento y las patas de la silla posterior lateral."
+      }
     },
     {
       "annotation_id": 190,
@@ -2061,7 +3959,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y las otras sillas ocultan casi toda la silla del fondo; s\u00f3lo asoma la zona alta del respaldo."
+      "reason": "La mesa y las otras sillas ocultan casi toda la silla del fondo; s\u00f3lo asoma la zona alta del respaldo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:29.013Z",
+      "initial_ai_label": {
+        "annotation_id": 190,
+        "image_id": 59,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y las otras sillas ocultan casi toda la silla del fondo; s\u00f3lo asoma la zona alta del respaldo."
+      }
     },
     {
       "annotation_id": 191,
@@ -2069,7 +3977,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa parte del asiento de la silla lateral, con respaldo y patas a\u00fan visibles."
+      "reason": "La mesa tapa parte del asiento de la silla lateral, con respaldo y patas a\u00fan visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:29.181Z",
+      "initial_ai_label": {
+        "annotation_id": 191,
+        "image_id": 59,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa parte del asiento de la silla lateral, con respaldo y patas a\u00fan visibles."
+      }
     },
     {
       "annotation_id": 192,
@@ -2077,7 +3995,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mecedora delante oculta la parte baja de la silla de comedor."
+      "reason": "La mecedora delante oculta la parte baja de la silla de comedor.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:29.332Z",
+      "initial_ai_label": {
+        "annotation_id": 192,
+        "image_id": 59,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mecedora delante oculta la parte baja de la silla de comedor."
+      }
     },
     {
       "annotation_id": 193,
@@ -2085,7 +4013,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Las sillas alrededor ocultan sectores del borde y de la estructura inferior de la mesa."
+      "reason": "Las sillas alrededor ocultan sectores del borde y de la estructura inferior de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:29.492Z",
+      "initial_ai_label": {
+        "annotation_id": 193,
+        "image_id": 59,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Las sillas alrededor ocultan sectores del borde y de la estructura inferior de la mesa."
+      }
     },
     {
       "annotation_id": 194,
@@ -2093,7 +4031,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mecedora m\u00e1s cercana oculta parte del asiento o balanc\u00edn de \u00e9sta."
+      "reason": "La mecedora m\u00e1s cercana oculta parte del asiento o balanc\u00edn de \u00e9sta.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:29.637Z",
+      "initial_ai_label": {
+        "annotation_id": 194,
+        "image_id": 59,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mecedora m\u00e1s cercana oculta parte del asiento o balanc\u00edn de \u00e9sta."
+      }
     },
     {
       "annotation_id": 195,
@@ -2101,7 +4049,17 @@
       "occlusion": "none",
       "truncation": true,
       "confidence": "high",
-      "reason": "Mecedora del primer plano despejada; una parte queda fuera del encuadre."
+      "reason": "Mecedora del primer plano despejada; una parte queda fuera del encuadre.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:30.165Z",
+      "initial_ai_label": {
+        "annotation_id": 195,
+        "image_id": 59,
+        "occlusion": "none",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Mecedora del primer plano despejada; una parte queda fuera del encuadre."
+      }
     },
     {
       "annotation_id": 196,
@@ -2109,7 +4067,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Televisor completo y despejado."
+      "reason": "Televisor completo y despejado.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:30.340Z",
+      "initial_ai_label": {
+        "annotation_id": 196,
+        "image_id": 72,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Televisor completo y despejado."
+      }
     },
     {
       "annotation_id": 197,
@@ -2117,7 +4085,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mecedora de madera visible sin objetos delante."
+      "reason": "Mecedora de madera visible sin objetos delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:30.517Z",
+      "initial_ai_label": {
+        "annotation_id": 197,
+        "image_id": 72,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mecedora de madera visible sin objetos delante."
+      }
     },
     {
       "annotation_id": 198,
@@ -2125,7 +4103,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mecedora de madera visible sin objetos delante."
+      "reason": "Mecedora de madera visible sin objetos delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:30.685Z",
+      "initial_ai_label": {
+        "annotation_id": 198,
+        "image_id": 72,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mecedora de madera visible sin objetos delante."
+      }
     },
     {
       "annotation_id": 199,
@@ -2133,7 +4121,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El mantel de la mesa cae por delante y oculta parte del asiento de la silla."
+      "reason": "El mantel de la mesa cae por delante y oculta parte del asiento de la silla.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:30.853Z",
+      "initial_ai_label": {
+        "annotation_id": 199,
+        "image_id": 72,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El mantel de la mesa cae por delante y oculta parte del asiento de la silla."
+      }
     },
     {
       "annotation_id": 200,
@@ -2141,7 +4139,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa oculta casi toda la silla posterior; s\u00f3lo queda visible la parte alta del respaldo."
+      "reason": "La mesa oculta casi toda la silla posterior; s\u00f3lo queda visible la parte alta del respaldo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:31.012Z",
+      "initial_ai_label": {
+        "annotation_id": 200,
+        "image_id": 72,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa oculta casi toda la silla posterior; s\u00f3lo queda visible la parte alta del respaldo."
+      }
     },
     {
       "annotation_id": 201,
@@ -2149,7 +4157,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "medium",
-      "reason": "La mecedora delantera tapa asiento y patas de la posterior; a\u00fan se distinguen su respaldo y brazos."
+      "reason": "La mecedora delantera tapa asiento y patas de la posterior; a\u00fan se distinguen su respaldo y brazos.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:31.189Z",
+      "initial_ai_label": {
+        "annotation_id": 201,
+        "image_id": 72,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "La mecedora delantera tapa asiento y patas de la posterior; a\u00fan se distinguen su respaldo y brazos."
+      }
     },
     {
       "annotation_id": 202,
@@ -2157,7 +4175,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mecedora tapizada visible sin otra silla delante."
+      "reason": "Mecedora tapizada visible sin otra silla delante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:31.365Z",
+      "initial_ai_label": {
+        "annotation_id": 202,
+        "image_id": 72,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mecedora tapizada visible sin otra silla delante."
+      }
     },
     {
       "annotation_id": 203,
@@ -2165,7 +4193,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa oculta casi toda la silla posterior; s\u00f3lo queda visible la parte alta del respaldo."
+      "reason": "La mesa oculta casi toda la silla posterior; s\u00f3lo queda visible la parte alta del respaldo.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:31.557Z",
+      "initial_ai_label": {
+        "annotation_id": 203,
+        "image_id": 72,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa oculta casi toda la silla posterior; s\u00f3lo queda visible la parte alta del respaldo."
+      }
     },
     {
       "annotation_id": 204,
@@ -2173,7 +4211,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El mantel de la mesa cae por delante y oculta parte del asiento de la silla."
+      "reason": "El mantel de la mesa cae por delante y oculta parte del asiento de la silla.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:31.726Z",
+      "initial_ai_label": {
+        "annotation_id": 204,
+        "image_id": 72,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El mantel de la mesa cae por delante y oculta parte del asiento de la silla."
+      }
     },
     {
       "annotation_id": 205,
@@ -2181,7 +4229,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "Las sillas cercanas ocultan partes de la estructura inferior de la mesa."
+      "reason": "Las sillas cercanas ocultan partes de la estructura inferior de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:31.925Z",
+      "initial_ai_label": {
+        "annotation_id": 205,
+        "image_id": 72,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Las sillas cercanas ocultan partes de la estructura inferior de la mesa."
+      }
     },
     {
       "annotation_id": 206,
@@ -2189,7 +4247,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "medium",
-      "reason": "Borde del fregadero visible al fondo sin obst\u00e1culo externo claro; tama\u00f1o reducido y vista rasante."
+      "reason": "Borde del fregadero visible al fondo sin obst\u00e1culo externo claro; tama\u00f1o reducido y vista rasante.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:32.117Z",
+      "initial_ai_label": {
+        "annotation_id": 206,
+        "image_id": 136,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "medium",
+        "reason": "Borde del fregadero visible al fondo sin obst\u00e1culo externo claro; tama\u00f1o reducido y vista rasante."
+      }
     },
     {
       "annotation_id": 207,
@@ -2197,7 +4265,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "La silla delantera y objetos sobre el tablero ocultan partes de la mesa."
+      "reason": "La silla delantera y objetos sobre el tablero ocultan partes de la mesa.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:32.300Z",
+      "initial_ai_label": {
+        "annotation_id": 207,
+        "image_id": 136,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La silla delantera y objetos sobre el tablero ocultan partes de la mesa."
+      }
     },
     {
       "annotation_id": 208,
@@ -2205,7 +4283,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho."
+      "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:32.541Z",
+      "initial_ai_label": {
+        "annotation_id": 208,
+        "image_id": 136,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho."
+      }
     },
     {
       "annotation_id": 209,
@@ -2213,7 +4301,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles."
+      "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:32.733Z",
+      "initial_ai_label": {
+        "annotation_id": 209,
+        "image_id": 136,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El mantel de la mesa tapa el asiento; respaldo y patas delanteras siguen visibles."
+      }
     },
     {
       "annotation_id": 210,
@@ -2221,7 +4319,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa tapa asiento y estructura inferior; solo sobresale el respaldo trasero."
+      "reason": "La mesa tapa asiento y estructura inferior; solo sobresale el respaldo trasero.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:32.990Z",
+      "initial_ai_label": {
+        "annotation_id": 210,
+        "image_id": 136,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa tapa asiento y estructura inferior; solo sobresale el respaldo trasero."
+      }
     },
     {
       "annotation_id": 211,
@@ -2229,7 +4337,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "Mesa y mantel ocultan la mayor parte de la silla lateral, con respaldo y una franja de soporte visibles."
+      "reason": "Mesa y mantel ocultan la mayor parte de la silla lateral, con respaldo y una franja de soporte visibles.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:33.175Z",
+      "initial_ai_label": {
+        "annotation_id": 211,
+        "image_id": 136,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Mesa y mantel ocultan la mayor parte de la silla lateral, con respaldo y una franja de soporte visibles."
+      }
     },
     {
       "annotation_id": 212,
@@ -2237,7 +4355,17 @@
       "occlusion": "partial",
       "truncation": false,
       "confidence": "high",
-      "reason": "El peluche tapa parte del asiento y la silla delantera se superpone al extremo derecho."
+      "reason": "El peluche tapa parte del asiento y la silla delantera se superpone al extremo derecho.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:33.367Z",
+      "initial_ai_label": {
+        "annotation_id": 212,
+        "image_id": 136,
+        "occlusion": "partial",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "El peluche tapa parte del asiento y la silla delantera se superpone al extremo derecho."
+      }
     },
     {
       "annotation_id": 213,
@@ -2245,7 +4373,17 @@
       "occlusion": "none",
       "truncation": false,
       "confidence": "high",
-      "reason": "Silla de alambre delantera visible sin obst\u00e1culo externo claro."
+      "reason": "Silla de alambre delantera visible sin obst\u00e1culo externo claro.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:33.519Z",
+      "initial_ai_label": {
+        "annotation_id": 213,
+        "image_id": 136,
+        "occlusion": "none",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "Silla de alambre delantera visible sin obst\u00e1culo externo claro."
+      }
     },
     {
       "annotation_id": 214,
@@ -2253,7 +4391,17 @@
       "occlusion": "partial",
       "truncation": true,
       "confidence": "high",
-      "reason": "Papeles sobre el asiento ocultan una parte; silla cortada por los bordes izquierdo e inferior."
+      "reason": "Papeles sobre el asiento ocultan una parte; silla cortada por los bordes izquierdo e inferior.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:33.671Z",
+      "initial_ai_label": {
+        "annotation_id": 214,
+        "image_id": 136,
+        "occlusion": "partial",
+        "truncation": true,
+        "confidence": "high",
+        "reason": "Papeles sobre el asiento ocultan una parte; silla cortada por los bordes izquierdo e inferior."
+      }
     },
     {
       "annotation_id": 215,
@@ -2261,7 +4409,17 @@
       "occlusion": "heavy",
       "truncation": false,
       "confidence": "high",
-      "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho."
+      "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho.",
+      "human_reviewed": true,
+      "human_reviewed_at": "2026-10-16T19:15:33.823Z",
+      "initial_ai_label": {
+        "annotation_id": 215,
+        "image_id": 136,
+        "occlusion": "heavy",
+        "truncation": false,
+        "confidence": "high",
+        "reason": "La mesa y su mantel ocultan asiento y estructura inferior de la silla; principalmente queda el respaldo estrecho."
+      }
     },
     {
       "annotation_id": 216,
