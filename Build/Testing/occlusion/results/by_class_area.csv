@@ -1,0 +1,181 @@
+mode,occlusion,category,area_stratum,gt,tp,fn,recall,recall_ci95_low,recall_ci95_high,bootstrap_valid_draws,capture_groups_with_gt,uncertain_gt,low_confidence_gt,sparse_stratum
+detector,none,bed,small,0,0,0,,,,0,0,0,0,True
+detector,none,bed,medium,4,1,3,0.25,0.0,0.5,9579,3,0,0,True
+detector,none,bed,large,23,17,6,0.7391304347826086,0.3333333333333333,1.0,9987,6,0,0,False
+detector,none,chair,small,16,13,3,0.8125,0.6666666666666666,0.8571428571428571,9592,3,0,0,False
+detector,none,chair,medium,72,54,18,0.75,0.6122372829728907,0.8450704225352113,10000,12,0,0,False
+detector,none,chair,large,17,11,6,0.6470588235294118,0.4,1.0,9988,6,0,0,False
+detector,none,couch,small,0,0,0,,,,0,0,0,0,True
+detector,none,couch,medium,1,1,0,1.0,1.0,1.0,6402,1,0,0,True
+detector,none,couch,large,4,4,0,1.0,1.0,1.0,6402,1,0,0,True
+detector,none,dining table,small,1,0,1,0.0,0.0,0.0,6398,1,0,0,True
+detector,none,dining table,medium,7,0,7,0.0,0.0,0.0,9877,4,0,0,True
+detector,none,dining table,large,0,0,0,,,,0,0,0,0,True
+detector,none,laptop,small,5,2,3,0.4,0.4,0.4,6342,1,0,0,True
+detector,none,laptop,medium,12,8,4,0.6666666666666666,0.3333333333333333,1.0,8660,2,0,0,True
+detector,none,laptop,large,0,0,0,,,,0,0,0,0,True
+detector,none,person,small,0,0,0,,,,0,0,0,0,True
+detector,none,person,medium,7,7,0,1.0,1.0,1.0,8716,2,0,0,True
+detector,none,person,large,1,1,0,1.0,1.0,1.0,6321,1,0,0,True
+detector,none,refrigerator,small,2,2,0,1.0,1.0,1.0,6402,1,0,0,True
+detector,none,refrigerator,medium,12,7,5,0.5833333333333334,0.0,1.0,9869,4,0,0,True
+detector,none,refrigerator,large,11,8,3,0.7272727272727273,0.6,1.0,9567,3,0,0,True
+detector,none,sink,small,12,2,10,0.16666666666666666,0.0,1.0,9593,3,0,0,True
+detector,none,sink,medium,10,7,3,0.7,0.0,1.0,9853,4,0,0,True
+detector,none,sink,large,0,0,0,,,,0,0,0,0,True
+detector,none,toilet,small,2,0,2,0.0,0.0,0.0,8745,2,0,0,True
+detector,none,toilet,medium,9,7,2,0.7777777777777778,0.0,1.0,9861,4,0,0,True
+detector,none,toilet,large,9,8,1,0.8888888888888888,0.5,1.0,9853,4,0,0,True
+detector,none,tv,small,13,6,7,0.46153846153846156,0.13333333333333333,1.0,9955,5,0,0,True
+detector,none,tv,medium,24,20,4,0.8333333333333334,0.6190476190476191,1.0,9981,6,0,0,False
+detector,none,tv,large,0,0,0,,,,0,0,0,0,True
+detector,partial,bed,small,0,0,0,,,,0,0,0,0,True
+detector,partial,bed,medium,1,1,0,1.0,1.0,1.0,6307,1,0,0,True
+detector,partial,bed,large,28,25,3,0.8928571428571429,0.75,1.0,9949,5,0,0,False
+detector,partial,chair,small,70,29,41,0.4142857142857143,0.13333333333333333,0.5384615384615384,9993,7,0,0,False
+detector,partial,chair,medium,100,62,38,0.62,0.45,0.7972995053877406,10000,11,0,0,False
+detector,partial,chair,large,12,10,2,0.8333333333333334,0.6180402930402932,1.0,9950,5,0,0,True
+detector,partial,couch,small,0,0,0,,,,0,0,0,0,True
+detector,partial,couch,medium,0,0,0,,,,0,0,0,0,True
+detector,partial,couch,large,1,1,0,1.0,1.0,1.0,6402,1,0,0,True
+detector,partial,dining table,small,27,0,27,0.0,0.0,0.0,9949,5,0,0,False
+detector,partial,dining table,medium,53,22,31,0.41509433962264153,0.25529828952857736,0.6388888888888888,9999,9,0,0,False
+detector,partial,dining table,large,10,6,4,0.6,0.0,1.0,9966,5,0,0,True
+detector,partial,laptop,small,4,0,4,0.0,0.0,0.0,8709,2,0,0,True
+detector,partial,laptop,medium,13,9,4,0.6923076923076923,0.4,0.875,8709,2,0,0,True
+detector,partial,laptop,large,0,0,0,,,,0,0,0,0,True
+detector,partial,person,small,13,9,4,0.6923076923076923,0.6666666666666666,0.75,8698,2,0,0,True
+detector,partial,person,medium,18,14,4,0.7777777777777778,0.5,1.0,9582,3,0,0,False
+detector,partial,person,large,2,2,0,1.0,1.0,1.0,6321,1,0,0,True
+detector,partial,refrigerator,small,9,0,9,0.0,0.0,0.0,8768,2,0,0,True
+detector,partial,refrigerator,medium,6,5,1,0.8333333333333334,0.6666666666666666,1.0,8766,2,0,0,True
+detector,partial,refrigerator,large,2,2,0,1.0,1.0,1.0,6398,1,0,0,True
+detector,partial,sink,small,15,3,12,0.2,0.0,0.5,9946,5,0,0,False
+detector,partial,sink,medium,10,6,4,0.6,0.3333333333333333,1.0,9963,5,0,0,True
+detector,partial,sink,large,0,0,0,,,,0,0,0,0,True
+detector,partial,toilet,small,0,0,0,,,,0,0,0,0,True
+detector,partial,toilet,medium,4,3,1,0.75,0.0,1.0,8735,2,0,0,True
+detector,partial,toilet,large,8,8,0,1.0,1.0,1.0,9611,3,0,0,True
+detector,partial,tv,small,3,0,3,0.0,0.0,0.0,6321,1,0,0,True
+detector,partial,tv,medium,8,1,7,0.125,0.0,0.2,8709,2,0,0,True
+detector,partial,tv,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,bed,small,0,0,0,,,,0,0,0,0,True
+detector,heavy,bed,medium,0,0,0,,,,0,0,0,0,True
+detector,heavy,bed,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,chair,small,108,5,103,0.046296296296296294,0.0,0.11627906976744186,10000,8,0,0,False
+detector,heavy,chair,medium,22,6,16,0.2727272727272727,0.0,0.5555555555555556,9995,7,0,0,False
+detector,heavy,chair,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,couch,small,0,0,0,,,,0,0,0,0,True
+detector,heavy,couch,medium,0,0,0,,,,0,0,0,0,True
+detector,heavy,couch,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,dining table,small,0,0,0,,,,0,0,0,0,True
+detector,heavy,dining table,medium,0,0,0,,,,0,0,0,0,True
+detector,heavy,dining table,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,laptop,small,0,0,0,,,,0,0,0,0,True
+detector,heavy,laptop,medium,0,0,0,,,,0,0,0,0,True
+detector,heavy,laptop,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,person,small,11,5,6,0.45454545454545453,0.0,0.8,9582,3,0,0,True
+detector,heavy,person,medium,3,1,2,0.3333333333333333,0.0,0.5,8709,2,0,0,True
+detector,heavy,person,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,refrigerator,small,0,0,0,,,,0,0,0,0,True
+detector,heavy,refrigerator,medium,0,0,0,,,,0,0,0,0,True
+detector,heavy,refrigerator,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,sink,small,9,0,9,0.0,0.0,0.0,8795,2,0,0,True
+detector,heavy,sink,medium,0,0,0,,,,0,0,0,0,True
+detector,heavy,sink,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,toilet,small,5,0,5,0.0,0.0,0.0,6319,1,0,0,True
+detector,heavy,toilet,medium,1,0,1,0.0,0.0,0.0,6319,1,0,0,True
+detector,heavy,toilet,large,0,0,0,,,,0,0,0,0,True
+detector,heavy,tv,small,0,0,0,,,,0,0,0,0,True
+detector,heavy,tv,medium,0,0,0,,,,0,0,0,0,True
+detector,heavy,tv,large,0,0,0,,,,0,0,0,0,True
+app_output,none,bed,small,0,0,0,,,,0,0,0,0,True
+app_output,none,bed,medium,4,1,3,0.25,0.0,0.5,9579,3,0,0,True
+app_output,none,bed,large,23,16,7,0.6956521739130435,0.3333333333333333,1.0,9987,6,0,0,False
+app_output,none,chair,small,16,4,12,0.25,0.0,0.5714285714285714,9592,3,0,0,False
+app_output,none,chair,medium,72,35,37,0.4861111111111111,0.3492063492063492,0.6511627906976745,10000,12,0,0,False
+app_output,none,chair,large,17,7,10,0.4117647058823529,0.16666666666666666,0.6890624999999947,9988,6,0,0,False
+app_output,none,couch,small,0,0,0,,,,0,0,0,0,True
+app_output,none,couch,medium,1,1,0,1.0,1.0,1.0,6402,1,0,0,True
+app_output,none,couch,large,4,4,0,1.0,1.0,1.0,6402,1,0,0,True
+app_output,none,dining table,small,1,0,1,0.0,0.0,0.0,6398,1,0,0,True
+app_output,none,dining table,medium,7,0,7,0.0,0.0,0.0,9877,4,0,0,True
+app_output,none,dining table,large,0,0,0,,,,0,0,0,0,True
+app_output,none,laptop,small,5,1,4,0.2,0.2,0.2,6342,1,0,0,True
+app_output,none,laptop,medium,12,6,6,0.5,0.3333333333333333,0.6666666666666666,8660,2,0,0,True
+app_output,none,laptop,large,0,0,0,,,,0,0,0,0,True
+app_output,none,person,small,0,0,0,,,,0,0,0,0,True
+app_output,none,person,medium,7,7,0,1.0,1.0,1.0,8716,2,0,0,True
+app_output,none,person,large,1,1,0,1.0,1.0,1.0,6321,1,0,0,True
+app_output,none,refrigerator,small,2,0,2,0.0,0.0,0.0,6402,1,0,0,True
+app_output,none,refrigerator,medium,12,6,6,0.5,0.0,1.0,9869,4,0,0,True
+app_output,none,refrigerator,large,11,8,3,0.7272727272727273,0.6,1.0,9567,3,0,0,True
+app_output,none,sink,small,12,2,10,0.16666666666666666,0.0,1.0,9593,3,0,0,True
+app_output,none,sink,medium,10,7,3,0.7,0.0,1.0,9853,4,0,0,True
+app_output,none,sink,large,0,0,0,,,,0,0,0,0,True
+app_output,none,toilet,small,2,0,2,0.0,0.0,0.0,8745,2,0,0,True
+app_output,none,toilet,medium,9,7,2,0.7777777777777778,0.0,1.0,9861,4,0,0,True
+app_output,none,toilet,large,9,8,1,0.8888888888888888,0.5,1.0,9853,4,0,0,True
+app_output,none,tv,small,13,5,8,0.38461538461538464,0.0,1.0,9955,5,0,0,True
+app_output,none,tv,medium,24,11,13,0.4583333333333333,0.1,1.0,9981,6,0,0,False
+app_output,none,tv,large,0,0,0,,,,0,0,0,0,True
+app_output,partial,bed,small,0,0,0,,,,0,0,0,0,True
+app_output,partial,bed,medium,1,1,0,1.0,1.0,1.0,6307,1,0,0,True
+app_output,partial,bed,large,28,25,3,0.8928571428571429,0.75,1.0,9949,5,0,0,False
+app_output,partial,chair,small,70,3,67,0.04285714285714286,0.0,0.0852279635258352,9993,7,0,0,False
+app_output,partial,chair,medium,100,23,77,0.23,0.12799767441860466,0.35185185185185186,10000,11,0,0,False
+app_output,partial,chair,large,12,6,6,0.5,0.2,0.8,9950,5,0,0,True
+app_output,partial,couch,small,0,0,0,,,,0,0,0,0,True
+app_output,partial,couch,medium,0,0,0,,,,0,0,0,0,True
+app_output,partial,couch,large,1,1,0,1.0,1.0,1.0,6402,1,0,0,True
+app_output,partial,dining table,small,27,0,27,0.0,0.0,0.0,9949,5,0,0,False
+app_output,partial,dining table,medium,53,1,52,0.018867924528301886,0.0,0.07692307692307693,9999,9,0,0,False
+app_output,partial,dining table,large,10,0,10,0.0,0.0,0.0,9966,5,0,0,True
+app_output,partial,laptop,small,4,0,4,0.0,0.0,0.0,8709,2,0,0,True
+app_output,partial,laptop,medium,13,1,12,0.07692307692307693,0.0,0.125,8709,2,0,0,True
+app_output,partial,laptop,large,0,0,0,,,,0,0,0,0,True
+app_output,partial,person,small,13,4,9,0.3076923076923077,0.25,0.3333333333333333,8698,2,0,0,True
+app_output,partial,person,medium,18,3,15,0.16666666666666666,0.0,0.3333333333333333,9582,3,0,0,False
+app_output,partial,person,large,2,2,0,1.0,1.0,1.0,6321,1,0,0,True
+app_output,partial,refrigerator,small,9,0,9,0.0,0.0,0.0,8768,2,0,0,True
+app_output,partial,refrigerator,medium,6,5,1,0.8333333333333334,0.6666666666666666,1.0,8766,2,0,0,True
+app_output,partial,refrigerator,large,2,2,0,1.0,1.0,1.0,6398,1,0,0,True
+app_output,partial,sink,small,15,3,12,0.2,0.0,0.5,9946,5,0,0,False
+app_output,partial,sink,medium,10,6,4,0.6,0.3333333333333333,1.0,9963,5,0,0,True
+app_output,partial,sink,large,0,0,0,,,,0,0,0,0,True
+app_output,partial,toilet,small,0,0,0,,,,0,0,0,0,True
+app_output,partial,toilet,medium,4,3,1,0.75,0.0,1.0,8735,2,0,0,True
+app_output,partial,toilet,large,8,8,0,1.0,1.0,1.0,9611,3,0,0,True
+app_output,partial,tv,small,3,0,3,0.0,0.0,0.0,6321,1,0,0,True
+app_output,partial,tv,medium,8,0,8,0.0,0.0,0.0,8709,2,0,0,True
+app_output,partial,tv,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,bed,small,0,0,0,,,,0,0,0,0,True
+app_output,heavy,bed,medium,0,0,0,,,,0,0,0,0,True
+app_output,heavy,bed,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,chair,small,108,0,108,0.0,0.0,0.0,10000,8,0,0,False
+app_output,heavy,chair,medium,22,0,22,0.0,0.0,0.0,9995,7,0,0,False
+app_output,heavy,chair,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,couch,small,0,0,0,,,,0,0,0,0,True
+app_output,heavy,couch,medium,0,0,0,,,,0,0,0,0,True
+app_output,heavy,couch,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,dining table,small,0,0,0,,,,0,0,0,0,True
+app_output,heavy,dining table,medium,0,0,0,,,,0,0,0,0,True
+app_output,heavy,dining table,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,laptop,small,0,0,0,,,,0,0,0,0,True
+app_output,heavy,laptop,medium,0,0,0,,,,0,0,0,0,True
+app_output,heavy,laptop,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,person,small,11,0,11,0.0,0.0,0.0,9582,3,0,0,True
+app_output,heavy,person,medium,3,0,3,0.0,0.0,0.0,8709,2,0,0,True
+app_output,heavy,person,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,refrigerator,small,0,0,0,,,,0,0,0,0,True
+app_output,heavy,refrigerator,medium,0,0,0,,,,0,0,0,0,True
+app_output,heavy,refrigerator,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,sink,small,9,0,9,0.0,0.0,0.0,8795,2,0,0,True
+app_output,heavy,sink,medium,0,0,0,,,,0,0,0,0,True
+app_output,heavy,sink,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,toilet,small,5,0,5,0.0,0.0,0.0,6319,1,0,0,True
+app_output,heavy,toilet,medium,1,0,1,0.0,0.0,0.0,6319,1,0,0,True
+app_output,heavy,toilet,large,0,0,0,,,,0,0,0,0,True
+app_output,heavy,tv,small,0,0,0,,,,0,0,0,0,True
+app_output,heavy,tv,medium,0,0,0,,,,0,0,0,0,True
+app_output,heavy,tv,large,0,0,0,,,,0,0,0,0,True

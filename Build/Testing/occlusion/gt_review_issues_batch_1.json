@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "provisional_ai_observation_human_review_pending",
+  "source_labels_sha256": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
+  "issues": [
+    {
+      "annotation_id": 100,
+      "image_id": 15,
+      "file_name": "IMG_3082.jpeg",
+      "category_id": 62,
+      "category": "chair",
+      "issue_type": "ambiguous_instance_extent",
+      "reason": "La caja GT abarca dos mecedoras superpuestas, incluida una recortada por el borde inferior. La identidad de la instancia objetivo no queda clara; revisar si la caja reúne ambas o si debe corresponder a una sola. No se modificó la anotación."
+    }
+  ],
+  "non_gt_ambiguities": [
+    {
+      "annotation_id": 806,
+      "image_id": 58,
+      "file_name": "IMG_3126.jpeg",
+      "category_id": 82,
+      "category": "refrigerator",
+      "reason": "Ambigüedad sólo de oclusión: la vista lateral estrecha junto a la barra no permite separar con seguridad perspectiva y ocultamiento. No se observó evidencia suficiente para señalar un error GT."
+    }
+  ]
+}

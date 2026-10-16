@@ -251,6 +251,7 @@ def main():
         if len(t.columns)==1:continue
         n=len(t.columns);widths=[1.45]+[(6.08-1.45)/(n-1)]*(n-1)
         if n==3:widths=[2.1,2.45,1.53]
+        if t.cell(0,0).text=='Oclusión':widths=[1.35,.60,.60,.60,.85,2.08]
         if t.cell(0,0).text=='Requerimiento':widths=[1.40,2.05,2.63]
         if 'Banda de distancia' in t.cell(0,0).text:widths=[.94,.60,.60,.64,.82,1.0,1.48]
         t.autofit=False

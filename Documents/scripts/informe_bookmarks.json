@@ -457,48 +457,54 @@
   },
   {
     "name": "report_1076",
+    "text": "Tabla 4.10. Recall por nivel de oclusión con etiquetas asistidas por IA.",
+    "kind": "tables",
+    "level": 1
+  },
+  {
+    "name": "report_1077",
     "text": "5. Conclusiones",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1077",
+    "name": "report_1078",
     "text": "5.1 Conclusiones",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1078",
+    "name": "report_1079",
     "text": "5.2 Recomendaciones",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1079",
+    "name": "report_1080",
     "text": "5.3 Trabajo futuro",
     "kind": "contents",
     "level": 2
   },
   {
-    "name": "report_1080",
+    "name": "report_1081",
     "text": "Anexo A: Scripts de evaluación de modelos",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1081",
+    "name": "report_1082",
     "text": "Anexo B: Pruebas unitarias del prototipo",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1082",
+    "name": "report_1083",
     "text": "Anexo C: Manuales técnico y de usuario",
     "kind": "contents",
     "level": 1
   },
   {
-    "name": "report_1083",
+    "name": "report_1084",
     "text": "Bibliografía",
     "kind": "contents",
     "level": 1

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-16",
+  "status": "provisional_ai_labels_human_review_pending",
+  "model_inspection": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "analysis_model": "gpt-6.1-sol",
+  "images_inspected": 198,
+  "annotations_labeled": 889,
+  "human_reviewed": 0,
+  "independent_human_review": false,
+  "gt_unchanged": true,
+  "gt_sha256": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
+  "label_counts": {
+    "partial": 417,
+    "none": 274,
+    "heavy": 159,
+    "uncertain": 39
+  },
+  "tests_passed": 22,
+  "rendered_pages": 67,
+  "changed_pages_individually_inspected": [
+    8,
+    10,
+    14,
+    15,
+    53,
+    54,
+    55,
+    56,
+    58,
+    59,
+    61,
+    63,
+    64,
+    65,
+    66,
+    67
+  ],
+  "unchanged_previously_reviewed_pages": 51,
+  "review_ui_checked": [
+    "object crop and full image",
+    "flags filter446cases",
+    "next navigation",
+    "no browser console errors"
+  ],
+  "report_sha256": "3882891856f6a6b44f51182ef48f6d32c0f16a1284d44d703a1228c8b944106c",
+  "metrics_sha256": "2445326221b85edeb93c98136528634adea6d8aceeac4c2c6fe6f40c5d87d233",
+  "limitations": [
+    "Qualitative AI labels await author review.",
+    "Ground-truth box/class concerns separately flagged, original reference untouched.",
+    "Class and size confound associations; no causal claim.",
+    "Group bootstrap excludes label uncertainty; zero-event strata may have degenerate intervals."
+  ]
+}

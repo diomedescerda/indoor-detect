@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "status": "provisional_ai_observations_human_review_pending",
+  "source_labels_sha256": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
+  "issues": [
+    {
+      "image_id": 166,
+      "annotation_ids": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "issue_type": "suspected_category_mismatch",
+      "status": "human_review_required",
+      "reason": "Las nueve cajas GT con categoría dining table encuadran principalmente sillas o respaldos visibles. Se conservaron GT y se asignó occlusion=uncertain; verificar categoría e instancia."
+    },
+    {
+      "image_id": 159,
+      "annotation_ids": [
+        835,
+        840
+      ],
+      "issue_type": "suspected_duplicate_or_fragment_box",
+      "status": "human_review_required",
+      "reason": "La caja 840 encierra estructura inferior bajo la silla grande 835; no se distingue una segunda silla con seguridad."
+    },
+    {
+      "image_id": 160,
+      "annotation_ids": [
+        825,
+        830
+      ],
+      "issue_type": "suspected_merged_or_duplicate_boxes",
+      "status": "human_review_required",
+      "reason": "Ambas cajas se superponen ampliamente al respaldo de la silla grande derecha y a una silla muy cercana parcialmente fuera del encuadre; delimitar instancias."
+    },
+    {
+      "image_id": 161,
+      "annotation_ids": [
+        554,
+        555
+      ],
+      "issue_type": "suspected_duplicate_or_fragment_box",
+      "status": "human_review_required",
+      "reason": "Las cajas 554 y 555 se superponen a la misma silla delantera; la 555 también contiene parte del monitor. No se distingue otra silla en esa extensión."
+    },
+    {
+      "image_id": 164,
+      "annotation_ids": [
+        326,
+        344
+      ],
+      "issue_type": "suspected_duplicate_boxes",
+      "status": "human_review_required",
+      "reason": "Ambas cajas recortan la silla ocupada por la persona de ropa negra del lado derecho; parecen referirse a la misma instancia."
+    },
+    {
+      "image_id": 175,
+      "annotation_ids": [
+        415
+      ],
+      "issue_type": "suspected_instance_or_box_mismatch",
+      "status": "human_review_required",
+      "reason": "La caja TV estrecha recorta persona y un soporte oscuro; la pantalla objetivo no queda delimitada con seguridad."
+    },
+    {
+      "image_id": 175,
+      "annotation_ids": [
+        416
+      ],
+      "issue_type": "suspected_category_or_box_mismatch",
+      "status": "human_review_required",
+      "reason": "La caja TV recorta principalmente un cartel de wifi y mobiliario; revisar la instancia o sus límites."
+    },
+    {
+      "image_id": 176,
+      "annotation_ids": [
+        774,
+        782
+      ],
+      "issue_type": "suspected_duplicate_boxes",
+      "status": "human_review_required",
+      "reason": "Las dos cajas de portátil encuadran el mismo equipo plateado junto al teclado externo en primer plano."
+    },
+    {
+      "image_id": 176,
+      "annotation_ids": [
+        775,
+        781
+      ],
+      "issue_type": "suspected_duplicate_boxes",
+      "status": "human_review_required",
+      "reason": "Las dos cajas de portátil encuadran el mismo equipo oscuro junto a la persona sentada."
+    },
+    {
+      "image_id": 176,
+      "annotation_ids": [
+        780
+      ],
+      "issue_type": "suspected_instance_or_box_mismatch",
+      "status": "human_review_required",
+      "reason": "La caja de silla es una franja estrecha en el borde izquierdo que no permite reconocer una silla con seguridad."
+    },
+    {
+      "image_id": 177,
+      "annotation_ids": [
+        452
+      ],
+      "issue_type": "suspected_category_or_box_mismatch",
+      "status": "human_review_required",
+      "reason": "La caja de persona encierra botella, escritorio y decoración; no contiene una persona claramente identificable."
+    }
+  ]
+}

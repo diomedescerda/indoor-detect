@@ -16,5 +16,5 @@ Nota de trabajo del autor; no forma parte del informe final. Estados conservados
 | 2. Prototipo móvil | Integración Android y pruebas, sección 3.12 y anexo B. | Implementada; no validada con usuarios |
 | 3. Posicionamiento del dispositivo | 33 grupos y seis configuraciones, secciones 4.2 y 4.3. | Parcial; sin estabilidad ni comodidad |
 | 3. Escenarios según objetos | 198 fotografías, 889 instancias y diez clases, secciones 4.1 y 4.5. | Documentada; predominan sillas |
-| 3. Oclusión, iluminación y respuesta | Métricas, tiempos y brillo, secciones 4.5, 4.7 y 4.8. | Parcial; faltan oclusión, lux y latencia con voz |
+| 3. Oclusión, iluminación y respuesta | Métricas, tiempos, brillo y oclusión asistida por IA, secciones 4.5, 4.7 y 4.8. | Oclusión exploratoria etiquetada; revisión humana, lux y latencia con voz pendientes |
 | 3. Informe y recomendaciones | Resultados, límites, conclusiones y trabajo futuro. | Documentada; cierre institucional pendiente |
