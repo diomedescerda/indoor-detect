@@ -41,3 +41,7 @@ Abrir `Build/Testing/occlusion/review.html` en el navegador. Utiliza las fotogra
 Después de revisar y descargar, recalcular con `python Build/Testing/benchmark/analyze_occlusion.py --labels /ruta/occlusion_author_review.json`. Regenerar el visor y el informe después del análisis. Los JSON `gt_review_issues_batch_*.json` registran posibles problemas de clase, duplicados e identidad que requieren revisión separada; el visor de oclusión no modifica las cajas ni categorías GT.
 
 Con cero aciertos en una celda, el intervalo percentil bootstrap puede ser [0,0]; esto refleja la muestra remuestreada y no demuestra una probabilidad poblacional nula.
+
+### Guardado durante la revisión
+
+«Guardar y marcar revisión del autor» conserva la etiqueta en la sesión actual y muestra confirmación junto al botón; permanece en el mismo objeto. «Guardar y siguiente» guarda y avanza. La marca ✓ identifica las instancias revisadas. El contador aumenta sólo la primera vez que se revisa una instancia, no al actualizarla. Para conservar el trabajo al cerrar o recargar, usar «Descargar etiquetas revisadas» y luego «Restaurar JSON» al continuar.

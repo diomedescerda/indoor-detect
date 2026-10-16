@@ -41,7 +41,9 @@
     "object crop and full image",
     "flags filter446cases",
     "next navigation",
-    "no browser console errors"
+    "no browser console errors",
+    "save confirmation and reviewed badge",
+    "save-and-next advances without double-counting reviewed instance"
   ],
   "report_sha256": "3882891856f6a6b44f51182ef48f6d32c0f16a1284d44d703a1228c8b944106c",
   "metrics_sha256": "2445326221b85edeb93c98136528634adea6d8aceeac4c2c6fe6f40c5d87d233",
