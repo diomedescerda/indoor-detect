@@ -380,53 +380,43 @@
     "label": "43"
   },
   "report_1076": {
-    "text": "4.9 Correspondencia con las actividades de la propuesta",
+    "text": "5. Conclusiones",
     "physical_page": 55,
-    "label": "44"
+    "label": "45"
   },
   "report_1077": {
-    "text": "Tabla 4.10. Evidencias y alcance de las actividades de la pasantía.",
+    "text": "5.1 Conclusiones",
     "physical_page": 55,
-    "label": "44"
+    "label": "45"
   },
   "report_1078": {
-    "text": "5. Conclusiones",
-    "physical_page": 57,
-    "label": "47"
+    "text": "5.2 Recomendaciones",
+    "physical_page": 56,
+    "label": "46"
   },
   "report_1079": {
-    "text": "5.1 Conclusiones",
-    "physical_page": 57,
-    "label": "47"
+    "text": "5.3 Trabajo futuro",
+    "physical_page": 56,
+    "label": "46"
   },
   "report_1080": {
-    "text": "5.2 Recomendaciones",
+    "text": "Anexo A: Scripts de evaluación de modelos",
     "physical_page": 58,
-    "label": "48"
+    "label": "49"
   },
   "report_1081": {
-    "text": "5.3 Trabajo futuro",
-    "physical_page": 58,
-    "label": "48"
-  },
-  "report_1082": {
-    "text": "Anexo A: Scripts de evaluación de modelos",
+    "text": "Anexo B: Pruebas unitarias del prototipo",
     "physical_page": 60,
     "label": "51"
   },
+  "report_1082": {
+    "text": "Anexo C: Manuales técnico y de usuario",
+    "physical_page": 61,
+    "label": "52"
+  },
   "report_1083": {
-    "text": "Anexo B: Pruebas unitarias del prototipo",
+    "text": "Bibliografía",
     "physical_page": 62,
     "label": "53"
-  },
-  "report_1084": {
-    "text": "Anexo C: Manuales técnico y de usuario",
-    "physical_page": 63,
-    "label": "54"
-  },
-  "report_1085": {
-    "text": "Bibliografía",
-    "physical_page": 64,
-    "label": "55"
   }
 }

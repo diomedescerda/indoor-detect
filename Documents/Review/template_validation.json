@@ -37,8 +37,8 @@
     "word/settings.xml",
     "word/styles.xml"
   ],
-  "rendered_pages": 67,
+  "rendered_pages": 65,
   "inline_figures": 7,
-  "body_page_reference_fields": 80,
-  "visual_review": "All 67 pages reviewed in overview; 22 changed page images inspected individually; other 45 pages byte-identical to previously inspected render."
+  "body_page_reference_fields": 78,
+  "visual_review": "11 changed page images individually inspected; other 54 pages byte-identical to previously inspected render. Original geometry and media preserved."
 }
