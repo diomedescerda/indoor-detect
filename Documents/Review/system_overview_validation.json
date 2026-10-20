@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-20",
+  "report_sha256": "94507ff0ade9e645da07684926265e207d25b15a9590658953fa8a5a64a0f585",
+  "rendered_pages": 68,
+  "resumen_words": 186,
+  "abstract_words": 182,
+  "paragraphs_corrected": 8,
+  "review_scope": [
+    "Resumen y Abstract equivalentes en alcance y resultados",
+    "Objetivos y tres fases de desarrollo",
+    "Arquitectura y funciones implementadas",
+    "Resultados del detector frente a selección para audio",
+    "Latencia aislada frente a ciclo completo",
+    "Conclusiones, limitaciones y anexos",
+    "Citas, tablas, índices y marcadores editoriales"
+  ],
+  "system_modules": [
+    "captura manual",
+    "preprocesamiento",
+    "detección",
+    "selección configurable",
+    "localización relativa",
+    "síntesis y reproducción local de voz"
+  ],
+  "numeric_tables_unchanged": true,
+  "bibliographic_entries": 49,
+  "all_references_cited_in_first_appearance_order": true,
+  "citation_links": 107,
+  "template_sections": 12,
+  "pageref_fields": 79,
+  "all_other_docx_parts_unchanged": true,
+  "reproduced_from_previous_commit": true,
+  "editorial_pass_idempotent": true,
+  "visual_review": {
+    "changed_pages_individually_inspected": [
+      4,
+      5,
+      14,
+      28,
+      29,
+      44,
+      45,
+      56,
+      57,
+      58
+    ],
+    "remaining_pages_byte_identical": 58
+  },
+  "experimental_files_unchanged": true
+}

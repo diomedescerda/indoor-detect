@@ -382,6 +382,8 @@ def main():
     link_references(OUT)
     from finalize_submission import finalize
     finalize(OUT)
+    from update_system_overview import apply_system_overview
+    apply_system_overview(OUT)
     print(OUT)
 
 

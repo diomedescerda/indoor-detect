@@ -1,13 +1,13 @@
 {
   "date": "2026-10-16",
-  "report_sha256": "3e60e6241ea8e40a6757b8050a59667f4713c544fb392faa6215640944812e2b",
+  "report_sha256": "94507ff0ade9e645da07684926265e207d25b15a9590658953fa8a5a64a0f585",
   "guide_sha256": "2dc9b5038be183b774eaa3cc928eb0ea689dd3d86f03d9ab9b217d0c50f75bef",
   "proposal_sha256": "fa68b8812d3faa8290ee807ddb6edbd0e65fa435ae6b86e3c3c3f689dc8b9c04",
   "rendered_pages": 68,
   "proposal_activities_mapped": 0,
   "guide_checks": {
-    "spanish_summary_words": 199,
-    "english_summary_words": 178,
+    "spanish_summary_words": 186,
+    "english_summary_words": 182,
     "keywords_each": 6,
     "introduction_pages": 4,
     "numbered_chapters": 5,
@@ -74,6 +74,6 @@
   "status": "Revision verified; submission details and scientific limitations explicitly pending.",
   "editorial_update": "Added observational AI-assisted occlusion section4.8.1 and result table4.10; administrative matrix and scene heatmap remain removed.",
   "personal_tracking_note": "Documents/Review/seguimiento_personal_propuesta.md",
-  "latest_document_validation": "submission_validation.json",
+  "latest_document_validation": "system_overview_validation.json",
   "submission_editorial_status": "Cierre editorial sin marcadores; nombres y cargos documentados, línea temática, agradecimientos completos y sin hoja de aprobación sin diligenciar."
 }

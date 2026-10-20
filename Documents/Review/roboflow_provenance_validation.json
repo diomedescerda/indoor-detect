@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "report_sha256": "3e60e6241ea8e40a6757b8050a59667f4713c544fb392faa6215640944812e2b",
+  "report_sha256": "94507ff0ade9e645da07684926265e207d25b15a9590658953fa8a5a64a0f585",
   "rendered_pages": 68,
   "dataset_provenance": {
     "status": "closed_with_archived_evidence",
@@ -35,5 +35,5 @@
   "tables_and_experimental_results_unchanged": true,
   "reproducible_from_previous_commit": true,
   "idempotent": true,
-  "latest_document_validation": "submission_validation.json"
+  "latest_document_validation": "system_overview_validation.json"
 }

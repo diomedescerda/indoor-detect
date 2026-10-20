@@ -63,3 +63,7 @@ Se revisaron el texto completo, las tablas, las figuras y las referencias para d
 ## Versión final para presentación
 
 Cierre editorial del 20 de octubre de 2026: 68 páginas, 49 referencias y sin marcadores pendientes. Se revisaron texto, tablas, encabezados, índices y campos; se actualizaron números romanos preliminares tras retirar la hoja de aceptación. `scripts/finalize_submission.py` mantiene el cierre al reconstruir el documento. `Review/submission_validation.json` conserva la verificación. Las limitaciones y el trabajo futuro forman parte del informe científico final.
+
+## Enfoque del resumen y del sistema
+
+El resumen, el abstract y las conclusiones presentan el desarrollo integrado desde la captura hasta la descripción auditiva. Se distinguen detecciones del modelo, selección para anuncios y métricas del sistema completo. Ambos resúmenes tienen menos de200 palabras. `scripts/update_system_overview.py` conserva la revisión editorial y `Review/system_overview_validation.json` documenta su comprobación.
