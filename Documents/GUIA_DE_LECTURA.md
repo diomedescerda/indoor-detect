@@ -1,6 +1,6 @@
-# Guía de lectura para la profesora
+# Guía de lectura del proyecto
 
-Esta guía permite revisar el proyecto sin ejecutar código. Actualizada el 20 de octubre de 2026. El [informe final](Informe_Final_Trabajo_de_Grado_AssistiveVision.docx) es el manuscrito principal; este documento facilita localizar su evidencia.
+Esta guía presenta la estructura, el desarrollo y los resultados de AssistiveVision, y permite consultar sus evidencias sin ejecutar código. Actualizada el 20 de octubre de 2026. El [informe final](Informe_Final_Trabajo_de_Grado_AssistiveVision.docx) es el manuscrito principal; este documento facilita localizar su evidencia.
 
 ## Recorrido recomendado
 

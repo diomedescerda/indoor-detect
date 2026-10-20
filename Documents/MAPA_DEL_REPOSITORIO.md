@@ -44,7 +44,7 @@ El código completo Android está en [AssistiveVision](https://github.com/diomed
 | Evaluar detecciones | [labels.json](../Build/Testing/labels.json) | `preannotations.coco.json`, `chat_boxes.json` y `review/` son borradores históricos |
 | Consultar la ejecución principal | [android.json](../Build/Testing/benchmark/results/android.json) | `results/desktop/` corresponde a un proxy con otro entorno |
 | Consultar oclusión actual | [results/labels.json](../Build/Testing/occlusion/results/labels.json) y [metrics.json](../Build/Testing/occlusion/results/metrics.json) | `author_review.json` preserva la descarga del autor; `labels_batch_*.json` son etiquetas iniciales |
-| Consultar acuerdos de reunión | [Nota del 14 de octubre](Notes/2026-10-14%20-%20Reunion%20con%20la%20profesora.md) | Las notas personales no reemplazan la metodología ni los resultados del informe |
+| Consultar antecedentes y notas de trabajo | [Notes/](Notes/) y [Obsidian/](Obsidian/) | Material histórico auxiliar; no reemplaza la metodología ni los resultados del informe |
 
 ## Datos, resultados y código por análisis
 
@@ -72,7 +72,7 @@ git clone https://github.com/diomedescerda/indoor-detect.git
 cd indoor-detect
 ```
 
-Si el repositorio requiere acceso, la cuenta de la profesora debe tener permisos. El clon incluye aproximadamente 209 MB en `Build/Testing/`, principalmente fotografías y resultados; no depende de rutas del equipo del autor para consultar esos archivos.
+Si el repositorio requiere acceso, la cuenta utilizada para consultarlo debe tener permisos. El clon incluye aproximadamente 209 MB en `Build/Testing/`, principalmente fotografías y resultados; no depende de rutas del equipo del autor para consultar esos archivos.
 
 ## Recalcular o continuar desde otro equipo
 

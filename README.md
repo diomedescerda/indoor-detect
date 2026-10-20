@@ -2,7 +2,7 @@
 
 Repositorio de la pasantía de investigación sobre un prototipo Android que detecta objetos en interiores y produce descripciones de voz para personas con discapacidad visual.
 
-**Para comenzar:** [guía para la profesora y lectores del proyecto](Documents/GUIA_DE_LECTURA.md). El documento principal es el [informe final de trabajo de grado](Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx).
+**Para comenzar:** [guía de lectura del proyecto](Documents/GUIA_DE_LECTURA.md). El documento principal es el [informe final de trabajo de grado](Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx).
 
 ## Dónde está cada parte
 

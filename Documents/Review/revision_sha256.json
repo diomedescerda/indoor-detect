@@ -1,5 +1,5 @@
 {
-  "Build/Testing/LEEME.md": "fb81ee3e98b4d5e5de053c20060e5a7772cc166002ec9c5c14eabdfffda037d9",
+  "Build/Testing/LEEME.md": "1d3c8d29ccba376b9782bdb911f49a817a3b7310c492952897fde63c1ce44277",
   "Build/Testing/benchmark/analyze_depth.py": "4c8a8bdfa9104db78a22e6aa5aab190e988d31282861fa4cebc1cb999c9bcdb4",
   "Build/Testing/benchmark/analyze_occlusion.py": "4323be87b2b1c86b33250f79aa4776e91d6ef3606a653b2b78b892038d4312c8",
   "Build/Testing/benchmark/plot_scenario1.py": "27a00899f25bc0a4ec4ed18882d9d4f059c57a88c1adf62eb2cbfaf0380755f5",
@@ -45,10 +45,10 @@
   "Documents/Figures/seleccion_metricas.png": "24f13eaa360f2e3d0a4ede29eba0ae998dc6e09701f78ec96dec3bf79bfa5378",
   "Documents/Figures/zonas.png": "40e68dd62dcfb87950423b7f4733132407ae3b62db2bc08e09f71f6ee9ef91bd",
   "Documents/Fragments/Capitulo 4 - Diseño experimental.docx": "0b6099d8100c3c2aabad5b7d0f4e60f7d4dd86448c22e996d4455f53bad4a39c",
-  "Documents/GUIA_DE_LECTURA.md": "0c83e035aa75391d28ccf29062b4518dff2e8a4056a13151c629c0233325594d",
+  "Documents/GUIA_DE_LECTURA.md": "c94032a6162a12cc297bb15190182245fabe2b69fd7d576dfba51b1ae703d4e9",
   "Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx": "94507ff0ade9e645da07684926265e207d25b15a9590658953fa8a5a64a0f585",
-  "Documents/MAPA_DEL_REPOSITORIO.md": "6aa5bd6a55e3c7980d8426dde0acecdc6bff346132732056580f2a62344f9179",
-  "Documents/README.md": "60ce76f820cb8fb1f7e6f88d72c72e22dc059897b89675142985c4bd73551011",
+  "Documents/MAPA_DEL_REPOSITORIO.md": "09a799e6556968e287b80652ee198ca29bc6c8a43aadad484a7ea22f0c785265",
+  "Documents/README.md": "76159cf62258fd6fd289809dd42c4cfc5d5087a39e6bde2b8784f974c8535130",
   "Documents/Review/2026-10-14_revision.md": "03a9854de5a77c3c91d1ffb0289795bad785c005f790c26a5f71d1aaf0758089",
   "Documents/Review/2026-10-20_gorillapod_bibliografia.json": "427ff4294c7a373e039d8eac50a8284754d2677dd31b7ab4770886b4b409f32b",
   "Documents/Review/app_junit_summary.json": "e681d91db7573d981e878719392bcb1c427533fb1c519645b8c17c164b998b7f",
@@ -84,5 +84,5 @@
   "Documents/scripts/update_dataset_provenance.py": "d6899baf63878787e3e5b39338ccdc838c9e20447f4c24cdf66dee06260bb23d",
   "Documents/scripts/update_informe.py": "6352749bc428af94547eebbd5f2338f01189df3034eae6328c00fc403a4a97bf",
   "Documents/scripts/update_system_overview.py": "4765447cf8870be25be7ab52657fa19532018c19319b5e61688de3c56b88a96d",
-  "README.md": "104628697180e98efa7c3dae914642d68a285f1695bf10d4fd838a24e95a5e8e"
+  "README.md": "36426b579f048ad9a74b42e685c13e1932f6448b65ddfbc8aa63005354362581"
 }

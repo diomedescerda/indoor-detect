@@ -1,6 +1,6 @@
 # Estudio de montaje y lente de AssistiveVision
 
-[Inicio del repositorio](../../README.md) · [Guía para la profesora](../../Documents/GUIA_DE_LECTURA.md) · [Mapa de archivos](../../Documents/MAPA_DEL_REPOSITORIO.md)
+[Inicio del repositorio](../../README.md) · [Guía de lectura del proyecto](../../Documents/GUIA_DE_LECTURA.md) · [Mapa de archivos](../../Documents/MAPA_DEL_REPOSITORIO.md)
 
 Esta carpeta conserva las 198 fotografías, las anotaciones, la ejecución Android del 13 de octubre de 2026 y los análisis posteriores. El documento principal para continuar la escritura es el [informe final integrado](../../Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx). [AssistiveVision_Benchmark_Report.docx](AssistiveVision_Benchmark_Report.docx) es el reporte específico del benchmark.
 
