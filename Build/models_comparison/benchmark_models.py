@@ -3,6 +3,7 @@ import numpy as np
 from pathlib import Path
 from PIL import Image
 import json
+import os
 
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
@@ -13,9 +14,34 @@ try:
 except ImportError:
     from tflite_runtime.interpreter import Interpreter as TFLiteInterpreter
 
-# Paths
-IMAGE_DIR = "test_images/data/"
-RAW_ANNOTATIONS = "test_images/labels.json"
+CONFIG_FILE = "benchmark_config.json"
+with open(CONFIG_FILE) as f:
+    config = json.load(f)
+
+MODE = config.get("mode", "normal")
+
+if MODE == "panoramic":
+    IMAGE_DIR = "panoramic/data/"
+    RAW_ANNOTATIONS = "panoramic/labels.json"
+    RESULTS_FILE = "results/panoramic_desktop.md"
+    VIS_DIR = "visualizations/panoramic"
+    HEADER = (
+        "* These benchmarks were executed on panoramic images (equirectangular projection) "
+        "on a system running Arch Linux with an Intel Core i5-12450H processor, "
+        "Intel UHD integrated graphics, and 8 GB RAM. Inference was performed using "
+        "TensorFlow Lite under CPU-only execution.\n"
+    )
+else:
+    IMAGE_DIR = "test_images/data/"
+    RAW_ANNOTATIONS = "test_images/labels.json"
+    RESULTS_FILE = "results/desktop.md"
+    VIS_DIR = "visualizations/normal"
+    HEADER = (
+        "* The desktop benchmarks were executed on a system running Arch Linux "
+        "with an Intel Core i5-12450H processor, Intel UHD integrated graphics, "
+        "and 8 GB RAM. Inference was performed using TensorFlow Lite under "
+        "CPU-only execution.\n"
+    )
 
 # Update COCO_IDS to only what you annotated
 COCO_IDS = {
@@ -359,9 +385,9 @@ def run_tflite(model_path, image_dir, conf_threshold=0.3):
 # VISUALIZATION
 # ============================================
 
-import os
-
-def save_visualizations(results_list, image_dir, model_name, output_dir="visualizations"):
+def save_visualizations(results_list, image_dir, model_name, output_dir=None):
+    if output_dir is None:
+        output_dir = VIS_DIR
     # group results by image_id
     from collections import defaultdict
     detections_by_image = defaultdict(list)
@@ -588,8 +614,6 @@ save_visualizations(eff_results,        IMAGE_DIR, "EfficientDet_Lite2")
 # WRITE RESULTS TO FILE
 # ============================================
 
-RESULTS_FILE = "results/desktop.md"
-
 models = [
     ("YOLOv8s Float32",    yolov8_f32_results, map5095_v8_f32,  map50_v8_f32),
     ("YOLOv8s Float16",    yolov8_f16_results, map5095_v8_f16,  map50_v8_f16),
@@ -599,15 +623,10 @@ models = [
     ("EfficientDet-Lite2", eff_results,        map5095_e,       map50_e),
 ]
 
-header = ("* The desktop benchmarks were executed on a system running Arch Linux "
-          "with an Intel Core i5-12450H processor, Intel UHD integrated graphics, "
-          "and 8 GB RAM. Inference was performed using TensorFlow Lite under "
-          "CPU-only execution.\n")
-
 os.makedirs(os.path.dirname(RESULTS_FILE), exist_ok=True)
 
 with open(RESULTS_FILE, "w") as f:
-    f.write(header + "\n")
+    f.write(HEADER + "\n")
     for name, results, map5095, map50 in models:
         precision, recall, f1 = compute_precision_recall_f1(results, FILTERED_ANNOTATIONS)
         f.write(format_results(name, map5095, map50,

@@ -1,0 +1,88 @@
+{
+  "YOLOv8s Float16": {
+    "No Preprocessing (Baseline)": {
+      "map5095": 0.36892932322019945,
+      "map50": 0.49895813784601306,
+      "precision": 0.7339743589743589,
+      "recall": 0.4534653465346535,
+      "f1": 0.5605875152998776,
+      "num_detections": 312
+    },
+    "Lens Distortion Correction": {
+      "map5095": 0.1084782291214748,
+      "map50": 0.2923673142347674,
+      "precision": 0.39935064935064934,
+      "recall": 0.24356435643564356,
+      "f1": 0.3025830258302583,
+      "num_detections": 308
+    },
+    "Vignetting Correction": {
+      "map5095": 0.35945354863937257,
+      "map50": 0.4789997227024722,
+      "precision": 0.7378640776699029,
+      "recall": 0.4514851485148515,
+      "f1": 0.5601965601965603,
+      "num_detections": 309
+    },
+    "CLAHE Contrast Normalization": {
+      "map5095": 0.35543357559824057,
+      "map50": 0.4783430577903289,
+      "precision": 0.7384105960264901,
+      "recall": 0.4415841584158416,
+      "f1": 0.5526641883519207,
+      "num_detections": 302
+    },
+    "Distortion + Vignetting": {
+      "map5095": 0.10794884900601481,
+      "map50": 0.29307120769713735,
+      "precision": 0.39805825242718446,
+      "recall": 0.24356435643564356,
+      "f1": 0.30221130221130216,
+      "num_detections": 309
+    },
+    "Full Pipeline (Distortion+Vignetting+Contrast)": {
+      "map5095": 0.1045164773374142,
+      "map50": 0.28180270437206034,
+      "precision": 0.4006734006734007,
+      "recall": 0.23564356435643563,
+      "f1": 0.29675810473815456,
+      "num_detections": 297
+    },
+    "Perspective 4 strips, 90\u00b0 FOV": {
+      "map5095": 0.0,
+      "map50": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "num_detections": 0,
+      "num_strips": 4
+    },
+    "Perspective 6 strips, 90\u00b0 FOV": {
+      "map5095": 0.0,
+      "map50": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "num_detections": 0,
+      "num_strips": 6
+    },
+    "Perspective 8 strips, 90\u00b0 FOV": {
+      "map5095": 0.0,
+      "map50": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "num_detections": 0,
+      "num_strips": 8
+    },
+    "Perspective 4 strips, 120\u00b0 FOV": {
+      "map5095": 0.0,
+      "map50": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "num_detections": 0,
+      "num_strips": 4
+    }
+  }
+}
