@@ -374,6 +374,8 @@ def main():
         # Python-docx records new PNG media types in this part.
         # Existing template already declares png, so no extra content type is required.
     (REPO/'Documents/scripts/informe_bookmarks.json').write_text(json.dumps(bookmarks,ensure_ascii=False,indent=2)+'\n')
+    from audit_citations import apply_revision
+    apply_revision(OUT)
     from link_references import link_references
     link_references(OUT)
     print(OUT)

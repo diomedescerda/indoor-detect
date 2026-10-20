@@ -18,7 +18,7 @@ def link_references(path):
     paragraphs=root.findall('.//w:body/w:p',NS)
     text=lambda p:''.join(p.xpath('.//w:t/text()',namespaces=NS))
     refs={int(m.group(1)):p for p in paragraphs if (m:=re.match(r'^\[(\d+)\]\s',text(p)))}
-    assert len(refs)==35, f'Expected35 references, got{len(refs)}'
+    assert refs and set(refs)==set(range(1,len(refs)+1)), 'References must be consecutive.'
     next_id=max([int(v) for v in root.xpath('//w:bookmarkStart/@w:id',namespaces=NS)]+[0])+1
     names=set(root.xpath('//w:bookmarkStart/@w:name',namespaces=NS))
     for n,p in refs.items():
@@ -68,7 +68,7 @@ def link_references(path):
     parts['word/_rels/document.xml.rels']=E.tostring(rels,xml_declaration=True,encoding='UTF-8',standalone=True)
     with ZipFile(path,'w',ZIP_DEFLATED) as z:
         for n,data in parts.items():z.writestr(n,data)
-    print(f'Bibliography:35 references; added{added_internal} internal citation links and{added_external} source links.')
+    print(f'Bibliography:{len(refs)} references; added{added_internal} internal citation links and{added_external} source links.')
 
 if __name__=='__main__':
     import argparse

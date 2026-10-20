@@ -1,0 +1,951 @@
+{
+  "note": "Consultas históricas Crossref con numeración anterior a esta revisión. El DOI incorrecto de More se conserva como evidencia del hallazgo; las referencias vigentes están en el DOCX y citation_revision.json. Un404 Crossref para DOI arXiv no demuestra invalidez.",
+  "crossref_queries": [
+    {
+      "doi": "10.48550/arXiv.1506.01497",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "original_reference": 5,
+      "doi": "10.1109/CVPR.2016.91",
+      "title": [
+        "You Only Look Once: Unified, Real-Time Object Detection"
+      ],
+      "authors": [
+        {
+          "given": "Joseph",
+          "family": "Redmon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Santosh",
+          "family": "Divvala",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ross",
+          "family": "Girshick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ali",
+          "family": "Farhadi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2016,
+            6
+          ]
+        ]
+      },
+      "container": [
+        "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "779-788"
+    },
+    {
+      "original_reference": 6,
+      "doi": "10.1007/978-3-319-46448-0_2",
+      "title": [
+        "SSD: Single Shot MultiBox Detector"
+      ],
+      "authors": [
+        {
+          "given": "Wei",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dragomir",
+          "family": "Anguelov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dumitru",
+          "family": "Erhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Szegedy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Scott",
+          "family": "Reed",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cheng-Yang",
+          "family": "Fu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander C.",
+          "family": "Berg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "container": [
+        "Lecture Notes in Computer Science",
+        "Computer Vision – ECCV 2016"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "21-37"
+    },
+    {
+      "original_reference": 7,
+      "doi": "10.1109/CVPR42600.2020.01079",
+      "title": [
+        "EfficientDet: Scalable and Efficient Object Detection"
+      ],
+      "authors": [
+        {
+          "given": "Mingxing",
+          "family": "Tan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ruoming",
+          "family": "Pang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Quoc V.",
+          "family": "Le",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            6
+          ]
+        ]
+      },
+      "container": [
+        "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "10778-10787"
+    },
+    {
+      "original_reference": 8,
+      "doi": "10.1016/j.procs.2025.01.054",
+      "title": [
+        "An Energy, Mobility and Obstacle Aware Clustering based Intelligent Routing Protocol for FANET"
+      ],
+      "authors": [
+        {
+          "given": "J.G.",
+          "family": "Rajeswari",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Kousalya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "container": [
+        "Procedia Computer Science"
+      ],
+      "volume": "252",
+      "issue": null,
+      "page": "934-943"
+    },
+    {
+      "original_reference": 11,
+      "doi": "10.32604/cmc.2022.028540",
+      "title": [
+        "Development of Mobile App to Support the Mobility of Visually Impaired People"
+      ],
+      "authors": [
+        {
+          "given": "R.",
+          "family": "Meenakshi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Ponnusamy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Saleh",
+          "family": "Alghamdi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Osama",
+          "family": "Ibrahim Khalaf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Youseef",
+          "family": "Alotaibi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "container": [
+        "Computers, Materials &amp; Continua"
+      ],
+      "volume": "73",
+      "issue": "2",
+      "page": "3473-3495"
+    },
+    {
+      "original_reference": 12,
+      "doi": "10.1016/j.procs.2023.01.093",
+      "title": [
+        "Third Eye: Object Recognition and Speech Generation for Visually Impaired"
+      ],
+      "authors": [
+        {
+          "given": "Koppala",
+          "family": "Guravaiah",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yarlagadda Sai",
+          "family": "Bhavadeesh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peddi",
+          "family": "Shwejan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Allu Harsha",
+          "family": "Vardhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S",
+          "family": "Lavanya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "container": [
+        "Procedia Computer Science"
+      ],
+      "volume": "218",
+      "issue": null,
+      "page": "1144-1155"
+    },
+    {
+      "original_reference": 13,
+      "doi": "10.1007/978-3-319-10602-1_48",
+      "title": [
+        "Microsoft COCO: Common Objects in Context"
+      ],
+      "authors": [
+        {
+          "given": "Tsung-Yi",
+          "family": "Lin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Maire",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Serge",
+          "family": "Belongie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James",
+          "family": "Hays",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pietro",
+          "family": "Perona",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Deva",
+          "family": "Ramanan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Piotr",
+          "family": "Dollár",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C. Lawrence",
+          "family": "Zitnick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "container": [
+        "Lecture Notes in Computer Science",
+        "Computer Vision – ECCV 2014"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "740-755"
+    },
+    {
+      "original_reference": 17,
+      "doi": "10.1109/CVPR.2018.00474",
+      "title": [
+        "MobileNetV2: Inverted Residuals and Linear Bottlenecks"
+      ],
+      "authors": [
+        {
+          "given": "Mark",
+          "family": "Sandler",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrew",
+          "family": "Howard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Menglong",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrey",
+          "family": "Zhmoginov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liang-Chieh",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            6
+          ]
+        ]
+      },
+      "container": [
+        "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "4510-4520"
+    },
+    {
+      "original_reference": 18,
+      "doi": "10.1088/1742-6596/1651/1/012114",
+      "title": [
+        "Real-time and accurate object detection on edge device with TensorFlow Lite"
+      ],
+      "authors": [
+        {
+          "given": "Junyan",
+          "family": "Dai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            11,
+            1
+          ]
+        ]
+      },
+      "container": [
+        "Journal of Physics: Conference Series"
+      ],
+      "volume": "1651",
+      "issue": "1",
+      "page": "012114"
+    },
+    {
+      "original_reference": 19,
+      "doi": "10.1038/s41598-025-99242-y",
+      "title": [
+        "Lightweight faster R-CNN for object detection in optical remote sensing images"
+      ],
+      "authors": [
+        {
+          "given": "Andrew",
+          "family": "Magdy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marwa S.",
+          "family": "Moustafa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hala M.",
+          "family": "Ebied",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohamed F.",
+          "family": "Tolba",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            9
+          ]
+        ]
+      },
+      "container": [
+        "Scientific Reports"
+      ],
+      "volume": "15",
+      "issue": "1",
+      "page": null
+    },
+    {
+      "doi": "10.1007/s11263-020-01316-z",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "original_reference": 23,
+      "doi": "10.1007/978-3-030-58452-8_13",
+      "title": [
+        "End-to-End Object Detection with Transformers"
+      ],
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2308-9680",
+          "authenticated-orcid": false,
+          "given": "Nicolas",
+          "family": "Carion",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0697-6664",
+          "authenticated-orcid": false,
+          "given": "Francisco",
+          "family": "Massa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1715-3356",
+          "authenticated-orcid": false,
+          "given": "Gabriel",
+          "family": "Synnaeve",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9324-1457",
+          "authenticated-orcid": false,
+          "given": "Nicolas",
+          "family": "Usunier",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3169-3199",
+          "authenticated-orcid": false,
+          "given": "Alexander",
+          "family": "Kirillov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9684-5240",
+          "authenticated-orcid": false,
+          "given": "Sergey",
+          "family": "Zagoruyko",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "container": [
+        "Lecture Notes in Computer Science",
+        "Computer Vision – ECCV 2020"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "213-229"
+    }
+  ],
+  "local_pdf_evidence": [
+    {
+      "filename": "2022 - Development of Mobile App to Support the Mobility of Visually Impaired People.pdf",
+      "sha256": "c4cc57bdc6b04ac1e7f0b5fd2c54eca85210e1ce6826adb3ca7186bc1d5c2979"
+    },
+    {
+      "filename": "Dai - 2020 - Real-time and accurate object detection on edge device with TensorFlow Lite.pdf",
+      "sha256": "b7e3d367a096f61bd97f74a1a492f4929523c784111e007d9d70306d815af12c"
+    },
+    {
+      "filename": "Figura et al. - 2025 - Analysis of object recognition systems using augmented reality glasses.pdf",
+      "sha256": "fd895726f0ab5f56aba78412ca145496fc7c443fe12f2dc84c2a7adc46a18bf1"
+    },
+    {
+      "filename": "Guravaiah et al. - 2023 - Third Eye Object Recognition and Speech Generation for Visually Impaired.pdf",
+      "sha256": "22a4eb86c09dc365aedec07ed53a8a07eb84fb3186abc2ff4fe567906c3d49a7"
+    },
+    {
+      "filename": "Howard et al. - 2017 - MobileNets Efficient Convolutional Neural Networks for Mobile Vision Applications.pdf",
+      "sha256": "9fd87b02ecc96c1ecf2b8c2166faf969a2acb187ab3e1e9333b26d226387ff55"
+    },
+    {
+      "filename": "Kuznetsova et al. - 2020 - The Open Images Dataset V4 Unified image classification, object detection, and visual relationship.pdf",
+      "sha256": "d0d7a2e29d106467869603a64b3b87543f098a2257db6da6c1834c1ba68eaa9f"
+    },
+    {
+      "filename": "Lin et al. - 2015 - Microsoft COCO Common Objects in Context.pdf",
+      "sha256": "6aae2fd953d0e833addae77c4cc47dd2106a296a14169ec9587bbdf61f5d99d3"
+    },
+    {
+      "filename": "Liu et al. - 2016 - SSD Single Shot MultiBox Detector.pdf",
+      "sha256": "b6c6dff3142ab83ff6558df86d30f212e99b25b1145b5e531e58297fcd89b22a"
+    },
+    {
+      "filename": "Magdy et al. - 2025 - Lightweight faster R-CNN for object detection in optical remote sensing images.pdf",
+      "sha256": "2dcbd730b77b73285c998e9197fd727ce7d50dfa7baa0e484df4a1f3a7a04fac"
+    },
+    {
+      "filename": "More et al. - 2025 - Empowering the Visually Impaired YOLOv8-based Object Detection in Android Applications.pdf",
+      "sha256": "e7f707c85a9e5285baa420acf3c70e65e93b9884b2ee545882ca7d81552fcb07"
+    },
+    {
+      "filename": "Pawar - 2025 - Deep Learning-Driven Assistive Technology for Blind Users Real-Time Object Detection and Speech Fee.pdf",
+      "sha256": "5a9c4904b0c65d84bffa851c717f1b5c14381d5680582512ad6a8c4a86418a20"
+    },
+    {
+      "filename": "Redmon et al. - 2016 - You Only Look Once Unified, Real-Time Object Detection.pdf",
+      "sha256": "54bcd2dd05dc618849e8a94d8b88fe3eeb37f80e96e200600d38f1f733931678"
+    },
+    {
+      "filename": "Ren et al. - 2016 - Faster R-CNN Towards Real-Time Object Detection with Region Proposal Networks.pdf",
+      "sha256": "f2630182ccfabd6fc89ac20270b4daf15a0ca849298a7db1e5d124ca443051f1"
+    },
+    {
+      "filename": "Sandler et al. - 2019 - MobileNetV2 Inverted Residuals and Linear Bottlenecks.pdf",
+      "sha256": "1f4c30fa6b938c0b7a4d82bc274077dbece70e7cd553a69f591eba7482b51736"
+    },
+    {
+      "filename": "Tan et al. - 2020 - EfficientDet Scalable and Efficient Object Detection.pdf",
+      "sha256": "08deba0f1bdb13b8d8ea69fb10df4f5960f101413f5d5e314ddc28b3dd2b9c7d"
+    },
+    {
+      "filename": "Universidad del Magdalena - 2020 - Plan de Desarrollo UNIMAGDALENA Comprometida 2020тАУ2030.pdf",
+      "sha256": "f30b28413a2f0aaa33a83a794c305df52e191c42200cac8212fb49aae779b955"
+    },
+    {
+      "filename": "Universidad del Magdalena - 2024 - Plan de Gobierno Rectoral 2024-2028.pdf",
+      "sha256": "c022d69f1f69a8138079224ec44568d5ff2223d6579e4eb1ccf8413f60251bea"
+    },
+    {
+      "filename": "World Health Organization - 2019 - World report on vision.pdf",
+      "sha256": "33e7b0ea0e528182c9061d75e600ec01e2b8f16516c3b173c924c92247af1ae0"
+    }
+  ]
+}

@@ -17,7 +17,7 @@
     "uncertain": 39
   },
   "tests_passed": 22,
-  "rendered_pages": 67,
+  "rendered_pages": 69,
   "changed_pages_individually_inspected": [
     14,
     55,
@@ -33,7 +33,7 @@
     "save confirmation and reviewed badge",
     "save-and-next advances without double-counting reviewed instance"
   ],
-  "report_sha256": "10b2a83d4b88f31f7f19e936e34e582b98666451ad55d3b79d6a2501aeaf87a2",
+  "report_sha256": "be85d4cbc46709aa0056cbc1b423d812e988d8ccd09457c6f8c45fcfbc182c5d",
   "metrics_sha256": "28b38040f570cfafc5663857717de159d99787c9be99f13e5155af2d568d3932",
   "limitations": [
     "Author individually reviewed 215 labels; remaining674 retained by author decision, without individual review.",
@@ -58,5 +58,5 @@
     108
   ],
   "author_review_sha256": "2287b87ef65c6acb24848afeea00e0ff96f8ce07425f156bcf89ce56535d2e68",
-  "latest_document_validation": "2026-10-20_gorillapod_bibliografia.json"
+  "latest_document_validation": "citation_audit.json"
 }

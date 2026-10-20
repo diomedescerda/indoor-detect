@@ -52,4 +52,10 @@ La revisión del 20 de octubre de 2026 describe en las secciones 3.2 y 4.1 que e
 
 La presentación sigue la plantilla institucional. Las citas numéricas y la bibliografía emplean estilo IEEE; la guía institucional permite elegir la norma bibliográfica de la disciplina y no exige APA. Esta identificación no sustituye la revisión individual de todas las referencias.
 
-La bibliografía contiene 35 entradas; las citas del cuerpo enlazan con sus referencias y los DOI, URL e identificadores arXiv disponibles son clicables. `scripts/link_references.py` añade estos enlaces sin alterar el texto y se ejecuta al final del constructor. Son hipervínculos de Word, no campos de Zotero ni una biblioteca sincronizada; para gestión automática debe vincularse una biblioteca bibliográfica.
+La bibliografía contiene 49 entradas; las citas del cuerpo enlazan con sus referencias y los DOI, URL e identificadores arXiv disponibles son clicables. `scripts/link_references.py` añade estos enlaces sin alterar el texto y se ejecuta al final del constructor. Son hipervínculos de Word, no campos de Zotero ni una biblioteca sincronizada; para gestión automática debe vincularse una biblioteca bibliográfica.
+
+## Revisión de atribución del 20 de octubre de 2026
+
+Se revisaron el texto completo, las tablas, las figuras y las referencias para distinguir fuentes externas, métodos conocidos y decisiones del proyecto. Se corrigieron citas de YOLOv8/YOLO11 y Third Eye, un DOI incorrecto de More et al., la referencia de la Benchmark Tool y varias explicaciones sin respaldo causal. Se añadieron fuentes de métricas, estadística, EXIF y software; las 49 entradas se numeran por primera cita y mantienen enlaces internos y externos.
+
+`scripts/audit_citations.py` aplica las correcciones registradas en `citation_revision.json` antes de enlazar la bibliografía. `citation_number_map.json` permite relacionar los identificadores originales con la numeración nueva. La reproducción se comprobó desde el DOCX anterior. `Review/citation_audit.json` conserva el alcance, verificaciones y asuntos pendientes. Esta revisión no equivale a un certificado de ausencia de plagio ni a un informe de Turnitin o iThenticate. Queda por documentar la procedencia y atribución de las imágenes externas del conjunto inicial de 80 fotografías; se retiró la afirmación de dominio público sin evidencia de licencia.
