@@ -33,7 +33,7 @@
     "save confirmation and reviewed badge",
     "save-and-next advances without double-counting reviewed instance"
   ],
-  "report_sha256": "297ecb8a1a25d6b13e8346b6e5e3258651d2eaf56724ac6b0836496b1d2b9f00",
+  "report_sha256": "10b2a83d4b88f31f7f19e936e34e582b98666451ad55d3b79d6a2501aeaf87a2",
   "metrics_sha256": "28b38040f570cfafc5663857717de159d99787c9be99f13e5155af2d568d3932",
   "limitations": [
     "Author individually reviewed 215 labels; remaining674 retained by author decision, without individual review.",
@@ -57,5 +57,6 @@
     91,
     108
   ],
-  "author_review_sha256": "2287b87ef65c6acb24848afeea00e0ff96f8ce07425f156bcf89ce56535d2e68"
+  "author_review_sha256": "2287b87ef65c6acb24848afeea00e0ff96f8ce07425f156bcf89ce56535d2e68",
+  "latest_document_validation": "2026-10-20_gorillapod_bibliografia.json"
 }

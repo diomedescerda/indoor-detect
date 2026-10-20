@@ -143,7 +143,7 @@ def main():
          'en cada escenario.')
     heading('Factores, niveles y diseño', 2)
     para('El escenario 1 manipula la posición de montaje del dispositivo con tres niveles: arnés de cabeza, arnés '
-         'de pecho y soporte Gorillapod (mini trípode flex a la altura del pecho). El escenario 2 cruza ese factor '
+         'de pecho y soporte Gorillapod. En este último se orientó libremente la cámara hacia los objetos de interés; la altura y la inclinación no se midieron. El escenario 2 cruza ese factor '
          'con el lente con el que se fotografía (principal de 1x, equivalente a 25 mm; ultra gran angular de 0,5x, '
          'equivalente a 14 mm), para seis configuraciones de captura. El diseño es intra-grupo con emparejamiento '
          'por escena: la misma escena se fotografía seis veces seguidas, una por configuración, formando 33 grupos '
@@ -387,7 +387,7 @@ def main():
          'verificarse contra las notas de captura; (c) seleccionar la mejor configuración sobre este mismo '
          'conjunto lo convierte en conjunto de selección, sesgando a favor del ganador observado; (d) los '
          'remuestreos de grupos pueden compartir habitación entre grupos vecinos, con lo que la varianza queda '
-         'subestimada; y (e) ninguna comparación se ajusta por comparaciones múltiples.')
+         'subestimada; y (e) ninguna comparación se ajusta por comparaciones múltiples. Además, la orientación dirigida hacia los objetos con el Gorillapod forma parte de la condición evaluada: la comparación combina soporte y estrategia de encuadre, sin aislar sus efectos.')
     heading('Validez de construcción', 2)
     para('Las métricas cuentan instancias visibles en cada fotografía, no objetos únicos del mundo: un mismo '
          'escritorio fotografiado desde tres posiciones genera tres instancias y tres oportunidades de acierto, y '

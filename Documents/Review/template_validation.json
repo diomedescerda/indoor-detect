@@ -40,5 +40,7 @@
   "rendered_pages": 67,
   "inline_figures": 7,
   "body_page_reference_fields": 79,
-  "visual_review": "Four changed pages (14,55,56,58) inspected individually;63 pages byte-identical to previously reviewed render."
+  "visual_review": "67pages: orientation edit affected11 inspected pages; subsequent hyperlinks affected25 inspected pages,42 byte-identical to reviewed intermediate.",
+  "report_sha256": "10b2a83d4b88f31f7f19e936e34e582b98666451ad55d3b79d6a2501aeaf87a2",
+  "latest_document_validation": "2026-10-20_gorillapod_bibliografia.json"
 }

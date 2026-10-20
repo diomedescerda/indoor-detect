@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "report_sha256": "297ecb8a1a25d6b13e8346b6e5e3258651d2eaf56724ac6b0836496b1d2b9f00",
+  "report_sha256": "10b2a83d4b88f31f7f19e936e34e582b98666451ad55d3b79d6a2501aeaf87a2",
   "guide_sha256": "2dc9b5038be183b774eaa3cc928eb0ea689dd3d86f03d9ab9b217d0c50f75bef",
   "proposal_sha256": "fa68b8812d3faa8290ee807ddb6edbd0e65fa435ae6b86e3c3c3f689dc8b9c04",
   "rendered_pages": 67,
@@ -79,5 +79,6 @@
   },
   "status": "Revision verified; submission details and scientific limitations explicitly pending.",
   "editorial_update": "Added observational AI-assisted occlusion section4.8.1 and result table4.10; administrative matrix and scene heatmap remain removed.",
-  "personal_tracking_note": "Documents/Review/seguimiento_personal_propuesta.md"
+  "personal_tracking_note": "Documents/Review/seguimiento_personal_propuesta.md",
+  "latest_document_validation": "2026-10-20_gorillapod_bibliografia.json"
 }

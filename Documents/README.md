@@ -45,3 +45,11 @@ Las secciones 3.13 y 4.7–4.8 explicitan requerimientos, distribución de tiemp
 ## Análisis de oclusión del 16 de octubre de 2026
 
 La sección 4.8.1 incorpora un análisis observacional provisional con 889 etiquetas suplementarias producidas por inspección visual con GPT-6 Astra High, sin mostrar predicciones. No modifica la anotación COCO original. `Build/Testing/occlusion/` conserva protocolo, lotes, incidencias GT, métricas y visor de revisión del autor. El autor revisó 215 etiquetas; las otras 674 conservan la clasificación inicial por su decisión. El informe explicita esta revisión parcial, sin atribuir doble revisión independiente. `author_review.json` conserva la descarga importada y se utiliza automáticamente al recalcular. Antes del constructor, ejecutar `python Build/Testing/benchmark/analyze_occlusion.py` en el entorno del benchmark. `scripts/add_occlusion.py` incorpora sus resultados.
+
+## Orientación del Gorillapod y estilo de referencias
+
+La revisión del 20 de octubre de 2026 describe en las secciones 3.2 y 4.1 que el Gorillapod permite orientar libremente el celular y que en las pruebas se apuntó hacia los objetos. La sección 4.6 y las conclusiones vinculan los resultados con esta estrategia de encuadre; no se atribuye la diferencia exclusivamente al soporte.
+
+La presentación sigue la plantilla institucional. Las citas numéricas y la bibliografía emplean estilo IEEE; la guía institucional permite elegir la norma bibliográfica de la disciplina y no exige APA. Esta identificación no sustituye la revisión individual de todas las referencias.
+
+La bibliografía contiene 35 entradas; las citas del cuerpo enlazan con sus referencias y los DOI, URL e identificadores arXiv disponibles son clicables. `scripts/link_references.py` añade estos enlaces sin alterar el texto y se ejecuta al final del constructor. Son hipervínculos de Word, no campos de Zotero ni una biblioteca sincronizada; para gestión automática debe vincularse una biblioteca bibliográfica.

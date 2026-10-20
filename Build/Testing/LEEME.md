@@ -15,7 +15,7 @@ Hay 33 grupos de captura sucesiva. Cada grupo contiene, en este orden:
 5. Gorillapod, lente nominal 1x.
 6. Gorillapod, lente nominal 0,5x.
 
-[capture_groups.csv](capture_groups.csv) relaciona fotografías, orden, configuración y hashes. Los grupos siguen el orden ascendente de los números IMG originales. No equivalen necesariamente a habitaciones o entornos independientes. Las fotos se tomaron con un iPhone 12 Pro Max y se procesaron después en Android.
+[capture_groups.csv](capture_groups.csv) relaciona fotografías, orden, configuración y hashes. Los grupos siguen el orden ascendente de los números IMG originales. No equivalen necesariamente a habitaciones o entornos independientes. Las fotos se tomaron con un iPhone 12 Pro Max y se procesaron después en Android. El Gorillapod permite orientar libremente el celular; en estas capturas se apuntó hacia los objetos de interés. No se midieron altura ni inclinación. La comparación incluye esa estrategia de encuadre y no aísla el efecto del soporte.
 
 ## Datos y anotaciones
 
