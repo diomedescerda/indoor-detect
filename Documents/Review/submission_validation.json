@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "report_sha256": "08b31f7d83eb571b646c18feb88c769deb59cd641d0bdd8dbcce14eac3d13616",
+  "report_sha256": "3e60e6241ea8e40a6757b8050a59667f4713c544fb392faa6215640944812e2b",
   "rendered_pages": 68,
   "editorial_placeholders": 0,
   "blank_approval_form_removed": true,
@@ -36,5 +36,16 @@
     "other_pages_identical_to_previous_review": 57
   },
   "results_and_experimental_files_unchanged": true,
-  "intentional_template_adaptation": "Se retira hoja de aceptación con jurados y fecha sin diligenciar para la versión de presentación; no se simulan aprobación ni firmas."
+  "intentional_template_adaptation": "Se retira hoja de aceptación con jurados y fecha sin diligenciar para la versión de presentación; no se simulan aprobación ni firmas.",
+  "latest_acknowledgments_update": {
+    "date": "2026-10-20",
+    "priority": [
+      "abuela",
+      "padre",
+      "amigos",
+      "familia"
+    ],
+    "visual_review_page": 3,
+    "other_pages_byte_identical": 67
+  }
 }

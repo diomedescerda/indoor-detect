@@ -4,7 +4,8 @@ from zipfile import ZipFile, ZIP_DEFLATED
 from lxml import etree as E
 NS={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 LINE='Inteligencia artificial y visión por computador aplicadas a tecnologías de asistencia'
-THANKS='Agradezco a la Universidad del Magdalena y al Programa de Ingeniería de Sistemas por el marco académico en el que se desarrolló este trabajo. A Idanis Beatriz Diaz Bolaño, directora, y a Aquiles Alfonso Cohen Llanes, codirector, les expreso mi agradecimiento por la orientación académica del proyecto.'
+PREVIOUS_THANKS='Agradezco a la Universidad del Magdalena y al Programa de Ingeniería de Sistemas por el marco académico en el que se desarrolló este trabajo. A Idanis Beatriz Diaz Bolaño, directora, y a Aquiles Alfonso Cohen Llanes, codirector, les expreso mi agradecimiento por la orientación académica del proyecto.'
+THANKS='A mi abuela, por su cariño y por el lugar tan importante que ocupa en mi vida. A mi padre, por su apoyo y por acompañarme en este camino. A mis amigos, por su compañía, sus palabras de ánimo y los momentos compartidos durante esta etapa. A toda mi familia, por estar presente y ser parte de este logro. Mi agradecimiento principal es para ustedes: este trabajo también representa lo que significa contar con las personas que quiero. Agradezco, además, a Idanis Beatriz Diaz Bolaño, directora, y a Aquiles Alfonso Cohen Llanes, codirector, por la orientación académica del proyecto, y a la Universidad del Magdalena por el espacio de formación.'
 def finalize(path):
  p=Path(path)
  with ZipFile(p) as z:parts={n:z.read(n) for n in z.namelist()}
@@ -18,6 +19,7 @@ def finalize(path):
   for t in nodes[1:]:t.text=''
  replace('[PENDIENTE: línea de investigación]',LINE)
  replace('[PENDIENTE: agradecimientos (opcional)]',THANKS)
+ replace(PREVIOUS_THANKS,THANKS)
  children=list(body);starts=[i for i,c in enumerate(children) if text(c)=='Nota de aceptación:']
  if starts:
   start=starts[0];end=next(i for i in range(start+1,len(children)) if text(children[i])=='Agradecimientos')
