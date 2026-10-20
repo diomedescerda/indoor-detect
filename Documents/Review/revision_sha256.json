@@ -1,5 +1,5 @@
 {
-  "Build/Testing/LEEME.md": "1d3c8d29ccba376b9782bdb911f49a817a3b7310c492952897fde63c1ce44277",
+  "Build/Testing/LEEME.md": "814c122937de0bef1ce1505b3c1bc9981388a9a2ea4ff6b88dd2dbaef0f92d61",
   "Build/Testing/benchmark/analyze_depth.py": "4c8a8bdfa9104db78a22e6aa5aab190e988d31282861fa4cebc1cb999c9bcdb4",
   "Build/Testing/benchmark/analyze_occlusion.py": "4323be87b2b1c86b33250f79aa4776e91d6ef3606a653b2b78b892038d4312c8",
   "Build/Testing/benchmark/plot_scenario1.py": "27a00899f25bc0a4ec4ed18882d9d4f059c57a88c1adf62eb2cbfaf0380755f5",
@@ -38,17 +38,17 @@
   "Build/Testing/occlusion/results/uncertainty.csv": "dfba836b54f4e67a47a8c15a21be5dfdb3d582545c0505299c1947cbcac5a38e",
   "Build/Testing/occlusion/review.html": "f8cd5e5c159d0540b845d93e870be45ec0474a5ed291687fa18d430891081222",
   "Build/Testing/scripts/build_chapter4.py": "d5819f751d212b4b7cbc8f532f12fdf0c3db851e9dbdd868e6d2cd9095b17289",
-  "Build/models_comparison/README.md": "78ac48a90eef5519df6a17daf954af250e698e1e5818c99e7eba3f90eb2ac572",
+  "Build/models_comparison/README.md": "0e670751d9f755f17183f0845285b7db468ec48e616eb84e6c738e9e28f65994",
   "Documents/Figures/arquitectura.png": "9daa0059675391136f9ce0c75a59e0d1ecd2476f9aa22bad43bf94b3ca3fb905",
   "Documents/Figures/interaccion.png": "6c4463f7bf485d4fd44cb6eabe2115b18b5d3496c84bfef62c61cd44f6c6dd1a",
   "Documents/Figures/seleccion_escenas.png": "e9cbb85462e840502fd55dec2b939cfce78fe3bb578200bec721d046e576e6ae",
   "Documents/Figures/seleccion_metricas.png": "24f13eaa360f2e3d0a4ede29eba0ae998dc6e09701f78ec96dec3bf79bfa5378",
   "Documents/Figures/zonas.png": "40e68dd62dcfb87950423b7f4733132407ae3b62db2bc08e09f71f6ee9ef91bd",
   "Documents/Fragments/Capitulo 4 - Diseño experimental.docx": "0b6099d8100c3c2aabad5b7d0f4e60f7d4dd86448c22e996d4455f53bad4a39c",
-  "Documents/GUIA_DE_LECTURA.md": "c94032a6162a12cc297bb15190182245fabe2b69fd7d576dfba51b1ae703d4e9",
+  "Documents/GUIA_DE_LECTURA.md": "a56f47b62ca040a383aa853524405cbf8cc8a4249fe35c93531730bc39926de5",
   "Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx": "94507ff0ade9e645da07684926265e207d25b15a9590658953fa8a5a64a0f585",
   "Documents/MAPA_DEL_REPOSITORIO.md": "09a799e6556968e287b80652ee198ca29bc6c8a43aadad484a7ea22f0c785265",
-  "Documents/README.md": "76159cf62258fd6fd289809dd42c4cfc5d5087a39e6bde2b8784f974c8535130",
+  "Documents/README.md": "a72d5583cb143ffcb30398c643a6f0c894f5fc4f33b4290fba3f4a3ec1f10665",
   "Documents/Review/2026-10-14_revision.md": "03a9854de5a77c3c91d1ffb0289795bad785c005f790c26a5f71d1aaf0758089",
   "Documents/Review/2026-10-20_gorillapod_bibliografia.json": "427ff4294c7a373e039d8eac50a8284754d2677dd31b7ab4770886b4b409f32b",
   "Documents/Review/app_junit_summary.json": "e681d91db7573d981e878719392bcb1c427533fb1c519645b8c17c164b998b7f",
@@ -84,5 +84,5 @@
   "Documents/scripts/update_dataset_provenance.py": "d6899baf63878787e3e5b39338ccdc838c9e20447f4c24cdf66dee06260bb23d",
   "Documents/scripts/update_informe.py": "6352749bc428af94547eebbd5f2338f01189df3034eae6328c00fc403a4a97bf",
   "Documents/scripts/update_system_overview.py": "4765447cf8870be25be7ab52657fa19532018c19319b5e61688de3c56b88a96d",
-  "README.md": "36426b579f048ad9a74b42e685c13e1932f6448b65ddfbc8aa63005354362581"
+  "README.md": "a1102f96dca7910f36b594e03058740194990f49bcceb2e2b1abb4141053e70f"
 }

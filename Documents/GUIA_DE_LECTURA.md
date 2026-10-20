@@ -1,5 +1,7 @@
 # Guía de lectura del proyecto
 
+**Código fuente de la aplicación Android:** [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision). Este repositorio conserva la documentación, los datos y los análisis experimentales del proyecto.
+
 Esta guía presenta la estructura, el desarrollo y los resultados de AssistiveVision, y permite consultar sus evidencias sin ejecutar código. Actualizada el 20 de octubre de 2026. El [informe final](Informe_Final_Trabajo_de_Grado_AssistiveVision.docx) es el manuscrito principal; este documento facilita localizar su evidencia.
 
 ## Recorrido recomendado

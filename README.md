@@ -8,6 +8,7 @@ Repositorio de la pasantía de investigación sobre un prototipo Android que det
 
 | Contenido | Ubicación | Uso |
 |---|---|---|
+| Código fuente de la aplicación Android | [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision) | Proyecto de la app, módulos e instrucciones de compilación |
 | Informe final actualizado | [Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx](Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx) | Manuscrito principal para lectura y correcciones |
 | Guía de lectura y resultados | [Documents/GUIA_DE_LECTURA.md](Documents/GUIA_DE_LECTURA.md) | Recorrido recomendado por las evidencias |
 | Mapa de archivos y reproducción | [Documents/MAPA_DEL_REPOSITORIO.md](Documents/MAPA_DEL_REPOSITORIO.md) | Localizar datos, gráficos, código y antecedentes |

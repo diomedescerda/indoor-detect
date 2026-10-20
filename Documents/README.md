@@ -1,5 +1,7 @@
 # Informe final de AssistiveVision
 
+**Código fuente de la aplicación Android:** [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision). Este repositorio conserva la documentación, los datos y los análisis experimentales del proyecto.
+
 [Inicio del repositorio](../README.md) · [Guía de lectura del proyecto](GUIA_DE_LECTURA.md) · [Mapa de archivos y reproducción](MAPA_DEL_REPOSITORIO.md)
 
 El manuscrito de trabajo es **Informe_Final_Trabajo_de_Grado_AssistiveVision.docx**. Integra la comparación histórica de modelos, la implementación actual y la evaluación de 198 fotografías (889 anotaciones, 33 grupos y seis configuraciones). Se actualizó el 16 de octubre de 2026 para vincular las tres fases de la propuesta con sus evidencias y límites.
