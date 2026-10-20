@@ -1,9 +1,9 @@
 {
   "date": "2026-10-16",
-  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
+  "report_sha256": "08b31f7d83eb571b646c18feb88c769deb59cd641d0bdd8dbcce14eac3d13616",
   "guide_sha256": "2dc9b5038be183b774eaa3cc928eb0ea689dd3d86f03d9ab9b217d0c50f75bef",
   "proposal_sha256": "fa68b8812d3faa8290ee807ddb6edbd0e65fa435ae6b86e3c3c3f689dc8b9c04",
-  "rendered_pages": 69,
+  "rendered_pages": 68,
   "proposal_activities_mapped": 0,
   "guide_checks": {
     "spanish_summary_words": 199,
@@ -48,15 +48,9 @@
     "table_source_notes": true,
     "tables_kept_on_single_page": true,
     "bibliography_left_aligned": true,
-    "visual_review_pages": 69
+    "visual_review_pages": 68
   },
-  "submission_details_pending": [
-    "Research line",
-    "Academic titles of director and codirector",
-    "Optional acknowledgments",
-    "Acceptance, jury and approval details when applicable",
-    "Program approval of chapter structure"
-  ],
+  "submission_details_pending": [],
   "scientific_gaps": [
     "Occlusion has supplemental AI labels with partial author review (215/889); GT issue resolution and independent review remain pending.",
     "Image brightness is exploratory, not measured illuminance; controlled lux evaluation requires new measurements.",
@@ -80,5 +74,6 @@
   "status": "Revision verified; submission details and scientific limitations explicitly pending.",
   "editorial_update": "Added observational AI-assisted occlusion section4.8.1 and result table4.10; administrative matrix and scene heatmap remain removed.",
   "personal_tracking_note": "Documents/Review/seguimiento_personal_propuesta.md",
-  "latest_document_validation": "roboflow_provenance_validation.json"
+  "latest_document_validation": "submission_validation.json",
+  "submission_editorial_status": "Cierre editorial sin marcadores; nombres y cargos documentados, línea temática, agradecimientos completos y sin hoja de aprobación sin diligenciar."
 }

@@ -17,7 +17,7 @@
     "uncertain": 39
   },
   "tests_passed": 22,
-  "rendered_pages": 69,
+  "rendered_pages": 68,
   "changed_pages_individually_inspected": [
     14,
     55,
@@ -33,7 +33,7 @@
     "save confirmation and reviewed badge",
     "save-and-next advances without double-counting reviewed instance"
   ],
-  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
+  "report_sha256": "08b31f7d83eb571b646c18feb88c769deb59cd641d0bdd8dbcce14eac3d13616",
   "metrics_sha256": "28b38040f570cfafc5663857717de159d99787c9be99f13e5155af2d568d3932",
   "limitations": [
     "Author individually reviewed 215 labels; remaining674 retained by author decision, without individual review.",
@@ -58,5 +58,5 @@
     108
   ],
   "author_review_sha256": "2287b87ef65c6acb24848afeea00e0ff96f8ce07425f156bcf89ce56535d2e68",
-  "latest_document_validation": "roboflow_provenance_validation.json"
+  "latest_document_validation": "submission_validation.json"
 }

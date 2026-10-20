@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
-  "rendered_pages": 69,
+  "report_sha256": "08b31f7d83eb571b646c18feb88c769deb59cd641d0bdd8dbcce14eac3d13616",
+  "rendered_pages": 68,
   "previous_references": 35,
   "bibliographic_entries": 49,
   "added_references": 14,
@@ -107,5 +107,5 @@
     "attribution_scope": "Se atribuye la plataforma Roboflow y se conserva la exportación utilizada; no se infieren autores originales, título, versión ni verificación individual de licencias.",
     "dataset_specific_url_not_invented": true
   },
-  "latest_document_validation": "roboflow_provenance_validation.json"
+  "latest_document_validation": "submission_validation.json"
 }

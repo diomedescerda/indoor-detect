@@ -37,10 +37,10 @@
     "word/settings.xml",
     "word/styles.xml"
   ],
-  "rendered_pages": 69,
+  "rendered_pages": 68,
   "inline_figures": 7,
   "body_page_reference_fields": 79,
-  "visual_review": "69 páginas: página26 inspeccionada;68 páginas idénticas al render previo revisado.",
-  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
-  "latest_document_validation": "roboflow_provenance_validation.json"
+  "visual_review": "68 páginas: las modificadas se inspeccionaron; las restantes coinciden con renders revisados. Véase submission_validation.json.",
+  "report_sha256": "08b31f7d83eb571b646c18feb88c769deb59cd641d0bdd8dbcce14eac3d13616",
+  "latest_document_validation": "submission_validation.json"
 }

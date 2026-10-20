@@ -4,13 +4,13 @@
 
 El manuscrito de trabajo es **Informe_Final_Trabajo_de_Grado_AssistiveVision.docx**. Integra la comparación histórica de modelos, la implementación actual y la evaluación de 198 fotografías (889 anotaciones, 33 grupos y seis configuraciones). Se actualizó el 16 de octubre de 2026 para vincular las tres fases de la propuesta con sus evidencias y límites.
 
-`Templates/Informe_Final_Base_2026-09-25.docx` conserva el original sin modificaciones. El manuscrito mantiene su geometría de página, doce secciones, escudo, estilos y estructura institucional. Se repararon portada, encabezados, índices y tablas. `Fragments/` contiene el capítulo experimental independiente; el manuscrito completo es la versión principal para seguir escribiendo.
+`Templates/Informe_Final_Base_2026-09-25.docx` conserva el original sin modificaciones. El manuscrito mantiene su geometría de página, doce secciones, escudo, estilos y estructura institucional. Se repararon portada, encabezados, índices y tablas. `Fragments/` contiene el capítulo experimental independiente; el manuscrito completo es la versión final para presentación.
 
 ## Continuar desde otro equipo
 
 Hacer `git pull` y abrir el manuscrito en Word o LibreOffice. Guardar y confirmar los cambios en ese archivo. Los datos, anotaciones, predicciones y análisis están en `Build/Testing/`; `Review/2026-10-14_revision.md` documenta las correcciones y comprobaciones de esta revisión.
 
-Se incorporaron los nombres del autor y de los supervisores, y el grupo TecnOS, desde la propuesta. Permanecen pendientes los títulos académicos de los supervisores, la línea de investigación y los agradecimientos opcionales. No se inventaron esos datos. Revisar además las discrepancias EXIF antes de cerrar la selección de lente. El resultado de profundidad es exploratorio y las latencias del emulador no representan un Pixel 8 físico.
+Se completaron autor, supervisores, grupo TecnOS, línea temática de investigación y agradecimientos. La versión para presentación no incluye una hoja de aceptación sin diligenciar ni afirma aprobación institucional. Los supervisores se identifican por sus nombres y cargos documentados, sin añadir grados académicos no acreditados. Las discrepancias EXIF y el alcance exploratorio de la profundidad se describen como limitaciones del estudio; las latencias del emulador no representan un Pixel 8 físico.
 
 ## Regeneración técnica
 
@@ -59,3 +59,7 @@ La bibliografía contiene 49 entradas; las citas del cuerpo enlazan con sus refe
 Se revisaron el texto completo, las tablas, las figuras y las referencias para distinguir fuentes externas, métodos conocidos y decisiones del proyecto. Se corrigieron citas de YOLOv8/YOLO11 y Third Eye, un DOI incorrecto de More et al., la referencia de la Benchmark Tool y varias explicaciones sin respaldo causal. Se añadieron fuentes de métricas, estadística, EXIF y software; las 49 entradas se numeran por primera cita y mantienen enlaces internos y externos.
 
 `scripts/audit_citations.py` aplica las correcciones registradas en `citation_revision.json` antes de enlazar la bibliografía. `citation_number_map.json` permite relacionar los identificadores originales con la numeración nueva. La reproducción se comprobó desde el DOCX anterior. `Review/citation_audit.json` conserva el alcance, verificaciones y asuntos pendientes. Esta revisión no equivale a un certificado de ausencia de plagio ni a un informe de Turnitin o iThenticate. El autor confirmó que las imágenes externas del conjunto inicial se obtuvieron de Roboflow. La exportación del 5 de junio de 2026 conserva 80 imágenes, 257 anotaciones COCO y una declaración de licencia CC BY 4.0. El informe registra esta procedencia y remite al material archivado en `Build/models_comparison/test_images/`, sin atribuir dominio público ni inventar autores, nombre o versión del dataset. La trazabilidad se cierra con la evidencia conservada, sin requerir recuperar un enlace. `scripts/update_dataset_provenance.py` mantiene esta aclaración al reconstruir el documento.
+
+## Versión final para presentación
+
+Cierre editorial del 20 de octubre de 2026: 68 páginas, 49 referencias y sin marcadores pendientes. Se revisaron texto, tablas, encabezados, índices y campos; se actualizaron números romanos preliminares tras retirar la hoja de aceptación. `scripts/finalize_submission.py` mantiene el cierre al reconstruir el documento. `Review/submission_validation.json` conserva la verificación. Las limitaciones y el trabajo futuro forman parte del informe científico final.

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "report_sha256": "08b31f7d83eb571b646c18feb88c769deb59cd641d0bdd8dbcce14eac3d13616",
+  "rendered_pages": 68,
+  "editorial_placeholders": 0,
+  "blank_approval_form_removed": true,
+  "institutional_approval_not_asserted": true,
+  "research_line": "Inteligencia artificial y visión por computador aplicadas a tecnologías de asistencia",
+  "research_line_scope": "Formulación temática solicitada por el autor; no se afirma que sea una denominación oficial del catálogo institucional.",
+  "acknowledgments_completed": true,
+  "supervisors_identified_by_documented_names_and_roles": true,
+  "academic_degree_abbreviations_not_invented": true,
+  "scientific_limitations_retained": true,
+  "template_sections": 12,
+  "geometry_and_original_media_preserved": true,
+  "inline_figures": 7,
+  "pageref_fields": 79,
+  "navigation_entries": 85,
+  "bibliographic_entries": 49,
+  "internal_citation_links": 107,
+  "idempotent": true,
+  "visual_review": {
+    "changed_pages_individually_inspected": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      17,
+      38
+    ],
+    "other_pages_identical_to_previous_review": 57
+  },
+  "results_and_experimental_files_unchanged": true,
+  "intentional_template_adaptation": "Se retira hoja de aceptación con jurados y fecha sin diligenciar para la versión de presentación; no se simulan aprobación ni firmas."
+}

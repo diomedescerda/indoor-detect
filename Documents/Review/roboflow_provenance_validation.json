@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
-  "rendered_pages": 69,
+  "report_sha256": "08b31f7d83eb571b646c18feb88c769deb59cd641d0bdd8dbcce14eac3d13616",
+  "rendered_pages": 68,
   "dataset_provenance": {
     "status": "closed_with_archived_evidence",
     "author_confirmation": "El autor confirma procedencia de Roboflow y solicita finalizar con la evidencia disponible, sin recuperar un enlace.",
@@ -34,5 +34,6 @@
   "all_other_docx_parts_unchanged": true,
   "tables_and_experimental_results_unchanged": true,
   "reproducible_from_previous_commit": true,
-  "idempotent": true
+  "idempotent": true,
+  "latest_document_validation": "submission_validation.json"
 }

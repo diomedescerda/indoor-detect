@@ -380,6 +380,8 @@ def main():
     apply_provenance(OUT)
     from link_references import link_references
     link_references(OUT)
+    from finalize_submission import finalize
+    finalize(OUT)
     print(OUT)
 
 
