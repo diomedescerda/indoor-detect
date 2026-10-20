@@ -1,5 +1,7 @@
 # Informe final de AssistiveVision
 
+[Inicio del repositorio](../README.md) · [Guía para la profesora](GUIA_DE_LECTURA.md) · [Mapa de archivos y reproducción](MAPA_DEL_REPOSITORIO.md)
+
 El manuscrito de trabajo es **Informe_Final_Trabajo_de_Grado_AssistiveVision.docx**. Integra la comparación histórica de modelos, la implementación actual y la evaluación de 198 fotografías (889 anotaciones, 33 grupos y seis configuraciones). Se actualizó el 16 de octubre de 2026 para vincular las tres fases de la propuesta con sus evidencias y límites.
 
 `Templates/Informe_Final_Base_2026-09-25.docx` conserva el original sin modificaciones. El manuscrito mantiene su geometría de página, doce secciones, escudo, estilos y estructura institucional. Se repararon portada, encabezados, índices y tablas. `Fragments/` contiene el capítulo experimental independiente; el manuscrito completo es la versión principal para seguir escribiendo.

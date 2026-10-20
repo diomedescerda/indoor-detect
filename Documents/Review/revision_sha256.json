@@ -1,4 +1,5 @@
 {
+  "Build/Testing/LEEME.md": "a93ac215572db478c4969203399551102ff5556c4422688b65b0f86a8030c923",
   "Build/Testing/benchmark/analyze_depth.py": "4c8a8bdfa9104db78a22e6aa5aab190e988d31282861fa4cebc1cb999c9bcdb4",
   "Build/Testing/benchmark/analyze_occlusion.py": "4323be87b2b1c86b33250f79aa4776e91d6ef3606a653b2b78b892038d4312c8",
   "Build/Testing/benchmark/plot_scenario1.py": "27a00899f25bc0a4ec4ed18882d9d4f059c57a88c1adf62eb2cbfaf0380755f5",
@@ -37,14 +38,17 @@
   "Build/Testing/occlusion/results/uncertainty.csv": "dfba836b54f4e67a47a8c15a21be5dfdb3d582545c0505299c1947cbcac5a38e",
   "Build/Testing/occlusion/review.html": "f8cd5e5c159d0540b845d93e870be45ec0474a5ed291687fa18d430891081222",
   "Build/Testing/scripts/build_chapter4.py": "a5063bb0f587a8e39f6a0355474ac24e32c3b9cc7fcc0fc61eae04377bbea002",
+  "Build/models_comparison/README.md": "78ac48a90eef5519df6a17daf954af250e698e1e5818c99e7eba3f90eb2ac572",
   "Documents/Figures/arquitectura.png": "9daa0059675391136f9ce0c75a59e0d1ecd2476f9aa22bad43bf94b3ca3fb905",
   "Documents/Figures/interaccion.png": "6c4463f7bf485d4fd44cb6eabe2115b18b5d3496c84bfef62c61cd44f6c6dd1a",
   "Documents/Figures/seleccion_escenas.png": "e9cbb85462e840502fd55dec2b939cfce78fe3bb578200bec721d046e576e6ae",
   "Documents/Figures/seleccion_metricas.png": "24f13eaa360f2e3d0a4ede29eba0ae998dc6e09701f78ec96dec3bf79bfa5378",
   "Documents/Figures/zonas.png": "40e68dd62dcfb87950423b7f4733132407ae3b62db2bc08e09f71f6ee9ef91bd",
   "Documents/Fragments/Capitulo 4 - Diseño experimental.docx": "0b6099d8100c3c2aabad5b7d0f4e60f7d4dd86448c22e996d4455f53bad4a39c",
+  "Documents/GUIA_DE_LECTURA.md": "dee398cf7eec17600ecec3767e39bae91db7c52836a89c679b4e8f20b1dd7d45",
   "Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx": "297ecb8a1a25d6b13e8346b6e5e3258651d2eaf56724ac6b0836496b1d2b9f00",
-  "Documents/README.md": "83a9896481303b83c6fbf6a5d90b521a10c1c8a0d9a39a09b5d01b82d23d90bd",
+  "Documents/MAPA_DEL_REPOSITORIO.md": "6aa5bd6a55e3c7980d8426dde0acecdc6bff346132732056580f2a62344f9179",
+  "Documents/README.md": "4c852a4e787f967949d118cf6de1c6f6a1a390af1d9f53b3d727e0e20945f590",
   "Documents/Review/2026-10-14_revision.md": "aba8bf7e41f05850fa4d1887e545803a360746efb93f11ec95b9f91601c7f1ec",
   "Documents/Review/app_junit_summary.json": "e681d91db7573d981e878719392bcb1c427533fb1c519645b8c17c164b998b7f",
   "Documents/Review/implementation_hashes.json": "a32fd6009850909999c3ccc5c4ba8c7f8b1608bc3c42b2fcc64dfbdf09a76da3",
@@ -65,5 +69,6 @@
   "Documents/scripts/informe_bookmarks.json": "cf52e7e27bacb8c5bf3ade2bd28f7e3e4f4f60701f5716ec45a376d7b4e368d2",
   "Documents/scripts/informe_page_map.json": "7adf5267f3c0b110cce19e9d96d56b721da5edfab8cc0c25411dd268d225843d",
   "Documents/scripts/refresh_informe_pages.py": "9db9660f05ec461fc7836381693249d76bae9e095c925fe67a819065f2cc5247",
-  "Documents/scripts/update_informe.py": "46c78eb1888df0092e9ad58a340a75c4f681a690768169f21f6ea91ff9f38dda"
+  "Documents/scripts/update_informe.py": "46c78eb1888df0092e9ad58a340a75c4f681a690768169f21f6ea91ff9f38dda",
+  "README.md": "104628697180e98efa7c3dae914642d68a285f1695bf10d4fd838a24e95a5e8e"
 }
