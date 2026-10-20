@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "report_sha256": "be85d4cbc46709aa0056cbc1b423d812e988d8ccd09457c6f8c45fcfbc182c5d",
+  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
   "guide_sha256": "2dc9b5038be183b774eaa3cc928eb0ea689dd3d86f03d9ab9b217d0c50f75bef",
   "proposal_sha256": "fa68b8812d3faa8290ee807ddb6edbd0e65fa435ae6b86e3c3c3f689dc8b9c04",
   "rendered_pages": 69,
@@ -80,5 +80,5 @@
   "status": "Revision verified; submission details and scientific limitations explicitly pending.",
   "editorial_update": "Added observational AI-assisted occlusion section4.8.1 and result table4.10; administrative matrix and scene heatmap remain removed.",
   "personal_tracking_note": "Documents/Review/seguimiento_personal_propuesta.md",
-  "latest_document_validation": "citation_audit.json"
+  "latest_document_validation": "roboflow_provenance_validation.json"
 }

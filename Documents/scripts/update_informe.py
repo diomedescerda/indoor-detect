@@ -376,6 +376,8 @@ def main():
     (REPO/'Documents/scripts/informe_bookmarks.json').write_text(json.dumps(bookmarks,ensure_ascii=False,indent=2)+'\n')
     from audit_citations import apply_revision
     apply_revision(OUT)
+    from update_dataset_provenance import apply_provenance
+    apply_provenance(OUT)
     from link_references import link_references
     link_references(OUT)
     print(OUT)

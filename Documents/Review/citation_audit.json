@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "report_sha256": "be85d4cbc46709aa0056cbc1b423d812e988d8ccd09457c6f8c45fcfbc182c5d",
+  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
   "rendered_pages": 69,
   "previous_references": 35,
   "bibliographic_entries": 49,
@@ -85,8 +85,27 @@
   "experimental_results_unchanged": true,
   "ground_truth_sha256": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
   "pending": [
-    "Identificar sitios, autores y licencias de imágenes externas del conjunto inicial de80 imágenes.",
     "La atribución bibliográfica no autentica por sí sola las licencias exactas de los modelos y las voces distribuidos."
   ],
-  "zotero_fields_added": false
+  "zotero_fields_added": false,
+  "dataset_provenance": {
+    "status": "closed_with_archived_evidence",
+    "author_confirmation": "El autor confirma procedencia de Roboflow y solicita finalizar con la evidencia disponible, sin recuperar un enlace.",
+    "archive": "Build/models_comparison/test_images/",
+    "annotation_file": "Build/models_comparison/test_images/labels.json",
+    "annotation_sha256": "fa8e92172dc72302b351d83e1c2e216906097d05f973b790e7b610c567657562",
+    "images": 80,
+    "annotations": 257,
+    "export_date": "2026-06-05T08:13:13+00:00",
+    "declared_license": [
+      {
+        "id": 1,
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "attribution_scope": "Se atribuye la plataforma Roboflow y se conserva la exportación utilizada; no se infieren autores originales, título, versión ni verificación individual de licencias.",
+    "dataset_specific_url_not_invented": true
+  },
+  "latest_document_validation": "roboflow_provenance_validation.json"
 }

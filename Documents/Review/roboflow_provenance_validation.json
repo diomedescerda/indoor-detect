@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
+  "rendered_pages": 69,
+  "dataset_provenance": {
+    "status": "closed_with_archived_evidence",
+    "author_confirmation": "El autor confirma procedencia de Roboflow y solicita finalizar con la evidencia disponible, sin recuperar un enlace.",
+    "archive": "Build/models_comparison/test_images/",
+    "annotation_file": "Build/models_comparison/test_images/labels.json",
+    "annotation_sha256": "fa8e92172dc72302b351d83e1c2e216906097d05f973b790e7b610c567657562",
+    "images": 80,
+    "annotations": 257,
+    "export_date": "2026-06-05T08:13:13+00:00",
+    "declared_license": [
+      {
+        "id": 1,
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "name": "CC BY 4.0"
+      }
+    ],
+    "attribution_scope": "Se atribuye la plataforma Roboflow y se conserva la exportación utilizada; no se infieren autores originales, título, versión ni verificación individual de licencias.",
+    "dataset_specific_url_not_invented": true
+  },
+  "visual_review": {
+    "changed_pages_individually_inspected": [
+      26
+    ],
+    "other_pages_byte_identical_to_previous_review": 68
+  },
+  "references": 49,
+  "internal_citation_links": 107,
+  "sections": 12,
+  "pageref_fields": 79,
+  "all_other_docx_parts_unchanged": true,
+  "tables_and_experimental_results_unchanged": true,
+  "reproducible_from_previous_commit": true,
+  "idempotent": true
+}

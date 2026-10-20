@@ -40,7 +40,7 @@
   "rendered_pages": 69,
   "inline_figures": 7,
   "body_page_reference_fields": 79,
-  "visual_review": "69 páginas:38 páginas modificadas inspeccionadas;31 idénticas al render previamente revisado.",
-  "report_sha256": "be85d4cbc46709aa0056cbc1b423d812e988d8ccd09457c6f8c45fcfbc182c5d",
-  "latest_document_validation": "citation_audit.json"
+  "visual_review": "69 páginas: página26 inspeccionada;68 páginas idénticas al render previo revisado.",
+  "report_sha256": "a978c51ae584647c33c3149856caa8aa23760e133ade17f9d5326779f1a4b614",
+  "latest_document_validation": "roboflow_provenance_validation.json"
 }
