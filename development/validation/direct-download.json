@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-05",
+  "branch": "main",
+  "release_tag": "v1.0.0",
+  "release_source_commit": "d78ffa7127a5e133970a50f2f941b6b3bdc20ce6",
+  "source_run": "https://github.com/diomedescerda/AssistiveVision/actions/runs/42096695975",
+  "source_run_conclusion": "success",
+  "apk": {
+    "file": "AssistiveVision-1.0-debug.apk",
+    "bytes": 134267426,
+    "sha256": "883078e73596d2861029449debd796e366de4388fafe7a838c78fadef52f0820"
+  },
+  "packaged_assets_verified": 362,
+  "signature": "verified with apksigner",
+  "download_strategy": "individual public GitHub Release asset",
+  "direct_url": "https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk",
+  "release_gate_scenarios": 9,
+  "publication_status": "published",
+  "release_url": "https://github.com/diomedescerda/AssistiveVision/releases/tag/v1.0.0",
+  "anonymous_download_http_status": 200,
+  "anonymous_apk_content_length": 134267426,
+  "anonymous_checksum_verified": true,
+  "github_asset_digest_verified": true,
+  "word_document": "Documents/Informe_Final_AssistiveVision.docx",
+  "word_sha256": "e765e29fa9c0816669cccd84a02d317e0640e53b91d8eab91093a6f94dc70752",
+  "word_pages": 73,
+  "word_clickable_download_links": 2,
+  "page_references_verified": 81,
+  "visually_reviewed_changed_pages": [
+    64,
+    65,
+    66,
+    67
+  ],
+  "unchanged_rendered_pages": 69
+}
