@@ -1,0 +1,1493 @@
+[
+  {
+    "id": "assistivevision-1",
+    "type": "report",
+    "title": "World report on vision",
+    "language": "en",
+    "author": [
+      {
+        "literal": "World Health Organization"
+      }
+    ],
+    "publisher": "World Health Organization",
+    "URL": "https://www.who.int/publications/i/item/9789241516570",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 1"
+  },
+  {
+    "id": "assistivevision-2",
+    "type": "article-journal",
+    "title": "Empowering the visually impaired: YOLOv8-based object detection in Android applications",
+    "language": "en",
+    "author": [
+      {
+        "family": "More",
+        "given": "S. S."
+      },
+      {
+        "family": "Patil",
+        "given": "N."
+      },
+      {
+        "family": "Lobo",
+        "given": "V. B."
+      },
+      {
+        "family": "Shet",
+        "given": "N."
+      },
+      {
+        "family": "Goswami",
+        "given": "D."
+      },
+      {
+        "family": "Rane",
+        "given": "P."
+      }
+    ],
+    "container-title": "Procedia Computer Science",
+    "volume": "252",
+    "page": "457–469",
+    "DOI": "10.1016/j.procs.2025.01.005",
+    "URL": "https://doi.org/10.1016/j.procs.2025.01.005",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 2"
+  },
+  {
+    "id": "assistivevision-3",
+    "type": "article-journal",
+    "title": "Development of mobile app to support the mobility of visually impaired people",
+    "language": "en",
+    "author": [
+      {
+        "family": "Meenakshi",
+        "given": "R."
+      },
+      {
+        "family": "Ponnusamy",
+        "given": "R."
+      },
+      {
+        "family": "Alghamdi",
+        "given": "S."
+      },
+      {
+        "family": "Khalaf",
+        "given": "O. I."
+      },
+      {
+        "family": "Alotaibi",
+        "given": "Y."
+      }
+    ],
+    "container-title": "Computers, Materials & Continua",
+    "volume": "73",
+    "issue": "2",
+    "page": "3473–3495",
+    "DOI": "10.32604/cmc.2022.028540",
+    "URL": "https://doi.org/10.32604/cmc.2022.028540",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 3"
+  },
+  {
+    "id": "assistivevision-4",
+    "type": "article-journal",
+    "title": "Third eye: Object recognition and speech generation for visually impaired",
+    "language": "en",
+    "author": [
+      {
+        "family": "Guravaiah",
+        "given": "K."
+      },
+      {
+        "family": "Bhavadeesh",
+        "given": "Y. S."
+      },
+      {
+        "family": "Shwejan",
+        "given": "P."
+      },
+      {
+        "family": "Vardhan",
+        "given": "A. H."
+      },
+      {
+        "family": "Lavanya",
+        "given": "S."
+      }
+    ],
+    "container-title": "Procedia Computer Science",
+    "volume": "218",
+    "page": "1144–1155",
+    "DOI": "10.1016/j.procs.2023.01.093",
+    "URL": "https://doi.org/10.1016/j.procs.2023.01.093",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 4"
+  },
+  {
+    "id": "assistivevision-5",
+    "type": "webpage",
+    "title": "TensorFlow Lite",
+    "language": "en",
+    "author": [
+      {
+        "literal": "TensorFlow"
+      }
+    ],
+    "container-title": "TensorFlow",
+    "URL": "https://www.tensorflow.org/lite/guide",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 5"
+  },
+  {
+    "id": "assistivevision-6",
+    "type": "article",
+    "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+    "language": "en",
+    "author": [
+      {
+        "family": "Ren",
+        "given": "S."
+      },
+      {
+        "family": "He",
+        "given": "K."
+      },
+      {
+        "family": "Girshick",
+        "given": "R."
+      },
+      {
+        "family": "Sun",
+        "given": "J."
+      }
+    ],
+    "publisher": "arXiv",
+    "DOI": "10.48550/arXiv.1506.01497",
+    "URL": "https://doi.org/10.48550/arXiv.1506.01497",
+    "genre": "Preprint",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "number": "1506.01497",
+    "note": "Original reference number in AssistiveVision: 6"
+  },
+  {
+    "id": "assistivevision-7",
+    "type": "paper-conference",
+    "title": "You only look once: Unified, real-time object detection",
+    "language": "en",
+    "author": [
+      {
+        "family": "Redmon",
+        "given": "J."
+      },
+      {
+        "family": "Divvala",
+        "given": "S."
+      },
+      {
+        "family": "Girshick",
+        "given": "R."
+      },
+      {
+        "family": "Farhadi",
+        "given": "A."
+      }
+    ],
+    "container-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "publisher": "IEEE",
+    "page": "779–788",
+    "DOI": "10.1109/CVPR.2016.91",
+    "URL": "https://doi.org/10.1109/CVPR.2016.91",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 7"
+  },
+  {
+    "id": "assistivevision-8",
+    "type": "chapter",
+    "title": "SSD: Single shot MultiBox detector",
+    "language": "en",
+    "author": [
+      {
+        "family": "Liu",
+        "given": "W."
+      },
+      {
+        "family": "Anguelov",
+        "given": "D."
+      },
+      {
+        "family": "Erhan",
+        "given": "D."
+      },
+      {
+        "family": "Szegedy",
+        "given": "C."
+      },
+      {
+        "family": "Reed",
+        "given": "S."
+      },
+      {
+        "family": "Fu",
+        "given": "C.-Y."
+      },
+      {
+        "family": "Berg",
+        "given": "A. C."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Leibe",
+        "given": "B."
+      },
+      {
+        "family": "Matas",
+        "given": "J."
+      },
+      {
+        "family": "Sebe",
+        "given": "N."
+      },
+      {
+        "family": "Welling",
+        "given": "M."
+      }
+    ],
+    "container-title": "Computer Vision – ECCV 2016",
+    "publisher": "Springer",
+    "page": "21–37",
+    "DOI": "10.1007/978-3-319-46448-0_2",
+    "URL": "https://doi.org/10.1007/978-3-319-46448-0_2",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 8"
+  },
+  {
+    "id": "assistivevision-9",
+    "type": "paper-conference",
+    "title": "EfficientDet: Scalable and efficient object detection",
+    "language": "en",
+    "author": [
+      {
+        "family": "Tan",
+        "given": "M."
+      },
+      {
+        "family": "Pang",
+        "given": "R."
+      },
+      {
+        "family": "Le",
+        "given": "Q. V."
+      }
+    ],
+    "container-title": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "publisher": "IEEE",
+    "page": "10781–10790",
+    "DOI": "10.1109/CVPR42600.2020.01079",
+    "URL": "https://doi.org/10.1109/CVPR42600.2020.01079",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 9"
+  },
+  {
+    "id": "assistivevision-10",
+    "type": "report",
+    "title": "Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual",
+    "language": "es",
+    "author": [
+      {
+        "family": "Cerda Leon",
+        "given": "D. F."
+      }
+    ],
+    "publisher": "Universidad del Magdalena",
+    "genre": "Propuesta de pasantía en investigación",
+    "note": "Original reference number in AssistiveVision: 10"
+  },
+  {
+    "id": "assistivevision-11",
+    "type": "report",
+    "title": "Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030",
+    "language": "es",
+    "author": [
+      {
+        "literal": "Universidad del Magdalena"
+      }
+    ],
+    "publisher": "Universidad del Magdalena",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 11"
+  },
+  {
+    "id": "assistivevision-12",
+    "type": "report",
+    "title": "Plan de Gobierno Rectoral 2024–2028",
+    "language": "es",
+    "author": [
+      {
+        "literal": "Universidad del Magdalena"
+      }
+    ],
+    "publisher": "Universidad del Magdalena",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 12"
+  },
+  {
+    "id": "assistivevision-13",
+    "type": "article",
+    "title": "Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android",
+    "language": "en",
+    "author": [
+      {
+        "family": "Pawar",
+        "given": "D. R."
+      }
+    ],
+    "publisher": "ResearchGate",
+    "DOI": "10.13140/RG.2.2.28125.12005",
+    "URL": "https://doi.org/10.13140/RG.2.2.28125.12005",
+    "genre": "Preprint",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 13"
+  },
+  {
+    "id": "assistivevision-14",
+    "type": "article-journal",
+    "title": "Analysis of object recognition systems using augmented reality glasses",
+    "language": "en",
+    "author": [
+      {
+        "family": "Figura",
+        "given": "J."
+      },
+      {
+        "family": "Kuźmiczuk",
+        "given": "R."
+      },
+      {
+        "family": "Badurowicz",
+        "given": "M."
+      }
+    ],
+    "container-title": "Journal of Computer Sciences Institute",
+    "volume": "34",
+    "page": "8–13",
+    "DOI": "10.35784/jcsi.6469",
+    "URL": "https://doi.org/10.35784/jcsi.6469",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 14"
+  },
+  {
+    "id": "assistivevision-15",
+    "type": "article",
+    "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+    "language": "en",
+    "author": [
+      {
+        "family": "Howard",
+        "given": "A. G."
+      },
+      {
+        "family": "Zhu",
+        "given": "M."
+      },
+      {
+        "family": "Chen",
+        "given": "B."
+      },
+      {
+        "family": "Kalenichenko",
+        "given": "D."
+      },
+      {
+        "family": "Wang",
+        "given": "W."
+      },
+      {
+        "family": "Weyand",
+        "given": "T."
+      },
+      {
+        "family": "Andreetto",
+        "given": "M."
+      },
+      {
+        "family": "Adam",
+        "given": "H."
+      }
+    ],
+    "publisher": "arXiv",
+    "URL": "https://arxiv.org/abs/1704.04861",
+    "genre": "Preprint",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "number": "1704.04861",
+    "note": "Original reference number in AssistiveVision: 15"
+  },
+  {
+    "id": "assistivevision-16",
+    "type": "paper-conference",
+    "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+    "language": "en",
+    "author": [
+      {
+        "family": "Sandler",
+        "given": "M."
+      },
+      {
+        "family": "Howard",
+        "given": "A."
+      },
+      {
+        "family": "Zhu",
+        "given": "M."
+      },
+      {
+        "family": "Zhmoginov",
+        "given": "A."
+      },
+      {
+        "family": "Chen",
+        "given": "L.-C."
+      }
+    ],
+    "container-title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "publisher": "IEEE",
+    "page": "4510–4520",
+    "DOI": "10.1109/CVPR.2018.00474",
+    "URL": "https://doi.org/10.1109/CVPR.2018.00474",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 16"
+  },
+  {
+    "id": "assistivevision-17",
+    "type": "article-journal",
+    "title": "Real-time and accurate object detection on edge device with TensorFlow Lite",
+    "language": "en",
+    "author": [
+      {
+        "family": "Dai",
+        "given": "J."
+      }
+    ],
+    "container-title": "Journal of Physics: Conference Series",
+    "volume": "1651",
+    "issue": "1",
+    "page": "012114",
+    "DOI": "10.1088/1742-6596/1651/1/012114",
+    "URL": "https://doi.org/10.1088/1742-6596/1651/1/012114",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 17"
+  },
+  {
+    "id": "assistivevision-18",
+    "type": "article-journal",
+    "title": "Lightweight faster R-CNN for object detection in optical remote sensing images",
+    "language": "en",
+    "author": [
+      {
+        "family": "Magdy",
+        "given": "A."
+      },
+      {
+        "family": "Moustafa",
+        "given": "M. S."
+      },
+      {
+        "family": "Ebied",
+        "given": "H. M."
+      },
+      {
+        "family": "Tolba",
+        "given": "M. F."
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "volume": "15",
+    "page": "16163",
+    "DOI": "10.1038/s41598-025-99242-y",
+    "URL": "https://doi.org/10.1038/s41598-025-99242-y",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 18"
+  },
+  {
+    "id": "assistivevision-19",
+    "type": "webpage",
+    "title": "Object detection with TensorFlow Lite Model Maker",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Google"
+      }
+    ],
+    "container-title": "Google AI Edge",
+    "URL": "https://developers.google.com/edge/litert/libraries/modify/object_detection",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 19"
+  },
+  {
+    "id": "assistivevision-20",
+    "type": "webpage",
+    "title": "Explore Ultralytics YOLOv8",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Ultralytics"
+      }
+    ],
+    "container-title": "Ultralytics",
+    "URL": "https://docs.ultralytics.com/models/yolov8/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 20"
+  },
+  {
+    "id": "assistivevision-21",
+    "type": "webpage",
+    "title": "Ultralytics YOLO11",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Ultralytics"
+      }
+    ],
+    "container-title": "Ultralytics",
+    "URL": "https://docs.ultralytics.com/models/yolo11/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 21"
+  },
+  {
+    "id": "assistivevision-22",
+    "type": "chapter",
+    "title": "Microsoft COCO: Common objects in context",
+    "language": "en",
+    "author": [
+      {
+        "family": "Lin",
+        "given": "T.-Y."
+      },
+      {
+        "family": "Maire",
+        "given": "M."
+      },
+      {
+        "family": "Belongie",
+        "given": "S."
+      },
+      {
+        "family": "Hays",
+        "given": "J."
+      },
+      {
+        "family": "Perona",
+        "given": "P."
+      },
+      {
+        "family": "Ramanan",
+        "given": "D."
+      },
+      {
+        "family": "Dollár",
+        "given": "P."
+      },
+      {
+        "family": "Zitnick",
+        "given": "C. L."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Fleet",
+        "given": "D."
+      },
+      {
+        "family": "Pajdla",
+        "given": "T."
+      },
+      {
+        "family": "Schiele",
+        "given": "B."
+      },
+      {
+        "family": "Tuytelaars",
+        "given": "T."
+      }
+    ],
+    "container-title": "Computer Vision – ECCV 2014",
+    "publisher": "Springer",
+    "page": "740–755",
+    "DOI": "10.1007/978-3-319-10602-1_48",
+    "URL": "https://doi.org/10.1007/978-3-319-10602-1_48",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 22"
+  },
+  {
+    "id": "assistivevision-23",
+    "type": "article-journal",
+    "title": "The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale",
+    "language": "en",
+    "author": [
+      {
+        "family": "Kuznetsova",
+        "given": "A."
+      },
+      {
+        "family": "Rom",
+        "given": "H."
+      },
+      {
+        "family": "Alldrin",
+        "given": "N."
+      },
+      {
+        "family": "Uijlings",
+        "given": "J."
+      },
+      {
+        "family": "Krasin",
+        "given": "I."
+      },
+      {
+        "family": "Pont-Tuset",
+        "given": "J."
+      },
+      {
+        "family": "Kamali",
+        "given": "S."
+      },
+      {
+        "family": "Popov",
+        "given": "S."
+      },
+      {
+        "family": "Malloci",
+        "given": "M."
+      },
+      {
+        "family": "Kolesnikov",
+        "given": "A."
+      },
+      {
+        "family": "Duerig",
+        "given": "T."
+      },
+      {
+        "family": "Ferrari",
+        "given": "V."
+      }
+    ],
+    "container-title": "International Journal of Computer Vision",
+    "volume": "128",
+    "page": "1956–1981",
+    "DOI": "10.1007/s11263-020-01316-z",
+    "URL": "https://doi.org/10.1007/s11263-020-01316-z",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 23"
+  },
+  {
+    "id": "assistivevision-24",
+    "type": "webpage",
+    "title": "ONNX Runtime documentation",
+    "language": "en",
+    "author": [
+      {
+        "literal": "ONNX Runtime"
+      }
+    ],
+    "container-title": "ONNX Runtime",
+    "URL": "https://onnxruntime.ai/docs/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 24"
+  },
+  {
+    "id": "assistivevision-25",
+    "type": "webpage",
+    "title": "ExecuTorch documentation",
+    "language": "en",
+    "author": [
+      {
+        "literal": "PyTorch"
+      }
+    ],
+    "container-title": "PyTorch",
+    "URL": "https://pytorch.org/executorch/stable/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 25"
+  },
+  {
+    "id": "assistivevision-26",
+    "type": "chapter",
+    "title": "End-to-end object detection with transformers",
+    "language": "en",
+    "author": [
+      {
+        "family": "Carion",
+        "given": "N."
+      },
+      {
+        "family": "Massa",
+        "given": "F."
+      },
+      {
+        "family": "Synnaeve",
+        "given": "G."
+      },
+      {
+        "family": "Usunier",
+        "given": "N."
+      },
+      {
+        "family": "Kirillov",
+        "given": "A."
+      },
+      {
+        "family": "Zagoruyko",
+        "given": "S."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Vedaldi",
+        "given": "A."
+      },
+      {
+        "family": "Bischof",
+        "given": "H."
+      },
+      {
+        "family": "Brox",
+        "given": "T."
+      },
+      {
+        "family": "Frahm",
+        "given": "J.-M."
+      }
+    ],
+    "container-title": "Computer Vision – ECCV 2020",
+    "publisher": "Springer",
+    "page": "213–229",
+    "DOI": "10.1007/978-3-030-58452-8_13",
+    "URL": "https://doi.org/10.1007/978-3-030-58452-8_13",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 26"
+  },
+  {
+    "id": "assistivevision-27",
+    "type": "software",
+    "title": "COCO API: PythonAPI/pycocotools/cocoeval.py",
+    "language": "en",
+    "author": [
+      {
+        "literal": "COCO dataset contributors"
+      }
+    ],
+    "publisher": "GitHub",
+    "URL": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 27"
+  },
+  {
+    "id": "assistivevision-28",
+    "type": "book",
+    "title": "Introduction to information retrieval",
+    "language": "en",
+    "author": [
+      {
+        "family": "Manning",
+        "given": "C. D."
+      },
+      {
+        "family": "Raghavan",
+        "given": "P."
+      },
+      {
+        "family": "Schütze",
+        "given": "H."
+      }
+    ],
+    "publisher": "Cambridge University Press",
+    "URL": "https://nlp.stanford.edu/IR-book/",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 28"
+  },
+  {
+    "id": "assistivevision-29",
+    "type": "webpage",
+    "title": "Performance measurement",
+    "language": "en",
+    "author": [
+      {
+        "literal": "TensorFlow contributors"
+      }
+    ],
+    "container-title": "GitHub",
+    "URL": "https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/measurement.md",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 29"
+  },
+  {
+    "id": "assistivevision-30",
+    "type": "webpage",
+    "title": "Android Debug Bridge (adb)",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Google"
+      }
+    ],
+    "container-title": "Android Developers",
+    "URL": "https://developer.android.com/tools/adb",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 30"
+  },
+  {
+    "id": "assistivevision-31",
+    "type": "webpage",
+    "title": "GPU acceleration delegate with Interpreter API",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Google"
+      }
+    ],
+    "container-title": "Google AI Edge",
+    "URL": "https://developers.google.com/edge/litert/android/gpu",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 31"
+  },
+  {
+    "id": "assistivevision-32",
+    "type": "webpage",
+    "title": "OpenCL: The open standard for parallel programming of heterogeneous systems",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Khronos Group"
+      }
+    ],
+    "container-title": "Khronos Group",
+    "URL": "https://www.khronos.org/opencl/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 32"
+  },
+  {
+    "id": "assistivevision-33",
+    "type": "webpage",
+    "title": "Roboflow: Computer vision tools for developers and enterprises",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Roboflow"
+      }
+    ],
+    "container-title": "Roboflow",
+    "URL": "https://roboflow.com/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 33"
+  },
+  {
+    "id": "assistivevision-34",
+    "type": "software",
+    "title": "AssistiveVision",
+    "language": "en",
+    "author": [
+      {
+        "family": "Cerda Leon",
+        "given": "D. F."
+      }
+    ],
+    "publisher": "GitHub",
+    "URL": "https://github.com/diomedescerda/AssistiveVision/tree/85c852ddcb543bce1bd69ad0db307f895d597881",
+    "version": "85c852ddcb543bce1bd69ad0db307f895d597881",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 34"
+  },
+  {
+    "id": "assistivevision-35",
+    "type": "webpage",
+    "title": "CameraX",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Google"
+      }
+    ],
+    "container-title": "Android Developers",
+    "URL": "https://developer.android.com/media/camera/camerax",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 35"
+  },
+  {
+    "id": "assistivevision-36",
+    "type": "webpage",
+    "title": "LiteRT for Android",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Google"
+      }
+    ],
+    "container-title": "Google AI Edge",
+    "URL": "https://developers.google.com/edge/litert/android",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 36"
+  },
+  {
+    "id": "assistivevision-37",
+    "type": "webpage",
+    "title": "Text-to-speech",
+    "language": "en",
+    "author": [
+      {
+        "literal": "k2-fsa"
+      }
+    ],
+    "container-title": "sherpa-onnx",
+    "URL": "https://k2-fsa.github.io/sherpa/onnx/tts/index.html",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 37"
+  },
+  {
+    "id": "assistivevision-38",
+    "type": "article",
+    "title": "Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech",
+    "language": "en",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "J."
+      },
+      {
+        "family": "Kong",
+        "given": "J."
+      },
+      {
+        "family": "Son",
+        "given": "J."
+      }
+    ],
+    "publisher": "arXiv",
+    "DOI": "10.48550/arXiv.2106.06103",
+    "URL": "https://doi.org/10.48550/arXiv.2106.06103",
+    "genre": "Preprint",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "number": "2106.06103",
+    "note": "Original reference number in AssistiveVision: 38"
+  },
+  {
+    "id": "assistivevision-39",
+    "type": "software",
+    "title": "Piper: A fast, local neural text to speech system",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Rhasspy contributors"
+      }
+    ],
+    "publisher": "GitHub",
+    "URL": "https://github.com/rhasspy/piper",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 39"
+  },
+  {
+    "id": "assistivevision-40",
+    "type": "webpage",
+    "title": "AudioTrack",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Google"
+      }
+    ],
+    "container-title": "Android Developers",
+    "URL": "https://developer.android.com/reference/android/media/AudioTrack",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 40"
+  },
+  {
+    "id": "assistivevision-41",
+    "type": "webpage",
+    "title": "DataStore",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Google"
+      }
+    ],
+    "container-title": "Android Developers",
+    "URL": "https://developer.android.com/topic/libraries/architecture/datastore",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 41"
+  },
+  {
+    "id": "assistivevision-42",
+    "type": "webpage",
+    "title": "Analysis of paired observations",
+    "language": "en",
+    "author": [
+      {
+        "literal": "NIST/SEMATECH"
+      }
+    ],
+    "container-title": "NIST/SEMATECH e-Handbook of Statistical Methods",
+    "URL": "https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 42"
+  },
+  {
+    "id": "assistivevision-43",
+    "type": "article-journal",
+    "title": "Bootstrap methods: Another look at the jackknife",
+    "language": "en",
+    "author": [
+      {
+        "family": "Efron",
+        "given": "B."
+      }
+    ],
+    "container-title": "The Annals of Statistics",
+    "volume": "7",
+    "issue": "1",
+    "page": "1–26",
+    "DOI": "10.1214/aos/1176344552",
+    "URL": "https://doi.org/10.1214/aos/1176344552",
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 43"
+  },
+  {
+    "id": "assistivevision-44",
+    "type": "article-journal",
+    "title": "Bootstrapping clustered data",
+    "language": "en",
+    "author": [
+      {
+        "family": "Field",
+        "given": "C. A."
+      },
+      {
+        "family": "Welsh",
+        "given": "A. H."
+      }
+    ],
+    "container-title": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+    "volume": "69",
+    "issue": "3",
+    "page": "369–390",
+    "DOI": "10.1111/j.1467-9868.2007.00593.x",
+    "URL": "https://doi.org/10.1111/j.1467-9868.2007.00593.x",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 44"
+  },
+  {
+    "id": "assistivevision-45",
+    "type": "book",
+    "title": "Computer vision: Algorithms and applications",
+    "language": "en",
+    "author": [
+      {
+        "family": "Szeliski",
+        "given": "R."
+      }
+    ],
+    "publisher": "Springer",
+    "DOI": "10.1007/978-1-84882-935-0",
+    "URL": "https://doi.org/10.1007/978-1-84882-935-0",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 45"
+  },
+  {
+    "id": "assistivevision-46",
+    "type": "report",
+    "title": "Exif 2.31 metadata for XMP",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Camera & Imaging Products Association"
+      }
+    ],
+    "publisher": "Camera & Imaging Products Association",
+    "URL": "https://www.cipa.jp/std/documents/e/DC-X010-2017.pdf",
+    "number": "CIPA DC-X010-2017",
+    "genre": "Draft",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 46"
+  },
+  {
+    "id": "assistivevision-47",
+    "type": "webpage",
+    "title": "numpy.quantile",
+    "language": "en",
+    "author": [
+      {
+        "literal": "NumPy developers"
+      }
+    ],
+    "container-title": "NumPy documentation",
+    "URL": "https://numpy.org/doc/stable/reference/generated/numpy.quantile.html",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 47"
+  },
+  {
+    "id": "assistivevision-48",
+    "type": "webpage",
+    "title": "Pillow reference",
+    "language": "en",
+    "author": [
+      {
+        "literal": "Pillow contributors"
+      }
+    ],
+    "container-title": "Pillow documentation",
+    "URL": "https://pillow.readthedocs.io/en/stable/reference/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          5
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 48"
+  },
+  {
+    "id": "assistivevision-49",
+    "type": "article-journal",
+    "title": "Matplotlib: A 2D graphics environment",
+    "language": "en",
+    "author": [
+      {
+        "family": "Hunter",
+        "given": "J. D."
+      }
+    ],
+    "container-title": "Computing in Science & Engineering",
+    "volume": "9",
+    "issue": "3",
+    "page": "90–95",
+    "DOI": "10.1109/MCSE.2007.55",
+    "URL": "https://doi.org/10.1109/MCSE.2007.55",
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "note": "Original reference number in AssistiveVision: 49"
+  }
+]

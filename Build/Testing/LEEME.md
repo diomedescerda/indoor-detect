@@ -4,7 +4,7 @@
 
 [Inicio del repositorio](../../README.md) · [Guía de lectura del proyecto](../../Documents/GUIA_DE_LECTURA.md) · [Mapa de archivos](../../Documents/MAPA_DEL_REPOSITORIO.md)
 
-Esta carpeta conserva las 198 fotografías, las anotaciones, la ejecución Android del 13 de octubre de 2026 y los análisis posteriores. El documento principal para continuar la escritura es el [informe final integrado](../../Documents/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx). [AssistiveVision_Benchmark_Report.docx](AssistiveVision_Benchmark_Report.docx) es el reporte específico del benchmark.
+Esta carpeta conserva las 198 fotografías, las anotaciones, la ejecución Android del 13 de octubre de 2026 y los análisis posteriores. El documento principal para continuar la escritura es el [informe revisado](../../Documents/Informe_Final_AssistiveVision.docx). El reporte previo del benchmark se conserva como material auxiliar en `development/annotation_drafts/Testing/`.
 
 ## Diseño del conjunto
 
@@ -23,11 +23,11 @@ Hay 33 grupos de captura sucesiva. Cada grupo contiene, en este orden:
 
 | Archivo o carpeta | Función |
 |---|---|
-| [data/](data/) | 198 fotografías JPEG de 1536 × 2048, con extensión en minúsculas y bytes originales |
+| [data/](data) | 198 fotografías JPEG de 1536 × 2048, con extensión en minúsculas y bytes originales |
 | [labels.json](labels.json) | Referencia COCO utilizada en la evaluación: 889 cajas en 198 imágenes; 16 imágenes sin anotaciones |
-| [images.coco.json](images.coco.json) | Manifiesto de imágenes sin anotaciones de objetos |
+| [images.coco.json](../../development/annotation_drafts/Testing/images.coco.json) | Manifiesto de imágenes sin anotaciones de objetos |
 | [annotation_history/roboflow_reviewed.coco.json](annotation_history/roboflow_reviewed.coco.json) | Exportación corregida por el autor en Roboflow |
-| [annotation_history/](annotation_history/) | Antecedentes del proceso de anotación |
+| [annotation_history/](annotation_history) | Antecedentes del proceso de anotación |
 | [occlusion/](occlusion/README.md) | Etiquetas suplementarias de oclusión, revisión parcial y resultados |
 
 El borrador inicial de cajas se produjo en el chat y el autor lo corrigió en Roboflow. Se solicitó GPT-6.1 Sol para el borrador, pero los archivos guardados no prueban de forma independiente el modelo que lo sirvió. No se utilizó EfficientDet para producir las cajas iniciales. No hubo una segunda auditoría humana independiente.
@@ -47,7 +47,7 @@ Los nombres de categorías del exportado se mapearon a los identificadores COCO 
 | sink | 81 |
 | refrigerator | 82 |
 
-`preannotations.coco.json`, `chat_boxes.json`, `review/` y `review_checklist.csv` son borradores históricos. No sustituyen a `labels.json`. Las observaciones posteriores sobre posibles problemas de cajas y clases se conservan en `occlusion/gt_review_issues_batch_*.json`, sin modificar automáticamente la referencia.
+Los borradores `preannotations.coco.json`, `chat_boxes.json`, `review/` y `review_checklist.csv` están agrupados en `development/annotation_drafts/Testing/`. No sustituyen a `labels.json`. Las observaciones posteriores sobre posibles problemas de cajas y clases se conservan en `development/annotation_drafts/occlusion/gt_review_issues_batch_*.json`, sin modificar automáticamente la referencia.
 
 ## Resultados principales
 
@@ -74,12 +74,12 @@ Frente a pecho 1x, Gorillapod 0,5x suma 17 aciertos: gana en 16 grupos, empata e
 | Métricas por configuración | [summary.csv](benchmark/results/android/summary.csv) |
 | Métricas por foto y por clase | [per_image.csv](benchmark/results/android/per_image.csv), [per_class.csv](benchmark/results/android/per_class.csv) |
 | Comparaciones de F1 | [paired_comparisons.csv](benchmark/results/android/paired_comparisons.csv) |
-| Conteos pareados y ejemplos por grupo | [scenes/](benchmark/results/android/scenes/) |
-| Pruebas t por montaje y diagramas de distribución | [scenario1/](benchmark/results/android/scenario1/) |
-| Distancia aproximada, bandas y discrepancias EXIF | [depth/](benchmark/results/android/depth/) |
-| Predicciones superpuestas en fotografías | [overlays/](benchmark/results/android/overlays/) |
-| Oclusión y análisis de sensibilidad | [occlusion/results/](occlusion/results/) |
-| Resultados del proxy de escritorio | [benchmark/results/desktop/](benchmark/results/desktop/) |
+| Conteos pareados y ejemplos por grupo | [scenes/](benchmark/results/android/scenes) |
+| Pruebas t por montaje y diagramas de distribución | [scenario1/](benchmark/results/android/scenario1) |
+| Distancia aproximada, bandas y discrepancias EXIF | [depth/](benchmark/results/android/depth) |
+| Predicciones superpuestas en fotografías | [overlays/](benchmark/results/android/overlays) |
+| Oclusión y análisis de sensibilidad | [occlusion/results/](occlusion/results) |
+| Resultados del proxy de escritorio | [benchmark/results/desktop/](benchmark/results/desktop) |
 
 ## Método y alcance
 
@@ -95,48 +95,43 @@ La distancia usa un modelo geométrico aproximado con EXIF y alturas de referenc
 
 ## Reproducir con predicciones guardadas
 
-Para leer los resultados no hace falta instalar herramientas. Para recalcularlos, se utilizó Python 3.12. Desde la raíz del repositorio:
+La [guía de reproducción actual](../../docs/REPRODUCIR.md) reúne todos los pasos.
+Desde la **raíz del repositorio**, con Python 3.12:
 
 ```sh
-cd Build/Testing
 python3.12 -m venv .venv
-.venv/bin/python -m pip install -r benchmark/requirements.lock.txt
-.venv/bin/python verify_package.py
-.venv/bin/python verify_gt.py labels.json
-.venv/bin/python -m unittest discover -s benchmark -p 'test_*.py'
-.venv/bin/python benchmark/evaluate.py benchmark/results/android.json
-.venv/bin/python benchmark/analyze_effects.py benchmark/results/android
-.venv/bin/python benchmark/analyze_scenes.py
-.venv/bin/python benchmark/plot_scenario1.py
-.venv/bin/python benchmark/analyze_depth.py
-.venv/bin/python benchmark/analyze_occlusion.py
-.venv/bin/python occlusion/build_review.py
+.venv/bin/python -m pip install -r requirements-analysis.lock.txt
+.venv/bin/python scripts/reproduce.py --overlays
 ```
 
-Estos comandos regeneran archivos derivados: conservar los cambios propios antes de ejecutarlos. En Windows, usar `.venv\Scripts\python.exe` en lugar de `.venv/bin/python`. La disponibilidad de paquetes binarios puede variar entre sistemas. NumPy, Pillow, pycocotools y Matplotlib bastan para los análisis de predicciones; LiteRT se necesita para inferencia de escritorio. La reconstrucción del DOCX requiere además las dependencias descritas en [Documents/README.md](../../Documents/README.md).
-
-Para visualizar ejemplos de detección, ejecutar `benchmark/render_predictions.py benchmark/results/android.json` con el mismo intérprete. Para reconstruir el reporte específico del benchmark, ejecutar `scripts/build_report.py` con `python-docx` instalado.
+Se verifican las 570 sumas, GT y 22 pruebas; se regeneran los análisis y se
+comparan 27 CSV y dos JSON con la referencia. Los resultados nuevos van a
+`development/runs/saved-results/` sin sobrescribir este directorio. En Windows usar
+`.venv\Scripts\python.exe`. Para repetir, elegir otra carpeta con `--output`.
+No se necesita LiteRT ni Android para este procedimiento.
 
 ## Ejecutar de nuevo la inferencia
 
-El proxy de escritorio utiliza el modelo archivado:
+Seguir [la ejecución Android documentada](../../docs/REPRODUCIR.md#3-repetir-la-inferencia-en-android):
+compilar el clon de AssistiveVision de referencia, iniciar un emulador o
+conectar un teléfono autorizado y ejecutar desde la raíz:
 
 ```sh
-.venv/bin/python benchmark/run_desktop.py --model benchmark/models/efficientdet-lite2-detection-metadata.tflite --output benchmark/results/desktop-rerun.json
+.venv/bin/python scripts/run_android_benchmark.py --app ../AssistiveVision-reference --sdk /ruta/Android/Sdk --serial emulator-5554
 ```
 
-Para Android, clonar por separado [AssistiveVision](https://github.com/diomedescerda/AssistiveVision), seleccionar el commit `85c852ddcb543bce1bd69ad0db307f895d597881` y copiar [DatasetBenchmarkTest.kt](benchmark/android/DatasetBenchmarkTest.kt) a `app/src/androidTest/java/com/unimagdalena/assistivevision/` de esa copia. Instalar el SDK requerido y arrancar un emulador o autorizar un teléfono. Desde `Build/Testing`:
+El nuevo ejecutor prepara la instrumentación, construye e instala los APKs,
+valida las 198 imágenes y guarda predicciones/métricas en una carpeta nueva.
+`benchmark/run_android.py` se conserva como fuente histórica con su hash original;
+usa rutas y salidas antiguas y no es el comando recomendado.
 
-```sh
-.venv/bin/python benchmark/run_android.py --app /ruta/AssistiveVision --sdk /ruta/Android/Sdk --serial emulator-5554 --confidence 0.30 --max-objects 2
-```
-
-Este comando construye e instala APK de depuración y prepara las fotos; sobrescribe `benchmark/results/android.json` y las métricas Android generadas. Preservar antes la ejecución archivada e identificar cualquier nuevo experimento. `--skip-build` solo corresponde a APK ya construidas desde la versión actual; el ejecutor no desinstala la app si hay un conflicto de firma.
+La [inferencia de escritorio opcional](../../docs/REPRODUCIR.md#4-inferencia-de-escritorio-opcional)
+usa otro runtime/decodificador y debe mantenerse separada de Android.
 
 ## Integridad y documentación histórica
 
-[provenance/android_run_metadata.json](provenance/android_run_metadata.json) conserva el commit Android, entorno y hashes de modelo, GT y módulos. [provenance/app_source/](provenance/app_source/) conserva esos módulos; [benchmark/models/](benchmark/models/) contiene el modelo usado. La procedencia y licencia del modelo aguas arriba deben completarse antes de su publicación.
+[provenance/android_run_metadata.json](provenance/android_run_metadata.json) conserva el commit Android, entorno y hashes de modelo, GT y módulos. [provenance/app_source/](provenance/app_source) conserva esos módulos; [benchmark/models/](benchmark/models) contiene el modelo usado. La procedencia y licencia del modelo aguas arriba deben completarse antes de su publicación.
 
-[verify_package.py](verify_package.py) verifica los 570 archivos del paquete base con [SHA256SUMS.json](SHA256SUMS.json). Las revisiones posteriores tienen su propio manifiesto en [Documents/Review/revision_sha256.json](../../Documents/Review/revision_sha256.json). No se incluyeron entornos virtuales, APK ni renders temporales.
+El [verificador activo](../../scripts/verify_archive.py) comprueba las 570 sumas originales mediante [el mapa de reubicación](../../development/relocations.json); 281 archivos están archivados en `development/`. Las comprobaciones nuevas escriben en `development/runs/`, sin reemplazar los originales.
 
-El [README original en inglés](README.md) se mantiene como parte del paquete base verificable. Esta guía en español permite consultarlo sin alterar ese registro histórico.
+El [README original en inglés](../../development/annotation_drafts/Testing/README.md) se mantiene como parte del paquete base verificable. Esta guía en español permite consultarlo sin alterar ese registro histórico.

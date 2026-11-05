@@ -1,0 +1,20 @@
+{
+  "reference_count": 49,
+  "types": {
+    "report": 5,
+    "journalArticle": 10,
+    "webpage": 19,
+    "preprint": 4,
+    "conferencePaper": 3,
+    "bookSection": 3,
+    "computerProgram": 3,
+    "book": 2
+  },
+  "imported_into_zotero": true,
+  "created_count": 23,
+  "reused_count": 26,
+  "ambiguous_count": 0,
+  "collection_verified": true,
+  "bibliography_entries": 49,
+  "normalized_count": 12
+}

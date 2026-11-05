@@ -1,0 +1,9 @@
+-r requirements-analysis.lock.txt
+ai-edge-litert==2.3.0
+backports.strenum==1.2.8
+flatbuffers==25.12.19
+ml_dtypes==0.6.0
+protobuf==7.36.2
+tqdm==4.70.1
+typing_extensions==4.16.0
+opencv-python-headless==4.13.0.92

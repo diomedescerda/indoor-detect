@@ -1,0 +1,488 @@
+[
+  {
+    "text": "Introducción",
+    "name": "tutor_nav_1",
+    "kind": "heading",
+    "level": 1
+  },
+  {
+    "text": "1 Antecedentes y fundamentos de la asistencia visual",
+    "name": "tutor_nav_2",
+    "kind": "heading",
+    "level": 1
+  },
+  {
+    "text": "1.1 Detección de objetos y métricas de evaluación",
+    "name": "tutor_nav_3",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 1.1. Notación y unidades de lectura.",
+    "name": "tutor_nav_4",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "1.2 Sistemas de asistencia visual",
+    "name": "tutor_nav_5",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "1.3 Arquitecturas de detección de objetos",
+    "name": "tutor_nav_6",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "1.4 Eficiencia de los modelos móviles",
+    "name": "tutor_nav_7",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "1.5 Representación numérica y ejecución local",
+    "name": "tutor_nav_8",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "2 Metodología y selección experimental del detector",
+    "name": "tutor_nav_9",
+    "kind": "heading",
+    "level": 1
+  },
+  {
+    "text": "2.1 Metodología general del trabajo",
+    "name": "tutor_nav_10",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "2.2 Criterios de selección",
+    "name": "tutor_nav_11",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "2.3 Modelos candidatos",
+    "name": "tutor_nav_12",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "2.4 Entornos de medición",
+    "name": "tutor_nav_13",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "2.5 Protocolo de comparación",
+    "name": "tutor_nav_14",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "2.6 Resultados de la comparación",
+    "name": "tutor_nav_15",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 2.1. Resultados de evaluación en equipo de escritorio.",
+    "name": "tutor_nav_16",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Tabla 2.2. Desglose de AP50 por clase para cada modelo.",
+    "name": "tutor_nav_17",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Tabla 2.3. Resultados de benchmark en Android utilizando CPU.",
+    "name": "tutor_nav_18",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Tabla 2.4. Resultados de benchmark en Android utilizando GPU Delegate.",
+    "name": "tutor_nav_19",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "2.7 Interpretación de los resultados",
+    "name": "tutor_nav_20",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "2.8 Modelo seleccionado y justificación",
+    "name": "tutor_nav_21",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 2.5. Comparación de candidatos finales.",
+    "name": "tutor_nav_22",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "3 Diseño e implementación del prototipo AssistiveVision",
+    "name": "tutor_nav_23",
+    "kind": "heading",
+    "level": 1
+  },
+  {
+    "text": "3.1 Arquitectura general del sistema",
+    "name": "tutor_nav_24",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Figura 3.1. Flujo de procesamiento de la implementación actual.",
+    "name": "tutor_nav_25",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "3.2 Posicionamiento y campo visual de la cámara",
+    "name": "tutor_nav_26",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "3.3 Módulo de captura",
+    "name": "tutor_nav_27",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "3.4 Módulo de preprocesamiento",
+    "name": "tutor_nav_28",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "3.5 Módulo de detección",
+    "name": "tutor_nav_29",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 3.1. Clases de objetos prioritarias anunciadas por el sistema.",
+    "name": "tutor_nav_30",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "3.6 Módulo de localización espacial",
+    "name": "tutor_nav_31",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 3.2. Zonas de localización espacial y descriptores asociados.",
+    "name": "tutor_nav_32",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Figura 3.2. Regiones de la imagen para la localización relativa.",
+    "name": "tutor_nav_33",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "3.7 Módulo de filtrado y priorización",
+    "name": "tutor_nav_34",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "3.8 Módulo de audio y descriptores de voz",
+    "name": "tutor_nav_35",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "3.9 Modos de operación",
+    "name": "tutor_nav_36",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "3.10 Configuración del sistema",
+    "name": "tutor_nav_37",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 3.3. Parámetros configurables del sistema.",
+    "name": "tutor_nav_38",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "3.11 Interfaz de usuario",
+    "name": "tutor_nav_39",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Figura 3.3. Secuencia de interacción manual y liberación de la captura.",
+    "name": "tutor_nav_40",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "Figura 3.4. Pantallas de captura resultado y configuración.",
+    "name": "tutor_nav_41",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "3.12 Verificación y rendimiento del prototipo",
+    "name": "tutor_nav_42",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "3.13 Requerimientos y criterios de verificación",
+    "name": "tutor_nav_43",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 3.4. Requerimientos operativos y evidencia de verificación.",
+    "name": "tutor_nav_44",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "4 Evaluación técnica del sistema y de las condiciones de captura",
+    "name": "tutor_nav_45",
+    "kind": "heading",
+    "level": 1
+  },
+  {
+    "text": "4.1 Diseño y protocolo de evaluación",
+    "name": "tutor_nav_46",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 4.1. Tipologías observables y ejemplos de grupos.",
+    "name": "tutor_nav_47",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Figura 4.1. Ejemplos de espacios y condiciones de captura.",
+    "name": "tutor_nav_48",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "Tabla 4.2. Orden y tamaño de las configuraciones de captura.",
+    "name": "tutor_nav_49",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Figura 4.2. Montajes usados para orientar la cámara.",
+    "name": "tutor_nav_50",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "Tabla 4.3. Diseño y unidades de análisis.",
+    "name": "tutor_nav_51",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "4.2 Comparación de posiciones de montaje",
+    "name": "tutor_nav_52",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 4.4. Resultados agrupados por montaje.",
+    "name": "tutor_nav_53",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Tabla 4.5. Pruebas t pareadas por montaje.",
+    "name": "tutor_nav_54",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Figura 4.3. Objetos correctos por fotografía y montaje.",
+    "name": "tutor_nav_55",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "4.3 Comparación de montaje y lente",
+    "name": "tutor_nav_56",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 4.6. Resultados por configuración.",
+    "name": "tutor_nav_57",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Tabla 4.7. Comparación de conteos con Gorillapod 0,5x.",
+    "name": "tutor_nav_58",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Figura 4.4. Objetos correctos por fotografía en las seis configuraciones.",
+    "name": "tutor_nav_59",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "4.4 Detección por bandas de distancia estimada",
+    "name": "tutor_nav_60",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 4.8. Recall por banda de distancia estimada.",
+    "name": "tutor_nav_61",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Figura 4.5. Recall por distancia estimada e intervalo bootstrap del 95 %.",
+    "name": "tutor_nav_62",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "4.5 Desempeño por clase y selección para la salida de voz",
+    "name": "tutor_nav_63",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 4.9. Resultados por clase en el conjunto completo.",
+    "name": "tutor_nav_64",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Figura 4.6. Precisión, recall y F1 del detector y de la lista de hasta dos objetos.",
+    "name": "tutor_nav_65",
+    "kind": "Figura",
+    "level": 0
+  },
+  {
+    "text": "4.6 Consideraciones de validez",
+    "name": "tutor_nav_66",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "4.7 Distribución del tiempo de procesamiento",
+    "name": "tutor_nav_67",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 4.10. Distribución de tiempos de reproducción en emulador en milisegundos.",
+    "name": "tutor_nav_68",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "4.8 Brillo digital y oclusión observada",
+    "name": "tutor_nav_69",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Tabla 4.11. Detección agrupada por brillo digital de las fotografías.",
+    "name": "tutor_nav_70",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "Tabla 4.12. Recall por nivel de oclusión con etiquetas asistidas por IA.",
+    "name": "tutor_nav_71",
+    "kind": "Tabla",
+    "level": 0
+  },
+  {
+    "text": "4.9 Evidencia y alcance de la verificación auditiva",
+    "name": "tutor_nav_72",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "5 Conclusiones",
+    "name": "tutor_nav_73",
+    "kind": "heading",
+    "level": 1
+  },
+  {
+    "text": "Anexo Repositorio y reproducción de los experimentos",
+    "name": "tutor_nav_74",
+    "kind": "heading",
+    "level": 1
+  },
+  {
+    "text": "Contenido y versiones de los repositorios",
+    "name": "tutor_nav_75",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Recalcular desde las predicciones guardadas",
+    "name": "tutor_nav_76",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Compilar e instalar la aplicación",
+    "name": "tutor_nav_77",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Repetir la inferencia en Android",
+    "name": "tutor_nav_78",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Recuperar y repetir la comparación histórica",
+    "name": "tutor_nav_79",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Comprobantes y disponibilidad de la entrega",
+    "name": "tutor_nav_80",
+    "kind": "heading",
+    "level": 2
+  },
+  {
+    "text": "Referencias",
+    "name": "tutor_nav_81",
+    "kind": "heading",
+    "level": 1
+  }
+]

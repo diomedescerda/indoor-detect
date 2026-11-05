@@ -1,0 +1,32 @@
+name: Replay historical model comparison
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  six-models:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-historical.lock.txt
+      - run: python scripts/reproduce_historical.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: historical-replay-${{ github.sha }}
+          path: |
+            development/runs/historical/historical_report.json
+            development/runs/historical/*/results/*.md
+            development/runs/historical/*/inference.log
+            development/runs/historical/*/predictions.json
+          include-hidden-files: true
+          if-no-files-found: ignore

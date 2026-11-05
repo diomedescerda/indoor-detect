@@ -2,27 +2,27 @@
 
 **Código fuente de la aplicación Android:** [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision). Este repositorio conserva la documentación, los datos y los análisis experimentales del proyecto.
 
-Esta guía presenta la estructura, el desarrollo y los resultados de AssistiveVision, y permite consultar sus evidencias sin ejecutar código. Actualizada el 20 de octubre de 2026. El [informe final](Informe_Final_Trabajo_de_Grado_AssistiveVision.docx) es el manuscrito principal; este documento facilita localizar su evidencia.
+Esta guía presenta la estructura, el desarrollo y los resultados de AssistiveVision, y permite consultar sus evidencias sin ejecutar código. Actualizada el 20 de octubre de 2026. El [informe final](Informe_Final_AssistiveVision.docx) es el manuscrito principal; este documento facilita localizar su evidencia.
 
 ## Recorrido recomendado
 
-1. Leer la [propuesta de pasantía](Propuesta%20Pasantia%20de%20Investigación%20-%20Diomedes%20Cerda.pdf) para conocer objetivos y fases.
-2. Abrir el [informe final](Informe_Final_Trabajo_de_Grado_AssistiveVision.docx): el capítulo 2 presenta la selección de modelos; el 3, la arquitectura y los módulos; el 4, la evaluación; el 5, conclusiones y recomendaciones.
+1. Leer la [propuesta de pasantía](Propuesta Pasantia de Investigación - Diomedes Cerda.pdf) para conocer objetivos y fases.
+2. Abrir el [informe final](Informe_Final_AssistiveVision.docx): el capítulo 2 presenta la selección de modelos; el 3, la arquitectura y los módulos; el 4, la evaluación; el 5, conclusiones y recomendaciones.
 3. Consultar las tablas y gráficos enlazados abajo para contrastar los resultados con sus archivos fuente.
-4. Para revisar el formato, usar la [guía institucional](Templates/Guia_Institucional_Informe_Final.docx). Para modificar el manuscrito, seguir [Documents/README.md](README.md).
+4. Para revisar el formato, usar la [guía institucional](../development/editorial/templates/Guia_Institucional_Informe_Final.docx). Para modificar el manuscrito, seguir [Documents/README.md](README.md).
 
 ## Qué se hizo y dónde se puede revisar
 
 | Trabajo | Evidencia principal | Qué permite comprobar |
 |---|---|---|
 | Selección inicial de DNN | [Resultados de escritorio](../Build/models_comparison/results/desktop.md), [benchmark Redmi Note 13](../Build/models_comparison/results/android.md), capítulo 2 | Comparación histórica de modelos y coste de ejecución |
-| Desarrollo e integración Android | Capítulo 3, [repositorio de la app](https://github.com/diomedescerda/AssistiveVision), [código archivado](../Build/Testing/provenance/app_source/) | Captura, preprocesamiento, detección, coordenadas y composición de salida |
-| Referencia para evaluar detecciones | [198 fotografías](../Build/Testing/data/), [GT COCO](../Build/Testing/labels.json), [exportación corregida](../Build/Testing/annotation_history/roboflow_reviewed.coco.json) | Cajas y clases de referencia corregidas por el autor |
+| Desarrollo e integración Android | Capítulo 3, [repositorio de la app](https://github.com/diomedescerda/AssistiveVision), [código archivado](../Build/Testing/provenance/app_source) | Captura, preprocesamiento, detección, coordenadas y composición de salida |
+| Referencia para evaluar detecciones | [198 fotografías](../Build/Testing/data), [GT COCO](../Build/Testing/labels.json), [exportación corregida](../Build/Testing/annotation_history/roboflow_reviewed.coco.json) | Cajas y clases de referencia corregidas por el autor |
 | Montajes y lentes | [Métricas por configuración](../Build/Testing/benchmark/results/android/summary.csv), [comparaciones por grupo](../Build/Testing/benchmark/results/android/scenes/report.txt) | Cobertura, aciertos, errores y diferencias pareadas |
 | Distancia aproximada | [Análisis de profundidad](../Build/Testing/benchmark/results/android/depth/report.txt), [bandas](../Build/Testing/benchmark/results/android/depth/depth_bands.csv) | Recall por bandas estimadas mediante geometría y EXIF |
-| Tiempos e iluminación | Secciones 4.7–4.8, [evidencia derivada](Review/proposal_evidence/summary.json) | Distribución de tiempos archivados y brillo digital de las imágenes |
+| Tiempos e iluminación | Secciones 4.7–4.8, [evidencia derivada](../Build/Testing/benchmark/results/brightness/summary.json) | Distribución de tiempos archivados y brillo digital de las imágenes |
 | Oclusión | Sección 4.8.1, [protocolo](../Build/Testing/occlusion/README.md), [tabla de resultados](../Build/Testing/occlusion/results/severity.csv) | Recall según obstrucción visible del objeto |
-| Trazabilidad | [Metadatos Android](../Build/Testing/provenance/android_run_metadata.json), [registro de revisión](Review/2026-10-14_revision.md) | Versiones, procedencia y cambios del manuscrito |
+| Trazabilidad | [Metadatos Android](../Build/Testing/provenance/android_run_metadata.json), [registro de revisión](../development/editorial/review/2026-10-14_revision.md) | Versiones, procedencia y cambios del manuscrito |
 
 ## Cómo interpretar la comparación de configuración
 
@@ -38,8 +38,8 @@ Gorillapod 0,5x obtuvo 82 detecciones correctas sobre 174 instancias visibles; p
 - [Distribución de objetos correctos por montaje](../Build/Testing/benchmark/results/android/scenario1/boxplot_mount.png).
 - [Distribución por montaje y lente](../Build/Testing/benchmark/results/android/scenario1/boxplot_configuration.png).
 - [Recall por distancia estimada](../Build/Testing/benchmark/results/android/depth/depth_recall.png).
-- [33 láminas con las seis vistas de cada grupo](../Build/Testing/benchmark/results/android/scenes/sheets/).
-- [Ejemplos con predicciones superpuestas](../Build/Testing/benchmark/results/android/overlays/).
+- [33 láminas con las seis vistas de cada grupo](../Build/Testing/benchmark/results/android/scenes/sheets).
+- [Ejemplos con predicciones superpuestas](../Build/Testing/benchmark/results/android/overlays).
 
 El mapa denso de conteos por escena se conserva como análisis auxiliar, pero se retiró del informe por redundancia. El manuscrito incluye una selección de figuras integrada con su texto.
 

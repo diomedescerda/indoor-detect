@@ -1,0 +1,41 @@
+{
+  "commit": "30b777f7d368f5a3b2b89676965961f626bfd6ba",
+  "models": {
+    "efficientdet-lite2-detection-metadata.tflite": {
+      "git_path": "models_comparison/models/efficientdet-lite2-detection-metadata.tflite",
+      "blob": "223e0f496afc7f32bdffe9e82c2524b981ad5803",
+      "bytes": 7557887,
+      "sha256": "6fd32c84ab1eb0f7e7f3a7a20a20d7df1530daa8378728f7c79571096286bd52"
+    },
+    "ssd_mobilenet_v1.tflite": {
+      "git_path": "models_comparison/models/ssd_mobilenet_v1.tflite",
+      "blob": "8015ee5d8a75c3e4a8408559611df83ac1ee651e",
+      "bytes": 4183312,
+      "sha256": "e4b118e5e4531945de2e659742c7c590f7536f8d0ed26d135abcfe83b4779d13"
+    },
+    "yolo11n_float16.tflite": {
+      "git_path": "models_comparison/models/yolo11n_float16.tflite",
+      "blob": "493bfb6ed57d9ade9d3310ee92bba29f078a0b81",
+      "bytes": 5435017,
+      "sha256": "ef05518fc048c65f1b1a719a13a7f72153cdb7b1d5ef030c1c680eed62687f5f"
+    },
+    "yolo11n_float32.tflite": {
+      "git_path": "models_comparison/models/yolo11n_float32.tflite",
+      "blob": "30aae6fdde3a64ac88cd10d6d7900b02338da44e",
+      "bytes": 10747729,
+      "sha256": "c3ca023fe8e7bdfd1d3519643812be1179056ff739ad07ede93e06426e7c21fc"
+    },
+    "yolov8s_float16.tflite": {
+      "git_path": "models_comparison/models/yolov8s_float16.tflite",
+      "blob": "b3838e8883a034dd1d6a011cce2fdd50920d7292",
+      "bytes": 22485514,
+      "sha256": "c66bdc7981e758901f7f7da82bf70786facfbc02c91728198d76419ba6f0ac60"
+    },
+    "yolov8s_float32.tflite": {
+      "git_path": "models_comparison/models/yolov8s_float32.tflite",
+      "blob": "7cf991289fc0b29f224f24cc239de3f1dd6c5a7b",
+      "bytes": 44884406,
+      "sha256": "c0569db0e24ece2e44a6ca8fada69e19d1eed218fad3d0cc8bb7ba38b663f1be"
+    }
+  }
+}

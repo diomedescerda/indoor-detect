@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-05",
+  "scope": "Consolidate intermediate materials under development/ in indoor-detect and AssistiveVision",
+  "relocations": {
+    "indoor-detect": 474,
+    "AssistiveVision": 5
+  },
+  "archive": {
+    "original_checksums": 570,
+    "relocated_original_files": 281,
+    "result": "passed"
+  },
+  "ground_truth": {
+    "images": 198,
+    "instances": 889,
+    "result": "passed"
+  },
+  "reproduction": {
+    "status": "passed",
+    "csv_tables": 27,
+    "json_files": 2,
+    "numerical_tests": 22,
+    "runner_tests": 3,
+    "details": "reorganization-results.json"
+  },
+  "android": {
+    "assets_verified": 362,
+    "gradle_tasks": [
+      ":app:testDebugUnitTest",
+      ":app:assembleDebug"
+    ],
+    "result": "BUILD SUCCESSFUL; 45 tasks up-to-date",
+    "log": "../../../AssistiveVision/development/validation/reorganization-build.log",
+    "instrumentation_rerun": false
+  },
+  "navigation": {
+    "active_markdown_files_checked": 26,
+    "missing_relative_targets": 0,
+    "missing_relocation_destinations": 0,
+    "ignored_mapped_destinations": 0
+  },
+  "word": {
+    "path": "Documents/Informe_Final_AssistiveVision.docx",
+    "sha256": "1439f5e4b44a4296e55b2627e2e520accfae6c3aea4d8912bfafb4a26b3503f5",
+    "pages": 73,
+    "page_references": 81,
+    "changed_pages_visually_checked": [
+      7,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "remaining_pages_identical_to_previously_reviewed_render": 66,
+    "preserved_tables": 22,
+    "preserved_section_properties": 11
+  },
+  "git_diff_check": "passed in both repositories",
+  "publication": "Local changes only; no commit or push performed"
+}

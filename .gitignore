@@ -1,2 +1,11 @@
 models_comparison/venv
 .codegraph/
+.venv/
+.reproduced/
+__pycache__/
+*.pyc
+
+# Generated intermediate work is kept out of the scientific/source delivery.
+/development/runs/
+/development/scratch/
+/development/reference_library/

@@ -1,0 +1,247 @@
+{
+  "1": {
+    "author": "World Health Organization",
+    "year": "2019",
+    "entry": "World Health Organization. (2019). *World report on vision*. https://www.who.int/publications/i/item/9789241516570"
+  },
+  "2": {
+    "author": "More et al.",
+    "year": "2025",
+    "entry": "More, S. S., Patil, N., Lobo, V. B., Shet, N., Goswami, D., & Rane, P. (2025). Empowering the visually impaired: YOLOv8-based object detection in Android applications. *Procedia Computer Science, 252*, 457–469. https://doi.org/10.1016/j.procs.2025.01.005"
+  },
+  "3": {
+    "author": "Meenakshi et al.",
+    "year": "2022",
+    "entry": "Meenakshi, R., Ponnusamy, R., Alghamdi, S., Khalaf, O. I., & Alotaibi, Y. (2022). Development of mobile app to support the mobility of visually impaired people. *Computers, Materials & Continua, 73*(2), 3473–3495. https://doi.org/10.32604/cmc.2022.028540"
+  },
+  "4": {
+    "author": "Guravaiah et al.",
+    "year": "2023",
+    "entry": "Guravaiah, K., Bhavadeesh, Y. S., Shwejan, P., Vardhan, A. H., & Lavanya, S. (2023). Third eye: Object recognition and speech generation for visually impaired. *Procedia Computer Science, 218*, 1144–1155. https://doi.org/10.1016/j.procs.2023.01.093"
+  },
+  "5": {
+    "author": "TensorFlow",
+    "year": "s. f.",
+    "entry": "TensorFlow. (s. f.). *TensorFlow Lite*. Recuperado el 5 de noviembre de 2026, de https://www.tensorflow.org/lite/guide"
+  },
+  "6": {
+    "author": "Ren et al.",
+    "year": "2015",
+    "entry": "Ren, S., He, K., Girshick, R., & Sun, J. (2015). *Faster R-CNN: Towards real-time object detection with region proposal networks* [Preprint]. arXiv. https://doi.org/10.48550/arXiv.1506.01497"
+  },
+  "7": {
+    "author": "Redmon et al.",
+    "year": "2016",
+    "entry": "Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You only look once: Unified, real-time object detection. En *2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 779–788). IEEE. https://doi.org/10.1109/CVPR.2016.91"
+  },
+  "8": {
+    "author": "Liu et al.",
+    "year": "2016",
+    "entry": "Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.-Y., & Berg, A. C. (2016). SSD: Single shot MultiBox detector. En B. Leibe, J. Matas, N. Sebe, & M. Welling (Eds.), *Computer vision – ECCV 2016* (pp. 21–37). Springer. https://doi.org/10.1007/978-3-319-46448-0_2"
+  },
+  "9": {
+    "author": "Tan et al.",
+    "year": "2020",
+    "entry": "Tan, M., Pang, R., & Le, Q. V. (2020). EfficientDet: Scalable and efficient object detection. En *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 10781–10790). IEEE. https://doi.org/10.1109/CVPR42600.2020.01079"
+  },
+  "10": {
+    "author": "Cerda Leon",
+    "year": "s. f.",
+    "entry": "Cerda Leon, D. F. (s. f.). *Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual* [Propuesta de pasantía en investigación]. Universidad del Magdalena."
+  },
+  "11": {
+    "author": "Universidad del Magdalena",
+    "year": "2020",
+    "entry": "Universidad del Magdalena. (2020). *Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030*."
+  },
+  "12": {
+    "author": "Universidad del Magdalena",
+    "year": "2024",
+    "entry": "Universidad del Magdalena. (2024). *Plan de Gobierno Rectoral 2024–2028*."
+  },
+  "13": {
+    "author": "Pawar",
+    "year": "2025",
+    "entry": "Pawar, D. R. (2025). *Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android* [Preprint]. https://doi.org/10.13140/RG.2.2.28125.12005"
+  },
+  "14": {
+    "author": "Figura et al.",
+    "year": "2025",
+    "entry": "Figura, J., Kuźmiczuk, R., & Badurowicz, M. (2025). Analysis of object recognition systems using augmented reality glasses. *Journal of Computer Sciences Institute, 34*, 8–13. https://doi.org/10.35784/jcsi.6469"
+  },
+  "15": {
+    "author": "Howard et al.",
+    "year": "2017",
+    "entry": "Howard, A. G., Zhu, M., Chen, B., Kalenichenko, D., Wang, W., Weyand, T., Andreetto, M., & Adam, H. (2017). *MobileNets: Efficient convolutional neural networks for mobile vision applications* [Preprint]. arXiv. https://arxiv.org/abs/1704.04861"
+  },
+  "16": {
+    "author": "Sandler et al.",
+    "year": "2018",
+    "entry": "Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L.-C. (2018). MobileNetV2: Inverted residuals and linear bottlenecks. En *2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition* (pp. 4510–4520). IEEE. https://doi.org/10.1109/CVPR.2018.00474"
+  },
+  "17": {
+    "author": "Dai",
+    "year": "2020",
+    "entry": "Dai, J. (2020). Real-time and accurate object detection on edge device with TensorFlow Lite. *Journal of Physics: Conference Series, 1651*(1), Artículo 012114. https://doi.org/10.1088/1742-6596/1651/1/012114"
+  },
+  "18": {
+    "author": "Magdy et al.",
+    "year": "2025",
+    "entry": "Magdy, A., Moustafa, M. S., Ebied, H. M., & Tolba, M. F. (2025). Lightweight faster R-CNN for object detection in optical remote sensing images. *Scientific Reports, 15*, Artículo 16163. https://doi.org/10.1038/s41598-025-99242-y"
+  },
+  "19": {
+    "author": "Google",
+    "year": "s. f.-g",
+    "entry": "Google. (s. f.-g). *Object detection with TensorFlow Lite Model Maker*. Google AI Edge. Recuperado el 5 de noviembre de 2026, de https://developers.google.com/edge/litert/libraries/modify/object_detection"
+  },
+  "20": {
+    "author": "Ultralytics",
+    "year": "s. f.-a",
+    "entry": "Ultralytics. (s. f.-a). *Explore Ultralytics YOLOv8*. Recuperado el 5 de noviembre de 2026, de https://docs.ultralytics.com/models/yolov8/"
+  },
+  "21": {
+    "author": "Ultralytics",
+    "year": "s. f.-b",
+    "entry": "Ultralytics. (s. f.-b). *Ultralytics YOLO11*. Recuperado el 5 de noviembre de 2026, de https://docs.ultralytics.com/models/yolo11/"
+  },
+  "22": {
+    "author": "Lin et al.",
+    "year": "2014",
+    "entry": "Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., & Zitnick, C. L. (2014). Microsoft COCO: Common objects in context. En D. Fleet, T. Pajdla, B. Schiele, & T. Tuytelaars (Eds.), *Computer vision – ECCV 2014* (pp. 740–755). Springer. https://doi.org/10.1007/978-3-319-10602-1_48"
+  },
+  "23": {
+    "author": "Kuznetsova et al.",
+    "year": "2020",
+    "entry": "Kuznetsova, A., Rom, H., Alldrin, N., Uijlings, J., Krasin, I., Pont-Tuset, J., Kamali, S., Popov, S., Malloci, M., Kolesnikov, A., Duerig, T., & Ferrari, V. (2020). The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale. *International Journal of Computer Vision, 128*, 1956–1981. https://doi.org/10.1007/s11263-020-01316-z"
+  },
+  "24": {
+    "author": "ONNX Runtime",
+    "year": "s. f.",
+    "entry": "ONNX Runtime. (s. f.). *ONNX Runtime documentation*. Recuperado el 5 de noviembre de 2026, de https://onnxruntime.ai/docs/"
+  },
+  "25": {
+    "author": "PyTorch",
+    "year": "s. f.",
+    "entry": "PyTorch. (s. f.). *ExecuTorch documentation*. Recuperado el 5 de noviembre de 2026, de https://pytorch.org/executorch/stable/"
+  },
+  "26": {
+    "author": "Carion et al.",
+    "year": "2020",
+    "entry": "Carion, N., Massa, F., Synnaeve, G., Usunier, N., Kirillov, A., & Zagoruyko, S. (2020). End-to-end object detection with transformers. En A. Vedaldi, H. Bischof, T. Brox, & J.-M. Frahm (Eds.), *Computer vision – ECCV 2020* (pp. 213–229). Springer. https://doi.org/10.1007/978-3-030-58452-8_13"
+  },
+  "27": {
+    "author": "COCO dataset contributors",
+    "year": "s. f.",
+    "entry": "COCO dataset contributors. (s. f.). *COCO API: PythonAPI/pycocotools/cocoeval.py* [Código fuente]. GitHub. Recuperado el 5 de noviembre de 2026, de https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py"
+  },
+  "28": {
+    "author": "Manning et al.",
+    "year": "2008",
+    "entry": "Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to information retrieval*. Cambridge University Press. https://nlp.stanford.edu/IR-book/"
+  },
+  "29": {
+    "author": "TensorFlow contributors",
+    "year": "s. f.",
+    "entry": "TensorFlow contributors. (s. f.). *Performance measurement* [Documentación de software]. GitHub. Recuperado el 5 de noviembre de 2026, de https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/measurement.md"
+  },
+  "30": {
+    "author": "Google",
+    "year": "s. f.-a",
+    "entry": "Google. (s. f.-a). *Android Debug Bridge (adb)*. Android Developers. Recuperado el 5 de noviembre de 2026, de https://developer.android.com/tools/adb"
+  },
+  "31": {
+    "author": "Google",
+    "year": "s. f.-e",
+    "entry": "Google. (s. f.-e). *GPU acceleration delegate with Interpreter API*. Google AI Edge. Recuperado el 5 de noviembre de 2026, de https://developers.google.com/edge/litert/android/gpu"
+  },
+  "32": {
+    "author": "Khronos Group",
+    "year": "s. f.",
+    "entry": "Khronos Group. (s. f.). *OpenCL: The open standard for parallel programming of heterogeneous systems*. Recuperado el 5 de noviembre de 2026, de https://www.khronos.org/opencl/"
+  },
+  "33": {
+    "author": "Roboflow",
+    "year": "s. f.",
+    "entry": "Roboflow. (s. f.). *Roboflow: Computer vision tools for developers and enterprises*. Recuperado el 5 de noviembre de 2026, de https://roboflow.com/"
+  },
+  "34": {
+    "author": "Cerda Leon",
+    "year": "2026",
+    "entry": "Cerda Leon, D. F. (2026). *AssistiveVision* (revisión 85c852ddcb543bce1bd69ad0db307f895d597881) [Código fuente]. GitHub. https://github.com/diomedescerda/AssistiveVision/tree/85c852ddcb543bce1bd69ad0db307f895d597881"
+  },
+  "35": {
+    "author": "Google",
+    "year": "s. f.-c",
+    "entry": "Google. (s. f.-c). *CameraX*. Android Developers. Recuperado el 5 de noviembre de 2026, de https://developer.android.com/media/camera/camerax"
+  },
+  "36": {
+    "author": "Google",
+    "year": "s. f.-f",
+    "entry": "Google. (s. f.-f). *LiteRT for Android*. Google AI Edge. Recuperado el 5 de noviembre de 2026, de https://developers.google.com/edge/litert/android"
+  },
+  "37": {
+    "author": "k2-fsa",
+    "year": "s. f.",
+    "entry": "k2-fsa. (s. f.). *Text-to-speech*. sherpa-onnx. Recuperado el 5 de noviembre de 2026, de https://k2-fsa.github.io/sherpa/onnx/tts/index.html"
+  },
+  "38": {
+    "author": "Kim et al.",
+    "year": "2021",
+    "entry": "Kim, J., Kong, J., & Son, J. (2021). *Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech* [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2106.06103"
+  },
+  "39": {
+    "author": "Rhasspy contributors",
+    "year": "s. f.",
+    "entry": "Rhasspy contributors. (s. f.). *Piper: A fast, local neural text to speech system* [Código fuente]. GitHub. Recuperado el 5 de noviembre de 2026, de https://github.com/rhasspy/piper"
+  },
+  "40": {
+    "author": "Google",
+    "year": "s. f.-b",
+    "entry": "Google. (s. f.-b). *AudioTrack*. Android Developers. Recuperado el 5 de noviembre de 2026, de https://developer.android.com/reference/android/media/AudioTrack"
+  },
+  "41": {
+    "author": "Google",
+    "year": "s. f.-d",
+    "entry": "Google. (s. f.-d). *DataStore*. Android Developers. Recuperado el 5 de noviembre de 2026, de https://developer.android.com/topic/libraries/architecture/datastore"
+  },
+  "42": {
+    "author": "NIST/SEMATECH",
+    "year": "s. f.",
+    "entry": "NIST/SEMATECH. (s. f.). Analysis of paired observations. En *e-Handbook of statistical methods* (sección 7.3.1.1). Recuperado el 5 de noviembre de 2026, de https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm"
+  },
+  "43": {
+    "author": "Efron",
+    "year": "1979",
+    "entry": "Efron, B. (1979). Bootstrap methods: Another look at the jackknife. *The Annals of Statistics, 7*(1), 1–26. https://doi.org/10.1214/aos/1176344552"
+  },
+  "44": {
+    "author": "Field & Welsh",
+    "year": "2007",
+    "entry": "Field, C. A., & Welsh, A. H. (2007). Bootstrapping clustered data. *Journal of the Royal Statistical Society: Series B (Statistical Methodology), 69*(3), 369–390. https://doi.org/10.1111/j.1467-9868.2007.00593.x"
+  },
+  "45": {
+    "author": "Szeliski",
+    "year": "2011",
+    "entry": "Szeliski, R. (2011). *Computer vision: Algorithms and applications*. Springer. https://doi.org/10.1007/978-1-84882-935-0"
+  },
+  "46": {
+    "author": "Camera & Imaging Products Association",
+    "year": "2017",
+    "entry": "Camera & Imaging Products Association. (2017). *Exif 2.31 metadata for XMP* (borrador CIPA DC-X010-2017). https://www.cipa.jp/std/documents/e/DC-X010-2017.pdf"
+  },
+  "47": {
+    "author": "NumPy developers",
+    "year": "s. f.",
+    "entry": "NumPy developers. (s. f.). *numpy.quantile*. Recuperado el 5 de noviembre de 2026, de https://numpy.org/doc/stable/reference/generated/numpy.quantile.html"
+  },
+  "48": {
+    "author": "Pillow contributors",
+    "year": "s. f.",
+    "entry": "Pillow contributors. (s. f.). *Pillow reference* [Documentación de software]. Recuperado el 5 de noviembre de 2026, de https://pillow.readthedocs.io/en/stable/reference/"
+  },
+  "49": {
+    "author": "Hunter",
+    "year": "2007",
+    "entry": "Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. *Computing in Science & Engineering, 9*(3), 90–95. https://doi.org/10.1109/MCSE.2007.55"
+  }
+}

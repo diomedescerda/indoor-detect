@@ -1,0 +1,2787 @@
+{
+  "user_id": "19721030",
+  "library_url": "https://www.zotero.org/users/19721030",
+  "applied": true,
+  "comparison_before": [
+    {
+      "reference_id": 1,
+      "title": "World report on vision",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8DT9DGNZ",
+          "reason": "title+author",
+          "title": "World report on vision",
+          "date": "2019",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 2,
+      "title": "Empowering the visually impaired: YOLOv8-based object detection in Android applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KL3RMNG8",
+          "reason": "doi",
+          "title": "Empowering the Visually Impaired: YOLOv8-based Object Detection in Android Applications",
+          "date": "2025-01-01",
+          "DOI": "10.1016/j.procs.2025.01.005"
+        }
+      ]
+    },
+    {
+      "reference_id": 3,
+      "title": "Development of mobile app to support the mobility of visually impaired people",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KYPF9V6Q",
+          "reason": "doi",
+          "title": "Development of Mobile App to Support the Mobility of Visually Impaired People",
+          "date": "2022/06/14",
+          "DOI": "10.32604/cmc.2022.028540"
+        }
+      ]
+    },
+    {
+      "reference_id": 4,
+      "title": "Third eye: Object recognition and speech generation for visually impaired",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KYFV7IDY",
+          "reason": "reviewed: DOI, título y cinco autores idénticos a BDWGY4KM; se reutiliza este registro sin fusionar ni borrar el duplicado existente.",
+          "title": "Third Eye: Object Recognition and Speech Generation for Visually Impaired",
+          "date": "2023-01-01",
+          "DOI": "10.1016/j.procs.2023.01.093"
+        }
+      ]
+    },
+    {
+      "reference_id": 5,
+      "title": "TensorFlow Lite",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CTZRRI2M",
+          "reason": "reviewed: La URL coincide con TensorFlow Lite; el parámetro hl=es-419 solo selecciona idioma. Falta el autor institucional.",
+          "title": "TensorFlow Lite",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 6,
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "K6CPPZZ4",
+          "reason": "doi",
+          "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "date": "2016-01-06",
+          "DOI": "10.48550/arXiv.1506.01497"
+        }
+      ]
+    },
+    {
+      "reference_id": 7,
+      "title": "You only look once: Unified, real-time object detection",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8HY9UC77",
+          "reason": "doi",
+          "title": "You Only Look Once: Unified, Real-Time Object Detection",
+          "date": "2016-06",
+          "DOI": "10.1109/CVPR.2016.91"
+        }
+      ]
+    },
+    {
+      "reference_id": 8,
+      "title": "SSD: Single shot MultiBox detector",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "LC9EX9HQ",
+          "reason": "doi",
+          "title": "SSD: Single Shot MultiBox Detector",
+          "date": "2016",
+          "DOI": "10.1007/978-3-319-46448-0_2"
+        }
+      ]
+    },
+    {
+      "reference_id": 9,
+      "title": "EfficientDet: Scalable and efficient object detection",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "94FBG8YF",
+          "reason": "title+author",
+          "title": "EfficientDet: Scalable and Efficient Object Detection",
+          "date": "2020-07-27",
+          "DOI": "10.48550/arXiv.1911.09070"
+        }
+      ]
+    },
+    {
+      "reference_id": 10,
+      "title": "Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 11,
+      "title": "Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "UCF4GGWA",
+          "reason": "title+author",
+          "title": "Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030",
+          "date": "2020",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 12,
+      "title": "Plan de Gobierno Rectoral 2024–2028",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KMBKKXX9",
+          "reason": "title+author",
+          "title": "Plan de Gobierno Rectoral 2024-2028",
+          "date": "2024",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 13,
+      "title": "Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CWDKFB4W",
+          "reason": "doi",
+          "title": "Deep Learning-Driven Assistive Technology for Blind Users: Real-Time Object Detection and Speech Feedback on Android",
+          "date": "2025-05-29",
+          "DOI": "10.13140/RG.2.2.28125.12005"
+        }
+      ]
+    },
+    {
+      "reference_id": 14,
+      "title": "Analysis of object recognition systems using augmented reality glasses",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "2KWZBJHD",
+          "reason": "doi",
+          "title": "Analysis of object recognition systems using augmented reality glasses",
+          "date": "2025-03-30",
+          "DOI": "10.35784/jcsi.6469"
+        }
+      ]
+    },
+    {
+      "reference_id": 15,
+      "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "YV5QEQ7I",
+          "reason": "title+author",
+          "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+          "date": "2017-04-17",
+          "DOI": "10.48550/arXiv.1704.04861"
+        }
+      ]
+    },
+    {
+      "reference_id": 16,
+      "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8PNW4XFQ",
+          "reason": "title+author",
+          "title": "MobileNetV2: Inverted Residuals and Linear Bottlenecks",
+          "date": "2019-03-21",
+          "DOI": "10.48550/arXiv.1801.04381"
+        }
+      ]
+    },
+    {
+      "reference_id": 17,
+      "title": "Real-time and accurate object detection on edge device with TensorFlow Lite",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "WGS693FU",
+          "reason": "doi",
+          "title": "Real-time and accurate object detection on edge device with TensorFlow Lite",
+          "date": "2020-11",
+          "DOI": "10.1088/1742-6596/1651/1/012114"
+        }
+      ]
+    },
+    {
+      "reference_id": 18,
+      "title": "Lightweight faster R-CNN for object detection in optical remote sensing images",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CZ3TADA5",
+          "reason": "doi",
+          "title": "Lightweight faster R-CNN for object detection in optical remote sensing images",
+          "date": "2025-05-09",
+          "DOI": "10.1038/s41598-025-99242-y"
+        }
+      ]
+    },
+    {
+      "reference_id": 19,
+      "title": "Object detection with TensorFlow Lite Model Maker",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 20,
+      "title": "Explore Ultralytics YOLOv8",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 21,
+      "title": "Ultralytics YOLO11",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 22,
+      "title": "Microsoft COCO: Common objects in context",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "PDZHG9WQ",
+          "reason": "title+author",
+          "title": "Microsoft COCO: Common Objects in Context",
+          "date": "2015-02-21",
+          "DOI": "10.48550/arXiv.1405.0312"
+        }
+      ]
+    },
+    {
+      "reference_id": 23,
+      "title": "The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "232X94YF",
+          "reason": "doi",
+          "title": "The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale",
+          "date": "07/2020",
+          "DOI": "10.1007/s11263-020-01316-z"
+        }
+      ]
+    },
+    {
+      "reference_id": 24,
+      "title": "ONNX Runtime documentation",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "43WPD5UB",
+          "reason": "url",
+          "title": "ONNX Runtime",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 25,
+      "title": "ExecuTorch documentation",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 26,
+      "title": "End-to-end object detection with transformers",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "42HZFAGS",
+          "reason": "title+author",
+          "title": "End-to-End Object Detection with Transformers",
+          "date": "2020-05-28",
+          "DOI": "10.48550/arXiv.2005.12872"
+        }
+      ]
+    },
+    {
+      "reference_id": 27,
+      "title": "COCO API: PythonAPI/pycocotools/cocoeval.py",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 28,
+      "title": "Introduction to information retrieval",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 29,
+      "title": "Performance measurement",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 30,
+      "title": "Android Debug Bridge (adb)",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "3AGSNSIH",
+          "reason": "url",
+          "title": "Android Debug Bridge (adb)  |  Android Studio  |  Android Developers",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 31,
+      "title": "GPU acceleration delegate with Interpreter API",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "Z67FBP45",
+          "reason": "url",
+          "title": "GPU acceleration delegate with Interpreter API | Google AI Edge",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 32,
+      "title": "OpenCL: The open standard for parallel programming of heterogeneous systems",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "NMUHD3A8",
+          "reason": "url",
+          "title": "OpenCL - The Open Standard for Parallel Programming of Heterogeneous Systems",
+          "date": "2013-07-21T12:39:00-07:00",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 33,
+      "title": "Roboflow: Computer vision tools for developers and enterprises",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "9LYX8I7M",
+          "reason": "url",
+          "title": "Roboflow: Computer vision tools for developers and enterprises",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 34,
+      "title": "AssistiveVision",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 35,
+      "title": "CameraX",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 36,
+      "title": "LiteRT for Android",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 37,
+      "title": "Text-to-speech",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 38,
+      "title": "Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 39,
+      "title": "Piper: A fast, local neural text to speech system",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 40,
+      "title": "AudioTrack",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 41,
+      "title": "DataStore",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 42,
+      "title": "Analysis of paired observations",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 43,
+      "title": "Bootstrap methods: Another look at the jackknife",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 44,
+      "title": "Bootstrapping clustered data",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 45,
+      "title": "Computer vision: Algorithms and applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "4P6DJUC2",
+          "reason": "reviewed: Título y Richard Szeliski coinciden con el libro Springer; se corrigen tipo de fuente, separación del autor y edición identificada por DOI.",
+          "title": "Computer Vision: Algorithms and Applications",
+          "date": "2010",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 46,
+      "title": "Exif 2.31 metadata for XMP",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 47,
+      "title": "numpy.quantile",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 48,
+      "title": "Pillow reference",
+      "status": "missing",
+      "matches": []
+    },
+    {
+      "reference_id": 49,
+      "title": "Matplotlib: A 2D graphics environment",
+      "status": "missing",
+      "matches": []
+    }
+  ],
+  "created": [
+    {
+      "reference_id": 10,
+      "key": "E4RI5G4V",
+      "title": "Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual"
+    },
+    {
+      "reference_id": 19,
+      "key": "W7SPIADP",
+      "title": "Object detection with TensorFlow Lite Model Maker"
+    },
+    {
+      "reference_id": 20,
+      "key": "EV4EFVQN",
+      "title": "Explore Ultralytics YOLOv8"
+    },
+    {
+      "reference_id": 21,
+      "key": "P2R3PMC7",
+      "title": "Ultralytics YOLO11"
+    },
+    {
+      "reference_id": 25,
+      "key": "SG7V2BWK",
+      "title": "ExecuTorch documentation"
+    },
+    {
+      "reference_id": 27,
+      "key": "8IZPKPMI",
+      "title": "COCO API: PythonAPI/pycocotools/cocoeval.py"
+    },
+    {
+      "reference_id": 28,
+      "key": "ESFWQ5U6",
+      "title": "Introduction to information retrieval"
+    },
+    {
+      "reference_id": 29,
+      "key": "96BDHRKV",
+      "title": "Performance measurement"
+    },
+    {
+      "reference_id": 34,
+      "key": "KB77PE3W",
+      "title": "AssistiveVision"
+    },
+    {
+      "reference_id": 35,
+      "key": "QHKXMEZG",
+      "title": "CameraX"
+    },
+    {
+      "reference_id": 36,
+      "key": "QBPV82VV",
+      "title": "LiteRT for Android"
+    },
+    {
+      "reference_id": 37,
+      "key": "ZV5K5ZE4",
+      "title": "Text-to-speech"
+    },
+    {
+      "reference_id": 38,
+      "key": "28WZHFUM",
+      "title": "Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech"
+    },
+    {
+      "reference_id": 39,
+      "key": "GRW33HQM",
+      "title": "Piper: A fast, local neural text to speech system"
+    },
+    {
+      "reference_id": 40,
+      "key": "GJX9HN25",
+      "title": "AudioTrack"
+    },
+    {
+      "reference_id": 41,
+      "key": "F3PT2KRV",
+      "title": "DataStore"
+    },
+    {
+      "reference_id": 42,
+      "key": "FHFPXK7K",
+      "title": "Analysis of paired observations"
+    },
+    {
+      "reference_id": 43,
+      "key": "5IGPE9VQ",
+      "title": "Bootstrap methods: Another look at the jackknife"
+    },
+    {
+      "reference_id": 44,
+      "key": "ATFISMG4",
+      "title": "Bootstrapping clustered data"
+    },
+    {
+      "reference_id": 46,
+      "key": "K7QG9Z49",
+      "title": "Exif 2.31 metadata for XMP"
+    },
+    {
+      "reference_id": 47,
+      "key": "97UPFQD9",
+      "title": "numpy.quantile"
+    },
+    {
+      "reference_id": 48,
+      "key": "T7C4NIA6",
+      "title": "Pillow reference"
+    },
+    {
+      "reference_id": 49,
+      "key": "HJ7H7QNR",
+      "title": "Matplotlib: A 2D graphics environment"
+    }
+  ],
+  "reused": [
+    {
+      "reference_id": 1,
+      "title": "World report on vision",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8DT9DGNZ",
+          "reason": "title+author",
+          "title": "World report on vision",
+          "date": "2019",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 2,
+      "title": "Empowering the visually impaired: YOLOv8-based object detection in Android applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KL3RMNG8",
+          "reason": "doi",
+          "title": "Empowering the Visually Impaired: YOLOv8-based Object Detection in Android Applications",
+          "date": "2025-01-01",
+          "DOI": "10.1016/j.procs.2025.01.005"
+        }
+      ]
+    },
+    {
+      "reference_id": 3,
+      "title": "Development of mobile app to support the mobility of visually impaired people",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KYPF9V6Q",
+          "reason": "doi",
+          "title": "Development of Mobile App to Support the Mobility of Visually Impaired People",
+          "date": "2022/06/14",
+          "DOI": "10.32604/cmc.2022.028540"
+        }
+      ]
+    },
+    {
+      "reference_id": 4,
+      "title": "Third eye: Object recognition and speech generation for visually impaired",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KYFV7IDY",
+          "reason": "reviewed: DOI, título y cinco autores idénticos a BDWGY4KM; se reutiliza este registro sin fusionar ni borrar el duplicado existente.",
+          "title": "Third Eye: Object Recognition and Speech Generation for Visually Impaired",
+          "date": "2023-01-01",
+          "DOI": "10.1016/j.procs.2023.01.093"
+        }
+      ]
+    },
+    {
+      "reference_id": 5,
+      "title": "TensorFlow Lite",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CTZRRI2M",
+          "reason": "reviewed: La URL coincide con TensorFlow Lite; el parámetro hl=es-419 solo selecciona idioma. Falta el autor institucional.",
+          "title": "TensorFlow Lite",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 6,
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "K6CPPZZ4",
+          "reason": "doi",
+          "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "date": "2016-01-06",
+          "DOI": "10.48550/arXiv.1506.01497"
+        }
+      ]
+    },
+    {
+      "reference_id": 7,
+      "title": "You only look once: Unified, real-time object detection",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8HY9UC77",
+          "reason": "doi",
+          "title": "You Only Look Once: Unified, Real-Time Object Detection",
+          "date": "2016-06",
+          "DOI": "10.1109/CVPR.2016.91"
+        }
+      ]
+    },
+    {
+      "reference_id": 8,
+      "title": "SSD: Single shot MultiBox detector",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "LC9EX9HQ",
+          "reason": "doi",
+          "title": "SSD: Single Shot MultiBox Detector",
+          "date": "2016",
+          "DOI": "10.1007/978-3-319-46448-0_2"
+        }
+      ]
+    },
+    {
+      "reference_id": 9,
+      "title": "EfficientDet: Scalable and efficient object detection",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "94FBG8YF",
+          "reason": "title+author",
+          "title": "EfficientDet: Scalable and Efficient Object Detection",
+          "date": "2020-07-27",
+          "DOI": "10.48550/arXiv.1911.09070"
+        }
+      ]
+    },
+    {
+      "reference_id": 11,
+      "title": "Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "UCF4GGWA",
+          "reason": "title+author",
+          "title": "Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030",
+          "date": "2020",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 12,
+      "title": "Plan de Gobierno Rectoral 2024–2028",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KMBKKXX9",
+          "reason": "title+author",
+          "title": "Plan de Gobierno Rectoral 2024-2028",
+          "date": "2024",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 13,
+      "title": "Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CWDKFB4W",
+          "reason": "doi",
+          "title": "Deep Learning-Driven Assistive Technology for Blind Users: Real-Time Object Detection and Speech Feedback on Android",
+          "date": "2025-05-29",
+          "DOI": "10.13140/RG.2.2.28125.12005"
+        }
+      ]
+    },
+    {
+      "reference_id": 14,
+      "title": "Analysis of object recognition systems using augmented reality glasses",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "2KWZBJHD",
+          "reason": "doi",
+          "title": "Analysis of object recognition systems using augmented reality glasses",
+          "date": "2025-03-30",
+          "DOI": "10.35784/jcsi.6469"
+        }
+      ]
+    },
+    {
+      "reference_id": 15,
+      "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "YV5QEQ7I",
+          "reason": "title+author",
+          "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+          "date": "2017-04-17",
+          "DOI": "10.48550/arXiv.1704.04861"
+        }
+      ]
+    },
+    {
+      "reference_id": 16,
+      "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8PNW4XFQ",
+          "reason": "title+author",
+          "title": "MobileNetV2: Inverted Residuals and Linear Bottlenecks",
+          "date": "2019-03-21",
+          "DOI": "10.48550/arXiv.1801.04381"
+        }
+      ]
+    },
+    {
+      "reference_id": 17,
+      "title": "Real-time and accurate object detection on edge device with TensorFlow Lite",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "WGS693FU",
+          "reason": "doi",
+          "title": "Real-time and accurate object detection on edge device with TensorFlow Lite",
+          "date": "2020-11",
+          "DOI": "10.1088/1742-6596/1651/1/012114"
+        }
+      ]
+    },
+    {
+      "reference_id": 18,
+      "title": "Lightweight faster R-CNN for object detection in optical remote sensing images",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CZ3TADA5",
+          "reason": "doi",
+          "title": "Lightweight faster R-CNN for object detection in optical remote sensing images",
+          "date": "2025-05-09",
+          "DOI": "10.1038/s41598-025-99242-y"
+        }
+      ]
+    },
+    {
+      "reference_id": 22,
+      "title": "Microsoft COCO: Common objects in context",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "PDZHG9WQ",
+          "reason": "title+author",
+          "title": "Microsoft COCO: Common Objects in Context",
+          "date": "2015-02-21",
+          "DOI": "10.48550/arXiv.1405.0312"
+        }
+      ]
+    },
+    {
+      "reference_id": 23,
+      "title": "The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "232X94YF",
+          "reason": "doi",
+          "title": "The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale",
+          "date": "07/2020",
+          "DOI": "10.1007/s11263-020-01316-z"
+        }
+      ]
+    },
+    {
+      "reference_id": 24,
+      "title": "ONNX Runtime documentation",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "43WPD5UB",
+          "reason": "url",
+          "title": "ONNX Runtime",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 26,
+      "title": "End-to-end object detection with transformers",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "42HZFAGS",
+          "reason": "title+author",
+          "title": "End-to-End Object Detection with Transformers",
+          "date": "2020-05-28",
+          "DOI": "10.48550/arXiv.2005.12872"
+        }
+      ]
+    },
+    {
+      "reference_id": 30,
+      "title": "Android Debug Bridge (adb)",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "3AGSNSIH",
+          "reason": "url",
+          "title": "Android Debug Bridge (adb)  |  Android Studio  |  Android Developers",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 31,
+      "title": "GPU acceleration delegate with Interpreter API",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "Z67FBP45",
+          "reason": "url",
+          "title": "GPU acceleration delegate with Interpreter API | Google AI Edge",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 32,
+      "title": "OpenCL: The open standard for parallel programming of heterogeneous systems",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "NMUHD3A8",
+          "reason": "url",
+          "title": "OpenCL - The Open Standard for Parallel Programming of Heterogeneous Systems",
+          "date": "2013-07-21T12:39:00-07:00",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 33,
+      "title": "Roboflow: Computer vision tools for developers and enterprises",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "9LYX8I7M",
+          "reason": "url",
+          "title": "Roboflow: Computer vision tools for developers and enterprises",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 45,
+      "title": "Computer vision: Algorithms and applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "4P6DJUC2",
+          "reason": "reviewed: Título y Richard Szeliski coinciden con el libro Springer; se corrigen tipo de fuente, separación del autor y edición identificada por DOI.",
+          "title": "Computer Vision: Algorithms and Applications",
+          "date": "2010",
+          "DOI": ""
+        }
+      ]
+    }
+  ],
+  "ambiguous": [],
+  "normalized": [
+    {
+      "reference_id": 5,
+      "key": "CTZRRI2M",
+      "before": {
+        "key": "CTZRRI2M",
+        "version": 91,
+        "library": {
+          "type": "user",
+          "id": 19721030,
+          "name": "diomedescerda",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/diomedescerda",
+              "type": "text/html"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.zotero.org/users/19721030/items/CTZRRI2M",
+            "type": "application/json"
+          },
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda/items/CTZRRI2M",
+            "type": "text/html"
+          },
+          "attachment": {
+            "href": "https://api.zotero.org/users/19721030/items/CLXC5T7T",
+            "type": "application/json",
+            "attachmentType": "text/html"
+          }
+        },
+        "meta": {
+          "numChildren": 1
+        },
+        "data": {
+          "key": "CTZRRI2M",
+          "version": 91,
+          "itemType": "webpage",
+          "title": "TensorFlow Lite",
+          "creators": [],
+          "abstractNote": "",
+          "websiteTitle": "TensorFlow",
+          "websiteType": "",
+          "date": "",
+          "publisher": "",
+          "place": "",
+          "DOI": "",
+          "citationKey": "",
+          "url": "https://www.tensorflow.org/lite/guide?hl=es-419",
+          "accessDate": "2026-03-04T16:39:31Z",
+          "shortTitle": "",
+          "language": "es",
+          "rights": "",
+          "extra": "",
+          "tags": [],
+          "collections": [
+            "FWKXJXWX"
+          ],
+          "relations": {},
+          "dateAdded": "2026-03-04T16:39:31Z",
+          "dateModified": "2026-03-04T16:40:57Z"
+        }
+      },
+      "after": {
+        "itemType": "webpage",
+        "title": "TensorFlow Lite",
+        "creators": [
+          {
+            "creatorType": "author",
+            "name": "TensorFlow"
+          }
+        ],
+        "abstractNote": "",
+        "websiteTitle": "TensorFlow",
+        "websiteType": "",
+        "date": "",
+        "publisher": "",
+        "place": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://www.tensorflow.org/lite/guide",
+        "accessDate": "2026-11-05",
+        "shortTitle": "",
+        "language": "en",
+        "rights": "",
+        "extra": "",
+        "tags": [],
+        "collections": [
+          "FWKXJXWX"
+        ],
+        "relations": {}
+      }
+    },
+    {
+      "reference_id": 6,
+      "key": "K6CPPZZ4",
+      "before": {
+        "key": "K6CPPZZ4",
+        "version": 129,
+        "library": {
+          "type": "user",
+          "id": 19721030,
+          "name": "diomedescerda",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/diomedescerda",
+              "type": "text/html"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.zotero.org/users/19721030/items/K6CPPZZ4",
+            "type": "application/json"
+          },
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda/items/K6CPPZZ4",
+            "type": "text/html"
+          },
+          "attachment": {
+            "href": "https://api.zotero.org/users/19721030/items/E529PPCY",
+            "type": "application/json",
+            "attachmentType": "application/pdf",
+            "attachmentSize": 6913803
+          }
+        },
+        "meta": {
+          "creatorSummary": "Ren et al.",
+          "parsedDate": "2016-01-06",
+          "numChildren": 3
+        },
+        "data": {
+          "key": "K6CPPZZ4",
+          "version": 129,
+          "itemType": "preprint",
+          "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Shaoqing",
+              "lastName": "Ren"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Kaiming",
+              "lastName": "He"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Ross",
+              "lastName": "Girshick"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Jian",
+              "lastName": "Sun"
+            }
+          ],
+          "abstractNote": "State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.",
+          "genre": "",
+          "repository": "arXiv",
+          "archiveID": "arXiv:1506.01497",
+          "place": "",
+          "date": "2016-01-06",
+          "series": "",
+          "seriesNumber": "",
+          "DOI": "10.48550/arXiv.1506.01497",
+          "citationKey": "",
+          "url": "http://arxiv.org/abs/1506.01497",
+          "accessDate": "2026-03-16T16:45:32Z",
+          "archive": "",
+          "archiveLocation": "",
+          "shortTitle": "Faster R-CNN",
+          "language": "",
+          "libraryCatalog": "arXiv.org",
+          "callNumber": "",
+          "rights": "",
+          "extra": "arXiv:1506.01497 [cs]",
+          "tags": [
+            {
+              "tag": "Computer Science - Computer Vision and Pattern Recognition",
+              "type": 1
+            }
+          ],
+          "collections": [
+            "FWKXJXWX"
+          ],
+          "relations": {},
+          "dateAdded": "2026-03-16T16:45:32Z",
+          "dateModified": "2026-03-16T16:45:32Z"
+        }
+      },
+      "after": {
+        "itemType": "preprint",
+        "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+        "creators": [
+          {
+            "creatorType": "author",
+            "lastName": "Ren",
+            "firstName": "Shaoqing"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "He",
+            "firstName": "Kaiming"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Girshick",
+            "firstName": "Ross"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Sun",
+            "firstName": "Jian"
+          }
+        ],
+        "abstractNote": "State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.",
+        "genre": "Preprint",
+        "repository": "arXiv",
+        "archiveID": "1506.01497",
+        "place": "",
+        "date": "2015",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "10.48550/arXiv.1506.01497",
+        "citationKey": "",
+        "url": "https://doi.org/10.48550/arXiv.1506.01497",
+        "accessDate": "2026-03-16T16:45:32Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "Faster R-CNN",
+        "language": "en",
+        "libraryCatalog": "arXiv.org",
+        "callNumber": "",
+        "rights": "",
+        "extra": "arXiv:1506.01497 [cs]",
+        "tags": [
+          {
+            "tag": "Computer Science - Computer Vision and Pattern Recognition",
+            "type": 1
+          }
+        ],
+        "collections": [
+          "FWKXJXWX"
+        ],
+        "relations": {}
+      }
+    },
+    {
+      "reference_id": 9,
+      "key": "94FBG8YF",
+      "before": {
+        "key": "94FBG8YF",
+        "version": 137,
+        "library": {
+          "type": "user",
+          "id": 19721030,
+          "name": "diomedescerda",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/diomedescerda",
+              "type": "text/html"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.zotero.org/users/19721030/items/94FBG8YF",
+            "type": "application/json"
+          },
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda/items/94FBG8YF",
+            "type": "text/html"
+          },
+          "attachment": {
+            "href": "https://api.zotero.org/users/19721030/items/QB9DED7L",
+            "type": "application/json",
+            "attachmentType": "application/pdf",
+            "attachmentSize": 751604
+          }
+        },
+        "meta": {
+          "creatorSummary": "Tan et al.",
+          "parsedDate": "2020-07-27",
+          "numChildren": 3
+        },
+        "data": {
+          "key": "94FBG8YF",
+          "version": 137,
+          "itemType": "preprint",
+          "title": "EfficientDet: Scalable and Efficient Object Detection",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Mingxing",
+              "lastName": "Tan"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Ruoming",
+              "lastName": "Pang"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Quoc V.",
+              "lastName": "Le"
+            }
+          ],
+          "abstractNote": "Model efficiency has become increasingly important in computer vision. In this paper, we systematically study neural network architecture design choices for object detection and propose several key optimizations to improve efficiency. First, we propose a weighted bi-directional feature pyramid network (BiFPN), which allows easy and fast multiscale feature fusion; Second, we propose a compound scaling method that uniformly scales the resolution, depth, and width for all backbone, feature network, and box/class prediction networks at the same time. Based on these optimizations and better backbones, we have developed a new family of object detectors, called EfficientDet, which consistently achieve much better efficiency than prior art across a wide spectrum of resource constraints. In particular, with single model and single-scale, our EfficientDet-D7 achieves state-of-the-art 55.1 AP on COCO test-dev with 77M parameters and 410B FLOPs, being 4x - 9x smaller and using 13x - 42x fewer FLOPs than previous detectors. Code is available at https://github.com/google/automl/tree/master/efficientdet.",
+          "genre": "",
+          "repository": "arXiv",
+          "archiveID": "arXiv:1911.09070",
+          "place": "",
+          "date": "2020-07-27",
+          "series": "",
+          "seriesNumber": "",
+          "DOI": "10.48550/arXiv.1911.09070",
+          "citationKey": "",
+          "url": "http://arxiv.org/abs/1911.09070",
+          "accessDate": "2026-03-16T16:48:33Z",
+          "archive": "",
+          "archiveLocation": "",
+          "shortTitle": "EfficientDet",
+          "language": "",
+          "libraryCatalog": "arXiv.org",
+          "callNumber": "",
+          "rights": "",
+          "extra": "arXiv:1911.09070 [cs]",
+          "tags": [
+            {
+              "tag": "Computer Science - Computer Vision and Pattern Recognition",
+              "type": 1
+            },
+            {
+              "tag": "Computer Science - Machine Learning",
+              "type": 1
+            },
+            {
+              "tag": "Electrical Engineering and Systems Science - Image and Video Processing",
+              "type": 1
+            }
+          ],
+          "collections": [
+            "FWKXJXWX"
+          ],
+          "relations": {},
+          "dateAdded": "2026-03-16T16:48:33Z",
+          "dateModified": "2026-03-16T16:48:33Z"
+        }
+      },
+      "after": {
+        "itemType": "conferencePaper",
+        "title": "EfficientDet: Scalable and efficient object detection",
+        "creators": [
+          {
+            "creatorType": "author",
+            "lastName": "Tan",
+            "firstName": "Mingxing"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Pang",
+            "firstName": "Ruoming"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Le",
+            "firstName": "Quoc V."
+          }
+        ],
+        "abstractNote": "Model efficiency has become increasingly important in computer vision. In this paper, we systematically study neural network architecture design choices for object detection and propose several key optimizations to improve efficiency. First, we propose a weighted bi-directional feature pyramid network (BiFPN), which allows easy and fast multiscale feature fusion; Second, we propose a compound scaling method that uniformly scales the resolution, depth, and width for all backbone, feature network, and box/class prediction networks at the same time. Based on these optimizations and better backbones, we have developed a new family of object detectors, called EfficientDet, which consistently achieve much better efficiency than prior art across a wide spectrum of resource constraints. In particular, with single model and single-scale, our EfficientDet-D7 achieves state-of-the-art 55.1 AP on COCO test-dev with 77M parameters and 410B FLOPs, being 4x - 9x smaller and using 13x - 42x fewer FLOPs than previous detectors. Code is available at https://github.com/google/automl/tree/master/efficientdet.",
+        "place": "",
+        "date": "2020-07-27",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "10.1109/CVPR42600.2020.01079",
+        "citationKey": "",
+        "url": "https://doi.org/10.1109/CVPR42600.2020.01079",
+        "accessDate": "2026-03-16T16:48:33Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "EfficientDet",
+        "language": "en",
+        "libraryCatalog": "arXiv.org",
+        "callNumber": "",
+        "rights": "",
+        "extra": "arXiv:1911.09070 [cs]",
+        "tags": [
+          {
+            "tag": "Computer Science - Computer Vision and Pattern Recognition",
+            "type": 1
+          },
+          {
+            "tag": "Computer Science - Machine Learning",
+            "type": 1
+          },
+          {
+            "tag": "Electrical Engineering and Systems Science - Image and Video Processing",
+            "type": 1
+          }
+        ],
+        "collections": [
+          "FWKXJXWX"
+        ],
+        "relations": {},
+        "proceedingsTitle": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "publisher": "IEEE",
+        "pages": "10781–10790"
+      }
+    },
+    {
+      "reference_id": 16,
+      "key": "8PNW4XFQ",
+      "before": {
+        "key": "8PNW4XFQ",
+        "version": 149,
+        "library": {
+          "type": "user",
+          "id": 19721030,
+          "name": "diomedescerda",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/diomedescerda",
+              "type": "text/html"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.zotero.org/users/19721030/items/8PNW4XFQ",
+            "type": "application/json"
+          },
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda/items/8PNW4XFQ",
+            "type": "text/html"
+          },
+          "attachment": {
+            "href": "https://api.zotero.org/users/19721030/items/BKEYZLP5",
+            "type": "application/json",
+            "attachmentType": "application/pdf",
+            "attachmentSize": 1539146
+          }
+        },
+        "meta": {
+          "creatorSummary": "Sandler et al.",
+          "parsedDate": "2019-03-21",
+          "numChildren": 2
+        },
+        "data": {
+          "key": "8PNW4XFQ",
+          "version": 149,
+          "itemType": "preprint",
+          "title": "MobileNetV2: Inverted Residuals and Linear Bottlenecks",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Mark",
+              "lastName": "Sandler"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Andrew",
+              "lastName": "Howard"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Menglong",
+              "lastName": "Zhu"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Andrey",
+              "lastName": "Zhmoginov"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Liang-Chieh",
+              "lastName": "Chen"
+            }
+          ],
+          "abstractNote": "In this paper we describe a new mobile architecture, MobileNetV2, that improves the state of the art performance of mobile models on multiple tasks and benchmarks as well as across a spectrum of different model sizes. We also describe efficient ways of applying these mobile models to object detection in a novel framework we call SSDLite. Additionally, we demonstrate how to build mobile semantic segmentation models through a reduced form of DeepLabv3 which we call Mobile DeepLabv3. The MobileNetV2 architecture is based on an inverted residual structure where the input and output of the residual block are thin bottleneck layers opposite to traditional residual models which use expanded representations in the input an MobileNetV2 uses lightweight depthwise convolutions to filter features in the intermediate expansion layer. Additionally, we find that it is important to remove non-linearities in the narrow layers in order to maintain representational power. We demonstrate that this improves performance and provide an intuition that led to this design. Finally, our approach allows decoupling of the input/output domains from the expressiveness of the transformation, which provides a convenient framework for further analysis. We measure our performance on Imagenet classification, COCO object detection, VOC image segmentation. We evaluate the trade-offs between accuracy, and number of operations measured by multiply-adds (MAdd), as well as the number of parameters",
+          "genre": "",
+          "repository": "arXiv",
+          "archiveID": "arXiv:1801.04381",
+          "place": "",
+          "date": "2019-03-21",
+          "series": "",
+          "seriesNumber": "",
+          "DOI": "10.48550/arXiv.1801.04381",
+          "citationKey": "",
+          "url": "http://arxiv.org/abs/1801.04381",
+          "accessDate": "2026-03-16T16:54:35Z",
+          "archive": "",
+          "archiveLocation": "",
+          "shortTitle": "MobileNetV2",
+          "language": "",
+          "libraryCatalog": "arXiv.org",
+          "callNumber": "",
+          "rights": "",
+          "extra": "arXiv:1801.04381 [cs]",
+          "tags": [
+            {
+              "tag": "Computer Science - Computer Vision and Pattern Recognition",
+              "type": 1
+            }
+          ],
+          "collections": [
+            "FWKXJXWX"
+          ],
+          "relations": {},
+          "dateAdded": "2026-03-16T16:54:35Z",
+          "dateModified": "2026-03-16T16:54:35Z"
+        }
+      },
+      "after": {
+        "itemType": "conferencePaper",
+        "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+        "creators": [
+          {
+            "creatorType": "author",
+            "lastName": "Sandler",
+            "firstName": "Mark"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Howard",
+            "firstName": "Andrew"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Zhu",
+            "firstName": "Menglong"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Zhmoginov",
+            "firstName": "Andrey"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Chen",
+            "firstName": "Liang-Chieh"
+          }
+        ],
+        "abstractNote": "In this paper we describe a new mobile architecture, MobileNetV2, that improves the state of the art performance of mobile models on multiple tasks and benchmarks as well as across a spectrum of different model sizes. We also describe efficient ways of applying these mobile models to object detection in a novel framework we call SSDLite. Additionally, we demonstrate how to build mobile semantic segmentation models through a reduced form of DeepLabv3 which we call Mobile DeepLabv3. The MobileNetV2 architecture is based on an inverted residual structure where the input and output of the residual block are thin bottleneck layers opposite to traditional residual models which use expanded representations in the input an MobileNetV2 uses lightweight depthwise convolutions to filter features in the intermediate expansion layer. Additionally, we find that it is important to remove non-linearities in the narrow layers in order to maintain representational power. We demonstrate that this improves performance and provide an intuition that led to this design. Finally, our approach allows decoupling of the input/output domains from the expressiveness of the transformation, which provides a convenient framework for further analysis. We measure our performance on Imagenet classification, COCO object detection, VOC image segmentation. We evaluate the trade-offs between accuracy, and number of operations measured by multiply-adds (MAdd), as well as the number of parameters",
+        "place": "",
+        "date": "2018",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "10.1109/CVPR.2018.00474",
+        "citationKey": "",
+        "url": "https://doi.org/10.1109/CVPR.2018.00474",
+        "accessDate": "2026-03-16T16:54:35Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "MobileNetV2",
+        "language": "en",
+        "libraryCatalog": "arXiv.org",
+        "callNumber": "",
+        "rights": "",
+        "extra": "arXiv:1801.04381 [cs]",
+        "tags": [
+          {
+            "tag": "Computer Science - Computer Vision and Pattern Recognition",
+            "type": 1
+          }
+        ],
+        "collections": [
+          "FWKXJXWX"
+        ],
+        "relations": {},
+        "proceedingsTitle": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "publisher": "IEEE",
+        "pages": "4510–4520"
+      }
+    },
+    {
+      "reference_id": 22,
+      "key": "PDZHG9WQ",
+      "before": {
+        "key": "PDZHG9WQ",
+        "version": 113,
+        "library": {
+          "type": "user",
+          "id": 19721030,
+          "name": "diomedescerda",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/diomedescerda",
+              "type": "text/html"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.zotero.org/users/19721030/items/PDZHG9WQ",
+            "type": "application/json"
+          },
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda/items/PDZHG9WQ",
+            "type": "text/html"
+          },
+          "attachment": {
+            "href": "https://api.zotero.org/users/19721030/items/2N2H8H69",
+            "type": "application/json",
+            "attachmentType": "application/pdf",
+            "attachmentSize": 8068258
+          }
+        },
+        "meta": {
+          "creatorSummary": "Lin et al.",
+          "parsedDate": "2015-02-21",
+          "numChildren": 3
+        },
+        "data": {
+          "key": "PDZHG9WQ",
+          "version": 113,
+          "itemType": "preprint",
+          "title": "Microsoft COCO: Common Objects in Context",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Tsung-Yi",
+              "lastName": "Lin"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Michael",
+              "lastName": "Maire"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Serge",
+              "lastName": "Belongie"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Lubomir",
+              "lastName": "Bourdev"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Ross",
+              "lastName": "Girshick"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "James",
+              "lastName": "Hays"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Pietro",
+              "lastName": "Perona"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Deva",
+              "lastName": "Ramanan"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "C. Lawrence",
+              "lastName": "Zitnick"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Piotr",
+              "lastName": "Dollár"
+            }
+          ],
+          "abstractNote": "We present a new dataset with the goal of advancing the state-of-the-art in object recognition by placing the question of object recognition in the context of the broader question of scene understanding. This is achieved by gathering images of complex everyday scenes containing common objects in their natural context. Objects are labeled using per-instance segmentations to aid in precise object localization. Our dataset contains photos of 91 objects types that would be easily recognizable by a 4 year old. With a total of 2.5 million labeled instances in 328k images, the creation of our dataset drew upon extensive crowd worker involvement via novel user interfaces for category detection, instance spotting and instance segmentation. We present a detailed statistical analysis of the dataset in comparison to PASCAL, ImageNet, and SUN. Finally, we provide baseline performance analysis for bounding box and segmentation detection results using a Deformable Parts Model.",
+          "genre": "",
+          "repository": "arXiv",
+          "archiveID": "arXiv:1405.0312",
+          "place": "",
+          "date": "2015-02-21",
+          "series": "",
+          "seriesNumber": "",
+          "DOI": "10.48550/arXiv.1405.0312",
+          "citationKey": "",
+          "url": "http://arxiv.org/abs/1405.0312",
+          "accessDate": "2026-03-16T16:31:58Z",
+          "archive": "",
+          "archiveLocation": "",
+          "shortTitle": "Microsoft COCO",
+          "language": "",
+          "libraryCatalog": "arXiv.org",
+          "callNumber": "",
+          "rights": "",
+          "extra": "arXiv:1405.0312 [cs]",
+          "tags": [
+            {
+              "tag": "Computer Science - Computer Vision and Pattern Recognition",
+              "type": 1
+            }
+          ],
+          "collections": [
+            "FWKXJXWX"
+          ],
+          "relations": {},
+          "dateAdded": "2026-03-16T16:31:58Z",
+          "dateModified": "2026-03-16T16:31:58Z"
+        }
+      },
+      "after": {
+        "itemType": "bookSection",
+        "title": "Microsoft COCO: Common objects in context",
+        "creators": [
+          {
+            "creatorType": "author",
+            "lastName": "Lin",
+            "firstName": "Tsung-Yi"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Maire",
+            "firstName": "Michael"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Belongie",
+            "firstName": "Serge"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Hays",
+            "firstName": "James"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Perona",
+            "firstName": "Pietro"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Ramanan",
+            "firstName": "Deva"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Dollár",
+            "firstName": "Piotr"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Zitnick",
+            "firstName": "C. Lawrence"
+          },
+          {
+            "creatorType": "editor",
+            "lastName": "Fleet",
+            "firstName": "D."
+          },
+          {
+            "creatorType": "editor",
+            "lastName": "Pajdla",
+            "firstName": "T."
+          },
+          {
+            "creatorType": "editor",
+            "lastName": "Schiele",
+            "firstName": "B."
+          },
+          {
+            "creatorType": "editor",
+            "lastName": "Tuytelaars",
+            "firstName": "T."
+          }
+        ],
+        "abstractNote": "We present a new dataset with the goal of advancing the state-of-the-art in object recognition by placing the question of object recognition in the context of the broader question of scene understanding. This is achieved by gathering images of complex everyday scenes containing common objects in their natural context. Objects are labeled using per-instance segmentations to aid in precise object localization. Our dataset contains photos of 91 objects types that would be easily recognizable by a 4 year old. With a total of 2.5 million labeled instances in 328k images, the creation of our dataset drew upon extensive crowd worker involvement via novel user interfaces for category detection, instance spotting and instance segmentation. We present a detailed statistical analysis of the dataset in comparison to PASCAL, ImageNet, and SUN. Finally, we provide baseline performance analysis for bounding box and segmentation detection results using a Deformable Parts Model.",
+        "place": "",
+        "date": "2014",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "10.1007/978-3-319-10602-1_48",
+        "citationKey": "",
+        "url": "https://doi.org/10.1007/978-3-319-10602-1_48",
+        "accessDate": "2026-03-16T16:31:58Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "Microsoft COCO",
+        "language": "en",
+        "libraryCatalog": "arXiv.org",
+        "callNumber": "",
+        "rights": "",
+        "extra": "arXiv:1405.0312 [cs]",
+        "tags": [
+          {
+            "tag": "Computer Science - Computer Vision and Pattern Recognition",
+            "type": 1
+          }
+        ],
+        "collections": [
+          "FWKXJXWX"
+        ],
+        "relations": {},
+        "bookTitle": "Computer Vision – ECCV 2014",
+        "publisher": "Springer",
+        "pages": "740–755"
+      }
+    },
+    {
+      "reference_id": 26,
+      "key": "42HZFAGS",
+      "before": {
+        "key": "42HZFAGS",
+        "version": 217,
+        "library": {
+          "type": "user",
+          "id": 19721030,
+          "name": "diomedescerda",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/diomedescerda",
+              "type": "text/html"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.zotero.org/users/19721030/items/42HZFAGS",
+            "type": "application/json"
+          },
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda/items/42HZFAGS",
+            "type": "text/html"
+          },
+          "attachment": {
+            "href": "https://api.zotero.org/users/19721030/items/S759QFQL",
+            "type": "application/json",
+            "attachmentType": "application/pdf",
+            "attachmentSize": 7634041
+          }
+        },
+        "meta": {
+          "creatorSummary": "Carion et al.",
+          "parsedDate": "2020-05-28",
+          "numChildren": 2
+        },
+        "data": {
+          "key": "42HZFAGS",
+          "version": 217,
+          "itemType": "preprint",
+          "title": "End-to-End Object Detection with Transformers",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "Nicolas",
+              "lastName": "Carion"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Francisco",
+              "lastName": "Massa"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Gabriel",
+              "lastName": "Synnaeve"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Nicolas",
+              "lastName": "Usunier"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Alexander",
+              "lastName": "Kirillov"
+            },
+            {
+              "creatorType": "author",
+              "firstName": "Sergey",
+              "lastName": "Zagoruyko"
+            }
+          ],
+          "abstractNote": "We present a new method that views object detection as a direct set prediction problem. Our approach streamlines the detection pipeline, effectively removing the need for many hand-designed components like a non-maximum suppression procedure or anchor generation that explicitly encode our prior knowledge about the task. The main ingredients of the new framework, called DEtection TRansformer or DETR, are a set-based global loss that forces unique predictions via bipartite matching, and a transformer encoder-decoder architecture. Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the global image context to directly output the final set of predictions in parallel. The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors. DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized Faster RCNN baseline on the challenging COCO object detection dataset. Moreover, DETR can be easily generalized to produce panoptic segmentation in a unified manner. We show that it significantly outperforms competitive baselines. Training code and pretrained models are available at https://github.com/facebookresearch/detr.",
+          "genre": "",
+          "repository": "arXiv",
+          "archiveID": "arXiv:2005.12872",
+          "place": "",
+          "date": "2020-05-28",
+          "series": "",
+          "seriesNumber": "",
+          "DOI": "10.48550/arXiv.2005.12872",
+          "citationKey": "",
+          "url": "http://arxiv.org/abs/2005.12872",
+          "accessDate": "2026-04-29T15:19:08Z",
+          "archive": "",
+          "archiveLocation": "",
+          "shortTitle": "",
+          "language": "",
+          "libraryCatalog": "arXiv.org",
+          "callNumber": "",
+          "rights": "",
+          "extra": "arXiv:2005.12872 [cs]",
+          "tags": [
+            {
+              "tag": "Computer Science - Computer Vision and Pattern Recognition",
+              "type": 1
+            }
+          ],
+          "collections": [
+            "FWKXJXWX"
+          ],
+          "relations": {},
+          "dateAdded": "2026-04-29T15:19:08Z",
+          "dateModified": "2026-04-29T15:19:08Z"
+        }
+      },
+      "after": {
+        "itemType": "bookSection",
+        "title": "End-to-end object detection with transformers",
+        "creators": [
+          {
+            "creatorType": "author",
+            "lastName": "Carion",
+            "firstName": "Nicolas"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Massa",
+            "firstName": "Francisco"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Synnaeve",
+            "firstName": "Gabriel"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Usunier",
+            "firstName": "Nicolas"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Kirillov",
+            "firstName": "Alexander"
+          },
+          {
+            "creatorType": "author",
+            "lastName": "Zagoruyko",
+            "firstName": "Sergey"
+          },
+          {
+            "creatorType": "editor",
+            "lastName": "Vedaldi",
+            "firstName": "A."
+          },
+          {
+            "creatorType": "editor",
+            "lastName": "Bischof",
+            "firstName": "H."
+          },
+          {
+            "creatorType": "editor",
+            "lastName": "Brox",
+            "firstName": "T."
+          },
+          {
+            "creatorType": "editor",
+            "lastName": "Frahm",
+            "firstName": "J.-M."
+          }
+        ],
+        "abstractNote": "We present a new method that views object detection as a direct set prediction problem. Our approach streamlines the detection pipeline, effectively removing the need for many hand-designed components like a non-maximum suppression procedure or anchor generation that explicitly encode our prior knowledge about the task. The main ingredients of the new framework, called DEtection TRansformer or DETR, are a set-based global loss that forces unique predictions via bipartite matching, and a transformer encoder-decoder architecture. Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the global image context to directly output the final set of predictions in parallel. The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors. DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized Faster RCNN baseline on the challenging COCO object detection dataset. Moreover, DETR can be easily generalized to produce panoptic segmentation in a unified manner. We show that it significantly outperforms competitive baselines. Training code and pretrained models are available at https://github.com/facebookresearch/detr.",
+        "place": "",
+        "date": "2020-05-28",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "10.1007/978-3-030-58452-8_13",
+        "citationKey": "",
+        "url": "https://doi.org/10.1007/978-3-030-58452-8_13",
+        "accessDate": "2026-04-29T15:19:08Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "arXiv.org",
+        "callNumber": "",
+        "rights": "",
+        "extra": "arXiv:2005.12872 [cs]",
+        "tags": [
+          {
+            "tag": "Computer Science - Computer Vision and Pattern Recognition",
+            "type": 1
+          }
+        ],
+        "collections": [
+          "FWKXJXWX"
+        ],
+        "relations": {},
+        "bookTitle": "Computer Vision – ECCV 2020",
+        "publisher": "Springer",
+        "pages": "213–229"
+      }
+    },
+    {
+      "reference_id": 45,
+      "key": "4P6DJUC2",
+      "before": {
+        "key": "4P6DJUC2",
+        "version": 84,
+        "library": {
+          "type": "user",
+          "id": 19721030,
+          "name": "diomedescerda",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/diomedescerda",
+              "type": "text/html"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.zotero.org/users/19721030/items/4P6DJUC2",
+            "type": "application/json"
+          },
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda/items/4P6DJUC2",
+            "type": "text/html"
+          },
+          "attachment": {
+            "href": "https://api.zotero.org/users/19721030/items/6HARJEQX",
+            "type": "application/json",
+            "attachmentType": "text/html"
+          }
+        },
+        "meta": {
+          "creatorSummary": "Richard Szeliski",
+          "parsedDate": "2010",
+          "numChildren": 1
+        },
+        "data": {
+          "key": "4P6DJUC2",
+          "version": 84,
+          "itemType": "webpage",
+          "title": "Computer Vision: Algorithms and Applications",
+          "creators": [
+            {
+              "creatorType": "author",
+              "firstName": "",
+              "lastName": "Richard Szeliski"
+            }
+          ],
+          "abstractNote": "",
+          "websiteTitle": "Guide books",
+          "websiteType": "",
+          "date": "2010",
+          "publisher": "Springer-Verlag",
+          "place": "Heidelberg, Berlin",
+          "DOI": "",
+          "citationKey": "",
+          "url": "https://dl.acm.org/doi/book/10.5555/1941882",
+          "accessDate": "2026-03-04T16:35:39Z",
+          "shortTitle": "Computer Vision",
+          "language": "en",
+          "rights": "",
+          "extra": "",
+          "tags": [],
+          "collections": [
+            "FWKXJXWX"
+          ],
+          "relations": {},
+          "dateAdded": "2026-03-04T16:35:39Z",
+          "dateModified": "2026-03-04T16:37:17Z"
+        }
+      },
+      "after": {
+        "itemType": "book",
+        "title": "Computer vision: Algorithms and applications",
+        "creators": [
+          {
+            "creatorType": "author",
+            "lastName": "Szeliski",
+            "firstName": "R."
+          }
+        ],
+        "abstractNote": "",
+        "date": "2011",
+        "publisher": "Springer",
+        "place": "Heidelberg, Berlin",
+        "DOI": "10.1007/978-1-84882-935-0",
+        "citationKey": "",
+        "url": "https://doi.org/10.1007/978-1-84882-935-0",
+        "accessDate": "2026-03-04T16:35:39Z",
+        "shortTitle": "Computer Vision",
+        "language": "en",
+        "rights": "",
+        "extra": "",
+        "tags": [],
+        "collections": [
+          "FWKXJXWX"
+        ],
+        "relations": {}
+      }
+    }
+  ],
+  "collection_key": "X2VAUMZ3",
+  "collection_name": "AssistiveVision — Trabajo de grado",
+  "failures": {},
+  "comparison_after": [
+    {
+      "reference_id": 1,
+      "title": "World report on vision",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8DT9DGNZ",
+          "reason": "title+author",
+          "title": "World report on vision",
+          "date": "2019",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 2,
+      "title": "Empowering the visually impaired: YOLOv8-based object detection in Android applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KL3RMNG8",
+          "reason": "doi",
+          "title": "Empowering the Visually Impaired: YOLOv8-based Object Detection in Android Applications",
+          "date": "2025-01-01",
+          "DOI": "10.1016/j.procs.2025.01.005"
+        }
+      ]
+    },
+    {
+      "reference_id": 3,
+      "title": "Development of mobile app to support the mobility of visually impaired people",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KYPF9V6Q",
+          "reason": "doi",
+          "title": "Development of Mobile App to Support the Mobility of Visually Impaired People",
+          "date": "2022/06/14",
+          "DOI": "10.32604/cmc.2022.028540"
+        }
+      ]
+    },
+    {
+      "reference_id": 4,
+      "title": "Third eye: Object recognition and speech generation for visually impaired",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KYFV7IDY",
+          "reason": "reviewed: DOI, título y cinco autores idénticos a BDWGY4KM; se reutiliza este registro sin fusionar ni borrar el duplicado existente.",
+          "title": "Third Eye: Object Recognition and Speech Generation for Visually Impaired",
+          "date": "2023-01-01",
+          "DOI": "10.1016/j.procs.2023.01.093"
+        }
+      ]
+    },
+    {
+      "reference_id": 5,
+      "title": "TensorFlow Lite",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CTZRRI2M",
+          "reason": "reviewed: La URL coincide con TensorFlow Lite; el parámetro hl=es-419 solo selecciona idioma. Falta el autor institucional.",
+          "title": "TensorFlow Lite",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 6,
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "K6CPPZZ4",
+          "reason": "doi",
+          "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+          "date": "2015",
+          "DOI": "10.48550/arXiv.1506.01497"
+        }
+      ]
+    },
+    {
+      "reference_id": 7,
+      "title": "You only look once: Unified, real-time object detection",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8HY9UC77",
+          "reason": "doi",
+          "title": "You Only Look Once: Unified, Real-Time Object Detection",
+          "date": "2016-06",
+          "DOI": "10.1109/CVPR.2016.91"
+        }
+      ]
+    },
+    {
+      "reference_id": 8,
+      "title": "SSD: Single shot MultiBox detector",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "LC9EX9HQ",
+          "reason": "doi",
+          "title": "SSD: Single Shot MultiBox Detector",
+          "date": "2016",
+          "DOI": "10.1007/978-3-319-46448-0_2"
+        }
+      ]
+    },
+    {
+      "reference_id": 9,
+      "title": "EfficientDet: Scalable and efficient object detection",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "94FBG8YF",
+          "reason": "doi",
+          "title": "EfficientDet: Scalable and efficient object detection",
+          "date": "2020-07-27",
+          "DOI": "10.1109/CVPR42600.2020.01079"
+        }
+      ]
+    },
+    {
+      "reference_id": 10,
+      "title": "Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "E4RI5G4V",
+          "reason": "title+author",
+          "title": "Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 11,
+      "title": "Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "UCF4GGWA",
+          "reason": "title+author",
+          "title": "Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030",
+          "date": "2020",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 12,
+      "title": "Plan de Gobierno Rectoral 2024–2028",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KMBKKXX9",
+          "reason": "title+author",
+          "title": "Plan de Gobierno Rectoral 2024-2028",
+          "date": "2024",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 13,
+      "title": "Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CWDKFB4W",
+          "reason": "doi",
+          "title": "Deep Learning-Driven Assistive Technology for Blind Users: Real-Time Object Detection and Speech Feedback on Android",
+          "date": "2025-05-29",
+          "DOI": "10.13140/RG.2.2.28125.12005"
+        }
+      ]
+    },
+    {
+      "reference_id": 14,
+      "title": "Analysis of object recognition systems using augmented reality glasses",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "2KWZBJHD",
+          "reason": "doi",
+          "title": "Analysis of object recognition systems using augmented reality glasses",
+          "date": "2025-03-30",
+          "DOI": "10.35784/jcsi.6469"
+        }
+      ]
+    },
+    {
+      "reference_id": 15,
+      "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "YV5QEQ7I",
+          "reason": "title+author",
+          "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+          "date": "2017-04-17",
+          "DOI": "10.48550/arXiv.1704.04861"
+        }
+      ]
+    },
+    {
+      "reference_id": 16,
+      "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8PNW4XFQ",
+          "reason": "doi",
+          "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+          "date": "2018",
+          "DOI": "10.1109/CVPR.2018.00474"
+        }
+      ]
+    },
+    {
+      "reference_id": 17,
+      "title": "Real-time and accurate object detection on edge device with TensorFlow Lite",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "WGS693FU",
+          "reason": "doi",
+          "title": "Real-time and accurate object detection on edge device with TensorFlow Lite",
+          "date": "2020-11",
+          "DOI": "10.1088/1742-6596/1651/1/012114"
+        }
+      ]
+    },
+    {
+      "reference_id": 18,
+      "title": "Lightweight faster R-CNN for object detection in optical remote sensing images",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "CZ3TADA5",
+          "reason": "doi",
+          "title": "Lightweight faster R-CNN for object detection in optical remote sensing images",
+          "date": "2025-05-09",
+          "DOI": "10.1038/s41598-025-99242-y"
+        }
+      ]
+    },
+    {
+      "reference_id": 19,
+      "title": "Object detection with TensorFlow Lite Model Maker",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "W7SPIADP",
+          "reason": "url",
+          "title": "Object detection with TensorFlow Lite Model Maker",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 20,
+      "title": "Explore Ultralytics YOLOv8",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "EV4EFVQN",
+          "reason": "url",
+          "title": "Explore Ultralytics YOLOv8",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 21,
+      "title": "Ultralytics YOLO11",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "P2R3PMC7",
+          "reason": "url",
+          "title": "Ultralytics YOLO11",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 22,
+      "title": "Microsoft COCO: Common objects in context",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "PDZHG9WQ",
+          "reason": "doi",
+          "title": "Microsoft COCO: Common objects in context",
+          "date": "2014",
+          "DOI": "10.1007/978-3-319-10602-1_48"
+        }
+      ]
+    },
+    {
+      "reference_id": 23,
+      "title": "The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "232X94YF",
+          "reason": "doi",
+          "title": "The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale",
+          "date": "07/2020",
+          "DOI": "10.1007/s11263-020-01316-z"
+        }
+      ]
+    },
+    {
+      "reference_id": 24,
+      "title": "ONNX Runtime documentation",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "43WPD5UB",
+          "reason": "url",
+          "title": "ONNX Runtime",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 25,
+      "title": "ExecuTorch documentation",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "SG7V2BWK",
+          "reason": "url",
+          "title": "ExecuTorch documentation",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 26,
+      "title": "End-to-end object detection with transformers",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "42HZFAGS",
+          "reason": "doi",
+          "title": "End-to-end object detection with transformers",
+          "date": "2020-05-28",
+          "DOI": "10.1007/978-3-030-58452-8_13"
+        }
+      ]
+    },
+    {
+      "reference_id": 27,
+      "title": "COCO API: PythonAPI/pycocotools/cocoeval.py",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "8IZPKPMI",
+          "reason": "url",
+          "title": "COCO API: PythonAPI/pycocotools/cocoeval.py",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 28,
+      "title": "Introduction to information retrieval",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "ESFWQ5U6",
+          "reason": "url",
+          "title": "Introduction to information retrieval",
+          "date": "2008",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 29,
+      "title": "Performance measurement",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "96BDHRKV",
+          "reason": "url",
+          "title": "Performance measurement",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 30,
+      "title": "Android Debug Bridge (adb)",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "3AGSNSIH",
+          "reason": "url",
+          "title": "Android Debug Bridge (adb)  |  Android Studio  |  Android Developers",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 31,
+      "title": "GPU acceleration delegate with Interpreter API",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "Z67FBP45",
+          "reason": "url",
+          "title": "GPU acceleration delegate with Interpreter API | Google AI Edge",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 32,
+      "title": "OpenCL: The open standard for parallel programming of heterogeneous systems",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "NMUHD3A8",
+          "reason": "url",
+          "title": "OpenCL - The Open Standard for Parallel Programming of Heterogeneous Systems",
+          "date": "2013-07-21T12:39:00-07:00",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 33,
+      "title": "Roboflow: Computer vision tools for developers and enterprises",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "9LYX8I7M",
+          "reason": "url",
+          "title": "Roboflow: Computer vision tools for developers and enterprises",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 34,
+      "title": "AssistiveVision",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "KB77PE3W",
+          "reason": "url",
+          "title": "AssistiveVision",
+          "date": "2026",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 35,
+      "title": "CameraX",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "QHKXMEZG",
+          "reason": "url",
+          "title": "CameraX",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 36,
+      "title": "LiteRT for Android",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "QBPV82VV",
+          "reason": "url",
+          "title": "LiteRT for Android",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 37,
+      "title": "Text-to-speech",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "ZV5K5ZE4",
+          "reason": "url",
+          "title": "Text-to-speech",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 38,
+      "title": "Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "28WZHFUM",
+          "reason": "doi",
+          "title": "Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech",
+          "date": "2021",
+          "DOI": "10.48550/arXiv.2106.06103"
+        }
+      ]
+    },
+    {
+      "reference_id": 39,
+      "title": "Piper: A fast, local neural text to speech system",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "GRW33HQM",
+          "reason": "url",
+          "title": "Piper: A fast, local neural text to speech system",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 40,
+      "title": "AudioTrack",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "GJX9HN25",
+          "reason": "url",
+          "title": "AudioTrack",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 41,
+      "title": "DataStore",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "F3PT2KRV",
+          "reason": "url",
+          "title": "DataStore",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 42,
+      "title": "Analysis of paired observations",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "FHFPXK7K",
+          "reason": "url",
+          "title": "Analysis of paired observations",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 43,
+      "title": "Bootstrap methods: Another look at the jackknife",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "5IGPE9VQ",
+          "reason": "doi",
+          "title": "Bootstrap methods: Another look at the jackknife",
+          "date": "1979",
+          "DOI": "10.1214/aos/1176344552"
+        }
+      ]
+    },
+    {
+      "reference_id": 44,
+      "title": "Bootstrapping clustered data",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "ATFISMG4",
+          "reason": "doi",
+          "title": "Bootstrapping clustered data",
+          "date": "2007",
+          "DOI": "10.1111/j.1467-9868.2007.00593.x"
+        }
+      ]
+    },
+    {
+      "reference_id": 45,
+      "title": "Computer vision: Algorithms and applications",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "4P6DJUC2",
+          "reason": "reviewed: Título y Richard Szeliski coinciden con el libro Springer; se corrigen tipo de fuente, separación del autor y edición identificada por DOI.",
+          "title": "Computer vision: Algorithms and applications",
+          "date": "2011",
+          "DOI": "10.1007/978-1-84882-935-0"
+        }
+      ]
+    },
+    {
+      "reference_id": 46,
+      "title": "Exif 2.31 metadata for XMP",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "K7QG9Z49",
+          "reason": "url",
+          "title": "Exif 2.31 metadata for XMP",
+          "date": "2017",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 47,
+      "title": "numpy.quantile",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "97UPFQD9",
+          "reason": "url",
+          "title": "numpy.quantile",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 48,
+      "title": "Pillow reference",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "T7C4NIA6",
+          "reason": "url",
+          "title": "Pillow reference",
+          "date": "",
+          "DOI": ""
+        }
+      ]
+    },
+    {
+      "reference_id": 49,
+      "title": "Matplotlib: A 2D graphics environment",
+      "status": "existing",
+      "matches": [
+        {
+          "key": "HJ7H7QNR",
+          "reason": "doi",
+          "title": "Matplotlib: A 2D graphics environment",
+          "date": "2007",
+          "DOI": "10.1109/MCSE.2007.55"
+        }
+      ]
+    }
+  ]
+}

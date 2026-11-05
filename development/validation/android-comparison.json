@@ -1,0 +1,10 @@
+{
+  "frames": 198,
+  "frames_with_identical_prediction_arrays": 198,
+  "all_predictions_exactly_equal": true,
+  "summary_equal_excluding_timing": true,
+  "production_source_matches_archive": true,
+  "timing_comparison": "New measurements; equality with archived emulator timings is not required.",
+  "reference_app_commit": "85c852ddcb543bce1bd69ad0db307f895d597881",
+  "new_app_commit": "9804b620c33699e1b4b557f3085d8590af3742f2"
+}

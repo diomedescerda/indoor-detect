@@ -1,0 +1,152 @@
+[
+  {
+    "id": "0",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Este título debe ser el mismo de la propuesta que fue aprobada. En el documento se debe revisar la denominación de métricas y siglas, presentando primero su nombre completo y luego la sigla y revisando que son uniformes en todo el documento.Corregir la tabla de contenido y la numeración de páginas.",
+    "anchor": "Sistema de asistencia visual basado en visión por computador para la identificación y localización espacial de objetos en entornos interiores, orientado al apoyo de la percepción del entorno para personas con discapacidad visual"
+  },
+  {
+    "id": "7",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Podría ser resultado del trabajo",
+    "anchor": "Significado del trabajo1"
+  },
+  {
+    "id": "6",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Creo que no hay necesidad de fragmentar la introducción en tantos subtitulos con contenidos cortos",
+    "anchor": "Antecedentes1"
+  },
+  {
+    "id": "19",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Falta desarrollo",
+    "anchor": "La detección de objetos mediante redes neuronales profundas ha evolucionado desde arquitecturas de dos etapas, como Faster R-CNN [6], hasta detectores de una etapa orientados al tiempo real, como YOLO [7], SSD [8] y EfficientDet [9], que ofrecen diferentes compromisos entre exactitud y costo computacional. En el ámbito de las tecnologías de asistencia, trabajos recientes han demostrado la viabilidad de ejecutar detectores de objetos sobre Android con fines de apoyo a personas con discapacidad visual; es el caso del sistema propuesto por More et al. [2], que integra un modelo YOLOv8 convertido a TensorFlow Lite con retroalimentación auditiva. Estos antecedentes evidencian tanto la pertinencia del problema como la necesidad de comparar experimentalmente los modelos bajo condiciones de despliegue concretas."
+  },
+  {
+    "id": "21",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Hay que justificar este compromiso de la evaluacion de la claridad auditiva",
+    "anchor": "3. Evaluar el desempeño del prototipo en entornos interiores controlados, analizando métricas como la exactitud de detección, la latencia de procesamiento y la claridad de la retroalimentación auditiva."
+  },
+  {
+    "id": "25",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Creo que esto no es necesario que aparezca aquí, si no en el capítulo donde ampliamente se desarrolla la metodología.",
+    "anchor": "Metodología"
+  },
+  {
+    "id": "33",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Creo que esto hace parte de la metodología.",
+    "anchor": "1.4 Modelos candidatos"
+  },
+  {
+    "id": "35",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Aislado",
+    "anchor": "1.5 Nuevos paradigmas: DETR"
+  },
+  {
+    "id": "41",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Esto no creo que deba ir aquí si no en un marco conceptual, o cambiarle el nombre de marco conceptual",
+    "anchor": "2.2.1 Métricas de evaluación"
+  },
+  {
+    "id": "42",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Este tipo de sigla es mejor colocarlas explicitamente en el documento una sola vez, más que un diccionario de términos. Lo mismo para AP50",
+    "anchor": "AP50 es la precisión promedio de detección al exigir IoU mínimo de 0,50 y coincidencia de clase. IoU es el área de intersección de las cajas dividida entre su área de unión; no equivale a cubrir simplemente la mitad del objeto. COCO calcula AP a partir de la curva precisión-recall y promedia las categorías evaluables. Un error de clase produce una predicción falsa y deja sin recuperar la anotación de la clase correcta [22], [27]."
+  },
+  {
+    "id": "43",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Una mejor redacción, en la que de una vez queda explicita la sigla es: La Media de Precisión Promedio (mAP50-95, mean Average Precision): es una métrica que evalúa el desempeño de un modelo de detección de objetos, considerando tanto la identificación correcta de los objetos como la precisión de su localización. Se calcula promediando la precisión promedio obtenida para diferentes umbrales de intersección sobre unión (IoU), desde 0.50 hasta 0.95, con incrementos de 0.05.",
+    "anchor": "mAP50-95 (Mean Average Precision promediado entre IoU 0.50 y 0.95). El mAP50-95 promedia la precisión media sobre diez umbrales de IoU distintos: 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90 y 0.95. Esta métrica es significativamente más exigente que mAP50, ya que penaliza los modelos cuyos bounding boxes no se ajustan con precisión al objeto detectado. Al igual que mAP50, la evaluación se realiza por clase, por lo que un error de clasificación afecta ambas métricas. Para el sistema propuesto, mAP50-95 incorpora exigencias de clasificación y ajuste geométrico de las detecciones [22], [27]."
+  },
+  {
+    "id": "44",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Te refieres a la métrica como si el lector estuviera ya familiarizado con ella.",
+    "anchor": "mAP50-95 (Mean Average Precision promediado entre IoU 0.50 y 0.95). El mAP50-95 promedia la precisión media sobre diez umbrales de IoU distintos: 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90 y 0.95. Esta métrica es significativamente más exigente que mAP50, ya que penaliza los modelos cuyos bounding boxes no se ajustan con precisión al objeto detectado. Al igual que mAP50, la evaluación se realiza por clase, por lo que un error de clasificación afecta ambas métricas. Para el sistema propuesto, mAP50-95 incorpora exigencias de clasificación y ajuste geométrico de las detecciones [22], [27]."
+  },
+  {
+    "id": "45",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Mejorar explicación",
+    "anchor": "La precisión es la proporción de predicciones positivas que resultan correctas: P = TP/(TP + FP) [28]. No equivale a la tasa de falsos positivos. En este experimento se calcula después del emparejamiento de clase y caja; una predicción sin correspondencia se contabiliza como FP. Una precisión alta reduce la proporción de anuncios incorrectos entre las selecciones, pero su efecto sobre confianza o utilidad requiere evaluación con usuarios."
+  },
+  {
+    "id": "54",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Creo que debería elaborar un poco más la sustentación para la selección explicar porque al parecer la latencia es el factor decisivo para la selección porque de acuerdo con la evaluación a YOLOv8s le va mejor.",
+    "anchor": "EfficientDet-Lite2 presentó el mayor mAP50 del conjunto (0,648) y una latencia aislada de 124,9 ms en Android CPU (8,00 inferencias/s). Estos resultados sustentan la selección del componente de detección bajo las condiciones evaluadas; no representan la frecuencia del ciclo completo de captura y voz."
+  },
+  {
+    "id": "75",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "No vi imágenes de la interfaz de usuario",
+    "anchor": "3.11 Interfaz de usuario"
+  },
+  {
+    "id": "83",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "A este capítulo hay que agregarle una evaluación de la herramienta auditiva tal como se propuso en los objetivos.También hay que mejorar mucho la redacción en general, causa mucha confusión entre grupos de captura, lo que llama escenario, el número de fotografías, escaneas físicas o entornos de captura seleccionados (creo que esto falta), caracterisiticas de esos entornos de captura.",
+    "anchor": "4. Evaluación del prototipo en escenarios controlados"
+  },
+  {
+    "id": "85",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Qué es el emparejamiento",
+    "anchor": "Este capítulo evalúa experimentalmente el sistema de detección de objetos AssistiveVision mediante tres preguntas encadenadas: (a) qué posición de montaje del teléfono produce las mejores detecciones (escenario 1); (b) cuál combinación de posición y lente funciona mejor (escenario 2); y (c) en qué bandas de distancia geométricamente estimada cambia el recall (escenario 3). Los tres escenarios comparten el mismo conjunto de fotografías, el mismo modelo y la misma instrumentación software. El emparejamiento facilita comparar configuraciones, sin aislar todas las causas en cada escenario."
+  },
+  {
+    "id": "86",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Mejorar redacción por ejemplo: Se utilizó un diseño experimental con emparejamiento por escena, en el que cada escenario interior fue fotografiado utilizando las seis combinaciones de posición del dispositivo y tipo de lente. De esta manera, se conformaron 33 grupos de seis fotografías, para un total de 198 imágenes. Este procedimiento permite comparar el desempeño de las diferentes configuraciones sobre escenarios comunes, reduciendo la influencia de las diferencias entre escenas. Sin embargo, no controla completamente las variaciones de orientación, encuadre y campo visual asociadas a cada configuración.",
+    "anchor": "El escenario 1 manipula la posición de montaje del dispositivo con tres niveles: arnés de cabeza, arnés de pecho y soporte Gorillapod. En este último se orientó libremente la cámara hacia los objetos de interés; la altura y la inclinación no se midieron. El escenario 2 cruza ese factor con el lente con el que se fotografía (principal de 1x, equivalente a 25 mm; ultra gran angular de 0,5x, equivalente a 14 mm), para seis configuraciones de captura. El diseño es intra-grupo con emparejamiento por escena: la misma escena se fotografía seis veces seguidas, una por configuración, formando 33 grupos de captura pareados (198 fotografías en total). El escenario 3 no añade capturas nuevas: estima la distancia entre el objeto y la cámara dentro de las mismas 198 fotografías mediante el modelo estenopeico con la distancia focal del EXIF, clasifica las instancias anotadas en bandas de distancia y analiza el recall por banda."
+  },
+  {
+    "id": "87",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Creo que en la comparación hay que diferenciar entre: la cobertura visual de acuerdo con la configuración de captura y el desempeño del detector.",
+    "anchor": "Método de comparación estadística"
+  },
+  {
+    "id": "90",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "No es claro cuántos espacios físicos diferentes se utilizaron ni cuáles fueron los objetos presentes en cada escena. Faltan imágenes ilustraciones de estos espacios físicos. Falta describir como seleccionaste estos espacios, como manejaste la oclusión, las condiciones de iluminación (en caso tal de haberlo hecho)",
+    "anchor": "4.2 Escenario 1: posiciones del arnés"
+  },
+  {
+    "id": "119",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Los subtitulos no son necesarios. Se debe mejorar la redacción de estas conclusiones, están enfocadas solamente al prototipo; pero no a los objetivos desarrollados. Debes destacar los hallazgos o resultados de cada uno de los objetivos propuestos.",
+    "anchor": "5. Conclusiones "
+  },
+  {
+    "id": "121",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Falta transición ",
+    "anchor": "La evaluación de captura completó 198 fotografías, 889 anotaciones revisadas y 33 grupos pareados. Gorillapod 0,5x produjo 82 detecciones correctas y recuperó al menos un objeto en 29 escenas; el arnés de pecho 1x obtuvo la mayor F1, de 61,9 %. Bajo la orientación hacia los objetos utilizada en estas capturas, la elección por cantidad favorece provisionalmente Gorillapod 0,5x, mientras la elección por equilibrio precisión-recall favorece pecho 1x. Las comparaciones no establecen un ganador universal y deben confirmarse en escenas nuevas."
+  },
+  {
+    "id": "122",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Cantidad de qué?",
+    "anchor": "La evaluación de captura completó 198 fotografías, 889 anotaciones revisadas y 33 grupos pareados. Gorillapod 0,5x produjo 82 detecciones correctas y recuperó al menos un objeto en 29 escenas; el arnés de pecho 1x obtuvo la mayor F1, de 61,9 %. Bajo la orientación hacia los objetos utilizada en estas capturas, la elección por cantidad favorece provisionalmente Gorillapod 0,5x, mientras la elección por equilibrio precisión-recall favorece pecho 1x. Las comparaciones no establecen un ganador universal y deben confirmarse en escenas nuevas."
+  },
+  {
+    "id": "127",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Podrias intergrar los tres anexos en uno solo donde describas el contenido del repositorio y las instrucciones para ejecutar o reproducir",
+    "anchor": "Anexo A: Scripts de evaluación de modelos"
+  },
+  {
+    "id": "131",
+    "author": "Idanis Beatriz Diaz Bolaño",
+    "comment": "Creo que se puede eliminar o integrar la información en otra sección. En un Readme",
+    "anchor": "Anexo C: Manuales técnico y de usuario"
+  }
+]

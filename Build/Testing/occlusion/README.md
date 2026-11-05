@@ -33,12 +33,12 @@ Con el entorno Python del benchmark (NumPy y pycocotools):
 
 ```sh
 python Build/Testing/benchmark/analyze_occlusion.py
-python Build/Testing/occlusion/build_review.py
+python development/annotation_drafts/occlusion/build_review.py
 ```
 
-Abrir `Build/Testing/occlusion/review.html` en el navegador. Utiliza las fotografías locales de `../data/`; no sube imágenes a un servicio. La descarga guarda todas las etiquetas y marca cuáles revisó el autor. Los cambios no se escriben directamente al archivo fuente: descargar antes de cerrar la página. Para continuar, cargar el JSON descargado con «Restaurar JSON».
+Abrir `development/annotation_drafts/occlusion/review.html` en el navegador. Utiliza las fotografías finales de `Build/Testing/data/`; no sube imágenes a un servicio. La descarga guarda todas las etiquetas y marca cuáles revisó el autor. Los cambios no se escriben directamente al archivo fuente: descargar antes de cerrar la página. Para continuar, cargar el JSON descargado con «Restaurar JSON».
 
-Después de revisar y descargar, recalcular con `python Build/Testing/benchmark/analyze_occlusion.py --labels /ruta/occlusion_author_review.json`. Regenerar el visor y el informe después del análisis. Los JSON `gt_review_issues_batch_*.json` registran posibles problemas de clase, duplicados e identidad que requieren revisión separada; el visor de oclusión no modifica las cajas ni categorías GT.
+Después de revisar y descargar, recalcular con `python Build/Testing/benchmark/analyze_occlusion.py --labels /ruta/occlusion_author_review.json`. Regenerar el visor y el informe después del análisis. Los JSON `development/annotation_drafts/occlusion/gt_review_issues_batch_*.json` registran posibles problemas de clase, duplicados e identidad que requieren revisión separada; el visor de oclusión no modifica las cajas ni categorías GT.
 
 Con cero aciertos en una celda, el intervalo percentil bootstrap puede ser [0,0]; esto refleja la muestra remuestreada y no demuestra una probabilidad poblacional nula.
 

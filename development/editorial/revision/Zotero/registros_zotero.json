@@ -1,0 +1,1798 @@
+[
+  {
+    "reference_id": 1,
+    "item": {
+      "itemType": "report",
+      "institution": "World Health Organization",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "World Health Organization"
+        }
+      ],
+      "title": "World report on vision",
+      "date": "2019",
+      "language": "en",
+      "url": "https://www.who.int/publications/i/item/9789241516570",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-01"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 1"
+    }
+  },
+  {
+    "reference_id": 2,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Procedia Computer Science",
+      "volume": "252",
+      "pages": "457–469",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "More",
+          "firstName": "S. S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Patil",
+          "firstName": "N."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Lobo",
+          "firstName": "V. B."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Shet",
+          "firstName": "N."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Goswami",
+          "firstName": "D."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Rane",
+          "firstName": "P."
+        }
+      ],
+      "title": "Empowering the visually impaired: YOLOv8-based object detection in Android applications",
+      "date": "2025",
+      "language": "en",
+      "url": "https://doi.org/10.1016/j.procs.2025.01.005",
+      "DOI": "10.1016/j.procs.2025.01.005",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-02"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 2"
+    }
+  },
+  {
+    "reference_id": 3,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Computers, Materials & Continua",
+      "volume": "73",
+      "issue": "2",
+      "pages": "3473–3495",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Meenakshi",
+          "firstName": "R."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ponnusamy",
+          "firstName": "R."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Alghamdi",
+          "firstName": "S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Khalaf",
+          "firstName": "O. I."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Alotaibi",
+          "firstName": "Y."
+        }
+      ],
+      "title": "Development of mobile app to support the mobility of visually impaired people",
+      "date": "2022",
+      "language": "en",
+      "url": "https://doi.org/10.32604/cmc.2022.028540",
+      "DOI": "10.32604/cmc.2022.028540",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-03"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 3"
+    }
+  },
+  {
+    "reference_id": 4,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Procedia Computer Science",
+      "volume": "218",
+      "pages": "1144–1155",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Guravaiah",
+          "firstName": "K."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Bhavadeesh",
+          "firstName": "Y. S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Shwejan",
+          "firstName": "P."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Vardhan",
+          "firstName": "A. H."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Lavanya",
+          "firstName": "S."
+        }
+      ],
+      "title": "Third eye: Object recognition and speech generation for visually impaired",
+      "date": "2023",
+      "language": "en",
+      "url": "https://doi.org/10.1016/j.procs.2023.01.093",
+      "DOI": "10.1016/j.procs.2023.01.093",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-04"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 4"
+    }
+  },
+  {
+    "reference_id": 5,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "TensorFlow",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "TensorFlow"
+        }
+      ],
+      "title": "TensorFlow Lite",
+      "date": "",
+      "language": "en",
+      "url": "https://www.tensorflow.org/lite/guide",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-05"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 5"
+    }
+  },
+  {
+    "reference_id": 6,
+    "item": {
+      "itemType": "preprint",
+      "repository": "arXiv",
+      "archiveID": "1506.01497",
+      "genre": "Preprint",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Ren",
+          "firstName": "S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "He",
+          "firstName": "K."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Girshick",
+          "firstName": "R."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Sun",
+          "firstName": "J."
+        }
+      ],
+      "title": "Faster R-CNN: Towards real-time object detection with region proposal networks",
+      "date": "2015",
+      "language": "en",
+      "url": "https://doi.org/10.48550/arXiv.1506.01497",
+      "DOI": "10.48550/arXiv.1506.01497",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-06"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 6"
+    }
+  },
+  {
+    "reference_id": 7,
+    "item": {
+      "itemType": "conferencePaper",
+      "proceedingsTitle": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "publisher": "IEEE",
+      "pages": "779–788",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Redmon",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Divvala",
+          "firstName": "S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Girshick",
+          "firstName": "R."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Farhadi",
+          "firstName": "A."
+        }
+      ],
+      "title": "You only look once: Unified, real-time object detection",
+      "date": "2016",
+      "language": "en",
+      "url": "https://doi.org/10.1109/CVPR.2016.91",
+      "DOI": "10.1109/CVPR.2016.91",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-07"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 7"
+    }
+  },
+  {
+    "reference_id": 8,
+    "item": {
+      "itemType": "bookSection",
+      "bookTitle": "Computer Vision – ECCV 2016",
+      "publisher": "Springer",
+      "pages": "21–37",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Liu",
+          "firstName": "W."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Anguelov",
+          "firstName": "D."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Erhan",
+          "firstName": "D."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Szegedy",
+          "firstName": "C."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Reed",
+          "firstName": "S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Fu",
+          "firstName": "C.-Y."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Berg",
+          "firstName": "A. C."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Leibe",
+          "firstName": "B."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Matas",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Sebe",
+          "firstName": "N."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Welling",
+          "firstName": "M."
+        }
+      ],
+      "title": "SSD: Single shot MultiBox detector",
+      "date": "2016",
+      "language": "en",
+      "url": "https://doi.org/10.1007/978-3-319-46448-0_2",
+      "DOI": "10.1007/978-3-319-46448-0_2",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-08"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 8"
+    }
+  },
+  {
+    "reference_id": 9,
+    "item": {
+      "itemType": "conferencePaper",
+      "proceedingsTitle": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "publisher": "IEEE",
+      "pages": "10781–10790",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Tan",
+          "firstName": "M."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Pang",
+          "firstName": "R."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Le",
+          "firstName": "Q. V."
+        }
+      ],
+      "title": "EfficientDet: Scalable and efficient object detection",
+      "date": "2020",
+      "language": "en",
+      "url": "https://doi.org/10.1109/CVPR42600.2020.01079",
+      "DOI": "10.1109/CVPR42600.2020.01079",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-09"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 9"
+    }
+  },
+  {
+    "reference_id": 10,
+    "item": {
+      "itemType": "report",
+      "reportType": "Propuesta de pasantía en investigación",
+      "institution": "Universidad del Magdalena",
+      "language": "es",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Cerda Leon",
+          "firstName": "D. F."
+        }
+      ],
+      "title": "Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual",
+      "date": "",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-10"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 10"
+    }
+  },
+  {
+    "reference_id": 11,
+    "item": {
+      "itemType": "report",
+      "institution": "Universidad del Magdalena",
+      "language": "es",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Universidad del Magdalena"
+        }
+      ],
+      "title": "Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030",
+      "date": "2020",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-11"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 11"
+    }
+  },
+  {
+    "reference_id": 12,
+    "item": {
+      "itemType": "report",
+      "institution": "Universidad del Magdalena",
+      "language": "es",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Universidad del Magdalena"
+        }
+      ],
+      "title": "Plan de Gobierno Rectoral 2024–2028",
+      "date": "2024",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-12"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 12"
+    }
+  },
+  {
+    "reference_id": 13,
+    "item": {
+      "itemType": "preprint",
+      "repository": "ResearchGate",
+      "genre": "Preprint",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Pawar",
+          "firstName": "D. R."
+        }
+      ],
+      "title": "Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android",
+      "date": "2025",
+      "language": "en",
+      "url": "https://doi.org/10.13140/RG.2.2.28125.12005",
+      "DOI": "10.13140/RG.2.2.28125.12005",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-13"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 13"
+    }
+  },
+  {
+    "reference_id": 14,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Journal of Computer Sciences Institute",
+      "volume": "34",
+      "pages": "8–13",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Figura",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kuźmiczuk",
+          "firstName": "R."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Badurowicz",
+          "firstName": "M."
+        }
+      ],
+      "title": "Analysis of object recognition systems using augmented reality glasses",
+      "date": "2025",
+      "language": "en",
+      "url": "https://doi.org/10.35784/jcsi.6469",
+      "DOI": "10.35784/jcsi.6469",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-14"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 14"
+    }
+  },
+  {
+    "reference_id": 15,
+    "item": {
+      "itemType": "preprint",
+      "repository": "arXiv",
+      "archiveID": "1704.04861",
+      "genre": "Preprint",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Howard",
+          "firstName": "A. G."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Zhu",
+          "firstName": "M."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Chen",
+          "firstName": "B."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kalenichenko",
+          "firstName": "D."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Wang",
+          "firstName": "W."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Weyand",
+          "firstName": "T."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Andreetto",
+          "firstName": "M."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Adam",
+          "firstName": "H."
+        }
+      ],
+      "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "date": "2017",
+      "language": "en",
+      "url": "https://arxiv.org/abs/1704.04861",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-15"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 15"
+    }
+  },
+  {
+    "reference_id": 16,
+    "item": {
+      "itemType": "conferencePaper",
+      "proceedingsTitle": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "publisher": "IEEE",
+      "pages": "4510–4520",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Sandler",
+          "firstName": "M."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Howard",
+          "firstName": "A."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Zhu",
+          "firstName": "M."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Zhmoginov",
+          "firstName": "A."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Chen",
+          "firstName": "L.-C."
+        }
+      ],
+      "title": "MobileNetV2: Inverted residuals and linear bottlenecks",
+      "date": "2018",
+      "language": "en",
+      "url": "https://doi.org/10.1109/CVPR.2018.00474",
+      "DOI": "10.1109/CVPR.2018.00474",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-16"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 16"
+    }
+  },
+  {
+    "reference_id": 17,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Journal of Physics: Conference Series",
+      "volume": "1651",
+      "issue": "1",
+      "pages": "012114",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Dai",
+          "firstName": "J."
+        }
+      ],
+      "title": "Real-time and accurate object detection on edge device with TensorFlow Lite",
+      "date": "2020",
+      "language": "en",
+      "url": "https://doi.org/10.1088/1742-6596/1651/1/012114",
+      "DOI": "10.1088/1742-6596/1651/1/012114",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-17"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 17"
+    }
+  },
+  {
+    "reference_id": 18,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Scientific Reports",
+      "volume": "15",
+      "pages": "16163",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Magdy",
+          "firstName": "A."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Moustafa",
+          "firstName": "M. S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ebied",
+          "firstName": "H. M."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Tolba",
+          "firstName": "M. F."
+        }
+      ],
+      "title": "Lightweight faster R-CNN for object detection in optical remote sensing images",
+      "date": "2025",
+      "language": "en",
+      "url": "https://doi.org/10.1038/s41598-025-99242-y",
+      "DOI": "10.1038/s41598-025-99242-y",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-18"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 18"
+    }
+  },
+  {
+    "reference_id": 19,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Google AI Edge",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "title": "Object detection with TensorFlow Lite Model Maker",
+      "date": "",
+      "language": "en",
+      "url": "https://developers.google.com/edge/litert/libraries/modify/object_detection",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-19"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 19"
+    }
+  },
+  {
+    "reference_id": 20,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Ultralytics",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Ultralytics"
+        }
+      ],
+      "title": "Explore Ultralytics YOLOv8",
+      "date": "",
+      "language": "en",
+      "url": "https://docs.ultralytics.com/models/yolov8/",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-20"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 20"
+    }
+  },
+  {
+    "reference_id": 21,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Ultralytics",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Ultralytics"
+        }
+      ],
+      "title": "Ultralytics YOLO11",
+      "date": "",
+      "language": "en",
+      "url": "https://docs.ultralytics.com/models/yolo11/",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-21"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 21"
+    }
+  },
+  {
+    "reference_id": 22,
+    "item": {
+      "itemType": "bookSection",
+      "bookTitle": "Computer Vision – ECCV 2014",
+      "publisher": "Springer",
+      "pages": "740–755",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Lin",
+          "firstName": "T.-Y."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Maire",
+          "firstName": "M."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Belongie",
+          "firstName": "S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Hays",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Perona",
+          "firstName": "P."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ramanan",
+          "firstName": "D."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Dollár",
+          "firstName": "P."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Zitnick",
+          "firstName": "C. L."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Fleet",
+          "firstName": "D."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Pajdla",
+          "firstName": "T."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Schiele",
+          "firstName": "B."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Tuytelaars",
+          "firstName": "T."
+        }
+      ],
+      "title": "Microsoft COCO: Common objects in context",
+      "date": "2014",
+      "language": "en",
+      "url": "https://doi.org/10.1007/978-3-319-10602-1_48",
+      "DOI": "10.1007/978-3-319-10602-1_48",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-22"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 22"
+    }
+  },
+  {
+    "reference_id": 23,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "International Journal of Computer Vision",
+      "volume": "128",
+      "pages": "1956–1981",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Kuznetsova",
+          "firstName": "A."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Rom",
+          "firstName": "H."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Alldrin",
+          "firstName": "N."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Uijlings",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Krasin",
+          "firstName": "I."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Pont-Tuset",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kamali",
+          "firstName": "S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Popov",
+          "firstName": "S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Malloci",
+          "firstName": "M."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kolesnikov",
+          "firstName": "A."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Duerig",
+          "firstName": "T."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ferrari",
+          "firstName": "V."
+        }
+      ],
+      "title": "The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale",
+      "date": "2020",
+      "language": "en",
+      "url": "https://doi.org/10.1007/s11263-020-01316-z",
+      "DOI": "10.1007/s11263-020-01316-z",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-23"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 23"
+    }
+  },
+  {
+    "reference_id": 24,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "ONNX Runtime",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "ONNX Runtime"
+        }
+      ],
+      "title": "ONNX Runtime documentation",
+      "date": "",
+      "language": "en",
+      "url": "https://onnxruntime.ai/docs/",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-24"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 24"
+    }
+  },
+  {
+    "reference_id": 25,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "PyTorch",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "PyTorch"
+        }
+      ],
+      "title": "ExecuTorch documentation",
+      "date": "",
+      "language": "en",
+      "url": "https://pytorch.org/executorch/stable/",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-25"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 25"
+    }
+  },
+  {
+    "reference_id": 26,
+    "item": {
+      "itemType": "bookSection",
+      "bookTitle": "Computer Vision – ECCV 2020",
+      "publisher": "Springer",
+      "pages": "213–229",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Carion",
+          "firstName": "N."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Massa",
+          "firstName": "F."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Synnaeve",
+          "firstName": "G."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Usunier",
+          "firstName": "N."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kirillov",
+          "firstName": "A."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Zagoruyko",
+          "firstName": "S."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Vedaldi",
+          "firstName": "A."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Bischof",
+          "firstName": "H."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Brox",
+          "firstName": "T."
+        },
+        {
+          "creatorType": "editor",
+          "lastName": "Frahm",
+          "firstName": "J.-M."
+        }
+      ],
+      "title": "End-to-end object detection with transformers",
+      "date": "2020",
+      "language": "en",
+      "url": "https://doi.org/10.1007/978-3-030-58452-8_13",
+      "DOI": "10.1007/978-3-030-58452-8_13",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-26"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 26"
+    }
+  },
+  {
+    "reference_id": 27,
+    "item": {
+      "itemType": "computerProgram",
+      "company": "GitHub",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "name": "COCO dataset contributors"
+        }
+      ],
+      "title": "COCO API: PythonAPI/pycocotools/cocoeval.py",
+      "date": "",
+      "url": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-27"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 27"
+    }
+  },
+  {
+    "reference_id": 28,
+    "item": {
+      "itemType": "book",
+      "publisher": "Cambridge University Press",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Manning",
+          "firstName": "C. D."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Raghavan",
+          "firstName": "P."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Schütze",
+          "firstName": "H."
+        }
+      ],
+      "title": "Introduction to information retrieval",
+      "date": "2008",
+      "language": "en",
+      "url": "https://nlp.stanford.edu/IR-book/",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-28"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 28"
+    }
+  },
+  {
+    "reference_id": 29,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "GitHub",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "TensorFlow contributors"
+        }
+      ],
+      "title": "Performance measurement",
+      "date": "",
+      "language": "en",
+      "url": "https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/measurement.md",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-29"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 29"
+    }
+  },
+  {
+    "reference_id": 30,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Android Developers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "title": "Android Debug Bridge (adb)",
+      "date": "",
+      "language": "en",
+      "url": "https://developer.android.com/tools/adb",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-30"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 30"
+    }
+  },
+  {
+    "reference_id": 31,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Google AI Edge",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "title": "GPU acceleration delegate with Interpreter API",
+      "date": "",
+      "language": "en",
+      "url": "https://developers.google.com/edge/litert/android/gpu",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-31"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 31"
+    }
+  },
+  {
+    "reference_id": 32,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Khronos Group",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Khronos Group"
+        }
+      ],
+      "title": "OpenCL: The open standard for parallel programming of heterogeneous systems",
+      "date": "",
+      "language": "en",
+      "url": "https://www.khronos.org/opencl/",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-32"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 32"
+    }
+  },
+  {
+    "reference_id": 33,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Roboflow",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Roboflow"
+        }
+      ],
+      "title": "Roboflow: Computer vision tools for developers and enterprises",
+      "date": "",
+      "language": "en",
+      "url": "https://roboflow.com/",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-33"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 33"
+    }
+  },
+  {
+    "reference_id": 34,
+    "item": {
+      "itemType": "computerProgram",
+      "company": "GitHub",
+      "versionNumber": "85c852ddcb543bce1bd69ad0db307f895d597881",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "lastName": "Cerda Leon",
+          "firstName": "D. F."
+        }
+      ],
+      "title": "AssistiveVision",
+      "date": "2026",
+      "url": "https://github.com/diomedescerda/AssistiveVision/tree/85c852ddcb543bce1bd69ad0db307f895d597881",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-34"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 34"
+    }
+  },
+  {
+    "reference_id": 35,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Android Developers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "title": "CameraX",
+      "date": "",
+      "language": "en",
+      "url": "https://developer.android.com/media/camera/camerax",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-35"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 35"
+    }
+  },
+  {
+    "reference_id": 36,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Google AI Edge",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "title": "LiteRT for Android",
+      "date": "",
+      "language": "en",
+      "url": "https://developers.google.com/edge/litert/android",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-36"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 36"
+    }
+  },
+  {
+    "reference_id": 37,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "sherpa-onnx",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "k2-fsa"
+        }
+      ],
+      "title": "Text-to-speech",
+      "date": "",
+      "language": "en",
+      "url": "https://k2-fsa.github.io/sherpa/onnx/tts/index.html",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-37"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 37"
+    }
+  },
+  {
+    "reference_id": 38,
+    "item": {
+      "itemType": "preprint",
+      "repository": "arXiv",
+      "archiveID": "2106.06103",
+      "genre": "Preprint",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Kim",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kong",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Son",
+          "firstName": "J."
+        }
+      ],
+      "title": "Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech",
+      "date": "2021",
+      "language": "en",
+      "url": "https://doi.org/10.48550/arXiv.2106.06103",
+      "DOI": "10.48550/arXiv.2106.06103",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-38"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 38"
+    }
+  },
+  {
+    "reference_id": 39,
+    "item": {
+      "itemType": "computerProgram",
+      "company": "GitHub",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "name": "Rhasspy contributors"
+        }
+      ],
+      "title": "Piper: A fast, local neural text to speech system",
+      "date": "",
+      "url": "https://github.com/rhasspy/piper",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-39"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 39"
+    }
+  },
+  {
+    "reference_id": 40,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Android Developers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "title": "AudioTrack",
+      "date": "",
+      "language": "en",
+      "url": "https://developer.android.com/reference/android/media/AudioTrack",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-40"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 40"
+    }
+  },
+  {
+    "reference_id": 41,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Android Developers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "title": "DataStore",
+      "date": "",
+      "language": "en",
+      "url": "https://developer.android.com/topic/libraries/architecture/datastore",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-41"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 41"
+    }
+  },
+  {
+    "reference_id": 42,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "NIST/SEMATECH"
+        }
+      ],
+      "title": "Analysis of paired observations",
+      "date": "",
+      "language": "en",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-42"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 42"
+    }
+  },
+  {
+    "reference_id": 43,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "The Annals of Statistics",
+      "volume": "7",
+      "issue": "1",
+      "pages": "1–26",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Efron",
+          "firstName": "B."
+        }
+      ],
+      "title": "Bootstrap methods: Another look at the jackknife",
+      "date": "1979",
+      "language": "en",
+      "url": "https://doi.org/10.1214/aos/1176344552",
+      "DOI": "10.1214/aos/1176344552",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-43"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 43"
+    }
+  },
+  {
+    "reference_id": 44,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+      "volume": "69",
+      "issue": "3",
+      "pages": "369–390",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Field",
+          "firstName": "C. A."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Welsh",
+          "firstName": "A. H."
+        }
+      ],
+      "title": "Bootstrapping clustered data",
+      "date": "2007",
+      "language": "en",
+      "url": "https://doi.org/10.1111/j.1467-9868.2007.00593.x",
+      "DOI": "10.1111/j.1467-9868.2007.00593.x",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-44"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 44"
+    }
+  },
+  {
+    "reference_id": 45,
+    "item": {
+      "itemType": "book",
+      "publisher": "Springer",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Szeliski",
+          "firstName": "R."
+        }
+      ],
+      "title": "Computer vision: Algorithms and applications",
+      "date": "2011",
+      "language": "en",
+      "url": "https://doi.org/10.1007/978-1-84882-935-0",
+      "DOI": "10.1007/978-1-84882-935-0",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-45"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 45"
+    }
+  },
+  {
+    "reference_id": 46,
+    "item": {
+      "itemType": "report",
+      "institution": "Camera & Imaging Products Association",
+      "reportNumber": "CIPA DC-X010-2017",
+      "reportType": "Draft",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Camera & Imaging Products Association"
+        }
+      ],
+      "title": "Exif 2.31 metadata for XMP",
+      "date": "2017",
+      "language": "en",
+      "url": "https://www.cipa.jp/std/documents/e/DC-X010-2017.pdf",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-46"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 46"
+    }
+  },
+  {
+    "reference_id": 47,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "NumPy documentation",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "NumPy developers"
+        }
+      ],
+      "title": "numpy.quantile",
+      "date": "",
+      "language": "en",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.quantile.html",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-47"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 47"
+    }
+  },
+  {
+    "reference_id": 48,
+    "item": {
+      "itemType": "webpage",
+      "websiteTitle": "Pillow documentation",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Pillow contributors"
+        }
+      ],
+      "title": "Pillow reference",
+      "date": "",
+      "language": "en",
+      "url": "https://pillow.readthedocs.io/en/stable/reference/",
+      "accessDate": "2026-11-05",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-48"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 48"
+    }
+  },
+  {
+    "reference_id": 49,
+    "item": {
+      "itemType": "journalArticle",
+      "publicationTitle": "Computing in Science & Engineering",
+      "volume": "9",
+      "issue": "3",
+      "pages": "90–95",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Hunter",
+          "firstName": "J. D."
+        }
+      ],
+      "title": "Matplotlib: A 2D graphics environment",
+      "date": "2007",
+      "language": "en",
+      "url": "https://doi.org/10.1109/MCSE.2007.55",
+      "DOI": "10.1109/MCSE.2007.55",
+      "tags": [
+        {
+          "tag": "AssistiveVision"
+        },
+        {
+          "tag": "AssistiveVision-ref-49"
+        }
+      ],
+      "extra": "Original reference number in AssistiveVision: 49"
+    }
+  }
+]

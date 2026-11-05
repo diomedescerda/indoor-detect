@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-05",
+  "apa_guidance": [
+    "https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date",
+    "https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references"
+  ],
+  "metadata_checks": {
+    "2": {
+      "status": "crossref",
+      "doi": "10.1016/j.procs.2025.01.005"
+    },
+    "3": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.32604/cmc.2022.028540"
+    },
+    "4": {
+      "status": "crossref",
+      "doi": "10.1016/j.procs.2023.01.093"
+    },
+    "6": {
+      "status": "HTTP Error 404: Not Found",
+      "doi": "10.48550/arXiv.1506.01497"
+    },
+    "7": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.1109/CVPR.2016.91"
+    },
+    "8": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.1007/978-3-319-46448-0_2"
+    },
+    "9": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.1109/CVPR42600.2020.01079"
+    },
+    "13": {
+      "status": "HTTP Error 404: Not Found",
+      "doi": "10.13140/RG.2.2.28125.12005"
+    },
+    "14": {
+      "status": "crossref",
+      "doi": "10.35784/jcsi.6469"
+    },
+    "16": {
+      "status": "crossref",
+      "doi": "10.1109/CVPR.2018.00474"
+    },
+    "17": {
+      "status": "crossref",
+      "doi": "10.1088/1742-6596/1651/1/012114"
+    },
+    "18": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.1038/s41598-025-99242-y"
+    },
+    "22": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.1007/978-3-319-10602-1_48"
+    },
+    "23": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.1007/s11263-020-01316-z"
+    },
+    "26": {
+      "status": "crossref",
+      "doi": "10.1007/978-3-030-58452-8_13"
+    },
+    "38": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.48550/arXiv.2106.06103"
+    },
+    "43": {
+      "status": "crossref",
+      "doi": "10.1214/aos/1176344552"
+    },
+    "44": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.1111/j.1467-9868.2007.00593.x"
+    },
+    "45": {
+      "status": "HTTP Error 404: Not Found",
+      "doi": "10.5555/1941882"
+    },
+    "49": {
+      "status": "HTTP Error 429: Too Many Requests",
+      "doi": "10.1109/MCSE.2007.55"
+    }
+  },
+  "documentation_access": {
+    "5": [
+      {
+        "url": "https://www.tensorflow.org/lite/guide",
+        "status": 200,
+        "bytes_inspected": 285695,
+        "resolved": "https://developers.google.com/edge/litert"
+      }
+    ],
+    "10": [],
+    "19": [
+      {
+        "url": "https://developers.google.com/edge/litert/libraries/modify/object_detection",
+        "status": 200,
+        "bytes_inspected": 214488,
+        "resolved": "https://developers.google.com/edge/litert/libraries/modify/object_detection"
+      }
+    ],
+    "20": [
+      {
+        "url": "https://docs.ultralytics.com/models/yolov8/",
+        "status": 200,
+        "bytes_inspected": 748605,
+        "resolved": "https://docs.ultralytics.com/models/yolov8"
+      }
+    ],
+    "21": [
+      {
+        "url": "https://docs.ultralytics.com/models/yolo11/",
+        "status": 200,
+        "bytes_inspected": 1032046,
+        "resolved": "https://docs.ultralytics.com/models/yolo11"
+      }
+    ],
+    "24": [
+      {
+        "url": "https://onnxruntime.ai/docs/",
+        "status": 200,
+        "bytes_inspected": 41930,
+        "resolved": "https://onnxruntime.ai/docs/"
+      }
+    ],
+    "25": [
+      {
+        "url": "https://pytorch.org/executorch/stable/",
+        "status": 200,
+        "bytes_inspected": 95359,
+        "resolved": "https://docs.pytorch.org/executorch/stable/"
+      }
+    ],
+    "27": [
+      {
+        "url": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+        "status": 200,
+        "bytes_inspected": 574259,
+        "resolved": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py"
+      }
+    ],
+    "29": [
+      {
+        "url": "https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/measurement.md",
+        "status": 200,
+        "bytes_inspected": 377313,
+        "resolved": "https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/measurement.md"
+      }
+    ],
+    "30": [
+      {
+        "url": "https://developer.android.com/tools/adb",
+        "status": 200,
+        "bytes_inspected": 368130,
+        "resolved": "https://developer.android.com/tools/adb"
+      }
+    ],
+    "31": [
+      {
+        "url": "https://developers.google.com/edge/litert/android/gpu",
+        "status": 200,
+        "bytes_inspected": 174953,
+        "resolved": "https://developers.google.com/edge/litert/android/gpu"
+      }
+    ],
+    "32": [
+      {
+        "url": "https://www.khronos.org/opencl/",
+        "status": 200,
+        "bytes_inspected": 68683,
+        "resolved": "https://www.khronos.org/opencl/"
+      }
+    ],
+    "33": [
+      {
+        "url": "https://roboflow.com/",
+        "status": 200,
+        "bytes_inspected": 558815,
+        "resolved": "https://roboflow.com/"
+      }
+    ],
+    "35": [
+      {
+        "url": "https://developer.android.com/media/camera/camerax",
+        "status": 200,
+        "bytes_inspected": 315120,
+        "resolved": "https://developer.android.com/media/camera/camerax"
+      }
+    ],
+    "36": [
+      {
+        "url": "https://developers.google.com/edge/litert/android",
+        "status": 200,
+        "bytes_inspected": 155955,
+        "resolved": "https://developers.google.com/edge/litert/android"
+      }
+    ],
+    "37": [
+      {
+        "url": "https://k2-fsa.github.io/sherpa/onnx/tts/index.html",
+        "status": 200,
+        "bytes_inspected": 34261,
+        "resolved": "https://k2-fsa.github.io/sherpa/onnx/tts/index.html"
+      }
+    ],
+    "39": [
+      {
+        "url": "https://github.com/rhasspy/piper",
+        "status": 200,
+        "bytes_inspected": 236905,
+        "resolved": "https://github.com/rhasspy/piper"
+      }
+    ],
+    "40": [
+      {
+        "url": "https://developer.android.com/reference/android/media/AudioTrack",
+        "status": 200,
+        "bytes_inspected": 2000000,
+        "resolved": "https://developer.android.com/reference/android/media/AudioTrack"
+      }
+    ],
+    "41": [
+      {
+        "url": "https://developer.android.com/topic/libraries/architecture/datastore",
+        "status": 200,
+        "bytes_inspected": 434417,
+        "resolved": "https://developer.android.com/topic/libraries/architecture/datastore"
+      }
+    ],
+    "42": [
+      {
+        "url": "https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm",
+        "status": 200,
+        "bytes_inspected": 8157,
+        "resolved": "https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm"
+      }
+    ],
+    "47": [
+      {
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.quantile.html",
+        "status": 200,
+        "bytes_inspected": 55826,
+        "resolved": "https://numpy.org/doc/stable/reference/generated/numpy.quantile.html"
+      }
+    ],
+    "48": [
+      {
+        "url": "https://pillow.readthedocs.io/en/stable/reference/Image.html",
+        "status": 200,
+        "bytes_inspected": 404771,
+        "resolved": "https://pillow.readthedocs.io/en/stable/reference/Image.html"
+      },
+      {
+        "url": "https://pillow.readthedocs.io/en/stable/reference/ImageStat.html",
+        "status": 200,
+        "bytes_inspected": 55599,
+        "resolved": "https://pillow.readthedocs.io/en/stable/reference/ImageStat.html"
+      }
+    ]
+  },
+  "primary_publications_checked": [
+    "https://link.springer.com/chapter/10.1007/978-3-319-10602-1_48",
+    "https://link.springer.com/article/10.1007/s11263-020-01316-z",
+    "https://link.springer.com/book/10.1007/978-1-84882-935-0",
+    "https://arxiv.org/abs/2106.06103",
+    "https://pillow.readthedocs.io/en/stable/reference/"
+  ],
+  "notes": [
+    "Se contrastaron autores y títulos con los PDF locales y los registros disponibles; las respuestas de error se conservan, no se contabilizan como verificación en línea exitosa.",
+    "El título aprobado procede de la propuesta de pasantía archivada, página 1.",
+    "El año de la edición de Szeliski enlazada por DOI es 2011, según la editorial.",
+    "CIPA y Pawar se conservan según el registro anterior, sin afirmar acceso nuevo exitoso a esos documentos.",
+    "No se ejecutaron experimentos nuevos ni evaluaciones con participantes."
+  ]
+}

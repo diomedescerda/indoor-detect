@@ -1,0 +1,784 @@
+TY  - RPRT
+ID  - assistivevision-1
+TI  - World report on vision
+AU  - World Health Organization,
+PY  - 2019
+PB  - World Health Organization
+UR  - https://www.who.int/publications/i/item/9789241516570
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-01
+N1  - Original reference number in AssistiveVision: 1
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-2
+TI  - Empowering the visually impaired: YOLOv8-based object detection in Android applications
+AU  - More, S. S.
+AU  - Patil, N.
+AU  - Lobo, V. B.
+AU  - Shet, N.
+AU  - Goswami, D.
+AU  - Rane, P.
+PY  - 2025
+T2  - Procedia Computer Science
+VL  - 252
+DO  - 10.1016/j.procs.2025.01.005
+UR  - https://doi.org/10.1016/j.procs.2025.01.005
+SP  - 457
+EP  - 469
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-02
+N1  - Original reference number in AssistiveVision: 2
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-3
+TI  - Development of mobile app to support the mobility of visually impaired people
+AU  - Meenakshi, R.
+AU  - Ponnusamy, R.
+AU  - Alghamdi, S.
+AU  - Khalaf, O. I.
+AU  - Alotaibi, Y.
+PY  - 2022
+T2  - Computers, Materials & Continua
+VL  - 73
+IS  - 2
+DO  - 10.32604/cmc.2022.028540
+UR  - https://doi.org/10.32604/cmc.2022.028540
+SP  - 3473
+EP  - 3495
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-03
+N1  - Original reference number in AssistiveVision: 3
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-4
+TI  - Third eye: Object recognition and speech generation for visually impaired
+AU  - Guravaiah, K.
+AU  - Bhavadeesh, Y. S.
+AU  - Shwejan, P.
+AU  - Vardhan, A. H.
+AU  - Lavanya, S.
+PY  - 2023
+T2  - Procedia Computer Science
+VL  - 218
+DO  - 10.1016/j.procs.2023.01.093
+UR  - https://doi.org/10.1016/j.procs.2023.01.093
+SP  - 1144
+EP  - 1155
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-04
+N1  - Original reference number in AssistiveVision: 4
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-5
+TI  - TensorFlow Lite
+AU  - TensorFlow,
+T2  - TensorFlow
+UR  - https://www.tensorflow.org/lite/guide
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-05
+N1  - Original reference number in AssistiveVision: 5
+Y2  - 2026-11-05
+ER  - 
+
+TY  - UNPB
+ID  - assistivevision-6
+TI  - Faster R-CNN: Towards real-time object detection with region proposal networks
+AU  - Ren, S.
+AU  - He, K.
+AU  - Girshick, R.
+AU  - Sun, J.
+PY  - 2015
+DO  - 10.48550/arXiv.1506.01497
+UR  - https://doi.org/10.48550/arXiv.1506.01497
+M1  - 1506.01497
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-06
+N1  - Original reference number in AssistiveVision: 6
+ER  - 
+
+TY  - CPAPER
+ID  - assistivevision-7
+TI  - You only look once: Unified, real-time object detection
+AU  - Redmon, J.
+AU  - Divvala, S.
+AU  - Girshick, R.
+AU  - Farhadi, A.
+PY  - 2016
+T2  - 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+PB  - IEEE
+DO  - 10.1109/CVPR.2016.91
+UR  - https://doi.org/10.1109/CVPR.2016.91
+SP  - 779
+EP  - 788
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-07
+N1  - Original reference number in AssistiveVision: 7
+ER  - 
+
+TY  - CHAP
+ID  - assistivevision-8
+TI  - SSD: Single shot MultiBox detector
+AU  - Liu, W.
+AU  - Anguelov, D.
+AU  - Erhan, D.
+AU  - Szegedy, C.
+AU  - Reed, S.
+AU  - Fu, C.-Y.
+AU  - Berg, A. C.
+A2  - Leibe, B.
+A2  - Matas, J.
+A2  - Sebe, N.
+A2  - Welling, M.
+PY  - 2016
+T2  - Computer Vision – ECCV 2016
+PB  - Springer
+DO  - 10.1007/978-3-319-46448-0_2
+UR  - https://doi.org/10.1007/978-3-319-46448-0_2
+SP  - 21
+EP  - 37
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-08
+N1  - Original reference number in AssistiveVision: 8
+ER  - 
+
+TY  - CPAPER
+ID  - assistivevision-9
+TI  - EfficientDet: Scalable and efficient object detection
+AU  - Tan, M.
+AU  - Pang, R.
+AU  - Le, Q. V.
+PY  - 2020
+T2  - 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+PB  - IEEE
+DO  - 10.1109/CVPR42600.2020.01079
+UR  - https://doi.org/10.1109/CVPR42600.2020.01079
+SP  - 10781
+EP  - 10790
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-09
+N1  - Original reference number in AssistiveVision: 9
+ER  - 
+
+TY  - RPRT
+ID  - assistivevision-10
+TI  - Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual
+AU  - Cerda Leon, D. F.
+PB  - Universidad del Magdalena
+LA  - es
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-10
+N1  - Original reference number in AssistiveVision: 10
+ER  - 
+
+TY  - RPRT
+ID  - assistivevision-11
+TI  - Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030
+AU  - Universidad del Magdalena,
+PY  - 2020
+PB  - Universidad del Magdalena
+LA  - es
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-11
+N1  - Original reference number in AssistiveVision: 11
+ER  - 
+
+TY  - RPRT
+ID  - assistivevision-12
+TI  - Plan de Gobierno Rectoral 2024–2028
+AU  - Universidad del Magdalena,
+PY  - 2024
+PB  - Universidad del Magdalena
+LA  - es
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-12
+N1  - Original reference number in AssistiveVision: 12
+ER  - 
+
+TY  - UNPB
+ID  - assistivevision-13
+TI  - Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android
+AU  - Pawar, D. R.
+PY  - 2025
+DO  - 10.13140/RG.2.2.28125.12005
+UR  - https://doi.org/10.13140/RG.2.2.28125.12005
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-13
+N1  - Original reference number in AssistiveVision: 13
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-14
+TI  - Analysis of object recognition systems using augmented reality glasses
+AU  - Figura, J.
+AU  - Kuźmiczuk, R.
+AU  - Badurowicz, M.
+PY  - 2025
+T2  - Journal of Computer Sciences Institute
+VL  - 34
+DO  - 10.35784/jcsi.6469
+UR  - https://doi.org/10.35784/jcsi.6469
+SP  - 8
+EP  - 13
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-14
+N1  - Original reference number in AssistiveVision: 14
+ER  - 
+
+TY  - UNPB
+ID  - assistivevision-15
+TI  - MobileNets: Efficient convolutional neural networks for mobile vision applications
+AU  - Howard, A. G.
+AU  - Zhu, M.
+AU  - Chen, B.
+AU  - Kalenichenko, D.
+AU  - Wang, W.
+AU  - Weyand, T.
+AU  - Andreetto, M.
+AU  - Adam, H.
+PY  - 2017
+UR  - https://arxiv.org/abs/1704.04861
+M1  - 1704.04861
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-15
+N1  - Original reference number in AssistiveVision: 15
+ER  - 
+
+TY  - CPAPER
+ID  - assistivevision-16
+TI  - MobileNetV2: Inverted residuals and linear bottlenecks
+AU  - Sandler, M.
+AU  - Howard, A.
+AU  - Zhu, M.
+AU  - Zhmoginov, A.
+AU  - Chen, L.-C.
+PY  - 2018
+T2  - 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+PB  - IEEE
+DO  - 10.1109/CVPR.2018.00474
+UR  - https://doi.org/10.1109/CVPR.2018.00474
+SP  - 4510
+EP  - 4520
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-16
+N1  - Original reference number in AssistiveVision: 16
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-17
+TI  - Real-time and accurate object detection on edge device with TensorFlow Lite
+AU  - Dai, J.
+PY  - 2020
+T2  - Journal of Physics: Conference Series
+VL  - 1651
+IS  - 1
+DO  - 10.1088/1742-6596/1651/1/012114
+UR  - https://doi.org/10.1088/1742-6596/1651/1/012114
+SP  - 012114
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-17
+N1  - Original reference number in AssistiveVision: 17
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-18
+TI  - Lightweight faster R-CNN for object detection in optical remote sensing images
+AU  - Magdy, A.
+AU  - Moustafa, M. S.
+AU  - Ebied, H. M.
+AU  - Tolba, M. F.
+PY  - 2025
+T2  - Scientific Reports
+VL  - 15
+DO  - 10.1038/s41598-025-99242-y
+UR  - https://doi.org/10.1038/s41598-025-99242-y
+SP  - 16163
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-18
+N1  - Original reference number in AssistiveVision: 18
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-19
+TI  - Object detection with TensorFlow Lite Model Maker
+AU  - Google,
+T2  - Google AI Edge
+UR  - https://developers.google.com/edge/litert/libraries/modify/object_detection
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-19
+N1  - Original reference number in AssistiveVision: 19
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-20
+TI  - Explore Ultralytics YOLOv8
+AU  - Ultralytics,
+T2  - Ultralytics
+UR  - https://docs.ultralytics.com/models/yolov8/
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-20
+N1  - Original reference number in AssistiveVision: 20
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-21
+TI  - Ultralytics YOLO11
+AU  - Ultralytics,
+T2  - Ultralytics
+UR  - https://docs.ultralytics.com/models/yolo11/
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-21
+N1  - Original reference number in AssistiveVision: 21
+Y2  - 2026-11-05
+ER  - 
+
+TY  - CHAP
+ID  - assistivevision-22
+TI  - Microsoft COCO: Common objects in context
+AU  - Lin, T.-Y.
+AU  - Maire, M.
+AU  - Belongie, S.
+AU  - Hays, J.
+AU  - Perona, P.
+AU  - Ramanan, D.
+AU  - Dollár, P.
+AU  - Zitnick, C. L.
+A2  - Fleet, D.
+A2  - Pajdla, T.
+A2  - Schiele, B.
+A2  - Tuytelaars, T.
+PY  - 2014
+T2  - Computer Vision – ECCV 2014
+PB  - Springer
+DO  - 10.1007/978-3-319-10602-1_48
+UR  - https://doi.org/10.1007/978-3-319-10602-1_48
+SP  - 740
+EP  - 755
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-22
+N1  - Original reference number in AssistiveVision: 22
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-23
+TI  - The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale
+AU  - Kuznetsova, A.
+AU  - Rom, H.
+AU  - Alldrin, N.
+AU  - Uijlings, J.
+AU  - Krasin, I.
+AU  - Pont-Tuset, J.
+AU  - Kamali, S.
+AU  - Popov, S.
+AU  - Malloci, M.
+AU  - Kolesnikov, A.
+AU  - Duerig, T.
+AU  - Ferrari, V.
+PY  - 2020
+T2  - International Journal of Computer Vision
+VL  - 128
+DO  - 10.1007/s11263-020-01316-z
+UR  - https://doi.org/10.1007/s11263-020-01316-z
+SP  - 1956
+EP  - 1981
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-23
+N1  - Original reference number in AssistiveVision: 23
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-24
+TI  - ONNX Runtime documentation
+AU  - ONNX Runtime,
+T2  - ONNX Runtime
+UR  - https://onnxruntime.ai/docs/
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-24
+N1  - Original reference number in AssistiveVision: 24
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-25
+TI  - ExecuTorch documentation
+AU  - PyTorch,
+T2  - PyTorch
+UR  - https://pytorch.org/executorch/stable/
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-25
+N1  - Original reference number in AssistiveVision: 25
+Y2  - 2026-11-05
+ER  - 
+
+TY  - CHAP
+ID  - assistivevision-26
+TI  - End-to-end object detection with transformers
+AU  - Carion, N.
+AU  - Massa, F.
+AU  - Synnaeve, G.
+AU  - Usunier, N.
+AU  - Kirillov, A.
+AU  - Zagoruyko, S.
+A2  - Vedaldi, A.
+A2  - Bischof, H.
+A2  - Brox, T.
+A2  - Frahm, J.-M.
+PY  - 2020
+T2  - Computer Vision – ECCV 2020
+PB  - Springer
+DO  - 10.1007/978-3-030-58452-8_13
+UR  - https://doi.org/10.1007/978-3-030-58452-8_13
+SP  - 213
+EP  - 229
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-26
+N1  - Original reference number in AssistiveVision: 26
+ER  - 
+
+TY  - COMP
+ID  - assistivevision-27
+TI  - COCO API: PythonAPI/pycocotools/cocoeval.py
+AU  - COCO dataset contributors,
+PB  - GitHub
+UR  - https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-27
+N1  - Original reference number in AssistiveVision: 27
+Y2  - 2026-11-05
+ER  - 
+
+TY  - BOOK
+ID  - assistivevision-28
+TI  - Introduction to information retrieval
+AU  - Manning, C. D.
+AU  - Raghavan, P.
+AU  - Schütze, H.
+PY  - 2008
+PB  - Cambridge University Press
+UR  - https://nlp.stanford.edu/IR-book/
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-28
+N1  - Original reference number in AssistiveVision: 28
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-29
+TI  - Performance measurement
+AU  - TensorFlow contributors,
+T2  - GitHub
+UR  - https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/measurement.md
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-29
+N1  - Original reference number in AssistiveVision: 29
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-30
+TI  - Android Debug Bridge (adb)
+AU  - Google,
+T2  - Android Developers
+UR  - https://developer.android.com/tools/adb
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-30
+N1  - Original reference number in AssistiveVision: 30
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-31
+TI  - GPU acceleration delegate with Interpreter API
+AU  - Google,
+T2  - Google AI Edge
+UR  - https://developers.google.com/edge/litert/android/gpu
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-31
+N1  - Original reference number in AssistiveVision: 31
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-32
+TI  - OpenCL: The open standard for parallel programming of heterogeneous systems
+AU  - Khronos Group,
+T2  - Khronos Group
+UR  - https://www.khronos.org/opencl/
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-32
+N1  - Original reference number in AssistiveVision: 32
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-33
+TI  - Roboflow: Computer vision tools for developers and enterprises
+AU  - Roboflow,
+T2  - Roboflow
+UR  - https://roboflow.com/
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-33
+N1  - Original reference number in AssistiveVision: 33
+Y2  - 2026-11-05
+ER  - 
+
+TY  - COMP
+ID  - assistivevision-34
+TI  - AssistiveVision
+AU  - Cerda Leon, D. F.
+PY  - 2026
+PB  - GitHub
+UR  - https://github.com/diomedescerda/AssistiveVision/tree/85c852ddcb543bce1bd69ad0db307f895d597881
+ET  - 85c852ddcb543bce1bd69ad0db307f895d597881
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-34
+N1  - Original reference number in AssistiveVision: 34
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-35
+TI  - CameraX
+AU  - Google,
+T2  - Android Developers
+UR  - https://developer.android.com/media/camera/camerax
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-35
+N1  - Original reference number in AssistiveVision: 35
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-36
+TI  - LiteRT for Android
+AU  - Google,
+T2  - Google AI Edge
+UR  - https://developers.google.com/edge/litert/android
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-36
+N1  - Original reference number in AssistiveVision: 36
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-37
+TI  - Text-to-speech
+AU  - k2-fsa,
+T2  - sherpa-onnx
+UR  - https://k2-fsa.github.io/sherpa/onnx/tts/index.html
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-37
+N1  - Original reference number in AssistiveVision: 37
+Y2  - 2026-11-05
+ER  - 
+
+TY  - UNPB
+ID  - assistivevision-38
+TI  - Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech
+AU  - Kim, J.
+AU  - Kong, J.
+AU  - Son, J.
+PY  - 2021
+DO  - 10.48550/arXiv.2106.06103
+UR  - https://doi.org/10.48550/arXiv.2106.06103
+M1  - 2106.06103
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-38
+N1  - Original reference number in AssistiveVision: 38
+ER  - 
+
+TY  - COMP
+ID  - assistivevision-39
+TI  - Piper: A fast, local neural text to speech system
+AU  - Rhasspy contributors,
+PB  - GitHub
+UR  - https://github.com/rhasspy/piper
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-39
+N1  - Original reference number in AssistiveVision: 39
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-40
+TI  - AudioTrack
+AU  - Google,
+T2  - Android Developers
+UR  - https://developer.android.com/reference/android/media/AudioTrack
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-40
+N1  - Original reference number in AssistiveVision: 40
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-41
+TI  - DataStore
+AU  - Google,
+T2  - Android Developers
+UR  - https://developer.android.com/topic/libraries/architecture/datastore
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-41
+N1  - Original reference number in AssistiveVision: 41
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-42
+TI  - Analysis of paired observations
+AU  - NIST/SEMATECH,
+T2  - NIST/SEMATECH e-Handbook of Statistical Methods
+UR  - https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-42
+N1  - Original reference number in AssistiveVision: 42
+Y2  - 2026-11-05
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-43
+TI  - Bootstrap methods: Another look at the jackknife
+AU  - Efron, B.
+PY  - 1979
+T2  - The Annals of Statistics
+VL  - 7
+IS  - 1
+DO  - 10.1214/aos/1176344552
+UR  - https://doi.org/10.1214/aos/1176344552
+SP  - 1
+EP  - 26
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-43
+N1  - Original reference number in AssistiveVision: 43
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-44
+TI  - Bootstrapping clustered data
+AU  - Field, C. A.
+AU  - Welsh, A. H.
+PY  - 2007
+T2  - Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+VL  - 69
+IS  - 3
+DO  - 10.1111/j.1467-9868.2007.00593.x
+UR  - https://doi.org/10.1111/j.1467-9868.2007.00593.x
+SP  - 369
+EP  - 390
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-44
+N1  - Original reference number in AssistiveVision: 44
+ER  - 
+
+TY  - BOOK
+ID  - assistivevision-45
+TI  - Computer vision: Algorithms and applications
+AU  - Szeliski, R.
+PY  - 2011
+PB  - Springer
+DO  - 10.1007/978-1-84882-935-0
+UR  - https://doi.org/10.1007/978-1-84882-935-0
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-45
+N1  - Original reference number in AssistiveVision: 45
+ER  - 
+
+TY  - RPRT
+ID  - assistivevision-46
+TI  - Exif 2.31 metadata for XMP
+AU  - Camera & Imaging Products Association,
+PY  - 2017
+PB  - Camera & Imaging Products Association
+UR  - https://www.cipa.jp/std/documents/e/DC-X010-2017.pdf
+M1  - CIPA DC-X010-2017
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-46
+N1  - Original reference number in AssistiveVision: 46
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-47
+TI  - numpy.quantile
+AU  - NumPy developers,
+T2  - NumPy documentation
+UR  - https://numpy.org/doc/stable/reference/generated/numpy.quantile.html
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-47
+N1  - Original reference number in AssistiveVision: 47
+Y2  - 2026-11-05
+ER  - 
+
+TY  - ELEC
+ID  - assistivevision-48
+TI  - Pillow reference
+AU  - Pillow contributors,
+T2  - Pillow documentation
+UR  - https://pillow.readthedocs.io/en/stable/reference/
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-48
+N1  - Original reference number in AssistiveVision: 48
+Y2  - 2026-11-05
+ER  - 
+
+TY  - JOUR
+ID  - assistivevision-49
+TI  - Matplotlib: A 2D graphics environment
+AU  - Hunter, J. D.
+PY  - 2007
+T2  - Computing in Science & Engineering
+VL  - 9
+IS  - 3
+DO  - 10.1109/MCSE.2007.55
+UR  - https://doi.org/10.1109/MCSE.2007.55
+SP  - 90
+EP  - 95
+LA  - en
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-49
+N1  - Original reference number in AssistiveVision: 49
+ER  - 

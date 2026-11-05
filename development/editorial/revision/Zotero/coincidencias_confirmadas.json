@@ -1,0 +1,26 @@
+{
+  "user_id": "19721030",
+  "resolutions": {
+    "4": {
+      "key": "KYFV7IDY",
+      "reason": "DOI, título y cinco autores idénticos a BDWGY4KM; se reutiliza este registro sin fusionar ni borrar el duplicado existente."
+    },
+    "5": {
+      "key": "CTZRRI2M",
+      "reason": "La URL coincide con TensorFlow Lite; el parámetro hl=es-419 solo selecciona idioma. Falta el autor institucional."
+    },
+    "45": {
+      "key": "4P6DJUC2",
+      "reason": "Título y Richard Szeliski coinciden con el libro Springer; se corrigen tipo de fuente, separación del autor y edición identificada por DOI."
+    }
+  },
+  "normalize_reference_ids": [
+    5,
+    6,
+    9,
+    16,
+    22,
+    26,
+    45
+  ]
+}

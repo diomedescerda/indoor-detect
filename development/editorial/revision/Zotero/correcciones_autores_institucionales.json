@@ -1,0 +1,388 @@
+[
+  {
+    "reference_id": 24,
+    "key": "43WPD5UB",
+    "before": {
+      "key": "43WPD5UB",
+      "version": 335,
+      "library": {
+        "type": "user",
+        "id": 19721030,
+        "name": "diomedescerda",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/19721030/items/43WPD5UB",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/diomedescerda/items/43WPD5UB",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/users/19721030/items/8DUG9PAP",
+          "type": "application/json",
+          "attachmentType": "text/html"
+        }
+      },
+      "meta": {
+        "numChildren": 1
+      },
+      "data": {
+        "key": "43WPD5UB",
+        "version": 335,
+        "itemType": "webpage",
+        "title": "ONNX Runtime",
+        "creators": [],
+        "abstractNote": "ONNX Runtime is a cross-platform machine-learning model accelerator",
+        "websiteTitle": "onnxruntime",
+        "websiteType": "",
+        "date": "",
+        "publisher": "",
+        "place": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://onnxruntime.ai/docs/",
+        "accessDate": "2026-04-29T15:46:03Z",
+        "shortTitle": "",
+        "language": "en-US",
+        "rights": "",
+        "extra": "",
+        "tags": [],
+        "collections": [
+          "FWKXJXWX",
+          "X2VAUMZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2026-04-29T15:46:03Z",
+        "dateModified": "2026-04-29T15:46:03Z"
+      }
+    },
+    "patch": {
+      "title": "ONNX Runtime documentation",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "ONNX Runtime"
+        }
+      ],
+      "websiteTitle": "ONNX Runtime",
+      "language": "en",
+      "accessDate": "2026-11-05"
+    }
+  },
+  {
+    "reference_id": 30,
+    "key": "3AGSNSIH",
+    "before": {
+      "key": "3AGSNSIH",
+      "version": 337,
+      "library": {
+        "type": "user",
+        "id": 19721030,
+        "name": "diomedescerda",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/19721030/items/3AGSNSIH",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/diomedescerda/items/3AGSNSIH",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/users/19721030/items/G83B8WD2",
+          "type": "application/json",
+          "attachmentType": "text/html"
+        }
+      },
+      "meta": {
+        "numChildren": 1
+      },
+      "data": {
+        "key": "3AGSNSIH",
+        "version": 337,
+        "itemType": "webpage",
+        "title": "Android Debug Bridge (adb)  |  Android Studio  |  Android Developers",
+        "creators": [],
+        "abstractNote": "",
+        "websiteTitle": "",
+        "websiteType": "",
+        "date": "",
+        "publisher": "",
+        "place": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://developer.android.com/tools/adb",
+        "accessDate": "2026-07-28T21:01:02Z",
+        "shortTitle": "",
+        "language": "",
+        "rights": "",
+        "extra": "",
+        "tags": [],
+        "collections": [
+          "FWKXJXWX",
+          "X2VAUMZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2026-07-28T21:01:02Z",
+        "dateModified": "2026-07-28T21:01:02Z"
+      }
+    },
+    "patch": {
+      "title": "Android Debug Bridge (adb)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "websiteTitle": "Android Developers",
+      "language": "en",
+      "accessDate": "2026-11-05"
+    }
+  },
+  {
+    "reference_id": 31,
+    "key": "Z67FBP45",
+    "before": {
+      "key": "Z67FBP45",
+      "version": 338,
+      "library": {
+        "type": "user",
+        "id": 19721030,
+        "name": "diomedescerda",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/19721030/items/Z67FBP45",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/diomedescerda/items/Z67FBP45",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/users/19721030/items/7I62MK3I",
+          "type": "application/json",
+          "attachmentType": "text/html"
+        }
+      },
+      "meta": {
+        "numChildren": 1
+      },
+      "data": {
+        "key": "Z67FBP45",
+        "version": 338,
+        "itemType": "webpage",
+        "title": "GPU acceleration delegate with Interpreter API | Google AI Edge",
+        "creators": [],
+        "abstractNote": "",
+        "websiteTitle": "Google for Developers",
+        "websiteType": "",
+        "date": "",
+        "publisher": "",
+        "place": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://developers.google.com/edge/litert/android/gpu",
+        "accessDate": "2026-07-28T21:01:46Z",
+        "shortTitle": "",
+        "language": "en",
+        "rights": "",
+        "extra": "",
+        "tags": [],
+        "collections": [
+          "FWKXJXWX",
+          "X2VAUMZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2026-07-28T21:01:46Z",
+        "dateModified": "2026-07-28T21:02:28Z"
+      }
+    },
+    "patch": {
+      "title": "GPU acceleration delegate with Interpreter API",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Google"
+        }
+      ],
+      "websiteTitle": "Google AI Edge",
+      "language": "en",
+      "accessDate": "2026-11-05"
+    }
+  },
+  {
+    "reference_id": 32,
+    "key": "NMUHD3A8",
+    "before": {
+      "key": "NMUHD3A8",
+      "version": 339,
+      "library": {
+        "type": "user",
+        "id": 19721030,
+        "name": "diomedescerda",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/19721030/items/NMUHD3A8",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/diomedescerda/items/NMUHD3A8",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/users/19721030/items/K3RLS5FU",
+          "type": "application/json",
+          "attachmentType": "text/html"
+        }
+      },
+      "meta": {
+        "parsedDate": "2013-07-21",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "NMUHD3A8",
+        "version": 339,
+        "itemType": "webpage",
+        "title": "OpenCL - The Open Standard for Parallel Programming of Heterogeneous Systems",
+        "creators": [],
+        "abstractNote": "OpenCL™ (Open Computing Language) is an open, royalty-free standard for cross-platform, parallel\n                    programming of diverse accelerators found in supercomputers, cloud servers, personal computers,\n                    mobile devices and embedded platforms. OpenCL greatly improves the speed and responsiveness of a\n                    wide spectrum of applications in numerous market categories including professional creative tools,",
+        "websiteTitle": "The Khronos Group",
+        "websiteType": "",
+        "date": "2013-07-21T12:39:00-07:00",
+        "publisher": "",
+        "place": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://www.khronos.org/opencl/",
+        "accessDate": "2026-07-28T21:14:47Z",
+        "shortTitle": "",
+        "language": "en",
+        "rights": "",
+        "extra": "Section: API",
+        "tags": [],
+        "collections": [
+          "FWKXJXWX",
+          "X2VAUMZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2026-07-28T21:14:47Z",
+        "dateModified": "2026-07-28T21:14:47Z"
+      }
+    },
+    "patch": {
+      "title": "OpenCL: The open standard for parallel programming of heterogeneous systems",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Khronos Group"
+        }
+      ],
+      "websiteTitle": "Khronos Group",
+      "language": "en",
+      "accessDate": "2026-11-05"
+    }
+  },
+  {
+    "reference_id": 33,
+    "key": "9LYX8I7M",
+    "before": {
+      "key": "9LYX8I7M",
+      "version": 340,
+      "library": {
+        "type": "user",
+        "id": 19721030,
+        "name": "diomedescerda",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/diomedescerda",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/users/19721030/items/9LYX8I7M",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/diomedescerda/items/9LYX8I7M",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "numChildren": 0
+      },
+      "data": {
+        "key": "9LYX8I7M",
+        "version": 340,
+        "itemType": "webpage",
+        "title": "Roboflow: Computer vision tools for developers and enterprises",
+        "creators": [],
+        "abstractNote": "",
+        "websiteTitle": "",
+        "websiteType": "",
+        "date": "",
+        "publisher": "",
+        "place": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://roboflow.com/",
+        "accessDate": "2026-07-28T21:10:26Z",
+        "shortTitle": "",
+        "language": "",
+        "rights": "",
+        "extra": "",
+        "tags": [],
+        "collections": [
+          "FWKXJXWX",
+          "X2VAUMZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2026-07-28T21:10:26Z",
+        "dateModified": "2026-07-28T21:10:26Z"
+      }
+    },
+    "patch": {
+      "title": "Roboflow: Computer vision tools for developers and enterprises",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Roboflow"
+        }
+      ],
+      "websiteTitle": "Roboflow",
+      "language": "en",
+      "accessDate": "2026-11-05"
+    }
+  }
+]
