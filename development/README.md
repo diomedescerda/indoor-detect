@@ -1,6 +1,6 @@
 # Material intermedio de desarrollo
 
-[Volver al proyecto](../README.md) · [Informe final](../Documents/Informe_Final_AssistiveVision.docx)
+[Descargar APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk) · [Volver al proyecto](../README.md) · [Informe final](../Documents/Informe_Final_AssistiveVision.docx)
 
 Esta carpeta reúne borradores, revisión editorial, diagnósticos y ejecuciones de
 trabajo. Se excluyen del recorrido principal de la entrega. La referencia científica

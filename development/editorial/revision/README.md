@@ -17,8 +17,8 @@ las pruebas funcionales completadas y las 16 diferencias de la repetición
 histórica tras recuperar los seis modelos desde Git. Las tablas originales no
 se sustituyen por nuevos valores; las latencias de cada ejecución permanecen
 separadas. Se actualizaron también los pasajes relacionados de los capítulos 2,
-3 y 4 y las conclusiones. Los workflows se describen como preparados, sin afirmar
-que sus artefactos remotos ya estén publicados.
+3 y 4 y las conclusiones. El build remoto de main d78ffa7 terminó correctamente;
+el APK se publica como descarga individual en GitHub Releases.
 
 ## Campos del autor e imágenes
 
@@ -64,7 +64,7 @@ y sin depender de `benchmark/.venv`. El registro está en [VALIDACION.md](../../
 
 ## Uso básico del prototipo
 
-Instalar el APK, abrir AssistiveVision y conceder permiso de cámara. Colocar el teléfono con la cámara trasera despejada y el soporte estable. En Configuración seleccionar idioma, velocidad, confianza, máximo de objetos y vista previa. Pulsar **Capturar fotograma**, escuchar la descripción y esperar a que se libere la vista antes de la siguiente captura. Las regiones describen la imagen según la orientación de la cámara. El sistema no mide distancias ni identifica una ruta libre.
+[Descargar el APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk), abrir el archivo e instalarlo. Abrir AssistiveVision y conceder permiso de cámara. Colocar el teléfono con la cámara trasera despejada y el soporte estable. En Configuración seleccionar idioma, velocidad, confianza, máximo de objetos y vista previa. Pulsar **Capturar fotograma**, escuchar la descripción y esperar a que se libere la vista antes de la siguiente captura. Las regiones describen la imagen según la orientación de la cámara. El sistema no mide distancias ni identifica una ruta libre.
 
 ## Reconstruir esta revisión
 

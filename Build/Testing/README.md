@@ -1,6 +1,6 @@
 # Reviewed capture study
 
-[Repository home](../../README.md) · [Español](LEEME.md) · [Reproduce results](../../docs/REPRODUCIR.md)
+[Repository home](../../README.md) · [Español](LEEME.md) · [Reproduce results](../../docs/REPRODUCIR.md) · [Download APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk)
 
 This directory contains the final 198-photo / 889-instance dataset and the
 scientific analysis. It retains the reviewed GT, capture groups, original
