@@ -10,7 +10,7 @@ cuya rama principal es **`main`**.
 
 | Quiero… | Abrir |
 |---|---|
-| Instalar la app o conseguir un APK | [Instalación y uso](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/USO.md) |
+| Instalar la app o conseguir un APK | **[Descargar APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk)** · [Instalación y uso](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/USO.md) |
 | Compilar la app desde cero | [Código y compilación reproducible](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/REPRODUCING.md) |
 | Reproducir las tablas y figuras | [Guía de reproducción](docs/REPRODUCIR.md) y comandos de abajo |
 | Entender los datos y resultados | [Datos, métricas y alcance](docs/DATOS_Y_RESULTADOS.md) |

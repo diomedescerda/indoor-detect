@@ -136,6 +136,11 @@ class Revision:
         if kind=='code':
             spacing.set(q('line'),'240');spacing.set(q('after'),'60')
             self.run(p,s,font='Liberation Mono',size=9)
+        elif kind=='download':
+            links={'Descargar APK':'https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk',
+                   'Versiones y comprobantes':'https://github.com/diomedescerda/AssistiveVision/releases/latest'}
+            for chunk in re.split(r'(Descargar APK|Versiones y comprobantes)',s):
+                if chunk:self.run(p,chunk,link=links.get(chunk))
         else:self.run(p,s)
         self.additions.append(s)
         return p
@@ -291,8 +296,12 @@ class Revision:
         for kind,s in ANNEX:
             if kind=='h2':annex.append(self.h(s))
             elif kind=='code':
-                for line in s.splitlines():annex.append(self.para(line.removeprefix('+'),kind='code'))
-            else:annex.append(self.para(s))
+                lines=s.splitlines()
+                for index,line in enumerate(lines):
+                    p=self.para(line.removeprefix('+'),kind='code')
+                    if index+1<len(lines):E.SubElement(self.ppr(p),q('keepNext'))
+                    annex.append(p)
+            else:annex.append(self.para(s,kind=kind))
         # Preserve the original final section break before the bibliography.
         annex.append(self.ps[491])
         bib=[self.ps[492]]

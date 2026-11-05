@@ -61,8 +61,8 @@ store son comprobaciones funcionales aparte, sin participantes ni puntuaciones
 de claridad. Windows/macOS, otros teléfonos y otras versiones Android no fueron
 ejecutados en esta validación local.
 
-Los workflows de GitHub Actions se validaron como YAML y sus comandos se
-ejecutaron localmente, **sin una ejecución remota todavía**. Sus artefactos
-aparecerán después de publicar los cambios y completar los jobs. Los seis modelos históricos se recuperaron de Git con sus hashes exactos; su
+La comprobación inicial de los workflows fue local. El build Android remoto
+[del commit d78ffa7](https://github.com/diomedescerda/AssistiveVision/actions/runs/42096695975) terminó correctamente; su APK se distribuye en
+[Releases](https://github.com/diomedescerda/AssistiveVision/releases/latest). Los artefactos temporales de CI se conservan como evidencia técnica. Los seis modelos históricos se recuperaron de Git con sus hashes exactos; su
 repetición de escritorio y comparación se describen en [HISTORICO.md](HISTORICO.md).
 No se reproducen las latencias originales de Redmi ni se atribuyen al nuevo equipo.

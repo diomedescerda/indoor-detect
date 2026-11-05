@@ -91,16 +91,21 @@ Pasar entre comillas las rutas que contengan espacios.
 
 ## 2. Obtener un APK o compilar la app
 
-La app se mantiene en [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision).
-La rama principal es **`main`** para compilar e instalar la app actual.
+Para instalar, abrir **[Descargar APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk)** desde el teléfono y ejecutar el archivo descargado.
+En [GitHub Releases](https://github.com/diomedescerda/AssistiveVision/releases/latest) se conservan las versiones, SHA-256, manifiesto de fuentes,
+informe de firma/metadatos y licencias. El enlace descarga el APK directamente;
+no hace falta cuenta de GitHub ni extraer un ZIP.
+
+La app se mantiene en [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision), rama **`main`**.
 Su [guía de compilación](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/REPRODUCING.md)
 detalla JDK 21, SDK 37.1 e instalación. Ejecutar `python3 scripts/build_apk.py`
 en ese repositorio genera un APK debug con pruebas, lint, manifiesto de compilación
 y SHA-256. Incluye detector y voces; no necesita claves privadas ni descargas
 adicionales de modelos. El primer build sí necesita internet para Gradle/Maven.
 
-El workflow de la app entrega el paquete como artefacto de GitHub Actions después
-de un build correcto. No guardar APKs de más de 100 MB en Git. Las claves debug
+Las [instrucciones de publicación](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/RELEASES.md)
+explican cómo crear una versión desde un build correcto de `main`. Los APK se
+adjuntan a Releases y no se guardan como archivos del árbol Git. Las claves debug
 de distintas máquinas producen firmas diferentes: reproducir el código/modelos
 no implica APKs firmados idénticos byte por byte.
 

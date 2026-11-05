@@ -43,7 +43,8 @@ indoor-detect/
 La aplicación es un proyecto separado:
 [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision).
 Su directorio `app/` conserva código, activos y tests; `development/` contiene
-los logs y herramientas auxiliares. `dist/` contiene los paquetes APK locales.
+los logs y herramientas auxiliares. `dist/` contiene los paquetes APK locales;
+los paquetes públicos se distribuyen en [Releases](https://github.com/diomedescerda/AssistiveVision/releases/latest).
 
 ## Integridad y límites
 
@@ -56,3 +57,5 @@ por separado en la guía correspondiente. Los registros de validación están
 agrupados en `development/validation/`; su resumen legible permanece en `docs/`.
 
 La rama principal del repositorio Android AssistiveVision es **`main`**. Las guías de compilación y descarga de APK deben consultarse en esa rama; el replay experimental usa el commit histórico explícito de su guía.
+
+Descarga directa para instalar: **[APK de AssistiveVision](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk)**.

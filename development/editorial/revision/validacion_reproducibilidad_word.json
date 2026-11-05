@@ -9,7 +9,7 @@
   "reference_entries_preserved": 49,
   "all_page_references_verified": 81,
   "all_rendered_pages_visually_reviewed": true,
-  "document_sha256": "349e4138187b3c950b8b583a07ab6e43da570b112a37620f31ddea0e1d340ec8",
+  "document_sha256": "e765e29fa9c0816669cccd84a02d317e0640e53b91d8eab91093a6f94dc70752",
   "retained_placeholders": 3,
   "source_content": "development/editorial/scripts/reproduction_revision_content.py",
   "scope": [
@@ -19,7 +19,8 @@
     "conclusiones vinculadas a objetivos",
     "anexo único repositorios APK y reproducción",
     "reorganización del material intermedio y rutas de reproducción",
-    "rama principal main en compilación y descarga de APK"
+    "rama principal main en compilación y descarga de APK",
+    "descarga directa del APK en Releases"
   ],
   "rendered_pages": 73,
   "changed_rendered_pages_after_reorganization": [
@@ -39,6 +40,13 @@
     66,
     67
   ],
-  "unchanged_pages_identical_to_previous_render": 68,
-  "application_main_branch": "main"
+  "unchanged_pages_identical_to_previous_render": 69,
+  "application_main_branch": "main",
+  "changed_rendered_pages_after_release_update": [
+    64,
+    65,
+    66,
+    67
+  ],
+  "direct_download_hyperlink_verified": true
 }

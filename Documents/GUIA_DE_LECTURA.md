@@ -52,3 +52,5 @@ Estas precisiones delimitan la evidencia disponible al interpretar los resultado
 ## Cómo aportar observaciones
 
 Se puede comentar directamente el DOCX en Word o LibreOffice, indicando sección, tabla o figura. Para evitar versiones paralelas, conservar el nombre del manuscrito principal y registrar sus cambios en Git. Si se comparte una copia comentada, añadir un sufijo de revisión y mantener identificada la versión de origen. No ejecutar el constructor del informe sobre ediciones manuales sin incorporarlas antes: reconstruye el documento desde una base anterior.
+
+Para instalar el prototipo: **[Descargar APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk)**. Las versiones y sus comprobantes están en [Releases](https://github.com/diomedescerda/AssistiveVision/releases/latest); la rama principal de la app es `main`.

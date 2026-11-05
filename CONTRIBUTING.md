@@ -11,7 +11,7 @@ para ocultar diferencias inesperadas.
 
 Para cambios de análisis, comprobar que la reproducción completa sigue pasando
 y añadir comprobaciones relevantes del comportamiento numérico modificado.
-Para la app, seguir su repositorio. CI genera artefactos; no guardar entornos,
+Para la app, seguir su repositorio y [su publicación en Releases](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/RELEASES.md). No guardar entornos,
 cachés, APKs ni resultados temporales en Git.
 
 Para el informe, conservar el original y usar el [mapa documental](Documents/README.md).

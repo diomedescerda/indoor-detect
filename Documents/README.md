@@ -33,3 +33,6 @@ Los registros auxiliares y los borradores trasladados conservan su identidad en
 `development/relocations.json`. Las nuevas pruebas se guardan en
 `development/runs/`, ignorado por Git. El archivo de la biblioteca local de literatura
 es opcional, tampoco está versionado ni es necesario para repetir los experimentos.
+
+Para probar la app, usar **[Descargar APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk)**.
+[Las versiones publicadas](https://github.com/diomedescerda/AssistiveVision/releases/latest) incluyen el manifiesto de fuentes y los comprobantes. El código actual se mantiene en `AssistiveVision/main`.
