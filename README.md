@@ -3,7 +3,8 @@
 Material de investigación de un prototipo Android que reconoce diez clases de
 objetos y anuncia sus posiciones en español o inglés. Este repositorio contiene
 las fotografías, anotaciones, experimentos e informe; el código completo de la
-aplicación está en [AssistiveVision](https://github.com/diomedescerda/AssistiveVision).
+aplicación está en [AssistiveVision](https://github.com/diomedescerda/AssistiveVision),
+cuya rama principal es **`main`**.
 
 ## Comenzar según lo que necesitas
 

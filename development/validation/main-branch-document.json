@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "application_main_branch": "main",
+  "application_pushed_commit": "70c5f7b18fb4bda745617f055a5c06f5d719db19",
+  "historical_benchmark_commit": "85c852ddcb543bce1bd69ad0db307f895d597881",
+  "word_sha256": "349e4138187b3c950b8b583a07ab6e43da570b112a37620f31ddea0e1d340ec8",
+  "pages": 73,
+  "page_references": 81,
+  "visually_reviewed_changed_pages": [
+    63,
+    64,
+    65,
+    66,
+    67
+  ],
+  "unchanged_pages_identical_to_previous_reviewed_render": 68,
+  "preserved_tables": 22,
+  "preserved_section_settings": 11
+}

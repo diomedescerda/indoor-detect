@@ -92,6 +92,7 @@ Pasar entre comillas las rutas que contengan espacios.
 ## 2. Obtener un APK o compilar la app
 
 La app se mantiene en [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision).
+La rama principal es **`main`** para compilar e instalar la app actual.
 Su [guía de compilación](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/REPRODUCING.md)
 detalla JDK 21, SDK 37.1 e instalación. Ejecutar `python3 scripts/build_apk.py`
 en ese repositorio genera un APK debug con pruebas, lint, manifiesto de compilación
@@ -110,11 +111,13 @@ El ejecutor no crea el dispositivo. Android Studio Device Manager permite crear
 un emulador. La referencia usa el perfil Pixel 8, API 37, x86_64 y páginas de 16 KB;
 su fingerprint está en [los metadatos originales](../Build/Testing/provenance/android_run_metadata.json).
 
-Crear un clon separado de la app evita modificar una copia con trabajo propio:
+Crear un clon separado de la app evita modificar una copia con trabajo propio.
+Se clona `main` y luego se fija el commit histórico de la evaluación; ese checkout
+solo corresponde a la reproducción del experimento:
 
 ```sh
 # Desde la carpeta que contendrá ambos repositorios:
-git clone https://github.com/diomedescerda/AssistiveVision.git AssistiveVision-reference
+git clone --branch main https://github.com/diomedescerda/AssistiveVision.git AssistiveVision-reference
 git -C AssistiveVision-reference checkout 85c852ddcb543bce1bd69ad0db307f895d597881
 cd indoor-detect
 export JAVA_HOME=/path/to/jdk-21

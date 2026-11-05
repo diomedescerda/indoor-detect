@@ -54,3 +54,5 @@ Los resultados temporales se generan fuera de las referencias científicas.
 La comparación histórica conserva sus discrepancias de reproducción, descritas
 por separado en la guía correspondiente. Los registros de validación están
 agrupados en `development/validation/`; su resumen legible permanece en `docs/`.
+
+La rama principal del repositorio Android AssistiveVision es **`main`**. Las guías de compilación y descarga de APK deben consultarse en esa rama; el replay experimental usa el commit histórico explícito de su guía.
