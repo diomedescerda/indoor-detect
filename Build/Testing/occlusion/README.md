@@ -29,22 +29,45 @@ Antes de usar conclusiones definitivas, revisar los casos inciertos, de baja con
 
 ## Reproducción
 
-Con el entorno Python del benchmark (NumPy y pycocotools):
+Desde la **raíz del repositorio**, crear primero el entorno de la
+[guía principal](../../../docs/REPRODUCIR.md). Para repetir el análisis archivado:
 
 ```sh
-python Build/Testing/benchmark/analyze_occlusion.py
-python development/annotation_drafts/occlusion/build_review.py
+.venv/bin/python scripts/reproduce.py --overlays
 ```
+
+Los resultados de oclusión quedan en `development/runs/saved-results/occlusion/`.
+Si ya se completó la guía principal, consultar esa carpeta y continuar directamente
+con el visor: no hace falta otra ejecución para abrirlo.
+Si esa ejecución ya existe, elegir otra carpeta con `--output` según la guía.
+La referencia científica de `Build/Testing/occlusion/results/` se conserva.
+
+Para generar el visor opcional de revisión:
+
+```sh
+.venv/bin/python development/annotation_drafts/occlusion/build_review.py
+```
+
+El visor comienza con las etiquetas archivadas. Puede importar una descarga
+anterior con «Restaurar JSON» para continuar la revisión.
 
 Abrir `development/annotation_drafts/occlusion/review.html` en el navegador. Utiliza las fotografías finales de `Build/Testing/data/`; no sube imágenes a un servicio. La descarga guarda todas las etiquetas y marca cuáles revisó el autor. Los cambios no se escriben directamente al archivo fuente: descargar antes de cerrar la página. Para continuar, cargar el JSON descargado con «Restaurar JSON».
 
-Después de revisar y descargar, recalcular con `python Build/Testing/benchmark/analyze_occlusion.py --labels /ruta/occlusion_author_review.json`. Regenerar el visor y el informe después del análisis. Los JSON `development/annotation_drafts/occlusion/gt_review_issues_batch_*.json` registran posibles problemas de clase, duplicados e identidad que requieren revisión separada; el visor de oclusión no modifica las cajas ni categorías GT.
+Después de revisar y descargar, conservar ese JSON y recalcular en una **carpeta nueva**, sin sustituir los resultados del estudio:
+
+```sh
+.venv/bin/python Build/Testing/benchmark/analyze_occlusion.py \
+  --labels /ruta/occlusion_author_review.json \
+  --output development/runs/occlusion-revisada
+```
+
+Sustituir `/ruta/occlusion_author_review.json` por el archivo descargado. Esta ejecución incorpora otras etiquetas y debe identificarse como un análisis nuevo. Para continuar en el visor, restaurar el JSON descargado; generar el visor de nuevo no importa automáticamente los resultados de esa carpeta. Los JSON `development/annotation_drafts/occlusion/gt_review_issues_batch_*.json` registran posibles problemas de clase, duplicados e identidad que requieren revisión separada; el visor de oclusión no modifica las cajas ni categorías GT.
 
 Con cero aciertos en una celda, el intervalo percentil bootstrap puede ser [0,0]; esto refleja la muestra remuestreada y no demuestra una probabilidad poblacional nula.
 
 ### Guardado durante la revisión
 
-«Guardar y marcar revisión del autor» conserva la etiqueta en la sesión actual y muestra confirmación junto al botón; permanece en el mismo objeto. «Guardar y siguiente» guarda y avanza. La marca ✓ identifica las instancias revisadas. El contador aumenta sólo la primera vez que se revisa una instancia, no al actualizarla. Para conservar el trabajo al cerrar o recargar, usar «Descargar etiquetas revisadas» y luego «Restaurar JSON» al continuar.
+«Guardar y marcar revisión del autor» conserva la etiqueta en la sesión actual y muestra confirmación junto al botón. En «Todas las instancias» permanece en el mismo objeto; en «Sin revisión del autor», el objeto guardado sale del filtro y se muestra el siguiente pendiente. «Guardar y siguiente» guarda y avanza. La marca ✓ identifica las instancias revisadas. El contador aumenta sólo la primera vez que se revisa una instancia, no al actualizarla. Para conservar el trabajo al cerrar o recargar, usar «Descargar etiquetas revisadas» y luego «Restaurar JSON» al continuar.
 
 ### Revisión del autor importada (2026-10-16)
 

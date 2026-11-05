@@ -96,7 +96,7 @@ La distancia usa un modelo geométrico aproximado con EXIF y alturas de referenc
 ## Reproducir con predicciones guardadas
 
 La [guía de reproducción actual](../../docs/REPRODUCIR.md) reúne todos los pasos.
-Desde la **raíz del repositorio**, con Python 3.12:
+Desde la **raíz del repositorio**, con Python 3.12. Si falta ese intérprete o se usa una terminal AppImage, seguir [la preparación del entorno](../../docs/REPRODUCIR.md#antes-de-empezar):
 
 ```sh
 python3.12 -m venv .venv
@@ -130,7 +130,7 @@ usa otro runtime/decodificador y debe mantenerse separada de Android.
 
 ## Integridad y documentación histórica
 
-[provenance/android_run_metadata.json](provenance/android_run_metadata.json) conserva el commit Android, entorno y hashes de modelo, GT y módulos. [provenance/app_source/](provenance/app_source) conserva esos módulos; [benchmark/models/](benchmark/models) contiene el modelo usado. La procedencia y licencia del modelo aguas arriba deben completarse antes de su publicación.
+[provenance/android_run_metadata.json](provenance/android_run_metadata.json) conserva el commit Android, entorno y hashes de modelo, GT y módulos. [provenance/app_source/](provenance/app_source) conserva esos módulos; [benchmark/models/](benchmark/models) contiene el modelo usado. La procedencia y las condiciones de los componentes se documentan en [la guía de terceros de la app](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/THIRD_PARTY.md).
 
 El [verificador activo](../../scripts/verify_archive.py) comprueba las 570 sumas originales mediante [el mapa de reubicación](../../development/relocations.json); 281 archivos están archivados en `development/`. Las comprobaciones nuevas escriben en `development/runs/`, sin reemplazar los originales.
 

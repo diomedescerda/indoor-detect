@@ -7,6 +7,40 @@ archivadas y ejecutar de nuevo la inferencia en Android. La primera verifica
 el análisis sin teléfono ni SDK; la segunda comprueba los módulos del prototipo
 sobre las mismas fotografías. La compilación de la app se documenta en su repositorio.
 
+## Antes de empezar
+
+Elegir el recorrido: **instalar** usa el APK publicado; **recalcular tablas** usa
+Python 3.12; **repetir inferencia Android** requiere además JDK/SDK y un dispositivo.
+Los comandos se ejecutan desde la raíz de `indoor-detect`, donde están `scripts/`
+y `requirements-analysis.lock.txt`. Abrir una terminal en esa carpeta antes de continuar.
+
+Comprobar `git --version` y `python3.12 --version` (en Windows, `py -3.12 --version`).
+Si Python 3.12 no está disponible, se puede instalar [uv](https://docs.astral.sh/uv/getting-started/installation/)
+y crear el entorno después de clonar y entrar al repositorio:
+
+```sh
+uv python install 3.12
+uv venv --python 3.12 --seed .venv
+```
+
+Esto sustituye únicamente el comando de creación de `.venv` de los bloques siguientes.
+Continuar con la instalación de dependencias y la reproducción usando el Python de
+`.venv`. En PowerShell los mismos comandos uv crean `.venv`; usar después
+`.venv\Scripts\python.exe`. Véase la [gestión de Python con uv](https://docs.astral.sh/uv/guides/install-python/).
+
+Si se usa una terminal integrada en una AppImage y aparecen errores de `ensurepip`,
+`externally-managed-environment` o el intérprete se identifica como la AppImage,
+abrir una **terminal externa** y repetir desde la raíz del repositorio. Como alternativa
+Linux, quitar `APPIMAGE` solo para **cada comando Python o uv**:
+
+```sh
+env -u APPIMAGE uv venv --python 3.12 --seed .venv
+env -u APPIMAGE .venv/bin/python -m pip install -r requirements-analysis.lock.txt
+env -u APPIMAGE .venv/bin/python scripts/reproduce.py --overlays
+```
+
+No usar `--break-system-packages`: las dependencias pertenecen al entorno del proyecto.
+
 ## 1. Recalcular todo sin Android
 
 Requisitos: Git, **Python 3.12**, espacio para el clon y los resultados e internet
@@ -116,6 +150,10 @@ El ejecutor no crea el dispositivo. Android Studio Device Manager permite crear
 un emulador. La referencia usa el perfil Pixel 8, API 37, x86_64 y páginas de 16 KB;
 su fingerprint está en [los metadatos originales](../Build/Testing/provenance/android_run_metadata.json).
 
+Usar un dispositivo de prueba dedicado. Si ya tiene el APK publicado, es preferible
+crear otro emulador: el APK local puede estar firmado con una clave debug distinta.
+El ejecutor se detiene ante ese conflicto y no borra la instalación existente.
+
 Crear un clon separado de la app evita modificar una copia con trabajo propio.
 Se clona `main` y luego se fija el commit histórico de la evaluación; ese checkout
 solo corresponde a la reproducción del experimento:
@@ -192,5 +230,3 @@ manuales: no ejecutar un constructor anterior sobre esa copia. La
 [guía documental](../Documents/README.md) explica las versiones.
 
 El README y los verificadores originales del paquete se conservan en `development/annotation_drafts/Testing/`; el mapa de reubicación mantiene verificables sus hashes. El README actual de `Build/Testing/` y `LEEME.md` remiten a los ejecutores vigentes.
-
-Si al crear el entorno Python dentro de una aplicación AppImage el intérprete se identifica como la propia AppImage o falla `ensurepip`, abrir una terminal externa. En Linux también se puede quitar esa variable solo para el comando: `env -u APPIMAGE python3.12 -m venv .venv`. No es necesario modificar Python ni el entorno global.

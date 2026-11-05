@@ -140,7 +140,9 @@ class Revision:
             links={'Descargar APK':'https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk',
                    'Versiones y comprobantes':'https://github.com/diomedescerda/AssistiveVision/releases/latest'}
             for chunk in re.split(r'(Descargar APK|Versiones y comprobantes)',s):
-                if chunk:self.run(p,chunk,link=links.get(chunk))
+                if chunk:
+                    run=self.run(p,chunk,link=links.get(chunk))
+                    if chunk in links:E.SubElement(run.find(q('rPr')),q('u')).set(q('val'),'single')
         else:self.run(p,s)
         self.additions.append(s)
         return p

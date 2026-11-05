@@ -23,6 +23,8 @@ cuya rama principal es **`main`**.
 Se necesita **Python 3.12**, Git e internet para instalar las dependencias.
 No se necesitan Android Studio, GPU, Zotero ni una cuenta de Roboflow.
 Las imágenes, anotaciones, modelo y predicciones ya están incluidos en Git.
+Si `python3.12` no existe o se usa una terminal AppImage, seguir
+[la preparación del entorno](docs/REPRODUCIR.md#antes-de-empezar) antes de ejecutar los comandos.
 
 ```sh
 git clone https://github.com/diomedescerda/indoor-detect.git

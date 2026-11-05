@@ -1,3 +1,15 @@
+# Archivo histórico del README editorial
+
+Este archivo conserva instrucciones de revisiones anteriores. Sus comandos y
+rutas del cuerpo describen aquella organización y **no son el procedimiento
+actual de reconstrucción**. Para trabajar con la entrega vigente, consultar:
+
+- [Informe final actual](../../Documents/Informe_Final_AssistiveVision.docx).
+- [Mapa documental actual](../../Documents/README.md).
+- [Reconstrucción de la revisión vigente](revision/README.md#reconstruir-esta-revisión).
+
+## Contenido del README anterior
+
 # Informe final de AssistiveVision
 
 ## Revisión del tutor del 5 de noviembre de 2026

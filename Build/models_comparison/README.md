@@ -2,7 +2,7 @@
 
 **Código fuente de la aplicación Android:** [diomedescerda/AssistiveVision](https://github.com/diomedescerda/AssistiveVision). Este repositorio conserva la documentación, los datos y los análisis experimentales del proyecto.
 
-Esta carpeta conserva el código y los resultados de la selección inicial de DNN que se describe en el capítulo 2 del [informe final](../../development/editorial/previous_reports/Informe_Final_Trabajo_de_Grado_AssistiveVision.docx).
+Esta carpeta conserva el código y los resultados de la selección inicial de DNN que se describe en el capítulo 2 del [informe final](../../Documents/Informe_Final_AssistiveVision.docx).
 
 | Archivo | Contenido |
 |---|---|

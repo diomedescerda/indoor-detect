@@ -7,7 +7,7 @@ scientific analysis. It retains the reviewed GT, capture groups, original
 photographs, detector model, raw Android predictions, final result tables,
 analysis code and required numerical tests.
 
-From the repository root, with the documented Python environment:
+From the repository root, with the [documented Python environment](../../docs/REPRODUCIR.md#antes-de-empezar):
 
 ```sh
 python scripts/verify_archive.py

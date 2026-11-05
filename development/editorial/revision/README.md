@@ -70,18 +70,34 @@ y sin depender de `benchmark/.venv`. El registro está en [VALIDACION.md](../../
 
 Los constructores históricos de `development/editorial/scripts/update_informe.py` generan la versión anterior. No ejecutarlos sobre esta revisión para incorporar cambios: volverían a introducir su estructura y bibliografía numérica.
 
-Con Python y `python-docx`, `lxml` y Pillow disponibles, desde la raíz:
+Trabajar en un **clon separado** o confirmar primero las ediciones del Word en Git:
+el constructor sustituye el archivo final a partir de sus fuentes editoriales.
+No requiere acceder a Zotero: las exportaciones usadas están incluidas en Git.
+
+Desde la raíz del clon, preparar un entorno editorial independiente. La
+[guía de preparación de Python](../../../docs/REPRODUCIR.md#antes-de-empezar)
+explica Python 3.12 y la alternativa uv si falta ese intérprete.
 
 ```sh
-python development/editorial/scripts/revise_tutor_feedback.py development/editorial/review/2026-11-05_original_comentado.docx
+python3.12 -m venv .venv-editorial
+.venv-editorial/bin/python -m pip install -r requirements-editorial.lock.txt
+.venv-editorial/bin/python development/editorial/scripts/revise_tutor_feedback.py \
+  development/editorial/review/2026-11-05_original_comentado.docx
 ```
+
+Con uv, sustituir solo el primer comando por
+`uv venv --python 3.12 --seed .venv-editorial`. En Windows usar
+`.venv-editorial\Scripts\python.exe` en lugar de `.venv-editorial/bin/python`.
+La lista editorial incluye `pypdfium2`, requerido por la comprobación de índices.
+La salida esperada es `Documents/Informe_Final_AssistiveVision.docx`; los JSON y
+la comparación HTML se guardan en `development/editorial/revision/`.
 
 El constructor valida que la entrada sea el archivo anotado de 542 párrafos y conserva sus partes de medios y tablas. Escribe el Word final en `Documents/Informe_Final_AssistiveVision.docx` y genera los comprobantes de esta carpeta a partir del contenido editorial de `development/editorial/scripts/tutor_revision_content.py` y del anexo actualizado en `development/editorial/scripts/reproduction_revision_content.py`. Para conservar una edición manual futura, trasladarla también a ese contenido antes de reconstruir. El archivo original recibido se conserva sin alterar en `development/editorial/review/2026-11-05_original_comentado.docx`.
 
-La paginación se verifica después de renderizar el Word. `development/editorial/scripts/refresh_tutor_pages.py` permite materializar los números de los índices a partir del PDF de comprobación, sin guardar el documento mediante LibreOffice:
+La paginación se verifica después de exportar el Word a PDF con Word o LibreOffice. Revisar que las fuentes de la plantilla estén disponibles y que no haya tablas o textos recortados. No guardar el DOCX a través de una conversión automática para rellenar los índices. `development/editorial/scripts/refresh_tutor_pages.py` permite materializar los números de los índices a partir del PDF de comprobación, sin guardar el documento mediante LibreOffice:
 
 ```sh
-python development/editorial/scripts/refresh_tutor_pages.py /ruta/al/render_verificado.pdf
+.venv-editorial/bin/python development/editorial/scripts/refresh_tutor_pages.py /ruta/al/render_verificado.pdf
 ```
 
 Volver a renderizar después de actualizar índices. Las páginas PNG y el PDF de comprobación son archivos de revisión interna; el documento editable es el Word enlazado arriba.

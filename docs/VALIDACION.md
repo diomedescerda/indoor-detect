@@ -66,3 +66,40 @@ La comprobación inicial de los workflows fue local. El build Android remoto
 [Releases](https://github.com/diomedescerda/AssistiveVision/releases/latest). Los artefactos temporales de CI se conservan como evidencia técnica. Los seis modelos históricos se recuperaron de Git con sus hashes exactos; su
 repetición de escritorio y comparación se describen en [HISTORICO.md](HISTORICO.md).
 No se reproducen las latencias originales de Redmi ni se atribuyen al nuevo equipo.
+
+## Recorrido de los README del 5 de noviembre de 2026
+
+Se revisaron **16 README/LEEME**: doce vigentes y cuatro archivos históricos o de
+procedencia. Los 30 documentos de navegación actuales tienen 248 enlaces locales
+y 28 URL externas comprobadas, sin archivos, anclas ni respuestas HTTP fallidas.
+El README congelado del paquete base conserva sus bytes y sus rutas históricas;
+una nueva guía de archivo conduce al procedimiento actual.
+
+En copias independientes obtenidas desde `main`, con entornos Python nuevos, se
+repitieron las 27 tablas/dos JSON, las doce evaluaciones históricas y la inferencia
+opcional de escritorio. La repetición histórica conservó las siete/nueve diferencias
+ya documentadas. Las 198 predicciones Android volvieron a coincidir exactamente.
+Se verificaron la descarga pública completa del APK, su instalación y captura en
+emulador, persistencia de ajustes, 34 pruebas JVM y cinco de voz/fotogramas en modo
+avión. El visor de oclusión superó guardado, exportación, recarga y restauración
+con un registro de prueba que no se incorporó a las anotaciones científicas.
+
+La reconstrucción editorial en otro entorno conservó 22 tablas, once secciones y
+49 referencias. Sus **73 páginas renderizadas coinciden píxel a píxel** con el Word
+actual; se corrigió el constructor para conservar el subrayado de los enlaces de
+descarga. El Word final no se sustituyó durante estas pruebas.
+
+Se reprodujo una incidencia del APK `v1.0.0`: el primer permiso de cámara puede dejar
+Capturar deshabilitado aunque exista vista previa. Forzar detención y abrir una vez resolvió
+el caso sin borrar datos; las guías incluyen esa recuperación. Esta revisión mejora
+las instrucciones y no modifica el código de producción de la app.
+
+Las pruebas se hicieron en Linux x86_64 y un emulador x86_64/API 37.2 con páginas de
+16 KB. Se reutilizaron objetos Git y descargas SDK/Gradle/Maven; los clones quedaron
+independientes, sin `.venv`, builds ni `local.properties` heredados. Windows/macOS,
+la instalación desde un navegador de teléfono, cámaras físicas, mandos Bluetooth
+y claridad con oyentes requieren sus propias comprobaciones. No se creó otra
+versión pública solo para probar el procedimiento de publicación.
+
+El [registro completo](../development/validation/readme-e2e-20261105.json) separa
+éxitos, recuperaciones, archivos históricos y límites de la comprobación.

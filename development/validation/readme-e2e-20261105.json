@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-05",
+  "platform": "Linux-7.2.6-arch2-1-x86_64-with-glibc2.44",
+  "scope": "Reader journeys from all README/LEEME files and the current guides they reference",
+  "readmes": [
+    {
+      "repository": "indoor-detect",
+      "path": "Build/Testing/LEEME.md",
+      "role": "current",
+      "sha256": "728574288c5e78f0922471a9aeefdf98091abfdddce85b88d465de345c480e67"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "Build/Testing/README.md",
+      "role": "current",
+      "sha256": "3ea6424b4773c2a8c3b04b581ac2df44b99f49e6582a78701571788040465a27"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "Build/Testing/occlusion/README.md",
+      "role": "current",
+      "sha256": "dcb77eb76cd6307059639d6e9b9faabc1a23a74a2db750ae1beeaf23e42ab191"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "Build/models_comparison/README.md",
+      "role": "current",
+      "sha256": "864a287ee84b9267967a8208808f3e23ae4bb4fa8fbebb7d0b6476a573e66eb0"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "Build/models_comparison/panoramic/README.dataset.txt",
+      "role": "original Roboflow provenance; preserved",
+      "sha256": "1728fcfb917bf88078cc8fb9985238ce1901d43e5180b893339e708314c60fd7"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "Build/models_comparison/panoramic/README.roboflow.txt",
+      "role": "original Roboflow provenance; preserved",
+      "sha256": "322d099375cb821d560165675623695b090efae7d22e3bee41119aa16eeb91ef"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "Documents/README.md",
+      "role": "current",
+      "sha256": "39a3ff174951b11dee94a077581b01a8c5f45aedb4b845b197910468293b6eca"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "Documents/Referencias/README.md",
+      "role": "current",
+      "sha256": "7348267ac09887c81eff1b7fb3fbed535a29c8ef33599f02204edbd243fc4dd9"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "README.md",
+      "role": "current",
+      "sha256": "988496de724c7b4d9bd93732abccf9e897efe8bf1f2c08d2657443f68d3bde77"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "development/README.md",
+      "role": "current",
+      "sha256": "6504822f03375fec784eef5f16b513cbcd7039d928460c598173de31620478bd"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "development/annotation_drafts/README.md",
+      "role": "current",
+      "sha256": "d52aa178caa4a3b568ae3e6ff4690f6169aa6a20c352795cd3b02b0deb89e852"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "development/annotation_drafts/Testing/README.md",
+      "role": "checksum-frozen archive; original paths intentionally historical",
+      "sha256": "ae03dea3fc3c2c9358fcfb78524bc9dedfe550a879aebfe76959ecfd632cc990"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "development/editorial/README_previous.md",
+      "role": "archived editorial README; current navigation added above original body",
+      "sha256": "c20ff0835d92feae4940e84b9d005688af6bd9b8e87a57130c6f0eb56119cdee"
+    },
+    {
+      "repository": "indoor-detect",
+      "path": "development/editorial/revision/README.md",
+      "role": "current",
+      "sha256": "1c86890a981833c99d8865185428056c79b47b660f03d6c778a8894fe046c57d"
+    },
+    {
+      "repository": "AssistiveVision",
+      "path": "README.md",
+      "role": "current",
+      "sha256": "21554db8bef599ba9282b11a0b70e12b98905fa481eb6d96c9256f61ad882097"
+    },
+    {
+      "repository": "AssistiveVision",
+      "path": "development/README.md",
+      "role": "current",
+      "sha256": "9c120dcba9030196fce6bb8ad523bb9ade11579c87e569780b5bccac025f67ac"
+    }
+  ],
+  "readme_count": 16,
+  "active_readmes": 12,
+  "fresh_checkouts": {
+    "indoor-detect": {
+      "commit": "efb6bb21a90b7af463957b60049979608cdf00a6",
+      "branch": "main",
+      "independent_git_objects": true
+    },
+    "AssistiveVision": {
+      "commit": "765b81417ccd1cc015d76ae4a481eea7f40d9ac7",
+      "branch": "main",
+      "independent_git_objects": true
+    }
+  },
+  "cache_limits": {
+    "git_objects_seeded_then_dissociated": true,
+    "installed_sdk_and_gradle_maven_caches_reused": true,
+    "fresh_virtual_environments": true,
+    "fully_cold_network_install": false
+  },
+  "links": {
+    "current_markdown_files": 30,
+    "relative_links": 248,
+    "external_urls": 28,
+    "missing_files_or_anchors": 0,
+    "failed_http_checks": 0
+  },
+  "public_download": {
+    "url": "https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk",
+    "bytes": 134267426,
+    "sha256": "883078e73596d2861029449debd796e366de4388fafe7a838c78fadef52f0820",
+    "anonymous_full_download": true,
+    "checksum_match": true
+  },
+  "app_build": {
+    "fresh_clone_commit": "765b81417ccd1cc015d76ae4a481eea7f40d9ac7",
+    "clean_build_tasks_executed": 87,
+    "unit_tests": {
+      "tests": 34,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "instrumented_tests": {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "lint": {
+      "Warning": 30
+    },
+    "assets": 362,
+    "package": {
+      "file": "AssistiveVision-1.0-debug.apk",
+      "bytes": 134267426,
+      "sha256": "23580339d68d1662206eef95d15864569ba896207ae9442d2918728b3a54a453"
+    },
+    "source_clean": true,
+    "instrumentation_airplane_mode": true,
+    "first_build_environment_failure": "test worker connection timeout while emulator was running; emulator exited 137",
+    "recovery": "build with emulator stopped, then start emulator for device tests",
+    "reference_prebuild_tasks": 72
+  },
+  "public_apk_ui": {
+    "apk_sha256": "883078e73596d2861029449debd796e366de4388fafe7a838c78fadef52f0820",
+    "emulator": "AssistiveVision_README_E2E_20261105",
+    "api": "37.2",
+    "camera": "emulated virtual scene",
+    "public_apk_install": "success",
+    "camera_permission_granted_via_dialog": true,
+    "first_grant_capture_button_enabled": false,
+    "recovery": "adb shell am force-stop com.unimagdalena.assistivevision, then relaunch; no data reset",
+    "capture_after_restart": "success; TV detected; Spanish AudioModule generated 66048 samples",
+    "airplane_mode": true,
+    "language_change": "Spanish to English",
+    "object_limit_change": "2 to 1",
+    "cold_restart_settings_persist": true,
+    "perceptual_audio_test": false,
+    "local_debug_update_conflict": "INSTALL_FAILED_UPDATE_INCOMPATIBLE",
+    "public_install_preserved": true
+  },
+  "reproduction": {
+    "saved_results": {
+      "status": "passed",
+      "csv_tables": 27,
+      "json_files": 2
+    },
+    "historical": {
+      "normal_differences": 7,
+      "panoramic_differences": 9,
+      "models": 2
+    },
+    "desktop_proxy_frames": 198
+  },
+  "android_replay": {
+    "frames": 198,
+    "frames_with_identical_prediction_arrays": 198,
+    "all_predictions_exactly_equal": true,
+    "summary_equal_excluding_timing": true,
+    "production_source_matches_archive": true,
+    "timing_comparison": "New measurements; equality with archived emulator timings is not required.",
+    "reference_app_commit": "85c852ddcb543bce1bd69ad0db307f895d597881",
+    "new_app_commit": "85c852ddcb543bce1bd69ad0db307f895d597881"
+  },
+  "occlusion_viewer": {
+    "page": "development/annotation_drafts/occlusion/review.html",
+    "loaded_photo_dimensions": [
+      1536,
+      2048
+    ],
+    "initial_records": 889,
+    "initial_reviewed": 215,
+    "pending_filter_count": 674,
+    "marked_test_annotation": 216,
+    "reviewed_after_test": 216,
+    "pending_after_save": 673,
+    "save_in_pending_filter_advances": true,
+    "export_records": 889,
+    "restore_persists_test_reason": true,
+    "scientific_files_modified": false,
+    "test_fixture_only": true
+  },
+  "editorial": {
+    "requirements": "requirements-editorial.lock.txt",
+    "fresh_env": "Python 3.12.14",
+    "validation_failures": 0,
+    "tables": 22,
+    "sections": 11,
+    "references": 49,
+    "tutor_comments_addressed": 25,
+    "rendered_pages": 73,
+    "pages_pixel_identical_to_current_word": 73,
+    "page_references_checked": 81,
+    "canonical_word_modified": false,
+    "helper_fix": "Preserve visible underlining on both rebuilt download hyperlinks",
+    "canonical_word_sha256": "e765e29fa9c0816669cccd84a02d317e0640e53b91d8eab91093a6f94dc70752"
+  },
+  "archive": {
+    "checksums_passed": 570,
+    "relocated_files": 281,
+    "scientific_files_changed_by_reader_commands": false
+  },
+  "bibliography": {
+    "CSL_items": 49,
+    "synchronized_CSL_items": 49,
+    "RIS_entries": 49,
+    "APA_HTML_entries": 49,
+    "live_Zotero_writes": false
+  },
+  "known_issue": {
+    "version": "v1.0.0",
+    "behavior": "Capture can remain disabled after first camera permission despite a live preview",
+    "observed_on": "fresh API 37.2 x86_64 16KB emulator with English system locale and Spanish default app",
+    "workaround_verified": "Force-stop the app and relaunch once; permission/settings persist and offline capture succeeds",
+    "production_app_fix_in_this_change": false
+  },
+  "not_executed": [
+    "Windows PowerShell commands on Windows",
+    "macOS builds",
+    "physical arm64 phone camera or Bluetooth shutter",
+    "perceptual audio testing with listeners",
+    "creating another public release solely for QA",
+    "executing archived README commands against scientific reference folders",
+    "Local SDK installation from scratch; the installed SDK and prior successful CI setup were reused"
+  ],
+  "raw_task_artifacts": "development/runs/readme-e2e-20261105/ (ignored by Git)",
+  "existing_main_ci": {
+    "commit": "765b81417ccd1cc015d76ae4a481eea7f40d9ac7",
+    "result": "success",
+    "url": "https://github.com/diomedescerda/AssistiveVision/actions/runs/42105470191"
+  }
+}

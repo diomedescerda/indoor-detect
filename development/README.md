@@ -9,7 +9,7 @@ la aplicación se compila desde el repositorio AssistiveVision.
 
 | Carpeta | Contenido | Uso |
 |---|---|---|
-| `annotation_drafts/` | Preanotaciones, previews, checklist, hojas de inspección y visor de oclusión | Historia de preparación; no GT final |
+| [`annotation_drafts/`](annotation_drafts/README.md) | Preanotaciones, previews, checklist, hojas de inspección y visor de oclusión | Historia de preparación; no GT final |
 | `editorial/scripts/` | Constructores Word y herramientas bibliográficas | Mantenimiento editorial opcional |
 | `editorial/review/` | Archivo comentado de la tutora y revisiones anteriores | Fuentes y antecedentes de edición |
 | `editorial/revision/` | Comparación de cambios, navegación y verificaciones editoriales | Auditoría de la revisión actual |

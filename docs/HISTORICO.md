@@ -27,7 +27,8 @@ histórico usa `fetch-depth: 0` para obtenerlo.
 
 ## Repetir la inferencia de escritorio
 
-Preparar el entorno Python 3.12 de la [guía principal](REPRODUCIR.md), luego:
+La ejecución comprobada usa **Linux x86_64 y Python 3.12**. Preparar el entorno
+de la [guía principal](REPRODUCIR.md), luego:
 
 ```sh
 .venv/bin/python -m pip install -r requirements-historical.lock.txt
