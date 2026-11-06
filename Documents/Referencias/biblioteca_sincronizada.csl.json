@@ -1,6 +1,392 @@
 {
   "items": [
     {
+      "id": "23298327/YV5QEQ7I",
+      "type": "article",
+      "abstract": "We present a class of efficient models called MobileNets for mobile and embedded vision applications. MobileNets are based on a streamlined architecture that uses depth-wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem. We present extensive experiments on resource and accuracy tradeoffs and show strong performance compared to other popular models on ImageNet classification. We then demonstrate the effectiveness of MobileNets across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.",
+      "DOI": "10.48550/arXiv.1704.04861",
+      "note": "arXiv:1704.04861 [cs]",
+      "number": "arXiv:1704.04861",
+      "publisher": "arXiv",
+      "shortTitle": "MobileNets",
+      "source": "arXiv.org",
+      "title": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "title-short": "MobileNets",
+      "URL": "http://arxiv.org/abs/1704.04861",
+      "author": [
+        {
+          "family": "Howard",
+          "given": "Andrew G."
+        },
+        {
+          "family": "Zhu",
+          "given": "Menglong"
+        },
+        {
+          "family": "Chen",
+          "given": "Bo"
+        },
+        {
+          "family": "Kalenichenko",
+          "given": "Dmitry"
+        },
+        {
+          "family": "Wang",
+          "given": "Weijun"
+        },
+        {
+          "family": "Weyand",
+          "given": "Tobias"
+        },
+        {
+          "family": "Andreetto",
+          "given": "Marco"
+        },
+        {
+          "family": "Adam",
+          "given": "Hartwig"
+        }
+      ],
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            4
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            4,
+            17
+          ]
+        ]
+      }
+    },
+    {
+      "id": "23298327/CWDKFB4W",
+      "type": "book",
+      "abstract": "This study presents the development of a real-time object detection system designed to assist visually impaired individuals using a smartphone-based application. The core objective is to enable users to identify indoor objects and receive audible feedback, thus facilitating safer navigation and greater independence in daily activities. Utilizing the TensorFlow Object Detection API and SSD MobileNet architecture, the proposed system integrates machine learning models optimized through transfer learning to detect and classify 80 different object categories. The application captures live video using the mobile camera, processes it in real-time, and audibly announces the detected objects via text-to-speech technology. A custom dataset comprising over 1,000 annotated images underwent augmentation to enhance model robustness. Evaluation metrics such as precision, recall, F1-score, and mean average precision (mAP) indicate that the system achieves high detection accuracy, with a balanced trade-off between speed and reliability. The Android-based implementation ensures accessibility and cost-effectiveness, eliminating the need for additional hardware or continuous internet access. Furthermore, the system's performance in real-world scenarios demonstrates its practical applicability for the visually impaired. Future enhancements aim to include OCR for reading text, currency recognition, and support for multiple languages. This work contributes to the field of assistive technology by offering a portable, efficient, and scalable solution that leverages mobile computing and deep learning to improve the quality of life for those with visual impairments.",
+      "DOI": "10.13140/RG.2.2.28125.12005",
+      "shortTitle": "Deep Learning-Driven Assistive Technology for Blind Users",
+      "source": "ResearchGate",
+      "title": "Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android",
+      "title-short": "Deep Learning-Driven Assistive Technology for Blind Users",
+      "author": [
+        {
+          "family": "Pawar",
+          "given": "Diksha"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            29
+          ]
+        ]
+      }
+    },
+    {
+      "id": "23298327/LC9EX9HQ",
+      "type": "paper-conference",
+      "abstract": "We present a method for detecting objects in images using a single deep neural network. Our approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes. SSD is simple relative to methods that require object proposals because it completely eliminates proposal generation and subsequent pixel or feature resampling stages and encapsulates all computation in a single network. This makes SSD easy to train and straightforward to integrate into systems that require a detection component. Experimental results on the PASCAL VOC, COCO, and ILSVRC datasets confirm that SSD has competitive accuracy to methods that utilize an additional object proposal step and is much faster, while providing a unified framework for both training and inference. For $$300 \\times 300$$300×300input, SSD achieves 74.3 % mAP on VOC2007 test at 59 FPS on a Nvidia Titan X and for $$512 \\times 512$$512×512input, SSD achieves 76.9 % mAP, outperforming a comparable state of the art Faster R-CNN model. Compared to other single stage methods, SSD has much better accuracy even with a smaller input image size. Code is available at https://github.com/weiliu89/caffe/tree/ssd.",
+      "container-title": "Computer Vision – ECCV 2016",
+      "DOI": "10.1007/978-3-319-46448-0_2",
+      "ISBN": "978-3-319-46448-0",
+      "language": "en",
+      "page": "21-37",
+      "publisher": "Springer International Publishing",
+      "publisher-place": "Cham",
+      "shortTitle": "SSD",
+      "source": "Springer Link",
+      "title": "SSD: Single shot MultiBox detector",
+      "title-short": "SSD",
+      "author": [
+        {
+          "family": "Liu",
+          "given": "Wei"
+        },
+        {
+          "family": "Anguelov",
+          "given": "Dragomir"
+        },
+        {
+          "family": "Erhan",
+          "given": "Dumitru"
+        },
+        {
+          "family": "Szegedy",
+          "given": "Christian"
+        },
+        {
+          "family": "Reed",
+          "given": "Scott"
+        },
+        {
+          "family": "Fu",
+          "given": "Cheng-Yang"
+        },
+        {
+          "family": "Berg",
+          "given": "Alexander C."
+        }
+      ],
+      "editor": [
+        {
+          "family": "Leibe",
+          "given": "Bastian"
+        },
+        {
+          "family": "Matas",
+          "given": "Jiri"
+        },
+        {
+          "family": "Sebe",
+          "given": "Nicu"
+        },
+        {
+          "family": "Welling",
+          "given": "Max"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      }
+    },
+    {
+      "id": "23298327/8HY9UC77",
+      "type": "paper-conference",
+      "abstract": "We present YOLO, a new approach to object detection. Prior work on object detection repurposes classifiers to perform detection. Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance. Our unified architecture is extremely fast. Our base YOLO model processes images in real-time at 45 frames per second. A smaller version of the network, Fast YOLO, processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors. Compared to state-of-the-art detection systems, YOLO makes more localization errors but is less likely to predict false positives on background. Finally, YOLO learns very general representations of objects. It outperforms other detection methods, including DPM and R-CNN, when generalizing from natural images to other domains like artwork.",
+      "container-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "DOI": "10.1109/CVPR.2016.91",
+      "event-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "ISSN": "1063-6919",
+      "note": "ISSN: 1063-6919",
+      "page": "779-788",
+      "shortTitle": "You Only Look Once",
+      "source": "IEEE Xplore",
+      "title": "You only look once: Unified, real-time object detection",
+      "title-short": "You Only Look Once",
+      "URL": "https://ieeexplore.ieee.org/document/7780460",
+      "author": [
+        {
+          "family": "Redmon",
+          "given": "Joseph"
+        },
+        {
+          "family": "Divvala",
+          "given": "Santosh"
+        },
+        {
+          "family": "Girshick",
+          "given": "Ross"
+        },
+        {
+          "family": "Farhadi",
+          "given": "Ali"
+        }
+      ],
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            20
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2016,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "id": "23298327/KYFV7IDY",
+      "type": "article-journal",
+      "abstract": "Detecting and recognizing the objects and generating speech about the objects helps visually impaired in a great way in understanding their surroundings. Required a mechanism to assist the visually impaired person to travel independently with the ability to identify objects in their path, and the ability to generate speech describing the objects detected in the scene. This can be achieved with the help of YOLOv5 image detection model and text to speech converters such as gTTS and pyttsx3 modules in python. The proposed method called Third Eye, giving better accuracy in detection and speech generation to help the visually impaired people Compared to existing approaches. YOLO v5 is trained on custom dataset of 15 objects along with MS COCO 2017 Dataset of 80 objects (95 objects overall). The output labels of the model are transformed to text and later converted to audio format and are presented to the visually impaired, through a speaker. We compared two python libraries for audio conversion, one is pyttsx3, and the other is gTTS.",
+      "collection-title": "International Conference on Machine Learning and Data Engineering",
+      "container-title": "Procedia Computer Science",
+      "DOI": "10.1016/j.procs.2023.01.093",
+      "ISSN": "1877-0509",
+      "journalAbbreviation": "Procedia Computer Science",
+      "page": "1144-1155",
+      "shortTitle": "Third Eye",
+      "source": "ScienceDirect",
+      "title": "Third Eye: Object recognition and speech generation for visually impaired",
+      "title-short": "Third Eye",
+      "URL": "https://www.sciencedirect.com/science/article/pii/S1877050923000935",
+      "volume": "218",
+      "author": [
+        {
+          "family": "Guravaiah",
+          "given": "Koppala"
+        },
+        {
+          "family": "Bhavadeesh",
+          "given": "Yarlagadda Sai"
+        },
+        {
+          "family": "Shwejan",
+          "given": "Peddi"
+        },
+        {
+          "family": "Vardhan",
+          "given": "Allu Harsha"
+        },
+        {
+          "family": "Lavanya",
+          "given": "S"
+        }
+      ],
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            17
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "23298327/KYPF9V6Q",
+      "type": "article-journal",
+      "abstract": "In 2017, it was estimated that the number of persons of all ages visually affected would be two hundred and eighty-five million, of which thirty-nine …",
+      "container-title": "Computers, Materials and Continua",
+      "DOI": "10.32604/cmc.2022.028540",
+      "ISSN": "1546-2218",
+      "issue": "2",
+      "language": "en-US",
+      "page": "3473-3495",
+      "source": "www.sciencedirect.com",
+      "title": "Development of mobile app to support the mobility of visually impaired people",
+      "URL": "https://www.sciencedirect.com/org/science/article/pii/S1546221822005501",
+      "volume": "73",
+      "author": [
+        {
+          "family": "Meenakshi",
+          "given": "R."
+        },
+        {
+          "family": "Ponnusamy",
+          "given": "R."
+        },
+        {
+          "family": "Alghamdi",
+          "given": "Saleh"
+        },
+        {
+          "family": "Khalaf",
+          "given": "Osama Ibrahim"
+        },
+        {
+          "family": "Alotaibi",
+          "given": "Youseef"
+        }
+      ],
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            4
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            14
+          ]
+        ]
+      }
+    },
+    {
+      "id": "23298327/KL3RMNG8",
+      "type": "article-journal",
+      "abstract": "This research helps visually impaired individuals enhance their quality of life using object detection technology. Vision is a fundamental sense that lets people interact and navigate through their surroundings. Earlier, object detection was implemented with methods like Sliding Window, and Haar Cascades which lacked the accuracy and efficiency that are necessary for a real-time environment. This study proposed an object detection system specifically defined for visually impaired individuals using the YOLOv8 model because YOLO is known for its real-time performance, accurate detection, and classification capabilities, ensuring instant and accurate assistance in real-time environments. Additionally, YOLO’s robustness in detecting objects in various scenarios makes it a reliable solution for aiding visually impaired individuals in navigating their surroundings effectively. The novelty of the study lies in converting the YOLOv8 model into TensorFlow Lite, making it easier to deploy on Android platforms and widening its accessibility to a larger user population. The application of this object detection system extends to various aspects of everyday life, promoting inclusivity and accessibility for visually impaired individuals and bridging the gap between cutting-edge research and practical assistive technologies with the help of support on edge devices and auditory feedback. The performance metrics are evaluated on multiple models to understand the performance of the proposed model on different training parameters such as model size and input image resolution. The proposed model with an input image size of 640X640 resolution and Nano-sized model achieved mAP50 and mAP50-95 of 79.9% and 57.1% respectively with inference time of 350ms on average. For the same resolution the proposed model is trained on Medium-sized model and attained mAP50 and mAP50-95 as 80.5% and 60.9% respectively with inference time of 1800ms average. For an image size of 256X256 resolution and Nano-sized model the proposed model achieved mAP50 and mAP50-95 of 74.4% and 52.9% respectively with inference time of 55ms on average. From results it is observed that the model accuracy increases as the model size and input resolution is high but it increases the inference time. Whereas the model with less inference time lower input image resolution gives most efficient results but also reduces accuracy.",
+      "collection-title": "4th International Conference on Evolutionary Computing and Mobile Sustainable Networks",
+      "container-title": "Procedia Computer Science",
+      "DOI": "10.1016/j.procs.2025.01.005",
+      "ISSN": "1877-0509",
+      "journalAbbreviation": "Procedia Computer Science",
+      "page": "457-469",
+      "shortTitle": "Empowering the Visually Impaired",
+      "source": "ScienceDirect",
+      "title": "Empowering the visually impaired: YOLOv8-based object detection in Android applications",
+      "title-short": "Empowering the Visually Impaired",
+      "URL": "https://www.sciencedirect.com/science/article/pii/S1877050925000055",
+      "volume": "252",
+      "author": [
+        {
+          "family": "More",
+          "given": "Shraddha S."
+        },
+        {
+          "family": "Patil",
+          "given": "Neeta"
+        },
+        {
+          "family": "Lobo",
+          "given": "Vivian Brian"
+        },
+        {
+          "family": "Shet",
+          "given": "Nikhil"
+        },
+        {
+          "family": "Goswami",
+          "given": "Dhruv"
+        },
+        {
+          "family": "Rane",
+          "given": "Praful"
+        }
+      ],
+      "accessed": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            4
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    {
       "id": "23298327/9LYX8I7M",
       "type": "webpage",
       "container-title": "Roboflow",
@@ -1115,63 +1501,6 @@
       }
     },
     {
-      "id": "23298327/KYFV7IDY",
-      "type": "article-journal",
-      "abstract": "Detecting and recognizing the objects and generating speech about the objects helps visually impaired in a great way in understanding their surroundings. Required a mechanism to assist the visually impaired person to travel independently with the ability to identify objects in their path, and the ability to generate speech describing the objects detected in the scene. This can be achieved with the help of YOLOv5 image detection model and text to speech converters such as gTTS and pyttsx3 modules in python. The proposed method called Third Eye, giving better accuracy in detection and speech generation to help the visually impaired people Compared to existing approaches. YOLO v5 is trained on custom dataset of 15 objects along with MS COCO 2017 Dataset of 80 objects (95 objects overall). The output labels of the model are transformed to text and later converted to audio format and are presented to the visually impaired, through a speaker. We compared two python libraries for audio conversion, one is pyttsx3, and the other is gTTS.",
-      "collection-title": "International Conference on Machine Learning and Data Engineering",
-      "container-title": "Procedia Computer Science",
-      "DOI": "10.1016/j.procs.2023.01.093",
-      "ISSN": "1877-0509",
-      "journalAbbreviation": "Procedia Computer Science",
-      "page": "1144-1155",
-      "shortTitle": "Third Eye",
-      "source": "ScienceDirect",
-      "title": "Third Eye: Object Recognition and Speech Generation for Visually Impaired",
-      "title-short": "Third Eye",
-      "URL": "https://www.sciencedirect.com/science/article/pii/S1877050923000935",
-      "volume": "218",
-      "author": [
-        {
-          "family": "Guravaiah",
-          "given": "Koppala"
-        },
-        {
-          "family": "Bhavadeesh",
-          "given": "Yarlagadda Sai"
-        },
-        {
-          "family": "Shwejan",
-          "given": "Peddi"
-        },
-        {
-          "family": "Vardhan",
-          "given": "Allu Harsha"
-        },
-        {
-          "family": "Lavanya",
-          "given": "S"
-        }
-      ],
-      "accessed": {
-        "date-parts": [
-          [
-            2026,
-            4,
-            17
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2023,
-            1,
-            1
-          ]
-        ]
-      }
-    },
-    {
       "id": "23298327/2KWZBJHD",
       "type": "article-journal",
       "abstract": "Object recognition systems and augmented reality devices aim to bridge the gap between the virtual and real worlds. It is natural, then, to combine these two technologies to create devices that can assist us in various aspects of life. This paper compares four object detection models: Faster R-CNN ResNet-101 v1, YOLO v8s, SSD MobileNet v2, and EfficientDet Lite 2 in the context of their use with augmented reality glasses. Using a simulated test environment, we examined resource consumption, energy efficiency, precision, and speed of the models during real-time operation. The results confirm that models using single-stage architecture are more suitable for real-time operation directly on the device. Among the single-stage models, YOLO v8s proved to be the most efficient.",
@@ -1303,31 +1632,6 @@
       }
     },
     {
-      "id": "23298327/CWDKFB4W",
-      "type": "book",
-      "abstract": "This study presents the development of a real-time object detection system designed to assist visually impaired individuals using a smartphone-based application. The core objective is to enable users to identify indoor objects and receive audible feedback, thus facilitating safer navigation and greater independence in daily activities. Utilizing the TensorFlow Object Detection API and SSD MobileNet architecture, the proposed system integrates machine learning models optimized through transfer learning to detect and classify 80 different object categories. The application captures live video using the mobile camera, processes it in real-time, and audibly announces the detected objects via text-to-speech technology. A custom dataset comprising over 1,000 annotated images underwent augmentation to enhance model robustness. Evaluation metrics such as precision, recall, F1-score, and mean average precision (mAP) indicate that the system achieves high detection accuracy, with a balanced trade-off between speed and reliability. The Android-based implementation ensures accessibility and cost-effectiveness, eliminating the need for additional hardware or continuous internet access. Furthermore, the system's performance in real-world scenarios demonstrates its practical applicability for the visually impaired. Future enhancements aim to include OCR for reading text, currency recognition, and support for multiple languages. This work contributes to the field of assistive technology by offering a portable, efficient, and scalable solution that leverages mobile computing and deep learning to improve the quality of life for those with visual impairments.",
-      "DOI": "10.13140/RG.2.2.28125.12005",
-      "shortTitle": "Deep Learning-Driven Assistive Technology for Blind Users",
-      "source": "ResearchGate",
-      "title": "Deep Learning-Driven Assistive Technology for Blind Users: Real-Time Object Detection and Speech Feedback on Android",
-      "title-short": "Deep Learning-Driven Assistive Technology for Blind Users",
-      "author": [
-        {
-          "family": "Pawar",
-          "given": "Diksha"
-        }
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2025,
-            5,
-            29
-          ]
-        ]
-      }
-    },
-    {
       "id": "23298327/WGS693FU",
       "type": "article-journal",
       "abstract": "Objection detection is of vital importance to many fields, such as autonomous driving, outdoor robotics, and computer vision. Existing approaches on object detection can hardly run on the resource-constrained edge devices. In order to mitigate this dilemma, we propose to apply TensorFlow Lite to convert Float32 neural network model to unit8 neural network with subtle or even no accuracy loss. Two advantages are here for conversion. First, it reduces the model size to a quarter so that it fits for devices with limited storage. Second, it achieves much faster inference time. I conduct an experiment on MSCOCO dataset. Experimental results show that our proposed method achieves mAP 72.1 and FPS 23 on edge device.",
@@ -1363,288 +1667,6 @@
           [
             2020,
             11
-          ]
-        ]
-      }
-    },
-    {
-      "id": "23298327/KYPF9V6Q",
-      "type": "article-journal",
-      "abstract": "In 2017, it was estimated that the number of persons of all ages visually affected would be two hundred and eighty-five million, of which thirty-nine …",
-      "container-title": "Computers, Materials and Continua",
-      "DOI": "10.32604/cmc.2022.028540",
-      "ISSN": "1546-2218",
-      "issue": "2",
-      "language": "en-US",
-      "page": "3473-3495",
-      "source": "www.sciencedirect.com",
-      "title": "Development of Mobile App to Support the Mobility of Visually Impaired People",
-      "URL": "https://www.sciencedirect.com/org/science/article/pii/S1546221822005501",
-      "volume": "73",
-      "accessed": {
-        "date-parts": [
-          [
-            2026,
-            3,
-            4
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2022,
-            6,
-            14
-          ]
-        ]
-      }
-    },
-    {
-      "id": "23298327/KL3RMNG8",
-      "type": "article-journal",
-      "abstract": "This research helps visually impaired individuals enhance their quality of life using object detection technology. Vision is a fundamental sense that lets people interact and navigate through their surroundings. Earlier, object detection was implemented with methods like Sliding Window, and Haar Cascades which lacked the accuracy and efficiency that are necessary for a real-time environment. This study proposed an object detection system specifically defined for visually impaired individuals using the YOLOv8 model because YOLO is known for its real-time performance, accurate detection, and classification capabilities, ensuring instant and accurate assistance in real-time environments. Additionally, YOLO’s robustness in detecting objects in various scenarios makes it a reliable solution for aiding visually impaired individuals in navigating their surroundings effectively. The novelty of the study lies in converting the YOLOv8 model into TensorFlow Lite, making it easier to deploy on Android platforms and widening its accessibility to a larger user population. The application of this object detection system extends to various aspects of everyday life, promoting inclusivity and accessibility for visually impaired individuals and bridging the gap between cutting-edge research and practical assistive technologies with the help of support on edge devices and auditory feedback. The performance metrics are evaluated on multiple models to understand the performance of the proposed model on different training parameters such as model size and input image resolution. The proposed model with an input image size of 640X640 resolution and Nano-sized model achieved mAP50 and mAP50-95 of 79.9% and 57.1% respectively with inference time of 350ms on average. For the same resolution the proposed model is trained on Medium-sized model and attained mAP50 and mAP50-95 as 80.5% and 60.9% respectively with inference time of 1800ms average. For an image size of 256X256 resolution and Nano-sized model the proposed model achieved mAP50 and mAP50-95 of 74.4% and 52.9% respectively with inference time of 55ms on average. From results it is observed that the model accuracy increases as the model size and input resolution is high but it increases the inference time. Whereas the model with less inference time lower input image resolution gives most efficient results but also reduces accuracy.",
-      "collection-title": "4th International Conference on Evolutionary Computing and Mobile Sustainable Networks",
-      "container-title": "Procedia Computer Science",
-      "DOI": "10.1016/j.procs.2025.01.005",
-      "ISSN": "1877-0509",
-      "journalAbbreviation": "Procedia Computer Science",
-      "page": "457-469",
-      "shortTitle": "Empowering the Visually Impaired",
-      "source": "ScienceDirect",
-      "title": "Empowering the Visually Impaired: YOLOv8-based Object Detection in Android Applications",
-      "title-short": "Empowering the Visually Impaired",
-      "URL": "https://www.sciencedirect.com/science/article/pii/S1877050925000055",
-      "volume": "252",
-      "author": [
-        {
-          "family": "More",
-          "given": "Shraddha S."
-        },
-        {
-          "family": "Patil",
-          "given": "Neeta"
-        },
-        {
-          "family": "Lobo",
-          "given": "Vivian Brian"
-        },
-        {
-          "family": "Shet",
-          "given": "Nikhil"
-        },
-        {
-          "family": "Goswami",
-          "given": "Dhruv"
-        },
-        {
-          "family": "Rane",
-          "given": "Praful"
-        }
-      ],
-      "accessed": {
-        "date-parts": [
-          [
-            2026,
-            3,
-            4
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2025,
-            1,
-            1
-          ]
-        ]
-      }
-    },
-    {
-      "id": "23298327/YV5QEQ7I",
-      "type": "article",
-      "abstract": "We present a class of efficient models called MobileNets for mobile and embedded vision applications. MobileNets are based on a streamlined architecture that uses depth-wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem. We present extensive experiments on resource and accuracy tradeoffs and show strong performance compared to other popular models on ImageNet classification. We then demonstrate the effectiveness of MobileNets across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.",
-      "DOI": "10.48550/arXiv.1704.04861",
-      "note": "arXiv:1704.04861 [cs]",
-      "number": "arXiv:1704.04861",
-      "publisher": "arXiv",
-      "shortTitle": "MobileNets",
-      "source": "arXiv.org",
-      "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
-      "title-short": "MobileNets",
-      "URL": "http://arxiv.org/abs/1704.04861",
-      "author": [
-        {
-          "family": "Howard",
-          "given": "Andrew G."
-        },
-        {
-          "family": "Zhu",
-          "given": "Menglong"
-        },
-        {
-          "family": "Chen",
-          "given": "Bo"
-        },
-        {
-          "family": "Kalenichenko",
-          "given": "Dmitry"
-        },
-        {
-          "family": "Wang",
-          "given": "Weijun"
-        },
-        {
-          "family": "Weyand",
-          "given": "Tobias"
-        },
-        {
-          "family": "Andreetto",
-          "given": "Marco"
-        },
-        {
-          "family": "Adam",
-          "given": "Hartwig"
-        }
-      ],
-      "accessed": {
-        "date-parts": [
-          [
-            2026,
-            3,
-            4
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2017,
-            4,
-            17
-          ]
-        ]
-      }
-    },
-    {
-      "id": "23298327/LC9EX9HQ",
-      "type": "paper-conference",
-      "abstract": "We present a method for detecting objects in images using a single deep neural network. Our approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes. SSD is simple relative to methods that require object proposals because it completely eliminates proposal generation and subsequent pixel or feature resampling stages and encapsulates all computation in a single network. This makes SSD easy to train and straightforward to integrate into systems that require a detection component. Experimental results on the PASCAL VOC, COCO, and ILSVRC datasets confirm that SSD has competitive accuracy to methods that utilize an additional object proposal step and is much faster, while providing a unified framework for both training and inference. For $$300 \\times 300$$300×300input, SSD achieves 74.3 % mAP on VOC2007 test at 59 FPS on a Nvidia Titan X and for $$512 \\times 512$$512×512input, SSD achieves 76.9 % mAP, outperforming a comparable state of the art Faster R-CNN model. Compared to other single stage methods, SSD has much better accuracy even with a smaller input image size. Code is available at https://github.com/weiliu89/caffe/tree/ssd.",
-      "container-title": "Computer Vision – ECCV 2016",
-      "DOI": "10.1007/978-3-319-46448-0_2",
-      "ISBN": "978-3-319-46448-0",
-      "language": "en",
-      "page": "21-37",
-      "publisher": "Springer International Publishing",
-      "publisher-place": "Cham",
-      "shortTitle": "SSD",
-      "source": "Springer Link",
-      "title": "SSD: Single Shot MultiBox Detector",
-      "title-short": "SSD",
-      "author": [
-        {
-          "family": "Liu",
-          "given": "Wei"
-        },
-        {
-          "family": "Anguelov",
-          "given": "Dragomir"
-        },
-        {
-          "family": "Erhan",
-          "given": "Dumitru"
-        },
-        {
-          "family": "Szegedy",
-          "given": "Christian"
-        },
-        {
-          "family": "Reed",
-          "given": "Scott"
-        },
-        {
-          "family": "Fu",
-          "given": "Cheng-Yang"
-        },
-        {
-          "family": "Berg",
-          "given": "Alexander C."
-        }
-      ],
-      "editor": [
-        {
-          "family": "Leibe",
-          "given": "Bastian"
-        },
-        {
-          "family": "Matas",
-          "given": "Jiri"
-        },
-        {
-          "family": "Sebe",
-          "given": "Nicu"
-        },
-        {
-          "family": "Welling",
-          "given": "Max"
-        }
-      ],
-      "issued": {
-        "date-parts": [
-          [
-            2016
-          ]
-        ]
-      }
-    },
-    {
-      "id": "23298327/8HY9UC77",
-      "type": "paper-conference",
-      "abstract": "We present YOLO, a new approach to object detection. Prior work on object detection repurposes classifiers to perform detection. Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance. Our unified architecture is extremely fast. Our base YOLO model processes images in real-time at 45 frames per second. A smaller version of the network, Fast YOLO, processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors. Compared to state-of-the-art detection systems, YOLO makes more localization errors but is less likely to predict false positives on background. Finally, YOLO learns very general representations of objects. It outperforms other detection methods, including DPM and R-CNN, when generalizing from natural images to other domains like artwork.",
-      "container-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
-      "DOI": "10.1109/CVPR.2016.91",
-      "event-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
-      "ISSN": "1063-6919",
-      "note": "ISSN: 1063-6919",
-      "page": "779-788",
-      "shortTitle": "You Only Look Once",
-      "source": "IEEE Xplore",
-      "title": "You Only Look Once: Unified, Real-Time Object Detection",
-      "title-short": "You Only Look Once",
-      "URL": "https://ieeexplore.ieee.org/document/7780460",
-      "author": [
-        {
-          "family": "Redmon",
-          "given": "Joseph"
-        },
-        {
-          "family": "Divvala",
-          "given": "Santosh"
-        },
-        {
-          "family": "Girshick",
-          "given": "Ross"
-        },
-        {
-          "family": "Farhadi",
-          "given": "Ali"
-        }
-      ],
-      "accessed": {
-        "date-parts": [
-          [
-            2026,
-            2,
-            20
-          ]
-        ]
-      },
-      "issued": {
-        "date-parts": [
-          [
-            2016,
-            6
           ]
         ]
       }

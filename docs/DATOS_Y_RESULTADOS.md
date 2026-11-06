@@ -36,16 +36,16 @@ portátil 73, lavamanos 81 y refrigerador 82.
 ## Configuraciones y alcance estadístico
 
 Hay 33 grupos sucesivos de seis fotos: cabeza 1x, cabeza 0,5x, pecho 1x,
-pecho 0,5x, Gorillapod 1x y Gorillapod 0,5x. Son grupos de adquisición,
+pecho 0,5x, palo de selfie 1x y palo de selfie 0,5x. Son grupos de adquisición,
 no 33 habitaciones independientes. «1x» y «0,5x» son etiquetas nominales;
 el análisis EXIF registra discrepancias y variantes de focal por separado.
 
-Gorillapod permitió apuntar hacia los objetos; no fue una posición fija con
+Palo de selfie permitió apuntar hacia los objetos; no fue una posición fija con
 idéntico campo visual. Las capturas sucesivas también permiten cambios en
 personas y poses. Cada vista tiene sus instancias GT: sumar cajas entre vistas
 no cuenta objetos únicos del mundo. Los objetos fuera del encuadre no son FN.
 
-Gorillapod 0,5x lidera el conteo TP y pecho 1x lidera F1. La ventaja media de
+Palo de selfie 0,5x lidera el conteo TP y pecho 1x lidera F1. La ventaja media de
 conteo del primero frente a pecho 1x es 0,515 objetos/grupo, intervalo bootstrap
 exploratorio del 95 % [0,121; 0,939]. Frente a pecho 0,5x el intervalo incluye cero.
 Se usan 10 000 remuestreos de grupos completos, semilla 20261013, sin corrección
@@ -68,3 +68,6 @@ detector nuevo ni reconstruyen sus datos originales de entrenamiento. La app
 y las fotos de evaluación son entregables distintos. La procedencia y términos
 de los componentes están en
 [THIRD_PARTY.md](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/THIRD_PARTY.md).
+
+La [correspondencia de nombres de montajes](NOMBRES_DE_MONTAJES.md) aclara las claves
+históricas del archivo y su equivalencia con el palo de selfie con trípode.

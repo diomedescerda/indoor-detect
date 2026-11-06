@@ -26,10 +26,19 @@ def roman(n):
     return result
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('pdf',type=Path);a=p.parse_args()
+    global OUT,DOCX
+    p=argparse.ArgumentParser();p.add_argument('pdf',type=Path)
+    p.add_argument('--docx',type=Path,default=DOCX)
+    p.add_argument('--evidence-dir',type=Path,default=OUT)
+    a=p.parse_args();DOCX=a.docx;OUT=a.evidence_dir
+    with ZipFile(DOCX) as z:parts={n:z.read(n) for n in z.namelist()}
+    root=E.fromstring(parts['word/document.xml'])
+    paragraphs=root.findall('.//w:body/w:p',NS)
+    intro=next(i for i,pnode in enumerate(paragraphs) if ''.join(pnode.xpath('.//w:t/text()',namespaces=NS)).strip()=='Introducción')
+    opening=next(''.join(pnode.xpath('.//w:t/text()',namespaces=NS)) for pnode in paragraphs[intro+1:] if ''.join(pnode.xpath('.//w:t/text()',namespaces=NS)).strip())
     pdf=pdfium.PdfDocument(str(a.pdf))
     pages=[pdf[i].get_textpage().get_text_range() for i in range(len(pdf))]
-    body_start=next(i for i,t in enumerate(pages) if 'identificarelmobiliarioylosobjetos' in norm(t))
+    body_start=next(i for i,t in enumerate(pages) if norm(opening)[:70] in norm(t))
     nav=json.loads((OUT/'navegacion.json').read_text())
     # Header labels are the authority: odd section breaks may insert unnumbered physical pages.
     labels={}
@@ -54,8 +63,6 @@ def main():
         if not candidates:raise ValueError('Heading/caption not found: '+entry['text'])
         i=candidates[0]
         mapping[entry['name']]=dict(text=entry['text'],physical_page=i+1,label=labels[i])
-    with ZipFile(DOCX) as z:parts={n:z.read(n) for n in z.namelist()}
-    root=E.fromstring(parts['word/document.xml'])
     for field in root.xpath('//w:fldSimple',namespaces=NS):
         m=re.search(r'PAGEREF\s+(\w+)',field.get(q('instr'),''))
         if m and m[1] in mapping:

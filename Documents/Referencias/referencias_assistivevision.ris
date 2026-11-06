@@ -1,784 +1,781 @@
-TY  - RPRT
-ID  - assistivevision-1
-TI  - World report on vision
-AU  - World Health Organization,
-PY  - 2019
-PB  - World Health Organization
-UR  - https://www.who.int/publications/i/item/9789241516570
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-01
-N1  - Original reference number in AssistiveVision: 1
-ER  - 
+TY  - GEN
+TI  - MobileNets: Efficient convolutional neural networks for mobile vision applications
+AU  - Howard, Andrew G.
+AU  - Zhu, Menglong
+AU  - Chen, Bo
+AU  - Kalenichenko, Dmitry
+AU  - Wang, Weijun
+AU  - Weyand, Tobias
+AU  - Andreetto, Marco
+AU  - Adam, Hartwig
+AB  - We present a class of efficient models called MobileNets for mobile and embedded vision applications. MobileNets are based on a streamlined architecture that uses depth-wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem. We present extensive experiments on resource and accuracy tradeoffs and show strong performance compared to other popular models on ImageNet classification. We then demonstrate the effectiveness of MobileNets across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.
+DA  - 2017/04/17/
+PY  - 2017
+DO  - 10.48550/arXiv.1704.04861
+DP  - arXiv.org
+PB  - arXiv
+ST  - MobileNets
+UR  - http://arxiv.org/abs/1704.04861
+Y2  - 2026/03/04/16:30:29
+KW  - Computer Science - Computer Vision and Pattern Recognition
+ER  -
 
-TY  - JOUR
-ID  - assistivevision-2
-TI  - Empowering the visually impaired: YOLOv8-based object detection in Android applications
-AU  - More, S. S.
-AU  - Patil, N.
-AU  - Lobo, V. B.
-AU  - Shet, N.
-AU  - Goswami, D.
-AU  - Rane, P.
+TY  - BOOK
+TI  - Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android
+AU  - Pawar, Diksha
+AB  - This study presents the development of a real-time object detection system designed to assist visually impaired individuals using a smartphone-based application. The core objective is to enable users to identify indoor objects and receive audible feedback, thus facilitating safer navigation and greater independence in daily activities. Utilizing the TensorFlow Object Detection API and SSD MobileNet architecture, the proposed system integrates machine learning models optimized through transfer learning to detect and classify 80 different object categories. The application captures live video using the mobile camera, processes it in real-time, and audibly announces the detected objects via text-to-speech technology. A custom dataset comprising over 1,000 annotated images underwent augmentation to enhance model robustness. Evaluation metrics such as precision, recall, F1-score, and mean average precision (mAP) indicate that the system achieves high detection accuracy, with a balanced trade-off between speed and reliability. The Android-based implementation ensures accessibility and cost-effectiveness, eliminating the need for additional hardware or continuous internet access. Furthermore, the system's performance in real-world scenarios demonstrates its practical applicability for the visually impaired. Future enhancements aim to include OCR for reading text, currency recognition, and support for multiple languages. This work contributes to the field of assistive technology by offering a portable, efficient, and scalable solution that leverages mobile computing and deep learning to improve the quality of life for those with visual impairments.
+DA  - 2025/05/29/
 PY  - 2025
-T2  - Procedia Computer Science
-VL  - 252
-DO  - 10.1016/j.procs.2025.01.005
-UR  - https://doi.org/10.1016/j.procs.2025.01.005
-SP  - 457
-EP  - 469
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-02
-N1  - Original reference number in AssistiveVision: 2
-ER  - 
+DO  - 10.13140/RG.2.2.28125.12005
+DP  - ResearchGate
+ST  - Deep Learning-Driven Assistive Technology for Blind Users
+ER  -
 
-TY  - JOUR
-ID  - assistivevision-3
-TI  - Development of mobile app to support the mobility of visually impaired people
-AU  - Meenakshi, R.
-AU  - Ponnusamy, R.
-AU  - Alghamdi, S.
-AU  - Khalaf, O. I.
-AU  - Alotaibi, Y.
-PY  - 2022
-T2  - Computers, Materials & Continua
-VL  - 73
-IS  - 2
-DO  - 10.32604/cmc.2022.028540
-UR  - https://doi.org/10.32604/cmc.2022.028540
-SP  - 3473
-EP  - 3495
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-03
-N1  - Original reference number in AssistiveVision: 3
-ER  - 
-
-TY  - JOUR
-ID  - assistivevision-4
-TI  - Third eye: Object recognition and speech generation for visually impaired
-AU  - Guravaiah, K.
-AU  - Bhavadeesh, Y. S.
-AU  - Shwejan, P.
-AU  - Vardhan, A. H.
-AU  - Lavanya, S.
-PY  - 2023
-T2  - Procedia Computer Science
-VL  - 218
-DO  - 10.1016/j.procs.2023.01.093
-UR  - https://doi.org/10.1016/j.procs.2023.01.093
-SP  - 1144
-EP  - 1155
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-04
-N1  - Original reference number in AssistiveVision: 4
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-5
-TI  - TensorFlow Lite
-AU  - TensorFlow,
-T2  - TensorFlow
-UR  - https://www.tensorflow.org/lite/guide
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-05
-N1  - Original reference number in AssistiveVision: 5
-Y2  - 2026-11-05
-ER  - 
-
-TY  - UNPB
-ID  - assistivevision-6
-TI  - Faster R-CNN: Towards real-time object detection with region proposal networks
-AU  - Ren, S.
-AU  - He, K.
-AU  - Girshick, R.
-AU  - Sun, J.
-PY  - 2015
-DO  - 10.48550/arXiv.1506.01497
-UR  - https://doi.org/10.48550/arXiv.1506.01497
-M1  - 1506.01497
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-06
-N1  - Original reference number in AssistiveVision: 6
-ER  - 
-
-TY  - CPAPER
-ID  - assistivevision-7
-TI  - You only look once: Unified, real-time object detection
-AU  - Redmon, J.
-AU  - Divvala, S.
-AU  - Girshick, R.
-AU  - Farhadi, A.
-PY  - 2016
-T2  - 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-PB  - IEEE
-DO  - 10.1109/CVPR.2016.91
-UR  - https://doi.org/10.1109/CVPR.2016.91
-SP  - 779
-EP  - 788
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-07
-N1  - Original reference number in AssistiveVision: 7
-ER  - 
-
-TY  - CHAP
-ID  - assistivevision-8
+TY  - CONF
 TI  - SSD: Single shot MultiBox detector
-AU  - Liu, W.
-AU  - Anguelov, D.
-AU  - Erhan, D.
-AU  - Szegedy, C.
-AU  - Reed, S.
-AU  - Fu, C.-Y.
-AU  - Berg, A. C.
-A2  - Leibe, B.
-A2  - Matas, J.
-A2  - Sebe, N.
-A2  - Welling, M.
+AU  - Liu, Wei
+AU  - Anguelov, Dragomir
+AU  - Erhan, Dumitru
+AU  - Szegedy, Christian
+AU  - Reed, Scott
+AU  - Fu, Cheng-Yang
+AU  - Berg, Alexander C.
+A2  - Leibe, Bastian
+A2  - Matas, Jiri
+A2  - Sebe, Nicu
+A2  - Welling, Max
+AB  - We present a method for detecting objects in images using a single deep neural network. Our approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes. SSD is simple relative to methods that require object proposals because it completely eliminates proposal generation and subsequent pixel or feature resampling stages and encapsulates all computation in a single network. This makes SSD easy to train and straightforward to integrate into systems that require a detection component. Experimental results on the PASCAL VOC, COCO, and ILSVRC datasets confirm that SSD has competitive accuracy to methods that utilize an additional object proposal step and is much faster, while providing a unified framework for both training and inference. For $$300 \times 300$$300×300input, SSD achieves 74.3 % mAP on VOC2007 test at 59 FPS on a Nvidia Titan X and for $$512 \times 512$$512×512input, SSD achieves 76.9 % mAP, outperforming a comparable state of the art Faster R-CNN model. Compared to other single stage methods, SSD has much better accuracy even with a smaller input image size. Code is available at https://github.com/weiliu89/caffe/tree/ssd.
+C1  - Cham
+C3  - Computer Vision – ECCV 2016
+DA  - 2016///
 PY  - 2016
-T2  - Computer Vision – ECCV 2016
-PB  - Springer
 DO  - 10.1007/978-3-319-46448-0_2
-UR  - https://doi.org/10.1007/978-3-319-46448-0_2
+DP  - Springer Link
 SP  - 21
 EP  - 37
 LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-08
-N1  - Original reference number in AssistiveVision: 8
-ER  - 
+PB  - Springer International Publishing
+SN  - 978-3-319-46448-0
+ST  - SSD
+KW  - Convolutional neural network
+KW  - Real-time object detection
+ER  -
 
-TY  - CPAPER
-ID  - assistivevision-9
-TI  - EfficientDet: Scalable and efficient object detection
-AU  - Tan, M.
-AU  - Pang, R.
-AU  - Le, Q. V.
-PY  - 2020
-T2  - 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-PB  - IEEE
-DO  - 10.1109/CVPR42600.2020.01079
-UR  - https://doi.org/10.1109/CVPR42600.2020.01079
-SP  - 10781
-EP  - 10790
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-09
-N1  - Original reference number in AssistiveVision: 9
-ER  - 
+TY  - CONF
+TI  - You only look once: Unified, real-time object detection
+AU  - Redmon, Joseph
+AU  - Divvala, Santosh
+AU  - Girshick, Ross
+AU  - Farhadi, Ali
+T2  - 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+AB  - We present YOLO, a new approach to object detection. Prior work on object detection repurposes classifiers to perform detection. Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance. Our unified architecture is extremely fast. Our base YOLO model processes images in real-time at 45 frames per second. A smaller version of the network, Fast YOLO, processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors. Compared to state-of-the-art detection systems, YOLO makes more localization errors but is less likely to predict false positives on background. Finally, YOLO learns very general representations of objects. It outperforms other detection methods, including DPM and R-CNN, when generalizing from natural images to other domains like artwork.
+C3  - 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+DA  - 2016/06//
+PY  - 2016
+DO  - 10.1109/CVPR.2016.91
+DP  - IEEE Xplore
+SP  - 779
+EP  - 788
+ST  - You Only Look Once
+UR  - https://ieeexplore.ieee.org/document/7780460
+Y2  - 2026/02/20/23:30:45
+KW  - Computer architecture
+KW  - Microprocessors
+KW  - Neural networks
+KW  - Object detection
+KW  - Pipelines
+KW  - Real-time systems
+KW  - Training
+ER  -
 
-TY  - RPRT
-ID  - assistivevision-10
-TI  - Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual
-AU  - Cerda Leon, D. F.
-PB  - Universidad del Magdalena
-LA  - es
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-10
-N1  - Original reference number in AssistiveVision: 10
-ER  - 
+TY  - JOUR
+TI  - Third Eye: Object recognition and speech generation for visually impaired
+AU  - Guravaiah, Koppala
+AU  - Bhavadeesh, Yarlagadda Sai
+AU  - Shwejan, Peddi
+AU  - Vardhan, Allu Harsha
+AU  - Lavanya, S
+T2  - Procedia Computer Science
+T3  - International Conference on Machine Learning and Data Engineering
+AB  - Detecting and recognizing the objects and generating speech about the objects helps visually impaired in a great way in understanding their surroundings. Required a mechanism to assist the visually impaired person to travel independently with the ability to identify objects in their path, and the ability to generate speech describing the objects detected in the scene. This can be achieved with the help of YOLOv5 image detection model and text to speech converters such as gTTS and pyttsx3 modules in python. The proposed method called Third Eye, giving better accuracy in detection and speech generation to help the visually impaired people Compared to existing approaches. YOLO v5 is trained on custom dataset of 15 objects along with MS COCO 2017 Dataset of 80 objects (95 objects overall). The output labels of the model are transformed to text and later converted to audio format and are presented to the visually impaired, through a speaker. We compared two python libraries for audio conversion, one is pyttsx3, and the other is gTTS.
+DA  - 2023/01/01/
+PY  - 2023
+DO  - 10.1016/j.procs.2023.01.093
+DP  - ScienceDirect
+VL  - 218
+SP  - 1144
+EP  - 1155
+J2  - Procedia Computer Science
+SN  - 1877-0509
+ST  - Third Eye
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050923000935
+Y2  - 2026/04/17/21:47:53
+KW  - Convolutional Neural Network (CNN)
+KW  - MS COCO
+KW  - Text to Speech
+KW  - You Only Look Once (YOLO)
+KW  - gTTS
+KW  - pyttsx3
+ER  -
 
-TY  - RPRT
-ID  - assistivevision-11
-TI  - Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030
-AU  - Universidad del Magdalena,
-PY  - 2020
-PB  - Universidad del Magdalena
-LA  - es
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-11
-N1  - Original reference number in AssistiveVision: 11
-ER  - 
+TY  - JOUR
+TI  - Development of mobile app to support the mobility of visually impaired people
+AU  - Meenakshi, R.
+AU  - Ponnusamy, R.
+AU  - Alghamdi, Saleh
+AU  - Khalaf, Osama Ibrahim
+AU  - Alotaibi, Youseef
+T2  - Computers, Materials and Continua
+AB  - In 2017, it was estimated that the number of persons of all ages visually affected would be two hundred and eighty-five million, of which thirty-nine …
+DA  - 2022/06/14/
+PY  - 2022
+DO  - 10.32604/cmc.2022.028540
+DP  - www.sciencedirect.com
+VL  - 73
+IS  - 2
+SP  - 3473
+EP  - 3495
+LA  - en-US
+SN  - 1546-2218
+UR  - https://www.sciencedirect.com/org/science/article/pii/S1546221822005501
+Y2  - 2026/03/04/17:37:38
+ER  -
 
-TY  - RPRT
-ID  - assistivevision-12
-TI  - Plan de Gobierno Rectoral 2024–2028
-AU  - Universidad del Magdalena,
-PY  - 2024
-PB  - Universidad del Magdalena
-LA  - es
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-12
-N1  - Original reference number in AssistiveVision: 12
-ER  - 
-
-TY  - UNPB
-ID  - assistivevision-13
-TI  - Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android
-AU  - Pawar, D. R.
+TY  - JOUR
+TI  - Empowering the visually impaired: YOLOv8-based object detection in Android applications
+AU  - More, Shraddha S.
+AU  - Patil, Neeta
+AU  - Lobo, Vivian Brian
+AU  - Shet, Nikhil
+AU  - Goswami, Dhruv
+AU  - Rane, Praful
+T2  - Procedia Computer Science
+T3  - 4th International Conference on Evolutionary Computing and Mobile Sustainable Networks
+AB  - This research helps visually impaired individuals enhance their quality of life using object detection technology. Vision is a fundamental sense that lets people interact and navigate through their surroundings. Earlier, object detection was implemented with methods like Sliding Window, and Haar Cascades which lacked the accuracy and efficiency that are necessary for a real-time environment. This study proposed an object detection system specifically defined for visually impaired individuals using the YOLOv8 model because YOLO is known for its real-time performance, accurate detection, and classification capabilities, ensuring instant and accurate assistance in real-time environments. Additionally, YOLO’s robustness in detecting objects in various scenarios makes it a reliable solution for aiding visually impaired individuals in navigating their surroundings effectively. The novelty of the study lies in converting the YOLOv8 model into TensorFlow Lite, making it easier to deploy on Android platforms and widening its accessibility to a larger user population. The application of this object detection system extends to various aspects of everyday life, promoting inclusivity and accessibility for visually impaired individuals and bridging the gap between cutting-edge research and practical assistive technologies with the help of support on edge devices and auditory feedback. The performance metrics are evaluated on multiple models to understand the performance of the proposed model on different training parameters such as model size and input image resolution. The proposed model with an input image size of 640X640 resolution and Nano-sized model achieved mAP50 and mAP50-95 of 79.9% and 57.1% respectively with inference time of 350ms on average. For the same resolution the proposed model is trained on Medium-sized model and attained mAP50 and mAP50-95 as 80.5% and 60.9% respectively with inference time of 1800ms average. For an image size of 256X256 resolution and Nano-sized model the proposed model achieved mAP50 and mAP50-95 of 74.4% and 52.9% respectively with inference time of 55ms on average. From results it is observed that the model accuracy increases as the model size and input resolution is high but it increases the inference time. Whereas the model with less inference time lower input image resolution gives most efficient results but also reduces accuracy.
+DA  - 2025/01/01/
 PY  - 2025
-DO  - 10.13140/RG.2.2.28125.12005
-UR  - https://doi.org/10.13140/RG.2.2.28125.12005
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-13
-N1  - Original reference number in AssistiveVision: 13
-ER  - 
-
-TY  - JOUR
-ID  - assistivevision-14
-TI  - Analysis of object recognition systems using augmented reality glasses
-AU  - Figura, J.
-AU  - Kuźmiczuk, R.
-AU  - Badurowicz, M.
-PY  - 2025
-T2  - Journal of Computer Sciences Institute
-VL  - 34
-DO  - 10.35784/jcsi.6469
-UR  - https://doi.org/10.35784/jcsi.6469
-SP  - 8
-EP  - 13
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-14
-N1  - Original reference number in AssistiveVision: 14
-ER  - 
-
-TY  - UNPB
-ID  - assistivevision-15
-TI  - MobileNets: Efficient convolutional neural networks for mobile vision applications
-AU  - Howard, A. G.
-AU  - Zhu, M.
-AU  - Chen, B.
-AU  - Kalenichenko, D.
-AU  - Wang, W.
-AU  - Weyand, T.
-AU  - Andreetto, M.
-AU  - Adam, H.
-PY  - 2017
-UR  - https://arxiv.org/abs/1704.04861
-M1  - 1704.04861
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-15
-N1  - Original reference number in AssistiveVision: 15
-ER  - 
-
-TY  - CPAPER
-ID  - assistivevision-16
-TI  - MobileNetV2: Inverted residuals and linear bottlenecks
-AU  - Sandler, M.
-AU  - Howard, A.
-AU  - Zhu, M.
-AU  - Zhmoginov, A.
-AU  - Chen, L.-C.
-PY  - 2018
-T2  - 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
-PB  - IEEE
-DO  - 10.1109/CVPR.2018.00474
-UR  - https://doi.org/10.1109/CVPR.2018.00474
-SP  - 4510
-EP  - 4520
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-16
-N1  - Original reference number in AssistiveVision: 16
-ER  - 
-
-TY  - JOUR
-ID  - assistivevision-17
-TI  - Real-time and accurate object detection on edge device with TensorFlow Lite
-AU  - Dai, J.
-PY  - 2020
-T2  - Journal of Physics: Conference Series
-VL  - 1651
-IS  - 1
-DO  - 10.1088/1742-6596/1651/1/012114
-UR  - https://doi.org/10.1088/1742-6596/1651/1/012114
-SP  - 012114
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-17
-N1  - Original reference number in AssistiveVision: 17
-ER  - 
-
-TY  - JOUR
-ID  - assistivevision-18
-TI  - Lightweight faster R-CNN for object detection in optical remote sensing images
-AU  - Magdy, A.
-AU  - Moustafa, M. S.
-AU  - Ebied, H. M.
-AU  - Tolba, M. F.
-PY  - 2025
-T2  - Scientific Reports
-VL  - 15
-DO  - 10.1038/s41598-025-99242-y
-UR  - https://doi.org/10.1038/s41598-025-99242-y
-SP  - 16163
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-18
-N1  - Original reference number in AssistiveVision: 18
-ER  - 
+DO  - 10.1016/j.procs.2025.01.005
+DP  - ScienceDirect
+VL  - 252
+SP  - 457
+EP  - 469
+J2  - Procedia Computer Science
+SN  - 1877-0509
+ST  - Empowering the Visually Impaired
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050925000055
+Y2  - 2026/03/04/17:35:07
+KW  - Android Device
+KW  - Audio Feedback
+KW  - Deep Learning
+KW  - Object Detection
+KW  - Visually Impaired
+KW  - Yolov8
+ER  -
 
 TY  - ELEC
-ID  - assistivevision-19
-TI  - Object detection with TensorFlow Lite Model Maker
-AU  - Google,
-T2  - Google AI Edge
-UR  - https://developers.google.com/edge/litert/libraries/modify/object_detection
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-19
-N1  - Original reference number in AssistiveVision: 19
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-20
-TI  - Explore Ultralytics YOLOv8
-AU  - Ultralytics,
-T2  - Ultralytics
-UR  - https://docs.ultralytics.com/models/yolov8/
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-20
-N1  - Original reference number in AssistiveVision: 20
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-21
-TI  - Ultralytics YOLO11
-AU  - Ultralytics,
-T2  - Ultralytics
-UR  - https://docs.ultralytics.com/models/yolo11/
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-21
-N1  - Original reference number in AssistiveVision: 21
-Y2  - 2026-11-05
-ER  - 
-
-TY  - CHAP
-ID  - assistivevision-22
-TI  - Microsoft COCO: Common objects in context
-AU  - Lin, T.-Y.
-AU  - Maire, M.
-AU  - Belongie, S.
-AU  - Hays, J.
-AU  - Perona, P.
-AU  - Ramanan, D.
-AU  - Dollár, P.
-AU  - Zitnick, C. L.
-A2  - Fleet, D.
-A2  - Pajdla, T.
-A2  - Schiele, B.
-A2  - Tuytelaars, T.
-PY  - 2014
-T2  - Computer Vision – ECCV 2014
-PB  - Springer
-DO  - 10.1007/978-3-319-10602-1_48
-UR  - https://doi.org/10.1007/978-3-319-10602-1_48
-SP  - 740
-EP  - 755
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-22
-N1  - Original reference number in AssistiveVision: 22
-ER  - 
-
-TY  - JOUR
-ID  - assistivevision-23
-TI  - The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale
-AU  - Kuznetsova, A.
-AU  - Rom, H.
-AU  - Alldrin, N.
-AU  - Uijlings, J.
-AU  - Krasin, I.
-AU  - Pont-Tuset, J.
-AU  - Kamali, S.
-AU  - Popov, S.
-AU  - Malloci, M.
-AU  - Kolesnikov, A.
-AU  - Duerig, T.
-AU  - Ferrari, V.
-PY  - 2020
-T2  - International Journal of Computer Vision
-VL  - 128
-DO  - 10.1007/s11263-020-01316-z
-UR  - https://doi.org/10.1007/s11263-020-01316-z
-SP  - 1956
-EP  - 1981
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-23
-N1  - Original reference number in AssistiveVision: 23
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-24
-TI  - ONNX Runtime documentation
-AU  - ONNX Runtime,
-T2  - ONNX Runtime
-UR  - https://onnxruntime.ai/docs/
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-24
-N1  - Original reference number in AssistiveVision: 24
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-25
-TI  - ExecuTorch documentation
-AU  - PyTorch,
-T2  - PyTorch
-UR  - https://pytorch.org/executorch/stable/
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-25
-N1  - Original reference number in AssistiveVision: 25
-Y2  - 2026-11-05
-ER  - 
-
-TY  - CHAP
-ID  - assistivevision-26
-TI  - End-to-end object detection with transformers
-AU  - Carion, N.
-AU  - Massa, F.
-AU  - Synnaeve, G.
-AU  - Usunier, N.
-AU  - Kirillov, A.
-AU  - Zagoruyko, S.
-A2  - Vedaldi, A.
-A2  - Bischof, H.
-A2  - Brox, T.
-A2  - Frahm, J.-M.
-PY  - 2020
-T2  - Computer Vision – ECCV 2020
-PB  - Springer
-DO  - 10.1007/978-3-030-58452-8_13
-UR  - https://doi.org/10.1007/978-3-030-58452-8_13
-SP  - 213
-EP  - 229
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-26
-N1  - Original reference number in AssistiveVision: 26
-ER  - 
-
-TY  - COMP
-ID  - assistivevision-27
-TI  - COCO API: PythonAPI/pycocotools/cocoeval.py
-AU  - COCO dataset contributors,
-PB  - GitHub
-UR  - https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-27
-N1  - Original reference number in AssistiveVision: 27
-Y2  - 2026-11-05
-ER  - 
-
-TY  - BOOK
-ID  - assistivevision-28
-TI  - Introduction to information retrieval
-AU  - Manning, C. D.
-AU  - Raghavan, P.
-AU  - Schütze, H.
-PY  - 2008
-PB  - Cambridge University Press
-UR  - https://nlp.stanford.edu/IR-book/
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-28
-N1  - Original reference number in AssistiveVision: 28
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-29
-TI  - Performance measurement
-AU  - TensorFlow contributors,
-T2  - GitHub
-UR  - https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/measurement.md
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-29
-N1  - Original reference number in AssistiveVision: 29
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-30
-TI  - Android Debug Bridge (adb)
-AU  - Google,
-T2  - Android Developers
-UR  - https://developer.android.com/tools/adb
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-30
-N1  - Original reference number in AssistiveVision: 30
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-31
-TI  - GPU acceleration delegate with Interpreter API
-AU  - Google,
-T2  - Google AI Edge
-UR  - https://developers.google.com/edge/litert/android/gpu
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-31
-N1  - Original reference number in AssistiveVision: 31
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-32
-TI  - OpenCL: The open standard for parallel programming of heterogeneous systems
-AU  - Khronos Group,
-T2  - Khronos Group
-UR  - https://www.khronos.org/opencl/
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-32
-N1  - Original reference number in AssistiveVision: 32
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-33
 TI  - Roboflow: Computer vision tools for developers and enterprises
-AU  - Roboflow,
+AU  - Roboflow
 T2  - Roboflow
-UR  - https://roboflow.com/
 LA  - en
+UR  - https://roboflow.com/
+Y2  - 2026/11/05/00:00:00
+ER  -
+
+TY  - ELEC
+TI  - OpenCL: The open standard for parallel programming of heterogeneous systems
+AU  - Khronos Group
+T2  - Khronos Group
+AB  - OpenCL™ (Open Computing Language) is an open, royalty-free standard for cross-platform, parallel
+                    programming of diverse accelerators found in supercomputers, cloud servers, personal computers,
+                    mobile devices and embedded platforms. OpenCL greatly improves the speed and responsiveness of a
+                    wide spectrum of applications in numerous market categories including professional creative tools,
+DA  - 2013/07/21/T12:39:00-07:00
+PY  - 2013
+LA  - en
+UR  - https://www.khronos.org/opencl/
+Y2  - 2026/11/05/00:00:00
+ER  -
+
+TY  - ELEC
+TI  - GPU acceleration delegate with Interpreter API
+AU  - Google
+T2  - Google AI Edge
+LA  - en
+UR  - https://developers.google.com/edge/litert/android/gpu
+Y2  - 2026/11/05/00:00:00
+ER  -
+
+TY  - ELEC
+TI  - Android Debug Bridge (adb)
+AU  - Google
+T2  - Android Developers
+LA  - en
+UR  - https://developer.android.com/tools/adb
+Y2  - 2026/11/05/00:00:00
+ER  -
+
+TY  - ELEC
+TI  - ONNX Runtime documentation
+AU  - ONNX Runtime
+T2  - ONNX Runtime
+AB  - ONNX Runtime is a cross-platform machine-learning model accelerator
+LA  - en
+UR  - https://onnxruntime.ai/docs/
+Y2  - 2026/11/05/00:00:00
+ER  -
+
+TY  - JOUR
+TI  - Matplotlib: A 2D graphics environment
+AU  - Hunter, J. D.
+T2  - Computing in Science & Engineering
+DA  - 2007///
+PY  - 2007
+DO  - 10.1109/MCSE.2007.55
+VL  - 9
+IS  - 3
+SP  - 90
+EP  - 95
+LA  - en
+UR  - https://doi.org/10.1109/MCSE.2007.55
 KW  - AssistiveVision
-KW  - AssistiveVision-ref-33
-N1  - Original reference number in AssistiveVision: 33
-Y2  - 2026-11-05
-ER  - 
+KW  - AssistiveVision-ref-49
+ER  -
+
+TY  - ELEC
+TI  - Pillow reference
+AU  - Pillow contributors
+T2  - Pillow documentation
+LA  - en
+UR  - https://pillow.readthedocs.io/en/stable/reference/
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-48
+ER  -
+
+TY  - ELEC
+TI  - numpy.quantile
+AU  - NumPy developers
+T2  - NumPy documentation
+LA  - en
+UR  - https://numpy.org/doc/stable/reference/generated/numpy.quantile.html
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-47
+ER  -
+
+TY  - RPRT
+TI  - Exif 2.31 metadata for XMP
+AU  - Camera & Imaging Products Association
+DA  - 2017///
+PY  - 2017
+LA  - en
+M3  - Draft
+PB  - Camera & Imaging Products Association
+SN  - CIPA DC-X010-2017
+UR  - https://www.cipa.jp/std/documents/e/DC-X010-2017.pdf
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-46
+ER  -
+
+TY  - JOUR
+TI  - Bootstrapping clustered data
+AU  - Field, C. A.
+AU  - Welsh, A. H.
+T2  - Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+DA  - 2007///
+PY  - 2007
+DO  - 10.1111/j.1467-9868.2007.00593.x
+VL  - 69
+IS  - 3
+SP  - 369
+EP  - 390
+LA  - en
+UR  - https://doi.org/10.1111/j.1467-9868.2007.00593.x
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-44
+ER  -
+
+TY  - JOUR
+TI  - Bootstrap methods: Another look at the jackknife
+AU  - Efron, B.
+T2  - The Annals of Statistics
+DA  - 1979///
+PY  - 1979
+DO  - 10.1214/aos/1176344552
+VL  - 7
+IS  - 1
+SP  - 1
+EP  - 26
+LA  - en
+UR  - https://doi.org/10.1214/aos/1176344552
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-43
+ER  -
+
+TY  - ELEC
+TI  - Analysis of paired observations
+AU  - NIST/SEMATECH
+T2  - NIST/SEMATECH e-Handbook of Statistical Methods
+LA  - en
+UR  - https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-42
+ER  -
+
+TY  - ELEC
+TI  - DataStore
+AU  - Google
+T2  - Android Developers
+LA  - en
+UR  - https://developer.android.com/topic/libraries/architecture/datastore
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-41
+ER  -
+
+TY  - ELEC
+TI  - AudioTrack
+AU  - Google
+T2  - Android Developers
+LA  - en
+UR  - https://developer.android.com/reference/android/media/AudioTrack
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-40
+ER  -
 
 TY  - COMP
-ID  - assistivevision-34
-TI  - AssistiveVision
-AU  - Cerda Leon, D. F.
-PY  - 2026
+TI  - Piper: A fast, local neural text to speech system
+AU  - Rhasspy contributors
 PB  - GitHub
-UR  - https://github.com/diomedescerda/AssistiveVision/tree/85c852ddcb543bce1bd69ad0db307f895d597881
-ET  - 85c852ddcb543bce1bd69ad0db307f895d597881
+UR  - https://github.com/rhasspy/piper
+Y2  - 2026/11/05/00:00:00
 KW  - AssistiveVision
-KW  - AssistiveVision-ref-34
-N1  - Original reference number in AssistiveVision: 34
-ER  - 
+KW  - AssistiveVision-ref-39
+ER  -
 
-TY  - ELEC
-ID  - assistivevision-35
-TI  - CameraX
-AU  - Google,
-T2  - Android Developers
-UR  - https://developer.android.com/media/camera/camerax
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-35
-N1  - Original reference number in AssistiveVision: 35
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-36
-TI  - LiteRT for Android
-AU  - Google,
-T2  - Google AI Edge
-UR  - https://developers.google.com/edge/litert/android
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-36
-N1  - Original reference number in AssistiveVision: 36
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-37
-TI  - Text-to-speech
-AU  - k2-fsa,
-T2  - sherpa-onnx
-UR  - https://k2-fsa.github.io/sherpa/onnx/tts/index.html
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-37
-N1  - Original reference number in AssistiveVision: 37
-Y2  - 2026-11-05
-ER  - 
-
-TY  - UNPB
-ID  - assistivevision-38
+TY  - GEN
 TI  - Conditional variational autoencoder with adversarial learning for end-to-end text-to-speech
 AU  - Kim, J.
 AU  - Kong, J.
 AU  - Son, J.
+DA  - 2021///
 PY  - 2021
 DO  - 10.48550/arXiv.2106.06103
-UR  - https://doi.org/10.48550/arXiv.2106.06103
-M1  - 2106.06103
 LA  - en
+PB  - arXiv
+UR  - https://doi.org/10.48550/arXiv.2106.06103
 KW  - AssistiveVision
 KW  - AssistiveVision-ref-38
-N1  - Original reference number in AssistiveVision: 38
-ER  - 
+ER  -
+
+TY  - ELEC
+TI  - Text-to-speech
+AU  - k2-fsa
+T2  - sherpa-onnx
+LA  - en
+UR  - https://k2-fsa.github.io/sherpa/onnx/tts/index.html
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-37
+ER  -
+
+TY  - ELEC
+TI  - LiteRT for Android
+AU  - Google
+T2  - Google AI Edge
+LA  - en
+UR  - https://developers.google.com/edge/litert/android
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-36
+ER  -
+
+TY  - ELEC
+TI  - CameraX
+AU  - Google
+T2  - Android Developers
+LA  - en
+UR  - https://developer.android.com/media/camera/camerax
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-35
+ER  -
 
 TY  - COMP
-ID  - assistivevision-39
-TI  - Piper: A fast, local neural text to speech system
-AU  - Rhasspy contributors,
+TI  - AssistiveVision
+AU  - Cerda Leon, D. F.
+DA  - 2026///
+PY  - 2026
 PB  - GitHub
-UR  - https://github.com/rhasspy/piper
+UR  - https://github.com/diomedescerda/AssistiveVision/tree/85c852ddcb543bce1bd69ad0db307f895d597881
 KW  - AssistiveVision
-KW  - AssistiveVision-ref-39
-N1  - Original reference number in AssistiveVision: 39
-Y2  - 2026-11-05
-ER  - 
+KW  - AssistiveVision-ref-34
+ER  -
 
 TY  - ELEC
-ID  - assistivevision-40
-TI  - AudioTrack
-AU  - Google,
-T2  - Android Developers
-UR  - https://developer.android.com/reference/android/media/AudioTrack
+TI  - Performance measurement
+AU  - TensorFlow contributors
+T2  - GitHub
 LA  - en
+UR  - https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/measurement.md
+Y2  - 2026/11/05/00:00:00
 KW  - AssistiveVision
-KW  - AssistiveVision-ref-40
-N1  - Original reference number in AssistiveVision: 40
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-41
-TI  - DataStore
-AU  - Google,
-T2  - Android Developers
-UR  - https://developer.android.com/topic/libraries/architecture/datastore
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-41
-N1  - Original reference number in AssistiveVision: 41
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-42
-TI  - Analysis of paired observations
-AU  - NIST/SEMATECH,
-T2  - NIST/SEMATECH e-Handbook of Statistical Methods
-UR  - https://www.itl.nist.gov/div898/handbook/prc/section3/prc311.htm
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-42
-N1  - Original reference number in AssistiveVision: 42
-Y2  - 2026-11-05
-ER  - 
-
-TY  - JOUR
-ID  - assistivevision-43
-TI  - Bootstrap methods: Another look at the jackknife
-AU  - Efron, B.
-PY  - 1979
-T2  - The Annals of Statistics
-VL  - 7
-IS  - 1
-DO  - 10.1214/aos/1176344552
-UR  - https://doi.org/10.1214/aos/1176344552
-SP  - 1
-EP  - 26
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-43
-N1  - Original reference number in AssistiveVision: 43
-ER  - 
-
-TY  - JOUR
-ID  - assistivevision-44
-TI  - Bootstrapping clustered data
-AU  - Field, C. A.
-AU  - Welsh, A. H.
-PY  - 2007
-T2  - Journal of the Royal Statistical Society: Series B (Statistical Methodology)
-VL  - 69
-IS  - 3
-DO  - 10.1111/j.1467-9868.2007.00593.x
-UR  - https://doi.org/10.1111/j.1467-9868.2007.00593.x
-SP  - 369
-EP  - 390
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-44
-N1  - Original reference number in AssistiveVision: 44
-ER  - 
+KW  - AssistiveVision-ref-29
+ER  -
 
 TY  - BOOK
-ID  - assistivevision-45
-TI  - Computer vision: Algorithms and applications
-AU  - Szeliski, R.
-PY  - 2011
-PB  - Springer
-DO  - 10.1007/978-1-84882-935-0
-UR  - https://doi.org/10.1007/978-1-84882-935-0
+TI  - Introduction to information retrieval
+AU  - Manning, C. D.
+AU  - Raghavan, P.
+AU  - Schütze, H.
+DA  - 2008///
+PY  - 2008
 LA  - en
+PB  - Cambridge University Press
+UR  - https://nlp.stanford.edu/IR-book/
 KW  - AssistiveVision
-KW  - AssistiveVision-ref-45
-N1  - Original reference number in AssistiveVision: 45
-ER  - 
+KW  - AssistiveVision-ref-28
+ER  -
+
+TY  - COMP
+TI  - COCO API: PythonAPI/pycocotools/cocoeval.py
+AU  - COCO dataset contributors
+PB  - GitHub
+UR  - https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-27
+ER  -
+
+TY  - ELEC
+TI  - ExecuTorch documentation
+AU  - PyTorch
+T2  - PyTorch
+LA  - en
+UR  - https://pytorch.org/executorch/stable/
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-25
+ER  -
+
+TY  - ELEC
+TI  - Ultralytics YOLO11
+AU  - Ultralytics
+T2  - Ultralytics
+LA  - en
+UR  - https://docs.ultralytics.com/models/yolo11/
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-21
+ER  -
+
+TY  - ELEC
+TI  - Explore Ultralytics YOLOv8
+AU  - Ultralytics
+T2  - Ultralytics
+LA  - en
+UR  - https://docs.ultralytics.com/models/yolov8/
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-20
+ER  -
+
+TY  - ELEC
+TI  - Object detection with TensorFlow Lite Model Maker
+AU  - Google
+T2  - Google AI Edge
+LA  - en
+UR  - https://developers.google.com/edge/litert/libraries/modify/object_detection
+Y2  - 2026/11/05/00:00:00
+KW  - AssistiveVision
+KW  - AssistiveVision-ref-19
+ER  -
 
 TY  - RPRT
-ID  - assistivevision-46
-TI  - Exif 2.31 metadata for XMP
-AU  - Camera & Imaging Products Association,
-PY  - 2017
-PB  - Camera & Imaging Products Association
-UR  - https://www.cipa.jp/std/documents/e/DC-X010-2017.pdf
-M1  - CIPA DC-X010-2017
-LA  - en
+TI  - Sistema de identificación y localización espacial de objetos basado en visión por computador para asistencia a personas con discapacidad visual
+AU  - Cerda Leon, D. F.
+LA  - es
+M3  - Propuesta de pasantía en investigación
+PB  - Universidad del Magdalena
 KW  - AssistiveVision
-KW  - AssistiveVision-ref-46
-N1  - Original reference number in AssistiveVision: 46
-ER  - 
+KW  - AssistiveVision-ref-10
+ER  -
+
+TY  - BOOK
+TI  - Computer vision: Algorithms and applications
+AU  - Szeliski, R.
+CY  - Heidelberg, Berlin
+DA  - 2011///
+PY  - 2011
+DO  - 10.1007/978-1-84882-935-0
+LA  - en
+PB  - Springer
+ST  - Computer Vision
+UR  - https://doi.org/10.1007/978-1-84882-935-0
+Y2  - 2026/03/04/16:35:39
+ER  -
+
+TY  - CHAP
+TI  - End-to-end object detection with transformers
+AU  - Carion, Nicolas
+AU  - Massa, Francisco
+AU  - Synnaeve, Gabriel
+AU  - Usunier, Nicolas
+AU  - Kirillov, Alexander
+AU  - Zagoruyko, Sergey
+T2  - Computer Vision – ECCV 2020
+A2  - Vedaldi, A.
+A2  - Bischof, H.
+A2  - Brox, T.
+A2  - Frahm, J.-M.
+AB  - We present a new method that views object detection as a direct set prediction problem. Our approach streamlines the detection pipeline, effectively removing the need for many hand-designed components like a non-maximum suppression procedure or anchor generation that explicitly encode our prior knowledge about the task. The main ingredients of the new framework, called DEtection TRansformer or DETR, are a set-based global loss that forces unique predictions via bipartite matching, and a transformer encoder-decoder architecture. Given a fixed small set of learned object queries, DETR reasons about the relations of the objects and the global image context to directly output the final set of predictions in parallel. The new model is conceptually simple and does not require a specialized library, unlike many other modern detectors. DETR demonstrates accuracy and run-time performance on par with the well-established and highly-optimized Faster RCNN baseline on the challenging COCO object detection dataset. Moreover, DETR can be easily generalized to produce panoptic segmentation in a unified manner. We show that it significantly outperforms competitive baselines. Training code and pretrained models are available at https://github.com/facebookresearch/detr.
+DA  - 2020/05/28/
+PY  - 2020
+DO  - 10.1007/978-3-030-58452-8_13
+DP  - arXiv.org
+SP  - 213
+EP  - 229
+LA  - en
+PB  - Springer
+UR  - https://doi.org/10.1007/978-3-030-58452-8_13
+Y2  - 2026/04/29/15:19:08
+KW  - Computer Science - Computer Vision and Pattern Recognition
+ER  -
+
+TY  - CHAP
+TI  - Microsoft COCO: Common objects in context
+AU  - Lin, Tsung-Yi
+AU  - Maire, Michael
+AU  - Belongie, Serge
+AU  - Hays, James
+AU  - Perona, Pietro
+AU  - Ramanan, Deva
+AU  - Dollár, Piotr
+AU  - Zitnick, C. Lawrence
+T2  - Computer Vision – ECCV 2014
+A2  - Fleet, D.
+A2  - Pajdla, T.
+A2  - Schiele, B.
+A2  - Tuytelaars, T.
+AB  - We present a new dataset with the goal of advancing the state-of-the-art in object recognition by placing the question of object recognition in the context of the broader question of scene understanding. This is achieved by gathering images of complex everyday scenes containing common objects in their natural context. Objects are labeled using per-instance segmentations to aid in precise object localization. Our dataset contains photos of 91 objects types that would be easily recognizable by a 4 year old. With a total of 2.5 million labeled instances in 328k images, the creation of our dataset drew upon extensive crowd worker involvement via novel user interfaces for category detection, instance spotting and instance segmentation. We present a detailed statistical analysis of the dataset in comparison to PASCAL, ImageNet, and SUN. Finally, we provide baseline performance analysis for bounding box and segmentation detection results using a Deformable Parts Model.
+DA  - 2014///
+PY  - 2014
+DO  - 10.1007/978-3-319-10602-1_48
+DP  - arXiv.org
+SP  - 740
+EP  - 755
+LA  - en
+PB  - Springer
+ST  - Microsoft COCO
+UR  - https://doi.org/10.1007/978-3-319-10602-1_48
+Y2  - 2026/03/16/16:31:58
+KW  - Computer Science - Computer Vision and Pattern Recognition
+ER  -
+
+TY  - CONF
+TI  - MobileNetV2: Inverted residuals and linear bottlenecks
+AU  - Sandler, Mark
+AU  - Howard, Andrew
+AU  - Zhu, Menglong
+AU  - Zhmoginov, Andrey
+AU  - Chen, Liang-Chieh
+AB  - In this paper we describe a new mobile architecture, MobileNetV2, that improves the state of the art performance of mobile models on multiple tasks and benchmarks as well as across a spectrum of different model sizes. We also describe efficient ways of applying these mobile models to object detection in a novel framework we call SSDLite. Additionally, we demonstrate how to build mobile semantic segmentation models through a reduced form of DeepLabv3 which we call Mobile DeepLabv3. The MobileNetV2 architecture is based on an inverted residual structure where the input and output of the residual block are thin bottleneck layers opposite to traditional residual models which use expanded representations in the input an MobileNetV2 uses lightweight depthwise convolutions to filter features in the intermediate expansion layer. Additionally, we find that it is important to remove non-linearities in the narrow layers in order to maintain representational power. We demonstrate that this improves performance and provide an intuition that led to this design. Finally, our approach allows decoupling of the input/output domains from the expressiveness of the transformation, which provides a convenient framework for further analysis. We measure our performance on Imagenet classification, COCO object detection, VOC image segmentation. We evaluate the trade-offs between accuracy, and number of operations measured by multiply-adds (MAdd), as well as the number of parameters
+C3  - 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+DA  - 2018///
+PY  - 2018
+DO  - 10.1109/CVPR.2018.00474
+DP  - arXiv.org
+SP  - 4510
+EP  - 4520
+LA  - en
+PB  - IEEE
+ST  - MobileNetV2
+UR  - https://doi.org/10.1109/CVPR.2018.00474
+Y2  - 2026/03/16/16:54:35
+KW  - Computer Science - Computer Vision and Pattern Recognition
+ER  -
+
+TY  - CONF
+TI  - EfficientDet: Scalable and efficient object detection
+AU  - Tan, Mingxing
+AU  - Pang, Ruoming
+AU  - Le, Quoc V.
+AB  - Model efficiency has become increasingly important in computer vision. In this paper, we systematically study neural network architecture design choices for object detection and propose several key optimizations to improve efficiency. First, we propose a weighted bi-directional feature pyramid network (BiFPN), which allows easy and fast multiscale feature fusion; Second, we propose a compound scaling method that uniformly scales the resolution, depth, and width for all backbone, feature network, and box/class prediction networks at the same time. Based on these optimizations and better backbones, we have developed a new family of object detectors, called EfficientDet, which consistently achieve much better efficiency than prior art across a wide spectrum of resource constraints. In particular, with single model and single-scale, our EfficientDet-D7 achieves state-of-the-art 55.1 AP on COCO test-dev with 77M parameters and 410B FLOPs, being 4x - 9x smaller and using 13x - 42x fewer FLOPs than previous detectors. Code is available at https://github.com/google/automl/tree/master/efficientdet.
+C3  - 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+DA  - 2020/07/27/
+PY  - 2020
+DO  - 10.1109/CVPR42600.2020.01079
+DP  - arXiv.org
+SP  - 10781
+EP  - 10790
+LA  - en
+PB  - IEEE
+ST  - EfficientDet
+UR  - https://doi.org/10.1109/CVPR42600.2020.01079
+Y2  - 2026/03/16/16:48:33
+KW  - Computer Science - Computer Vision and Pattern Recognition
+KW  - Computer Science - Machine Learning
+KW  - Electrical Engineering and Systems Science - Image and Video Processing
+ER  -
+
+TY  - GEN
+TI  - Faster R-CNN: Towards real-time object detection with region proposal networks
+AU  - Ren, Shaoqing
+AU  - He, Kaiming
+AU  - Girshick, Ross
+AU  - Sun, Jian
+AB  - State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features---using the recently popular terminology of neural networks with 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.
+DA  - 2015///
+PY  - 2015
+DO  - 10.48550/arXiv.1506.01497
+DP  - arXiv.org
+LA  - en
+PB  - arXiv
+ST  - Faster R-CNN
+UR  - https://doi.org/10.48550/arXiv.1506.01497
+Y2  - 2026/03/16/16:45:32
+KW  - Computer Science - Computer Vision and Pattern Recognition
+ER  -
 
 TY  - ELEC
-ID  - assistivevision-47
-TI  - numpy.quantile
-AU  - NumPy developers,
-T2  - NumPy documentation
-UR  - https://numpy.org/doc/stable/reference/generated/numpy.quantile.html
+TI  - TensorFlow Lite
+AU  - TensorFlow
+T2  - TensorFlow
 LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-47
-N1  - Original reference number in AssistiveVision: 47
-Y2  - 2026-11-05
-ER  - 
-
-TY  - ELEC
-ID  - assistivevision-48
-TI  - Pillow reference
-AU  - Pillow contributors,
-T2  - Pillow documentation
-UR  - https://pillow.readthedocs.io/en/stable/reference/
-LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-48
-N1  - Original reference number in AssistiveVision: 48
-Y2  - 2026-11-05
-ER  - 
+UR  - https://www.tensorflow.org/lite/guide
+Y2  - 2026/11/05/00:00:00
+ER  -
 
 TY  - JOUR
-ID  - assistivevision-49
-TI  - Matplotlib: A 2D graphics environment
-AU  - Hunter, J. D.
-PY  - 2007
-T2  - Computing in Science & Engineering
-VL  - 9
-IS  - 3
-DO  - 10.1109/MCSE.2007.55
-UR  - https://doi.org/10.1109/MCSE.2007.55
-SP  - 90
-EP  - 95
+TI  - Lightweight faster R-CNN for object detection in optical remote sensing images
+AU  - Magdy, Andrew
+AU  - Moustafa, Marwa S.
+AU  - Ebied, Hala M.
+AU  - Tolba, Mohamed F.
+T2  - Scientific Reports
+AB  - Various applications in remote sensing rely on object detection approaches, such as urban detection, precision farming, and disaster prediction. Faster RCNN has gained popularity for its performance but comes with significant computational and storage demands. Model compression techniques like pruning and quantization are frequently employed to mitigate these challenges. This paper introduces a novel bi-stage compression approach to create a lightweight Faster R-CNN for satellite images with minimal performance degradation. The proposed approach employs two distinct phases: aware training and post-training compression. First, aware training employs mixed-precision FP16 computation, which enhances training speed by a factor of 1.5 to 5.5 while preserving model accuracy and optimizing memory efficiency. Second, post-training compression applies unstructured weight pruning to eliminate redundant parameters, followed by dynamic quantization to reduce precision, thereby minimizing the model size at runtime and computational load. The proposed approach was assessed on the NWPU VHR-10 and Ship datasets. The results demonstrate an average 25.6% reduction in model size and a 56.6% reduction in parameters while maintaining the mean Average Precision (mAP).
+DA  - 2025/05/09/
+PY  - 2025
+DO  - 10.1038/s41598-025-99242-y
+DP  - www.nature.com
+VL  - 15
+IS  - 1
+SP  - 16163
+J2  - Sci Rep
 LA  - en
-KW  - AssistiveVision
-KW  - AssistiveVision-ref-49
-N1  - Original reference number in AssistiveVision: 49
-ER  - 
+PB  - Nature Publishing Group
+SN  - 2045-2322
+UR  - https://www.nature.com/articles/s41598-025-99242-y
+Y2  - 2026/04/22/13:31:39
+KW  - Humanities and Social Sciences
+KW  - Science
+KW  - multidisciplinary
+ER  -
+
+TY  - JOUR
+TI  - Analysis of object recognition systems using augmented reality glasses
+AU  - Figura, Jan
+AU  - Kuźmiczuk, Rafał
+AU  - Badurowicz, Marcin
+T2  - Journal of Computer Sciences Institute
+AB  - Object recognition systems and augmented reality devices aim to bridge the gap between the virtual and real worlds. It is natural, then, to combine these two technologies to create devices that can assist us in various aspects of life. This paper compares four object detection models: Faster R-CNN ResNet-101 v1, YOLO v8s, SSD MobileNet v2, and EfficientDet Lite 2 in the context of their use with augmented reality glasses. Using a simulated test environment, we examined resource consumption, energy efficiency, precision, and speed of the models during real-time operation. The results confirm that models using single-stage architecture are more suitable for real-time operation directly on the device. Among the single-stage models, YOLO v8s proved to be the most efficient.
+DA  - 2025/03/30/
+PY  - 2025
+DO  - 10.35784/jcsi.6469
+DP  - ph.pollub.pl
+VL  - 34
+SP  - 8
+EP  - 13
+LA  - en
+SN  - 2544-0764
+UR  - https://ph.pollub.pl/index.php/jcsi/article/view/6469
+Y2  - 2026/03/16/16:52:13
+KW  - augmented reality
+KW  - neural networks
+KW  - object detection
+KW  - smart glasses
+ER  -
+
+TY  - JOUR
+TI  - The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale
+AU  - Kuznetsova, Alina
+AU  - Rom, Hassan
+AU  - Alldrin, Neil
+AU  - Uijlings, Jasper
+AU  - Krasin, Ivan
+AU  - Pont-Tuset, Jordi
+AU  - Kamali, Shahab
+AU  - Popov, Stefan
+AU  - Malloci, Matteo
+AU  - Kolesnikov, Alexander
+AU  - Duerig, Tom
+AU  - Ferrari, Vittorio
+T2  - International Journal of Computer Vision
+AB  - We present Open Images V4, a dataset of 9.2M images with unified annotations for image classification, object detection and visual relationship detection. The images have a Creative Commons Attribution license that allows to share and adapt the material, and they have been collected from Flickr without a predefined list of class names or tags, leading to natural class statistics and avoiding an initial design bias. Open Images V4 offers large scale across several dimensions: 30.1M image-level labels for 19.8k concepts, 15.4M bounding boxes for 600 object classes, and 375k visual relationship annotations involving 57 classes. For object detection in particular, we provide 15x more bounding boxes than the next largest datasets (15.4M boxes on 1.9M images). The images often show complex scenes with several objects (8 annotated objects per image on average). We annotated visual relationships between them, which support visual relationship detection, an emerging task that requires structured reasoning. We provide in-depth comprehensive statistics about the dataset, we validate the quality of the annotations, we study how the performance of several modern models evolves with increasing amounts of training data, and we demonstrate two applications made possible by having unified annotations of multiple types coexisting in the same images. We hope that the scale, quality, and variety of Open Images V4 will foster further research and innovation even beyond the areas of image classification, object detection, and visual relationship detection.
+DA  - 2020/07//
+PY  - 2020
+DO  - 10.1007/s11263-020-01316-z
+DP  - arXiv.org
+VL  - 128
+IS  - 7
+SP  - 1956
+EP  - 1981
+J2  - Int J Comput Vis
+SN  - 0920-5691, 1573-1405
+ST  - The Open Images Dataset V4
+UR  - http://arxiv.org/abs/1811.00982
+Y2  - 2026/03/16/16:38:57
+KW  - Computer Science - Computer Vision and Pattern Recognition
+ER  -
+
+TY  - JOUR
+TI  - Real-time and accurate object detection on edge device with TensorFlow Lite
+AU  - Dai, Junyan
+T2  - Journal of Physics: Conference Series
+AB  - Objection detection is of vital importance to many fields, such as autonomous driving, outdoor robotics, and computer vision. Existing approaches on object detection can hardly run on the resource-constrained edge devices. In order to mitigate this dilemma, we propose to apply TensorFlow Lite to convert Float32 neural network model to unit8 neural network with subtle or even no accuracy loss. Two advantages are here for conversion. First, it reduces the model size to a quarter so that it fits for devices with limited storage. Second, it achieves much faster inference time. I conduct an experiment on MSCOCO dataset. Experimental results show that our proposed method achieves mAP 72.1 and FPS 23 on edge device.
+DA  - 2020/11//
+PY  - 2020
+DO  - 10.1088/1742-6596/1651/1/012114
+DP  - Institute of Physics
+VL  - 1651
+IS  - 1
+SP  - 012114
+J2  - J. Phys.: Conf. Ser.
+LA  - en
+PB  - IOP Publishing
+SN  - 1742-6596
+UR  - https://doi.org/10.1088/1742-6596/1651/1/012114
+Y2  - 2026/03/04/17:38:32
+ER  -
+
+TY  - GEN
+TI  - Plan de Desarrollo UNIMAGDALENA Comprometida 2020–2030
+AU  - Universidad del Magdalena
+CY  - Santa Marta, Colombia
+DA  - 2020///
+PY  - 2020
+LA  - es
+UR  - https://bloque10.unimagdalena.edu.co/wp-content/uploads/2021/10/Plan-de-desarrollo-Unimagdalena-comprometida-2020-2030-1.pdf
+ER  -
+
+TY  - GEN
+TI  - Plan de Gobierno Rectoral 2024-2028
+AU  - Universidad del Magdalena
+CY  - Santa Marta, Colombia
+DA  - 2024///
+PY  - 2024
+LA  - es
+UR  - https://www.unimagdalena.edu.co/Content/Public/Docs/Entrada_10/adjunto_10-20241210150115_739.pdf
+ER  -
+
+TY  - JOUR
+TI  - World report on vision
+AU  - World Health Organization
+CY  - Suiza
+DA  - 2019///
+PY  - 2019
+DP  - Zotero
+LA  - en
+ER  -

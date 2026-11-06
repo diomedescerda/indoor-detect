@@ -14,10 +14,10 @@ Hay 33 grupos de captura sucesiva. Cada grupo contiene, en este orden:
 2. Arnés de cabeza, lente nominal 0,5x.
 3. Arnés de pecho, lente nominal 1x.
 4. Arnés de pecho, lente nominal 0,5x.
-5. Gorillapod, lente nominal 1x.
-6. Gorillapod, lente nominal 0,5x.
+5. Palo de selfie, lente nominal 1x.
+6. Palo de selfie, lente nominal 0,5x.
 
-[capture_groups.csv](capture_groups.csv) relaciona fotografías, orden, configuración y hashes. Los grupos siguen el orden ascendente de los números IMG originales. No equivalen necesariamente a habitaciones o entornos independientes. Las fotos se tomaron con un iPhone 12 Pro Max y se procesaron después en Android. El Gorillapod permite orientar libremente el celular; en estas capturas se apuntó hacia los objetos de interés. No se midieron altura ni inclinación. La comparación incluye esa estrategia de encuadre y no aísla el efecto del soporte.
+[capture_groups.csv](capture_groups.csv) relaciona fotografías, orden, configuración y hashes. Los grupos siguen el orden ascendente de los números IMG originales. No equivalen necesariamente a habitaciones o entornos independientes. Las fotos se tomaron con un iPhone 12 Pro Max y se procesaron después en Android. El palo de selfie permite orientar libremente el celular; en estas capturas se apuntó hacia los objetos de interés. No se midieron altura ni inclinación. La comparación incluye esa estrategia de encuadre y no aísla el efecto del soporte.
 
 ## Datos y anotaciones
 
@@ -59,12 +59,12 @@ Con confianza 0,30 y coincidencia de clase e IoU ≥ 0,50:
 | Cabeza 0,5x | 164 | 70 | 36 | 51,9% | 37 |
 | Pecho 1x | 124 | 65 | 21 | 61,9% | 37 |
 | Pecho 0,5x | 153 | 77 | 32 | 58,8% | 44 |
-| Gorillapod 1x | 145 | 75 | 29 | 60,2% | 40 |
-| Gorillapod 0,5x | 174 | 82 | 31 | 57,1% | 49 |
+| Palo de selfie 1x | 145 | 75 | 29 | 60,2% | 40 |
+| Palo de selfie 0,5x | 174 | 82 | 31 | 57,1% | 49 |
 
-Gorillapod 0,5x es la elección provisional cuando se prioriza recuperar más objetos correctos. Pecho 1x lidera F1. El énfasis en conteos se adoptó después del análisis inicial de F1 y es exploratorio.
+Palo de selfie 0,5x es la elección provisional cuando se prioriza recuperar más objetos correctos. Pecho 1x lidera F1. El énfasis en conteos se adoptó después del análisis inicial de F1 y es exploratorio.
 
-Frente a pecho 1x, Gorillapod 0,5x suma 17 aciertos: gana en 16 grupos, empata en 10 y pierde en 7. La diferencia media es 0,515 objetos por grupo, con IC bootstrap exploratorio del 95% [0,121; 0,939]. Frente a pecho 0,5x, la diferencia es 0,152 [−0,182; 0,515]. No se establece un ganador universal.
+Frente a pecho 1x, palo de selfie 0,5x suma 17 aciertos: gana en 16 grupos, empata en 10 y pierde en 7. La diferencia media es 0,515 objetos por grupo, con IC bootstrap exploratorio del 95% [0,121; 0,939]. Frente a pecho 0,5x, la diferencia es 0,152 [−0,182; 0,515]. No se establece un ganador universal.
 
 ## Dónde consultar tablas y figuras
 
@@ -135,3 +135,6 @@ usa otro runtime/decodificador y debe mantenerse separada de Android.
 El [verificador activo](../../scripts/verify_archive.py) comprueba las 570 sumas originales mediante [el mapa de reubicación](../../development/relocations.json); 281 archivos están archivados en `development/`. Las comprobaciones nuevas escriben en `development/runs/`, sin reemplazar los originales.
 
 El [README original en inglés](../../development/annotation_drafts/Testing/README.md) se mantiene como parte del paquete base verificable. Esta guía en español permite consultarlo sin alterar ese registro histórico.
+
+La [correspondencia de nombres de montajes](../../docs/NOMBRES_DE_MONTAJES.md) aclara las claves
+históricas del archivo y su equivalencia con el palo de selfie con trípode.

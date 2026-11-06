@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-06",
+  "purpose": "Objetivos en prosa y criterio de latencia conectado al análisis, selección y conclusión del modelo.",
+  "before": "Documents/Informe_Final_AssistiveVision_Revision_Acotada.docx",
+  "after": "Documents/Informe_Final_AssistiveVision_Revision_Cohesion.docx",
+  "changes": [
+    {
+      "before": [
+        "Desarrollar un sistema de asistencia implementado en un dispositivo móvil, basado en técnicas de visión por computador, para la identificación y localización espacial de objetos en entornos interiores, orientado al apoyo de la percepción del entorno para personas con discapacidad visual.",
+        "1. Seleccionar un modelo de detección de objetos optimizado para su implementación en dispositivos móviles con plataforma Android.",
+        "2. Desarrollar un prototipo funcional en plataforma Android que integre la cámara del dispositivo y un modelo de detección de objetos para identificar elementos del entorno y determinar su ubicación relativa, así como descriptores de audio.",
+        "3. Evaluar el desempeño del prototipo en entornos interiores controlados, analizando métricas como la exactitud de detección, la latencia de procesamiento y la claridad de la retroalimentación auditiva.",
+        "La claridad de la retroalimentación auditiva forma parte del tercer objetivo porque el objeto y su posición deben comprenderse al escuchar el mensaje. La evaluación verificó composición textual y ejecución funcional del audio; no se midió claridad con oyentes. La sección 4.9 distingue estas verificaciones de una evaluación perceptual."
+      ],
+      "after": [
+        "El trabajo busca desarrollar un sistema de asistencia visual en un dispositivo móvil que identifique objetos de entornos interiores y comunique su ubicación relativa mediante descriptores de audio, como apoyo a la percepción del entorno de personas con discapacidad visual. Este propósito requiere seleccionar un modelo de detección optimizado para su ejecución móvil e integrarlo con la cámara y la síntesis de voz en un prototipo funcional para Android. La evaluación del prototipo en entornos interiores controlados se orienta a analizar la exactitud de detección, la latencia de procesamiento y la claridad de la retroalimentación auditiva, para valorar la identificación de los objetos y la información que se busca transmitir al usuario."
+      ]
+    },
+    {
+      "before": [],
+      "after": [
+        "El uso previsto de AssistiveVision hace que la latencia tenga un peso decisivo en la selección. Cada captura solicitada por el usuario debe procesarse antes de generar el mensaje de voz, de modo que el tiempo de inferencia contribuye a la espera y al desfase entre la escena registrada y su descripción. Se busca reducir esa espera conservando capacidad para identificar los objetos del entorno. Por ello, las métricas de exactitud se interpretan junto con el tiempo de procesamiento y la memoria que exige cada modelo en el teléfono."
+      ]
+    },
+    {
+      "before": [
+        "EfficientDet-Lite2 presentó el mayor mAP50 del conjunto (0,648) y una latencia aislada de 124,9 ms en Android CPU (8,00 inferencias/s). Estos resultados sustentan la selección del componente de detección bajo las condiciones evaluadas; no representan la frecuencia del ciclo completo de captura y voz. Aunque YOLOv8s Float32 obtuvo mayor mAP50-95 (0,514 frente a 0,486), requirió 620,8 ms y 164,1 MB, frente a 124,9 ms y 65,8 MB de EfficientDet-Lite2. Sus F1 fueron próximas (0,702 y 0,695). La elección acepta un menor ajuste de cajas a umbrales exigentes a cambio de menor costo temporal y de memoria; no utiliza la latencia como único criterio."
+      ],
+      "after": [
+        "Con este criterio, EfficientDet-Lite2 ofrece un equilibrio favorable. Alcanzó el mayor mAP50 del conjunto (0,648) y una latencia de inferencia de 124,9 ms en Android CPU (8,00 inferencias/s), frente a 620,8 ms de YOLOv8s Float32: aproximadamente una quinta parte del tiempo. Aunque su mAP50-95 fue menor (0,486 frente a 0,514), las puntuaciones F1 fueron próximas (0,695 y 0,702). Se aceptó, por tanto, un menor ajuste de las cajas a umbrales de solapamiento exigentes para reducir el tiempo del componente de detección, conservando una F1 cercana a la de YOLOv8s en esta evaluación. Estas latencias corresponden a inferencia aislada; el ciclo de captura y voz incorpora etapas adicionales."
+      ]
+    },
+    {
+      "before": [
+        "EfficientDet-Lite2 en CPU fue seleccionado por su mAP50 de 0,648, recall de 0,677 y latencia aislada de 124,9 ms en Redmi Note 13. Frente a YOLO11n Float32 (mAP50 0,615 y 188,6 ms), ofreció mayor mAP50, menor latencia y menor consumo de RAM (65,8 frente a 80,5 MB). YOLO11n obtuvo mayor mAP50-95 (0,498 frente a 0,486). La elección responde al conjunto y al dispositivo evaluados; la capacidad para recuperar objetos y los tiempos del sistema completo se verifican de forma independiente. Frente a YOLOv8s Float32, el modelo seleccionado conserva una F1 cercana y reduce aproximadamente cinco veces la latencia aislada, aceptando una mAP50-95 inferior. Por tanto, la selección responde al compromiso entre varias métricas y recursos, y no al liderazgo en todas las medidas de exactitud."
+      ],
+      "after": [
+        "Se seleccionó EfficientDet-Lite2 en CPU porque combinó el mayor mAP50 del conjunto (0,648) y un recall de 0,677 con un costo temporal menor que los candidatos YOLO. La latencia fue decisiva para el propósito de ofrecer descripciones auditivas oportunas: frente a YOLOv8s Float32, el modelo requirió aproximadamente una quinta parte del tiempo de inferencia y menos memoria (65,8 frente a 164,1 MB). También superó a YOLO11n Float32 en mAP50 (0,648 frente a 0,615), latencia (124,9 frente a 188,6 ms) y memoria (65,8 frente a 80,5 MB). Se aceptó una mAP50-95 inferior a la de ambos modelos para priorizar el tiempo de procesamiento sin renunciar a la recuperación de objetos observada. La elección se circunscribe al conjunto y al teléfono evaluados; la implementación y la evaluación posterior se presentan en los capítulos 3 y 4."
+      ]
+    },
+    {
+      "before": [
+        "El primer objetivo se atendió con la selección de EfficientDet-Lite2 en CPU. La comparación de seis configuraciones mostró un compromiso entre mAP50, recall, latencia y memoria: el modelo obtuvo 0,648, 0,677, 124,9 ms y 65,8 MB, respectivamente. Frente a YOLOv8s Float32 se aceptó una mAP50-95 inferior a cambio de menor costo de ejecución. La selección corresponde al conjunto y al teléfono evaluados y no establece una superioridad universal."
+      ],
+      "after": [
+        "El primer objetivo se atendió con la selección de EfficientDet-Lite2 en CPU. La comparación de seis configuraciones mostró un compromiso entre mAP50, recall, latencia y memoria: el modelo obtuvo 0,648, 0,677, 124,9 ms y 65,8 MB, respectivamente. La latencia fue decisiva por su contribución a la espera previa al mensaje de voz; frente a YOLOv8s Float32 se aceptó una mAP50-95 inferior a cambio de reducir el tiempo de inferencia a aproximadamente una quinta parte. La selección corresponde al conjunto y al teléfono evaluados y no establece una superioridad universal."
+      ]
+    }
+  ]
+}

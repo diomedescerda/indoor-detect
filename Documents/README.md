@@ -5,7 +5,18 @@
 El manuscrito principal es [Informe_Final_AssistiveVision.docx](Informe_Final_AssistiveVision.docx).
 Contiene cinco capítulos, conclusiones vinculadas a los objetivos, un único anexo
 de repositorios/reproducción y 49 referencias. La presentación conserva el formato
-institucional; los marcadores para fotografías del autor permanecen en el documento.
+institucional e incorpora las figuras de interfaz, escenas y los tres soportes.
+
+La [copia más reciente en revisión](Informe_Final_AssistiveVision_Revision_Formato_Zotero.docx)
+conserva el ajuste de cohesión e incorpora capturas reales de la interfaz y seis
+fotografías del conjunto experimental. La Figura 4.2 incorpora las imágenes
+comerciales de los arneses de cabeza y pecho y del palo de selfie con trípode
+identificado por el autor. La terminología de texto, tablas y gráficos está corregida. Los
+[orígenes y la regeneración de las imágenes](Figures/README.md) están documentados.
+La revisión vigente aplica la guía institucional de márgenes, encabezados,
+numeración, capítulos en página impar y espaciado. Incluye 91 campos de cita de
+Zotero vinculados a los 49 registros de la colección y una bibliografía APA
+generada por Zotero. [Cómo mantener las referencias](Referencias/README.md).
 
 | Contenido | Ubicación |
 |---|---|

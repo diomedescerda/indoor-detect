@@ -195,8 +195,8 @@ objetos en el análisis de selección para voz:
 | Cabeza 0,5x | 70 | 36 | 94 | 0,5185185185 |
 | Pecho 1x | 65 | 21 | 59 | 0,6190476190 |
 | Pecho 0,5x | 77 | 32 | 76 | 0,5877862595 |
-| Gorillapod 1x | 75 | 29 | 70 | 0,6024096386 |
-| Gorillapod 0,5x | 82 | 31 | 92 | 0,5714285714 |
+| Palo de selfie 1x | 75 | 29 | 70 | 0,6024096386 |
+| Palo de selfie 0,5x | 82 | 31 | 92 | 0,5714285714 |
 
 La ejecución local del 5 de noviembre de 2026 reprodujo los mismos arrays de
 predicciones para las 198 fotos. En otro dispositivo/runtime pueden cambiar
@@ -230,3 +230,6 @@ manuales: no ejecutar un constructor anterior sobre esa copia. La
 [guía documental](../Documents/README.md) explica las versiones.
 
 El README y los verificadores originales del paquete se conservan en `development/annotation_drafts/Testing/`; el mapa de reubicación mantiene verificables sus hashes. El README actual de `Build/Testing/` y `LEEME.md` remiten a los ejecutores vigentes.
+
+La [correspondencia de nombres de montajes](NOMBRES_DE_MONTAJES.md) aclara las claves
+históricas del archivo y su equivalencia con el palo de selfie con trípode.

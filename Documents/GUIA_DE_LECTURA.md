@@ -26,9 +26,9 @@ Esta guía presenta la estructura, el desarrollo y los resultados de AssistiveVi
 
 ## Cómo interpretar la comparación de configuración
 
-Cada grupo de captura contiene seis fotos sucesivas: cabeza 1x, cabeza 0,5x, pecho 1x, pecho 0,5x, Gorillapod 1x y Gorillapod 0,5x. [capture_groups.csv](../Build/Testing/capture_groups.csv) vincula cada imagen con su configuración. Los 33 grupos no equivalen necesariamente a 33 habitaciones independientes. El Gorillapod permitió orientar libremente el celular y se apuntó hacia los objetos durante las pruebas; los resultados corresponden a ese uso dirigido.
+Cada grupo de captura contiene seis fotos sucesivas: cabeza 1x, cabeza 0,5x, pecho 1x, pecho 0,5x, palo de selfie 1x y palo de selfie 0,5x. [capture_groups.csv](../Build/Testing/capture_groups.csv) vincula cada imagen con su configuración. Los 33 grupos no equivalen necesariamente a 33 habitaciones independientes. El palo de selfie permitió orientar libremente el celular y se apuntó hacia los objetos durante las pruebas; los resultados corresponden a ese uso dirigido.
 
-Gorillapod 0,5x obtuvo 82 detecciones correctas sobre 174 instancias visibles; pecho 1x obtuvo 65 sobre 124. El primero favorece el conteo recuperado; el segundo tiene mayor F1 (61,9% frente a 57,1%). Frente a pecho 0,5x, la ventaja media de conteo de Gorillapod 0,5x tiene un intervalo que incluye cero. Por ello el informe propone una configuración provisional, sin establecer un ganador universal.
+Palo de selfie 0,5x obtuvo 82 detecciones correctas sobre 174 instancias visibles; pecho 1x obtuvo 65 sobre 124. El primero favorece el conteo recuperado; el segundo tiene mayor F1 (61,9% frente a 57,1%). Frente a pecho 0,5x, la ventaja media de conteo de palo de selfie 0,5x tiene un intervalo que incluye cero. Por ello el informe propone una configuración provisional, sin establecer un ganador universal.
 
 «Visibles» cuenta instancias anotadas dentro de cada fotografía; un mismo objeto puede aparecer en varias fotos. «Correctas» exige clase coincidente y solapamiento de caja IoU ≥ 0,50, con confianza ≥ 0,30. La lista de «hasta dos objetos» aproxima la selección que se entrega al módulo de voz; no mide comprensión ni calidad del audio.
 
@@ -54,3 +54,6 @@ Estas precisiones delimitan la evidencia disponible al interpretar los resultado
 Se puede comentar directamente el DOCX en Word o LibreOffice, indicando sección, tabla o figura. Para evitar versiones paralelas, conservar el nombre del manuscrito principal y registrar sus cambios en Git. Si se comparte una copia comentada, añadir un sufijo de revisión y mantener identificada la versión de origen. No ejecutar el constructor del informe sobre ediciones manuales sin incorporarlas antes: reconstruye el documento desde una base anterior.
 
 Para instalar el prototipo: **[Descargar APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk)**. Las versiones y sus comprobantes están en [Releases](https://github.com/diomedescerda/AssistiveVision/releases/latest); la rama principal de la app es `main`.
+
+La [correspondencia de nombres de montajes](../docs/NOMBRES_DE_MONTAJES.md) aclara las claves
+históricas del archivo y su equivalencia con el palo de selfie con trípode.

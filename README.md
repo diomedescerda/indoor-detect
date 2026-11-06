@@ -52,11 +52,11 @@ ejecuta la misma comprobación y adjunta los resultados a cada ejecución.
 ## Qué resultados se pueden comprobar
 
 El estudio principal contiene **198 fotografías**, **889 instancias anotadas** y
-**33 grupos** con seis configuraciones: cabeza, pecho y Gorillapod, cada uno con
+**33 grupos** con seis configuraciones: cabeza, pecho y palo de selfie con trípode, cada uno con
 lente nominal 1x y 0,5x. Se tomaron con iPhone 12 Pro Max y se procesaron con
 los módulos Android de producción en un emulador con perfil Pixel 8.
 
-Gorillapod 0,5x obtuvo más detecciones correctas (**82**); pecho 1x tuvo mayor
+Palo de selfie 0,5x obtuvo más detecciones correctas (**82**); pecho 1x tuvo mayor
 F1 (**61,9 %**). Son criterios distintos y la selección de configuración es
 exploratoria. No son 33 habitaciones independientes ni una prueba de claridad
 del audio. La [guía de datos](docs/DATOS_Y_RESULTADOS.md) explica las condiciones.
@@ -100,3 +100,6 @@ cada grupo y cómo se mantienen verificables las rutas originales.
 propios antes de actualizar Git. Los constructores históricos del manuscrito y
 algunos scripts antiguos conservados en `development/` sí sobrescriben sus salidas: para reproducir, utilizar
 los nuevos comandos de esta página.
+
+La [correspondencia de nombres de montajes](docs/NOMBRES_DE_MONTAJES.md) aclara las claves
+históricas del archivo y su equivalencia con el palo de selfie con trípode.

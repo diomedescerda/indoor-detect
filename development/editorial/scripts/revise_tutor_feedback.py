@@ -12,6 +12,7 @@ import hashlib
 import html
 import json
 from pathlib import Path
+from os.path import relpath
 import re
 import unicodedata
 from zipfile import ZipFile, ZIP_DEFLATED
@@ -24,6 +25,7 @@ from docx.enum.table import WD_TABLE_ALIGNMENT, WD_CELL_VERTICAL_ALIGNMENT
 from tutor_revision_content import (
     TITLE, REPLACEMENTS, REFERENCES, NOTATION_ROWS, SCENE_ROWS, CONFIG_ROWS,
     PHYSICAL_FIELD, PAIRED_CAPTURE, FOV, MATCHING, COVERAGE, AUDIO, ANNEX,
+    scoped_replacements, INTRO_OBJECTIVES, MODEL_SELECTION_CRITERION, CONCLUSION_MODEL,
 )
 
 REPO = Path(__file__).resolve().parents[3]
@@ -60,6 +62,7 @@ class Revision:
         self.rels = E.fromstring(self.parts['word/_rels/document.xml.rels'])
         self.rel_id = 2000
         self.url_ids = {}
+        self.report_images = []
 
     def prepare_refs(self):
         refs = {k:dict(author=a, year=y, entry=e) for k,(a,y,e) in REFERENCES.items()}
@@ -159,6 +162,119 @@ class Revision:
         p.find(q('r')).find(q('rPr')).append(E.Element(q('i')))
         return p
 
+    def picture(self, name, width, description, crop=None):
+        """Embed a new inline figure without rewriting existing package media."""
+        path=REPO/'Documents/Figures'/name
+        scratch=Document()
+        paragraph=scratch.add_paragraph()
+        shape=paragraph.add_run().add_picture(str(path),width=Inches(width))
+        p=E.fromstring(E.tostring(paragraph._p))
+        self.setstyle(p,'Normal')
+        pr=self.ppr(p)
+        E.SubElement(pr,q('jc')).set(q('val'),'center')
+        spacing=E.SubElement(pr,q('spacing'));spacing.set(q('after'),'80')
+        E.SubElement(pr,q('keepNext'))
+        E.SubElement(pr,q('keepLines'))
+        blip=p.xpath('.//*[local-name()="blip"]')[0]
+        source_id=blip.get('{'+R+'}embed')
+        media=scratch.part.related_parts[source_id]
+        if crop:
+            # Native Word crop: retain the complete, unmodified source screenshot.
+            left,top,right,bottom=crop
+            iw,ih=media.image.px_width,media.image.px_height
+            if not (0 <= left < right <= iw and 0 <= top < bottom <= ih):
+                raise ValueError('Crop rectangle falls outside the source image.')
+            crop_node=E.Element('{http://schemas.openxmlformats.org/drawingml/2006/main}srcRect')
+            for side,value,total in [('l',left,iw),('t',top,ih),('r',iw-right,iw),('b',ih-bottom,ih)]:
+                crop_node.set(side,str(round(value/total*100000)))
+            blip.addnext(crop_node)
+            height=round(Inches(width)*(bottom-top)/(right-left))
+            for extent in p.xpath('.//*[local-name()="extent" or (local-name()="ext" and @cx)]'):
+                extent.set('cy',str(height))
+        target='media/report_'+Path(name).name
+        self.parts['word/'+target]=media.blob
+        rid='rIdReportImage'+str(len(self.report_images)+1)
+        relationship=E.SubElement(self.rels,'{http://schemas.openxmlformats.org/package/2006/relationships}Relationship')
+        relationship.set('Id',rid);relationship.set('Type',R+'/image');relationship.set('Target',target)
+        blip.set('{'+R+'}embed',rid)
+        properties=p.xpath('.//*[local-name()="docPr"]')[0]
+        properties.set('id',str(4000+len(self.report_images)))
+        properties.set('name',name);properties.set('descr',description)
+        types=E.fromstring(self.parts['[Content_Types].xml'])
+        content_ns='http://schemas.openxmlformats.org/package/2006/content-types'
+        extension=path.suffix[1:].lower()
+        if not any(n.get('Extension')==extension for n in types):
+            element=E.SubElement(types,'{'+content_ns+'}Default')
+            element.set('Extension',extension);element.set('ContentType','image/jpeg' if extension in ('jpg','jpeg') else 'image/png')
+        self.parts['[Content_Types].xml']=E.tostring(types,xml_declaration=True,encoding='UTF-8',standalone=True)
+        self.report_images.append(dict(file=str(path.relative_to(REPO)),sha256=sha(media.blob),relationship=rid,description=description,word_crop_box_pixels=crop))
+        return p
+
+    def harness_figure(self):
+        ledger=json.loads((REPO/'Documents/Figures/fuentes_fotograficas.json').read_text())
+        sources=ledger['harnesses']['sources']
+        stick=ledger['selfie_stick']
+        panels=[]
+        for entry,width in [(sources[0],1.8),(sources[1],1.8),(stick,1.1)]:
+            if sha((REPO/entry['source']).read_bytes()) != entry['sha256']:
+                raise ValueError('Harness source screenshot changed: '+entry['source'])
+            name=str(Path(entry['source']).relative_to('Documents/Figures'))
+            panels.append(self.picture(name,width,entry['title']+'; ilustración comercial de referencia.',entry['word_crop_box_pixels']))
+        # Explicit centered tab stops keep every image and its label in its column.
+        def columns(p):
+            pr=self.ppr(p)
+            ind=E.SubElement(pr,q('ind'))
+            for key in ('left','right','firstLine'):ind.set(q(key),'0')
+            pr.find(q('jc')).set(q('val'),'left')
+            tabs=E.SubElement(pr,q('tabs'))
+            for position in (1440,4320,7200):
+                tab=E.SubElement(tabs,q('tab'));tab.set(q('val'),'center');tab.set(q('pos'),str(position))
+        columns(panels[0])
+        first_tab=E.Element(q('r'));E.SubElement(first_tab,q('tab'))
+        panels[0].insert(1,first_tab)
+        for panel in panels[1:]:
+            E.SubElement(E.SubElement(panels[0],q('r')),q('tab'))
+            for run in list(panel):
+                if run.tag==q('r'):panels[0].append(run)
+        labels=self.para('')
+        columns(labels)
+        for text in ('(a) Cabeza','(b) Pecho Innovo+','(c) Palo de selfie'):
+            E.SubElement(E.SubElement(labels,q('r')),q('tab'))
+            self.run(labels,text,size=10)
+        E.SubElement(self.ppr(labels),q('keepNext'))
+        source=self.para('Fuente: ilustraciones comerciales de Mercado Libre: ')
+        self.run(source,'Soporte de cabeza + accesorio para celular',link=sources[0]['url'])
+        self.run(source,' y ')
+        self.run(source,'Arnés Pecho Innovo+ para GoPro y celulares',link=sources[1]['url'])
+        self.run(source,'; eMAG: ')
+        self.run(source,'palo de selfie con trípode de diseño L01',link=stick['url'])
+        self.run(source,'. El diseño del panel (c) fue identificado por semejanza con el utilizado. Las imágenes no documentan la colocación experimental ni acreditan la marca exacta del palo de selfie.')
+        return [panels[0],labels,source]
+
+    def correct_mount_terminology(self):
+        """Correct presentation labels; archived keys and source media stay intact."""
+        for p in self.body.xpath('.//w:p',namespaces=NS):
+            before=txt(p)
+            if not re.search('gorillapod',before,re.I):continue
+            english=before.startswith('AssistiveVision was designed')
+            after=before.replace('soporte flexible Gorillapod','palo de selfie extensible con patas plegables de trípode')
+            if not english:
+                for old,new in [('Para Gorillapod','Para el palo de selfie'),('de Gorillapod','del palo de selfie'),('con Gorillapod','con el palo de selfie'),('favorece provisionalmente Gorillapod','favorece provisionalmente el palo de selfie')]:
+                    after=after.replace(old,new)
+            after=re.sub('gorillapod','the selfie stick with tripod' if english else 'palo de selfie',after,flags=re.I)
+            if after.startswith('palo de selfie'):after='P'+after[1:]
+            after=re.sub(r'([.!?] )palo de selfie',r'\1El palo de selfie',after)
+            if 'patas plegables de trípode' in after:
+                after+=' En las tablas y figuras se abrevia como «palo de selfie».'
+            self.settext(p,after)
+        # Relabel from the same saved inputs; preserve the historical embedded media.
+        corrected={'rId40':'montajes_cajas.png','rId41':'configuraciones_cajas.png','rId43':'seleccion_metricas.png'}
+        for rel in self.rels:
+            if rel.get('Id') in corrected:
+                name=corrected[rel.get('Id')]
+                rel.set('Target','media/corrected_'+name)
+                self.parts['word/media/corrected_'+name]=(REPO/'Documents/Figures'/name).read_bytes()
+
     def table(self,rows,widths):
         # Build only the new table, then transplant its OOXML into the source package.
         d=Document();t=d.add_table(rows=0,cols=len(rows[0]));t.autofit=False
@@ -197,9 +313,9 @@ class Revision:
         return result
 
     def assemble(self):
-        for i,s in REPLACEMENTS.items():self.edit(i,s)
+        replacements=scoped_replacements(self.orig_text)
+        for i,s in replacements.items():self.edit(i,s)
         self.edit(3,TITLE);self.edit(25,TITLE)
-        self.edit(179,txt(self.ps[179]).replace('(World Health Organization, 2019)', '[1]'))
         self.edit(382,REPLACEMENTS[383])
         self.edit(383,self.orig_text[383])
         E.SubElement(self.ppr(self.ps[25]),q('pageBreakBefore'))
@@ -225,7 +341,7 @@ class Revision:
         self.settext(self.ps[244],REPLACEMENTS[244])
         # These rewritten paragraphs already cite the new numbers, whereas the
         # surrounding source paragraphs still needed their old numbers shifted.
-        self.settext(self.ps[366],REPLACEMENTS[366])
+        self.settext(self.ps[366],replacements[366])
         self.settext(self.ps[393],REPLACEMENTS[393])
         self.setstyle(self.ps[251],'Heading 2')
         tables=self.body.findall(q('tbl'))
@@ -244,11 +360,11 @@ class Revision:
         self.edit(263,txt(self.ps[263]).replace('RAM LPDDR4X','RAM de bajo consumo de cuarta generación extendida (LPDDR4X, low power double data rate 4X)'))
         self.edit(445,txt(self.ps[445]).replace('JPEG reproducidos','archivos del estándar Joint Photographic Experts Group (JPEG) reproducidos'))
         self.edit(454,'El etiquetado suplementario se apoyó en inteligencia artificial (IA). '+txt(self.ps[454]))
-        self.edit(307,'3 Diseño e implementación del prototipo AssistiveVision')
         self.edit(408,txt(self.ps[408]).replace('del EXIF','de los metadatos EXIF').replace('—calculada del campo','—calculada del campo'))
         # Reassemble existing nodes. Tables and figures travel with their paragraphs.
         front=self.segment(0,178)
-        intro=[self.ps[178],*self.ps[179:182],self.ps[186],*self.ps[188:191],self.ps[192],self.ps[194],self.ps[199],self.ps[201],self.ps[202]]
+        intro=[self.ps[178],*self.ps[179:182],self.ps[183],self.para(INTRO_OBJECTIVES),
+               self.ps[192],self.ps[194],self.ps[199],self.ps[201],self.ps[202]]
         # Introductory prose uses the original body rhythm, without subheadings.
         for p in intro:
             if p is self.ps[178] or p is self.ps[202]:continue
@@ -256,19 +372,22 @@ class Revision:
         ch1=[self.ps[203],self.ps[204],self.h('1.1 Detección de objetos y métricas de evaluación'),
              self.para('Una red neuronal profunda (DNN, deep neural network) aprende representaciones para asignar clases y localizar objetos en una imagen. La detección produce cajas, clases y puntuaciones; esas puntuaciones ordenan la confianza del modelo y no se interpretan como probabilidades calibradas de acierto. La evaluación compara predicciones con una referencia anotada mediante las reglas siguientes.'),
              *self.ps[243:251],self.caption('Tabla 1.1. Notación y unidades de lectura.'),self.table(NOTATION_ROWS,[1.35,4.45]),
-             self.para('Nota. Los índices de archivos y las claves de software se conservan cuando son necesarios para reproducir el cálculo. El punto decimal de los archivos equivale a la coma decimal del texto. Los intervalos de confianza y los grados de libertad se desarrollan al presentar el método estadístico.'),
-             *self.ps[205:224],self.ps[233],self.ps[251],self.ps[252],self.ps[254],self.ps[258],self.ps[234],self.ps[235]]
+             self.para('Nota. El punto decimal de los archivos equivale a la coma decimal del texto. Los intervalos de confianza y los grados de libertad se explican al presentar el método estadístico.'),
+             *self.ps[205:224],self.ps[233],self.ps[251],self.ps[252],self.ps[253],self.ps[254],self.ps[258],self.ps[234],self.ps[235]]
         # DETR belongs with the architectural comparison, not an isolated final subsection.
         ch1.remove(self.ps[233]);ch1.insert(ch1.index(self.ps[217]),self.ps[233])
         ch2=[self.ps[236],self.ps[237],*self.ps[195:198],*self.ps[238:241],*self.ps[224:232],
              *self.ps[259:268],self.ps[255],self.ps[256],self.ps[257],*self.segment(268,307)]
+        criterion=self.para(MODEL_SELECTION_CRITERION)
+        E.SubElement(self.ppr(criterion),q('keepLines'))
+        ch2.insert(ch2.index(self.ps[290]),criterion)
         ch3=self.segment(307,362)
         loc=self.para('Las cajas del modelo usan coordenadas normalizadas [ymin, xmin, ymax, xmax] sobre la imagen con relleno. Esa representación se convierte al fotograma original antes de aplicar las reglas anteriores; no debe confundirse con [x, y, w, h] de la anotación. El descriptor «frente a ti» corresponde a la región inferior central y no acredita ausencia de obstáculos o distancia segura. Los límites descritos corresponden a LocalizationModule en la revisión evaluada [34].')
         ch3.insert(ch3.index(self.ps[328]),loc)
         at=ch3.index(self.ps[353])
-        ch3[at:at]=[self.caption('Figura 3.4. Pantallas de captura resultado y configuración.'),
-                     self.placeholder('tres capturas reales de AssistiveVision: vista inicial, resultado con cajas y regiones, y configuración. Mantener idioma y parámetros de la versión evaluada.'),
-                     self.para('Fuente: capturas de pantalla del autor de la aplicación AssistiveVision.')]
+        ch3[at:at]=[self.caption('Figura 3.4. Pantallas de captura y configuración de AssistiveVision.'),
+                     self.picture('interfaz_app.png',5.55,'Dos capturas reales de AssistiveVision: vista previa con captura manual y configuración de audio, confianza, número de objetos y vista previa.'),
+                     self.para('Fuente: capturas del autor de AssistiveVision en un emulador Android, en español, con confianza 0,30 y hasta dos objetos. La escena virtual de la vista previa ilustra la interfaz y no pertenece al conjunto experimental.')]
         # Correct the source figure-caption paragraph, independent of split-run text.
         for p in ch3:
             if p.tag==q('p') and txt(p).startswith('Figura 3.2'):
@@ -278,21 +397,23 @@ class Revision:
              self.table(SCENE_ROWS,[1.2,1.25,3.35]),
              self.para('Nota. G01 significa grupo de captura 1. Las categorías provienen de labels.json para las seis fotografías de cada grupo citado; una clase puede estar visible solo en algunas vistas. Los ejemplos no cuentan recintos físicos únicos ni prueban que las seis fotografías tengan un encuadre idéntico.'),
              self.caption('Figura 4.1. Ejemplos de espacios y condiciones de captura.'),
-             self.placeholder('mosaico de dormitorio, baño, cocina, sala o comedor, espacio de trabajo y terraza. Indicar grupo y nombre de archivo en cada panel; mostrar, cuando corresponda, oclusión y diferencias de iluminación.'),
-             self.para('Fuente: fotografías del autor del conjunto de evaluación.'),
+             self.picture('escenas_ejemplo.png',5.8,'Seis fotografías originales de dormitorio, sala y comedor, cocina, baño, espacio de trabajo y terraza; cada panel identifica el grupo y el archivo.'),
+             self.para('Fuente: fotografías del autor conservadas en Build/Testing/data/. Se muestran ejemplos de los grupos G01, G03, G04, G06, G27 y G28, con la imagen completa y sin superponer detecciones. Las etiquetas identifican el grupo y el archivo; no cuentan recintos físicos únicos.'),
              self.ps[367],self.ps[368],self.caption('Tabla 4.2. Orden y tamaño de las configuraciones de captura.'),
              self.table(CONFIG_ROWS,[1.0,2.6,1.05,1.15]),self.para(PAIRED_CAPTURE),self.para(FOV),
              self.caption('Figura 4.2. Montajes usados para orientar la cámara.'),
-             self.placeholder('fotografías de los arneses de cabeza y pecho y del Gorillapod, preferiblemente en uso. Señalar orientación de la cámara y opción de lente; agregar altura e inclinación solo si fueron registradas.'),
-             self.para('Fuente: fotografías del autor de los soportes utilizados.'),
+             *self.harness_figure(),
              self.ps[369],self.ps[370],self.para(MATCHING),self.ps[371],self.ps[372],self.para(COVERAGE),
-             self.ps[373],self.ps[374],*self.segment(375,463)]
+             self.ps[373],self.ps[374],*self.segment(375,462)]
         # Define EXIF before its use in distance and validity analyses.
         for p in ch4:
             if p.tag==q('p') and txt(p)==FOV:
                 self.settext(p,FOV.replace('los metadatos','los metadatos del formato intercambiable de archivos de imagen (EXIF, exchangeable image file format)',1))
         for kind,s in AUDIO:ch4.append(self.h(s) if kind=='h2' else self.para(s))
-        concl=[self.ps[463],*self.ps[465:470],self.ps[471],self.ps[473],self.ps[474],self.ps[475]]
+        # The original section break belongs after all of chapter 4, including
+        # its requested audio clarification, so chapter 5 starts on its own page.
+        ch4.append(self.ps[462])
+        concl=[self.ps[463],self.para(CONCLUSION_MODEL),*self.ps[465:470],self.ps[471],self.ps[473],self.ps[474],self.ps[475]]
         annex=[self.ps[476]]
         self.setstyle(self.ps[476],'Heading 1')
         for kind,s in ANNEX:
@@ -333,8 +454,10 @@ class Revision:
         for child in list(self.body):self.body.remove(child)
         for child in [*front,*intro,*ch1,*ch2,*ch3,*ch4,*concl,*annex,*bib,final_section]:
             if child is not None:self.body.append(child)
+        self.scope_text={i:txt(p) for i,p in enumerate(self.ps) if p.getparent() is self.body}
         self.original_comments=self.comments()
         self.cleanup()
+        self.correct_mount_terminology()
         self.convert_citations()
         self.update_navigation()
         self.parts['word/_rels/document.xml.rels']=E.tostring(self.rels,xml_declaration=True,encoding='UTF-8',standalone=True)
@@ -398,6 +521,15 @@ class Revision:
             s=txt(p)
             if not re.search(r'\[\d{1,2}\]',s):continue
             if s.startswith('[1, 448') or s.startswith('[') and 'INSERTAR' in s:continue
+            # Preserve source sentences while adding the dates required by APA.
+            narrative_names={2:'More et al.',3:'Meenakshi et al.',4:'Guravaiah et al.',
+                             13:'Pawar',14:'Figura, Kuźmiczuk y Badurowicz',15:'Howard et al.',
+                             16:'Sandler et al.',17:'Dai',18:'Magdy et al.'}
+            for k,name in narrative_names.items():
+                if f'[{k}]' not in s:continue
+                pattern=r'(?<!\w)'+re.escape(name)+r'(?!\w| \(\d{4}\))'
+                narrative=self.refs[k]['author'].replace(' & ',' y ')+' ('+self.refs[k]['year']+')'
+                s=re.sub(pattern,lambda m:narrative,s,count=1)
             # Adjacent numeric references become one alphabetized parenthetical citation.
             pattern=r'\[\d{1,2}\](?:(?:\s*,\s*|\s+y\s+|\s*;\s*)\[\d{1,2}\])*'
             chunks=[];pos=0
@@ -415,6 +547,12 @@ class Revision:
                 if active:chunks.append(('cite',sorted(set(active),key=lambda k:norm(self.refs[k]['author'])+self.refs[k]['year'])))
                 pos=m.end()
             chunks.append(('text',s[pos:]))
+            merged=[]
+            for kind,value in chunks:
+                if kind=='text' and merged and merged[-1][0]=='text':
+                    merged[-1]=('text',merged[-1][1]+value)
+                else:merged.append((kind,value))
+            chunks=merged
             for child in list(p):
                 if child.tag not in (q('pPr'),q('bookmarkStart'),q('bookmarkEnd')):p.remove(child)
             for kind,value in chunks:
@@ -427,7 +565,7 @@ class Revision:
                     self.run(p,')')
             # Remove spaces before punctuation left after a duplicate narrative citation.
             for t in p.xpath('.//w:t',namespaces=NS):
-                if t.text:t.text=re.sub(r' +([.,;])',r'\1',t.text)
+                if t.text:t.text=re.sub(r' +([.,;])(?=\s|$)',r'\1',t.text)
 
     def add_bookmark(self,p,name):
         start=E.Element(q('bookmarkStart'));start.set(q('id'),str(self.bookmark_id));start.set(q('name'),name)
@@ -504,11 +642,16 @@ class Revision:
             'one_annex':len([p for p in self.body.findall(q('p')) if txt(p).startswith('Anexo ')])==2, # TOC + body
             'no_conclusion_subheadings':not bool(re.search(r'5\.[123] (Conclusiones|Recomendaciones|Trabajo)',text)),
             'no_separate_conceptual_framework':'Marco conceptual' not in text,
-            'audio_limit_explicit':'no se midió claridad con oyentes' in text,
+            'audio_limit_explicit':'No se evaluaron pronunciación inglesa, tasa de comprensión o claridad con participantes' in text,
             'physical_space_author_field_explicit':PHYSICAL_FIELD in text,
-            'three_image_placeholders':len([p for p in self.body.findall(q('p')) if txt(p).startswith('[INSERTAR IMAGEN')])==3,
+            'no_image_placeholders':not any(txt(p).startswith('[INSERTAR IMAGEN') for p in self.body.findall(q('p'))),
+            'ui_scenes_and_three_mounts_embedded':{Path(i['file']).name for i in self.report_images}=={'interfaz_app.png','escenas_ejemplo.png','arnes_cabeza_fuente.png','arnes_pecho_fuente.png','palo_selfie_L01_referencia.jpg'},
+            'no_obsolete_mount_name_in_report':not re.search('gorillapod',text,re.I),
             'clean_copy_has_no_comment_anchors':not self.root.xpath('//w:commentRangeStart|//w:commentReference',namespaces=NS),
-            'original_7_figures_preserved':len(self.root.xpath('//w:drawing',namespaces=NS))==len(self.original.xpath('//w:drawing',namespaces=NS)),
+            'original_7_figures_preserved':all(E.tostring(n) in {E.tostring(d) for d in self.root.xpath('//w:drawing',namespaces=NS)} for n in self.original.xpath('//w:drawing',namespaces=NS)),
+            'objectives_integrated_in_introductory_prose':INTRO_OBJECTIVES in text and all(self.ps[i].getparent() is None for i in [186,188,189,190]),
+            'unrequested_paragraph_rewrites_removed':all(self.scope_text[i]==self.orig_text[i] for i in [179,181,192,196,197,199,207,210,211,216,225,246,250,254,255,257,305,307,314,318,355,469,471,473,474]),
+            'source_file_extension_spacing_preserved':all(' .tflite' in txt(self.ps[i]) for i in [231,254]),
         }
         # All original data values must survive; only metric labels and design prose may change.
         old_tables=self.original.xpath('//w:body/w:tbl',namespaces=NS)
@@ -529,13 +672,14 @@ class Revision:
             checks['image_parts_byte_identical']=all(self.parts[k]==source.read(k) for k in source.namelist() if k.startswith('word/media/'))
             checks['headers_and_footers_byte_identical']=all(self.parts[k]==source.read(k) for k in source.namelist() if re.match(r'word/(header|footer)\d+\.xml$',k))
         return dict(checks=checks,source_sha256=sha(self.source.read_bytes()),
+                    report_images=self.report_images,
                     references=len(self.refs),cited_reference_ids=sorted(self.cited),
                     paragraphs=len(self.body.findall(q('p'))),tables=len(new_tables),
                     sections=len(self.root.xpath('//w:sectPr',namespaces=NS)),
                     comments_addressed=len(self.original_comments),
                     failed=[k for k,v in checks.items() if not v])
 
-    def comparison(self,path):
+    def comparison(self,path,output=None):
         newps=self.body.findall(q('p'));newtext=[txt(p) for p in newps]
         used_source={id(p) for p in newps}
         source_order={id(p):i for i,p in enumerate(newps)}
@@ -558,8 +702,8 @@ class Revision:
             '0':'Título de ambas portadas tomado literalmente de la propuesta; métricas uniformes e índices regenerados.',
             '7':'Aporte integrado en prosa de la introducción y vinculado a los hallazgos de las conclusiones.',
             '6':'Introducción sin subtítulos; objetivos, alcance y límites se conectan en párrafos.',
-            '19':'Antecedentes desarrollados en el capítulo 1, con comparación de aportes y alcances.',
-            '21':'Se justifica la claridad como parte de la transferencia de información; se reconoce que no se midió con oyentes.',
+            '19':'Párrafo introductorio de antecedentes ampliado; se conserva la redacción original de los estudios del capítulo 1.',
+            '21':'Los objetivos se integran en un párrafo de propósito; el alcance de la evaluación auditiva se explica en el capítulo 4, sin añadir una justificación en la introducción.',
             '25':'Metodología trasladada al inicio del capítulo 2.',
             '33':'Candidatos trasladados a la sección 2.3 y distinguidos de los seis modelos ejecutados.',
             '35':'DETR integrado en la comparación de arquitecturas, sin apartado aislado.',
@@ -568,8 +712,8 @@ class Revision:
             '43':'mAP50-95 explica promedio entre clases y entre diez umbrales; AP50 se conserva por clase.',
             '44':'Secuencia de cajas, conteos, precisión, recall y F1 con ejemplo numérico explícitamente ilustrativo.',
             '45':'Precisión explicada con pregunta, fórmula, denominador y ejemplo de TP/FP/FN.',
-            '54':'Selección explicada frente a YOLOv8s, YOLO11n y SSD; se acepta la menor mAP50-95.',
-            '75':'Marcador de tres capturas de interfaz en Figura 3.4; las imágenes las añadirá el autor.',
+            '54':'Se explica por qué la latencia es decisiva para la espera previa al mensaje de voz; la comparación y la selección explicitan el compromiso aceptado de mAP50-95 frente a los candidatos YOLO.',
+            '75':'Capturas reales de las pantallas de captura y configuración insertadas en Figura 3.4; se identifica la escena virtual del emulador como ilustración de interfaz.',
             '83':'Capítulo 4 reorganizado; dos emparejamientos diferenciados y sección 4.9 para el alcance auditivo.',
             '85':'Emparejar capturas y emparejar cajas se explican como operaciones diferentes.',
             '86':'Diseño explicado como 33 grupos × 6 fotografías = 198, con cautela sobre agrupación provisional.',
@@ -601,7 +745,7 @@ class Revision:
 body{font:16px/1.6 system-ui,sans-serif;color:#182b37;background:#f6f7f8;margin:0}main{max-width:1120px;margin:auto;padding:32px 22px 70px}h1{font-size:30px;line-height:1.2}h2{font-size:23px;margin-top:32px}p{max-width:90ch}.intro{font-size:18px}details{background:white;border:1px solid #cbd5dc;border-radius:5px;margin:10px 0;padding:13px 17px}summary{cursor:pointer;font-weight:600}summary span{font-size:12px;background:#e5eef5;padding:3px 6px;margin-right:7px}table{border-collapse:collapse;width:100%;background:white}td,th{border:1px solid #ccd5dd;padding:10px;text-align:left}.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}.cols>div{min-width:0}h4{margin-bottom:5px}del{background:#ffe4e1;color:#80342d}ins{background:#dff1e5;color:#194d30;text-decoration:none}input{padding:12px;width:min(500px,90%);font-size:16px;border:1px solid #8c9da9;border-radius:4px}button{margin:5px;padding:10px 12px;background:white;border:1px solid #8c9da9;border-radius:4px;cursor:pointer}.notice{border-left:4px solid #ac6c14;padding:8px 18px;background:#fff6e4}.muted{color:#506570;font-size:14px}a{color:#125e91}.change[hidden]{display:none}@media(max-width:720px){.cols{grid-template-columns:1fr}main{padding:22px 14px}}
 </style><main><p class="muted">AssistiveVision · revisión del 5 de noviembre de 2026</p><h1>Qué cambió y por qué</h1><p class="intro">Comparación editorial con el archivo comentado por la tutora. El documento revisado conserva resultados y figuras, reorganiza la exposición y explicita el alcance de la evidencia.</p>
 <p><a href="../../../Documents/Informe_Final_AssistiveVision.docx">Abrir el Word revisado</a> · <a href="README.md">Leer instrucciones de reproducción y uso</a></p>
-<div class="notice"><b>Campos que completará el autor.</b> Identificación exacta de recintos y criterio de captura, además de tres marcadores de imágenes: interfaz, espacios y soportes. No se inventan participantes ni ensayos de audio. La ausencia de una medición de claridad se integra como límite del tercer objetivo, no como un resultado positivo.</div>
+<div class="notice"><b>Campos que completará el autor.</b> Identificación exacta de recintos y criterio de captura. La interfaz, seis fotografías originales de ejemplo y las ilustraciones comerciales de los arneses de cabeza y pecho ya están insertadas. No se inventan participantes ni ensayos de audio. La ausencia de una medición de claridad se integra como límite del tercer objetivo, no como un resultado positivo.</div>
 <h2>Cambios de estructura</h2><table><thead><tr><th>Contenido</th><th>Ubicación revisada</th></tr></thead><tbody>'''+outline+'''</tbody></table>
 <h2>Los 25 comentarios de la tutora</h2>'''+ledger+f'''<h2>Comparación del texto</h2><p>Se muestran {len(cases)} párrafos nuevos o modificados; el rojo marca lo retirado y el verde lo añadido. Los movimientos se resumen arriba. Los cambios de índices y paginación no se mezclan con el contenido científico.</p><input id="filter" placeholder="Buscar por capítulo o palabra" aria-label="Filtrar cambios"><button id="open">Expandir visibles</button><button id="close">Cerrar todos</button>'''+''.join(cards)+'''<h2>Elementos retirados de su ubicación original</h2>'''+removed+'''<h2>Revisión bibliográfica</h2><p>Las 49 referencias se presentan en orden alfabético, con autor y año, sangría francesa, títulos y publicaciones en cursiva y DOI como URL. Las citas numéricas se convierten al sistema autor–fecha y enlazan con su entrada. Se completan autores de trabajos abreviados y se distinguen documentos sin fecha. La presentación institucional de las páginas se conserva.</p><p>Se contrastó metadata editorial disponible con los PDF de literatura y registros DOI. El borrador CIPA y el preprint de Pawar se mantienen como tales. La normalización editorial no autentica las licencias de modelos o voces ni recupera los archivos ausentes del benchmark histórico.</p><p><a href="https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date">APA autor–fecha</a> · <a href="https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references">APA referencias de artículos</a></p>
 <h2>Integridad de la revisión</h2><p>Se conserva el archivo recibido. La revisión se construye con un script independiente y no sobrescribe los datos de evaluación ni el manuscrito histórico. Las cifras de las 19 tablas originales permanecen iguales. La validación estructural se conserva junto a los scripts y el informe.</p></main><script>
@@ -614,16 +758,24 @@ const changes=[...document.querySelectorAll('.change')];document.querySelector('
         page=page.replace('<h2>Revisión bibliográfica</h2>', '</details><h2>Revisión bibliográfica</h2>')
         page=page.replace('<button id="open">', '<button id="previous">Anteriores</button><button id="next">Siguientes</button><span id="count" aria-live="polite"></span><button id="open">')
         page=page.replace("const changes=[...document.querySelectorAll('.change')];document.querySelector('#filter').addEventListener('input',e=>{const q=e.target.value.toLowerCase();changes.forEach(d=>d.hidden=!d.dataset.search.includes(q))});", "const changes=[...document.querySelectorAll('.change')];let offset=0;function show(){const q=document.querySelector('#filter').value.toLowerCase();const filtered=changes.filter(d=>d.dataset.search.includes(q));changes.forEach(d=>d.hidden=true);filtered.slice(offset,offset+12).forEach(d=>d.hidden=false);document.querySelector('#count').textContent=filtered.length?`${offset+1}–${Math.min(offset+12,filtered.length)} de ${filtered.length}`:'Sin coincidencias';}document.querySelector('#filter').addEventListener('input',()=>{offset=0;show()});document.querySelector('#previous').onclick=()=>{offset=Math.max(0,offset-12);show()};document.querySelector('#next').onclick=()=>{const n=changes.filter(d=>d.dataset.search.includes(document.querySelector('#filter').value.toLowerCase())).length;if(offset+12<n)offset+=12;show()};show();changes[4].open=true;")
+        output=output or REPO/'Documents/Informe_Final_AssistiveVision.docx'
+        page=page.replace('../../../Documents/Informe_Final_AssistiveVision.docx',Path(relpath(output,path.parent)).as_posix())
         path.write_text(page)
         return len(cases)
 
 def main():
-    a=argparse.ArgumentParser();a.add_argument('source',type=Path);args=a.parse_args()
+    global OUT
+    a=argparse.ArgumentParser();a.add_argument('source',type=Path)
+    a.add_argument('--output',type=Path,default=REPO/'Documents/Informe_Final_AssistiveVision.docx')
+    a.add_argument('--evidence-dir',type=Path,default=OUT)
+    args=a.parse_args();OUT=args.evidence_dir
     OUT.mkdir(parents=True,exist_ok=True)
     r=Revision(args.source);r.assemble()
-    output=REPO/'Documents/Informe_Final_AssistiveVision.docx';r.save(output)
+    output=args.output
+    if output.resolve()==args.source.resolve():raise ValueError('The annotated source must remain unchanged.')
+    output.parent.mkdir(parents=True,exist_ok=True);r.save(output)
     validation=r.validate();validation['output_sha256']=sha(output.read_bytes())
-    validation['comparison_paragraphs']=r.comparison(OUT/'Cambios_tutor_AssistiveVision.html')
+    validation['comparison_paragraphs']=r.comparison(OUT/'Cambios_tutor_AssistiveVision.html',output)
     (OUT/'validacion_revision.json').write_text(json.dumps(validation,ensure_ascii=False,indent=2)+'\n')
     (OUT/'navegacion.json').write_text(json.dumps(r.navigation,ensure_ascii=False,indent=2)+'\n')
     (OUT/'referencias_apa.json').write_text(json.dumps(r.refs,ensure_ascii=False,indent=2)+'\n')

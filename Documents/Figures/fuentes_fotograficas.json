@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-06",
+  "style": "Fondo blanco, paneles identificados con letras y tipografía sans serif negra. Las escenas se presentan completas; los arneses usan recortes de encuadre nativos de Word, sin retoque de píxeles.",
+  "scenes": [
+    {
+      "label": "Dormitorio",
+      "source": "Build/Testing/data/IMG_3073.jpeg",
+      "group": 1,
+      "mount": "gorillapod",
+      "lens": "0.5x",
+      "sha256": "eec5b852adea2b766fb0b94cf8bced41561063f22e670ca37722fa60e5bc619e",
+      "mount_display": "palo de selfie con trípode"
+    },
+    {
+      "label": "Sala y comedor",
+      "source": "Build/Testing/data/IMG_3086.jpeg",
+      "group": 3,
+      "mount": "gorillapod",
+      "lens": "0.5x",
+      "sha256": "18b3998f35da7e8384dac97d3bfe626253b8be4b4c1849026adacb0acd1bc818",
+      "mount_display": "palo de selfie con trípode"
+    },
+    {
+      "label": "Cocina",
+      "source": "Build/Testing/data/IMG_3092.jpeg",
+      "group": 4,
+      "mount": "gorillapod",
+      "lens": "0.5x",
+      "sha256": "4688b433b2b9278b03a06b21da20d3edd32daa963448fa636ad7cabb543e7af4",
+      "mount_display": "palo de selfie con trípode"
+    },
+    {
+      "label": "Baño",
+      "source": "Build/Testing/data/IMG_3104.jpeg",
+      "group": 6,
+      "mount": "gorillapod",
+      "lens": "0.5x",
+      "sha256": "63a5a9b28e41fcdd5807e45412119bcb6a330bdee6c1937a2bb1cc283d244402",
+      "mount_display": "palo de selfie con trípode"
+    },
+    {
+      "label": "Espacio de trabajo",
+      "source": "Build/Testing/data/IMG_3371.jpeg",
+      "group": 27,
+      "mount": "gorillapod",
+      "lens": "0.5x",
+      "sha256": "cb00921495c046d9e54306c1d328dcf40710faa85e26821cf2e7b0bc4b2bfcd0",
+      "mount_display": "palo de selfie con trípode"
+    },
+    {
+      "label": "Terraza",
+      "source": "Build/Testing/data/IMG_3377.jpeg",
+      "group": 28,
+      "mount": "gorillapod",
+      "lens": "0.5x",
+      "sha256": "0184d77380ed0fa46c6606348f5b2a3e0adecd069539b064339992c348d6c143",
+      "mount_display": "palo de selfie con trípode"
+    }
+  ],
+  "ui": {
+    "kind": "Capturas auténticas de la app instalada desde el APK público; cámara del emulador con escena virtual; solo ilustración de interfaz.",
+    "apk_sha256": "883078e73596d2861029449debd796e366de4388fafe7a838c78fadef52f0820",
+    "emulator": "AssistiveVision_README_E2E_20261105",
+    "language": "es",
+    "confidence": 0.3,
+    "max_objects": 2,
+    "captures": [
+      {
+        "source": "Documents/Figures/sources/ui/captura.png",
+        "sha256": "a404d5c7b29543eb4986ccf0be99ecfe264abbcdbdfbdc3427f43552f9b7ff3b",
+        "resolution": [
+          720,
+          1600
+        ]
+      },
+      {
+        "source": "Documents/Figures/sources/ui/configuracion.png",
+        "sha256": "99b678677326703f24b11653ee588cfea3eb0d3baae0b4df4853f56f376ec975",
+        "resolution": [
+          720,
+          1840
+        ]
+      }
+    ]
+  },
+  "harnesses": {
+    "status": "identified_from_author_supplied_listing_screenshots",
+    "provided_links": [
+      "https://meli.la/2YcmYN1",
+      "https://meli.la/33SVC5d"
+    ],
+    "provided_item_ids": [
+      "MCO2018594267",
+      "MCO3052448570"
+    ],
+    "access_result": "Los enlaces devolvieron HTTP 403. La identificación posterior se basa en los títulos y las imágenes de las capturas suministradas por el autor; no se usaron productos sustitutos.",
+    "sources": [
+      {
+        "kind": "cabeza",
+        "title": "Soporte De Cabeza + Accesorio Para Celular",
+        "url": "https://meli.la/2YcmYN1",
+        "item_id": "MCO2018594267",
+        "source": "Documents/Figures/sources/harnesses/arnes_cabeza_fuente.png",
+        "sha256": "051fab49bff8fd944f28235a0c8a7188d5f79162089973e57269829bc8ed8d37",
+        "word_crop_box_pixels": [
+          0,
+          158,
+          432,
+          581
+        ]
+      },
+      {
+        "kind": "pecho",
+        "title": "Arnés Pecho Innovo+ para GoPro y Celulares Deportivo Ciclismo Vlogging",
+        "url": "https://meli.la/33SVC5d",
+        "item_id": "MCO3052448570",
+        "source": "Documents/Figures/sources/harnesses/arnes_pecho_fuente.png",
+        "sha256": "892178e707dba533844c67bf7e24c53cdfc6bf70715ecd95cc7eabc1749f7bf6",
+        "word_crop_box_pixels": [
+          125,
+          120,
+          605,
+          580
+        ]
+      }
+    ],
+    "presentation": "Original commercial screenshots embedded unchanged, with native Word crop rectangles excluding storefront controls and prices; product illustrations do not document experimental placement."
+  },
+  "mount_terminology": {
+    "preferred_es": "palo de selfie con trípode",
+    "short_es": "palo de selfie",
+    "preferred_en": "selfie stick with tripod",
+    "archived_key": "gorillapod",
+    "archived_labels": [
+      "Gorillapod",
+      "GorillaPod"
+    ],
+    "reason": "Author confirmed a telescopic selfie stick with folding tripod legs, visually matching candidate A (L01 style).",
+    "policy": "Historical datasets, numerical results and source snapshots keep original identifiers and checksums. Current prose and report figures use the corrected name."
+  },
+  "selfie_stick": {
+    "status": "design_confirmed_by_author",
+    "title": "Selfie Stick Techsuit (L01), extensible, trípode y mando Bluetooth",
+    "source": "Documents/Figures/sources/mounts/palo_selfie_L01_referencia.jpg",
+    "url": "https://www.emag.ro/selfie-stick-techsuit-l01-extensibil-trepied-telecomanda-cu-bluetooth-70cm-negru-ssl01/pd/DXF14HYBM/",
+    "image_url": "https://s13emagst.akamaized.net/products/68006/68005643/images/res_83814ca393d7f8ff1873ebd8acd170b6.jpg",
+    "sha256": "5d13a4520da0deb165113e103da0537eb9b85fe30f57cad2e1d13ee840c9081f",
+    "word_crop_box_pixels": [
+      10,
+      25,
+      315,
+      540
+    ],
+    "identification_limit": "Representative image of author-confirmed L01-style design; exact brand/model not established. No claim about use of remote, height, extension, or tripod mode during capture."
+  }
+}

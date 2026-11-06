@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-06",
+  "collection_key": "X2VAUMZ3",
+  "reference_id": 3,
+  "key": "KYPF9V6Q",
+  "source": "https://www.techscience.com/cmc/v73n2/48359",
+  "before": {
+    "key": "KYPF9V6Q",
+    "version": 318,
+    "library": {
+      "type": "user",
+      "id": 19721030,
+      "name": "diomedescerda",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/diomedescerda",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/19721030/items/KYPF9V6Q",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/diomedescerda/items/KYPF9V6Q",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/users/19721030/items/9ZF5EH2S",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1332250
+      }
+    },
+    "meta": {
+      "parsedDate": "2022-06-14",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "KYPF9V6Q",
+      "version": 318,
+      "itemType": "journalArticle",
+      "title": "Development of Mobile App to Support the Mobility of Visually Impaired People",
+      "creators": [],
+      "abstractNote": "In 2017, it was estimated that the number of persons of all ages visually affected would be two hundred and eighty-five million, of which thirty-nine …",
+      "publicationTitle": "Computers, Materials and Continua",
+      "publisher": "",
+      "place": "",
+      "date": "2022/06/14",
+      "volume": "73",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "3473-3495",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.32604/cmc.2022.028540",
+      "citationKey": "",
+      "url": "https://www.sciencedirect.com/org/science/article/pii/S1546221822005501",
+      "accessDate": "2026-03-04T17:37:38Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1546-2218",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en-US",
+      "libraryCatalog": "www.sciencedirect.com",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "FWKXJXWX",
+        "X2VAUMZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-04T17:37:38Z",
+      "dateModified": "2026-03-04T17:37:38Z"
+    }
+  },
+  "patched": true,
+  "patch": {
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Meenakshi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Ponnusamy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Saleh",
+        "lastName": "Alghamdi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Osama Ibrahim",
+        "lastName": "Khalaf"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Youseef",
+        "lastName": "Alotaibi"
+      }
+    ]
+  },
+  "after": {
+    "key": "KYPF9V6Q",
+    "version": 347,
+    "library": {
+      "type": "user",
+      "id": 19721030,
+      "name": "diomedescerda",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/diomedescerda",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/19721030/items/KYPF9V6Q",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/diomedescerda/items/KYPF9V6Q",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/users/19721030/items/9ZF5EH2S",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 1332250
+      }
+    },
+    "meta": {
+      "creatorSummary": "Meenakshi et al.",
+      "parsedDate": "2022-06-14",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "KYPF9V6Q",
+      "version": 347,
+      "itemType": "journalArticle",
+      "title": "Development of Mobile App to Support the Mobility of Visually Impaired People",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "R.",
+          "lastName": "Meenakshi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R.",
+          "lastName": "Ponnusamy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Saleh",
+          "lastName": "Alghamdi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Osama Ibrahim",
+          "lastName": "Khalaf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Youseef",
+          "lastName": "Alotaibi"
+        }
+      ],
+      "abstractNote": "In 2017, it was estimated that the number of persons of all ages visually affected would be two hundred and eighty-five million, of which thirty-nine …",
+      "publicationTitle": "Computers, Materials and Continua",
+      "publisher": "",
+      "place": "",
+      "date": "2022/06/14",
+      "volume": "73",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "3473-3495",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.32604/cmc.2022.028540",
+      "citationKey": "",
+      "url": "https://www.sciencedirect.com/org/science/article/pii/S1546221822005501",
+      "accessDate": "2026-03-04T17:37:38Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1546-2218",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en-US",
+      "libraryCatalog": "www.sciencedirect.com",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "FWKXJXWX",
+        "X2VAUMZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-04T17:37:38Z",
+      "dateModified": "2026-11-06T20:18:10Z"
+    }
+  },
+  "export_count": 49,
+  "all_records_have_authors": true,
+  "bibliography_style": "apa",
+  "locale": "es-ES",
+  "export_sha256": {
+    "biblioteca_sincronizada.csl.json": "b8d7d4d044c0bf8a9899541f9e96cccc21ad84b8940d836ed46a4a65b39c8fae",
+    "Bibliografia_APA_Zotero.html": "8d711266868d5d9f881656b3d886fa01badea5efb4d92262452a4f74939bc680",
+    "referencias_assistivevision.csl.json": "c4be76326c7fb98efba0a451145691c748542e2c840150061c3811e7f32e7e46",
+    "referencias_assistivevision.ris": "5e54ae63924fffd18910089e21200f2cd0e2ba30887ef5746d824ff3cfad2339"
+  },
+  "sentence_case_updates": [
+    {
+      "reference_id": 2,
+      "key": "KL3RMNG8",
+      "before": "Empowering the Visually Impaired: YOLOv8-based Object Detection in Android Applications",
+      "after": "Empowering the visually impaired: YOLOv8-based object detection in Android applications",
+      "before_version": 317
+    },
+    {
+      "reference_id": 3,
+      "key": "KYPF9V6Q",
+      "before": "Development of Mobile App to Support the Mobility of Visually Impaired People",
+      "after": "Development of mobile app to support the mobility of visually impaired people",
+      "before_version": 347
+    },
+    {
+      "reference_id": 4,
+      "key": "KYFV7IDY",
+      "before": "Third Eye: Object Recognition and Speech Generation for Visually Impaired",
+      "after": "Third Eye: Object recognition and speech generation for visually impaired",
+      "before_version": 319
+    },
+    {
+      "reference_id": 7,
+      "key": "8HY9UC77",
+      "before": "You Only Look Once: Unified, Real-Time Object Detection",
+      "after": "You only look once: Unified, real-time object detection",
+      "before_version": 322
+    },
+    {
+      "reference_id": 8,
+      "key": "LC9EX9HQ",
+      "before": "SSD: Single Shot MultiBox Detector",
+      "after": "SSD: Single shot MultiBox detector",
+      "before_version": 323
+    },
+    {
+      "reference_id": 13,
+      "key": "CWDKFB4W",
+      "before": "Deep Learning-Driven Assistive Technology for Blind Users: Real-Time Object Detection and Speech Feedback on Android",
+      "after": "Deep learning-driven assistive technology for blind users: Real-time object detection and speech feedback on Android",
+      "before_version": 327
+    },
+    {
+      "reference_id": 15,
+      "key": "YV5QEQ7I",
+      "before": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+      "after": "MobileNets: Efficient convolutional neural networks for mobile vision applications",
+      "before_version": 329
+    }
+  ],
+  "ris_transport_normalization": "CRLF to LF; trailing whitespace removed, including empty RIS end tags. Bibliographic content unchanged."
+}

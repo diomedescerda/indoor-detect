@@ -13,7 +13,26 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / 'Build/Testing/benchmark/results/android'
 OUT = ROOT / 'Documents/Figures'
 CONFIGS = ['Head 1x', 'Head 0.5x', 'Chest 1x', 'Chest 0.5x', 'Gorillapod 1x', 'Gorillapod 0.5x']
-LABELS = ['Cabeza 1x', 'Cabeza 0,5x', 'Pecho 1x', 'Pecho 0,5x', 'Gorillapod 1x', 'Gorillapod 0,5x']
+# CONFIGS retains the archived CSV keys; only presentation labels are corrected.
+LABELS = ['Cabeza 1x', 'Cabeza 0,5x', 'Pecho 1x', 'Pecho 0,5x', 'Palo de selfie 1x', 'Palo de selfie 0,5x']
+
+def boxplots():
+    rows = list(csv.DictReader((RESULTS/'per_image.csv').open()))
+    mounts = ['head_harness','chest_harness','gorillapod']
+    detector = [r for r in rows if r['mode']=='detector']
+    fig, ax = plt.subplots(figsize=(6,4.5),layout='constrained')
+    ax.boxplot([[int(r['tp']) for r in detector if r['mount']==m] for m in mounts],
+               tick_labels=['Cabeza','Pecho','Palo de selfie'],showfliers=True)
+    ax.set_xlabel('Posición del montaje')
+    ax.set_ylabel('Objetos correctos por foto (top 2 deshabilitado)')
+    ax.grid(axis='y',alpha=.2)
+    fig.savefig(OUT/'montajes_cajas.png',dpi=300);plt.close(fig)
+    fig, ax = plt.subplots(figsize=(8,4.5),layout='constrained')
+    ax.boxplot([[int(r['tp']) for r in detector if r['mount']==m and r['lens']==lens]
+                for m in mounts for lens in ('1x','0.5x')],tick_labels=LABELS)
+    ax.set_ylabel('Objetos correctos por foto')
+    ax.tick_params(axis='x',rotation=30);ax.grid(axis='y',alpha=.2)
+    fig.savefig(OUT/'configuraciones_cajas.png',dpi=300);plt.close(fig)
 
 def main():
     OUT.mkdir(exist_ok=True)
@@ -39,7 +58,7 @@ def main():
     mounts = {'head_harness':'Head', 'chest_harness':'Chest', 'gorillapod':'Gorillapod'}
     lookup = {(r['mode'], int(r['capture_group']), mounts[r['mount']]+' '+r['lens']): r for r in rows}
     fig, axes = plt.subplots(1,3,figsize=(6.08,6.6),layout='constrained')
-    short = ['Cab. 1x','Cab. 0,5x','Pec. 1x','Pec. 0,5x','Gor. 1x','Gor. 0,5x']
+    short = ['Cab. 1x','Cab. 0,5x','Pec. 1x','Pec. 0,5x','Selfie 1x','Selfie 0,5x']
     for ax,key,title,cmap in zip(axes,('gt','tp','fp'),('Visibles (GT)','Correctas (TP)','Falsas (FP)'),('Blues','Greens','Reds')):
         values = np.array([[int(lookup['detector',g,c][key]) for c in CONFIGS] for g in range(1,34)])
         ax.imshow(values,aspect='auto',cmap=cmap,vmin=0)
@@ -52,6 +71,10 @@ def main():
         ax.set_title(title,fontsize=9)
     axes[0].set_ylabel('Grupo de captura / escena')
     fig.savefig(OUT/'seleccion_escenas.png',dpi=300);plt.close(fig)
+    # Same observations and boxplot geometry as the archived report figures.
+    # Reset type scale to the original Matplotlib defaults for these two plots.
+    plt.rcdefaults()
+    boxplots()
 
 if __name__ == '__main__':
     main()
