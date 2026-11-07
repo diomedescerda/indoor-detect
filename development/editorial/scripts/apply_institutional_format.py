@@ -187,6 +187,14 @@ class FormatRevision:
                 # notes, tabbed panel labels, and bibliography paragraph rules.
                 if sp is not None and sp.get(q('line'))=='360' and align is not None and align.get(q('val'))=='both':
                     sp.set(q('after'),'330')
+        # Keep the expanded Section 2.8 rationale on page 24 before Chapter 3.
+        s273=self.paragraph('2.7.3 CPU vs. GPU Delegate')
+        for p in list(self.body)[self.body.index(s273):self.body.index(h3)]:
+            if p.tag!=q('p'):continue
+            pr=ppr(p);sp=pr.find(q('spacing'))
+            if sp is not None and sp.get(q('after'))=='330':sp.set(q('after'),'120')
+            elif sp is not None and sp.get(q('before'))=='400' and sp.get(q('after'))=='200':
+                sp.set(q('before'),'200');sp.set(q('after'),'100')
         self.replace(self.paragraph('4 Evaluación técnica'),'4 Evaluación','4. Evaluación')
         self.replace(self.paragraph('Anexo Repositorio'),'Anexo Repositorio','Anexo A. Repositorio')
         # Repair figure references at the point of use, without relocating the

@@ -327,7 +327,7 @@ class Revision:
                 new=re.sub(r'(?<![A-Za-z])AP50', 'mAP50',new)
             new=new.replace('MS COCO','COCO').replace('F1 score','F1').replace('F1 Score','F1')
             if p in self.ps[362:463]:
-                new=new.replace('por escena','por grupo').replace('33 escenas','33 grupos').replace('29 escenas','29 grupos').replace('Escenas +','Grupos +').replace('Escenas +','Grupos +')
+                new=new.replace('por escena','por grupo').replace('objetos/escena','objetos/grupo').replace('de escenas igualmente ponderadas','igualmente ponderados por grupo').replace('33 escenas','33 grupos').replace('29 escenas','29 grupos').replace('Escenas +','Grupos +')
             new=new.replace('escenario 1','análisis de montajes').replace('escenario 2','análisis de montaje y lente').replace('escenario 3','análisis de distancia')
             new=new.replace('Escenario 1','Montajes').replace('Escenario 2','Montaje y lente').replace('Escenario 3','Distancia estimada')
             new=new.replace('de las secciones 2.1','de las secciones 2.2').replace('sección 2.1','sección 2.2')
@@ -382,7 +382,7 @@ class Revision:
         E.SubElement(self.ppr(criterion),q('keepLines'))
         ch2.insert(ch2.index(self.ps[290]),criterion)
         ch3=self.segment(307,362)
-        loc=self.para('Las cajas del modelo usan coordenadas normalizadas [ymin, xmin, ymax, xmax] sobre la imagen con relleno. Esa representación se convierte al fotograma original antes de aplicar las reglas anteriores; no debe confundirse con [x, y, w, h] de la anotación. El descriptor «frente a ti» corresponde a la región inferior central y no acredita ausencia de obstáculos o distancia segura. Los límites descritos corresponden a LocalizationModule en la revisión evaluada [34].')
+        loc=self.para('Las cajas del modelo usan coordenadas normalizadas [ymin, xmin, ymax, xmax] sobre la imagen con relleno. Esa representación se convierte al fotograma original antes de aplicar las reglas anteriores y difiere del formato [x, y, w, h] empleado en las anotaciones. El descriptor «frente a ti» corresponde a la región inferior central y no acredita ausencia de obstáculos o distancia segura. Los límites descritos corresponden a LocalizationModule en la revisión evaluada [34].')
         ch3.insert(ch3.index(self.ps[328]),loc)
         at=ch3.index(self.ps[353])
         ch3[at:at]=[self.caption('Figura 3.4. Pantallas de captura y configuración de AssistiveVision.'),
@@ -395,7 +395,7 @@ class Revision:
         ch4=[self.ps[362],self.ps[363],self.ps[364],self.ps[365],self.ps[366],
              self.para(PHYSICAL_FIELD),self.caption('Tabla 4.1. Tipologías observables y ejemplos de grupos.'),
              self.table(SCENE_ROWS,[1.2,1.25,3.35]),
-             self.para('Nota. G01 significa grupo de captura 1. Las categorías provienen de labels.json para las seis fotografías de cada grupo citado; una clase puede estar visible solo en algunas vistas. Los ejemplos no cuentan recintos físicos únicos ni prueban que las seis fotografías tengan un encuadre idéntico.'),
+             self.para('Nota. Las categorías provienen de labels.json para las seis fotografías de cada grupo citado (G01 a G33); una clase puede estar visible solo en algunas vistas y las seis capturas del grupo no implican un encuadre idéntico.'),
              self.caption('Figura 4.1. Ejemplos de espacios y condiciones de captura.'),
              self.picture('escenas_ejemplo.png',5.8,'Seis fotografías originales de dormitorio, sala y comedor, cocina, baño, espacio de trabajo y terraza; cada panel identifica el grupo y el archivo.'),
              self.para('Fuente: fotografías del autor conservadas en Build/Testing/data/. Se muestran ejemplos de los grupos G01, G03, G04, G06, G27 y G28, con la imagen completa y sin superponer detecciones. Las etiquetas identifican el grupo y el archivo; no cuentan recintos físicos únicos.'),
@@ -650,7 +650,7 @@ class Revision:
             'clean_copy_has_no_comment_anchors':not self.root.xpath('//w:commentRangeStart|//w:commentReference',namespaces=NS),
             'original_7_figures_preserved':all(E.tostring(n) in {E.tostring(d) for d in self.root.xpath('//w:drawing',namespaces=NS)} for n in self.original.xpath('//w:drawing',namespaces=NS)),
             'objectives_integrated_in_introductory_prose':INTRO_OBJECTIVES in text and all(self.ps[i].getparent() is None for i in [186,188,189,190]),
-            'unrequested_paragraph_rewrites_removed':all(self.scope_text[i]==self.orig_text[i] for i in [179,181,192,196,197,199,207,210,211,216,225,246,250,254,255,257,305,307,314,318,355,469,471,473,474]),
+            'unrequested_paragraph_rewrites_removed':all(self.scope_text[i]==self.orig_text[i] for i in [179,181,192,196,197,199,207,210,211,216,225,246,250,254,255,257,307,314,318,355,469,471,473,474]),
             'source_file_extension_spacing_preserved':all(' .tflite' in txt(self.ps[i]) for i in [231,254]),
         }
         # All original data values must survive; only metric labels and design prose may change.
