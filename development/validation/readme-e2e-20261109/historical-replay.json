@@ -1,0 +1,393 @@
+{
+  "runtime": "LiteRT interpreter through compatibility import; original historical runtime was not frozen",
+  "packages": {
+    "numpy": "2.5.4",
+    "pillow": "12.3.0",
+    "pycocotools": "2.0.11",
+    "opencv-python-headless": "4.13.0.92",
+    "ai-edge-litert": "2.3.0"
+  },
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "models": {
+    "commit": "30b777f7d368f5a3b2b89676965961f626bfd6ba",
+    "models": {
+      "efficientdet-lite2-detection-metadata.tflite": {
+        "git_path": "models_comparison/models/efficientdet-lite2-detection-metadata.tflite",
+        "blob": "223e0f496afc7f32bdffe9e82c2524b981ad5803",
+        "bytes": 7557887,
+        "sha256": "6fd32c84ab1eb0f7e7f3a7a20a20d7df1530daa8378728f7c79571096286bd52"
+      },
+      "ssd_mobilenet_v1.tflite": {
+        "git_path": "models_comparison/models/ssd_mobilenet_v1.tflite",
+        "blob": "8015ee5d8a75c3e4a8408559611df83ac1ee651e",
+        "bytes": 4183312,
+        "sha256": "e4b118e5e4531945de2e659742c7c590f7536f8d0ed26d135abcfe83b4779d13"
+      },
+      "yolo11n_float16.tflite": {
+        "git_path": "models_comparison/models/yolo11n_float16.tflite",
+        "blob": "493bfb6ed57d9ade9d3310ee92bba29f078a0b81",
+        "bytes": 5435017,
+        "sha256": "ef05518fc048c65f1b1a719a13a7f72153cdb7b1d5ef030c1c680eed62687f5f"
+      },
+      "yolo11n_float32.tflite": {
+        "git_path": "models_comparison/models/yolo11n_float32.tflite",
+        "blob": "30aae6fdde3a64ac88cd10d6d7900b02338da44e",
+        "bytes": 10747729,
+        "sha256": "c3ca023fe8e7bdfd1d3519643812be1179056ff739ad07ede93e06426e7c21fc"
+      },
+      "yolov8s_float16.tflite": {
+        "git_path": "models_comparison/models/yolov8s_float16.tflite",
+        "blob": "b3838e8883a034dd1d6a011cce2fdd50920d7292",
+        "bytes": 22485514,
+        "sha256": "c66bdc7981e758901f7f7da82bf70786facfbc02c91728198d76419ba6f0ac60"
+      },
+      "yolov8s_float32.tflite": {
+        "git_path": "models_comparison/models/yolov8s_float32.tflite",
+        "blob": "7cf991289fc0b29f224f24cc239de3f1dd6c5a7b",
+        "bytes": 44884406,
+        "sha256": "c0569db0e24ece2e44a6ca8fada69e19d1eed218fad3d0cc8bb7ba38b663f1be"
+      }
+    }
+  },
+  "modes": {
+    "normal": {
+      "archived_metrics_match": false,
+      "differences": [
+        {
+          "model": "SSD MobileNetV1",
+          "metric": "MAP50-95",
+          "archived": 0.336,
+          "new": 0.337
+        },
+        {
+          "model": "SSD MobileNetV1",
+          "metric": "Precision",
+          "archived": 0.343,
+          "new": 0.348
+        },
+        {
+          "model": "SSD MobileNetV1",
+          "metric": "F1 Score",
+          "archived": 0.421,
+          "new": 0.425
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "MAP50",
+          "archived": 0.648,
+          "new": 0.639
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "Precision",
+          "archived": 0.713,
+          "new": 0.714
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "Recall",
+          "archived": 0.677,
+          "new": 0.669
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "F1 Score",
+          "archived": 0.695,
+          "new": 0.691
+        }
+      ],
+      "metrics": {
+        "YOLOv8s Float32": {
+          "MAP50": 0.642,
+          "MAP50-95": 0.514,
+          "Precision": 0.733,
+          "Recall": 0.673,
+          "F1 Score": 0.702
+        },
+        "YOLOv8s Float16": {
+          "MAP50": 0.642,
+          "MAP50-95": 0.514,
+          "Precision": 0.733,
+          "Recall": 0.673,
+          "F1 Score": 0.702
+        },
+        "YOLO11n Float32": {
+          "MAP50": 0.615,
+          "MAP50-95": 0.498,
+          "Precision": 0.723,
+          "Recall": 0.619,
+          "F1 Score": 0.667
+        },
+        "YOLO11n Float16": {
+          "MAP50": 0.614,
+          "MAP50-95": 0.498,
+          "Precision": 0.718,
+          "Recall": 0.615,
+          "F1 Score": 0.662
+        },
+        "SSD MobileNetV1": {
+          "MAP50": 0.518,
+          "MAP50-95": 0.337,
+          "Precision": 0.348,
+          "Recall": 0.545,
+          "F1 Score": 0.425
+        },
+        "EfficientDet-Lite2": {
+          "MAP50": 0.639,
+          "MAP50-95": 0.486,
+          "Precision": 0.714,
+          "Recall": 0.669,
+          "F1 Score": 0.691
+        }
+      },
+      "input_sha256": {
+        "benchmark_models.py": "9c9835d75aea34ac9cc9a00e8afbea67e388009ba0af2147eaf3aa341c77c00a",
+        "test_images/labels.json": "fa8e92172dc72302b351d83e1c2e216906097d05f973b790e7b610c567657562",
+        "test_images/data/000000029377_jpg.rf.uh48JlhwO64GXOyQzNBx.jpg": "a466112e9ca3110adb94f22f05ab24fb1acfacdc9949b3a67be701928386c43c",
+        "test_images/data/000000036267_jpg.rf.JHHrfhJVaTPaPQM9SEZ1.jpg": "90f1201f5e3c69511cae55795d58de577a29babe8e8ed085144d6ed84ef60f05",
+        "test_images/data/000000287265_jpg.rf.IGEUx2rmdXoLH0p5UoF9.jpg": "21863928f444f54a6d715b6b178b00313b8c7939276c8a3b7364174eea9007b3",
+        "test_images/data/000000349263_jpg.rf.nH7y1tItvYTCH5ScHpPS.jpg": "5bdc4a0875066b3a8d88e2d76481579510ff14e83ca46aa1023020ea28e4c0bd",
+        "test_images/data/000000452334_jpg.rf.vT42bsihRtHoTSvJoH3u.jpg": "f541335ff624daf328ad19593bdcfeeecd666c35ca934664f66db5707785a047",
+        "test_images/data/0056ffa38a8489b6_jpg.rf.cEDcOHKrhon02RdF6QUr.jpg": "6c24311a2abdac88bf55c461168c0cbd5f0f4c44e13d73f26090db71d4d344db",
+        "test_images/data/0078c798538a29af_jpg.rf.uWmByHwezjjYKxsedvD0.jpg": "ca0a00103317263c3669dddcbe4f067fef813ec4be9f5a175f7af5fdf0db11ee",
+        "test_images/data/0303fb65c4c9a7e1_jpg.rf.1f90X6YWZ1VpYhMw5XHu.jpg": "90fe4e22d1cc0b5d805574f0ca5a3fd9417656e6a74b3c186b72392ba7e8e8fb",
+        "test_images/data/05035aff6e43506a_jpg.rf.lhtkKs5kXAddNEDHrSTP.jpg": "fa8dd40b2140222a8eafd492de92f2b205b813c17353077a736fc3c13668a3e0",
+        "test_images/data/2004_CR_Institute_classroom_jpg.rf.FHcpTBkuGpc7AhtNwj5Z.jpg": "b8fa837679edd2e7047a8022a6f18fa119476f42714e845a0a6b985a4fdef50d",
+        "test_images/data/30ea8550740df4e4_jpg.rf.5y4HaLnU6bgUvKMCeHli.jpg": "badfe4f0cea6c36b95319bff3e8bf4a7bddbbd231281aad8be57d63cda785e0a",
+        "test_images/data/5908651601_545dd98322_o_jpg.rf.n6AOjGYeNAeVGCeBEivL.jpg": "1badbcdc3a858365ba72100a1013d237f4ff7065e87d8711a014f56a9ed32c98",
+        "test_images/data/773a416823fa9790_jpg.rf.RiIs3kNrRbZpbBzqQHUu.jpg": "3c715caf1fab43ebc52e2a79701de18fa63fa6fdbe6dbdd0f343aeb889a4f4b0",
+        "test_images/data/AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg": "8cde2e9928f5c83f01a7ba3bb59f46c9d84769103522b878b1bae90b55df02a7",
+        "test_images/data/Couch or sofa in living room airbnb_15_jpg.rf.b32CxCoQovQWuekkKxzb.jpg": "c759796663d72b34f048b39b6c84230943e1c4df06e099fb102e65f5660a1938",
+        "test_images/data/Couch or sofa in living room airbnb_62_jpg.rf.HEi8L32gHMKWBRm6KKHi.jpg": "d79e62a98bd7f37ec05b1067999f532d0751dec0af07e01958d71f1ce3af841f",
+        "test_images/data/Couch or sofa in living room airbnb_73_jpg.rf.Gl4fpYDmYP6dMHvFaG09.jpg": "88c3e612c885fa6c9be7f0a5f3e51421c06decda3c347e7cdc57c34a23b8a1af",
+        "test_images/data/DSC_0008_jpg.rf.Nf3qppK7TkfmnfBhgrlf.jpg": "818572a91c161070bc785b7df533911a0ff4af2a9668c6ba0a141efa96771de2",
+        "test_images/data/MiConv-com__Screenshot from 2024-04-20 19-21-28-png_jpg.rf.lVZ61DfZXQVUn4Qj0vok.jpg": "ea99ca4b14ad85ee702e42c29d688a78c270fdac5c0324c1ae7a6111d17c8353",
+        "test_images/data/MiConv-com__Screenshot from 2024-04-20 19-23-42-png_jpg.rf.F9Uxr9ZYyp5Fd8RFYvBL.jpg": "51b562a9d182abdeb34ce3653d3b77d8756a6ab3d2272b63afd721132159647e",
+        "test_images/data/MiConv-com__Screenshot from 2024-04-20 19-36-08-png_jpg.rf.b2kuJc62ssQxOUrFvkld.jpg": "c7753da112ea1b6b027909c83c43db64092feeb384450e5709efe914245f8a6a",
+        "test_images/data/MiConv-com__Screenshot from 2024-04-20 19-38-57-png_jpg.rf.bVnmvP8qKZ5CwGtWyNAu.jpg": "abf4f6c3fd2604495f3eec58cb9d6a804a9d002b8ca83157bf2a94da7c45103a",
+        "test_images/data/MiConv-com__Screenshot from 2024-04-20 19-42-10-png_jpg.rf.gSkYXZaGtYFyo1TdQZky.jpg": "08609038b679a1854a3fb02e4f6f2b01019d9885907ac91541c9848ae2f6ea4a",
+        "test_images/data/MiConv-com__Screenshot from 2024-04-20 19-45-43-png_jpg.rf.xEME7sWYTZd9f7t5JydD.jpg": "b697c897955778a5673b181b25a3aecd74f7477199f7cdab961013f1828c1bd9",
+        "test_images/data/MiConv-com__Screenshot from 2024-04-20 19-51-32-png_jpg.rf.aiCtmCEx6ocMPvOGtKbE.jpg": "61d78a4300cb4ebaf6d3b0da1ee43980bcb1e8124f59018fa0b22520ffb34169",
+        "test_images/data/TV0008_jpg.rf.zhWEpEy2Zs0cUawaAwfz.jpg": "a98ce73eb2adec1bf1674d46763b155f1bdee4f7f5df45d68096f1586cb32366",
+        "test_images/data/TV0010_jpg.rf.DeeuDtAbnrDz735k6YQD.jpg": "d032e2d844499377fe6f523d208cc20f3d3435485f0b4ddd44f56120c920f47f",
+        "test_images/data/TV0030_jpg.rf.tFunwj7Yep8z8MC2xyfV.jpg": "ad76ce7853036f0e997d9c19b20ede183ec47cb3d8c3b103508577d0c3f86b4b",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-20 PM_jpeg.rf.K27sBgRoMXWqzzVWNXK3.jpeg": "a25daba0bcad436e4eb58bdfa7bb43c23d4259d86a0f4b724b71b0a59f69e9e9",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-21 PM (1)_jpeg.rf.Qiy8FqkirFzv7q0LVR2K.jpeg": "a8e03e4a9e3ab198077f564dd9c75001ad936ababf02a14c07dd641e85720508",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-21 PM (2)_jpeg.rf.QCunmDpriSN2ui8kUXhy.jpeg": "aec09e395175a212fc7eb47d8c40fcbc95a16ff3b438fcb6d1c48184b0753349",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-21 PM (3)_jpeg.rf.sYf9a34deKyWRV1lP0SH.jpeg": "aa87bb12d3ae4d8daaea3279a6fccba86c8577cc237c5936d5461d531eeb8cc4",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-21 PM_jpeg.rf.VrIKprTgtTvRI8PG1RWy.jpeg": "577ee44742df6987d5230cdcb1df67bca2649509129ca30dee641be816f48d3f",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-22 PM (1)_jpeg.rf.iw11SeJr2b7PqZ4wuxk4.jpeg": "42821746167747133f62fa5d7a81c68daba06dd37addece6b19f3170a5a47143",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-22 PM (3)_jpeg.rf.Rkm5HDymxMoE3HNORsfl.jpeg": "ee7b4367574d17858bfa4fb679c6d226c290a5dabd90799541bdf88a0d27325c",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-22 PM (4)_jpeg.rf.T5xNWwaqideVnafnrP5B.jpeg": "2ba39dded4095083f85a2af80668a980fc008bf85545e1d7f40f0b30dc0da883",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-22 PM_jpeg.rf.RJjcbCDEEQSVDN1HlIXf.jpeg": "b3863fc8bcaf539edd3304e25cc247799766a613748c5e9de1201db582f85340",
+        "test_images/data/WhatsApp Image 2026-05-27 at 4-59-23 PM_jpeg.rf.4QtY5gnyl3tbZ6ywZina.jpeg": "86e15d200b91ff59834d113e69adda812b3e3168be9a7a0377f0f41d95813cf0",
+        "test_images/data/WhatsApp Image 2026-05-27 at 5-24-15 PM_jpeg.rf.SlZehYc2ERdssUmUev7Z.jpeg": "dbcb29e719fe297831d87ca616167a8f6fe715539069bffdf740f04a5e40ebe9",
+        "test_images/data/WhatsApp Image 2026-05-27 at 5-25-01 PM_jpeg.rf.A7VTGZTl1OD7uySXR2KZ.jpeg": "0c9831bd1581e70d76aaade13babfbbd9976d2cd40758f5fc097dbf1c6edb3fe",
+        "test_images/data/WhatsApp Image 2026-05-27 at 5-25-04 PM_jpeg.rf.2CKXT99Gfqi2br3znZf4.jpeg": "10b4f11931ed252f43d4c2c680918872d66400f61d86f18cc0d54421205bfdf2",
+        "test_images/data/WhatsApp Image 2026-05-27 at 5-25-07 PM_jpeg.rf.tWdTrWFPlvZkk3WUjKdS.jpeg": "ea60a93c51bd7acbefe906f86e6d83ffc057cae2829d0d52575cad365095eb2a",
+        "test_images/data/WhatsApp Image 2026-05-27 at 5-30-34 PM_jpeg.rf.J89bSJ5yspQXyC3VA5nT.jpeg": "d6ebceef93d79040d8a5981d5a44eee959261fd6c2390c24584975de9ff393e2",
+        "test_images/data/WhatsApp Image 2026-05-27 at 5-30-38 PM_jpeg.rf.kygImwsRKx8JuOixNeE0.jpeg": "032f7cb8b98bf36f381ba0f31d926f26fc6a1c708881f66bf858064e2ec681b4",
+        "test_images/data/WhatsApp Image 2026-05-27 at 5-30-42 PM_jpeg.rf.aoCAwha5VV5ja7uPdPnH.jpeg": "9dae7657cdb35f5d1eaaa4f153638f374a361d8a3e3f88386280864c112ebde3",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-51 AM_jpeg.rf.HuFuro4i15QEdiPQ8VkY.jpeg": "a4f14fb3a55792553f20ffa2ab1f1223d0cf1e73c7bb737c9909ebd7e466d536",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-52 AM_jpeg.rf.PWXlgcLW7DUQTBgMV3tX.jpeg": "532f19e224fd39c49054ec9db9e3fbb774775d1bf56c60efca57661b4ef1813a",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-54 AM(1)_jpeg.rf.3fpiafb90pDGaLTgxR4j.jpeg": "3a2f83d6b924c0b1366d2ef8e22e4338cfb46603a3e9f598e52c44337321899f",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-54 AM(2)_jpeg.rf.faQaBaqGxWrNtK2TRQof.jpeg": "5982389eebcadf8693b94b760d063b7f0c949158c52eed90e254f2e393f8242b",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-54 AM(3)_jpeg.rf.EnGJbzJg4uHVN2BZP0kC.jpeg": "5d5981692cb7339efaf0165c853f5d0737fb916a7e23cf02e1af1db5c22cdc25",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-54 AM_jpeg.rf.TY7x4Sx9se3kbFCcgvk7.jpeg": "ff874aeb9d6401f3015e58eb89d459b7bdcd9f245a3b9cf0c02a9004bf24b0eb",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-55 AM(1)_jpeg.rf.mu8WdibGW8sFIzXJwyb2.jpeg": "b233b4318bae80e3929357be7fabe20043e7088fecd37d83c008c7b014575462",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-55 AM_jpeg.rf.knMEhyvc2Ju85LCmiplK.jpeg": "fbb84b7d3daee63f344003e33f12024fab1549faa61a5afe5cf46f3645be1906",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-56 AM(1)_jpeg.rf.ICIPvPrlXE0AIfkOwmuL.jpeg": "5ff7cb4136c2b0fd73beeb1a98d26cd871a7a263b727aab52b1742cef55bb8fa",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-56 AM(2)_jpeg.rf.9n85Z3lqh1x0lEsEzzjy.jpeg": "d9786886be39aa2e8e0cd66f3cd8965cd48759180de9169b0cc283797512363b",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-56 AM_jpeg.rf.ZoMZGQ6ufv8omcvgGqb8.jpeg": "2bff6cf7f157dc366b96fcdb1f9240e1b8ac047adfdca3ec5992eced77ffadd6",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-57 AM(1)_jpeg.rf.vyJc8WtR62O9ivEL3pmZ.jpeg": "0629435611f8a97a0a07ad9472d71bb83e2d76553c417e2e8f9e24176ee25f37",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-46-57 AM_jpeg.rf.z6Ax4d1p40ihvgREnKw4.jpeg": "b9b18bd1e3b28407d8da3e2f47e160c42bb9c48005f8056ece54c3da34720067",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-47-04 AM_jpeg.rf.FOWG00leOQcEpRSAX1UL.jpeg": "8dd78791d5f4605c756644788c72bf3e077dd4475a317f328700b0c21e581cb7",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-56-14 AM_jpeg.rf.NjAnjrDQ0rw4S1PAUmZT.jpeg": "70102a3b2b10418d1e8eb86aa9165fbad682cac6f83ab76d541a8874c8eaf562",
+        "test_images/data/WhatsApp Image 2026-05-29 at 11-56-17 AM_jpeg.rf.DViyaqGW9xXxvUM6Ck6D.jpeg": "0f8ab6594d72e540a0aea79f779a1dd98049fda5df408f1314f2326048adb4c2",
+        "test_images/data/a53411a90cec7a7d_jpg.rf.hmEDEEgX2ndPFlIwE3Pq.jpg": "85ad2c51e306efc32e4c19187c0b6045e331889c3d71ecd4e380a4015080a92b",
+        "test_images/data/img922_jpg.rf.aiDcejcmF6DeQvzLn7gL.jpg": "461557ee7511fade25bf289e29debd54eb2f1474e959fab43ba2bf74581b7a02",
+        "test_images/data/img935_jpg.rf.WApx0isXZUfFtg0F8fNZ.jpg": "ab11ee8288e589939b6f8ae7b57c9cec100f1b9a67916d5c8b4c56c7bad53292",
+        "test_images/data/img941_jpg.rf.aFyWVSGP1spdLJgFFG0Z.jpg": "3fada651f9ab68e10b1afa2652835951ded39a6d087a3c6aeb8bab29f624d421",
+        "test_images/data/img954_jpg.rf.PpppgcxUvtxbXevj9R0n.jpg": "744937e4685a2ccd845cc4557a90e6856718ea7c83d46d198c5ffd027d728a81",
+        "test_images/data/labelme_fiovyoxudkenauq_jpg.rf.aWpdDTb9RLCJyfqnuIjW.jpg": "66852afe587cd73e5fa9974ad67626e44c5c7bb3cef3accd7f7efdc71c9bfea2",
+        "test_images/data/labelme_iwnmlikkpckxnxe_jpg.rf.4Moi1AjD68gGDF1K64kQ.jpg": "9c28dd6e7bc43b0d6835e0dc278601534869aaa695915547325e0d909bf2cc08",
+        "test_images/data/labelme_jxmlyqwioqvlbuu_jpg.rf.utoNM8lKGm9UtN9YGxlI.jpg": "aca3980b5493d40b74515774a3c4735e379d7e0daef93fb1e26616e29d166644",
+        "test_images/data/labelme_snvevhpzwsruuja_jpg.rf.eaFAqBdpYV8E7jdcUfyJ.jpg": "d2e5bcbb6e2fe0e4a6cf1a49eb18f11ab1f2dbba8bcc6a411d30664506b48aac",
+        "test_images/data/ref_175_jpg.rf.LTG0ZpBio98k24S6UYvH.jpg": "f7f7e45cb3364e6027a58d2d5973dd398624232841baf848e5ae7addef99d6f9",
+        "test_images/data/sample_mp4-70_jpg.rf.x4gzflir3W7MuzE3rjGT.jpg": "b86a5471ff3fe17b63be33f9e88d569fe42b47e69dd873637c4684938ea43112",
+        "test_images/data/suggested-95bmIm5SVXbSn1zYo8Z4_jpg.rf.CaHdUhvM1bzXt2G8LR96.jpg": "506eeca4a69701c8e31e56ae0b42ca696442a4e5c50942cbc6fa960da9302b98",
+        "test_images/data/suggested-EWw0haC2TWTzwPt3QNsy_jpg.rf.D2P4JdotoEhMkMbwzQk1.jpg": "a9299e402f4586b09f83b51fa2f074bdd24f4c181446dfac59df9de4aa49e5be",
+        "test_images/data/suggested-FogQBaBRC48Q7sjL7XJu_jpg.rf.GNBPVsmWGuujOyJMyckS.jpg": "7892f47957df1739ee9dcfcff5d810c8400a4509d32034c6c1aab4d8ffd48b12",
+        "test_images/data/suggested-JQnIjrUpaDdzBXSPJv3N_jpg.rf.kYs6dL8mBq7dRGsVECAj.jpg": "1be95e1bdabc6fc0d1ec9ef834598570e6388544b8b4453cdb74954fe25052d4",
+        "test_images/data/suggested-OMXS828ZUwgyw9Ebecvc_jpg.rf.bJBotC7XfzjdAWNpNYaT.jpg": "2298d1ab4dddbb1fcbf7e8868541e6cd1a8c48a52c98d588fdc63141b97f1f4e",
+        "test_images/data/sun_aailohlxppyetonl_jpg.rf.JK4IKm4IINtci1lKMLYS.jpg": "0546ecdabe42da4bd2a1209035cdfe98cfe47624bcac69d4219cef3e9e1f5054",
+        "test_images/data/sun_acyyqtnukjshzllz_jpg.rf.9KF6ycfA3CRlRRczclVv.jpg": "39bdc3780b85fd8e51cd51501a4464a62068714034bb65e31b232585e0ff9fe5",
+        "test_images/data/video6289749038262654458_mp4-0000_jpg.rf.2MHBb3J2rwA0LNgNPyAe.jpg": "f329a51236fe29053d2aba814ed10c8010c5cb31c772a1cc2584ec9b8b49da74"
+      }
+    },
+    "panoramic": {
+      "archived_metrics_match": false,
+      "differences": [
+        {
+          "model": "SSD MobileNetV1",
+          "metric": "MAP50-95",
+          "archived": 0.053,
+          "new": 0.052
+        },
+        {
+          "model": "SSD MobileNetV1",
+          "metric": "Precision",
+          "archived": 0.162,
+          "new": 0.17
+        },
+        {
+          "model": "SSD MobileNetV1",
+          "metric": "Recall",
+          "archived": 0.115,
+          "new": 0.119
+        },
+        {
+          "model": "SSD MobileNetV1",
+          "metric": "F1 Score",
+          "archived": 0.135,
+          "new": 0.14
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "MAP50",
+          "archived": 0.269,
+          "new": 0.27
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "MAP50-95",
+          "archived": 0.165,
+          "new": 0.16
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "Precision",
+          "archived": 0.61,
+          "new": 0.614
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "Recall",
+          "archived": 0.22,
+          "new": 0.23
+        },
+        {
+          "model": "EfficientDet-Lite2",
+          "metric": "F1 Score",
+          "archived": 0.323,
+          "new": 0.334
+        }
+      ],
+      "metrics": {
+        "YOLOv8s Float32": {
+          "MAP50": 0.499,
+          "MAP50-95": 0.369,
+          "Precision": 0.732,
+          "Recall": 0.453,
+          "F1 Score": 0.56
+        },
+        "YOLOv8s Float16": {
+          "MAP50": 0.499,
+          "MAP50-95": 0.369,
+          "Precision": 0.734,
+          "Recall": 0.453,
+          "F1 Score": 0.561
+        },
+        "YOLO11n Float32": {
+          "MAP50": 0.402,
+          "MAP50-95": 0.279,
+          "Precision": 0.729,
+          "Recall": 0.315,
+          "F1 Score": 0.44
+        },
+        "YOLO11n Float16": {
+          "MAP50": 0.402,
+          "MAP50-95": 0.281,
+          "Precision": 0.733,
+          "Recall": 0.315,
+          "F1 Score": 0.44
+        },
+        "SSD MobileNetV1": {
+          "MAP50": 0.1,
+          "MAP50-95": 0.052,
+          "Precision": 0.17,
+          "Recall": 0.119,
+          "F1 Score": 0.14
+        },
+        "EfficientDet-Lite2": {
+          "MAP50": 0.27,
+          "MAP50-95": 0.16,
+          "Precision": 0.614,
+          "Recall": 0.23,
+          "F1 Score": 0.334
+        }
+      },
+      "input_sha256": {
+        "benchmark_models.py": "9c9835d75aea34ac9cc9a00e8afbea67e388009ba0af2147eaf3aa341c77c00a",
+        "panoramic/labels.json": "e917d6e4da9b8c6464e87fbf869d3fd18e9c787a76f53c7f10f76bcea8057fd7",
+        "panoramic/data/2022-05-22_13_29_43_Panoramic_view_of_the_first_floor_bathroom_in_a_house_along_Tranquility_Court_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia_jpg.rf.IDPIElU0Wo6pih84WPjI.jpg": "baf30b604d08e23e97d67218294fb76922f993eeb9bf0510225f70ad53d3c9ec",
+        "panoramic/data/2022-05-22_13_30_09_Panoramic_view_of_the_first_floor_bathroom_in_a_house_along_Tranquility_Court_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia_jpg.rf.HNsc5CH63JxKLZBrNECV.jpg": "b7a0ea5473f9727508d7f798f074e50ed87205b88e5cfa758b280ac7fd98f51b",
+        "panoramic/data/2022-05-22_13_36_23_Panoramic_view_of_the_second_floor_bathroom_in_a_house_along_Tranquility_Court_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia_jpg.rf.7W2n4eSshDP1gLbBu2TP.jpg": "2a928fbe47dd54844815e7477cd674b8fbdc2a8961c2050299ffae577ab67297",
+        "panoramic/data/Bathroom_\u2013_Panorama_(Greg_Zaal_via_Poly_Haven)_jpg.rf.cdCTjewSjpVPVUNBt1qr.jpg": "08ee362688b14f9ce116b2f4a7dff1722c0f2fd54c07ce0475766775d79909aa",
+        "panoramic/data/Blender_institute_\u2013_Panorama_(Greg_Zaal_via_Poly_Haven)_jpg.rf.HWc8LBPtUbOW34gSTqHN.jpg": "e36cd648cc48685ad220d92e9ad5258b83ca8317fb228ebd58ddeeb89a8b7952",
+        "panoramic/data/D\u00fclmen,_Rathaus,_Trauzimmer_--_2017_--_9607-8_jpg.rf.7A9U0gDNsRWRWjcThI03.jpg": "0cb17c7fbb2ba1d207123c6a355591718785778dc5c59053940a4b415457d03f",
+        "panoramic/data/Elizarovs_museum_flat_2016-07_1469023058_jpg.rf.Ao5NBFFMRd2ABFidOEOw.jpg": "664344f7e2e61eee0c7d8b9ba84d32dfccede951264609fd0c76708f6c0755ba",
+        "panoramic/data/En_suite_\u2013_Panorama_(Greg_Zaal_via_Poly_Haven)_jpg.rf.lVt2W7ziTT9wFNETlhHU.jpg": "f3045626094ee19b1848df85be61c8ca4cb0e7bb31a38b5c8fb540bbb4af7ec6",
+        "panoramic/data/IndoorHDRI001_16K-TONEMAPPED_jpg.rf.JDiSCvGgHvad3sCXwbRq.jpg": "63b97c2caff9aa1ce046547210fe36f664cd22cee43e57744017bceb15e9cd2f",
+        "panoramic/data/Indoor_HDRI_003_16K_jpg.rf.3ofDyspRICLKFb3eDtTc.jpg": "76bbd75f2f2e1ccb58ade65c0758a25a340e4cddb6aa67a74296211300814d67",
+        "panoramic/data/Marry_hall_\u2013_Panorama_(Sergej_Majboroda_via_Poly_Haven)_jpg.rf.BixzgubNHASuwYor3glW.jpg": "b62f619df5ccbcc95d0f811adfbf43f2375c4e7c28f813d8338cc51f5072b96f",
+        "panoramic/data/Motel_One_Wien_Hauptbahnhof_-_Badezimmer_jpg.rf.5Zjrk1rnbw2OZqYDFVbU.jpg": "31896a9703d3b7dab786c0b543e7dc7f551f71fd0981761cf6d1364329372d79",
+        "panoramic/data/Panorama_billede_jpg.rf.ja1aazrVwQ5T8s331yOx.jpg": "ddaf926b899ec82cc2868d89b111f2192c3cafcffc82ad1f1ffdb0e2ac612e02",
+        "panoramic/data/WhatsApp Image 2026-07-24 at 12-07-59 PM_jpeg.rf.FUcHHBeq7kVlOEhpkk4p.jpeg": "3d18280727cc862430aa620dace87d3b0a1bbc8686ecfb8b077c4f1de55effaf",
+        "panoramic/data/WhatsApp Image 2026-07-24 at 12-12-18 PM(1)_jpeg.rf.OXt2ee9SqEJ80FqfUwbm.jpeg": "23efc9af60a029699848035ee2747cbbd5eed01ad39b870c0cd4b4c077b26839",
+        "panoramic/data/WhatsApp Image 2026-07-24 at 12-12-18 PM_jpeg.rf.kao6YUMiSxap7YT4op5M.jpeg": "b6b0d3729c09c2e29d16a0e413a6c6613f2ce09415df806c35bf55dcd7bd33f7",
+        "panoramic/data/WhatsApp Image 2026-07-24 at 12-12-19 PM(1)_jpeg.rf.jJ1ZXxpOpQalUaN9hM2y.jpeg": "c469bfa3bc4ac1f64fc22f0dbc684a3b572f9daf804e9623fc7cca1d6bfccbbf",
+        "panoramic/data/WhatsApp Image 2026-07-24 at 12-12-19 PM_jpeg.rf.TsACKsrfpSpFyUqP0nSu.jpeg": "3c644444782766ae4b018a9b5e9096380c66808a08a6cf7480b98eb1147865bc",
+        "panoramic/data/WhatsApp Image 2026-07-24 at 12-12-20 PM(1)_jpeg.rf.paJMlbkDj1yVsnde9xu0.jpeg": "5b52947c1a96b0f860094cf4399c85c06233d3048927551942fa720bffb5772e",
+        "panoramic/data/WhatsApp Image 2026-07-24 at 12-12-20 PM(2)_jpeg.rf.8gQIrb84EAATsC6orSM5.jpeg": "4953f30d37542cb6ca7ae3889a126dedd63d1454f35e004280a7552a1f5a5bfd",
+        "panoramic/data/WhatsApp Image 2026-07-24 at 12-12-20 PM_jpeg.rf.KQi29rdSe56bxhc7DRoF.jpeg": "5f0068cb569858d46d273a47a007178ed55f8826e4594942cb4294b6e40d276c",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 3-54-29 PM_jpeg.rf.YNBW0oaEbE2MOoUCFTTj.jpeg": "1470d8427b68c8ba9fcd0e4196caca62946acc345474486eaf55c470f5837ade",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 4-05-23 PM(1)_jpeg.rf.lSHQlz6qC8jSF38Ccwqy.jpeg": "9a14fde0dace8881a64b2524842649f26ca5e74a3fa53a4665f20190d546bb09",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 4-05-23 PM(2)_jpeg.rf.9I3MMMX6jNXsNnfcVafW.jpeg": "0e057332839fb92c4f3cbcf311bc84056aa3b41c19ee15db05f960ca41444f72",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 4-05-23 PM(3)_jpeg.rf.0MEwWfSdWqccUBZDcsd5.jpeg": "1079b13d51a8ce08b22eed167e86e3aad23d18b2ca9f6e43c1670c87f4c77977",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 4-05-23 PM_jpeg.rf.BsAHjQIbBibDtrvGBf6F.jpeg": "24b92ab072ef01e62e6ed5d6c5eecd1ea7e7325eb3055506fdc1ef682ce0811e",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 4-05-24 PM(1)_jpeg.rf.blJBY5QhvpnMQExYweFn.jpeg": "1c1582ec572d5c2a912e9d1c61cef5b1afc91f544b7242db568825dec336a1ca",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 4-05-24 PM_jpeg.rf.b2JvGQD2ZeeHFhvrACz3.jpeg": "f600e671906cc7338e8af4a4698875baa5c4f3953978df313889f42c357adc8f",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 7-50-21 PM(1)_jpeg.rf.f1E6M24XlUnjTCUMuN3B.jpeg": "df355de00eee6cf11f8ab2356b5ecb44e694bccdd4ba302107db63052095b139",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 7-50-21 PM_jpeg.rf.kFuWgwr3yOLm7QoxnDoC.jpeg": "f3870736c733280c639a58b8721cdba335404e19bb81e8d21f32707d08211b99",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 7-50-22 PM_jpeg.rf.ToOfFuBg4311SAmu5bMg.jpeg": "2bdc6a7938443e108b628143dc0c71dc951c5871791cc85962e6e94f87be0237",
+        "panoramic/data/WhatsApp Image 2026-08-03 at 9-18-15 PM_jpeg.rf.vwqFyEser8MuGbxYZvji.jpeg": "65de3aa24c35870e961efcd3024919be1f7bae8978bfbf7ca4f28b08dbe4f5bc",
+        "panoramic/data/bathroom_jpg.rf.K4s6QY4N1fVIsazeojzp.jpg": "e495ee4b9ec915d1a472ae97be107987a63f21e9acc8bbd2339b1be319458bc7",
+        "panoramic/data/brown_photostudio_01_jpg.rf.1IcAYQEoW73X1V8YuP7Q.jpg": "33362966a7817620223034eb8ea5ea533b178fd4ed96272a2b6af7cabc5f40ce",
+        "panoramic/data/brown_photostudio_02_jpg.rf.pdc3YISdMB4kHjqyruI0.jpg": "10c1c19bf1b8cfe686791ecb643a7932ad1110ccfca27d2f43af8d2578a65857",
+        "panoramic/data/brown_photostudio_06_jpg.rf.nEzhJTWNFMRIOiKZ57d5.jpg": "d583aee4cb375c8abc693063433fa2b0609d5322476585d4cfeb5cb0d3117832",
+        "panoramic/data/cabin_jpg.rf.mg09L0SH7l4J9unvWtHk.jpg": "2bf904d5fc0b7ec6c7e917057fbcb2a783529f22266eaa1487cbca2c1036bf0f",
+        "panoramic/data/childrens_hospital_jpg.rf.a9h8pgcS8zZt2SHrWVUk.jpg": "5dbfbaaf5bf7248a16d9bcb50ad0d56224f79a8a93a3ac1167cc226529cfb5a2",
+        "panoramic/data/christmas_photo_studio_01_jpg.rf.BhH88Xo4q0WxbX7C8lli.jpg": "292a81ded6526c3b9a2a84562731aea5056a110da9eb83278d3c4e9438b71e53",
+        "panoramic/data/christmas_photo_studio_07_jpg.rf.K5mr5jA2X9oKHCQWMgRO.jpg": "a9d31e7a75e960af045f5f7cc968d68945242c8fe686758622e4c29324645e46",
+        "panoramic/data/church_meeting_room_jpg.rf.2soEUmHonKAf6xfOXHNX.jpg": "3108eaf91d7d2fbf7c45b987152d3d2387be8881e038e0799ccf4e2a6c8b91e0",
+        "panoramic/data/church_museum_jpg.rf.c0zxBZGSd6NQDSJ12baU.jpg": "424b30f7c387aa96579638af53e1115343d126d29b4931fd1a2e899d1669b81c",
+        "panoramic/data/cowboy_town_saloon_jpg.rf.KGCPSO75xG0HAWHNA9Ci.jpg": "dba0845a66c5abb52b7bccc32ac82f7762b65ad21fd7f67614f3ea6f64bd7edb",
+        "panoramic/data/decor_shop_jpg.rf.PoDUF9OntzXj8cnZ8C3y.jpg": "7609e0d9ca98ce2a9be37d45bd40ecc7e6d4038069163a4bb115a5e7b20139a7",
+        "panoramic/data/en_suite_jpg.rf.XswRVkTnTlNV4uIf6k2n.jpg": "264eeaf22c0a9244e1c0f5065874c0d67eeaf6393b29915df37959b30bbb8ce1",
+        "panoramic/data/events_hall_interior_jpg.rf.lWXNMHd4Io52lW539QY1.jpg": "4764d8ae74f0ce4ccb5d52b7eb9c3f287a67591de1a41139633eadb2c640f66c",
+        "panoramic/data/glasshouse_interior_jpg.rf.laAse7Txe1ySxXmJvciW.jpg": "94652182b755d3a3bc3d09810e65a71c45e4ca517b9f38cdb42ff6a9733ff391",
+        "panoramic/data/hospital_room_2_jpg.rf.dip10HI9UJbuOuz2AIm1.jpg": "f18f73d395b9e9fee47351acfa356f54218c4f91e6173ecb0b2b63a2f5d53ac3",
+        "panoramic/data/hotel_room_jpg.rf.6UK59UfiAUgcUKlPQ2VL.jpg": "a84d13a0df958a30bf0c0866db15f5659ac5067122467c84fce7f8b7982efaaa",
+        "panoramic/data/kiara_interior_jpg.rf.AIVx9B2CIt4INAvL82yb.jpg": "c84126e6b8165e6494e397adaa32f054a8de16e4344526db2778d17ae73ee547",
+        "panoramic/data/lythwood_room_jpg.rf.LW6itPO1GuX43JQpE67T.jpg": "1cd705e9c5712eb9c4cbdb4ea22e33f59a3f661f51724c854eca348997d93660",
+        "panoramic/data/modern_bathroom_jpg.rf.mRwn7Z7bWR4yTIwIPmI2.jpg": "041a0fe267dc7bedb62b952e53f21af8365c30f262fbd65541cc44954e6b47a5",
+        "panoramic/data/poly_haven_studio_jpg.rf.2LybOUqvNDnYLoV437zM.jpg": "a15a3ebbec188698b28cd68c82f075fd1662292eb235cd5a2c6882459697bc46",
+        "panoramic/data/reading_room_jpg.rf.Vzk9dQzg6KwEDRQUhAMH.jpg": "014ad153be7583baa7fa71a028a12abdfbd4b0dd8ba85bc5a2a153cc94281a9b",
+        "panoramic/data/relax_inn_seaview_suite_jpg.rf.G103ugytXsfkbFgpYnkc.jpg": "76f903a83d9f0bccf577d9fb5dff4756d5fc06be0c67834bb3718748eea6abcc",
+        "panoramic/data/sundowner_deck_jpg.rf.JSvP6xCmL3jg9Nr4VcXh.jpg": "42dae411bde246bb597d1290ca10a16f0a22a57f56d6add900ccbb6c1c0d8329",
+        "panoramic/data/warm_restaurant_night_jpg.rf.967XKocF8vrhilENvPqW.jpg": "883abd18c837c2583b4b86c1c7c52cf5a03b6f1b01971e5bdca3ec2ab55802a8"
+      }
+    }
+  }
+}

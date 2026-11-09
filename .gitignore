@@ -4,6 +4,7 @@ models_comparison/venv
 .reproduced/
 __pycache__/
 *.pyc
+.~lock.*#
 
 # Generated intermediate work is kept out of the scientific/source delivery.
 /development/runs/

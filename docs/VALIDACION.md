@@ -17,7 +17,7 @@ sustituto del trabajo de compilación/cálculo.
 | Pruebas del nuevo verificador | **3 correctas**: cambios de conteo, filas/texto, tolerancia y protección de salidas |
 | Regeneración completa | **27 tablas CSV** coinciden, incluyendo estructura, textos y valores |
 | Evidencia de brillo | **Dos JSON** coinciden con la referencia |
-| Gráficos y ejemplos | Se generaron 33 láminas de escenas y 198 superposiciones, además de figuras de métricas |
+| Gráficos y ejemplos | Se generan 33 láminas de escenas y diez superposiciones de ejemplo, además de figuras de métricas; cantidad confirmada en la revisión del 9 de noviembre |
 | Inferencia Android nueva | Instrumentación correcta; **198 arrays de predicciones idénticos** al archivo original |
 | Resumen Android nuevo | Mismos valores excluyendo las columnas de tiempo |
 | Modelos históricos | Seis binarios exactos recuperados de Git; doce evaluaciones terminadas, con 16 discrepancias de 60 valores publicados |
@@ -103,3 +103,46 @@ versión pública solo para probar el procedimiento de publicación.
 
 El [registro completo](../development/validation/readme-e2e-20261105.json) separa
 éxitos, recuperaciones, archivos históricos y límites de la comprobación.
+
+## Verificación de recorridos del 9 de noviembre de 2026
+
+Se inventariaron **17 README/LEEME** de ambos repositorios: trece vigentes y cuatro
+archivos históricos o de procedencia. Pasaron **292 enlaces locales y 33 URL
+externas**. Los recorridos ejecutados usaron copias independientes de `main`,
+entornos Python 3.12 nuevos y salidas nuevas; se reutilizaron descargas de
+dependencias, SDK y objetos Git para un clon disociado sin dependencias del
+repositorio original.
+
+| Recorrido | Resultado observado |
+|---|---|
+| Análisis principal con `--overlays` | 570 sumas conservadas antes y después, 22 pruebas numéricas y tres del ejecutor correctas; 27 CSV/dos JSON coincidentes |
+| Imágenes de diagnóstico | Diez superposiciones de ejemplo y 33 láminas que reúnen las 198 fotos; se corrigió la cantidad de superposiciones anunciada en la guía |
+| Comparación histórica | Seis modelos recuperados y doce evaluaciones completas; siete/nueve diferencias, como en la ejecución anterior; salida 1 esperada y explicada en HISTORICO.md |
+| Inferencia opcional de escritorio | 198 fotos procesadas y métricas calculadas en una salida separada |
+| APK desde `AssistiveVision/main` | Compilación limpia, 34 pruebas JVM, lint con cero errores y 30 advertencias, 362 activos y APK verificados |
+| APK público `v1.0.0` | Descarga sin autenticación, SHA-256, instalación, permisos, capturas y voz local en español/inglés comprobados |
+| Ajustes y controles | Persisten los cinco ajustes tras cierre completo; funcionan vista previa oculta, pantalla completa y tecla de cámara simulada |
+| Instrumentación de voz/fotogramas | Cinco pruebas correctas en modo avión |
+| Inferencia Android histórica | 198/198 arrays idénticos y resumen sin tiempos coincidente; fuentes y modelo iguales a la referencia |
+| Paneles del informe | Regeneración desde sus fuentes verificadas; ambos PNG coinciden byte por byte |
+| Visor opcional de oclusión | Generación correcta de la página con 889 registros; guardado/exportación/restauración conservan el código ya comprobado el 5 de noviembre |
+
+La prueba positiva con la escena virtual del emulador usó confianza **0,10** y
+velocidad de voz **2,0**. En esa escena la puntuación del televisor quedó por
+debajo del valor inicial 0,30; el recorrido sin detecciones también se comprobó.
+La tecla de cámara se inyectó con `adb`; no se emparejó un mando físico.
+
+El [informe final](../Documents/Informe_Final_AssistiveVision.docx) conserva el
+SHA-256 del documento de 82 páginas revisado visualmente, sus 91 campos de cita y
+49 referencias Zotero. La Figura 4.2 mantiene el marcador para las fotografías
+que incorporará el autor. El README conduce a este Word como informe final.
+
+El autor informa que la app funciona en su Redmi Note 13. Esta ronda no contó
+con un teléfono conectado: ejecutó Linux x86_64 y emuladores API 37.2 x86_64 con
+páginas de 16 KB. Windows/macOS, la instalación desde el navegador de un teléfono,
+el complemento de Zotero en Word y la comprensión del audio con participantes
+requieren sus propias comprobaciones; no se presentan como pruebas realizadas aquí.
+
+El [registro completo](../development/validation/readme-e2e-20261109.json) y sus
+[comprobantes](../development/validation/readme-e2e-20261109/) conservan comandos,
+resultados, metadatos y límites. Las nuevas mediciones no sustituyen las del estudio.

@@ -10,8 +10,8 @@ analysis code and required numerical tests.
 From the repository root, with the [documented Python environment](../../docs/REPRODUCIR.md#antes-de-empezar):
 
 ```sh
-python scripts/verify_archive.py
-python scripts/reproduce.py --overlays
+.venv/bin/python scripts/verify_archive.py
+.venv/bin/python scripts/reproduce.py --overlays
 ```
 
 New outputs go to `development/runs/saved-results/` and never replace the archived

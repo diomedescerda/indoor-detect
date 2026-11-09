@@ -1,7 +1,7 @@
 # Contribuir y conservar la evidencia
 
 Usar la [guía de reproducción](docs/REPRODUCIR.md) antes de cambiar análisis.
-`python scripts/reproduce.py` escribe en una carpeta nueva sin reemplazar el archivo experimental.
+`.venv/bin/python scripts/reproduce.py` escribe en una carpeta nueva sin reemplazar el archivo experimental.
 
 Para un experimento nuevo, conservar datos, GT, commit de app, hashes del modelo
 y módulos, dispositivo/runtime, configuración, predicciones crudas y comandos.

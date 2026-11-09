@@ -1,0 +1,32 @@
+--------- beginning of main
+11-09 09:47:29.919  3873  3940 I AudioModule: Voice 'tts/vits-piper-es_MX-claude-high-int8' ready in 6035 ms, sampleRate=22050
+11-09 09:48:55.724  3873  3873 D CaptureModule: Main camera 10 (1.0 mm); wide candidates:
+11-09 09:48:55.724  3873  3873 D CaptureModule: Opening camera 10 (focal=1.0 mm)
+11-09 09:48:56.346  3873  3873 D CaptureModule: Preview session configured
+11-09 09:49:26.993  3873  3873 D CaptureModule: Preview session configured
+11-09 09:50:54.929  6147  6147 D CaptureModule: Main camera 10 (1.0 mm); wide candidates:
+11-09 09:50:54.929  6147  6147 D CaptureModule: Opening camera 10 (focal=1.0 mm)
+11-09 09:50:55.468  6147  6147 D CaptureModule: Preview session configured
+11-09 09:51:00.950  6147  6210 I AudioModule: Voice 'tts/vits-piper-es_MX-claude-high-int8' ready in 6164 ms, sampleRate=22050
+11-09 09:51:09.816  6147  6147 D CaptureModule: Preview session configured
+11-09 09:52:09.729  6147  6147 D CaptureModule: Preview session configured
+11-09 09:55:59.469  6147  6147 D CaptureModule: Main camera 10 (1.0 mm); wide candidates:
+11-09 09:55:59.469  6147  6147 D CaptureModule: Opening camera 10 (focal=1.0 mm)
+11-09 09:55:59.492  6147  6147 D CaptureModule: Preview session configured
+11-09 09:56:22.869  6147  6147 D CaptureModule: Preview session configured
+11-09 09:56:28.626  6147  6210 I AudioModule: Voice 'tts/vits-piper-en_US-amy-low-int8' ready in 4838 ms, sampleRate=16000
+11-09 09:56:31.406  6147  6210 I AudioModule: Generated 28672 samples in 2773 ms
+11-09 09:57:51.321 10137 10137 D CaptureModule: Main camera 10 (1.0 mm); wide candidates:
+11-09 09:57:51.321 10137 10137 D CaptureModule: Opening camera 10 (focal=1.0 mm)
+11-09 09:57:51.916 10137 10137 D CaptureModule: Preview session configured
+11-09 09:57:53.978 10137 10189 I AudioModule: Voice 'tts/vits-piper-es_MX-claude-high-int8' ready in 2790 ms, sampleRate=22050
+11-09 09:58:59.123 10137 10137 D CaptureModule: Preview session configured
+11-09 09:59:01.815 10137 10189 I AudioModule: Voice 'tts/vits-piper-en_US-amy-low-int8' ready in 1919 ms, sampleRate=16000
+11-09 09:59:04.247 10137 10189 I AudioModule: Generated 28160 samples in 2420 ms
+11-09 10:01:05.607 10137 10137 D CaptureModule: Main camera 10 (1.0 mm); wide candidates:
+11-09 10:01:05.607 10137 10137 D CaptureModule: Opening camera 10 (focal=1.0 mm)
+11-09 10:01:05.629 10137 10137 D CaptureModule: Preview session configured
+11-09 10:01:50.073 10137 10137 D CaptureModule: Preview session configured
+11-09 10:01:56.156 10137 10189 I AudioModule: Voice 'tts/vits-piper-es_MX-claude-high-int8' ready in 5053 ms, sampleRate=22050
+11-09 10:02:02.750 10137 10189 I AudioModule: Generated 83968 samples in 6582 ms
+11-09 10:02:26.321 12817 12854 I AudioModule: Voice 'tts/vits-piper-es_MX-claude-high-int8' ready in 4758 ms, sampleRate=22050

@@ -1,0 +1,50 @@
+{
+  "teacher_attachment_sha256": "ebaa66e659149158d497d3a690b63f98e26c7dcf76e6871cbe95ce5093abf434",
+  "red_paragraphs": [
+    {
+      "source_paragraph": 409,
+      "instruction": "Agregar aquí una pequeña descripción de los resultados en la tabla, interpretación o cita las tablas en la siguiente sección"
+    },
+    {
+      "source_paragraph": 511,
+      "instruction": "Agregar aquí una pequeña descripción de los resultados en la tabla, interpretación o cita las tablas en la siguiente sección"
+    },
+    {
+      "source_paragraph": 567,
+      "instruction": "Qué paso con las imágenes del arnés de cabeza y pecho, el palo de selfie?"
+    },
+    {
+      "source_paragraph": 681,
+      "instruction": "Cómo se adapta esta interfaz para personas invidentes?"
+    },
+    {
+      "source_paragraph": 784,
+      "instruction": "Sería bueno colocar imágenes de los aparatos utilizados en el desarrollo del trabajo no de Mercado libre"
+    },
+    {
+      "source_paragraph": 1240,
+      "instruction": "Podrías describir como ejemplo el audio emitido por el prototipo frente a una escena. Hay un saludo?, o el prototipo solo lista los objetos? "
+    },
+    {
+      "source_paragraph": 1245,
+      "instruction": "Parráfo introductorio: en este trabajo se desarrollo un prototipo de un sistemas para …El desarrollo del proyecto se hizo por objetivos:"
+    },
+    {
+      "source_paragraph": 1256,
+      "instruction": "Mencionar el conocimiento obtenido al comparar las arquitecturas y justificar la selección de EfficientDet-Lite2."
+    },
+    {
+      "source_paragraph": 1257,
+      "instruction": "Mencionar los principales hallazgos de la evaluación experimental, especialmente las diferencias entre cobertura visual y desempeño del detector."
+    },
+    {
+      "source_paragraph": 1258,
+      "instruction": "Las dificultades encontradas y limitaciones"
+    },
+    {
+      "source_paragraph": 1259,
+      "instruction": "Dar una conclusión sobre la utilidad del prototipo para el propósito o aplicación para el cual fue diseñado."
+    }
+  ],
+  "additional_black_instruction": "Sería bueno en esta sección de conclusiones:"
+}

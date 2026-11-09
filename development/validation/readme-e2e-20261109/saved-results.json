@@ -1,0 +1,176 @@
+{
+  "status": "passed",
+  "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+  "csv_tables": {
+    "android/depth/depth_bands.csv": {
+      "rows": 84,
+      "sha256": "b85d212b58a29dae86e74868c042e433f10e087d4a3e3ad818340da601c50247",
+      "archived_sha256": "b85d212b58a29dae86e74868c042e433f10e087d4a3e3ad818340da601c50247"
+    },
+    "android/depth/exif_lens_mismatches.csv": {
+      "rows": 7,
+      "sha256": "5ace61769a06f35f22cfa8a26b8976272f2aa0cc632d67f0b366a6c0841a1ea1",
+      "archived_sha256": "5ace61769a06f35f22cfa8a26b8976272f2aa0cc632d67f0b366a6c0841a1ea1"
+    },
+    "android/depth/false_prediction_distances.csv": {
+      "rows": 212,
+      "sha256": "30c2baad0f6cb09cbafc45f0660702276988671861cc280b650c73c657954f56",
+      "archived_sha256": "30c2baad0f6cb09cbafc45f0660702276988671861cc280b650c73c657954f56"
+    },
+    "android/depth/instance_distances.csv": {
+      "rows": 1778,
+      "sha256": "035256f2c57ebb520aa62e632e3b8e2c80027d5f680f1ab35de82cd685234f78",
+      "archived_sha256": "035256f2c57ebb520aa62e632e3b8e2c80027d5f680f1ab35de82cd685234f78"
+    },
+    "android/paired_comparisons.csv": {
+      "rows": 30,
+      "sha256": "815cd902fdeaec242817347727addf1d66e750e46c263e2a2562cf7970bee44b",
+      "archived_sha256": "815cd902fdeaec242817347727addf1d66e750e46c263e2a2562cf7970bee44b"
+    },
+    "android/paired_effects.csv": {
+      "rows": 8,
+      "sha256": "ea9bdbe2f464af66b34b43c7aa79bce1cdbfc48cd3ddac983c20dcdfd57d3575",
+      "archived_sha256": "ea9bdbe2f464af66b34b43c7aa79bce1cdbfc48cd3ddac983c20dcdfd57d3575"
+    },
+    "android/per_class.csv": {
+      "rows": 120,
+      "sha256": "0453c26f20513ef37c919bac469b840040e3dd4c49bf040c0b86070c5559d92d",
+      "archived_sha256": "0453c26f20513ef37c919bac469b840040e3dd4c49bf040c0b86070c5559d92d"
+    },
+    "android/per_image.csv": {
+      "rows": 396,
+      "sha256": "dbfcb4737a9e13ab19d8cc90320b6c1cec5f5f86e2c05dc244846b87a1f294a9",
+      "archived_sha256": "dbfcb4737a9e13ab19d8cc90320b6c1cec5f5f86e2c05dc244846b87a1f294a9"
+    },
+    "android/scenario1/mount_stats.csv": {
+      "rows": 6,
+      "sha256": "3a1e709f32ba049eaa39c572b7dd3989153e8b20df5e48260a1b8cab74c0e0ed",
+      "archived_sha256": "3a1e709f32ba049eaa39c572b7dd3989153e8b20df5e48260a1b8cab74c0e0ed"
+    },
+    "android/scenario1/paired_t_tests.csv": {
+      "rows": 11,
+      "sha256": "64dc302bbc4b243ff56451e7a222c995ea622d7a47b3842ce30e93d7fd70b0bb",
+      "archived_sha256": "64dc302bbc4b243ff56451e7a222c995ea622d7a47b3842ce30e93d7fd70b0bb"
+    },
+    "android/scenes/count_summary.csv": {
+      "rows": 12,
+      "sha256": "c251ffe8c48024104520458b6a63fda2d4d30c62fb23289951af3e8a5d8385bd",
+      "archived_sha256": "c251ffe8c48024104520458b6a63fda2d4d30c62fb23289951af3e8a5d8385bd"
+    },
+    "android/scenes/paired_count_differences.csv": {
+      "rows": 40,
+      "sha256": "0c4baccc043dd4165d54779534d6cac26250b45f895dc9d14de0a00da4eefc5a",
+      "archived_sha256": "0c4baccc043dd4165d54779534d6cac26250b45f895dc9d14de0a00da4eefc5a"
+    },
+    "android/scenes/scene_counts.csv": {
+      "rows": 396,
+      "sha256": "dbfcb4737a9e13ab19d8cc90320b6c1cec5f5f86e2c05dc244846b87a1f294a9",
+      "archived_sha256": "dbfcb4737a9e13ab19d8cc90320b6c1cec5f5f86e2c05dc244846b87a1f294a9"
+    },
+    "android/summary.csv": {
+      "rows": 24,
+      "sha256": "1a90c41f3f9e04ba44252dd6f4930c715098433b8b7c5cb2332404193871a2ee",
+      "archived_sha256": "1a90c41f3f9e04ba44252dd6f4930c715098433b8b7c5cb2332404193871a2ee"
+    },
+    "occlusion/by_area.csv": {
+      "rows": 18,
+      "sha256": "79d8756780d2024538a2d34492ede46350ab556a60a153832333669b107a0e91",
+      "archived_sha256": "79d8756780d2024538a2d34492ede46350ab556a60a153832333669b107a0e91"
+    },
+    "occlusion/by_class.csv": {
+      "rows": 60,
+      "sha256": "ddb63268cad42bd8edd939291197fa19b630b97f981f7653fe0a668e107bfbe3",
+      "archived_sha256": "ddb63268cad42bd8edd939291197fa19b630b97f981f7653fe0a668e107bfbe3"
+    },
+    "occlusion/by_class_area.csv": {
+      "rows": 180,
+      "sha256": "4f6fdb0c186062da4aad9afb5c865e916139f3363b879f4712461cb8c70c69b0",
+      "archived_sha256": "4f6fdb0c186062da4aad9afb5c865e916139f3363b879f4712461cb8c70c69b0"
+    },
+    "occlusion/by_configuration.csv": {
+      "rows": 36,
+      "sha256": "4e0d06f8288f194cae8a9d1d6d65b5f163e9d531c3b406813c67af1c48a9f6fd",
+      "archived_sha256": "4e0d06f8288f194cae8a9d1d6d65b5f163e9d531c3b406813c67af1c48a9f6fd"
+    },
+    "occlusion/human_review.csv": {
+      "rows": 889,
+      "sha256": "444e1cd2ad4d5f51cb06e35d63afece032790b451ccaa5c52cc9a86659fd2803",
+      "archived_sha256": "444e1cd2ad4d5f51cb06e35d63afece032790b451ccaa5c52cc9a86659fd2803"
+    },
+    "occlusion/label_confidence.csv": {
+      "rows": 6,
+      "sha256": "c9a6faa7ed933ca3d7c2da85395bb7cb0c5fb75bebc9ca6e67245e947f95dfa9",
+      "archived_sha256": "c9a6faa7ed933ca3d7c2da85395bb7cb0c5fb75bebc9ca6e67245e947f95dfa9"
+    },
+    "occlusion/matching_per_image.csv": {
+      "rows": 396,
+      "sha256": "ae0f9f6b8c8e75310fb737053ea61e20169d8293653087ee70b0c4b9449f35fb",
+      "archived_sha256": "ae0f9f6b8c8e75310fb737053ea61e20169d8293653087ee70b0c4b9449f35fb"
+    },
+    "occlusion/per_instance.csv": {
+      "rows": 1778,
+      "sha256": "d59466c81622c2166607f7144bce9cecc15963000d638258e4132be0acfde233",
+      "archived_sha256": "d59466c81622c2166607f7144bce9cecc15963000d638258e4132be0acfde233"
+    },
+    "occlusion/sensitivity.csv": {
+      "rows": 18,
+      "sha256": "f55b31a1a105125bb8e0a26c449736256b1618a75588f17280c0c1034a1fc927",
+      "archived_sha256": "f55b31a1a105125bb8e0a26c449736256b1618a75588f17280c0c1034a1fc927"
+    },
+    "occlusion/severity.csv": {
+      "rows": 6,
+      "sha256": "9ac4607f6d890dc3d296bb17d037e8e6e4bcb26541eddecba9be216be6562032",
+      "archived_sha256": "9ac4607f6d890dc3d296bb17d037e8e6e4bcb26541eddecba9be216be6562032"
+    },
+    "occlusion/truncation.csv": {
+      "rows": 20,
+      "sha256": "18859fb871ea97758efb4fbef4ddc4c47f770740ef21608720a66cd8707b79ec",
+      "archived_sha256": "18859fb871ea97758efb4fbef4ddc4c47f770740ef21608720a66cd8707b79ec"
+    },
+    "occlusion/uncertainty.csv": {
+      "rows": 2,
+      "sha256": "dfba836b54f4e67a47a8c15a21be5dfdb3d582545c0505299c1947cbcac5a38e",
+      "archived_sha256": "dfba836b54f4e67a47a8c15a21be5dfdb3d582545c0505299c1947cbcac5a38e"
+    },
+    "brightness/brightness_per_image.csv": {
+      "rows": 198,
+      "sha256": "a77701e1d13cfe5f9091de1a36249ff8ff73c06d91d7437f046e9bc6bbc7ee62",
+      "archived_sha256": "a77701e1d13cfe5f9091de1a36249ff8ff73c06d91d7437f046e9bc6bbc7ee62"
+    }
+  },
+  "json_files": {
+    "brightness/summary.json": {
+      "sha256": "c2ffef2e5bb5dfabfd213cfaa688be1ea727d53a3ccd186c3eaf37143bb6d000",
+      "archived_sha256": "c2ffef2e5bb5dfabfd213cfaa688be1ea727d53a3ccd186c3eaf37143bb6d000"
+    },
+    "brightness/image_sha256.json": {
+      "sha256": "dcd16de63d78e6094f31cad6623a40fce1984dc2c4fa5616b87afdd7c4028443",
+      "archived_sha256": "dcd16de63d78e6094f31cad6623a40fce1984dc2c4fa5616b87afdd7c4028443"
+    }
+  },
+  "packages": {
+    "numpy": "2.5.4",
+    "pillow": "12.3.0",
+    "pycocotools": "2.0.11",
+    "matplotlib": "3.11.2"
+  },
+  "inputs": {
+    "Build/Testing/labels.json": "23ee568bc01fd9ea6a6092f650c6974acf93d9c276da98e5aa2a452440720227",
+    "Build/Testing/benchmark/results/android.json": "4b4954608b6190af640354e6bb6580ab452cf9a46464e17cc37bc9478daa0703",
+    "Build/Testing/benchmark/models/efficientdet-lite2-detection-metadata.tflite": "6fd32c84ab1eb0f7e7f3a7a20a20d7df1530daa8378728f7c79571096286bd52",
+    "Build/Testing/occlusion/author_review.json": "2287b87ef65c6acb24848afeea00e0ff96f8ce07425f156bcf89ce56535d2e68",
+    "Build/Testing/occlusion/labels_batch_1.json": "531ff7eb194d7473129371136f3ef39c350f65f03b34eb7158c862702007b7ca",
+    "Build/Testing/occlusion/labels_batch_2.json": "4613d4acd9b87e48e4e7a894509076c0c7966244fd47800018ac9d321bbd5a80",
+    "requirements-analysis.lock.txt": "91d6ad9b363a3fe898c52f000b95101641f9c5634a8c8323b06ab9e87e4cf016"
+  },
+  "numerical_tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-12
+  },
+  "reader_journey": {
+    "commit": "e29ac4c985b78b7877ba4954534bfa0459e00743",
+    "clone": "Remote main with local object cache and --dissociate; independent complete clone, fresh environment, no reused analysis outputs",
+    "overlay_examples": 10,
+    "six_view_scene_sheets": 33
+  }
+}

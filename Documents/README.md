@@ -5,18 +5,26 @@
 El manuscrito principal es [Informe_Final_AssistiveVision.docx](Informe_Final_AssistiveVision.docx).
 Contiene cinco capítulos, conclusiones vinculadas a los objetivos, un único anexo
 de repositorios/reproducción y 49 referencias. La presentación conserva el formato
-institucional e incorpora las figuras de interfaz, escenas y los tres soportes.
+institucional e incorpora las figuras de interfaz, escenas y tipos de soporte.
+La Figura 3.2 presenta los soportes en «Posicionamiento del dispositivo»; la Figura 4.2 tiene
+reservado el espacio para las fotografías de colocación que añadirá el autor.
 
-La [copia más reciente en revisión](Informe_Final_AssistiveVision_Revision_Formato_Zotero.docx)
-conserva el ajuste de cohesión e incorpora capturas reales de la interfaz y seis
-fotografías del conjunto experimental. La Figura 4.2 incorpora las imágenes
-comerciales de los arneses de cabeza y pecho y del palo de selfie con trípode
-identificado por el autor. La terminología de texto, tablas y gráficos está corregida. Los
+El informe final aplica las últimas observaciones de la directora: interpretación de tablas,
+accesibilidad, ejemplo de audio y conclusiones. Conserva las capturas de la interfaz,
+las seis fotografías del conjunto y todos los valores numéricos de las tablas.
+Los modelos de soporte se muestran en la Figura 3.2, con sus fuentes enlazadas.
+La Figura 4.2 reserva el espacio para incorporar posteriormente las imágenes de
+su colocación. Las figuras de regiones, secuencia e interfaz pasan a 3.3, 3.4 y
+3.5, con sus menciones e índice actualizados.
+El [registro de cambios](CAMBIOS_REVISION_FINAL.md) permite revisar el alcance.
+La terminología de texto, tablas y gráficos está corregida. Los
 [orígenes y la regeneración de las imágenes](Figures/README.md) están documentados.
 La revisión vigente aplica la guía institucional de márgenes, encabezados,
 numeración, capítulos en página impar y espaciado. Incluye 91 campos de cita de
 Zotero vinculados a los 49 registros de la colección y una bibliografía APA
-generada por Zotero. [Cómo mantener las referencias](Referencias/README.md).
+generada por Zotero. La consulta autenticada del 9 de noviembre confirmó que los
+49 registros y el HTML APA coinciden con las exportaciones conservadas.
+[Cómo mantener las referencias](Referencias/README.md).
 
 | Contenido | Ubicación |
 |---|---|

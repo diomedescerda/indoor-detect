@@ -1,0 +1,42 @@
+{
+  "apk_release": "v1.0.0",
+  "apk_sha256": "883078e73596d2861029449debd796e366de4388fafe7a838c78fadef52f0820",
+  "emulator": "AssistiveVision_Audit_20261109",
+  "api": 37.2,
+  "abi": "x86_64",
+  "page_size_bytes": 16384,
+  "fresh_install": true,
+  "first_permission_grant_capture_enabled": true,
+  "first_permission_issue_reproduced_this_run": false,
+  "offline": {
+    "airplane_mode": true,
+    "wifi_enabled": false,
+    "mobile_data_enabled": false
+  },
+  "default_capture_empty_result_resolves": true,
+  "live_scene": "Android emulator virtual-scene TV",
+  "positive_live_capture_configuration": {
+    "confidence": 0.1,
+    "speech_rate": 2.0
+  },
+  "english_live_capture": {
+    "detected": "television",
+    "generated_samples": 28672
+  },
+  "spanish_hardware_shutter_capture": {
+    "generated_samples": 83968,
+    "keycode": 27
+  },
+  "preview_hidden_capture": {
+    "success": true,
+    "english_generated_samples": 28160
+  },
+  "five_settings_survive_cold_restart": true,
+  "max_objects_1_and_3_selectable": true,
+  "fullscreen_toggle_and_key_trigger": true,
+  "permission_denial_capture_disabled": true,
+  "physical_bluetooth_radio_tested": false,
+  "physical_Redmi_tested_this_run": false,
+  "physical_Redmi_note_13_user_report": "User confirms it works on their Redmi Note 13; this audit has no connected phone",
+  "perceptual_audio_evaluation": false
+}

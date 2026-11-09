@@ -4,7 +4,7 @@
 
 **[Descargar APK](https://github.com/diomedescerda/AssistiveVision/releases/latest/download/AssistiveVision-1.0-debug.apk)** · [Inicio del repositorio](../../README.md) · [Guía de lectura del proyecto](../../Documents/GUIA_DE_LECTURA.md) · [Mapa de archivos](../../Documents/MAPA_DEL_REPOSITORIO.md)
 
-Esta carpeta conserva las 198 fotografías, las anotaciones, la ejecución Android del 13 de octubre de 2026 y los análisis posteriores. El documento principal para continuar la escritura es el [informe revisado](../../Documents/Informe_Final_AssistiveVision.docx). El reporte previo del benchmark se conserva como material auxiliar en `development/annotation_drafts/Testing/`.
+Esta carpeta conserva las 198 fotografías, las anotaciones, la ejecución Android del 13 de octubre de 2026 y los análisis posteriores. El documento principal es el [informe final](../../Documents/Informe_Final_AssistiveVision.docx). El reporte previo del benchmark se conserva como material auxiliar en `development/annotation_drafts/Testing/`.
 
 ## Diseño del conjunto
 

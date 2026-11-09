@@ -1,6 +1,8 @@
-# Informe revisado de AssistiveVision
+# Mantenimiento del informe final de AssistiveVision
 
-Esta revisión aplica los comentarios de la tutora contenidos en el archivo Word recibido el 5 de noviembre de 2026 y las indicaciones adicionales del autor. El manuscrito histórico y los resultados experimentales permanecen conservados.
+El documento principal es el [informe final](../../../Documents/Informe_Final_AssistiveVision.docx), con las últimas observaciones de la directora recibidas el 9 de noviembre de 2026. La [reconstrucción vigente](#última-revisión-de-la-directora-del-9-de-noviembre) utiliza la base y el constructor conservados. La Figura 4.2 mantiene el espacio para las fotografías que incorporará el autor.
+
+Los apartados siguientes describen versiones anteriores y conservan sus cifras de páginas e índices como registros históricos. Los manuscritos anteriores y los resultados experimentales permanecen archivados.
 
 ## Formato institucional y campos de Zotero
 
@@ -216,3 +218,35 @@ La paginación se verifica después de exportar el Word a PDF con Word o LibreOf
 ```
 
 Volver a renderizar después de actualizar índices. Las páginas PNG y el PDF de comprobación son archivos de revisión interna; el documento editable es el Word enlazado arriba.
+
+## Última revisión de la directora del 9 de noviembre
+
+El informe actual aplica las anotaciones de
+`development/editorial/review/2026-11-09_original_comentado.docx` sobre la base
+retenida `2026-11-09_pre_revision_final.docx`. Los campos Zotero, las cifras y
+las partes del paquete ajenas al cuerpo del documento se conservan.
+`final_2026-11-09/` contiene instrucciones, cambios, consulta autenticada de
+Zotero y validación de las páginas y 76 referencias de página de la revisión vigente.
+
+Para reconstruir esta revisión en una salida de trabajo, ejecutar **después**
+del proceso histórico anterior, usando la base retenida:
+
+```sh
+.venv-editorial/bin/python development/editorial/scripts/final_tutor_review.py \
+  --report-source development/editorial/review/2026-11-09_pre_revision_final.docx \
+  --report-output development/runs/revision-final/Informe_Final_AssistiveVision.docx \
+  --evidence development/runs/revision-final/evidence
+```
+
+Renderizar, actualizar índices con `refresh_tutor_pages.py` y volver a verificar.
+La Figura 3.2 muestra los tres tipos de soporte en «Posicionamiento del
+dispositivo», con una nota de fuente enlazada. Regiones, secuencia e interfaz
+se numeran como 3.3, 3.4 y 3.5. La Figura 4.2 conserva un espacio para las
+fotografías de colocación que incorporará el autor. Completar ese espacio y volver a comprobar
+la paginación antes de radicar.
+
+Las cartas se prepararon desde los formatos oficiales y se guardaron fuera
+del repositorio público. El constructor admite `--templates`, `--letters-output`
+y `--identity-file` para prepararlas conjuntamente. No guardar el número de
+identificación ni el archivo privado de entrada en Git; las cartas requieren
+fecha, revisión y firmas.

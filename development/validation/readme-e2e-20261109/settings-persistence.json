@@ -1,0 +1,8 @@
+{
+  "language": "en",
+  "speech_rate": 2.0,
+  "confidence": 0.1,
+  "max_objects": 1,
+  "show_preview": false,
+  "all_five_values_survive_force_stop_and_cold_start": true
+}

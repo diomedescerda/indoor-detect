@@ -1,0 +1,1758 @@
+{
+  "relative_links": 292,
+  "missing": [],
+  "records": [
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../Documents/GUIA_DE_LECTURA.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../Documents/MAPA_DEL_REPOSITORIO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../Documents/Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "capture_groups.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "data",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "labels.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../development/annotation_drafts/Testing/images.coco.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "annotation_history/roboflow_reviewed.coco.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "annotation_history",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "occlusion/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android/summary.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android/per_image.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android/per_class.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android/paired_comparisons.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android/scenes",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android/scenario1",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android/depth",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/android/overlays",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "occlusion/results",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/results/desktop",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "occlusion/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../docs/REPRODUCIR.md#antes-de-empezar",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../docs/REPRODUCIR.md#3-repetir-la-inferencia-en-android",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../docs/REPRODUCIR.md#4-inferencia-de-escritorio-opcional",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "provenance/android_run_metadata.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "provenance/app_source",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "benchmark/models",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../scripts/verify_archive.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../development/relocations.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../development/annotation_drafts/Testing/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/LEEME.md",
+      "target": "../../docs/NOMBRES_DE_MONTAJES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/README.md",
+      "target": "../../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/README.md",
+      "target": "LEEME.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/README.md",
+      "target": "../../docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/README.md",
+      "target": "../../docs/REPRODUCIR.md#antes-de-empezar",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/README.md",
+      "target": "../../development/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/README.md",
+      "target": "../../Documents/Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/Testing/occlusion/README.md",
+      "target": "../../../docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "../../Documents/Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "results/desktop.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "results/android.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "benchmark_models.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "benchmark_models_android.sh",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "../Testing/LEEME.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "../../docs/HISTORICO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "../../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Build/models_comparison/README.md",
+      "target": "../../Documents/GUIA_DE_LECTURA.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "CONTRIBUTING.md",
+      "target": "docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "CONTRIBUTING.md",
+      "target": "Documents/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Figures/README.md",
+      "target": "fuentes_fotograficas.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Figures/README.md",
+      "target": "../../development/editorial/revision/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Figures/README.md",
+      "target": "../../docs/NOMBRES_DE_MONTAJES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "Propuesta Pasantia de Investigación - Diomedes Cerda.pdf",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../development/editorial/templates/Guia_Institucional_Informe_Final.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/models_comparison/results/desktop.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/models_comparison/results/android.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/provenance/app_source",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/data",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/labels.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/annotation_history/roboflow_reviewed.coco.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/summary.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/scenes/report.txt",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/depth/report.txt",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/depth/depth_bands.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/brightness/summary.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/occlusion/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/occlusion/results/severity.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/provenance/android_run_metadata.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../development/editorial/review/2026-10-14_revision.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/capture_groups.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "Figures/seleccion_metricas.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/scenario1/boxplot_mount.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/scenario1/boxplot_configuration.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/depth/depth_recall.png",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/scenes/sheets",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../Build/Testing/benchmark/results/android/overlays",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/GUIA_DE_LECTURA.md",
+      "target": "../docs/NOMBRES_DE_MONTAJES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/data/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/labels.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/capture_groups.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/benchmark/results/android.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/benchmark/results/android/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/benchmark/results/brightness/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/benchmark/models/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/provenance/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../Build/Testing/occlusion/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../scripts/reproduce.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../scripts/run_android_benchmark.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../scripts/verify_archive.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../scripts/analyze_brightness.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../docs/HISTORICO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "target": "../development/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "../docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "MAPA_DEL_REPOSITORIO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "CAMBIOS_REVISION_FINAL.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "Figures/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "Referencias/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "Figures/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "Referencias/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "Slides/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "Propuesta%20Pasantia%20de%20Investigación%20-%20Diomedes%20Cerda.pdf",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "GUIA_DE_LECTURA.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "../development/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "../development/editorial/revision/Cambios_tutor_AssistiveVision.html",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/README.md",
+      "target": "../development/editorial/revision/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Referencias/README.md",
+      "target": "../Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Referencias/README.md",
+      "target": "../../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Referencias/README.md",
+      "target": "Bibliografia_APA_Zotero.html",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Referencias/README.md",
+      "target": "biblioteca_sincronizada.csl.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Referencias/README.md",
+      "target": "referencias_assistivevision.csl.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Referencias/README.md",
+      "target": "referencias_assistivevision.ris",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "Documents/Referencias/README.md",
+      "target": "../../development/editorial/revision/Zotero/actualizacion_formato_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "docs/DATOS_Y_RESULTADOS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Documents/Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "docs/VALIDACION.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Documents/GUIA_DE_LECTURA.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Documents/MAPA_DEL_REPOSITORIO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "docs/REPRODUCIR.md#antes-de-empezar",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": ".github/workflows/reproduce.yml",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "docs/DATOS_Y_RESULTADOS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "scripts/run_android_benchmark.py",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "docs/HISTORICO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "development/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Build/Testing/data",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Build/Testing/labels.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Build/Testing/capture_groups.csv",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Build/Testing/benchmark/results/android.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Build/Testing/benchmark/results/android",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Build/Testing/provenance",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Build/Testing/occlusion",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "Documents/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "scripts",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "CONTRIBUTING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "README.md",
+      "target": "docs/NOMBRES_DE_MONTAJES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/README.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/README.md",
+      "target": "../Documents/Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/README.md",
+      "target": "annotation_drafts/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/README.md",
+      "target": "editorial/revision/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/annotation_drafts/README.md",
+      "target": "../../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/annotation_drafts/README.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/annotation_drafts/README.md",
+      "target": "../../Build/Testing/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/annotation_drafts/README.md",
+      "target": "../../docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/annotation_drafts/README.md",
+      "target": "../../Build/Testing/occlusion/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "#última-revisión-de-la-directora-del-9-de-noviembre",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Informe_Final_AssistiveVision_Revision_Formato_Zotero.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Referencias/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "validacion_formato_zotero_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Informe_Final_AssistiveVision_Revision_Soportes.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../review/2026-11-06_pre_soportes_publicado.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "validacion_soportes_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../docs/NOMBRES_DE_MONTAJES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Informe_Final_AssistiveVision_Revision_Arneses.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "validacion_arneses_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Informe_Final_AssistiveVision_Revision_Imagenes.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Figures/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "validacion_imagenes_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Informe_Final_AssistiveVision_Revision_Cohesion.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "cambios_cohesion_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "validacion_cohesion_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Informe_Final_AssistiveVision_Revision_Acotada.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "Restauraciones_2026-11-06.html",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "alcance_revision_acotada_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "validacion_acotada_2026-11-06.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../review/2026-11-06_pre_soportes_publicado.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "Cambios_tutor_AssistiveVision.html",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "validacion_revision.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "referencias_apa.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "comentarios_tutora.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/MAPA_DEL_REPOSITORIO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../docs/HISTORICO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../docs/REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../docs/REPRODUCIR.md#3-repetir-la-inferencia-en-android",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../docs/VALIDACION.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../Documents/Figures/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "development/editorial/revision/README.md",
+      "target": "../../../docs/REPRODUCIR.md#antes-de-empezar",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/DATOS_Y_RESULTADOS.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/DATOS_Y_RESULTADOS.md",
+      "target": "REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/DATOS_Y_RESULTADOS.md",
+      "target": "NOMBRES_DE_MONTAJES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/HISTORICO.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/HISTORICO.md",
+      "target": "REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/HISTORICO.md",
+      "target": "historical-models.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/HISTORICO.md",
+      "target": "REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/HISTORICO.md",
+      "target": "../development/validation/historical-replay.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/NOMBRES_DE_MONTAJES.md",
+      "target": "../Documents/Figures/fuentes_fotograficas.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/REPRODUCIR.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/REPRODUCIR.md",
+      "target": "DATOS_Y_RESULTADOS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/REPRODUCIR.md",
+      "target": "VALIDACION.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/REPRODUCIR.md",
+      "target": "../Build/Testing/provenance/android_run_metadata.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/REPRODUCIR.md",
+      "target": "HISTORICO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/REPRODUCIR.md",
+      "target": "../Documents/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/REPRODUCIR.md",
+      "target": "NOMBRES_DE_MONTAJES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "REPRODUCIR.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "DATOS_Y_RESULTADOS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/saved-results.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/android-comparison.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/android-instrumentation.log",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/android-replay-20261105.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/historical-replay.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/reorganization.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/reorganization-results.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "HISTORICO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/readme-e2e-20261105.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../Documents/Informe_Final_AssistiveVision.docx",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/readme-e2e-20261109.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "indoor-detect",
+      "document": "docs/VALIDACION.md",
+      "target": "../development/validation/readme-e2e-20261109/",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "CONTRIBUTING.md",
+      "target": "docs/REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "CONTRIBUTING.md",
+      "target": "docs/RELEASES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "CONTRIBUTING.md",
+      "target": "docs/BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/USO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/VALIDATION.md#reader-workflows-rechecked-on-9-november-2026",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/USO.md#instalar-la-aplicación",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/ARCHITECTURE.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/assets.sha256.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/THIRD_PARTY.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/RELEASES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/USO.md#primera-captura",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "development/README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/REQUIREMENTS.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/ARCHITECTURE.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/VALIDATION.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "CONTRIBUTING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "LICENSE",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "README.md",
+      "target": "docs/THIRD_PARTY.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "development/README.md",
+      "target": "../docs/REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "development/README.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "development/README.md",
+      "target": "../docs/RELEASES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/ARCHITECTURE.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/ARCHITECTURE.md",
+      "target": "BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/ARCHITECTURE.md",
+      "target": "VALIDATION.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/ARCHITECTURE.md",
+      "target": "RELEASES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/BENCHMARK.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/BENCHMARK.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/BENCHMARK.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/EVALUATION_PLAN.md",
+      "target": "BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/RELEASES.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/RELEASES.md",
+      "target": "RELEASE_NOTES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/RELEASES.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/REPRODUCING.md",
+      "target": "BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/REPRODUCING.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/REPRODUCING.md",
+      "target": "USO.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/REPRODUCING.md",
+      "target": "BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/REPRODUCING.md",
+      "target": "RELEASES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/REPRODUCING.md",
+      "target": "BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/REQUIREMENTS.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/REQUIREMENTS.md",
+      "target": "VALIDATION.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/THIRD_PARTY.md",
+      "target": "../LICENSE",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/THIRD_PARTY.md",
+      "target": "../app/src/main/assets/tts/vits-piper-es_MX-claude-high-int8/MODEL_CARD",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/THIRD_PARTY.md",
+      "target": "../app/src/main/assets/tts/vits-piper-en_US-amy-low-int8/MODEL_CARD",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/THIRD_PARTY.md",
+      "target": "assets.sha256.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/USO.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/USO.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/USO.md",
+      "target": "BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/USO.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../README.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "REPRODUCING.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "BENCHMARK.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/build-checks.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/clean-build.log",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/apk-signature.txt",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/offline-instrumentation.log",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/main-integration.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/main-integration-build.log",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/ci-sdk-fix.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "RELEASES.md",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/readme-e2e-20261105.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "USO.md#primera-captura",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/readme-e2e-20261109.json",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/readme-e2e-20261109/app-build.log",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/readme-e2e-20261109/offline-instrumentation.log",
+      "exists_and_anchor_valid": true
+    },
+    {
+      "repository": "AssistiveVision",
+      "document": "docs/VALIDATION.md",
+      "target": "../development/validation/readme-e2e-20261109/public-app-logcat.txt",
+      "exists_and_anchor_valid": true
+    }
+  ]
+}

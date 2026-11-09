@@ -1,0 +1,96 @@
+{
+  "source_sha256": "6e5865631f61e90989b96aa2f46c2bba0e2d2dea8166ba7fabeec360d8ef4dfb",
+  "output_sha256": "353676450050fea504f3e1ae771c4836b9d65ad50010cd29baf559423ef85778",
+  "changes": [
+    {
+      "request": "Interpretar las tablas de resultados del capítulo 2",
+      "before": "",
+      "after": "Las Tablas 2.1 y 2.2 permiten distinguir el desempeño agregado de las diferencias por clase. EfficientDet-Lite2 obtuvo la mayor mAP50 (0,648), mientras que YOLOv8s alcanzó la mayor mAP50-95 (0,514) y F1 (0,702). EfficientDet-Lite2 destacó en persona, sofá y cama, pero YOLOv8s obtuvo mejores resultados en mesa de comedor y computador portátil. Por tanto, la ventaja agregada de un detector no implica que sea el mejor en todas las categorías; esta comparación se complementa con su costo de ejecución en Android."
+    },
+    {
+      "request": "Interpretar las tablas de resultados del capítulo 2",
+      "before": "",
+      "after": "Las Tablas 2.3 y 2.4 muestran que el delegado GPU no redujo la latencia de ninguno de los modelos probados. En EfficientDet-Lite2, el promedio pasó de 124,9 ms en CPU a 357,9 ms con GPU; en YOLOv8s Float32 pasó de 620,8 a 743,8 ms. El menor tiempo en CPU correspondió a SSD MobileNetV1 (23,4 ms), aunque sus métricas de detección fueron inferiores en la Tabla 2.1. Estos resultados motivan el análisis conjunto de exactitud, latencia y memoria de la sección 2.7 y la selección final de la sección 2.8."
+    },
+    {
+      "request": "Relacionar el posicionamiento con las imágenes de los soportes",
+      "before": "Se compararon arnés de cabeza, arnés de pecho y palo de selfie extensible con patas plegables de trípode. Este soporte permite al usuario orientar libremente el celular y elegir qué parte de la escena explorar. En las capturas de este estudio se apuntó la cámara hacia los objetos de interés. Las capturas de evaluación son verticales y combinan dos campos visuales nominales, 1x y 0,5x. La altura y la inclinación no se registraron como mediciones experimentales, por lo que no se prescribe un ángulo o una altura óptima. El capítulo 4 compara su cobertura y detecciones a partir de los grupos de fotografías disponibles. El campo visual de la cámara es la extensión angular de la escena registrada; depende de la óptica, el sensor y el recorte y no equivale al campo visual fisiológico del usuario. Las etiquetas 1x y 0,5x no son ángulos calibrados ni permiten afirmar que el campo angular se duplica. En las tablas y figuras se abrevia como «palo de selfie».",
+      "after": "Se compararon arnés de cabeza, arnés de pecho y palo de selfie extensible con patas plegables de trípode. Este soporte permite al usuario orientar libremente el celular y elegir qué parte de la escena explorar. En las capturas de este estudio se apuntó la cámara hacia los objetos de interés. Las capturas de evaluación son verticales y combinan dos campos visuales nominales, 1x y 0,5x. La altura y la inclinación no se registraron como mediciones experimentales, por lo que no se prescribe un ángulo o una altura óptima. El capítulo 4 compara su cobertura y detecciones a partir de los grupos de fotografías disponibles. El campo visual de la cámara es la extensión angular de la escena registrada; depende de la óptica, el sensor y el recorte y no equivale al campo visual fisiológico del usuario. Las etiquetas 1x y 0,5x no son ángulos calibrados ni permiten afirmar que el campo angular se duplica. En las tablas y figuras se abrevia como «palo de selfie». La Figura 3.2 presenta los tres tipos de soporte utilizados; la Figura 4.2 ilustra su colocación para la captura."
+    },
+    {
+      "request": "Explicar la adaptación de la interfaz",
+      "before": "",
+      "after": "La interacción para personas ciegas se apoya en la salida de voz y en los mecanismos de accesibilidad de Android. Los controles Capturar y Ajustes son enfocables y exponen el rol de botón al lector de pantalla TalkBack; los iconos decorativos se excluyen de su recorrido, y los controles de volver y de pantalla completa tienen descripciones de contenido. El estado textual se configura como una región de actualización cortés para que el lector de pantalla pueda anunciar sus cambios. Así, la información esencial de la captura no depende exclusivamente de las cajas y etiquetas dibujadas sobre la vista previa."
+    },
+    {
+      "request": "Describir positivamente los recursos de accesibilidad y su evaluación posterior",
+      "before": "",
+      "after": "Además del control táctil, una tecla física compatible o un disparador Bluetooth puede solicitar la captura desde la pantalla de cámara. La descripción sintetizada comunica los objetos seleccionados y su región relativa, mientras que los ajustes permiten cambiar idioma, velocidad de voz y número máximo de objetos. La interacción se apoya así en la voz, los controles identificables y la captura física. Como continuación del trabajo se propone evaluar la usabilidad con personas ciegas y el recorrido completo de la interfaz con TalkBack."
+    },
+    {
+      "request": "Dar un ejemplo del audio e indicar si existe saludo",
+      "before": "",
+      "after": "El anuncio describe la escena mediante una oración y no incluye un saludo inicial. Por ejemplo, si se seleccionan una silla en la región inferior izquierda y un televisor en la superior derecha, SpeechFormatter construye: «Hay una silla abajo a la izquierda de donde estás apuntando y un televisor arriba a la derecha de donde estás apuntando». Este ejemplo ilustra la composición prevista por el código, no una nueva observación experimental. Las regiones se refieren al encuadre de la cámara y el mensaje no expresa una distancia física. Cuando no hay detecciones seleccionadas, la implementación muestra el estado «sin detecciones» y libera la captura; no genera una descripción de objetos. Las pruebas técnicas de formato y síntesis no miden por sí solas la comprensión del mensaje por parte de un oyente."
+    },
+    {
+      "request": "Introducir las conclusiones y conectarlas con los objetivos",
+      "before": "",
+      "after": "En este trabajo se desarrolló un prototipo móvil para identificar objetos de entornos interiores y comunicar su ubicación relativa mediante voz, como apoyo a la percepción del entorno de personas con discapacidad visual. El desarrollo se organizó alrededor de la selección del detector, la integración del sistema Android y su evaluación técnica. Los hallazgos de estas etapas permiten valorar los objetivos y precisar el alcance de la solución."
+    },
+    {
+      "request": "Explicitar el conocimiento obtenido al comparar arquitecturas",
+      "before": "El primer objetivo se atendió con la selección de EfficientDet-Lite2 en CPU. La comparación de seis configuraciones mostró un compromiso entre mAP50, recall, latencia y memoria: el modelo obtuvo 0,648, 0,677, 124,9 ms y 65,8 MB, respectivamente. La latencia fue decisiva por su contribución a la espera previa al mensaje de voz; frente a YOLOv8s Float32 se aceptó una mAP50-95 inferior a cambio de reducir el tiempo de inferencia a aproximadamente una quinta parte. La selección corresponde al conjunto y al teléfono evaluados y no establece una superioridad universal.",
+      "after": "El primer objetivo se atendió con la selección de EfficientDet-Lite2 en CPU. La comparación de seis configuraciones mostró un compromiso entre mAP50, recall, latencia y memoria: el modelo obtuvo 0,648, 0,677, 124,9 ms y 65,8 MB, respectivamente. La latencia fue decisiva por su contribución a la espera previa al mensaje de voz; frente a YOLOv8s Float32 se aceptó una mAP50-95 inferior a cambio de reducir el tiempo de inferencia a aproximadamente una quinta parte. La selección corresponde al conjunto y al teléfono evaluados y no establece una superioridad universal. La comparación mostró que la arquitectura debe elegirse según el uso previsto: YOLOv8s ajustó mejor las cajas en umbrales exigentes, SSD MobileNetV1 procesó más rápido pero recuperó menos objetos y EfficientDet-Lite2 ofreció el compromiso seleccionado entre recuperación, tiempo y memoria. Reducir la espera antes del anuncio auditivo justificó priorizar este último equilibrio."
+    },
+    {
+      "request": "Distinguir cobertura visual y desempeño del detector en las conclusiones",
+      "before": "A partir de esta integración, para el tercer objetivo la evaluación de captura completó 198 fotografías, 889 anotaciones revisadas y 33 grupos pareados (G01–G33, en 30 recintos físicos). El palo de selfie 0,5x produjo 82 detecciones correctas y recuperó al menos un objeto en 29 grupos; el arnés de pecho 1x obtuvo la mayor F1, de 61,9 %. Bajo la orientación hacia los objetos utilizada en estas capturas, la elección por número de detecciones correctas favorece provisionalmente el palo de selfie 0,5x, mientras la elección por equilibrio precisión-recall favorece pecho 1x. Las comparaciones no establecen un ganador universal y deben confirmarse en escenas nuevas.",
+      "after": "A partir de esta integración, para el tercer objetivo la evaluación de captura completó 198 fotografías, 889 anotaciones revisadas y 33 grupos pareados (G01–G33, en 30 recintos físicos). El palo de selfie 0,5x produjo 82 detecciones correctas y recuperó al menos un objeto en 29 grupos; el arnés de pecho 1x obtuvo la mayor F1, de 61,9 %. Bajo la orientación hacia los objetos utilizada en estas capturas, la elección por número de detecciones correctas favorece provisionalmente el palo de selfie 0,5x, mientras la elección por equilibrio precisión-recall favorece pecho 1x. Las comparaciones no establecen un ganador universal y deben confirmarse en escenas nuevas. La diferencia entre cobertura visual y desempeño del detector es decisiva para interpretar esa elección: el palo de selfie 0,5x incluyó 174 instancias y recuperó 82, mientras pecho 1x incluyó 124 y recuperó 65. El primero aportó más detecciones en términos absolutos; el segundo recuperó una mayor proporción de lo visible y obtuvo mayor F1. Un objeto fuera del encuadre reduce la información adquirida, pero no constituye un falso negativo del detector."
+    },
+    {
+      "request": "Delimitar la conclusión sobre la retroalimentación auditiva",
+      "before": "Los conteos por grupo mostraron una ventaja del palo de selfie 0,5x frente a pecho 1x de 17 detecciones (0,515 por grupo; IC bootstrap del 95 % de 0,121 a 0,939). Frente a pecho 0,5x, el intervalo incluyó cero. Al agrupar lentes, la diferencia palo de selfie-pecho no fue significativa en la prueba t corregida (p = 0,113). En la evaluación de la retroalimentación auditiva, limitar el anuncio a hasta dos objetos por captura elevó la precisión de las selecciones enviadas a voz hasta 90,7 % en el palo de selfie 0,5x (88,1 % en pecho 1x), lo que junto con las 14 pruebas unitarias de formato y catálogo bilingüe y las cinco pruebas instrumentadas de síntesis sherpa-onnx en modo avión confirma la claridad informativa, sintáctica y operativa de los mensajes generados.",
+      "after": "Los conteos por grupo mostraron una ventaja del palo de selfie 0,5x frente a pecho 1x de 17 detecciones (0,515 por grupo; IC bootstrap del 95 % de 0,121 a 0,939). Frente a pecho 0,5x, el intervalo incluyó cero. Al agrupar lentes, la diferencia palo de selfie-pecho no fue significativa en la prueba t corregida (p = 0,113). En la evaluación de la retroalimentación auditiva, limitar el anuncio a hasta dos objetos por captura elevó la precisión de las selecciones enviadas a voz hasta 90,7 % en el palo de selfie 0,5x (88,1 % en pecho 1x), lo que junto con las 14 pruebas unitarias de formato y catálogo bilingüe y las cinco pruebas instrumentadas de síntesis sherpa-onnx en modo avión respalda la selección del contenido, la construcción de las frases y la ejecución local de la voz, sin medir su inteligibilidad con participantes."
+    },
+    {
+      "request": "Reunir las dificultades y limitaciones principales",
+      "before": "",
+      "after": "Las principales dificultades fueron la variación de encuadre entre montajes, las discrepancias entre algunas etiquetas de lente y los metadatos, y la separación entre las mediciones históricas del teléfono y la reproducción en emulador. A ello se añaden la distancia estimada sin calibración, las etiquetas de oclusión parcialmente asistidas por IA y la ausencia de una evaluación de comprensión con usuarios. Estas limitaciones impiden atribuir los cambios únicamente al soporte, fijar un alcance físico o extrapolar los tiempos y la utilidad a cualquier dispositivo o entorno."
+    },
+    {
+      "request": "Concluir sobre la utilidad del prototipo dentro de la evidencia disponible",
+      "before": "",
+      "after": "Para el propósito de asistencia planteado, el prototipo demuestra la viabilidad técnica de transformar una captura solicitada por el usuario en información verbal sobre objetos y regiones del encuadre, sin conexión a internet. Esa función puede servir como apoyo puntual para explorar lo que hay frente a la cámara. Su utilidad práctica para personas con discapacidad visual debe confirmarse mediante pruebas de comprensión y uso en condiciones reales; los resultados actuales no demuestran una mejora de autonomía ni validan una ayuda de navegación segura."
+    },
+    {
+      "request": "Distinguir las imágenes de los soportes de su colocación",
+      "before": "La Figura 4.2 ilustra los tres soportes utilizados.",
+      "after": "La Figura 4.2 ilustra la colocación de los tres soportes para la captura; sus tipos se presentan en la Figura 3.2."
+    },
+    {
+      "request": "Mostrar los soportes en Posicionamiento del dispositivo y actualizar las figuras del capítulo 3",
+      "before": "Imágenes de referencia en la Figura 4.2",
+      "after": "Nueva Figura 3.2 con tres paneles; regiones 3.3, secuencia 3.4 e interfaz 3.5; pies, menciones e índice actualizados"
+    },
+    {
+      "request": "Usar un pie breve que identifique la ilustración",
+      "before": "Figura 4.2. Montajes usados para orientar la cámara.",
+      "after": "Figura 4.2. Ilustración de la colocación de los soportes."
+    },
+    {
+      "request": "Reservar la Figura 4.2 para mostrar la colocación de los soportes",
+      "before": "Tres fotografías comerciales",
+      "after": "Espacio reservado para las imágenes de colocación que se incorporarán posteriormente"
+    },
+    {
+      "request": "Revisar la presentación de las tablas",
+      "before": "Encabezados largos divididos dentro de palabras",
+      "after": "Ajuste puntual de cuatro encabezados; Lat. promedio se abrevia como Lat. media"
+    },
+    {
+      "request": "Comprobar la integridad de marcadores",
+      "before": "2 cierres sin inicio heredados de la base",
+      "after": "Se eliminan los cierres huérfanos sin modificar texto ni destinos de navegación"
+    }
+  ]
+}

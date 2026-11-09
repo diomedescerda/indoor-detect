@@ -33,7 +33,12 @@ las fotografías y capturas antes de componer las dos figuras.
 
 ## Soportes
 
-Los paneles (a) y (b) de la Figura 4.2 muestran el **Soporte de cabeza + accesorio para celular** y el
+En la revisión del 9 de noviembre, la Figura 3.2 presenta los tres tipos de
+soporte en «Posicionamiento del dispositivo». La Figura 4.2 reserva el espacio
+para las fotografías de colocación que incorporará el autor. Las figuras de
+regiones, secuencia e interfaz pasan a 3.3, 3.4 y 3.5, respectivamente.
+
+En la Figura 3.2, los paneles (a) y (b) muestran el **Soporte de cabeza + accesorio para celular** y el
 **Arnés Pecho Innovo+ para GoPro y celulares**, identificados mediante las dos
 capturas de las publicaciones facilitadas por el autor. Los originales están
 en `sources/harnesses/`; el registro de fuentes conserva título, enlace,
@@ -42,14 +47,14 @@ identificador, hash y rectángulo de recorte en píxeles.
 El constructor Word inserta ambas capturas completas y aplica un recorte nativo
 de Word para mostrar solo la fotografía comercial, sin precios ni controles de
 la tienda. No retoca ni reconstruye el producto. Los paneles (a) y (b) usan fondo
-blanco y rótulos negros. El pie enlaza las publicaciones y aclara que son
-ilustraciones comerciales, no fotografías del montaje experimental. El teléfono
+blanco y rótulos negros. Una nota de fuente breve enlaza las fichas de los
+soportes. El teléfono
 y la cámara que aparecen en las publicaciones también son ilustrativos.
 El panel (c) muestra un **palo de selfie extensible con trípode, de diseño L01**,
 identificado por el autor entre las opciones visuales. El original comercial
 está en `sources/mounts/palo_selfie_L01_referencia.jpg`; el constructor conserva
 sus bytes y aplica un recorte nativo de Word que muestra el soporte abierto.
-El pie enlaza eMAG y lo presenta como referencia de diseño, sin atribuir una
+La nota enlaza la ficha y lo presenta como referencia de diseño, sin atribuir una
 marca exacta ni afirmar cómo se usaron las patas o el mando en el experimento.
 
 Los gráficos `montajes_cajas.png`, `configuraciones_cajas.png`,
@@ -59,6 +64,7 @@ rótulos usan «Palo de selfie». Para regenerarlos, usar el entorno de análisi
 `requirements-analysis.lock.txt`, descrito en `docs/REPRODUCIR.md`. La [correspondencia de nombres](../../docs/NOMBRES_DE_MONTAJES.md)
 explica las claves conservadas en el archivo original.
 
-La reproducción de esta figura se realiza al ejecutar
-`development/editorial/scripts/revise_tutor_feedback.py`, según la guía
+La base con estas imágenes se construye mediante
+`development/editorial/scripts/revise_tutor_feedback.py`. La revisión vigente
+las sitúa en la Figura 3.2 mediante `final_tutor_review.py`, según la guía
 editorial; no necesita acceder a las páginas comerciales.

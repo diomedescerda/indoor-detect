@@ -83,7 +83,8 @@ El ejecutor:
    simbólicos, copia temporalmente las imágenes.
 4. Regenera métricas COCO, precisión/recall/F1, comparaciones bootstrap, escenas,
    montajes, distancia estimada, oclusión y brillo digital. `--overlays` añade
-   las 198 superposiciones; las 33 láminas de escenas se generan siempre.
+   diez superposiciones de ejemplo para inspeccionar cajas; las 33 láminas de
+   escenas incluyen las 198 fotografías y se generan siempre.
 5. Compara **27 tablas CSV completas**, incluyendo encabezados, textos, orden y
    valores. La tolerancia flotante es relativa `1e-10` o absoluta `1e-12`.
    También compara los dos JSON del análisis de brillo.
@@ -102,7 +103,7 @@ development/runs/saved-results/
 │   ├── scenes/                # conteos, intervalos y 33 láminas
 │   ├── scenario1/             # distribuciones por montaje/configuración
 │   ├── depth/                 # estimaciones geométricas y discrepancias EXIF
-│   └── overlays/              # 198 imágenes si se usa --overlays
+│   └── overlays/              # 10 ejemplos si se usa --overlays
 ├── occlusion/                 # recall, revisión humana y estratos
 └── brightness/                # brillo por imagen y tiempos guardados
 ```
@@ -225,7 +226,7 @@ escritorio con un runtime fijado y declarado. No requiere descargar nuevos model
 no pretende recuperar las mediciones de latencia de un teléfono Redmi diferente.
 
 Los constructores Word de `development/editorial/scripts/` son herramientas editoriales,
-no requisitos para verificar resultados. El informe revisado incluye cambios
+no requisitos para verificar resultados. El informe final incluye cambios
 manuales: no ejecutar un constructor anterior sobre esa copia. La
 [guía documental](../Documents/README.md) explica las versiones.
 

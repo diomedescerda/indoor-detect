@@ -1,0 +1,394 @@
+{
+  "pages": 82,
+  "body_physical_page": 11,
+  "prelim": {
+    "Resumen": "IV",
+    "Abstract": "V",
+    "Contenido": "VI",
+    "Lista de figuras": "VIII",
+    "Lista de tablas": "IX",
+    "Lista de símbolos": "X"
+  },
+  "entries": {
+    "tutor_nav_1": {
+      "text": "Introducción",
+      "physical_page": 11,
+      "label": "1"
+    },
+    "tutor_nav_2": {
+      "text": "1. Marco de referencia: detección de objetos para la asistencia visual",
+      "physical_page": 15,
+      "label": "5"
+    },
+    "tutor_nav_3": {
+      "text": "1.1 Detección de objetos y métricas de evaluación",
+      "physical_page": 15,
+      "label": "5"
+    },
+    "tutor_nav_4": {
+      "text": "Tabla 1.1. Notación y unidades de lectura.",
+      "physical_page": 18,
+      "label": "8"
+    },
+    "tutor_nav_5": {
+      "text": "1.2 Trabajos relacionados: sistemas de asistencia visual",
+      "physical_page": 18,
+      "label": "8"
+    },
+    "tutor_nav_6": {
+      "text": "1.3 Arquitecturas de detección: one-stage y two-stage",
+      "physical_page": 20,
+      "label": "10"
+    },
+    "tutor_nav_7": {
+      "text": "1.4 Modelos ligeros y eficiencia para dispositivos móviles",
+      "physical_page": 21,
+      "label": "11"
+    },
+    "tutor_nav_8": {
+      "text": "1.5 Cuantización de modelos: Float32 y Float16",
+      "physical_page": 22,
+      "label": "12"
+    },
+    "tutor_nav_9": {
+      "text": "2. Selección experimental del modelo de detección",
+      "physical_page": 25,
+      "label": "15"
+    },
+    "tutor_nav_10": {
+      "text": "2.1 Metodología",
+      "physical_page": 25,
+      "label": "15"
+    },
+    "tutor_nav_11": {
+      "text": "2.2 Criterios de selección para la evaluación comparativa",
+      "physical_page": 26,
+      "label": "16"
+    },
+    "tutor_nav_12": {
+      "text": "2.3 Modelos candidatos",
+      "physical_page": 26,
+      "label": "16"
+    },
+    "tutor_nav_13": {
+      "text": "2.4 Entorno experimental",
+      "physical_page": 27,
+      "label": "17"
+    },
+    "tutor_nav_14": {
+      "text": "2.5 Metodología de evaluación",
+      "physical_page": 28,
+      "label": "18"
+    },
+    "tutor_nav_15": {
+      "text": "2.6 Resultados",
+      "physical_page": 29,
+      "label": "19"
+    },
+    "tutor_nav_16": {
+      "text": "Tabla 2.1. Resultados de evaluación en equipo de escritorio.",
+      "physical_page": 30,
+      "label": "20"
+    },
+    "tutor_nav_17": {
+      "text": "Tabla 2.2. Desglose de AP50 por clase para cada modelo.",
+      "physical_page": 30,
+      "label": "20"
+    },
+    "tutor_nav_18": {
+      "text": "Tabla 2.3. Resultados de benchmark en Android utilizando CPU.",
+      "physical_page": 31,
+      "label": "21"
+    },
+    "tutor_nav_19": {
+      "text": "Tabla 2.4. Resultados de benchmark en Android utilizando GPU Delegate.",
+      "physical_page": 31,
+      "label": "21"
+    },
+    "tutor_nav_20": {
+      "text": "2.7 Análisis de resultados",
+      "physical_page": 32,
+      "label": "22"
+    },
+    "tutor_nav_21": {
+      "text": "2.8 Selección del modelo final",
+      "physical_page": 34,
+      "label": "24"
+    },
+    "tutor_nav_22": {
+      "text": "Tabla 2.5. Comparación de candidatos finales.",
+      "physical_page": 34,
+      "label": "24"
+    },
+    "tutor_nav_23": {
+      "text": "3. Diseño e implementación del prototipo AssistiveVision",
+      "physical_page": 35,
+      "label": "25"
+    },
+    "tutor_nav_24": {
+      "text": "3.1 Arquitectura general del sistema",
+      "physical_page": 35,
+      "label": "25"
+    },
+    "tutor_nav_25": {
+      "text": "Figura 3.1. Flujo de procesamiento de la implementación actual.",
+      "physical_page": 35,
+      "label": "25"
+    },
+    "tutor_nav_26": {
+      "text": "3.2 Posicionamiento del dispositivo",
+      "physical_page": 36,
+      "label": "26"
+    },
+    "tutor_nav_mounts": {
+      "text": "Figura 3.2. Tipos de soporte utilizados para posicionar el dispositivo.",
+      "physical_page": 36,
+      "label": "26"
+    },
+    "tutor_nav_27": {
+      "text": "3.3 Módulo de captura",
+      "physical_page": 36,
+      "label": "26"
+    },
+    "tutor_nav_28": {
+      "text": "3.4 Módulo de preprocesamiento",
+      "physical_page": 37,
+      "label": "27"
+    },
+    "tutor_nav_29": {
+      "text": "3.5 Módulo de detección",
+      "physical_page": 37,
+      "label": "27"
+    },
+    "tutor_nav_30": {
+      "text": "Tabla 3.1. Clases de objetos prioritarias anunciadas por el sistema.",
+      "physical_page": 38,
+      "label": "28"
+    },
+    "tutor_nav_31": {
+      "text": "3.6 Módulo de localización espacial",
+      "physical_page": 38,
+      "label": "28"
+    },
+    "tutor_nav_32": {
+      "text": "Tabla 3.2. Zonas de localización espacial y descriptores asociados.",
+      "physical_page": 39,
+      "label": "29"
+    },
+    "tutor_nav_33": {
+      "text": "Figura 3.3. Regiones de la imagen para la localización relativa.",
+      "physical_page": 39,
+      "label": "29"
+    },
+    "tutor_nav_34": {
+      "text": "3.7 Módulo de filtrado y priorización",
+      "physical_page": 39,
+      "label": "29"
+    },
+    "tutor_nav_35": {
+      "text": "3.8 Módulo de audio y descriptores de voz",
+      "physical_page": 40,
+      "label": "30"
+    },
+    "tutor_nav_36": {
+      "text": "3.9 Modos de operación",
+      "physical_page": 40,
+      "label": "30"
+    },
+    "tutor_nav_37": {
+      "text": "3.10 Configuración del sistema",
+      "physical_page": 41,
+      "label": "31"
+    },
+    "tutor_nav_38": {
+      "text": "Tabla 3.3. Parámetros configurables del sistema.",
+      "physical_page": 41,
+      "label": "31"
+    },
+    "tutor_nav_39": {
+      "text": "3.11 Interfaz de usuario",
+      "physical_page": 41,
+      "label": "31"
+    },
+    "tutor_nav_40": {
+      "text": "Figura 3.4. Secuencia de interacción manual y liberación de la captura.",
+      "physical_page": 42,
+      "label": "32"
+    },
+    "tutor_nav_41": {
+      "text": "Figura 3.5. Pantallas de captura y configuración de AssistiveVision.",
+      "physical_page": 43,
+      "label": "33"
+    },
+    "tutor_nav_42": {
+      "text": "3.12 Verificación y rendimiento del prototipo",
+      "physical_page": 44,
+      "label": "34"
+    },
+    "tutor_nav_43": {
+      "text": "3.13 Requerimientos y criterios de verificación",
+      "physical_page": 45,
+      "label": "35"
+    },
+    "tutor_nav_44": {
+      "text": "Tabla 3.4. Requerimientos operativos y evidencia de verificación.",
+      "physical_page": 45,
+      "label": "35"
+    },
+    "tutor_nav_45": {
+      "text": "4. Evaluación técnica del sistema y de las condiciones de captura",
+      "physical_page": 47,
+      "label": "37"
+    },
+    "tutor_nav_46": {
+      "text": "4.1 Diseño y protocolo de evaluación",
+      "physical_page": 47,
+      "label": "37"
+    },
+    "tutor_nav_47": {
+      "text": "Tabla 4.1. Tipologías observables y ejemplos de grupos.",
+      "physical_page": 48,
+      "label": "38"
+    },
+    "tutor_nav_48": {
+      "text": "Figura 4.1. Ejemplos de espacios y condiciones de captura.",
+      "physical_page": 49,
+      "label": "39"
+    },
+    "tutor_nav_49": {
+      "text": "Tabla 4.2. Orden y tamaño de las configuraciones de captura.",
+      "physical_page": 50,
+      "label": "40"
+    },
+    "tutor_nav_50": {
+      "text": "Figura 4.2. Ilustración de la colocación de los soportes.",
+      "physical_page": 51,
+      "label": "41"
+    },
+    "tutor_nav_51": {
+      "text": "Tabla 4.3. Diseño y unidades de análisis.",
+      "physical_page": 53,
+      "label": "43"
+    },
+    "tutor_nav_52": {
+      "text": "4.2 Comparación de posiciones de montaje",
+      "physical_page": 53,
+      "label": "43"
+    },
+    "tutor_nav_53": {
+      "text": "Tabla 4.4. Resultados agrupados por montaje.",
+      "physical_page": 53,
+      "label": "43"
+    },
+    "tutor_nav_54": {
+      "text": "Tabla 4.5. Pruebas t pareadas por montaje.",
+      "physical_page": 54,
+      "label": "44"
+    },
+    "tutor_nav_55": {
+      "text": "Figura 4.3. Objetos correctos por fotografía y montaje.",
+      "physical_page": 55,
+      "label": "45"
+    },
+    "tutor_nav_56": {
+      "text": "4.3 Comparación de montaje y lente",
+      "physical_page": 56,
+      "label": "46"
+    },
+    "tutor_nav_57": {
+      "text": "Tabla 4.6. Resultados por configuración.",
+      "physical_page": 56,
+      "label": "46"
+    },
+    "tutor_nav_58": {
+      "text": "Tabla 4.7. Comparación de conteos con el palo de selfie 0,5x.",
+      "physical_page": 57,
+      "label": "47"
+    },
+    "tutor_nav_59": {
+      "text": "Figura 4.4. Objetos correctos por fotografía en las seis configuraciones.",
+      "physical_page": 57,
+      "label": "47"
+    },
+    "tutor_nav_60": {
+      "text": "4.4 Detección por bandas de distancia estimada",
+      "physical_page": 58,
+      "label": "48"
+    },
+    "tutor_nav_61": {
+      "text": "Tabla 4.8. Recall por banda de distancia estimada.",
+      "physical_page": 59,
+      "label": "49"
+    },
+    "tutor_nav_62": {
+      "text": "Figura 4.5. Recall por distancia estimada e intervalo bootstrap del 95 %.",
+      "physical_page": 59,
+      "label": "49"
+    },
+    "tutor_nav_63": {
+      "text": "4.5 Desempeño por clase y selección para la salida de voz",
+      "physical_page": 60,
+      "label": "50"
+    },
+    "tutor_nav_64": {
+      "text": "Tabla 4.9. Resultados por clase en el conjunto completo.",
+      "physical_page": 61,
+      "label": "51"
+    },
+    "tutor_nav_65": {
+      "text": "Figura 4.6. Precisión, recall y F1 del detector y de la lista de hasta dos objetos.",
+      "physical_page": 62,
+      "label": "52"
+    },
+    "tutor_nav_66": {
+      "text": "4.6 Consideraciones de validez",
+      "physical_page": 63,
+      "label": "53"
+    },
+    "tutor_nav_67": {
+      "text": "4.7 Distribución del tiempo de procesamiento",
+      "physical_page": 65,
+      "label": "55"
+    },
+    "tutor_nav_68": {
+      "text": "Tabla 4.10. Distribución de tiempos de reproducción en emulador en milisegundos.",
+      "physical_page": 65,
+      "label": "55"
+    },
+    "tutor_nav_69": {
+      "text": "4.8 Brillo digital y oclusión observada",
+      "physical_page": 65,
+      "label": "55"
+    },
+    "tutor_nav_70": {
+      "text": "Tabla 4.11. Detección agrupada por brillo digital de las fotografías.",
+      "physical_page": 66,
+      "label": "56"
+    },
+    "tutor_nav_71": {
+      "text": "Tabla 4.12. Recall por nivel de oclusión con etiquetas asistidas por IA.",
+      "physical_page": 67,
+      "label": "57"
+    },
+    "tutor_nav_72": {
+      "text": "4.9 Evaluación de la retroalimentación auditiva",
+      "physical_page": 68,
+      "label": "58"
+    },
+    "tutor_nav_73": {
+      "text": "5. Conclusiones ",
+      "physical_page": 71,
+      "label": "61"
+    },
+    "tutor_nav_74": {
+      "text": "Anexo A. Repositorio y reproducción de los experimentos",
+      "physical_page": 75,
+      "label": "65"
+    },
+    "tutor_nav_81": {
+      "text": "Referencias",
+      "physical_page": 77,
+      "label": "67"
+    }
+  }
+}
