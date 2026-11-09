@@ -132,10 +132,9 @@ velocidad de voz **2,0**. En esa escena la puntuación del televisor quedó por
 debajo del valor inicial 0,30; el recorrido sin detecciones también se comprobó.
 La tecla de cámara se inyectó con `adb`; no se emparejó un mando físico.
 
-El [informe final](../Documents/Informe_Final_AssistiveVision.docx) conserva el
-SHA-256 del documento de 82 páginas revisado visualmente, sus 91 campos de cita y
-49 referencias Zotero. La Figura 4.2 mantiene el marcador para las fotografías
-que incorporará el autor. El README conduce a este Word como informe final.
+El [informe final](../Documents/Informe_Final_AssistiveVision.docx) conserva las
+82 páginas revisadas visualmente, sus 91 campos de cita, 49 referencias Zotero y
+las fotografías de colocación en la Figura 4.2. El README conduce a este Word como informe final.
 
 El autor informa que la app funciona en su Redmi Note 13. Esta ronda no contó
 con un teléfono conectado: ejecutó Linux x86_64 y emuladores API 37.2 x86_64 con

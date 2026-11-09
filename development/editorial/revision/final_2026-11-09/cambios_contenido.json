@@ -1,6 +1,6 @@
 {
   "source_sha256": "6e5865631f61e90989b96aa2f46c2bba0e2d2dea8166ba7fabeec360d8ef4dfb",
-  "output_sha256": "353676450050fea504f3e1ae771c4836b9d65ad50010cd29baf559423ef85778",
+  "output_sha256": "fa8b8acc517fdfe77a1c07cfa010c713e0996bcfee99e864903d769a56896c53",
   "changes": [
     {
       "request": "Interpretar las tablas de resultados del capítulo 2",
@@ -78,9 +78,9 @@
       "after": "Figura 4.2. Ilustración de la colocación de los soportes."
     },
     {
-      "request": "Reservar la Figura 4.2 para mostrar la colocación de los soportes",
+      "request": "Incorporar fotografías de la colocación de los soportes en la Figura 4.2",
       "before": "Tres fotografías comerciales",
-      "after": "Espacio reservado para las imágenes de colocación que se incorporarán posteriormente"
+      "after": "Tres fotografías del autor mostrando la colocación en cabeza, pecho y palo de selfie"
     },
     {
       "request": "Revisar la presentación de las tablas",

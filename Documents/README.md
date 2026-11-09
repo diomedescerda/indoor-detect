@@ -2,19 +2,19 @@
 
 [Inicio](../README.md) · [Reproducir resultados](../docs/REPRODUCIR.md) · [Mapa](MAPA_DEL_REPOSITORIO.md)
 
-El manuscrito principal es [Informe_Final_AssistiveVision.docx](Informe_Final_AssistiveVision.docx).
+El informe final principal es **[Informe Final Pasantía de Investigación - Diomedes Cerda.pdf](Informe%20Final%20Pasant%C3%ADa%20de%20Investigaci%C3%B3n%20-%20Diomedes%20Cerda.pdf)** (junto con el manuscrito editable [Informe_Final_AssistiveVision.docx](Informe_Final_AssistiveVision.docx)).
 Contiene cinco capítulos, conclusiones vinculadas a los objetivos, un único anexo
 de repositorios/reproducción y 49 referencias. La presentación conserva el formato
 institucional e incorpora las figuras de interfaz, escenas y tipos de soporte.
-La Figura 3.2 presenta los soportes en «Posicionamiento del dispositivo»; la Figura 4.2 tiene
-reservado el espacio para las fotografías de colocación que añadirá el autor.
+La Figura 3.2 presenta los soportes en «Posicionamiento del dispositivo»; la Figura 4.2
+muestra las fotografías de su colocación para la captura.
 
 El informe final aplica las últimas observaciones de la directora: interpretación de tablas,
 accesibilidad, ejemplo de audio y conclusiones. Conserva las capturas de la interfaz,
 las seis fotografías del conjunto y todos los valores numéricos de las tablas.
 Los modelos de soporte se muestran en la Figura 3.2, con sus fuentes enlazadas.
-La Figura 4.2 reserva el espacio para incorporar posteriormente las imágenes de
-su colocación. Las figuras de regiones, secuencia e interfaz pasan a 3.3, 3.4 y
+La Figura 4.2 incorpora las fotografías del autor con la colocación en cabeza,
+pecho y palo de selfie. Las figuras de regiones, secuencia e interfaz pasan a 3.3, 3.4 y
 3.5, con sus menciones e índice actualizados.
 El [registro de cambios](CAMBIOS_REVISION_FINAL.md) permite revisar el alcance.
 La terminología de texto, tablas y gráficos está corregida. Los
@@ -28,7 +28,8 @@ generada por Zotero. La consulta autenticada del 9 de noviembre confirmó que lo
 
 | Contenido | Ubicación |
 |---|---|
-| Informe final editable | [Informe_Final_AssistiveVision.docx](Informe_Final_AssistiveVision.docx) |
+| Informe final (PDF) | [Informe Final Pasantía de Investigación - Diomedes Cerda.pdf](Informe%20Final%20Pasant%C3%ADa%20de%20Investigaci%C3%B3n%20-%20Diomedes%20Cerda.pdf) |
+| Informe final editable (Word) | [Informe_Final_AssistiveVision.docx](Informe_Final_AssistiveVision.docx) |
 | Figuras del informe | [Figures/](Figures/) |
 | Referencias exportadas de Zotero | [Referencias/](Referencias/) |
 | Presentaciones finales | [Slides/](Slides/) |

@@ -14,7 +14,7 @@ cuya rama principal es **`main`**.
 | Compilar la app desde cero | [Código y compilación reproducible](https://github.com/diomedescerda/AssistiveVision/blob/main/docs/REPRODUCING.md) |
 | Reproducir las tablas y figuras | [Guía de reproducción](docs/REPRODUCIR.md) y comandos de abajo |
 | Entender los datos y resultados | [Datos, métricas y alcance](docs/DATOS_Y_RESULTADOS.md) |
-| Leer el informe final | **[Informe final en Word](Documents/Informe_Final_AssistiveVision.docx)** |
+| Leer el informe final | **[Informe final (PDF)](Documents/Informe%20Final%20Pasant%C3%ADa%20de%20Investigaci%C3%B3n%20-%20Diomedes%20Cerda.pdf)** |
 | Revisar qué se comprobó | [Registro de validación](docs/VALIDACION.md) |
 | Localizar antecedentes y archivos | [Guía de lectura](Documents/GUIA_DE_LECTURA.md) · [Mapa del repositorio](Documents/MAPA_DEL_REPOSITORIO.md) |
 

@@ -147,27 +147,38 @@ def report(source,output,evidence):
         for n in p.xpath('.//w:t',namespaces=NS):
             if n.text and n.text.startswith('Figura 4.2. Montajes usados para orientar la cámara.'):
                 n.text=n.text.replace('Figura 4.2. Montajes usados para orientar la cámara.','Figura 4.2. Ilustración de la colocación de los soportes.')
-    images=cap.getnext();assert len(images.xpath('.//w:drawing',namespaces=NS))==3
-    for n in list(images):
-        if n.tag!=q('pPr'):images.remove(n)
-    replace(images,'[Insertar imágenes de la colocación de los tres soportes]')
-    pr=images.find(q('pPr'))
-    if pr is None:pr=E.Element(q('pPr'));images.insert(0,pr)
-    child(pr,'jc',val='center');child(pr,'spacing',before=1200,after=1200,line=240,lineRule='auto');child(pr,'keepNext')
+    images=cap.getnext();drawings=images.xpath('.//w:drawing',namespaces=NS);assert len(drawings)==3
+    rels=E.fromstring(parts['word/_rels/document.xml.rels'])
+    REL='http://schemas.openxmlformats.org/package/2006/relationships'
+    placement_specs=[
+        ('rIdReportImage6','media/report_colocacion_cabeza.jpeg',ROOT/'Documents/Figures/sources/mounts/colocacion_cabeza.jpeg','Colocación del soporte de cabeza.',1508760,2011680,4005),
+        ('rIdReportImage7','media/report_colocacion_pecho.jpeg',ROOT/'Documents/Figures/sources/mounts/colocacion_pecho.jpeg','Colocación del arnés de pecho.',1508760,2011680,4006),
+        ('rIdReportImage8','media/report_colocacion_palo_selfie.jpeg',ROOT/'Documents/Figures/sources/mounts/colocacion_palo_selfie.jpeg','Colocación del palo de selfie.',1507188,2011680,4007),
+    ]
+    for dnode,(rid,target,img_path,descr,cx,cy,doc_id) in zip(drawings,placement_specs):
+        parts['word/'+target]=img_path.read_bytes()
+        rel=E.SubElement(rels,'{'+REL+'}Relationship')
+        rel.set('Id',rid);rel.set('Type',R+'/image');rel.set('Target',target)
+        for ext in dnode.xpath('.//*[local-name()="extent" or (local-name()="ext" and @cx)]'):
+            ext.set('cx',str(cx));ext.set('cy',str(cy))
+        docPr=dnode.xpath('.//*[local-name()="docPr"]')[0]
+        docPr.set('id',str(doc_id));docPr.set('name',Path(target).name);docPr.set('descr',descr)
+        cNvPr=dnode.xpath('.//*[local-name()="cNvPr"]')[0]
+        cNvPr.set('name',Path(target).name)
+        blip=dnode.xpath('.//*[local-name()="blip"]')[0]
+        blip.set('{'+R+'}embed',rid)
+        for sr in dnode.xpath('.//*[local-name()="srcRect"]'):sr.getparent().remove(sr)
+    parts['word/_rels/document.xml.rels']=xml(rels)
     labels=images.getnext();assert text(labels).startswith('(a) Cabeza')
-    replace(labels,'\t(a) Cabeza\t(b) Pecho\t(c) Palo de selfie')
-    lp=child(labels,'pPr');child(lp,'jc',val='left');tabs=child(lp,'tabs')
-    for n in list(tabs):tabs.remove(n)
-    for pos in [1460,4380,7300]:E.SubElement(tabs,q('tab'),{q('val'):'center',q('pos'):str(pos)})
-    for n in labels.xpath('.//w:t',namespaces=NS):
-        if '\t' in (n.text or ''):
-            value=n.text;parent=n.getparent();idx=parent.index(n);parent.remove(n)
-            for j,part in enumerate(value.split('\t')):
-                if j:parent.insert(idx,E.Element(q('tab')));idx+=1
-                t=E.Element(q('t'));t.text=part;parent.insert(idx,t);idx+=1
+    for t in labels.xpath('.//w:t',namespaces=NS):
+        if t.text=='(b) Pecho Innovo+':t.text='(b) Pecho'
     source_note=labels.getnext();assert text(source_note).startswith('Fuente: ilustraciones comerciales')
-    body.remove(source_note)
-    changes.append({'request':'Reservar la Figura 4.2 para mostrar la colocación de los soportes','before':'Tres fotografías comerciales','after':'Espacio reservado para las imágenes de colocación que se incorporarán posteriormente'})
+    for hlink in list(source_note.findall(q('hyperlink'))):source_note.remove(hlink)
+    replace(source_note,'Fuente: fotografías del autor.')
+    child(child(source_note,'pPr'),'spacing',after=200,line=240,lineRule='auto')
+    child(child(source_note,'pPr'),'jc',val='center')
+    for run in source_note.xpath('.//w:r',namespaces=NS):child(child(run,'rPr'),'sz',val=20)
+    changes.append({'request':'Incorporar fotografías de la colocación de los soportes en la Figura 4.2','before':'Tres fotografías comerciales','after':'Tres fotografías del autor mostrando la colocación en cabeza, pecho y palo de selfie'})
     # A few long table headings previously split in the middle of words.
     for caption,cell_indices in [('Tabla 2.2.',[6]),('Tabla 4.5.',[2]),('Tabla 4.8.',[1,2])]:
         table=find(caption).getnext();assert table.tag==q('tbl')
@@ -217,8 +228,16 @@ def report(source,output,evidence):
         for kind,chapter,num in re.findall(r'\b(Figura|Tabla) (\d+)\.(\d+)',text(p)):
             assert f'{kind} {chapter}.{num}' in captions,(kind,chapter,num)
     assert root.xpath('//w:instrText/text()',namespaces=NS)==oldroot.xpath('//w:instrText/text()',namespaces=NS),'Preserve native Zotero fields'
+    pag_file=evidence/'paginacion_verificada.json'
+    if pag_file.exists():
+        mapping=json.loads(pag_file.read_text()).get('entries',{})
+        for field in root.xpath('//w:fldSimple',namespaces=NS):
+            m=re.search(r'PAGEREF\s+(\w+)',field.get(q('instr'),''))
+            if m and m[1] in mapping:
+                texts=field.xpath('.//w:t',namespaces=NS)
+                if len(texts)==1:texts[0].text=mapping[m[1]]['label']
     parts['word/document.xml']=xml(root);save(parts,output)
-    assert all(parts[k]==v for k,v in original.items() if k!='word/document.xml')
+    assert all(parts[k]==v for k,v in original.items() if k not in ('word/document.xml','word/_rels/document.xml.rels'))
     evidence.mkdir(parents=True,exist_ok=True)
     (evidence/'cambios_contenido.json').write_text(json.dumps({'source_sha256':sha(source),'output_sha256':sha(output),'changes':changes},ensure_ascii=False,indent=2)+'\n')
     nav=[]

@@ -1,6 +1,6 @@
 {
   "source_sha256": "6e5865631f61e90989b96aa2f46c2bba0e2d2dea8166ba7fabeec360d8ef4dfb",
-  "output_sha256": "353676450050fea504f3e1ae771c4836b9d65ad50010cd29baf559423ef85778",
+  "output_sha256": "fa8b8acc517fdfe77a1c07cfa010c713e0996bcfee99e864903d769a56896c53",
   "sections": 12,
   "all_22_tables_numerical_values_preserved": true,
   "non_document_package_parts_preserved_byte_for_byte": true,
@@ -16,12 +16,10 @@
   "navigation_links_resolve": true,
   "no_red_reviewer_instructions_or_tracked_changes": true,
   "pages": 82,
-  "pending": [
-    "El autor incorporará sus fotografías de colocación en el marcador de la Figura 4.2."
-  ],
+  "pending": [],
   "desktop_Zotero_refresh_tested": false,
   "word_desktop_layout_tested": false,
-  "review_notes": "Figuras, fuentes, índices y accesibilidad actualizados; la Figura 4.2 reserva espacio para las imágenes posteriores. Las cartas requieren fechas y firmas.",
+  "review_notes": "Figuras 3.2 y 4.2, fuentes, índices y accesibilidad actualizados. Las cartas requieren fechas y firmas.",
   "pagination_refresh_changed_parts": [],
   "visual_review": {
     "final_render": "development/runs/figure-positioning-20261109/report-3",
@@ -113,7 +111,7 @@
     },
     "body_comparison_excludes_top_header_pixels": 160,
     "all_82_final_page_images_identical_to_reviewed_render_2": true,
-    "remaining_figure_slot": "Figura 4.2"
+    "remaining_figure_slot": null
   },
   "letter_review": {
     "delivery": {

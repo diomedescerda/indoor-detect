@@ -1,6 +1,6 @@
 # Mantenimiento del informe final de AssistiveVision
 
-El documento principal es el [informe final](../../../Documents/Informe_Final_AssistiveVision.docx), con las últimas observaciones de la directora recibidas el 9 de noviembre de 2026. La [reconstrucción vigente](#última-revisión-de-la-directora-del-9-de-noviembre) utiliza la base y el constructor conservados. La Figura 4.2 mantiene el espacio para las fotografías que incorporará el autor.
+El documento principal es el [informe final](../../../Documents/Informe_Final_AssistiveVision.docx), con las últimas observaciones de la directora recibidas el 9 de noviembre de 2026. La [reconstrucción vigente](#última-revisión-de-la-directora-del-9-de-noviembre) utiliza la base y el constructor conservados e incorpora las fotografías de colocación en la Figura 4.2.
 
 Los apartados siguientes describen versiones anteriores y conservan sus cifras de páginas e índices como registros históricos. Los manuscritos anteriores y los resultados experimentales permanecen archivados.
 
@@ -241,9 +241,8 @@ del proceso histórico anterior, usando la base retenida:
 Renderizar, actualizar índices con `refresh_tutor_pages.py` y volver a verificar.
 La Figura 3.2 muestra los tres tipos de soporte en «Posicionamiento del
 dispositivo», con una nota de fuente enlazada. Regiones, secuencia e interfaz
-se numeran como 3.3, 3.4 y 3.5. La Figura 4.2 conserva un espacio para las
-fotografías de colocación que incorporará el autor. Completar ese espacio y volver a comprobar
-la paginación antes de radicar.
+se numeran como 3.3, 3.4 y 3.5. La Figura 4.2 incorpora las tres fotografías
+de colocación suministradas por el autor.
 
 Las cartas se prepararon desde los formatos oficiales y se guardaron fuera
 del repositorio público. El constructor admite `--templates`, `--letters-output`

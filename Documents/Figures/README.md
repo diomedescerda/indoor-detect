@@ -34,8 +34,8 @@ las fotografías y capturas antes de componer las dos figuras.
 ## Soportes
 
 En la revisión del 9 de noviembre, la Figura 3.2 presenta los tres tipos de
-soporte en «Posicionamiento del dispositivo». La Figura 4.2 reserva el espacio
-para las fotografías de colocación que incorporará el autor. Las figuras de
+soporte en «Posicionamiento del dispositivo». La Figura 4.2 muestra las tres
+fotografías de colocación en cabeza, pecho y palo de selfie (`sources/mounts/colocacion_*.jpeg`). Las figuras de
 regiones, secuencia e interfaz pasan a 3.3, 3.4 y 3.5, respectivamente.
 
 En la Figura 3.2, los paneles (a) y (b) muestran el **Soporte de cabeza + accesorio para celular** y el

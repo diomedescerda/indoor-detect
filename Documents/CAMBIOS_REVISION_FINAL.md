@@ -9,7 +9,7 @@ ajenos a las observaciones y los valores de las 22 tablas.
 | Observación | Cambio en el informe |
 |---|---|
 | Interpretar las tablas del capítulo 2 | Párrafo posterior a las Tablas 2.1–2.2 que distingue resultados agregados y por clase; párrafo posterior a la Tabla 2.4 que interpreta CPU y GPU y enlaza con las secciones 2.7 y 2.8. |
-| Ubicar las imágenes de los soportes | La nueva Figura 3.2 muestra los tres tipos de soporte en «Posicionamiento del dispositivo», con fuentes enlazadas. La Figura 4.2 se reserva para su colocación. Las figuras posteriores del capítulo 3 pasan a 3.3, 3.4 y 3.5, incluidos sus pies, menciones e índice. |
+| Ubicar las imágenes de los soportes | La nueva Figura 3.2 muestra los tres tipos de soporte en «Posicionamiento del dispositivo», con fuentes enlazadas. La Figura 4.2 muestra las fotografías de su colocación en cabeza, pecho y palo de selfie. Las figuras posteriores del capítulo 3 pasan a 3.3, 3.4 y 3.5, incluidos sus pies, menciones e índice. |
 | Explicar la accesibilidad | Dos párrafos en 3.11 describen los roles y etiquetas para TalkBack, el estado anunciado, la captura física/Bluetooth y la configuración, según el código. La redacción positiva conserva la evaluación con usuarios y TalkBack como continuación del trabajo. |
 | Ejemplificar el audio | En 4.9 se incluye la oración de una silla y un televisor, se explica que no hay saludo y se describe el comportamiento cuando no se seleccionan detecciones. |
 | Introducir las conclusiones | Se añade un párrafo que conecta el propósito del prototipo con los tres objetivos. |
@@ -19,8 +19,8 @@ ajenos a las observaciones y los valores de las 22 tablas.
 | Concluir sobre la utilidad | Se añade un cierre sobre la viabilidad técnica de la descripción verbal bajo demanda y el alcance de la evidencia. |
 | Revisar el formato | Se ajustan encabezados largos de tablas, se actualizan 76 referencias de página y se comprueban marcadores, enlaces, márgenes, secciones y numeración. |
 
-La Figura 4.2 conserva el marcador para las **fotografías de colocación de los
-soportes** que incorporará el autor. Las propuestas generadas se descartaron.
+La Figura 4.2 incorpora las **fotografías de colocación de los
+soportes** suministradas por el autor (`sources/mounts/colocacion_*.jpeg`).
 Los originales comerciales ya
 conservados se muestran en la Figura 3.2 con recortes nativos de Word y sus fuentes.
 No se incorporaron las fotos externas de personas encontradas durante la búsqueda.
@@ -40,6 +40,6 @@ La fecha y las firmas quedan para radicación. La
 solicita adjuntar también la evaluación cualitativa y cuantitativa diligenciada por
 la dirección de la pasantía.
 
-La versión se encuentra corregida en texto y formato. El autor incorporará sus
-fotografías en el marcador de la Figura 4.2.
+La versión se encuentra corregida en texto, figuras y formato, con la Figura 4.2
+completada.
 Los comprobantes se conservan en `development/editorial/revision/final_2026-11-09/`.
