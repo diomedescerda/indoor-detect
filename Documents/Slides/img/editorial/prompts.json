@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "file": "editorial-ink.png",
+      "prompt": "Create a refined abstract editorial background for a premium academic presentation, landscape 16:9. Deep ink navy and charcoal blue, with an extremely delicate large translucent smoke-glass curved form at the far right edge, thin soft diffuse silver-grey and muted sage highlights, smooth velvety tonal depth with fine photographic grain. Restrained luxury print design, minimalist Swiss editorial sensibility. Left 75% is quiet dark ink with very subtle luminous depth, suitable for typography. The right-edge form is abstract and barely perceptible, softly blurred, no sharp graphic motif. Absolutely NO planets, stars, galaxies, space scenery, nebula, sci-fi, neon, bright glowing colours, text, logos, diagrams or UI. This is a subtle photographic texture, not a full slide. Elegant, calm, professional and beautifully understated."
+    }
+  ],
+  "saved_path": "/home/kenma/personal/coding/indoor-detect/Documents/Slides/img/editorial/editorial-ink.png"
+}
