@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "https://www.canva.com/templates/EAGwA__wCY0-beige-and-black-modern-minimalist-thesis-defense-presentation/",
+  "designer": "Nirmana Visual",
+  "prompt": "Edit the supplied Canva presentation cover reference to produce ONLY its clean reusable decorative background, widescreen 16:9 high resolution. Retain the warm light stone/beige background and the extremely subtle pale sage-gray organic cut-paper curved shapes occupying the far right and upper-right edge. Match the reference's understated flat editorial paper aesthetic and low contrast, no photographic scene. Remove ALL text, typography, logos, symbols, asterisk, badges, buttons, fine horizontal rules, dates and any other foreground content. Keep the left 65% completely quiet light warm gray for editable text. The abstract organic motif should be delicate and low contrast at the right edge only. No stars, no planets, no space, no neon, no dark background. This is a presentation background asset, not a complete slide.",
+  "asset": "canva-a-background.png",
+  "saved_path": "/home/kenma/personal/coding/indoor-detect/Documents/Slides/img/canva-a/canva-a-background.png",
+  "method": "PowerPoint editable adaptado a partir de las vistas de referencia elegidas por el usuario"
+}

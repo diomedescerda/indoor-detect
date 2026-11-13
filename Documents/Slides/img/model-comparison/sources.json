@@ -1,0 +1,44 @@
+{
+  "image": "AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg",
+  "original": "Build/models_comparison/test_images/data/AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg",
+  "predictions": "development/runs/historical/normal/predictions.json",
+  "purpose": "Ilustración cualitativa de las seis configuraciones en una misma escena. Visualizaciones guardadas por la reproducción del evaluador histórico. Las métricas publicadas se conservan por separado.",
+  "assets": [
+    {
+      "model": "YOLOv8s_Float32",
+      "path": "Documents/Slides/img/model-comparison/YOLOv8s_Float32.jpg",
+      "source": "development/runs/historical/normal/visualizations/normal/YOLOv8s_Float32/AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg",
+      "sha256": "fbaab05bd29bcf95e65e71e092afda09174b3dec0431c51d88dbefdfceab9217"
+    },
+    {
+      "model": "YOLOv8s_Float16",
+      "path": "Documents/Slides/img/model-comparison/YOLOv8s_Float16.jpg",
+      "source": "development/runs/historical/normal/visualizations/normal/YOLOv8s_Float16/AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg",
+      "sha256": "cc60165499162cb26446a82e13e411f2cace70a8fd0b8bfc65737acaff412ba0"
+    },
+    {
+      "model": "YOLO11n_Float32",
+      "path": "Documents/Slides/img/model-comparison/YOLO11n_Float32.jpg",
+      "source": "development/runs/historical/normal/visualizations/normal/YOLO11n_Float32/AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg",
+      "sha256": "5d1d70eec589cf40929082ce1cd46e23370bebf55b7d6d2ec02e8d19e001055d"
+    },
+    {
+      "model": "YOLO11n_Float16",
+      "path": "Documents/Slides/img/model-comparison/YOLO11n_Float16.jpg",
+      "source": "development/runs/historical/normal/visualizations/normal/YOLO11n_Float16/AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg",
+      "sha256": "5d1d70eec589cf40929082ce1cd46e23370bebf55b7d6d2ec02e8d19e001055d"
+    },
+    {
+      "model": "SSD_MobileNetV1",
+      "path": "Documents/Slides/img/model-comparison/SSD_MobileNetV1.jpg",
+      "source": "development/runs/historical/normal/visualizations/normal/SSD_MobileNetV1/AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg",
+      "sha256": "d0ad5f6c5a7507b0c6900efb4ff1e7889ee0c0b6b99f377417db8983304ae276"
+    },
+    {
+      "model": "EfficientDet_Lite2",
+      "path": "Documents/Slides/img/model-comparison/EfficientDet_Lite2.jpg",
+      "source": "development/runs/historical/normal/visualizations/normal/EfficientDet_Lite2/AC0036_jpg.rf.lx8ufzU1ei4uq3eEf9Ai.jpg",
+      "sha256": "c13b46d10bf558af0f9c0fc949ab5c361d73eb0a6923ee243f7b20598d629fe8"
+    }
+  ]
+}

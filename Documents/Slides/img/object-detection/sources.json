@@ -1,0 +1,9 @@
+{
+  "image": "Documents/Slides/img/object-detection/ejemplo_deteccion.jpg",
+  "source": "development/runs/historical/normal/visualizations/normal/EfficientDet_Lite2/000000036267_jpg.rf.JHHrfhJVaTPaPQM9SEZ1.jpg",
+  "original": "Build/models_comparison/test_images/data/000000036267_jpg.rf.JHHrfhJVaTPaPQM9SEZ1.jpg",
+  "model": "EfficientDet-Lite2",
+  "description": "Salida guardada de la reproducción del evaluador histórico, sin modificar cajas, etiquetas o puntuaciones.",
+  "sha256": "56805bcc99161b9d2df2d645a0df0d6ea4d43782cd82bce3aef2957474444cde",
+  "dataset_license": "CC BY 4.0, según test_images/labels.json"
+}
